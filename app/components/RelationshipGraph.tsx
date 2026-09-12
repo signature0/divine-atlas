@@ -2,7 +2,7 @@
 // RelationshipGraph — custom SVG graph (no external dep):
 // ring layout around a focus entity, typed/colored edges, pan/zoom,
 // category filter chips, focus actions, legend, and a linear text fallback.
-import { useMemo, useRef, useState, useEffect, useCallback } from 'react';
+import { useMemo, useRef, useState, useEffect, useCallback, useId } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
@@ -18,17 +18,39 @@ const CAT_LABELS: Record<EdgeCategory, string> = {
 };
 type Focus = 'all' | 'ancestors' | 'descendants' | 'enemies' | 'myths';
 
-type Node = { id: string; x: number; y: number; name: string; classification: string };
+type Node = { id: string; x: number; y: number; name: string; classification: string; img?: string };
 type Edge = { from: string; to: string; rel: Relationship; cat: EdgeCategory; bidir: boolean };
+
+// Best-image URL per entity (hero first, else first linked artwork with a direct image).
+// Preloaded at build time: SVG <image> can't lazy-load, so nodes without a
+// resolved URL fall back to the plain seal (initials) — never a broken image.
+function entityImageMap(data: CultureData): Record<string, string> {
+  const artById = new Map(data.artworks.map((a) => [a.id, a]));
+  const out: Record<string, string> = {};
+  for (const e of data.entities) {
+    const cands = [e.hero_artwork, ...(e.artworks || [])].filter(Boolean) as string[];
+    for (const aid of cands) {
+      const u = artById.get(aid)?.image_url;
+      if (u) { out[e.id] = u; break; }
+    }
+  }
+  return out;
+}
 
 export function RelationshipGraph({ data, centerId }: { data: CultureData; centerId: string }) {
   const router = useRouter();
+  const clipId = useId().replace(/:/g, '');
   const [cats, setCats] = useState<Set<EdgeCategory>>(new Set(CATS));
   const [focus, setFocus] = useState<Focus>('all');
   const [view, setView] = useState({ x: 0, y: 0, k: 1 });
   const [hover, setHover] = useState<Edge | null>(null);
+  const [imgLoaded, setImgLoaded] = useState<Set<string>>(new Set());
+  const [imgFailed, setImgFailed] = useState<Set<string>>(new Set());
   const svgRef = useRef<SVGSVGElement>(null);
   const drag = useRef<{ sx: number; sy: number; ox: number; oy: number; moved: boolean } | null>(null);
+
+  // entity id -> best image URL (artwork linked to that entity)
+  const imgMap = useMemo(() => entityImageMap(data), [data]);
 
   // ---- subgraph selection ----
   const { nodes, edges } = useMemo(() => {
@@ -94,7 +116,7 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
     for (const [id, d] of depth) (rings[d] ||= []).push(id);
     const CX = 400, CY = 260;
     const nodeMap: Record<string, Node> = {
-      [centerId]: { id: centerId, x: CX, y: CY, name: center.name, classification: center.classification },
+      [centerId]: { id: centerId, x: CX, y: CY, name: center.name, classification: center.classification, img: imgMap[centerId] },
     };
     for (let d = 1; d <= 4; d++) {
       const ring = rings[d] || [];
@@ -103,7 +125,7 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
       ring.forEach((id, i) => {
         const a = (i / ring.length) * Math.PI * 2 - Math.PI / 2;
         const e = data.entities.find((x) => x.id === id)!;
-        nodeMap[id] = { id, x: CX + R * Math.cos(a), y: CY + R * Math.sin(a) * 0.72, name: e.name, classification: e.classification };
+        nodeMap[id] = { id, x: CX + R * Math.cos(a), y: CY + R * Math.sin(a) * 0.72, name: e.name, classification: e.classification, img: imgMap[id] };
       });
     }
     const isSym = (t: string) => ['SIBLING_OF', 'PARTNER_OF', 'ALLY_OF', 'ENEMY_OF', 'FOUGHT', 'ASSOCIATED_WITH'].includes(t);
@@ -111,7 +133,7 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
       .filter((r) => nodeMap[r.from] && nodeMap[r.to] && r.from !== r.to)
       .map((r) => ({ from: r.from, to: r.to, rel: r, cat: categoryOf(r.type), bidir: isSym(r.type) }));
     return { nodes: Object.values(nodeMap), edges: edgeList };
-  }, [data, centerId, cats, focus]);
+  }, [data, centerId, cats, focus, imgMap]);
 
   const byId = useMemo(() => new Map(data.entities.map((e) => [e.id, e])), [data]);
 
@@ -208,25 +230,52 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
                 </g>
               );
             })}
+            {/* clip defs for artwork portraits */}
+            <defs>
+              {nodes.map((n) => (
+                <clipPath key={n.id} id={clipId + n.id}>
+                  <circle cx={n.x} cy={n.y} r={n.id === centerId ? 34 : 26} />
+                </clipPath>
+              ))}
+            </defs>
             {nodes.map((n) => {
               const isCenter = n.id === centerId;
+              const r = isCenter ? 34 : 26;
+              const showImg = !!n.img && !imgFailed.has(n.id);
               return (
                 <g key={n.id}
                   onClick={() => { if (!drag.current?.moved) router.push(`/deity/${n.id}`); }}
                   onMouseEnter={() => (document.body.style.cursor = 'pointer')}
                   onMouseLeave={() => (document.body.style.cursor = 'grab')}
                   style={{ cursor: 'pointer' }}>
-                  <circle cx={n.x} cy={n.y} r={isCenter ? 34 : 26}
+                  <circle cx={n.x} cy={n.y} r={r}
                     fill={isCenter ? 'color-mix(in srgb, var(--accent) 22%, var(--bg-2))' : 'var(--bg-2)'}
                     stroke={isCenter ? 'var(--accent)' : 'var(--line)'} strokeWidth={isCenter ? 2 : 1.2} />
-                  <text x={n.x} y={n.y + (isCenter ? -34 : -34)} textAnchor="middle"
+                  {showImg && (
+                    <image href={n.img} x={n.x - r} y={n.y - r} width={r * 2} height={r * 2}
+                      preserveAspectRatio="xMidYMid slice" clipPath={`url(#${clipId}${n.id})`}
+                      opacity={0.92}
+                      onError={() => setImgFailed((p) => new Set(p).add(n.id))} />
+                  )}
+                  {showImg ? (
+                    <>
+                      <rect x={n.x - 26} y={n.y + r - 14} width={52} height={11} rx={3}
+                        fill="var(--bg-0)" opacity={0.78} />
+                      <text x={n.x} y={n.y + r - 5.5} textAnchor="middle" fill="var(--ink-1)"
+                        style={{ fontFamily: 'var(--font-mono)', fontSize: 6.5, letterSpacing: 0.5 }}>
+                        {n.classification.toUpperCase()}
+                      </text>
+                    </>
+                  ) : (
+                    <text x={n.x} y={n.y + 4} textAnchor="middle" fill="var(--ink-2)"
+                      style={{ fontFamily: 'var(--font-mono)', fontSize: 8, letterSpacing: 0.6 }}>
+                      {n.classification.toUpperCase()}
+                    </text>
+                  )}
+                  <text x={n.x} y={n.y - (isCenter ? 34 : 34)} textAnchor="middle"
                     fill={isCenter ? 'var(--accent)' : 'var(--ink-0)'}
                     style={{ fontFamily: 'var(--font-display)', fontSize: isCenter ? 17 : 13.5, fontWeight: 600 }}>
                     {n.name}
-                  </text>
-                  <text x={n.x} y={n.y + 4} textAnchor="middle" fill="var(--ink-2)"
-                    style={{ fontFamily: 'var(--font-mono)', fontSize: 8, letterSpacing: 0.6 }}>
-                    {n.classification.toUpperCase()}
                   </text>
                 </g>
               );

@@ -190,7 +190,7 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
         {myths.length ? (
           <section style={{ marginTop: 64 }}>
             <span className="eyebrow">Myths featuring {e.name}</span>
-            <h2 style={{ marginTop: 8, marginBottom: 24 }}>{myths.length} story{myths.length > 1 ? 'ies' : ''}</h2>
+            <h2 style={{ marginTop: 8, marginBottom: 24 }}>{myths.length} {myths.length === 1 ? 'story' : 'stories'}</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
               {myths.map((m) => (
                 <div key={m.id} className="card" style={{ display: 'block', padding: 20 }}>
