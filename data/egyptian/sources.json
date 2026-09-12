@@ -1,0 +1,37 @@
+[
+  {
+    "type": "text",
+    "name": "Pyramid Texts",
+    "date": "c. 2400–2300 BCE",
+    "ref": "S1",
+    "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+  },
+  {
+    "type": "text",
+    "name": "Book of the Dead (e.g., Papyrus of Ani)",
+    "date": "c. 1250 BCE",
+    "ref": "S2",
+    "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+  },
+  {
+    "type": "text",
+    "name": "Plutarch, On Isis and Osiris",
+    "date": "c. 79 CE",
+    "ref": "S3",
+    "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+  },
+  {
+    "type": "academic",
+    "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+    "date": "modern (translation & scholarship)",
+    "ref": "S4",
+    "url": null
+  },
+  {
+    "type": "museum",
+    "name": "Met Museum Egyptian collection (open access)",
+    "date": "museum",
+    "ref": "S5",
+    "url": "https://www.metmuseum.org/art/collection"
+  }
+]

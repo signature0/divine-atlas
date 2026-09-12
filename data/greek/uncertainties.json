@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gre-u1",
+    "topic": "Aphrodite's parentage",
+    "positions": [
+      {
+        "name": "S1 (Theogony)",
+        "description": "Born from sea-foam around Ouranos's severed member"
+      },
+      {
+        "name": "S2 (Iliad)",
+        "description": "Daughter of Zeus and Dione"
+      }
+    ],
+    "how_we_present_it": "Two birth-accounts side by side; neither is declared 'the' truth."
+  },
+  {
+    "id": "gre-u2",
+    "topic": "Hephaestus's parentage",
+    "positions": [
+      {
+        "name": "S2 (Iliad)",
+        "description": "Son of Hera alone"
+      },
+      {
+        "name": "S1 (Theogony)",
+        "description": "Son of Zeus and Hera"
+      }
+    ],
+    "how_we_present_it": "Both stored; the Iliad's 'Hera alone' is the more distinctive account."
+  },
+  {
+    "id": "gre-u3",
+    "topic": "The Olympian 'family' as a system",
+    "positions": [
+      {
+        "name": "Literary (Hesiod/Homer)",
+        "description": "A tidy pantheon of twelve"
+      },
+      {
+        "name": "Cult (local)",
+        "description": "Deities had local identities that predate and differ from the classical syncretic pantheon"
+      }
+    ],
+    "how_we_present_it": "We note where a deity's 'family position' is a literary synthesis vs. a local cult reality."
+  },
+  {
+    "id": "gre-u4",
+    "topic": "Orphic vs. Hesiodic cosmogony",
+    "positions": [
+      {
+        "name": "Hesiodic",
+        "description": "Chaos → Gaia/Ouranos → Titans"
+      },
+      {
+        "name": "Orphic",
+        "description": "A cosmic egg and the god Phanes"
+      }
+    ],
+    "how_we_present_it": "Both cosmogonies presented as variants, not merged."
+  },
+  {
+    "id": "gre-u5",
+    "topic": "The Typhon passage",
+    "positions": [
+      {
+        "name": "Traditional reading",
+        "description": "Part of Hesiod's Theogony"
+      },
+      {
+        "name": "Scholarly view",
+        "description": "A later interpolation (lines 810–835)"
+      }
+    ],
+    "how_we_present_it": "We flag the passage as likely interpolated, per the scholarly consensus."
+  },
+  {
+    "id": "gre-u6",
+    "topic": "Medusa's origin",
+    "positions": [
+      {
+        "name": "Hesiodic",
+        "description": "Monstrous Gorgon from birth (daughter of Phorcys & Ceto)"
+      },
+      {
+        "name": "Ovid (later)",
+        "description": "A beautiful maiden transformed (for hubris / an offense against Athena)"
+      }
+    ],
+    "how_we_present_it": "Both versions stored; the 'maiden' version is dated as later (Roman)."
+  }
+]

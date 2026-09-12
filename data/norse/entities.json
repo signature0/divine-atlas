@@ -1,0 +1,2477 @@
+[
+  {
+    "id": "nor-ginnungagap",
+    "culture": "norse",
+    "name": "Ginnungagap",
+    "native_name": "Ginnungagap",
+    "alternative_names": [],
+    "classification": "realm",
+    "gender": "unknown",
+    "domains": [
+      "the void",
+      "the primordial gap"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The yawning void between fire and ice — the primordial space from which the first beings emerged.",
+    "description_long": "Ginnungagap is the 'yawning gap' at the center of Norse creation: Niflheim (ice) lay to the north, Muspelheim (fire) to the south, and between them the void where rime and frost formed [S2]. From this gap, the first living being — the ice-giant Ymir — and the cow Auðhumbla emerged [S1][S2]. Ginnungagap is not a 'place' so much as the primordial condition of the world before it had shape [S2].",
+    "interesting_facts": [
+      "Between Niflheim (ice) and Muspelheim (fire) [S2].",
+      "The rime that dripped from it became Ymir [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-muspel",
+    "culture": "norse",
+    "name": "Muspel (fire)",
+    "native_name": "Múspell",
+    "alternative_names": [],
+    "classification": "realm",
+    "gender": "unknown",
+    "domains": [
+      "fire",
+      "heat"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The realm of fire to the south, whose heat began the creation of the world.",
+    "description_long": "Muspelheim is the realm of fire, to the south of Ginnungagap. Its sparks and heat dripped onto the rime of Niflheim, melting it and beginning the creation of the world [S2]. At Ragnarök, Muspel's fire (led by Surt) destroys the world [S1][S2].",
+    "interesting_facts": [
+      "Its heat began creation [S2].",
+      "Surt, its fire-giant, burns the world at Ragnarök [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-niflheim",
+    "culture": "norse",
+    "name": "Niflheim (ice)",
+    "native_name": "Niflheimr",
+    "alternative_names": [],
+    "classification": "realm",
+    "gender": "unknown",
+    "domains": [
+      "ice",
+      "cold"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The realm of ice and mist to the north, source of the rime that became Ymir.",
+    "description_long": "Niflheim is the realm of ice and mist, to the north of Ginnungagap. Its rivers (the Élivágar) flowed with rime, and where the rime met the heat of Muspelheim, Ymir and Auðhumbla formed [S2].",
+    "interesting_facts": [
+      "Source of the primordial rime [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-ymir",
+    "culture": "norse",
+    "name": "Ymir",
+    "native_name": "Ymir",
+    "alternative_names": [
+      "Aurgelmir"
+    ],
+    "classification": "giant",
+    "gender": "male",
+    "domains": [
+      "the primordial giant"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-ginnungagap"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [
+      "nor-burir"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The first being, an ice-giant formed from the rime of Ginnungagap; his body became the world.",
+    "description_long": "Ymir is the first living being, a giant of rime and frost who formed in Ginnungagap and was nourished by the milk of the cow Auðhumbla, who licked him free of the ice [S2]. From his sweating armpits came two more giants (a male and a female), and from his foot a six-headed son [S2]. When the gods Odin, Vili, and Vé killed Ymir, his body became the world: his blood the seas, his flesh the earth, his bones the mountains, his skull the sky, and his brains the clouds [S2]. Ymir's descendants, the frost-giants (jötnar), are the gods' chief enemies [S1][S2].",
+    "interesting_facts": [
+      "The first being; formed from rime and frost [S2].",
+      "Nourished by the cow Auðhumbla, who licked him free of ice [S2].",
+      "His body became the world when the gods killed him [S2].",
+      "His descendants (frost-giants) are the gods' chief enemies [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-aurdhumbla",
+    "culture": "norse",
+    "name": "Auðhumbla",
+    "native_name": "Auðhumbla",
+    "alternative_names": [],
+    "classification": "creature",
+    "gender": "female",
+    "domains": [
+      "the primordial cow"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The primordial cow who licked Ymir free of the ice and whose milk nourished him.",
+    "description_long": "Auðhumbla is the first cow, formed from the rime of Ginnungagap. She licked the ice free of Ymir's form and nourished him with her milk; from the salt she licked from the ice came the first god, Búri [S2]. Auðhumbla is a creature of the primordial world, not a god.",
+    "interesting_facts": [
+      "Licked Ymir free of the ice [S2].",
+      "Búri (the first god) was formed from the salt she licked from the ice [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-burir",
+    "culture": "norse",
+    "name": "Búri",
+    "native_name": "Búrir",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the first god"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [
+      "nor-borr"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The first god, formed from the salt the primordial cow licked from the ice; father of Borr.",
+    "description_long": "Búri is the first of the gods, formed from the salt that the cow Auðhumbla licked from the ice [S2]. He is the father of Borr, who married the giantess Bestla, and their sons are the three gods Odin, Vili, and Vé [S2]. Búri is a remote ancestor, barely developed in the sources — he is the link between the primordial world and the divine line.",
+    "interesting_facts": [
+      "Formed from salt licked from the ice [S2].",
+      "Father of Borr, grandfather of Odin [S2]."
+    ],
+    "uncertainty_notes": [
+      "Búri's role is minimal in the sources; he is a genealogical link [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-borr",
+    "culture": "norse",
+    "name": "Borr",
+    "native_name": "Borr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the ancestor of the gods"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-burir"
+    ],
+    "siblings": [],
+    "partners": [
+      "nor-bestla"
+    ],
+    "children": [
+      "nor-odin",
+      "nor-vili",
+      "nor-ve"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "Son of Búri and husband of the giantess Bestla; father of Odin, Vili, and Vé.",
+    "description_long": "Borr is the son of Búri and the husband of the giantess Bestla. Their sons are the three brothers Odin, Vili, and Vé, who created the world from the body of Ymir [S2]. Borr is another remote ancestor, named chiefly to complete the genealogy of the gods.",
+    "interesting_facts": [
+      "Father of Odin, Vili, and Vé [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-bestla",
+    "culture": "norse",
+    "name": "Bestla",
+    "native_name": "Bestla",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "female",
+    "domains": [
+      "the giantess mother of the gods"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-borr"
+    ],
+    "children": [
+      "nor-odin",
+      "nor-vili",
+      "nor-ve"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The giantess who married Borr and bore the three gods Odin, Vili, and Vé.",
+    "description_long": "Bestla is a giantess (jötun) who married the god Borr and bore the three brothers Odin, Vili, and Vé [S2]. Her giant lineage is significant: it reminds that the gods and the giants share a common ancestry, and that the gods' enemies are also, in a sense, their kin [S2].",
+    "interesting_facts": [
+      "Mother of Odin, Vili, and Vé [S2].",
+      "Her giant lineage links the gods to the giants [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-odin",
+    "culture": "norse",
+    "name": "Odin",
+    "native_name": "Óðinn",
+    "alternative_names": [
+      "Woden (Old English)",
+      "Odin"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "wisdom",
+      "war",
+      "death",
+      "magic",
+      "poetry",
+      "rulership",
+      "the runes"
+    ],
+    "symbols": [
+      "two ravens (Huginn & Muninn)",
+      "two wolves (Geri & Freki)",
+      "one eye",
+      "the Gungnir spear",
+      "the world-tree Yggdrasil",
+      "the gallows"
+    ],
+    "animals": [
+      "ravens",
+      "wolves",
+      "horses (Sleipnir)"
+    ],
+    "weapons": [
+      "Gungnir (spear)"
+    ],
+    "sacred_objects": [
+      "the gallows",
+      "the runes",
+      "the mead of poetry"
+    ],
+    "parents": [
+      "nor-borr",
+      "nor-bestla"
+    ],
+    "siblings": [
+      "nor-vili",
+      "nor-ve"
+    ],
+    "partners": [
+      "nor-frigg"
+    ],
+    "children": [
+      "nor-baldr",
+      "nor-vidar",
+      "nor-vali",
+      "nor-thor",
+      "nor-heimdall"
+    ],
+    "allies": [],
+    "enemies": [
+      "nor-loomi",
+      "nor-fenrir"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-creation",
+      "nor-runes",
+      "nor-baldr-death",
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      },
+      {
+        "type": "archaeological",
+        "name": "Gosforth Cross (carving)",
+        "date": "c. 950–1000 CE",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-odin-doepler",
+      "nor-art-odin-sleipnir-ms",
+      "nor-art-oseberg-ship"
+    ],
+    "description_short": "The Allfather, chief of the Æsir: god of wisdom, war, death, magic, and poetry. He sacrificed an eye for wisdom and hung on Yggdrasil to win the runes.",
+    "description_long": "Odin is the Allfather, chief of the Æsir and the most complex of the Norse gods [S1][S2][S3]. He is the god of wisdom, war, death, magic (seiðr), poetry, and the runes, and the ruler of the hall Valhalla, where he receives the slain warriors (the Einherjar) in preparation for Ragnarök [S2]. To gain wisdom, he sacrificed one of his eyes to the well-being Mímir [S2]; to win the runes, he hung himself on the world-tree Yggdrasil for nine nights, pierced by his own spear [S1]. His two ravens, Huginn (Thought) and Muninn (Memory), fly over the world each day and report to him; his two wolves, Geri and Freki, and his eight-legged horse Sleipnir are his companions [S2]. Odin is a figure of profound duality: the wise king and the wandering magician, the god of life and the god of death, the allfather and the one who will die to Fenrir at Ragnarök [S1][S2]. He is the patron of the skalds and of the poetic art, and his name is associated with the 'Odinic' trance (the 'Riding Out,' or hamingja) [S3].",
+    "interesting_facts": [
+      "Sacrificed an eye for wisdom at Mímir's well [S2].",
+      "Hung on Yggdrasil for nine nights to win the runes [S1].",
+      "Ruler of Valhalla, receiving the slain for Ragnarök [S2].",
+      "Two ravens (Huginn, Muninn), two wolves (Geri, Freki), eight-legged horse Sleipnir [S2].",
+      "Dies to the wolf Fenrir at Ragnarök [S1][S2]."
+    ],
+    "uncertainty_notes": [
+      "Odin's 'war' aspect and his 'death' aspect are both genuine; the sources present him as both the god who wins battles and the god of the slain [S1][S2][S3].",
+      "Some scholars see Odin as a 'culture-hero' who brought the runes and poetry; this is interpretation, not a source claim [S3]."
+    ],
+    "hero_artwork": "nor-art-odin-doepler"
+  },
+  {
+    "id": "nor-vili",
+    "culture": "norse",
+    "name": "Vili",
+    "native_name": "Vili",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "one of the three brothers who made the world"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-borr",
+      "nor-bestla"
+    ],
+    "siblings": [
+      "nor-odin",
+      "nor-ve"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "One of the three brothers (with Odin and Vé) who created the world from Ymir's body. Barely developed in the sources.",
+    "description_long": "Vili is one of the three brothers — Odin, Vili, and Vé — sons of Borr and Bestla, who together created the world from the body of the giant Ymir [S2]. After the creation, Vili (and Vé) largely disappear from the myths; Odin becomes the chief god, and the 'three brothers' are mostly a memory of the creation act [S2]. Vili is one of the 'thin' figures of Norse myth — named, but not developed.",
+    "interesting_facts": [
+      "Co-creator of the world with Odin and Vé [S2].",
+      "Largely disappears from the myths after the creation [S2]."
+    ],
+    "uncertainty_notes": [
+      "Vili is a 'thin' figure; the sources give him almost no independent myth [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-ve",
+    "culture": "norse",
+    "name": "Vé",
+    "native_name": "Vé",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "one of the three brothers who made the world"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-borr",
+      "nor-bestla"
+    ],
+    "siblings": [
+      "nor-odin",
+      "nor-vili"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "One of the three brothers (with Odin and Vili) who created the world. Barely developed in the sources.",
+    "description_long": "Vé is the third of the three brothers — Odin, Vili, and Vé — who created the world from Ymir's body [S2]. Like Vili, he is named in the creation but then largely absent from the myths [S2].",
+    "interesting_facts": [
+      "Co-creator of the world [S2].",
+      "Largely absent after the creation [S2]."
+    ],
+    "uncertainty_notes": [
+      "Vé is a 'thin' figure [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-thor",
+    "culture": "norse",
+    "name": "Thor",
+    "native_name": "Þórr",
+    "alternative_names": [
+      "Donar (Old English)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "thunder",
+      "storms",
+      "strength",
+      "the protection of humans"
+    ],
+    "symbols": [
+      "Mjölnir (hammer)",
+      "the world-encircling belt",
+      "iron gloves"
+    ],
+    "animals": [
+      "the bull (of Geirðröðr)"
+    ],
+    "weapons": [
+      "Mjölnir (hammer)"
+    ],
+    "sacred_objects": [
+      "Mjölnir",
+      "the belt of strength (Megingjörð)"
+    ],
+    "parents": [
+      "nor-odin"
+    ],
+    "siblings": [],
+    "partners": [
+      "nor-sif",
+      "nor-jarnsaxa"
+    ],
+    "children": [
+      "nor-magni",
+      "nor-modi",
+      "nor-uthra"
+    ],
+    "allies": [],
+    "enemies": [
+      "nor-loomi",
+      "nor-jormungandr",
+      "nor-hrungnir"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-thor-geirdrud",
+      "nor-thor-hrungnir",
+      "nor-ragnarok",
+      "nor-jormungandr"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      },
+      {
+        "type": "archaeological",
+        "name": "Gosforth Cross (carving)",
+        "date": "c. 950–1000 CE",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-thor-winge",
+      "nor-art-thor-hrungnir",
+      "nor-art-thor-geherts"
+    ],
+    "description_short": "God of thunder and storms, wielder of the hammer Mjölnir, and the mightiest protector of the gods and of humans.",
+    "description_long": "Thor is the god of thunder and the mightiest of the Æsir, the protector of the gods and of humanity [S1][S2][S3]. His weapon is the hammer Mjölnir, which never misses and which he uses against the giants and the monsters that threaten the world [S2]. He is the son of Odin and of a giantess (Járnsaxa in one account, the earth in another) [S2]. Thor is a god of the common people — his hammer was a symbol of protection worn by ordinary people, and his name is the source of 'Thursday' (Thor's day) [S3][S4]. His enemies are the giants (jötnar) and the great monsters: the world-serpent Jörmungandr, whom he will slay (and be slain by) at Ragnarök, and the giant Hrungnir, whom he fells with Mjölnir [S1][S2]. He is a figure of raw, protective strength — not the subtle wisdom of Odin, but the brute force that keeps the world safe [S2][S3].",
+    "interesting_facts": [
+      "Wields the hammer Mjölnir, which never misses [S2].",
+      "Protector of the gods and of humans; a god of the common people [S3].",
+      "His name gives 'Thursday' (Thor's day) [S3].",
+      "Slays and is slain by the world-serpent Jörmungandr at Ragnarök [S1][S2]."
+    ],
+    "uncertainty_notes": [
+      "Thor's mother is given as a giantess (Járnsaxa) in some accounts and as the earth (Jörd) in others — a genuine variant [S2].",
+      "Thor is the 'common people's' god, more associated with protection than with the courtly Æsir [S3]."
+    ],
+    "hero_artwork": "nor-art-thor-winge"
+  },
+  {
+    "id": "nor-frigg",
+    "culture": "norse",
+    "name": "Frigg",
+    "native_name": "Frigg",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "marriage",
+      "motherhood",
+      "the sky (as a personification)"
+    ],
+    "symbols": [
+      "the veil",
+      "the brooch (Brísingamen, in some accounts)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-odin"
+    ],
+    "children": [
+      "nor-baldr",
+      "nor-vidar",
+      "nor-vali"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-baldr-death"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-oseberg-ship"
+    ],
+    "description_short": "Queen of the Æsir, wife of Odin, mother of Baldr; a goddess of marriage and the home.",
+    "description_long": "Frigg is the queen of the Æsir, the wife of Odin, and the mother of Baldr [S2]. She is a goddess of marriage, the home, and (in some accounts) the sky. Her most defining myth is the death of Baldr: when she learned that her son was fated to die, she extracted oaths from all things not to harm him — except the mistletoe, which she overlooked (or refused to bind); Loki then exploited this to kill Baldr [S2]. Frigg is a figure of maternal grief and of the limits of divine power — she cannot save her son [S2].",
+    "interesting_facts": [
+      "Wife of Odin, mother of Baldr [S2].",
+      "Extracted oaths from all things to protect Baldr — but missed the mistletoe [S2].",
+      "Her grief at Baldr's death is a central myth [S2]."
+    ],
+    "uncertainty_notes": [
+      "The 'mistletoe' detail and Frigg's role vary across sources; the core is Baldr's death by Loki's hand [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-baldr",
+    "culture": "norse",
+    "name": "Baldr",
+    "native_name": "Baldr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "light",
+      "the sun (in some accounts)",
+      "beauty",
+      "purity"
+    ],
+    "symbols": [
+      "the mistletoe (his death)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-odin",
+      "nor-frigg"
+    ],
+    "siblings": [
+      "nor-hodr"
+    ],
+    "partners": [
+      "nor-nanna"
+    ],
+    "children": [
+      "nor-forseti"
+    ],
+    "allies": [],
+    "enemies": [
+      "nor-loomi",
+      "nor-hodr"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-baldr-death"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-baldr-cramer"
+    ],
+    "description_short": "The brightest and most beloved of the gods, associated with light and purity; his murder by Loki (via the mistletoe) is the great tragedy of Norse myth.",
+    "description_long": "Baldr is the brightest, fairest, and most beloved of the gods, associated with light and (in some accounts) with the sun [S1][S2]. He and his wife Nanna live in the hall of Breidablik [S2]. His death is the great tragedy of Norse myth: his mother Frigg, warned of his fate, extracted oaths from all things not to harm him — except the mistletoe, which she overlooked; Loki, disguised as an old woman, learned of this and guided Baldr's blind brother Höðr to throw a mistletoe dart at him, killing him [S2]. Baldr's death is the beginning of the end: it is the act that sets the chain of events leading to Ragnarök in motion [S1][S2]. His son is Fosite (Forsétir), god of peace and reconciliation [S2].",
+    "interesting_facts": [
+      "The brightest and most beloved of the gods [S2].",
+      "Killed by a mistletoe dart, thrown by his blind brother Höðr at Loki's instigation [S2].",
+      "His death begins the chain of events leading to Ragnarök [S1][S2].",
+      "Husband of Nanna; father of Fosite [S2]."
+    ],
+    "uncertainty_notes": [
+      "Baldr's association with the sun is later and interpretive; the earliest Baldr is a god of light and beauty, not strictly the sun [S1][S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-hodr",
+    "culture": "norse",
+    "name": "Höðr",
+    "native_name": "Höðr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the blind brother of Baldr"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-odin",
+      "nor-frigg"
+    ],
+    "siblings": [
+      "nor-baldr"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The blind brother of Baldr, who unknowingly threw the mistletoe dart that killed his brother, at Loki's instigation.",
+    "description_long": "Höðr is the blind brother of Baldr. At Loki's instigation (disguised as an old woman), Höðr was led to throw a mistletoe dart at Baldr, killing him [S2]. Höðr is a figure of tragic innocence — he did not know what he was doing, and he is the unwitting instrument of the great tragedy [S2].",
+    "interesting_facts": [
+      "Blind brother of Baldr [S2].",
+      "Unwittingly killed Baldr at Loki's instigation [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-loomi",
+    "culture": "norse",
+    "name": "Loki",
+    "native_name": "Loki",
+    "alternative_names": [],
+    "classification": "trickster",
+    "gender": "male",
+    "domains": [
+      "cunning",
+      "trickery",
+      "fire (in some accounts)"
+    ],
+    "symbols": [
+      "the mistletoe (his weapon)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-anguela",
+      "nor-sid"
+    ],
+    "children": [
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-hel",
+      "nor-sleipnir"
+    ],
+    "allies": [],
+    "enemies": [
+      "nor-odin",
+      "nor-thor"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-loki-children",
+      "nor-baldr-death",
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      },
+      {
+        "type": "archaeological",
+        "name": "Gosforth Cross (carving)",
+        "date": "c. 950–1000 CE",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-loki-frolich"
+    ],
+    "description_short": "The trickster god — part of the Æsir but not a true god — who engineered Baldr's death and will fight the gods at Ragnarök.",
+    "description_long": "Loki is the trickster of Norse myth — a figure of cunning, transformation, and disruption. He is 'blood-related' to the gods (son of the giant Fárbauti in one account) but is not a true Æsir; he is a complex, ambiguous figure who helps the gods (he wins Sif's hair, the ship Skidblaðnir, and Thor's hammer, all through trickery) and who also destroys them (he engineers Baldr's death and will lead the enemies at Ragnarök) [S1][S2]. His children are among the greatest threats to the world: the wolf Fenrir (who will kill Odin), the world-serpent Jörmungandr (who will kill Thor), and Hel (who rules the realm of the dead) [S2]. At Ragnarök, Loki fights against the gods and is ultimately caught by the river-vine and slain by the serpent's poison [S1][S2]. Loki is the great ambivalent figure: helper and destroyer, the one who holds the fate of the world in his cunning [S1][S2].",
+    "interesting_facts": [
+      "A trickster, 'blood-related' to the gods but not a true Æsir [S2].",
+      "Engineered Baldr's death via the mistletoe [S2].",
+      "Father of Fenrir, Jörmungandr, Hel, and Sleipnir [S2].",
+      "Fights the gods at Ragnarök and is slain [S1][S2]."
+    ],
+    "uncertainty_notes": [
+      "Loki's status (god vs. giant vs. trickster) is ambiguous in the sources; he is not a 'true' Æsir but is bound up with them [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-tyr",
+    "culture": "norse",
+    "name": "Týr",
+    "native_name": "Týr",
+    "alternative_names": [
+      "Tiw (Old English)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "war",
+      "justice",
+      "law",
+      "the sky (in some accounts)"
+    ],
+    "symbols": [
+      "the one hand (sacrificed to Fenrir)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-tyr-binding"
+    ],
+    "description_short": "God of war, justice, and law; he sacrificed his hand to bind the wolf Fenrir.",
+    "description_long": "Týr is the god of war, justice, and law, and (in some accounts) of the sky. His defining act is the binding of the wolf Fenrir: the gods tricked Fenrir into letting them bind him, but only Týr was brave enough to place his hand in the wolf's mouth as a pledge of good faith; when the binding held, Fenrir bit off his hand [S2]. Týr is thus the god of the sacrifice of justice — he gave his hand to keep a promise, and he is the patron of oaths and of the law [S2]. His name gives 'Tuesday' (Tiw's day) [S3].",
+    "interesting_facts": [
+      "Sacrificed his hand to bind the wolf Fenrir [S2].",
+      "God of war, justice, and law [S2].",
+      "His name gives 'Tuesday' [S3]."
+    ],
+    "uncertainty_notes": [
+      "Týr's 'sky' association is later; the earliest Týr is a god of war and law [S2][S3]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-freyr",
+    "culture": "norse",
+    "name": "Freyr",
+    "native_name": "Freyr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "fertility",
+      "the sun (in some accounts)",
+      "peace",
+      "the sea"
+    ],
+    "symbols": [
+      "the ship Skíðblaðnir",
+      "the boar Gullinbursti",
+      "the sword that fights itself"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-nyrd"
+    ],
+    "siblings": [
+      "nor-freyja"
+    ],
+    "partners": [
+      "nor-gerd"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-surt"
+    ],
+    "associated_realms": [
+      "nor-vanaheim"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-gokstad-ship"
+    ],
+    "description_short": "God of fertility, peace, and the sea, of the Vanir; he gives his sword to a dwarf and is slain by Surt at Ragnarök.",
+    "description_long": "Freyr is a god of the Vanir (a second divine tribe), associated with fertility, peace, the sun (in some accounts), and the sea [S2]. He owns the ship Skíðblaðnir (which folds up to fit in a pocket) and the boar Gullinbursti, and he is the one who gives a sword that fights by itself to a dwarf [S2]. His tragedy: to win the giantess Gerðr, he gives away his magic sword — and at Ragnarök, he is forced to fight Surt the fire-giant without it, and is slain [S1][S2]. Freyr is a god of peace and plenty, whose loss of his weapon is the price of his love [S2].",
+    "interesting_facts": [
+      "Of the Vanir; god of fertility, peace, the sea [S2].",
+      "Gave his sword to a dwarf to win Gerðr, and is slain unarmed by Surt at Ragnarök [S1][S2].",
+      "Owns the ship Skíðblaðnir and the boar Gullinbursti [S2]."
+    ],
+    "uncertainty_notes": [
+      "Freyr's 'sun' association is later; the earliest Freyr is a fertility god of the Vanir [S2][S3]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-freyja",
+    "culture": "norse",
+    "name": "Freyja",
+    "native_name": "Freyja",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "love",
+      "beauty",
+      "fertility",
+      "war",
+      "seiðr (magic)",
+      "the dead"
+    ],
+    "symbols": [
+      "the cat",
+      "the bridle (of the sky)"
+    ],
+    "animals": [
+      "cats"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-nyrd"
+    ],
+    "siblings": [
+      "nor-freyr"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-vanaheim",
+      "nor-folkvangr"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-freyja-penrose"
+    ],
+    "description_short": "Goddess of love, beauty, fertility, war, and magic (seiðr), of the Vanir; she receives half of the slain in her hall Fólkvangr.",
+    "description_long": "Freyja is a goddess of the Vanir, associated with love, beauty, fertility, war, and the magic of seiðr [S2]. She is the sister of Freyr and the owner of the necklace Brísingamen [S2]. She is a war-goddess: she chooses half of the slain for her hall Fólkvangr (the other half going to Odin's Valhalla) [S2]. She is also a goddess of seiðr (a form of Norse magic), which was associated with both power and taboo [S2]. Freyrja is a complex, powerful female deity who straddles the domains of love and war [S2].",
+    "interesting_facts": [
+      "Of the Vanir; sister of Freyr [S2].",
+      "Receives half of the slain in her hall Fólkvangr [S2].",
+      "Goddess of love, beauty, war, and seiðr (magic) [S2].",
+      "Owner of the necklace Brísingamen [S2]."
+    ],
+    "uncertainty_notes": [
+      "Freyja's seiðr (magic) was associated with taboo and with a 'unmanly' practice (argi) in some male sources; the sources are ambiguous about her own role [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-nyrd",
+    "culture": "norse",
+    "name": "Njord",
+    "native_name": "Njordr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sea",
+      "calm winds",
+      "wealth",
+      "sailing"
+    ],
+    "symbols": [
+      "the ship"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-ska"
+    ],
+    "children": [
+      "nor-freyr",
+      "nor-freyja"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-vanaheim"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "God of the sea, calm winds, and wealth, of the Vanir; father of Freyr and Freyja.",
+    "description_long": "Njord is a god of the Vanir, associated with the sea, calm winds, wealth, and sailing [S2]. He is the father of Freyr and Freyja [S2]. His home is Nóatún (the boat-stall), by the sea [S2]. Njord is a god of the practical, maritime aspects of life — the calm sea, the good wind, the wealth that comes from the sea [S2].",
+    "interesting_facts": [
+      "Of the Vanir; god of the sea, calm winds, wealth [S2].",
+      "Father of Freyr and Freyja [S2].",
+      "Home is Nóatún, by the sea [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-heimdall",
+    "culture": "norse",
+    "name": "Heimdall",
+    "native_name": "Heimdallr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the watchman",
+      "the light",
+      "the dawn"
+    ],
+    "symbols": [
+      "the horn Gjallarhorn"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-odin"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-loomi"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The watchman of the gods, who guards the Bifrost and will sound the horn Gjallarhorn at Ragnarök; he and Loki will kill each other.",
+    "description_long": "Heimdall is the watchman of the gods, the one who guards the Bifrost (the rainbow bridge to Asgard) and who can see and hear across the whole world [S2]. He is the god of the light and the dawn, and he will sound the horn Gjallarhorn to wake the gods at Ragnarök [S1][S2]. At the final battle, Heimdall and Loki will fight and kill each other [S1][S2]. His parentage is a genuine variant: in one account he is the son of Odin and of a giantess named Angrboða (which is odd, because Angrboða is elsewhere Loki's wife); in another he has nine mothers [S2].",
+    "interesting_facts": [
+      "Watchman of the gods; guards the Bifrost [S2].",
+      "Will sound the horn Gjallarhorn at Ragnarök [S1][S2].",
+      "Will kill and be killed by Loki at Ragnarök [S1][S2]."
+    ],
+    "uncertainty_notes": [
+      "Heimdall's parentage is a genuine variant: son of Odin & Angrboða (odd, since she is elsewhere Loki's wife) vs. nine mothers [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-vidar",
+    "culture": "norse",
+    "name": "Víðarr",
+    "native_name": "Vidar",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "silence",
+      "strength",
+      "the avenger"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-odin"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-fenrir"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The silent son of Odin, who will avenge his father by slaying the wolf Fenrir at Ragnarök.",
+    "description_long": "Víðarr is the son of Odin and (in one account) of the giantess Gríðr; he is a god of silence and of strength. At Ragnarök, he will avenge his father by slaying the wolf Fenrir, who has killed Odin, by kicking the wolf's lower jaw up and driving his sword through its head [S1][S2]. Víðarr is the 'silent' god — he speaks little, and his vengeance is the only one that succeeds at Ragnarök [S2].",
+    "interesting_facts": [
+      "The silent son of Odin [S2].",
+      "Will avenge Odin by slaying Fenrir at Ragnarök [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-vali",
+    "culture": "norse",
+    "name": "Váli",
+    "native_name": "Vali",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the avenger of Baldr"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-odin"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-hodr"
+    ],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-baldr-death"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The son of Odin, who will avenge his brother Baldr by slaying Höðr.",
+    "description_long": "Váli is the son of Odin, born (in one account) from the body of Baldr after his death, to avenge him. At the funeral of Baldr, Váli will slay Höðr, the blind brother who killed Baldr [S2]. Váli is a figure of swift, one-act vengeance — he exists to kill Höðr and then disappears from the myths [S2].",
+    "interesting_facts": [
+      "Son of Odin, born to avenge Baldr [S2].",
+      "Will slay Höðr, Baldr's killer [S2]."
+    ],
+    "uncertainty_notes": [
+      "Váli's birth 'from Baldr's body' is a strange and unexplained detail in the sources [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-fenrir",
+    "culture": "norse",
+    "name": "Fenrir",
+    "native_name": "Fenrirr",
+    "alternative_names": [],
+    "classification": "monster",
+    "gender": "male",
+    "domains": [
+      "the great wolf"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-loomi",
+      "nor-anguela"
+    ],
+    "siblings": [
+      "nor-jormungandr",
+      "nor-hel",
+      "nor-sleipnir"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-tyr",
+      "nor-odin"
+    ],
+    "associated_realms": [
+      "nor-midgard"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-fenrir-binding",
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      },
+      {
+        "type": "archaeological",
+        "name": "Gosforth Cross (carving)",
+        "date": "c. 950–1000 CE",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-fenrir-hardy"
+    ],
+    "description_short": "The great wolf, son of Loki, whom the gods bound with the magic ribbon Gleipnir; he will kill Odin at Ragnarök.",
+    "description_long": "Fenrir is the great wolf, son of Loki and the giantess Angerboa (Angrboða) [S2]. As a pup he was raised in Asgard, but the gods grew afraid of his strength and tried to bind him. The first two bindings (Leadbond and Dromi) he broke, but the third — a magic ribbon made of six impossible things (Gleipnir) — held, because only Týr placed his hand in the wolf's mouth as a pledge; when the binding held, Fenrir bit off his hand [S2]. Fenrir will break free at Ragnarök and grow so large that his jaw touches the earth and his mouth the sky; he will swallow the sun and kill Odin, who will be avenged by his son Víðarr [S1][S2].",
+    "interesting_facts": [
+      "Son of Loki and the giantess Angerboa [S2].",
+      "Bound with the magic ribbon Gleipnir; bit off Týr's hand [S2].",
+      "Will kill Odin at Ragnarök [S1][S2].",
+      "Will be avenged by Odin's son Víðarr [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-jormungandr",
+    "culture": "norse",
+    "name": "Jörmungandr",
+    "native_name": "Jörmungandr",
+    "alternative_names": [
+      "the Midgard Serpent"
+    ],
+    "classification": "monster",
+    "gender": "male",
+    "domains": [
+      "the world-serpent"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-loomi",
+      "nor-anguela"
+    ],
+    "siblings": [
+      "nor-fenrir",
+      "nor-hel",
+      "nor-sleipnir"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-thor"
+    ],
+    "associated_realms": [
+      "nor-sea"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The world-serpent, son of Loki, whom the gods cast into the sea; he encircles the world and will kill Thor at Ragnarök.",
+    "description_long": "Jörmungandr (the Midgard Serpent) is the world-serpent, son of Loki and Angerboa [S2]. The gods, fearing him, cast him into the sea around Midgard, where he grew so large that he encircles the whole world and bites his own tail [S2]. Thor famously fishes him up in one episode (the great catch), but lets him go when he realizes the serpent's size [S2]. At Ragnarök, Jörmungandr rises from the sea, and Thor slays him — but walks nine steps and dies of the serpent's venom [S1][S2].",
+    "interesting_facts": [
+      "The world-serpent; encircles Midgard and bites his own tail [S2].",
+      "Son of Loki and Angerboa [S2].",
+      "Thor slays him at Ragnarök but dies of his venom [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-hel",
+    "culture": "norse",
+    "name": "Hel",
+    "native_name": "Hel",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the dead",
+      "the underworld"
+    ],
+    "symbols": [
+      "half-living, half-dead (half her body is corpse-like)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-loomi",
+      "nor-anguela"
+    ],
+    "siblings": [
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-sleipnir"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-helheim"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-hel-zarubina"
+    ],
+    "description_short": "The ruler of the realm of the dead (Hel), daughter of Loki; she is half-living, half-dead.",
+    "description_long": "Hel is the daughter of Loki and Angerboa, and the ruler of the realm of the dead (also called Hel) [S2]. She is a strange being: half of her body is living and the other half is corpse-like (the color of a dead fish) [S2]. The gods, wishing to get rid of her, cast her into the north with a hall of the dead, where she rules over those who die of sickness or old age (as opposed to those who die in battle, who go to Valhalla) [S2]. Hel is not 'evil' in the Christian sense; she is the ruler of the dead, a necessary part of the cosmic order [S2].",
+    "interesting_facts": [
+      "Ruler of the realm of the dead (Hel) [S2].",
+      "Daughter of Loki and Angerboa [S2].",
+      "Half-living, half-dead [S2].",
+      "Rules over those who die of sickness or old age (not battle) [S2]."
+    ],
+    "uncertainty_notes": [
+      "Hel's realm is distinct from Valhalla; the two 'afterlives' are different destinations [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-sleipnir",
+    "culture": "norse",
+    "name": "Sleipnir",
+    "native_name": "Sleipnir",
+    "alternative_names": [],
+    "classification": "creature",
+    "gender": "male",
+    "domains": [
+      "the eight-legged horse of Odin"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-loomi"
+    ],
+    "siblings": [
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-hel"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "nor-art-odin-sleipnir-ms"
+    ],
+    "description_short": "The eight-legged horse of Odin, born of Loki (in the form of a mare).",
+    "description_long": "Sleipnir is the eight-legged horse of Odin, the only steed that can ride between the worlds [S2]. In the myth of his birth, Loki, in the form of a mare, mated with the stallion Svaðilfari (a giant's horse) and bore Sleipnir [S2]. Sleipnir is grey, eight-legged, and the fastest of horses; he carries Odin between the worlds [S2].",
+    "interesting_facts": [
+      "The eight-legged horse of Odin [S2].",
+      "Born of Loki (in the form of a mare) and the stallion Svaðilfari [S2].",
+      "The only steed that can ride between the worlds [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-anguela",
+    "culture": "norse",
+    "name": "Angerboa",
+    "native_name": "Angrboða",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "female",
+    "domains": [
+      "the giantess mother of the monsters"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-loomi"
+    ],
+    "children": [
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-hel",
+      "nor-sleipnir"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The giantess who, with Loki, mothered the great monsters: Fenrir, Jörmungandr, and Hel.",
+    "description_long": "Angerboa (Angrboða) is a giantess who, in partnership with Loki, mothered the great monsters of the end of the world: the wolf Fenrir, the world-serpent Jörmungandr, and Hel, the ruler of the dead [S2]. She is the 'mother of monsters,' the source of the threats that will destroy the world at Ragnarök [S2].",
+    "interesting_facts": [
+      "Mother (with Loki) of Fenrir, Jörmungandr, and Hel [S2]."
+    ],
+    "uncertainty_notes": [
+      "Note: some sources confuse Angerboa with Heimdall's mother; the sources are not consistent [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-sif",
+    "culture": "norse",
+    "name": "Sif",
+    "native_name": "Sif",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the wife of Thor",
+      "beauty"
+    ],
+    "symbols": [
+      "golden hair (regrown by dwarves)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-thor"
+    ],
+    "children": [
+      "nor-uthra"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The wife of Thor, whose golden hair was cut off by Loki and regrown by dwarves as real gold.",
+    "description_long": "Sif is the wife of Thor and the mother of Ullr (in some accounts). Her defining myth: Loki, in a fit of mischief, cut off her beautiful golden hair; Thor threatened to kill him, so Loki went to the dwarves and had them make new hair for her — real gold, which grew like real hair [S2]. Sif is a figure of beauty and of the domestic side of the Æsir [S2].",
+    "interesting_facts": [
+      "Wife of Thor [S2].",
+      "Her golden hair was cut by Loki and regrown by dwarves as real gold [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-uthra",
+    "culture": "norse",
+    "name": "Ullr",
+    "native_name": "Ullr",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the archer",
+      "the winter",
+      "skiing"
+    ],
+    "symbols": [
+      "the bow"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-thor",
+      "nor-sif"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The archer-god, associated with winter, skiing, and archery; son of Thor.",
+    "description_long": "Ullr is a god of the Æsir, associated with archery, skiing, and the winter [S2]. He is the son of Thor and Sif (in some accounts) [S2]. Ullr is a relatively minor figure, but he is the patron of archery and of the winter sports [S2].",
+    "interesting_facts": [
+      "God of archery, skiing, and the winter [S2].",
+      "Son of Thor (and Sif, in some accounts) [S2]."
+    ],
+    "uncertainty_notes": [
+      "Ullr's parentage (son of Thor vs. son of the giant Trúðr) is a genuine variant [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-nanna",
+    "culture": "norse",
+    "name": "Nanna",
+    "native_name": "Nanna",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the wife of Baldr"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-baldr"
+    ],
+    "children": [
+      "nor-forseti"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The wife of Baldr; when Baldr died, Nanna followed him into grief (in some accounts she dies of sorrow).",
+    "description_long": "Nanna is the wife of Baldr. When Baldr died, Nanna was consumed by grief — in the Prose Edda she sets herself on Baldr's funeral pyre (in other accounts she dies of sorrow) [S2]. She is the mother of Fosite [S2].",
+    "interesting_facts": [
+      "Wife of Baldr [S2].",
+      "Followed Baldr in death (burned on his pyre, in one account) [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-forseti",
+    "culture": "norse",
+    "name": "Fosite (Forsétir)",
+    "native_name": "Fórsétir",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "peace",
+      "reconciliation",
+      "justice"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-baldr",
+      "nor-nanna"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "nor-asgard"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The son of Baldr, god of peace and reconciliation, who sits in the hall of Glitnir to settle disputes.",
+    "description_long": "Fosite (Forsétir) is the son of Baldr and Nanna, and a god of peace, reconciliation, and justice. He sits in the hall of Glitnir, where he settles all disputes, and his judgments are accepted by all [S2].",
+    "interesting_facts": [
+      "Sits in the hall of Glitnir to settle disputes [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-magni",
+    "culture": "norse",
+    "name": "Magni",
+    "native_name": "Magni",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "strength"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-thor",
+      "nor-jarnsaxa"
+    ],
+    "siblings": [
+      "nor-modi"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The son of Thor (and the giantess Járnsaxa), a god of great strength.",
+    "description_long": "Magni is the son of Thor and the giantess Járnsaxa, a god of great strength. He and his brother Móði are the next generation of divine strength, destined to carry on after their father's death at Ragnarök [S2].",
+    "interesting_facts": [
+      "Son of Thor and the giantess Járnsaxa [S2].",
+      "Destined to carry on after Ragnarök [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-modi",
+    "culture": "norse",
+    "name": "Móði",
+    "native_name": "Móði",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "strength"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "nor-thor",
+      "nor-jarnsaxa"
+    ],
+    "siblings": [
+      "nor-magni"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The son of Thor (and the giantess Járnsaxa), a god of great strength; brother of Magni.",
+    "description_long": "Móði is the son of Thor and the giantess Járnsaxa, brother of Magni. The two are the next generation of divine strength [S2].",
+    "interesting_facts": [
+      "Son of Thor and the giantess Járnsaxa [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-jarnsaxa",
+    "culture": "norse",
+    "name": "Járnsaxa (Járnsaxa)",
+    "native_name": "Járnsaxa",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "female",
+    "domains": [
+      "the giantess mother of Thor's sons"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-thor"
+    ],
+    "children": [
+      "nor-magni",
+      "nor-modi"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The giantess who, with Thor, mothered Magni and Móði.",
+    "description_long": "Járnsaxa is a giantess who, in one account, is the mother of Thor's sons Magni and Móði [S2]. (Thor's mother is a separate, also-uncertain figure; Járnsaxa is the mother of his children with him, not his own mother.) [S2]",
+    "interesting_facts": [
+      "Mother of Magni and Móði [S2]."
+    ],
+    "uncertainty_notes": [
+      "Járnsaxa is sometimes confused in retellings with Thor's own mother; the sources treat her as the mother of Thor's sons [S2]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-gerd",
+    "culture": "norse",
+    "name": "Gerðr",
+    "native_name": "Gerðr",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "female",
+    "domains": [
+      "the giantess beloved of Freyr"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-freyr"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The giantess whom Freyr loved and for whom he gave away his magic sword.",
+    "description_long": "Gerðr is a giantess whom Freyr saw and fell in love with. To win her, Freyr gave his magic sword (the one that fights by itself) to a dwarf as a gift, and as a result he is unarmed when Surt attacks at Ragnarök, and is slain [S2]. Gerðr is the cause of Freyr's fatal loss [S2].",
+    "interesting_facts": [
+      "Beloved of Freyr [S2].",
+      "Freyr gave his sword away to win her, and is slain unarmed at Ragnarök [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-ska",
+    "culture": "norse",
+    "name": "Skaði",
+    "native_name": "Skaði",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the huntress",
+      "the mountains",
+      "skiing"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-nyrd"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Skaldic poetry (various)",
+        "date": "9th–13th c. CE",
+        "ref": "S3",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The huntress-goddess, associated with the mountains and skiing; she married Njord but the marriage failed.",
+    "description_long": "Skaði is a goddess of the hunt, the mountains, and skiing. She married Njord (the sea-god), but the marriage failed — she could not bear the sea, and he could not bear the mountains — and they separated [S2]. She is associated with winter and the mountains [S2].",
+    "interesting_facts": [
+      "Goddess of the hunt, mountains, skiing [S2].",
+      "Married Njord, but the marriage failed (sea vs. mountains) [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-surt",
+    "culture": "norse",
+    "name": "Surt",
+    "native_name": "Surt",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "male",
+    "domains": [
+      "the fire-giant",
+      "the end of the world"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [
+      "the great flame-sword"
+    ],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-freyr"
+    ],
+    "associated_realms": [
+      "nor-muspel"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Poetic Edda (Codex Regius)",
+        "date": "c. 1270 (preserves earlier oral poetry)",
+        "ref": "S1",
+        "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+      },
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The fire-giant of Muspelheim, who wields the great flame-sword and will destroy the world at Ragnarök.",
+    "description_long": "Surt is the fire-giant of Muspelheim, who wields a sword whose flame shines brighter than the sun [S1][S2]. At Ragnarök he marches against the gods, and he slays Freyr (who is unarmed, having given away his sword) [S1][S2]. Finally Surt hurls his flame over the whole world, destroying it [S1][S2].",
+    "interesting_facts": [
+      "The fire-giant of Muspelheim [S2].",
+      "His flame-sword shines brighter than the sun [S2].",
+      "Slays Freyr at Ragnarök, then burns the world [S1][S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-hrungnir",
+    "culture": "norse",
+    "name": "Hrungnir",
+    "native_name": "Hrungnir",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "male",
+    "domains": [
+      "the giant of the iron head"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "nor-thor"
+    ],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The giant with the iron head and the iron belly, whom Thor slew with Mjölnir.",
+    "description_long": "Hrungnir is a giant whose head is of iron and whose belly is of iron, with razor-blades inside; he boasted that he would drain the mead-hall of the gods and kill them. Thor (disguised as a servant) accepted the challenge, and they drank; then Thor, revealed, struck Hrungnir with Mjölnir and killed him, and with a second blow crushed his iron head [S2].",
+    "interesting_facts": [
+      "Giant of the iron head and iron belly [S2].",
+      "Slew by Thor with Mjölnir [S2]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "nor-sid",
+    "culture": "norse",
+    "name": "Síd",
+    "native_name": "Síd",
+    "alternative_names": [],
+    "classification": "giant",
+    "gender": "female",
+    "domains": [
+      "the giantess who bore Sleipnir (in one account)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "nor-loomi"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Snorri Sturluson, Prose Edda",
+        "date": "c. 1220–1235",
+        "ref": "S2",
+        "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+      }
+    ],
+    "artworks": [],
+    "description_short": "A giantess who, in one account, is the mother of Sleipnir with Loki.",
+    "description_long": "Síd is a giantess who, in one account, is the mother of the eight-legged horse Sleipnir with Loki (in the more common account, Loki himself, in the form of a mare, is Sleipnir's mother) [S2]. This is one of the genuine variants in the parentage of Sleipnir [S2].",
+    "interesting_facts": [
+      "Mother of Sleipnir (in one account) [S2]."
+    ],
+    "uncertainty_notes": [
+      "Sleipnir's parentage is a variant: Loki-as-mare vs. Loki + Síd [S2]."
+    ],
+    "hero_artwork": null
+  }
+]

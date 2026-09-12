@@ -1,0 +1,44 @@
+[
+  {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+  },
+  {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+  },
+  {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+  },
+  {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+  },
+  {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+  },
+  {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "slv-t1",
+    "label": "Pre-Christian Slavic religion",
+    "year_label": "c. 6th-10th century CE (reconstructed)",
+    "sort_year": 0,
+    "kind": "period",
+    "description": "The pre-Christian Slavic religion. The gods Perun, Veles, Svarog, Dazhbog, Khors, Stribog, and Mokosh are worshipped. The evidence is archaeological and reconstructed (no contemporary literary sources).",
+    "confidence": "reconstructed"
+  },
+  {
+    "id": "slv-t2",
+    "label": "The 980 CE 'destruction of the idols'",
+    "year_label": "980 CE",
+    "sort_year": 1,
+    "kind": "period",
+    "description": "The pagan ruler Vladimir of Kiev orders the destruction of the pagan idols, including the great wooden idol of Perun. This is the oldest attested event in the Slavic pantheon's history.",
+    "confidence": "attested"
+  },
+  {
+    "id": "slv-t3",
+    "label": "The Primary Chronicle",
+    "year_label": "c. 1113 CE (describes 10th c.)",
+    "sort_year": 2,
+    "kind": "period",
+    "description": "The Primary Chronicle (Latopis povest' vremen'nykh let) is composed. It names the Kiev pantheon (Perun, Khors, Dazhbog, Stribog, Veles, Mokosh) and describes the 980 'destruction of the idols'.",
+    "confidence": "attested"
+  },
+  {
+    "id": "slv-t4",
+    "label": "The 'Tales of the Destruction of the Idols'",
+    "year_label": "16th-18th century CE",
+    "sort_year": 3,
+    "kind": "period",
+    "description": "The 'Tale of the Destruction of the Idols' (Skazanie o razrushenii idolov) and other later chronicles retell the 980 event and the pagan pantheon in detail.",
+    "confidence": "attested"
+  },
+  {
+    "id": "slv-t5",
+    "label": "Ethnographic collection",
+    "year_label": "19th-20th century CE",
+    "sort_year": 4,
+    "kind": "period",
+    "description": "19th-20th c. ethnographers (Vsevolod Miller, Vasily Ivanov, etc.) collect folk survivals of the pre-Christian religion: the 'drowning of Marzanna', the 'Kupala' night, the 'Veles-day', the folk gods (Lada, Morana, Zorya).",
+    "confidence": "attested"
+  }
+]

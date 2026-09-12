@@ -1,0 +1,30 @@
+[
+  {
+    "type": "text",
+    "name": "Poetic Edda (Codex Regius)",
+    "date": "c. 1270 (preserves earlier oral poetry)",
+    "ref": "S1",
+    "url": "https://www.sacred-texts.com/neu/poe/index.htm"
+  },
+  {
+    "type": "text",
+    "name": "Snorri Sturluson, Prose Edda",
+    "date": "c. 1220–1235",
+    "ref": "S2",
+    "url": "https://www.sacred-texts.com/neu/pse/index.htm"
+  },
+  {
+    "type": "text",
+    "name": "Skaldic poetry (various)",
+    "date": "9th–13th c. CE",
+    "ref": "S3",
+    "url": null
+  },
+  {
+    "type": "archaeological",
+    "name": "Gosforth Cross (carving)",
+    "date": "c. 950–1000 CE",
+    "ref": "S4",
+    "url": null
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Kofun period (burial mounds)",
+    "year_label": "ca. 300–550 CE",
+    "sort_year": 300,
+    "kind": "archaeological",
+    "description": "The Yayoi-Kofun transition; large burial mounds (kofun), haniwa (clay figurines), and bronze mirrors are the archaeological context for the later mythographic tradition [S17]."
+  },
+  {
+    "label": "Yayoi-Kofun material culture",
+    "year_label": "ca. 400–600 CE",
+    "sort_year": 450,
+    "kind": "archaeological",
+    "description": "Iron tools, rice agriculture, and the emerging Yamato polity; the social world in which the kami-cults later codified in the Kojiki took shape [S17][S21]."
+  },
+  {
+    "label": "Kojiki compiled",
+    "year_label": "712 CE",
+    "sort_year": 712,
+    "kind": "text",
+    "description": "'Records of Ancient Matters,' the earliest Japanese mythographic text, compiled under imperial order [S1]."
+  },
+  {
+    "label": "Nihon Shoki compiled",
+    "year_label": "720 CE",
+    "sort_year": 720,
+    "kind": "text",
+    "description": "'Chronicles of Japan,' the second major mythographic/annalistic text [S2]."
+  },
+  {
+    "label": "Engishiki (ritual code)",
+    "year_label": "927 CE",
+    "sort_year": 927,
+    "kind": "text",
+    "description": "A Heian-era ritual and administrative code that records shrine rites and the institutional Shinto [S19]."
+  },
+  {
+    "label": "Kitano Tenjin illustrated legends",
+    "year_label": "11th–13th c.",
+    "sort_year": 1150,
+    "kind": "manuscript",
+    "description": "Medieval illustrated (emakimono) accounts of deities and heroes, e.g. the Tenjin (Michizane) legends [S7]."
+  },
+  {
+    "label": "Shinbutsu-gazurra and Edo-period deity imagery",
+    "year_label": "1600s–1868",
+    "sort_year": 1750,
+    "kind": "manuscript",
+    "description": "Printed deity-compendium (shinbutsu-gazurra, e.g. Kanda Genbun's 1720 work) standardizing visual images of the kami [S13][S14]."
+  },
+  {
+    "label": "Meiji Restoration; state Shinto",
+    "year_label": "1868",
+    "sort_year": 1868,
+    "kind": "modern_recording",
+    "description": "The Meiji state separates Shinto from Buddhism and constructs a state Shinto with the imperial line at its center, institutionalizing the Kojiki genealogy [S21]."
+  },
+  {
+    "label": "Shrine ordinances (jinja rei)",
+    "year_label": "1906–1940",
+    "sort_year": 1920,
+    "kind": "modern_recording",
+    "description": "State ordinances codifying shrine ranks and rites, further institutionalizing the mythographic tradition [S21]."
+  },
+  {
+    "label": "Renunciation of divinity (humanity declaration)",
+    "year_label": "1946",
+    "sort_year": 1946,
+    "kind": "modern_recording",
+    "description": "The postwar declaration that the emperor and people are not of a divine origin, marking the end of the official divine-status framing [S21]."
+  }
+]

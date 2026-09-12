@@ -1,0 +1,44 @@
+[
+  {
+    "type": "text",
+    "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+    "date": "c. 1113 CE (describes 10th c.)",
+    "ref": "S1",
+    "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+  },
+  {
+    "type": "text",
+    "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+    "date": "14th-15th c. (later copy)",
+    "ref": "S2",
+    "url": null
+  },
+  {
+    "type": "text",
+    "name": "'Tale of the Destruction of the Idols' (Skazanie o razrushenii idolov)",
+    "date": "16th-18th c.",
+    "ref": "S3",
+    "url": "https://en.wikisource.org/wiki/"
+  },
+  {
+    "type": "academic",
+    "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+    "date": "1860 (19th c. ethnographic)",
+    "ref": "S4",
+    "url": null
+  },
+  {
+    "type": "academic",
+    "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+    "date": "19th-20th c.",
+    "ref": "S5",
+    "url": null
+  },
+  {
+    "type": "academic",
+    "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+    "date": "1970s-2000s",
+    "ref": "S6",
+    "url": null
+  }
+]

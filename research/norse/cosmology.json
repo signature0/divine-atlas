@@ -1,131 +1,131 @@
 {
- "realms": [
-  {
-   "id": "nor-asgard",
-   "name": "Asgard",
-   "native_name": "Ásgarðr",
-   "description": "The realm of the Æsir, home of the gods, with the hall of Odin (Valhalla) and the bridge Bifrost [S2].",
-   "entities": [
-    "nor-odin",
-    "nor-frigg",
-    "nor-baldr",
-    "nor-hodr",
-    "nor-thor",
-    "nor-tyr",
-    "nor-heimdall",
-    "nor-vidar",
-    "nor-vali",
-    "nor-sif",
-    "nor-uthra"
-   ],
-   "layout": {
-    "x": 0.5,
-    "y": 0.08,
-    "r": 0.13
-   }
-  },
-  {
-   "id": "nor-midgard",
-   "name": "Midgard",
-   "native_name": "Miðgarðr",
-   "description": "The world of humans, encircled by the sea and the world-serpent Jörmungandr [S2].",
-   "entities": [
-    "nor-jormungandr",
-    "nor-fenrir"
-   ],
-   "layout": {
-    "x": 0.5,
-    "y": 0.5,
-    "r": 0.16
-   }
-  },
-  {
-   "id": "nor-vanaheim",
-   "name": "Vanaheim",
-   "native_name": "Vanaheimr",
-   "description": "The realm of the Vanir (Njord, Freyr, Freyja), the second divine tribe [S2].",
-   "entities": [
-    "nor-nyrd",
-    "nor-freyr",
-    "nor-freyja"
-   ],
-   "layout": {
-    "x": 0.82,
-    "y": 0.28,
-    "r": 0.1
-   }
-  },
-  {
-   "id": "nor-jotunheim",
-   "name": "Jötunheim",
-   "native_name": "Jötunheimr",
-   "description": "The realm of the frost-giants (jötnar), the enemies of the gods [S2].",
-   "entities": [
-    "nor-bestla",
-    "nor-anguela"
-   ],
-   "layout": {
-    "x": 0.18,
-    "y": 0.28,
-    "r": 0.1
-   }
-  },
-  {
-   "id": "nor-niflheim",
-   "name": "Niflheim",
-   "native_name": "Niflheimr",
-   "description": "The realm of ice and mist, to the north; source of the primordial rime [S2].",
-   "entities": [
-    "nor-niflheim"
-   ],
-   "layout": {
-    "x": 0.5,
-    "y": 0.85,
-    "r": 0.08
-   }
-  },
-  {
-   "id": "nor-muspel",
-   "name": "Muspelheim",
-   "native_name": "Múspellsheimr",
-   "description": "The realm of fire, to the south; its heat began the creation [S2].",
-   "entities": [
-    "nor-muspel"
-   ],
-   "layout": {
-    "x": 0.85,
-    "y": 0.85,
-    "r": 0.08
-   }
-  },
-  {
-   "id": "nor-helheim",
-   "name": "Hel (the realm of the dead)",
-   "native_name": "Hel",
-   "description": "The realm of the dead, ruled by Hel; those who die of sickness or old age go here [S2].",
-   "entities": [
-    "nor-hel"
-   ],
-   "layout": {
-    "x": 0.15,
-    "y": 0.85,
-    "r": 0.08
-   }
-  },
-  {
-   "id": "nor-sea",
-   "name": "The Sea (around Midgard)",
-   "native_name": "",
-   "description": "The sea that encircles Midgard, where Jörmungandr lies [S2].",
-   "entities": [
-    "nor-jormungandr"
-   ],
-   "layout": {
-    "x": 0.5,
-    "y": 0.68,
-    "r": 0.08
-   }
-  }
- ],
- "structure_notes": "The Nine Worlds are arranged around the world-tree Yggdrasil, which connects them. Asgard is at the top (the realm of the gods), Midgard (the human world) in the middle, and the realms of ice, fire, and the dead at the bottom and sides. The world-serpent Jörmungandr encircles Midgard in the sea [S2]. Yggdrasil is the axis that holds all the worlds together."
+  "realms": [
+    {
+      "id": "nor-asgard",
+      "name": "Asgard",
+      "native_name": "Ásgarðr",
+      "description": "The realm of the Æsir, home of the gods, with the hall of Odin (Valhalla) and the bridge Bifrost [S2].",
+      "entities": [
+        "nor-odin",
+        "nor-frigg",
+        "nor-baldr",
+        "nor-hodr",
+        "nor-thor",
+        "nor-tyr",
+        "nor-heimdall",
+        "nor-vidar",
+        "nor-vali",
+        "nor-sif",
+        "nor-uthra"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.14222,
+        "r": 0.07
+      }
+    },
+    {
+      "id": "nor-midgard",
+      "name": "Midgard",
+      "native_name": "Miðgarðr",
+      "description": "The world of humans, encircled by the sea and the world-serpent Jörmungandr [S2].",
+      "entities": [
+        "nor-jormungandr",
+        "nor-fenrir"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.48,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "nor-vanaheim",
+      "name": "Vanaheim",
+      "native_name": "Vanaheimr",
+      "description": "The realm of the Vanir (Njord, Freyr, Freyja), the second divine tribe [S2].",
+      "entities": [
+        "nor-nyrd",
+        "nor-freyr",
+        "nor-freyja"
+      ],
+      "layout": {
+        "x": 0.85,
+        "y": 0.28444,
+        "r": 0.055
+      }
+    },
+    {
+      "id": "nor-jotunheim",
+      "name": "Jötunheim",
+      "native_name": "Jötunheimr",
+      "description": "The realm of the frost-giants (jötnar), the enemies of the gods [S2].",
+      "entities": [
+        "nor-bestla",
+        "nor-anguela"
+      ],
+      "layout": {
+        "x": 0.15,
+        "y": 0.28444,
+        "r": 0.055
+      }
+    },
+    {
+      "id": "nor-niflheim",
+      "name": "Niflheim",
+      "native_name": "Niflheimr",
+      "description": "The realm of ice and mist, to the north; source of the primordial rime [S2].",
+      "entities": [
+        "nor-niflheim"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.79111,
+        "r": 0.06
+      }
+    },
+    {
+      "id": "nor-muspel",
+      "name": "Muspelheim",
+      "native_name": "Múspellsheimr",
+      "description": "The realm of fire, to the south; its heat began the creation [S2].",
+      "entities": [
+        "nor-muspel"
+      ],
+      "layout": {
+        "x": 0.85,
+        "y": 0.79111,
+        "r": 0.055
+      }
+    },
+    {
+      "id": "nor-helheim",
+      "name": "Hel (the realm of the dead)",
+      "native_name": "Hel",
+      "description": "The realm of the dead, ruled by Hel; those who die of sickness or old age go here [S2].",
+      "entities": [
+        "nor-hel"
+      ],
+      "layout": {
+        "x": 0.15,
+        "y": 0.79111,
+        "r": 0.055
+      }
+    },
+    {
+      "id": "nor-sea",
+      "name": "The Sea (around Midgard)",
+      "native_name": "",
+      "description": "The sea that encircles Midgard, where Jörmungandr lies [S2].",
+      "entities": [
+        "nor-jormungandr"
+      ],
+      "layout": {
+        "x": 0.8,
+        "y": 0.54222,
+        "r": 0.045
+      }
+    }
+  ],
+  "structure_notes": "The Nine Worlds are arranged around the world-tree Yggdrasil, which connects them. Asgard is at the top (the realm of the gods), Midgard (the human world) in the middle, and the realms of ice, fire, and the dead at the bottom and sides. The world-serpent Jörmungandr encircles Midgard in the sea [S2]. Yggdrasil is the axis that holds all the worlds together."
 }

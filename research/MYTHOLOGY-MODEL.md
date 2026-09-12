@@ -134,7 +134,7 @@ All six Version-1 datasets are built, validated, and artwork-verified:
 - Egyptian: 25 entities / 44 relationships / 8 myths / 16 artworks
 - Slavic: 13 entities / 16 relationships / 5 myths / 5 artworks
 - Mesopotamian: 19 entities / 31 relationships / 6 myths / 7 artworks
-Total: 169 entities, 256 typed relationships, 44 myths, 71 verified artworks.
+Total: 159 entities, 286 typed relationships, 44 myths, 71 verified artworks.
 Every artwork URL was fetched and confirmed live (HTTP 200) on 2026-09-12;
 Wikimedia 429 rate-limits during bulk checks were re-verified individually via
 the Commons API (file existence) + direct byte-fetch.

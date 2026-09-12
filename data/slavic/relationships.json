@@ -1,0 +1,176 @@
+[
+  {
+    "from": "slv-svarog",
+    "to": "slv-veles",
+    "type": "PARENT_OF",
+    "note": "Svarog is the father of Veles (reconstructed genealogy).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "This father-son relationship is a scholarly reconstruction (Ivanov & Toporov), not a single attested myth [S6]."
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-veles",
+    "type": "ENEMY_OF",
+    "note": "Perun and Veles are the great antagonists (the sky-thunder-god vs. the underworld-serpent-god).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "The 'Perun-Veles' conflict is a scholarly reconstruction (Ivanov & Toporov), not a single attested myth [S6]."
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-veles",
+    "type": "FOUGHT",
+    "note": "Perun and Veles are in conflict (the sky-thunder vs. the underworld-serpent).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ]
+  },
+  {
+    "from": "slv-jarilo",
+    "to": "slv-morana",
+    "type": "ENEMY_OF",
+    "note": "Jarilo (spring/youth) and Morana (winter/death) are the great antagonists of the seasonal cycle.",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "The seasonal Jarilo-Morana opposition is a scholarly reconstruction from folk ritual [S6]."
+  },
+  {
+    "from": "slv-jarilo",
+    "to": "slv-morana",
+    "type": "FOUGHT",
+    "note": "Jarilo and Morana are in opposition (the spring vs. the winter).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ]
+  },
+  {
+    "from": "slv-nebo",
+    "to": "slv-perun",
+    "type": "ASSOCIATED_WITH",
+    "note": "Nebo (the sky-father) and Perun (the thunder-god) are both 'sky' deities; their relationship is debated.",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "Whether Nebo is the supreme god above Perun, or a folk Christianization that absorbed Perun's role, is debated [S6]."
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-dazhbog",
+    "type": "SIBLING_OF",
+    "note": "Perun and Dazhbog are both members of the Kiev pantheon (the 'sky/sun' group).",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "explanation": "Both are named in the Kiev idol list; their exact relationship is not specified [S1][S2]."
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-khors",
+    "type": "SIBLING_OF",
+    "note": "Perun and Khors are both members of the Kiev pantheon.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-stribog",
+    "type": "SIBLING_OF",
+    "note": "Perun and Stribog are both members of the Kiev pantheon.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "slv-perun",
+    "to": "slv-veles",
+    "type": "SIBLING_OF",
+    "note": "(Variant) In some reconstructions Perun and Veles are siblings; in others Veles is Svarog's son.",
+    "confidence": "variant",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "The relationship between Perun and Veles is not consistent: some see them as siblings, others as Veles being Svarog's son [S6]."
+  },
+  {
+    "from": "slv-mokosh",
+    "to": "slv-perun",
+    "type": "PARTNER_OF",
+    "note": "(Reconstructed) Mokosh is sometimes seen as Perun's consort (the earth-mother to the sky-father).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "The Perun-Mokosh pairing is a reconstructed parallel to the Indo-European sky-father/earth-mother, not a single attested myth [S6]."
+  },
+  {
+    "from": "slv-svarog",
+    "to": "slv-perun",
+    "type": "ALLY_OF",
+    "note": "Svarog (the forge-fire) and Perun (the sacred fire) are both 'fire' deities; their relationship is debated.",
+    "confidence": "reconstructed",
+    "sources": [
+      "S4",
+      "S6"
+    ],
+    "explanation": "The 'sacred fire' is attributed to both Svarog and Perun in different sources; the relationship is debated [S4][S6]."
+  },
+  {
+    "from": "slv-dazhbog",
+    "to": "slv-khors",
+    "type": "ASSOCIATED_WITH",
+    "note": "Dazhbog and Khors are both solar/light deities; their distinction is not clear.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ],
+    "explanation": "Both are named in the Kiev idol list as solar/light deities; their distinction is not well-defined [S4]."
+  },
+  {
+    "from": "slv-zorya",
+    "to": "slv-nebo",
+    "type": "ASSOCIATED_WITH",
+    "note": "The Zorya (the dawn) is associated with Nebo (the sky) — the 'gate' of the sky.",
+    "confidence": "attested (folk)",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "slv-veles",
+    "to": "slv-cherd",
+    "type": "ASSOCIATED_WITH",
+    "note": "Veles (the underworld-god) is associated with Cherd (the lord of the underworld).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ],
+    "explanation": "Both are 'underworld' deities; their exact relationship is not attested [S6]."
+  },
+  {
+    "from": "slv-morana",
+    "to": "slv-cherd",
+    "type": "ALLY_OF",
+    "note": "(Reconstructed) Morana (death) is associated with Cherd (the underworld).",
+    "confidence": "reconstructed",
+    "sources": [
+      "S6"
+    ]
+  }
+]

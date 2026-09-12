@@ -1,0 +1,244 @@
+[
+  {
+    "id": "mes-enuma",
+    "culture": "mesopotamian",
+    "title": "The Enuma Elish (the Babylonian Creation Epic)",
+    "summary": "The Enuma Elish is the great Babylonian creation epic, the 'New Year' (Akitu) festival text. In it, the gods (the 'Apsu' and the 'Tiamat' generations) are in conflict; the young gods (led by Marduk) are chosen to fight Tiamat. Marduk slays Tiamat with his bow, net, and 'rakasu' winds, splits her body in two to make the sky (upper half) and the earth (lower half), and from Kingu's blood (Tiamat's general) creates humanity. Marduk takes the 'Tablet of Destinies' and becomes the king of the gods [S1].",
+    "participants": [
+      "mes-marduk",
+      "mes-tiamat",
+      "mes-kingu",
+      "mes-enki"
+    ],
+    "primary_sources": [
+      "S1"
+    ],
+    "variants": [
+      {
+        "label": "Atrahasis (Old Babylonian)",
+        "text": "In the Atrahasis, the creation of humanity is from Apsu's flesh (not Kingu's blood); the flood-hero is Atrahasis [S3]."
+      }
+    ],
+    "uncertainty_notes": "The Enuma Elish has multiple versions (Old Babylonian c. 18th c. BCE; standard form c. 1100-1000 BCE); the details vary [S1].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "The Primeval Waters",
+        "body": "Apsu (the fresh water) and Tiamat (the salt water) are the two primeval waters [S1]."
+      },
+      {
+        "heading": "The Conflict",
+        "body": "The young gods (led by Marduk) are in conflict with Tiamat's army [S1]."
+      },
+      {
+        "heading": "Marduk's Challenge",
+        "body": "Marduk is chosen to fight Tiamat [S1]."
+      },
+      {
+        "heading": "The Slaying of Tiamat",
+        "body": "Marduk slays Tiamat with his bow, net, and 'rakasu' winds [S1]."
+      },
+      {
+        "heading": "The Creation of the World",
+        "body": "Marduk splits Tiamat's body in two to make the sky and the earth [S1]."
+      },
+      {
+        "heading": "The Creation of Humanity",
+        "body": "From Kingu's blood, Marduk creates humanity [S1]."
+      },
+      {
+        "heading": "The Tablet of Destinies",
+        "body": "Marduk takes the 'Tablet of Destinies' and becomes king of the gods [S1]."
+      }
+    ]
+  },
+  {
+    "id": "mes-creation",
+    "culture": "mesopotamian",
+    "title": "The Sumerian Creation (An and Ki)",
+    "summary": "In Sumerian cosmology, An (the sky) and Ki (the earth) are the first pair — the 'parents' of the world. From their union (or from the separation of heaven and earth), the gods and the world emerge [S5]. The 'Apsu' (the fresh water) and the 'Tiamat' (the salt water) are the two primeval waters [S5].",
+    "participants": [
+      "mes-apas",
+      "mes-ki",
+      "mes-abzu",
+      "mes-tiamat"
+    ],
+    "primary_sources": [
+      "S5"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The Sumerian creation is less well-attested than the Babylonian (Enuma Elish); it is reconstructed from Sumerian texts [S5].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "An and Ki",
+        "body": "An (the sky) and Ki (the earth) are the first pair [S5]."
+      },
+      {
+        "heading": "The Primeval Waters",
+        "body": "The 'Apsu' (fresh water) and the 'Tiamat' (salt water) are the two primeval waters [S5]."
+      },
+      {
+        "heading": "The Emergence of the Gods",
+        "body": "From the separation of heaven and earth, the gods emerge [S5]."
+      }
+    ]
+  },
+  {
+    "id": "mes-flood",
+    "culture": "mesopotamian",
+    "title": "The Flood (Atrahasis / Gilgamesh)",
+    "summary": "In the Atrahasis and the Gilgamesh flood-story, the gods (led by Enlil) decide to destroy humanity with a flood (because humanity's noise/disturbance is too great). Enki (Ea) saves the flood-hero (Atrahasis in the Atrahasis; Utnapishtim in the Gilgamesh) by whispering to him to build a boat. The flood destroys all life, but the flood-hero (and his family) survive. The flood-hero is later made immortal (in the Gilgamesh) [S2][S3].",
+    "participants": [
+      "mes-enlil",
+      "mes-enki",
+      "mes-utu"
+    ],
+    "primary_sources": [
+      "S2",
+      "S3"
+    ],
+    "variants": [
+      {
+        "label": "Gilgamesh (Standard Babylonian)",
+        "text": "In the Gilgamesh, the flood-hero is Utnapishtim (the 'faraway' one); the flood is part of Gilgamesh's quest for immortality [S2]."
+      },
+      {
+        "label": "Atrahasis (Old Babylonian)",
+        "text": "In the Atrahasis, the flood-hero is Atrahasis; the flood is part of the creation-of-humanity story [S3]."
+      }
+    ],
+    "uncertainty_notes": "The flood-story has multiple versions (Atrahasis, Gilgamesh, and others); the details vary [S2][S3].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "The Decision",
+        "body": "The gods (led by Enlil) decide to destroy humanity with a flood [S2][S3]."
+      },
+      {
+        "heading": "Enki's Warning",
+        "body": "Enki (Ea) whispers to the flood-hero to build a boat [S2][S3]."
+      },
+      {
+        "heading": "The Flood",
+        "body": "The flood destroys all life [S2][S3]."
+      },
+      {
+        "heading": "The Survival",
+        "body": "The flood-hero (and his family) survive [S2][S3]."
+      },
+      {
+        "heading": "The Immortality",
+        "body": "The flood-hero is made immortal (in the Gilgamesh) [S2]."
+      }
+    ]
+  },
+  {
+    "id": "mes-inanna-descent",
+    "culture": "mesopotamian",
+    "title": "Inanna's Descent to the Underworld",
+    "summary": "The great Sumerian myth of 'Inanna's Descent to the Underworld': Inanna descends to the underworld to attend the funeral of her sister Ereshkigal (the underworld-goddess). At the seven gates of the underworld, Inanna is stripped of her powers (her crown, her weapons, her jewelry) one by one. At the bottom, Ereshkigal kills Inanna (she is hung on a peg as a corpse). Enki (the wisdom god) is moved to pity and sends a being (the 'galatur' or the 'keshig') to bring Inanna back. Inanna is restored, but must send a 'stand-in' (her consort Dumuzi) to the underworld in her place [S4][S5].",
+    "participants": [
+      "mes-inanna",
+      "mes-erishkigal",
+      "mes-enki",
+      "mes-nanna"
+    ],
+    "primary_sources": [
+      "S4",
+      "S5"
+    ],
+    "variants": [
+      {
+        "label": "Akkadian (Ishtar) version",
+        "text": "In the Akkadian (Ishtar) version, the details vary (the 'stand-in' is sometimes not Dumuzi) [S4]."
+      }
+    ],
+    "uncertainty_notes": "The 'Descent' myth has multiple versions (Sumerian c. 1900-1700 BCE; later Akkadian versions); the details vary [S4].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "The Descent",
+        "body": "Inanna descends to the underworld to attend Ereshkigal's funeral [S4]."
+      },
+      {
+        "heading": "The Seven Gates",
+        "body": "At the seven gates, Inanna is stripped of her powers one by one [S4]."
+      },
+      {
+        "heading": "The Killing",
+        "body": "At the bottom, Ereshkigal kills Inanna (she is hung on a peg) [S4]."
+      },
+      {
+        "heading": "The Restoration",
+        "body": "Enki sends a being to bring Inanna back [S4]."
+      },
+      {
+        "heading": "The Stand-in",
+        "body": "Inanna must send a 'stand-in' (Dumuzi) to the underworld in her place [S4]."
+      }
+    ]
+  },
+  {
+    "id": "mes-inanna-erishkigal",
+    "culture": "mesopotamian",
+    "title": "Inanna and Ereshkigal (the 'sisters' of the underworld)",
+    "summary": "Inanna (the 'light' goddess) and Ereshkigal (the 'dark' goddess of the underworld) are 'sisters' (in some accounts) or adversaries. The 'Descent' myth is the great conflict between the two: Inanna descends to the underworld and is killed by Ereshkigal [S4][S5]. The 'sisters' relationship is a 'light/dark' duality: Inanna is the 'light' (the morning star, the life-giver), Ereshkigal is the 'dark' (the underworld, the death-bringer) [S4][S5].",
+    "participants": [
+      "mes-inanna",
+      "mes-erishkigal"
+    ],
+    "primary_sources": [
+      "S4",
+      "S5"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'sisters' relationship varies by version [S4][S5].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "The 'Sisters'",
+        "body": "Inanna and Ereshkigal are 'sisters' (in some accounts) [S4][S5]."
+      },
+      {
+        "heading": "The Light/Dark Duality",
+        "body": "Inanna is the 'light'; Ereshkigal is the 'dark' [S4][S5]."
+      },
+      {
+        "heading": "The 'Descent'",
+        "body": "Inanna descends to the underworld and is killed by Ereshkigal [S4]."
+      }
+    ]
+  },
+  {
+    "id": "mes-enlil-erosion",
+    "culture": "mesopotamian",
+    "title": "Enlil and the 'Erosion' of the World (the flood-decree)",
+    "summary": "In the Atrahasis and the Gilgamesh flood-story, Enlil (the king of the gods) decrees the flood because humanity's noise/disturbance is too great. The 'erosion' of the world (the flood) is Enlil's decree to destroy humanity [S2][S3]. Enki (Ea) saves the flood-hero against Enlil's will [S2][S3].",
+    "participants": [
+      "mes-enlil",
+      "mes-enki"
+    ],
+    "primary_sources": [
+      "S2",
+      "S3"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'erosion' (the flood) is a 'destruction' myth: the world is 'eroded' by the flood [S2][S3].",
+    "evidence_status": "attested",
+    "chapters": [
+      {
+        "heading": "The Noise",
+        "body": "Humanity's noise/disturbance is too great [S2][S3]."
+      },
+      {
+        "heading": "The Decree",
+        "body": "Enlil decrees the flood [S2][S3]."
+      },
+      {
+        "heading": "Enki's Intervention",
+        "body": "Enki (Ea) saves the flood-hero against Enlil's will [S2][S3]."
+      }
+    ]
+  }
+]

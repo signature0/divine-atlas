@@ -1,0 +1,56 @@
+{
+  "realms": [
+    {
+      "id": "mes-sky",
+      "name": "The Heavens (An)",
+      "native_name": "An",
+      "description": "The sky/heaven, the realm of An (the sky god), Enlil (the storm/air god), Marduk (the Babylonian supreme god), Nanna (the moon), and Utu (the sun) [S1][S5].",
+      "entities": [
+        "mes-apas",
+        "mes-enlil",
+        "mes-marduk",
+        "mes-nanna",
+        "mes-utu"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.16,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "mes-earth",
+      "name": "The Earth (Ki)",
+      "native_name": "Ki",
+      "description": "The earth, the realm of the human world and the earth-gods (Ninhursag, the 'earth-mother') [S5].",
+      "entities": [
+        "mes-ki",
+        "mes-ninhursag"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.47111,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "mes-underworld",
+      "name": "The Underworld (Irkallu / Kur)",
+      "native_name": "Irkallu / Kur",
+      "description": "The underworld, the realm of the dead, the domain of Ereshkigal (the queen of the underworld) and Nergal (the underworld-god) [S4][S5].",
+      "entities": [
+        "mes-erishkigal",
+        "mes-nergal",
+        "mes-erishkigal-consort",
+        "mes-abzu",
+        "mes-tiamat"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.78222,
+        "r": 0.08
+      }
+    }
+  ],
+  "structure_notes": "The Mesopotamian cosmos is three-layered: the Heavens (An) above, the Earth (Ki) in the middle, and the Underworld (Irkallu/Kur) below. The 'Apsu' (the fresh water) and the 'Tiamat' (the salt water) are the two primeval waters that underlie the world [S1][S5]. This is a scholarly reconstruction from Sumerian and Babylonian texts [S5]."
+}

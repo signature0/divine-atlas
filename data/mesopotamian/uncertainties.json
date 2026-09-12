@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mes-u1",
+    "topic": "The 'supremacy' of the gods over time",
+    "positions": [
+      {
+        "name": "Sumerian",
+        "description": "An is the supreme god"
+      },
+      {
+        "name": "Akkadian/Babylonian",
+        "description": "Enlil is the king of the gods"
+      },
+      {
+        "name": "Babylonian (later)",
+        "description": "Marduk is the king of the gods"
+      }
+    ],
+    "how_we_present_it": "We present the 'supremacy' as a political/theological development over time, not as a mythic event. We do NOT flatten the pantheon into one 'supreme god'."
+  },
+  {
+    "id": "mes-u2",
+    "topic": "Inanna and Ereshkigal",
+    "positions": [
+      {
+        "name": "S4",
+        "description": "In some accounts they are 'sisters'; in others they are adversaries"
+      }
+    ],
+    "how_we_present_it": "We store both versions and note the variation."
+  },
+  {
+    "id": "mes-u3",
+    "topic": "The flood-story",
+    "positions": [
+      {
+        "name": "Atrahasis",
+        "description": "The flood-hero is Atrahasis; the flood is part of the creation-of-humanity story"
+      },
+      {
+        "name": "Gilgamesh",
+        "description": "The flood-hero is Utnapishtim; the flood is part of Gilgamesh's quest for immortality"
+      }
+    ],
+    "how_we_present_it": "We present both versions (Atrahasis and Gilgamesh) and note the differences."
+  },
+  {
+    "id": "mes-u4",
+    "topic": "The 'Descent' myth",
+    "positions": [
+      {
+        "name": "Sumerian (c. 1900-1700 BCE)",
+        "description": "The 'Descent' in its Sumerian form"
+      },
+      {
+        "name": "Akkadian (Ishtar) version",
+        "description": "The details vary (the 'stand-in' is sometimes not Dumuzi)"
+      }
+    ],
+    "how_we_present_it": "We present the Sumerian version as the primary and note the Akkadian variant."
+  },
+  {
+    "id": "mes-u5",
+    "topic": "The dating of the myths",
+    "positions": [
+      {
+        "name": "Sumerian",
+        "description": "The Sumerian texts are c. 3500-2000 BCE"
+      },
+      {
+        "name": "Babylonian",
+        "description": "The Babylonian texts (Enuma Elish, Gilgamesh) are c. 1800-1000 BCE"
+      }
+    ],
+    "how_we_present_it": "We make clear that the Sumerian religion is much older than the Babylonian texts that preserve it."
+  },
+  {
+    "id": "mes-u6",
+    "topic": "The 'creation' of humanity",
+    "positions": [
+      {
+        "name": "Enuma Elish",
+        "description": "From Kingu's blood (Tiamat's general)"
+      },
+      {
+        "name": "Atrahasis",
+        "description": "From Apsu's flesh (the primeval fresh water)"
+      }
+    ],
+    "how_we_present_it": "We present both versions and note that they are distinct creation-accounts."
+  }
+]

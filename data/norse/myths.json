@@ -1,0 +1,248 @@
+[
+  {
+    "id": "nor-creation",
+    "culture": "norse",
+    "title": "The Creation of the World from Ymir",
+    "summary": "Between the ice of Niflheim and the fire of Muspelheim, in the void of Ginnungagap, the rime formed the giant Ymir and the cow Auðhumbla. From the salt Auðhumbla licked came the first god, Búri. His descendants — Odin, Vili, and Vé — killed Ymir and made the world from his body: his blood the seas, his flesh the earth, his bones the mountains, his skull the sky [S2].",
+    "participants": [
+      "nor-ymir",
+      "nor-aurdhumbla",
+      "nor-burir",
+      "nor-odin",
+      "nor-vili",
+      "nor-ve"
+    ],
+    "primary_sources": [
+      "S1",
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "",
+    "chapters": [
+      {
+        "heading": "The Primordial Void",
+        "body": "Niflheim (ice), Muspelheim (fire), and the gap between [S2]."
+      },
+      {
+        "heading": "Ymir and Auðhumbla",
+        "body": "The rime formed Ymir; the cow licked him free [S2]."
+      },
+      {
+        "heading": "Búri",
+        "body": "The first god, from the salt [S2]."
+      },
+      {
+        "heading": "The Three Brothers",
+        "body": "Odin, Vili, and Vé, sons of Borr and Bestla [S2]."
+      },
+      {
+        "heading": "The World from Ymir",
+        "body": "The body of Ymir became the world [S2]."
+      }
+    ]
+  },
+  {
+    "id": "nor-runes",
+    "culture": "norse",
+    "title": "Odin and the Runes",
+    "summary": "To win the runes, Odin hung himself on the world-tree Yggdrasil for nine nights, pierced by his own spear, until the runes revealed themselves to him [S1]. The runes are the source of wisdom and of the poetic art, and Odin is their patron [S1][S3].",
+    "participants": [
+      "nor-odin"
+    ],
+    "primary_sources": [
+      "S1",
+      "S3"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'nine nights' and the details of the self-sacrifice are from the Hávamál (Poetic Edda); the act is a symbolic, not a literal, one [S1].",
+    "chapters": [
+      {
+        "heading": "The Self-Sacrifice",
+        "body": "Odin hung on Yggdrasil for nine nights [S1]."
+      },
+      {
+        "heading": "The Reveal",
+        "body": "The runes revealed themselves to him [S1]."
+      }
+    ]
+  },
+  {
+    "id": "nor-baldr-death",
+    "culture": "norse",
+    "title": "The Death of Baldr",
+    "summary": "Baldr, the brightest of the gods, had dreams of his death. His mother Frigg extracted oaths from all things not to harm him — except the mistletoe. Loki, disguised as an old woman, learned of this and guided Baldr's blind brother Höðr to throw a mistletoe dart at Baldr, killing him [S2]. Baldr's death is the beginning of the end, setting the chain of events that leads to Ragnarök [S1][S2].",
+    "participants": [
+      "nor-baldr",
+      "nor-frigg",
+      "nor-loomi",
+      "nor-hodr"
+    ],
+    "primary_sources": [
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'mistletoe' detail and the full sequence are from the Prose Edda; the Poetic Edda has fragments but not the full story [S1][S2].",
+    "chapters": [
+      {
+        "heading": "The Dreams",
+        "body": "Baldr dreamed of his death [S2]."
+      },
+      {
+        "heading": "The Oaths",
+        "body": "Frigg bound all things — except the mistletoe [S2]."
+      },
+      {
+        "heading": "Loki's Trick",
+        "body": "Loki, as an old woman, led Höðr to throw the mistletoe [S2]."
+      },
+      {
+        "heading": "The Death",
+        "body": "Baldr was killed; his funeral was a great event [S2]."
+      }
+    ]
+  },
+  {
+    "id": "nor-fenrir-binding",
+    "culture": "norse",
+    "title": "The Binding of Fenrir",
+    "summary": "The gods, fearing the growing wolf Fenrir, tried to bind him. The first two bindings he broke, but the third — a magic ribbon made of six impossible things (Gleipnir) — held. Only Týr placed his hand in the wolf's mouth as a pledge; when the binding held, Fenrir bit off his hand [S2].",
+    "participants": [
+      "nor-fenrir",
+      "nor-tyr",
+      "nor-loomi"
+    ],
+    "primary_sources": [
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "",
+    "chapters": [
+      {
+        "heading": "The Fear",
+        "body": "The gods feared Fenrir's strength [S2]."
+      },
+      {
+        "heading": "The First Two Bonds",
+        "body": "Leadbond and Dromi — Fenrir broke both [S2]."
+      },
+      {
+        "heading": "Gleipnir",
+        "body": "A ribbon of six impossible things [S2]."
+      },
+      {
+        "heading": "Týr's Hand",
+        "body": "Only Týr placed his hand in the wolf's mouth; it was bitten off [S2]."
+      }
+    ]
+  },
+  {
+    "id": "nor-loki-children",
+    "culture": "norse",
+    "title": "Loki's Children",
+    "summary": "Loki, in the form of a mare, mated with the stallion Svaðilfari and bore Sleipnir, the eight-legged horse of Odin. With the giantess Angerboa, Loki fathered the great monsters: the wolf Fenrir, the world-serpent Jörmungandr, and Hel, the ruler of the dead [S2].",
+    "participants": [
+      "nor-loomi",
+      "nor-anguela",
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-hel",
+      "nor-sleipnir"
+    ],
+    "primary_sources": [
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "",
+    "chapters": [
+      {
+        "heading": "Sleipnir",
+        "body": "Loki as a mare; the eight-legged horse [S2]."
+      },
+      {
+        "heading": "The Monsters",
+        "body": "Fenrir, Jörmungandr, and Hel, with Angerboa [S2]."
+      }
+    ]
+  },
+  {
+    "id": "nor-ragnarok",
+    "culture": "norse",
+    "title": "Ragnarök (The Fate of the Gods)",
+    "summary": "At the end of the world, a great winter (the Fimbulwinter) precedes Ragnarök. The bonds break: Fenrir breaks free, Jörmungandr rises from the sea, and the ship Naglfar (built from the nails of the dead) sails with the hosts of the dead. Heimdall sounds the horn Gjallarhorn; the gods ride to the field of Vígríðr. In the great battle, Odin is swallowed by Fenrir (avenged by Víðarr), Thor slays Jörmungandr but dies of his venom, Freyr is slain by Surt (having given away his sword), and Heimdall and Loki kill each other. Surt's fire destroys the world; from the ashes, a new world rises [S1][S2].",
+    "participants": [
+      "nor-odin",
+      "nor-thor",
+      "nor-freyr",
+      "nor-heimdall",
+      "nor-loomi",
+      "nor-fenrir",
+      "nor-jormungandr",
+      "nor-vidar"
+    ],
+    "primary_sources": [
+      "S1",
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The details of Ragnarök are drawn mainly from the Völuspá (Poetic Edda) and the Gylfaginning (Prose Edda); the two sources agree on the broad outline but differ on some details [S1][S2].",
+    "chapters": [
+      {
+        "heading": "The Fimbulwinter",
+        "body": "Three winters without a summer [S1][S2]."
+      },
+      {
+        "heading": "The Breaking of Bonds",
+        "body": "Fenrir, Jörmungandr, and the dead are released [S1][S2]."
+      },
+      {
+        "heading": "The Horn",
+        "body": "Heimdall sounds Gjallarhorn [S1][S2]."
+      },
+      {
+        "heading": "The Battle",
+        "body": "The gods ride to Vígríðr; the great killing [S1][S2]."
+      },
+      {
+        "heading": "The Fire",
+        "body": "Surt's fire destroys the world [S1][S2]."
+      },
+      {
+        "heading": "The New World",
+        "body": "From the ashes, a new world rises [S1][S2]."
+      }
+    ]
+  },
+  {
+    "id": "nor-thor-geirdrud",
+    "culture": "norse",
+    "title": "Thor and the Giantess (Geirðröðr)",
+    "summary": "Thor, disguised as a servant, went to the home of the giantess Geirðröðr to win her as a wife. He lifted the cat (which was actually the world-serpent Jörmungandr in disguise) and drank from a horn that was bottomless (the ocean). He was matched by the giant Utgarda-Pöki, who turned out to be the giant who had been deceiving him with illusions [S2].",
+    "participants": [
+      "nor-thor",
+      "nor-jormungandr"
+    ],
+    "primary_sources": [
+      "S2"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'cat is Jörmungandr' detail is one interpretation; the sources are not entirely explicit [S2].",
+    "chapters": [
+      {
+        "heading": "The Disguise",
+        "body": "Thor as a servant [S2]."
+      },
+      {
+        "heading": "The Cat",
+        "body": "Lifting the cat (Jörmungandr in disguise) [S2]."
+      },
+      {
+        "heading": "The Horn",
+        "body": "Drinking from the bottomless horn (the ocean) [S2]."
+      },
+      {
+        "heading": "The Reveal",
+        "body": "Utgarda-Pöki's illusions revealed [S2]."
+      }
+    ]
+  }
+]

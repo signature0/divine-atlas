@@ -1,0 +1,88 @@
+[
+  {
+    "id": "slv-u1",
+    "topic": "The overall status of Slavic mythology",
+    "positions": [
+      {
+        "name": "attested",
+        "description": "The 980 'destruction of the idols' and the Kiev idol list (Perun, Khors, Dazhbog, Stribog, Veles, Mokosh) are attested in the Primary Chronicle"
+      },
+      {
+        "name": "reconstructed",
+        "description": "The genealogies (Svarog-Veles, Nebo-Perun), the 'Perun-Veles' conflict, the seasonal cycle, and the cosmology are scholarly reconstructions"
+      }
+    ],
+    "how_we_present_it": "We mark every claim with its evidence_status (attested / attested(folk) / reconstructed / variant / modern). We do NOT present reconstructions as if they were attested myths."
+  },
+  {
+    "id": "slv-u2",
+    "topic": "The 'Perun-Veles' conflict",
+    "positions": [
+      {
+        "name": "S6",
+        "description": "A scholarly reconstruction (Ivanov & Toporov) of an Indo-European 'sky-father vs. underworld-serpent' duality, not a single attested Slavic myth"
+      }
+    ],
+    "how_we_present_it": "We present it explicitly as a reconstruction, not as an attested myth."
+  },
+  {
+    "id": "slv-u3",
+    "topic": "Nebo's status",
+    "positions": [
+      {
+        "name": "reconstructed",
+        "description": "The 'sky-father', the supreme deity in folk belief"
+      },
+      {
+        "name": "debated",
+        "description": "Whether a formal pre-Christian god or a folk Christianization that absorbed Perun's role"
+      }
+    ],
+    "how_we_present_it": "We present Nebo as the reconstructed supreme sky-father, noting the debate."
+  },
+  {
+    "id": "slv-u4",
+    "topic": "The 'Kupala' and Jarilo",
+    "positions": [
+      {
+        "name": "folk",
+        "description": "The 'Kupala' night is a well-attested folk fire-and-water festival"
+      },
+      {
+        "name": "debated",
+        "description": "Whether Jarilo is the 'Kupala' god or the 'Kupala' is a separate older ritual"
+      }
+    ],
+    "how_we_present_it": "We present the 'Kupala' as well-attested folk ritual; the Jarilo connection as debated."
+  },
+  {
+    "id": "slv-u5",
+    "topic": "Morana / Marzanna",
+    "positions": [
+      {
+        "name": "folk",
+        "description": "The 'drowning of Marzanna' is a well-attested folk spring-ritual"
+      },
+      {
+        "name": "debated",
+        "description": "Whether Morana was a formal pre-Christian goddess or a folk death/winter figure"
+      }
+    ],
+    "how_we_present_it": "We present the ritual as well-attested; the goddess's pre-Christian status as debated."
+  },
+  {
+    "id": "slv-u6",
+    "topic": "The dating of the myths",
+    "positions": [
+      {
+        "name": "attested",
+        "description": "The 980 'destruction of the idols' is the oldest attested event"
+      },
+      {
+        "name": "reconstructed",
+        "description": "The pre-Christian religion is c. 6th-10th c. (reconstructed); the surviving texts are c. 1113 CE and later"
+      }
+    ],
+    "how_we_present_it": "We make clear that the religion is much older than the surviving texts."
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "realms": [
+    {
+      "id": "egy-primordial",
+      "name": "Nun (the primordial waters)",
+      "native_name": "Nun",
+      "description": "The infinite, dark waters that existed before creation. The state the world returns toward [S1][S4].",
+      "entities": [
+        "egy-nun",
+        "egy-apep"
+      ],
+      "layout": {
+        "x": 0.76,
+        "y": 0.80889,
+        "r": 0.075
+      }
+    },
+    {
+      "id": "egy-earth",
+      "name": "Kemet (the black land — Egypt)",
+      "native_name": "Kemet",
+      "description": "The fertile black soil of the Nile, the domain of Geb, the source of all life [S4].",
+      "entities": [
+        "egy-gebel",
+        "egy-osiris"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.47111,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "egy-sky",
+      "name": "The Sky (Nut)",
+      "native_name": "Pet",
+      "description": "The dome of the heavens, the body of Nut, studded with stars. The domain of Ra (by day) and Horus [S4].",
+      "entities": [
+        "egy-nut",
+        "egy-ra",
+        "egy-horus",
+        "egy-shu",
+        "egy-tefnut"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.16,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "egy-duat",
+      "name": "The Duat (the underworld)",
+      "native_name": "Duat",
+      "description": "The underworld through which the sun travels by night; the domain of Osiris (lord of the dead) and Apep (the chaos serpent) [S2][S4].",
+      "entities": [
+        "egy-osiris",
+        "egy-apep",
+        "egy-anubis"
+      ],
+      "layout": {
+        "x": 0.28,
+        "y": 0.80889,
+        "r": 0.06
+      }
+    },
+    {
+      "id": "egy-temple",
+      "name": "The Temple (the microcosm)",
+      "native_name": "",
+      "description": "The temple was understood as a microcosm — a model of the world, with the sanctuary as the primordial mound [S4].",
+      "entities": [
+        "egy-amun",
+        "egy-ptah"
+      ],
+      "layout": {
+        "x": 0.84,
+        "y": 0.35556,
+        "r": 0.045
+      }
+    }
+  ],
+  "structure_notes": "The Egyptian cosmos is layered: the primordial waters (Nun) at the bottom and around the edges, the fertile earth (Kemet) in the middle, the sky (Nut) above, and the Duat (underworld) below the earth. The sun (Ra) travels across the sky by day and through the Duat by night. The temple is a microcosm of this structure [S4]."
+}

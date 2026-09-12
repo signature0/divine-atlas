@@ -1,0 +1,92 @@
+[
+  {
+    "id": "nor-u1",
+    "topic": "Thor's parentage",
+    "positions": [
+      {
+        "name": "S2 (Prose Edda)",
+        "description": "Son of Odin and the giantess Járnsaxa (or the earth Jörd)"
+      },
+      {
+        "name": "Other",
+        "description": "Some accounts give different mothers"
+      }
+    ],
+    "how_we_present_it": "We note the variant; the core is that Thor is the son of Odin."
+  },
+  {
+    "id": "nor-u2",
+    "topic": "Heimdall's parentage",
+    "positions": [
+      {
+        "name": "S2",
+        "description": "Son of Odin and Angrboða (odd, since she is elsewhere Loki's wife)"
+      },
+      {
+        "name": "Other",
+        "description": "Nine mothers"
+      }
+    ],
+    "how_we_present_it": "Both variants stored; the sources are not consistent."
+  },
+  {
+    "id": "nor-u3",
+    "topic": "Ullr's parentage",
+    "positions": [
+      {
+        "name": "S2",
+        "description": "Son of Thor and Sif"
+      },
+      {
+        "name": "Other",
+        "description": "Son of the giant Trúðr"
+      }
+    ],
+    "how_we_present_it": "Both variants stored."
+  },
+  {
+    "id": "nor-u4",
+    "topic": "The Æsir vs. the Vanir",
+    "positions": [
+      {
+        "name": "S2",
+        "description": "Two separate divine tribes who later merge"
+      },
+      {
+        "name": "Interpretive",
+        "description": "Some scholars see the 'two tribes' as a later literary construction"
+      }
+    ],
+    "how_we_present_it": "We present the 'two tribes' as the sources present it, and note the scholarly interpretation separately."
+  },
+  {
+    "id": "nor-u5",
+    "topic": "The dating of the myths",
+    "positions": [
+      {
+        "name": "Archaeological",
+        "description": "The gods are worshipped from at least the 5th–8th c. CE (place-names, runestones)"
+      },
+      {
+        "name": "Literary",
+        "description": "The main sources (Eddas) are 13th c. CE"
+      }
+    ],
+    "how_we_present_it": "We make clear that the 13th-c. texts preserve older oral traditions; the worship is much older than the texts."
+  },
+  {
+    "id": "nor-u6",
+    "topic": "Loki's status",
+    "positions": [
+      {
+        "name": "S2",
+        "description": "'Blood-related' to the gods but not a true Æsir; a giant/trickster"
+      },
+      {
+        "name": "Interpretive",
+        "description": "Some scholars see Loki as a 'chthonic' or 'liminal' figure"
+      }
+    ],
+    "how_we_present_it": "We present Loki as the sources do (not a true Æsir) and note the interpretation."
+  }
+]

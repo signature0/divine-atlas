@@ -1,0 +1,843 @@
+[
+  {
+    "from": "gre-chaos",
+    "to": "gre-gaia",
+    "type": "CREATED",
+    "note": "Chaos gives rise to Gaia (Earth).",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-chaos",
+    "to": "gre-ouranos",
+    "type": "CREATED",
+    "note": "Chaos gives rise to Ouranos (Sky) — actually Ouranos is Gaia's child; Chaos begets the first beings including Gaia.",
+    "confidence": "variant",
+    "sources": [
+      "S1"
+    ],
+    "explanation": "Hesiod: Chaos → Gaia, Tartarus, Eros, Nyx. Ouranos is then born of Gaia. We model Chaos→Gaia as the primary creative act."
+  },
+  {
+    "from": "gre-gaia",
+    "to": "gre-ouranos",
+    "type": "PARENT_OF",
+    "note": "Gaia is the parent of Ouranos (Sky).",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-gaia",
+    "to": "gre-cronus",
+    "type": "PARENT_OF",
+    "note": "Gaia (with Ouranos) is a parent of the Titans, including Cronus.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-ouranos",
+    "to": "gre-cronus",
+    "type": "PARENT_OF",
+    "note": "Ouranos (with Gaia) is a parent of the Titans.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-gaia",
+    "to": "gre-ouranos",
+    "type": "PARTNER_OF",
+    "note": "Gaia and Ouranos are the primordial couple.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-cronus",
+    "to": "gre-ouranos",
+    "type": "FOUGHT",
+    "note": "Cronus overthrew and castrated his father Ouranos.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ],
+    "explanation": "With Gaia's flint sickle; the origin of the Erinyes and (in the Theogony) Aphrodite."
+  },
+  {
+    "from": "gre-gaia",
+    "to": "gre-cronus",
+    "type": "ALLY_OF",
+    "note": "Gaia armed Cronus with the sickle to overthrow Ouranos.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-cronus",
+    "to": "gre-rhea",
+    "type": "PARTNER_OF",
+    "note": "Cronus and Rhea are the Titan couple.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-cronus",
+    "to": "gre-zeus",
+    "type": "PARENT_OF",
+    "note": "Cronus is a parent of Zeus (and the other first-born Olympians).",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-rhea",
+    "to": "gre-zeus",
+    "type": "PARENT_OF",
+    "note": "Rhea is a parent of Zeus.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-cronus",
+    "to": "gre-zeus",
+    "type": "ENEMY_OF",
+    "note": "Cronus swallowed his children, including Zeus, to avoid the prophecy.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-cronus",
+    "type": "KILLED",
+    "note": "Zeus overthrew Cronus in the Titanomachy (not literally killed, but defeated and cast down).",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ],
+    "explanation": "Zeus forced Cronus to disgorge his siblings, then led the war against the Titans; Cronus was cast into Tartarus."
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-cronus",
+    "type": "FOUGHT",
+    "note": "The Titanomachy: Zeus vs. Cronus and the Titans.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hera",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hades",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-poseidon",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-demeter",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hestia",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-hera",
+    "to": "gre-hades",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-hera",
+    "to": "gre-poseidon",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-hera",
+    "to": "gre-demeter",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-hades",
+    "to": "gre-poseidon",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-hades",
+    "to": "gre-demeter",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-poseidon",
+    "to": "gre-demeter",
+    "type": "SIBLING_OF",
+    "note": "First-born children of Cronus and Rhea.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hera",
+    "type": "PARTNER_OF",
+    "note": "Zeus and Hera are the king and queen of the gods.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-athena",
+    "type": "PARENT_OF",
+    "note": "Zeus is the parent of Athena (born from his head).",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-apollo",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Leto) is the parent of Apollo.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-artemis",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Leto) is the parent of Artemis.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-ares",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Hera) is the parent of Ares.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hermes",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Maia) is the parent of Hermes.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-dionysus",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Semele) is the parent of Dionysus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-perseus",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Danaë) is the parent of the hero Perseus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-let-o",
+    "to": "gre-apollo",
+    "type": "PARENT_OF",
+    "note": "Leto is a parent of Apollo.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-let-o",
+    "to": "gre-artemis",
+    "type": "PARENT_OF",
+    "note": "Leto is a parent of Artemis.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-apollo",
+    "to": "gre-artemis",
+    "type": "SIBLING_OF",
+    "note": "Apollo and Artemis are twins.",
+    "confidence": "attested",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-metis",
+    "type": "PARTNER_OF",
+    "note": "Zeus's first wife was Metis, the Titaness of counsel.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-metis",
+    "to": "gre-athena",
+    "type": "PARENT_OF",
+    "note": "Metis is the mother of Athena (Zeus swallowed her pregnant).",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-hades",
+    "to": "gre-persephone",
+    "type": "PARTNER_OF",
+    "note": "Hades took Persephone as his queen.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-demeter",
+    "to": "gre-persephone",
+    "type": "PARENT_OF",
+    "note": "Demeter is the parent of Persephone.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-hades",
+    "to": "gre-demeter",
+    "type": "ENEMY_OF",
+    "note": "Hades's abduction of Persephone caused Demeter's wrath (the seasons).",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ],
+    "explanation": "Not a battle but a mythic estrangement that explains the seasons."
+  },
+  {
+    "from": "gre-athena",
+    "to": "gre-poseidon",
+    "type": "ENEMY_OF",
+    "note": "Athena and Poseidon rivaled for the patronage of Athens.",
+    "confidence": "attested",
+    "sources": [
+      "S5",
+      "S6"
+    ],
+    "explanation": "A civic contest, not a battle: she gave the olive, he the sea/spring; the city chose Athena."
+  },
+  {
+    "from": "gre-ouranos",
+    "to": "gre-aphrodite",
+    "type": "CREATED",
+    "note": "In the Theogony, Aphrodite is born from the sea-foam around Ouranos's severed member.",
+    "confidence": "variant",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "explanation": "Theogony: born of Ouranos's severed member (sea-foam). Iliad: daughter of Zeus & Dione. Both stored."
+  },
+  {
+    "from": "gre-aphrodite",
+    "to": "gre-ares",
+    "type": "PARTNER_OF",
+    "note": "Aphrodite's lover was Ares.",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-aphrodite",
+    "to": "gre-hephaestus",
+    "type": "PARTNER_OF",
+    "note": "Aphrodite was married to Hephaestus.",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-aphrodite",
+    "to": "gre-eros",
+    "type": "PARENT_OF",
+    "note": "Aphrodite is the mother of Eros (Love).",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-ares",
+    "to": "gre-aphrodite",
+    "type": "PARTNER_OF",
+    "note": "Ares and Aphrodite were lovers.",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-hera",
+    "to": "gre-hephaestus",
+    "type": "PARENT_OF",
+    "note": "In the Iliad, Hephaestus is the son of Hera alone.",
+    "confidence": "variant",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "explanation": "Iliad: Hera alone. Theogony: Zeus & Hera. Both stored."
+  },
+  {
+    "from": "gre-hephaestus",
+    "to": "gre-aphrodite",
+    "type": "PARTNER_OF",
+    "note": "Hephaestus was married to Aphrodite.",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-hephaestus",
+    "to": "gre-zeus",
+    "type": "FOUGHT",
+    "note": "Hephaestus made a golden throne that trapped Zeus (in one account).",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ],
+    "explanation": "A trick, not a war: the throne that held Zeus until the gods freed him."
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hermes",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Maia) is the parent of Hermes.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-maia",
+    "to": "gre-hermes",
+    "type": "PARENT_OF",
+    "note": "Maia is the mother of Hermes.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-atlas",
+    "to": "gre-maia",
+    "type": "PARENT_OF",
+    "note": "Atlas is the parent of Maia.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "from": "gre-hermes",
+    "to": "gre-apollo",
+    "type": "ALLY_OF",
+    "note": "Hermes traded the lyre to Apollo after stealing his cattle (they became friends).",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ],
+    "explanation": "The theft-and-trade story; a founding myth of their relationship."
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-dionysus",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Semele) is the parent of Dionysus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-semele",
+    "to": "gre-dionysus",
+    "type": "PARENT_OF",
+    "note": "Semele is the (mortal) mother of Dionysus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-perseus",
+    "type": "PARENT_OF",
+    "note": "Zeus (with Danaë) is the parent of Perseus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-danae",
+    "to": "gre-perseus",
+    "type": "PARENT_OF",
+    "note": "Danaë is the (mortal) mother of Perseus.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-perseus",
+    "to": "gre-medusa",
+    "type": "KILLED",
+    "note": "Perseus beheaded Medusa.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-perseus",
+    "to": "gre-andromeda",
+    "type": "PARTNER_OF",
+    "note": "Perseus rescued and married Andromeda.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-gaia",
+    "to": "gre-typhon",
+    "type": "CREATED",
+    "note": "Gaia bore Typhon (in the Theogony's interpolated passage).",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ],
+    "explanation": "The Typhon passage is a later interpolation; we flag it."
+  },
+  {
+    "from": "gre-typhon",
+    "to": "gre-zeus",
+    "type": "FOUGHT",
+    "note": "Typhon warred against the gods and wounded Zeus.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-typhon",
+    "type": "KILLED",
+    "note": "Zeus overthrew and buried Typhon under Etna.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-typhon",
+    "to": "gre-cerberus",
+    "type": "PARENT_OF",
+    "note": "Typhon (with Echidna) is the parent of Cerberus.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-heracles",
+    "to": "gre-cerberus",
+    "type": "KILLED",
+    "note": "Heracles captured Cerberus (his final labor).",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ],
+    "explanation": "Captured, not killed — the point of the labor was to bring him up and back."
+  },
+  {
+    "from": "gre-heracles",
+    "to": "gre-typhon",
+    "type": "ALLY_OF",
+    "note": "Heracles (in some accounts) helped bind Typhon.",
+    "confidence": "uncertain",
+    "sources": [
+      "S5"
+    ],
+    "explanation": "Some accounts credit Heracles with helping Zeus against Typhon; not all sources agree."
+  },
+  {
+    "from": "gre-heracles",
+    "to": "gre-zeus",
+    "type": "PARENT_OF",
+    "note": "Zeus is the parent of Heracles (with Alcmena).",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-heracles",
+    "to": "gre-hera",
+    "type": "ENEMY_OF",
+    "note": "Hera's enmity drove Heracles to madness and set his labors.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ],
+    "explanation": "Hera resented Zeus's affair with Alcmena and persecuted Heracles throughout."
+  },
+  {
+    "from": "gre-aphrodite",
+    "to": "gre-eros",
+    "type": "PARENT_OF",
+    "note": "In later myth, Aphrodite is the mother of Eros.",
+    "confidence": "attested",
+    "sources": [
+      "S4",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-perseus",
+    "to": "gre-andromeda",
+    "type": "PARTNER_OF",
+    "note": "Perseus rescued and married Andromeda.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-echidna",
+    "to": "gre-cerberus",
+    "type": "PARENT_OF",
+    "note": "Echidna (with Typhon) is the parent of Cerberus.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-typhon",
+    "to": "gre-echidna",
+    "type": "PARTNER_OF",
+    "note": "Typhon and Echidna are the monster-couple that parent the great monsters.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-oceanus",
+    "to": "gre-tethys",
+    "type": "PARTNER_OF",
+    "note": "Oceanus and Tethys are the primordial sea-couple.",
+    "confidence": "attested",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-heracles",
+    "type": "PARENT_OF",
+    "note": "Zeus is the parent of Heracles (with Alcmena).",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-alcmena",
+    "to": "gre-heracles",
+    "type": "PARENT_OF",
+    "note": "Alcmena is the (mortal) mother of Heracles.",
+    "confidence": "attested",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-odysseus",
+    "to": "gre-telemachus",
+    "type": "PARENT_OF",
+    "note": "Odysseus is the parent of Telemachus.",
+    "confidence": "attested",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "from": "gre-penelope",
+    "to": "gre-telemachus",
+    "type": "PARENT_OF",
+    "note": "Penelope is the (mortal) mother of Telemachus.",
+    "confidence": "attested",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "from": "gre-odysseus",
+    "to": "gre-penelope",
+    "type": "PARTNER_OF",
+    "note": "Odysseus and Penelope are married.",
+    "confidence": "attested",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "from": "gre-hera",
+    "to": "gre-hebe",
+    "type": "PARENT_OF",
+    "note": "Hera (with Zeus) is the parent of Hebe.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "from": "gre-heracles",
+    "to": "gre-hebe",
+    "type": "PARTNER_OF",
+    "note": "Heracles married Hebe after his deification.",
+    "confidence": "attested",
+    "sources": [
+      "S5"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "realms": [
+    {
+      "id": "slv-sky",
+      "name": "The Sky (Nebo)",
+      "native_name": "Nebo",
+      "description": "The highest heaven, the realm of Nebo (the sky-father) and Perun (the thunder-god) [S4][S5].",
+      "entities": [
+        "slv-nebo",
+        "slv-perun",
+        "slv-dazhbog",
+        "slv-khors",
+        "slv-stribog",
+        "slv-zorya"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.16,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "slv-earth",
+      "name": "The Earth (Zemlya)",
+      "native_name": "Zemlya",
+      "description": "The human world, the realm of the earth-gods and the fertility deities [S4][S5].",
+      "entities": [
+        "slv-mokosh",
+        "slv-lada",
+        "slv-jarilo"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.47111,
+        "r": 0.08
+      }
+    },
+    {
+      "id": "slv-underworld",
+      "name": "The Underworld (Nav / Cherd)",
+      "native_name": "Nav / Cherd",
+      "description": "The realm of the dead, the domain of Veles and Cherd [S4][S5][S6].",
+      "entities": [
+        "slv-veles",
+        "slv-cherd",
+        "slv-morana"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.78222,
+        "r": 0.08
+      }
+    }
+  ],
+  "structure_notes": "The Slavic cosmos is three-layered: the Sky (Nebo) above, the Earth (Zemlya) in the middle, and the Underworld (Nav/Cherd) below. A world-axis (the world-tree, the 'axis mundi') connects the three layers [S5][S6]. This is a scholarly reconstruction from folk belief and comparative evidence [S6]."
+}

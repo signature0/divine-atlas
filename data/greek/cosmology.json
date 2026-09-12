@@ -1,0 +1,106 @@
+{
+  "realms": [
+    {
+      "id": "gre-olympus",
+      "name": "Mount Olympus",
+      "native_name": "Ὄλυμπος",
+      "description": "The highest peak, home of the twelve Olympian gods and the seat of divine kingship [S1][S2].",
+      "entities": [
+        "gre-zeus",
+        "gre-hera",
+        "gre-athena",
+        "gre-apollo",
+        "gre-artemis",
+        "gre-ares",
+        "gre-aphrodite",
+        "gre-hermes",
+        "gre-dionysus",
+        "gre-hephaestus",
+        "gre-demeter",
+        "gre-hestia"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.31289,
+        "r": 0.07
+      }
+    },
+    {
+      "id": "gre-sky",
+      "name": "The Sky (Ouranos)",
+      "native_name": "Οὐρανός",
+      "description": "The vault of the sky, the domain of Ouranos and the element ruled by Zeus [S1].",
+      "entities": [
+        "gre-ouranos",
+        "gre-zeus"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.09067,
+        "r": 0.04
+      }
+    },
+    {
+      "id": "gre-earth",
+      "name": "The Earth (Gaia)",
+      "native_name": "Γαῖα",
+      "description": "The inhabited world, the domain of Gaia and the realm of mortals and heroes [S1].",
+      "entities": [
+        "gre-gaia",
+        "gre-perseus",
+        "gre-odysseus",
+        "gre-heracles"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.59733,
+        "r": 0.075
+      }
+    },
+    {
+      "id": "gre-sea",
+      "name": "The Sea (Poseidon)",
+      "native_name": "Πόντος",
+      "description": "The great sea, ruled by Poseidon; the realm of sea-gods and monsters [S1].",
+      "entities": [
+        "gre-poseidon"
+      ],
+      "layout": {
+        "x": 0.8,
+        "y": 0.78222,
+        "r": 0.055
+      }
+    },
+    {
+      "id": "gre-underworld",
+      "name": "The Underworld (Hades)",
+      "native_name": "ᾍδης",
+      "description": "The realm of the dead, ruled by Hades and Persephone; its rivers (Styx, Acheron) and guardians (Cerberus) [S3][S5].",
+      "entities": [
+        "gre-hades",
+        "gre-persephone",
+        "gre-cerberus"
+      ],
+      "layout": {
+        "x": 0.5,
+        "y": 0.864,
+        "r": 0.06
+      }
+    },
+    {
+      "id": "gre-tartarus",
+      "name": "Tartarus",
+      "native_name": "Τάρταρος",
+      "description": "The abyss beneath the underworld, the prison of the defeated Titans and the place of the deepest punishment [S1].",
+      "entities": [
+        "gre-cronus"
+      ],
+      "layout": {
+        "x": 0.14,
+        "y": 0.88889,
+        "r": 0.04
+      }
+    }
+  ],
+  "structure_notes": "A vertical cosmology: Sky/Olympus above, the Earth and Sea in the middle, the Underworld and the abyssal Tartarus below. The Olympians rule from Olympus; the dead are ruled from the Underworld; the defeated Titans are imprisoned in Tartarus [S1][S2][S3]."
+}

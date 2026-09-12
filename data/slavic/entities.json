@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "slv-nebo",
+    "culture": "slavic",
+    "name": "Nebo (the Sky-Father)",
+    "native_name": "Nebo",
+    "alternative_names": [
+      "Nebo",
+      "Nebe"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sky",
+      "the highest heaven",
+      "the supreme god (in folk belief)",
+      "thunder (in some accounts)"
+    ],
+    "symbols": [
+      "the sky",
+      "the sun",
+      "the clouds"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "slv-cosmology"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "slv-art-seven-gods"
+    ],
+    "description_short": "In folk (and partly reconstructed) belief, 'the sky' personified as the supreme heavenly father — the highest deity, above the named gods. Whether Nebo was a formal pre-Christian god or a folk Christianization is debated.",
+    "description_long": "'Nebo' (the sky) was personified in Slavic folk belief as the supreme heavenly father — the 'sky-father' above all the named gods [S4][S5][S6]. In the folk (post-Christian) world, Nebo is the highest, a kind of supreme creator who sends the rain and the thunder [S5]. Scholars differ on whether Nebo was a formal pre-Christian deity or a folk concept that absorbed the role of the supreme sky-god (Perun) after Christianization [S6]. The name 'Nebo' itself is common across Slavic languages [S4]. We treat Nebo as the reconstructed supreme sky-father, noting that its pre-Christian status is debated [S6].",
+    "interesting_facts": [
+      "The 'sky-father', the supreme deity in folk belief [S4][S5].",
+      "Whether a formal pre-Christian god or a folk Christianization is debated [S6]."
+    ],
+    "uncertainty_notes": [
+      "Nebo's pre-Christian status is genuinely debated: some see it as the supreme pre-Christian god, others as a folk layer that absorbed Perun's role [S6].",
+      "Do not confuse 'Nebo' (the sky-father) with 'Nebe' (a common Slavic word for 'sky/heaven' used in Christian contexts)."
+    ],
+    "hero_artwork": "slv-art-seven-gods",
+    "evidence_status": "reconstructed"
+  },
+  {
+    "id": "slv-perun",
+    "culture": "slavic",
+    "name": "Perun",
+    "native_name": "Perun",
+    "alternative_names": [
+      "Perun",
+      "Gromovnik",
+      "Perun the Thunderer"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "thunder",
+      "the sky",
+      "war",
+      "lightning",
+      "the oak",
+      "fire (the sacred flame)"
+    ],
+    "symbols": [
+      "the hammer",
+      "the oak tree",
+      "the lightning",
+      "the fire (the sacred flame)"
+    ],
+    "animals": [
+      "the wolf",
+      "the horse"
+    ],
+    "weapons": [
+      "the hammer"
+    ],
+    "sacred_objects": [
+      "the sacred oak",
+      "the sacred flame"
+    ],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "slv-veles",
+      "slv-morana"
+    ],
+    "associated_realms": [
+      "slv-sky",
+      "slv-earth"
+    ],
+    "associated_places": [
+      "Kiev (the idol on the dnieper)",
+      "the sacred groves (gais)"
+    ],
+    "major_myths": [
+      "slv-perun-veles",
+      "slv-idol-destruction"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "text",
+        "name": "'Tale of the Destruction of the Idols' (Skazanie o razrushenii idolov)",
+        "date": "16th-18th c.",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/"
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "slv-art-perun-oak",
+      "slv-art-idol-kyiv"
+    ],
+    "description_short": "The supreme thunder-god of the pre-Christian Slavs, the sky-father, god of thunder, lightning, war, and the sacred oak. His great idol stood on a hill in Kiev, destroyed in 980 CE.",
+    "description_long": "Perun is the supreme thunder-god of the pre-Christian Slavs — the sky-father, the god of thunder, lightning, war, and the sacred oak [S1][S2][S4][S5]. He was the head of the Kiev pantheon: in the Primary Chronicle, the pagan ruler Vladimir of Kiev (980 CE) erected a great wooden idol of Perun on a hill (the 'Khorivets' hill) by the Dnieper, with a golden head and beard, and a row of other gods below [S1][S3]. The 'Tale of the Destruction of the Idols' (a later retelling) describes the idol being dragged into the river and destroyed in 980 [S3]. Perun's attributes: the hammer (the weapon that hurls thunder/lightning), the sacred oak (his tree), the sacred fire (he was 'the fire-god' in some accounts — the sacred flame that was not extinguished) [S4][S5][S6]. Perun is the great antagonist of Veles (the underworld god) in the reconstructed 'Perun-Veles' conflict [S6]. Perun's role is comparable to the Indo-European sky-father (Zeus, Thor, Dyaus Pitar) [S6].",
+    "interesting_facts": [
+      "The supreme thunder-god, head of the Kiev pantheon [S1][S4].",
+      "His great idol stood on a hill in Kiev, destroyed in 980 CE [S1][S3].",
+      "Attributes: the hammer, the sacred oak, the sacred fire [S4][S5].",
+      "Comparable to the Indo-European sky-father (Zeus, Thor, Dyaus Pitar) [S6].",
+      "The great antagonist of Veles in the reconstructed conflict [S6]."
+    ],
+    "uncertainty_notes": [
+      "Perun's 'sacred fire' role is debated: some sources say Perun was associated with the sacred flame, others attribute fire to Svarog [S4][S6].",
+      "The 'hammer' as Perun's weapon is a later (folk) association; the 980 idol is described as wooden, not with a hammer [S3]."
+    ],
+    "hero_artwork": "slv-art-perun-oak",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-veles",
+    "culture": "slavic",
+    "name": "Veles",
+    "native_name": "Veles",
+    "alternative_names": [
+      "Veles",
+      "Volos",
+      "Velas"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the underworld",
+      "cattle",
+      "magic",
+      "the snake (the serpent)",
+      "wealth",
+      "the realm of the dead (Nav)"
+    ],
+    "symbols": [
+      "the snake (the serpent)",
+      "the horn (the ram's horn)",
+      "the cattle"
+    ],
+    "animals": [
+      "the snake",
+      "the cattle",
+      "the horse"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "slv-perun"
+    ],
+    "associated_realms": [
+      "slv-underworld",
+      "slv-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "slv-perun-veles"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "slv-art-seven-gods",
+      "slv-art-triglav-scheme"
+    ],
+    "description_short": "The god of the underworld, cattle, magic, and the serpent; son of Svarog; the great antagonist of Perun. His domain is the realm of the dead (Nav/Cherd).",
+    "description_long": "Veles (Volos, Velas) is the god of the underworld, cattle, magic, and the serpent [S1][S2][S4][S5]. He is the son of Svarog (the sky-father/craftsman god) [S6]. Veles's domain is the realm of the dead (Nav/Cherd) — the underworld — and the earth [S6]. He is the god of cattle (the 'cattle-god'), of wealth, of magic, and of the serpent (his animal) [S4][S5][S6]. The snake is a sacred symbol of Veles: the 'Veles-day' (May 22, later the feast of St. Nicholas) was associated with the awakening of the snakes (the 'Veles' snakes') and was a day of special taboos [S5]. Veles is the great antagonist of Perun in the reconstructed 'Perun-Veles' conflict: the sky-thunder-god vs. the underworld-serpent-god [S6]. This is a genuine reconstructed duality, not a single attested myth — we present it as a scholarly reconstruction [S6].",
+    "interesting_facts": [
+      "God of the underworld, cattle, magic, and the serpent [S4][S5][S6].",
+      "Son of Svarog [S6].",
+      "The 'Veles-day' (May 22) was associated with the awakening of the snakes [S5].",
+      "The great antagonist of Perun (reconstructed duality) [S6]."
+    ],
+    "uncertainty_notes": [
+      "The 'Perun-Veles' conflict is a scholarly reconstruction (Ivanov & Toporov), not a single attested myth [S6].",
+      "Veles's 'underworld' role is reconstructed from folk belief and comparative evidence; the earliest sources do not describe his realm in detail [S6]."
+    ],
+    "hero_artwork": "slv-art-seven-gods",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-svarog",
+    "culture": "slavic",
+    "name": "Svarog (Svarozhich)",
+    "native_name": "Svarog",
+    "alternative_names": [
+      "Svarozhich",
+      "Svarozh"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "fire",
+      "smithing",
+      "crafts",
+      "the sky (as father)",
+      "the sun (in some accounts)"
+    ],
+    "symbols": [
+      "the anvil",
+      "the hammer",
+      "the fire (the forge)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [
+      "slv-veles"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "slv-art-triglav-scheme"
+    ],
+    "description_short": "The god of fire, smithing, and crafts; father of Veles; in some accounts a sky/sun god. His name is the root of 'Svarozhich' (the 'Svarog-son').",
+    "description_long": "Svarog (Svarozhich) is the god of fire, smithing, and crafts [S1][S2][S4][S5]. He is the father of Veles [S6]. In some accounts, Svarog is a sky/sun god (the 'heavenly' father), while in others he is the 'earthly' craftsman-god who works in the forge [S4][S6]. His name is the root of 'Svarozhich' ('the Svarog-son') — a name applied to the smith, the craftsman, and (in one folk account) to the ruler himself (the 'Svarozhich' as a royal title) [S5]. Svarog's fire is the forge-fire: the sacred, creative fire that shapes metal [S4][S5]. He is a patron of the smiths and the craftsmen [S5]. The relationship between Svarog and Perun's 'sacred fire' is debated: some attribute the sacred fire to Svarog, others to Perun [S4][S6].",
+    "interesting_facts": [
+      "God of fire, smithing, and crafts [S4][S5].",
+      "Father of Veles [S6].",
+      "The root of the name 'Svarozhich' [S5].",
+      "The sacred forge-fire [S4][S5]."
+    ],
+    "uncertainty_notes": [
+      "Svarog's 'sky/sun' role vs. his 'craftsman' role are not clearly distinguished in the sources; both are attested [S4][S6].",
+      "The 'Svarozhich' as a royal title is a folk/late development [S5]."
+    ],
+    "hero_artwork": "slv-art-triglav-scheme",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-dazhbog",
+    "culture": "slavic",
+    "name": "Dazhbog",
+    "native_name": "Dazhbog",
+    "alternative_names": [
+      "Dazhbog",
+      "Dazh'bozh"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sun",
+      "the daylight",
+      "the giver of light (his name means 'day-god' or 'light-god')"
+    ],
+    "symbols": [
+      "the sun",
+      "the light",
+      "the rooster (in some folk accounts)"
+    ],
+    "animals": [
+      "the rooster"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The 'day-god' or 'light-god' (his name means 'giving day' or 'giving light'); a sun god, in the Kiev pantheon.",
+    "description_long": "Dazhbog (Dazh'bozh) is the 'day-god' or 'light-god' — his name is generally interpreted as 'giving day' or 'giving light' (from 'dazh' = day, 'bog' = god) [S1][S2][S4][S5]. He is a sun/light god in the Kiev pantheon [S1][S2]. His exact role is less well-attested than Perun or Veles: the sources name him but give little detail [S4]. He is sometimes identified with the sun, sometimes with the daylight in general [S4][S6]. A solar cult (the 'Dazhbog' sun-worship) is attested in folk survivals [S5].",
+    "interesting_facts": [
+      "The 'day-god' or 'light-god' (name = 'giving day/light') [S1][S4].",
+      "A sun/light god in the Kiev pantheon [S1][S2].",
+      "Less well-attested than Perun or Veles [S4]."
+    ],
+    "uncertainty_notes": [
+      "Dazhbog's exact role is poorly attested: the sources name him but give little detail [S4].",
+      "Whether 'Dazhbog' is a sun-god or a 'daylight' god is debated [S4][S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-khors",
+    "culture": "slavic",
+    "name": "Khors",
+    "native_name": "Khors",
+    "alternative_names": [
+      "Khors",
+      "Kors"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sun (a solar god)"
+    ],
+    "symbols": [
+      "the sun",
+      "the chariot (the sun's chariot, in some accounts)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "A solar god (a 'sun' deity) in the Kiev pantheon; less well-attested than Dazhbog.",
+    "description_long": "Khors (Kors) is a solar god in the Kiev pantheon [S1][S2]. His exact relationship to Dazhbog (the 'day-god') is unclear: the two are both solar/light deities, and their distinction is not well-defined in the sources [S4]. Khors is named in the idol list but given little detail [S4]. Some scholars see Khors as a 'solar' god and Dazhbog as a 'daylight' god; others see them as overlapping [S6].",
+    "interesting_facts": [
+      "A solar god in the Kiev pantheon [S1][S2].",
+      "Less well-attested than Dazhbog [S4]."
+    ],
+    "uncertainty_notes": [
+      "The distinction between Khors and Dazhbog is not clear in the sources [S4][S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-stribog",
+    "culture": "slavic",
+    "name": "Stribog",
+    "native_name": "Stribog",
+    "alternative_names": [
+      "Stribog",
+      "Stribog"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the wind",
+      "the air",
+      "the breath of the sky"
+    ],
+    "symbols": [
+      "the wind",
+      "the air"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The god of the wind, the air, the breath of the sky; in the Kiev pantheon. The 'Stribog' is the wind itself in folk belief.",
+    "description_long": "Stribog is the god of the wind, the air, the breath of the sky [S1][S2][S4][S5]. In the Primary Chronicle, Stribog is named as the 'father of the winds' (he 'sends the winds') [S1]. In folk belief, the 'Stribog' is the wind itself, and the wind is sometimes personified as a deity [S5]. Stribog's role is clear (the wind-god) but his mythic biography is not attested [S4].",
+    "interesting_facts": [
+      "God of the wind, the air [S1][S2][S4].",
+      "'The father of the winds' in the Primary Chronicle [S1].",
+      "The wind itself, personified, in folk belief [S5]."
+    ],
+    "uncertainty_notes": [
+      "Stribog's mythic biography is not attested; the sources name him as the wind-god but give no stories [S4]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-mokosh",
+    "culture": "slavic",
+    "name": "Mokosh",
+    "native_name": "Mokosh",
+    "alternative_names": [
+      "Mokosh",
+      "Mocoš"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "fertility",
+      "the earth",
+      "weaving",
+      "the fate (the spinning of destiny)",
+      "women's work"
+    ],
+    "symbols": [
+      "the spindle",
+      "the loom",
+      "the earth"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Primary Chronicle (Povest' vremennykh let / Latopis povest' vremen'nykh let)",
+        "date": "c. 1113 CE (describes 10th c.)",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Tale_of_Bygone_Years"
+      },
+      {
+        "type": "text",
+        "name": "Hypatian / Hletovskaya Chronicle (Kiev idol list)",
+        "date": "14th-15th c. (later copy)",
+        "ref": "S2",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The goddess of fertility, the earth, weaving, and the fate (the spinning of destiny); in the Kiev pantheon. Her name is the root of the common Slavic word for 'moisture/wetness'.",
+    "description_long": "Mokosh (Mocoš) is the goddess of fertility, the earth, weaving, and the fate (the spinning of destiny) [S1][S2][S4][S5]. Her name is generally interpreted as related to the common Slavic word for 'moisture/wetness' (the life-giving wetness of the earth) [S4]. Mokosh is the patroness of women's work (weaving, spinning) and of the fate — the 'spinning of destiny' (the threads of life) [S5]. In folk belief, the 'Mokosh' is associated with the earth-mother, the fertility of the land, and the fate of the household [S5]. She is named in the Kiev idol list [S1][S2]. Her relationship to the 'fate-spinning' (the Moirai/Norns equivalent) is a reconstructed parallel [S6].",
+    "interesting_facts": [
+      "Goddess of fertility, the earth, weaving, and the fate [S4][S5].",
+      "Name related to the Slavic word for 'moisture/wetness' [S4].",
+      "The 'spinning of destiny' (the fate) [S5][S6]."
+    ],
+    "uncertainty_notes": [
+      "Mokosh's 'fate-spinning' role is a reconstructed parallel to the Moirai/Norns, not a single attested myth [S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested"
+  },
+  {
+    "id": "slv-lada",
+    "culture": "slavic",
+    "name": "Lada",
+    "native_name": "Lada",
+    "alternative_names": [
+      "Lada",
+      "Lada",
+      "Lada the Beautiful"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "spring",
+      "fertility",
+      "beauty",
+      "the household",
+      "the 'Lada' (the beloved)"
+    ],
+    "symbols": [
+      "the spring",
+      "the blossoms",
+      "the beauty"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The goddess of spring, fertility, beauty, and the household; in folk belief the 'Lada' is the beloved, the beautiful one. Her status as a formal pre-Christian goddess is debated.",
+    "description_long": "Lada is the goddess of spring, fertility, beauty, and the household [S4][S5]. In folk belief, the 'Lada' is the beloved, the beautiful one (the word 'lada' means 'beautiful, lovely, harmonious') [S5]. Lada is associated with the spring, the blossoming, the fertility of the land, and the harmony of the household [S4][S5]. Her status as a formal pre-Christian goddess (vs. a folk concept) is debated: the 'Lada' is more clearly a folk deity than a member of the formal Kiev pantheon [S6]. She is a 'spring/fertility' goddess, comparable to the Indo-European spring-maidens [S6].",
+    "interesting_facts": [
+      "Goddess of spring, fertility, beauty, and the household [S4][S5].",
+      "The 'Lada' = the beloved, the beautiful one [S5].",
+      "More clearly a folk deity than a formal pantheon member [S6]."
+    ],
+    "uncertainty_notes": [
+      "Lada's status as a formal pre-Christian goddess is debated; she is more clearly a folk concept [S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested (folk)"
+  },
+  {
+    "id": "slv-morana",
+    "culture": "slavic",
+    "name": "Morana (Marena)",
+    "native_name": "Morana",
+    "alternative_names": [
+      "Marena",
+      "Morena",
+      "Marzanna",
+      "Zimna Matushka (the Winter Mother)"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "death",
+      "winter",
+      "the cold",
+      "the 'drowning of Marzanna' (the winter-ritual)"
+    ],
+    "symbols": [
+      "the ice",
+      "the winter",
+      "the effigy (the Marzanna doll)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "slv-jarilo"
+    ],
+    "associated_realms": [
+      "slv-underworld",
+      "slv-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "slv-seasonal"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The goddess of death and winter; in folk tradition the 'drowning of Marzanna' (an effigy of the winter-goddess) is a spring-ritual that 'kills' winter and 'calls' spring. Her pre-Christian status is debated.",
+    "description_long": "Morana (Marena, Morena) is the goddess of death and winter [S4][S5]. In folk tradition, the 'drowning of Marzanna' (the 'Marzanna'/'Morana' doll) is a spring-ritual: an effigy of the winter-goddess is made, carried around, and drowned in a river to 'kill' winter and 'call' spring [S5]. This is a well-attested folk ritual (the 'proshchanie s zimoi' = 'farewell to winter') [S5]. Morana's status as a formal pre-Christian goddess is debated: the 'Marzanna'/'Morana' is more clearly a folk death/winter figure than a member of the formal Kiev pantheon [S6]. She is the great antagonist of Jarilo (the spring/youth god) in the reconstructed seasonal cycle [S6].",
+    "interesting_facts": [
+      "Goddess of death and winter [S4][S5].",
+      "The 'drowning of Marzanna' is a well-attested folk spring-ritual [S5].",
+      "The great antagonist of Jarilo (reconstructed seasonal cycle) [S6]."
+    ],
+    "uncertainty_notes": [
+      "Morana's status as a formal pre-Christian goddess is debated; she is more clearly a folk death/winter figure [S6].",
+      "The 'Marzanna'/'Morana'/'Marena' are regional variants of the same winter/death figure [S5]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested (folk)"
+  },
+  {
+    "id": "slv-jarilo",
+    "culture": "slavic",
+    "name": "Jarilo (Kupala)",
+    "native_name": "Jarilo",
+    "alternative_names": [
+      "Jarilo",
+      "Kupala",
+      "Yarilo"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "spring",
+      "youth",
+      "the sun (in some accounts)",
+      "fertility",
+      "the 'Kupala' night (the midsummer solstice)"
+    ],
+    "symbols": [
+      "the sun",
+      "the fire (the Kupala fire)",
+      "the water (the Kupala river)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "slv-morana"
+    ],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "slv-seasonal",
+      "slv-kupala"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The god of spring, youth, and the sun; in folk tradition the 'Kupala' night (the midsummer solstice) is a fire-and-water festival. His relationship to the 'Kupala' ritual is well-attested in folk tradition.",
+    "description_long": "Jarilo (Yarilo) is the god of spring, youth, and the sun [S4][S5]. In folk tradition, the 'Kupala' night (the midsummer solstice, around June 23/24) is a fire-and-water festival: bonfires are lit, people leap over the fire, and the 'Kupala' flower (the fern-flower) is sought [S5]. The 'Kupala' ritual is well-attested in folk tradition across Slavic lands [S5]. Jarilo's relationship to the 'Kupala' festival is debated: some see Jarilo as the 'Kupala' god (the spring/youth/sun god), others see the 'Kupala' as a separate (possibly older) water/sun ritual [S6]. Jarilo is the great antagonist of Morana (the winter/death goddess) in the reconstructed seasonal cycle [S6].",
+    "interesting_facts": [
+      "God of spring, youth, and the sun [S4][S5].",
+      "The 'Kupala' night (midsummer) is a well-attested folk fire-and-water festival [S5].",
+      "The great antagonist of Morana (reconstructed seasonal cycle) [S6]."
+    ],
+    "uncertainty_notes": [
+      "The relationship between Jarilo and the 'Kupala' festival is debated: is Jarilo the 'Kupala' god, or is the 'Kupala' a separate older ritual? [S6].",
+      "Jarilo's 'sun' role is debated; in some accounts he is the 'spring' god, in others the 'sun' god [S4][S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested (folk)"
+  },
+  {
+    "id": "slv-zorya",
+    "culture": "slavic",
+    "name": "Zorya (the Morning Stars)",
+    "native_name": "Zorya",
+    "alternative_names": [
+      "Zorya",
+      "Zarja",
+      "Zorya Voshodnyaya (the Rising Star)",
+      "Zorya Zakatnaya (the Setting Star)"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the dawn",
+      "the morning star (Venus)",
+      "the threshold (the 'gate' of the sky)"
+    ],
+    "symbols": [
+      "the morning star (Venus)",
+      "the dawn",
+      "the threshold"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Vsevolod Miller, 'Slavic God-Concepts' (Slavjanskije bozhestvennye predstavl'enija)",
+        "date": "1860 (19th c. ethnographic)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The goddess (or pair of goddesses) of the dawn and the morning star (Venus); the 'Zorya' is the 'gate' of the sky, the threshold between the human world and the divine. In folk belief the 'Zorya' is the 'guardian of the threshold'.",
+    "description_long": "Zorya (Zarja) is the goddess (or pair of goddesses) of the dawn and the morning star (Venus) [S4][S5]. The 'Zorya' is the 'gate' of the sky, the threshold between the human world and the divine [S5]. In folk belief, the 'Zorya' is the 'guardian of the threshold' — she opens and closes the 'gate of the sky' (the dawn) [S5]. There are two 'Zorya': the 'Zorya Voshodnyaya' (the Rising Star, the dawn) and the 'Zorya Zakatnaya' (the Setting Star, the dusk) [S5]. The 'Zorya' is a well-attested folk figure (the dawn, the morning star), though her status as a formal pre-Christian goddess is debated [S6].",
+    "interesting_facts": [
+      "Goddess of the dawn and the morning star (Venus) [S4][S5].",
+      "The 'gate' of the sky, the threshold [S5].",
+      "The 'guardian of the threshold' in folk belief [S5]."
+    ],
+    "uncertainty_notes": [
+      "Zorya's status as a formal pre-Christian goddess is debated; she is more clearly a folk dawn/star figure [S6].",
+      "The 'two Zorya' (rising and setting) are a folk elaboration [S5]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "attested (folk)"
+  },
+  {
+    "id": "slv-cherd",
+    "culture": "slavic",
+    "name": "Cherd (Chert)",
+    "native_name": "Cherd",
+    "alternative_names": [
+      "Chert",
+      "Chert the Underworld",
+      "Cherd"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the underworld",
+      "the realm of the dead (Nav/Cherd)",
+      "the 'devil' (a Christianization of the underworld-god)"
+    ],
+    "symbols": [
+      "the underworld",
+      "the realm of the dead"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "slv-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Modern comparative reconstruction (e.g., Ivanov & Toporov, 'Theses on Slavic Mythology')",
+        "date": "1970s-2000s",
+        "ref": "S6",
+        "url": null
+      },
+      {
+        "type": "academic",
+        "name": "19th-20th c. Slavic ethnographic collections (Volkov, Ivanov, etc.)",
+        "date": "19th-20th c.",
+        "ref": "S5",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The god of the underworld, the realm of the dead (Nav/Cherd); in folk (post-Christian) belief the 'Chert' (the devil) is a Christianization of the underworld-god. His pre-Christian status is debated.",
+    "description_long": "'Cherd' (Chert) is the reconstructed god of the underworld, the realm of the dead (Nav/Cherd) [S6]. In folk (post-Christian) belief, the 'Chert' (the devil) is often seen as a Christianization of the pre-Christian underworld-god [S6]. The 'Cherd'/'Chert' is the lord of the underworld, the realm of the dead [S6]. His pre-Christian status is debated: the 'Chert' is more clearly a folk/Christian figure than a formal pre-Christian deity [S6]. We present Cherd as the reconstructed underworld-god, noting that his pre-Christian identity is uncertain [S6].",
+    "interesting_facts": [
+      "The reconstructed god of the underworld, the realm of the dead [S6].",
+      "The 'Chert' (the devil) is a Christianization of the underworld-god [S6]."
+    ],
+    "uncertainty_notes": [
+      "Cherd's pre-Christian status is debated; the 'Chert' is more clearly a folk/Christian figure [S6].",
+      "Do not confuse the pre-Christian underworld-god with the Christian 'devil' — they are distinct, though the folk tradition merged them [S6]."
+    ],
+    "hero_artwork": null,
+    "evidence_status": "reconstructed"
+  }
+]

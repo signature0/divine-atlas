@@ -1,0 +1,268 @@
+[
+  {
+    "id": "egy-creation-heliopolis",
+    "culture": "egyptian",
+    "title": "The Heliopolitan Creation (Atum-Ra)",
+    "summary": "In the Heliopolitan tradition, the self-created god Atum-Ra rose from the primordial waters (Nun) — sometimes on a mound of earth (the benben). From his own body he created Shu (air) and Tefnut (moisture), the first divine pair. Their children were Geb (earth) and Nut (sky). This is the genealogy behind the Osiris cycle [S1][S4].",
+    "participants": [
+      "egy-aur",
+      "egy-nun",
+      "egy-shu",
+      "egy-tefnut",
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "primary_sources": [
+      "S1",
+      "S4"
+    ],
+    "variants": [
+      {
+        "label": "Memphite alternative",
+        "text": "In Memphis, Ptah is the self-created creator who fashions the world 'in his heart and mouth' [S4]."
+      },
+      {
+        "label": "Hermopolitan alternative",
+        "text": "In Hermopolis, creation begins with the Ogdoad (eight primeval deities), not a single self-created god [S4]."
+      }
+    ],
+    "uncertainty_notes": "This is ONE of several Egyptian creation traditions. We do not present it as 'the' Egyptian creation — we present all three [S4].",
+    "chapters": [
+      {
+        "heading": "The Primordial Waters",
+        "body": "Nun, the infinite waters, existed before creation [S1]."
+      },
+      {
+        "heading": "Atum-Ra Rises",
+        "body": "The self-created god rose from Nun (on the benben mound) [S1][S4]."
+      },
+      {
+        "heading": "Shu and Tefnut",
+        "body": "Atum-Ra created the first pair: air and moisture [S1][S4]."
+      },
+      {
+        "heading": "Geb and Nut",
+        "body": "Their children: earth and sky [S1][S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-creation-memphis",
+    "culture": "egyptian",
+    "title": "The Memphite Creation (Ptah)",
+    "summary": "In the Memphite tradition (preserved in the 'Memphite Theology'), Ptah is the self-created first god. He created the world 'in his heart and with his mouth' — by thought (the heart) and by speech (the mouth), naming things into existence [S4]. This is a distinct creation account from the Heliopolitan and Hermopolitan traditions [S4].",
+    "participants": [
+      "egy-ptah"
+    ],
+    "primary_sources": [
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The Memphite Theology is a late (Saite period) text that reinterprets Ptah as the supreme creator [S4].",
+    "chapters": [
+      {
+        "heading": "Ptah, the Self-Created",
+        "body": "Ptah is the first god, self-created [S4]."
+      },
+      {
+        "heading": "Creation by Heart and Mouth",
+        "body": "He thinks (heart) and speaks (mouth) the world into being [S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-creation-hermopolis",
+    "culture": "egyptian",
+    "title": "The Hermopolitan Creation (the Ogdoad)",
+    "summary": "In the Hermopolitan tradition, creation begins with the Ogdoad — eight primeval deities representing the conditions of the primordial state: the waters (Nun/Naunet), infinity (Heh/Hehet), mystery (Khenunu/Khenunit), and duration (Sat/Satet). From these primeval conditions, the world (and the sun) comes into being [S4].",
+    "participants": [
+      "egy-ogdoad-nun",
+      "egy-ogdoad-heh",
+      "egy-ogdoad-khnum",
+      "egy-ogdoad-sat"
+    ],
+    "primary_sources": [
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The Ogdoad is one of several creation accounts; we do not treat it as 'the' Egyptian creation [S4].",
+    "chapters": [
+      {
+        "heading": "The Ogdoad",
+        "body": "Eight primeval deities, in four pairs [S4]."
+      },
+      {
+        "heading": "The Emergence of the World",
+        "body": "From the primeval conditions, the world and the sun emerge [S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-osiris-murder",
+    "culture": "egyptian",
+    "title": "The Murder of Osiris",
+    "summary": "Set, jealous of his brother Osiris (the rightful king), lured him to a banquet. Set brought a coffin that he had measured to Osiris's exact size; when Osiris lay down in it, Set seized him, wrapped him in the coffin, sealed it with lead, and threw it into the Nile. The chest washed down-river and out to sea, washing up in Byblos, where a tamarisk tree grew around it [S3][S4].",
+    "participants": [
+      "egy-osiris",
+      "egy-set",
+      "egy-isfet"
+    ],
+    "primary_sources": [
+      "S3",
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'Byblos' episode is a later addition to the myth [S3][S4].",
+    "chapters": [
+      {
+        "heading": "The Jealousy",
+        "body": "Set is jealous of Osiris's kingship [S3][S4]."
+      },
+      {
+        "heading": "The Coffin Trick",
+        "body": "Set measures Osiris and seals him in the coffin [S3][S4]."
+      },
+      {
+        "heading": "The Nile and Byblos",
+        "body": "The chest is cast into the Nile and washes up in Byblos [S3][S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-isis-restores",
+    "culture": "egyptian",
+    "title": "Isis Restores Osiris",
+    "summary": "Isis (with the help of Nephthys) searched for the scattered pieces of Osiris's body. She found all the pieces except the genitals (which had been eaten by a fish in the Nile). She reassembled the body, used her magic to restore Osiris to life, and through their union conceived Horus [S3][S4]. Anubis mummified the body, making Osiris the first mummy [S3][S4].",
+    "participants": [
+      "egy-isfet",
+      "egy-nephthys",
+      "egy-osiris",
+      "egy-anubis",
+      "egy-horus"
+    ],
+    "primary_sources": [
+      "S3",
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'lost genitals' detail is a later (Greco-Roman) addition [S3][S4].",
+    "chapters": [
+      {
+        "heading": "The Search",
+        "body": "Isis and Nephthys search for the scattered pieces [S3][S4]."
+      },
+      {
+        "heading": "The Restoration",
+        "body": "Isis reassembles the body and uses magic to restore Osiris [S3][S4]."
+      },
+      {
+        "heading": "The Conception of Horus",
+        "body": "Through their union, Isis conceives Horus [S3][S4]."
+      },
+      {
+        "heading": "The First Mummy",
+        "body": "Anubis mummifies Osiris [S3][S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-horus-vs-set",
+    "culture": "egyptian",
+    "title": "The Contendings of Horus and Set",
+    "summary": "Horus (the son of Osiris) and Set (the murderer) fight for the throne of Egypt. The 'Contendings' is a long, episodic struggle in which the two cousins fight, each claiming the throne, and the Ennead (the nine gods) judges between them. Horus ultimately wins, and becomes the king of the unified Egypt [S4].",
+    "participants": [
+      "egy-horus",
+      "egy-set"
+    ],
+    "primary_sources": [
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'Contendings' is preserved in a fragmentary Middle Kingdom text; the full narrative is reconstructed [S4].",
+    "chapters": [
+      {
+        "heading": "The Claim",
+        "body": "Horus claims the throne as the son of Osiris [S4]."
+      },
+      {
+        "heading": "The Contendings",
+        "body": "A long series of contests and battles [S4]."
+      },
+      {
+        "heading": "The Judgment",
+        "body": "The Ennead judges; Horus wins [S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-solar-journey",
+    "culture": "egyptian",
+    "title": "Ra's Journey Through the Duat (the Night)",
+    "summary": "Each night, the sun god Ra enters the Duat (the underworld) in his 'Night Barque' and travels through the twelve hours of the night. At the hour of greatest danger (around midnight), the chaos serpent Apep strikes; Thoth and other gods help Ra defeat Apep. Ra rises again at dawn [S2][S4]. The justified dead 'sail with Ra' through the night [S2][S4].",
+    "participants": [
+      "egy-ra",
+      "egy-apep",
+      "egy-thoth",
+      "egy-nut"
+    ],
+    "primary_sources": [
+      "S2",
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'Book of the Dead' and the 'Amduat' (Book of the Netherworld) describe the journey in different detail; the two sources are not identical [S2][S4].",
+    "chapters": [
+      {
+        "heading": "The Setting",
+        "body": "Ra enters the Duat at sunset [S2][S4]."
+      },
+      {
+        "heading": "The Twelve Hours",
+        "body": "The journey through the twelve hours of the night [S2][S4]."
+      },
+      {
+        "heading": "The Battle with Apep",
+        "body": "At midnight, Apep strikes; Ra is helped to defeat him [S2][S4]."
+      },
+      {
+        "heading": "The Rising",
+        "body": "Ra rises again at dawn [S2][S4]."
+      }
+    ]
+  },
+  {
+    "id": "egy-eye-of-ra",
+    "culture": "egyptian",
+    "title": "The Eye of Ra (Hathor/Sekhmet)",
+    "summary": "Ra's eye (variously identified with Hathor, Tefnut, or Sekhmet) was sent out to punish humanity for plotting against Ra. The eye became enraged and was transformed into Sekhmet, the warrior lioness, who slaughtered the rebels. To calm her, Ra (or Thoth) devised a trick: he brewed a potion dyed red with beet juice (to look like blood) and flooded the land with it; Sekhmet, thinking she had drunk the blood of her victims, became drunk and calm, and returned as Hathor [S3][S4].",
+    "participants": [
+      "egy-hathor",
+      "egy-sekhemet",
+      "egy-ra"
+    ],
+    "primary_sources": [
+      "S3",
+      "S4"
+    ],
+    "variants": [],
+    "uncertainty_notes": "The 'Eye of Ra' is a fluid concept: it is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet [S4].",
+    "chapters": [
+      {
+        "heading": "The Plot",
+        "body": "Humanity plots against Ra [S3][S4]."
+      },
+      {
+        "heading": "The Eye Sent Out",
+        "body": "Ra sends his eye to punish the rebels [S3][S4]."
+      },
+      {
+        "heading": "The Transformation into Sekhmet",
+        "body": "The eye becomes the raging lioness Sekhmet [S3][S4]."
+      },
+      {
+        "heading": "The Trick",
+        "body": "The red-dyed water calms Sekhmet, who returns as Hathor [S3][S4]."
+      }
+    ]
+  }
+]

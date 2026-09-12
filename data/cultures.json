@@ -1,0 +1,74 @@
+[
+  {
+    "id": "japanese",
+    "name": "Japanese Mythology",
+    "native_label": "日本神話",
+    "framing": "living religious tradition",
+    "framing_note": "Shinto is a living religious tradition. These narratives are presented as the tradition's own mythic heritage, with the historical layers (Kojiki 712 CE, Nihon Shoki 720 CE, shrine engi) made visible. Modern state-Sinto and pop-culture readings are labeled separately from the primary texts.",
+    "palette": { "accent": "#c0392b", "accent2": "#c9a227", "bg": "#131114", "surface": "#131114", "ink": "#ece7dd" },
+    "region": { "label": "Japanese archipelago", "map": { "x": 78, "y": 38, "w": 14, "h": 22 } },
+    "period": "c. 712 CE texts · living tradition",
+    "status": "active",
+    "primary_sources_summary": ["Kojiki (712 CE)", "Nihon Shoki (720 CE)", "Engishiki (927 CE)", "Shrine engi corpora"]
+  },
+  {
+    "id": "greek",
+    "name": "Greek Mythology",
+    "native_label": "Ελληνική μυθολογία",
+    "framing": "historical mythology",
+    "framing_note": "Ancient Greek religion is a historical religion. Its myths are attested in primary literary and material sources; disagreements between authors (Hesiod vs. Orphic vs. local cults) are preserved as variants, not resolved.",
+    "palette": { "accent": "#c9a227", "accent2": "#7d8ca3", "bg": "#14151a", "surface": "#14151a", "ink": "#ece7dd" },
+    "region": { "label": "Aegean & Mediterranean", "map": { "x": 48, "y": 40, "w": 12, "h": 14 } },
+    "period": "c. 700 BCE – 400 CE texts",
+    "status": "active",
+    "primary_sources_summary": ["Homer (Iliad, Odyssey, Homeric Hymns)", "Hesiod (Theogony, Works and Days)", "Pindar, Aeschylus, Euripides", "Apollodorus (Bibliotheca)"]
+  },
+  {
+    "id": "norse",
+    "name": "Norse Mythology",
+    "native_label": "Nordisk mytologi",
+    "framing": "historical mythology",
+    "framing_note": "The beliefs are pre-Christian (attested archaeologically from the Viking Age); the written sources are Christian-era (1220–1300) and post-hoc. The gap between belief and text is part of what this section presents.",
+    "palette": { "accent": "#5b8db8", "accent2": "#b5654a", "bg": "#12141a", "surface": "#12141a", "ink": "#ece7dd" },
+    "region": { "label": "Scandinavia", "map": { "x": 50, "y": 22, "w": 10, "h": 16 } },
+    "period": "belief: pre-1000 CE · texts: c. 1220–1270",
+    "status": "active",
+    "primary_sources_summary": ["Poetic Edda (Codex Regius, c. 1270)", "Prose Edda (Snorri, c. 1220)", "Sagas", "Runic & archaeological record"]
+  },
+  {
+    "id": "egyptian",
+    "name": "Ancient Egyptian Religion",
+    "native_label": "المعتقدات المصرية القديمة",
+    "framing": "historical religion",
+    "framing_note": "Ancient Egyptian religion spanned three millennia. There is no single 'official' version: Heliopolitan, Memphite, and Hermopolitan creation traditions coexisted and are presented in parallel, not merged into a genealogy that never existed.",
+    "palette": { "accent": "#c8a24a", "accent2": "#2f7f7a", "bg": "#14130f", "surface": "#14130f", "ink": "#ece7dd" },
+    "region": { "label": "Nile Valley", "map": { "x": 52, "y": 48, "w": 10, "h": 14 } },
+    "period": "c. 3000 BCE – 300 BCE (texts & archaeology)",
+    "status": "active",
+    "primary_sources_summary": ["Pyramid Texts (c. 2400 BCE)", "Coffin Texts (c. 1900 BCE)", "Book of the Dead", "Temple reliefs & papyri"]
+  },
+  {
+    "id": "slavic",
+    "name": "Slavic Mythology",
+    "native_label": "Славянская мифология",
+    "framing": "reconstructed tradition",
+    "framing_note": "Pre-Christian Slavic religion left no native written corpus. Named gods are attested (Vladimir's pantheon, 980 CE; chronicles; ethnography), but the narrative layer is largely scholarly reconstruction (Ivanov–Toporov et al.). Every reconstructed claim is badged as such.",
+    "palette": { "accent": "#8a9a5b", "accent2": "#b5654a", "bg": "#12140f", "surface": "#12140f", "ink": "#ece7dd" },
+    "region": { "label": "Eastern & Central Europe", "map": { "x": 54, "y": 32, "w": 12, "h": 16 } },
+    "period": "attested: 10th–12th c. chronicles · ethnographic record: 18th–20th c.",
+    "status": "active",
+    "primary_sources_summary": ["Primary Chronicle (c. 1113)", "Kievan idol pantheon (980 CE)", "Late chronicles (idol destruction tales)", "19th–20th c. ethnography"]
+  },
+  {
+    "id": "mesopotamian",
+    "name": "Mesopotamian Mythology",
+    "native_label": "ميثولوجيا بلاد الرافدين",
+    "framing": "historical religion",
+    "framing_note": "Sumerian, Akkadian, Babylonian, and Assyrian traditions are one layered, continuous religious world. Sumerian names survive inside Akkadian texts; the succession of 'supreme' gods (An → Enlil → Marduk) is presented as political history, not mythic replacement.",
+    "palette": { "accent": "#3f7ca6", "accent2": "#b08d57", "bg": "#131312", "surface": "#131312", "ink": "#ece7dd" },
+    "region": { "label": "Tigris–Euphrates (Iraq)", "map": { "x": 58, "y": 46, "w": 10, "h": 14 } },
+    "period": "c. 2600 BCE – 300 BCE (cuneiform record)",
+    "status": "active",
+    "primary_sources_summary": ["Enuma Elish (Babylonian creation epic)", "Epic of Gilgamesh (Standard Babylonian)", "Inanna's Descent (Sumerian)", "Atrahasis / flood traditions", "Cylinder seals & temple records"]
+  }
+]

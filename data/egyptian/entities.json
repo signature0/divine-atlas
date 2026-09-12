@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "egy-aur",
+    "culture": "egyptian",
+    "name": "Atum-Ra (the primordial waters' first god)",
+    "native_name": "Atum / Ra",
+    "alternative_names": [
+      "Atum",
+      "Khepri (morning form)"
+    ],
+    "classification": "primordial",
+    "gender": "male",
+    "domains": [
+      "creation",
+      "the sun",
+      "the self-created god"
+    ],
+    "symbols": [
+      "the solar disc",
+      "the ram's head (Khepri)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis",
+      "egy-creation-memphis"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-ra-dendera"
+    ],
+    "description_short": "In the Heliopolitan tradition, the self-created god who rose from the primordial waters (Nun) as the first being; identified with Ra and with Atum (the 'Completed One').",
+    "description_long": "In the Heliopolitan (Heliopolis) creation tradition, the first god rose from the primordial waters of Nun — sometimes as a mound of earth (the benben), sometimes directly — and was named Atum, 'the Self-Completed.' He was identified with Ra, the sun god, and with Khepri, the scarab-headed morning sun [S1][S4]. From his own body (in one account, by spitting or sneezing) came Shu and Tefnut, the first divine pair [S1][S4]. The Heliopolitan account is only one of several Egyptian creation traditions; the Memphis tradition makes Ptah the self-created creator, and Hermopolis begins with a primeval Ogdoad of eight deities [S4]. We do NOT present one as 'the' Egyptian creation story — we present all three.",
+    "interesting_facts": [
+      "The self-created god of the Heliopolitan tradition [S1][S4].",
+      "Identified with Ra (the sun) and Atum (the completed one) [S4].",
+      "In Memphis, Ptah plays the 'self-created creator' role instead [S4]."
+    ],
+    "uncertainty_notes": [
+      "Which god is 'first' depends on the local tradition: Atum-Ra (Heliopolis), Ptah (Memphis), or the Ogdoad (Hermopolis). These are genuinely competing accounts, not a single story with variants [S4]."
+    ],
+    "hero_artwork": "egy-art-ra-dendera"
+  },
+  {
+    "id": "egy-nun",
+    "culture": "egyptian",
+    "name": "Nun (the primordial waters)",
+    "native_name": "Nun / Nu",
+    "alternative_names": [
+      "Nu"
+    ],
+    "classification": "primordial",
+    "gender": "male",
+    "domains": [
+      "the primordial waters",
+      "chaos (the pre-creation state)"
+    ],
+    "symbols": [
+      "the waters",
+      "the crocodile (in some images)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis",
+      "egy-solar-journey"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The primordial waters from which creation emerged — the infinite, dark water that existed before the world.",
+    "description_long": "Nun is the body of primordial waters that existed before creation. From Nun the first god rose (as Atum on the benben mound in Heliopolis) [S1][S4]. Nun is not exactly 'evil' — it is the undifferentiated pre-creation state — but it is also the state the world returns toward: the sun god must battle the serpent Apep (who represents the chaotic waters) every night in the Duat [S2][S4]. The priests of the temple performed the 'Opening of the Mouth' and other rites to keep the ordered world (Ma'at) separate from Nun [S4].",
+    "interesting_facts": [
+      "The primordial waters of pre-creation [S1][S4].",
+      "Apep, the chaos serpent, embodies the threat of Nun returning [S2]."
+    ],
+    "uncertainty_notes": [
+      "Nun's 'gender' is often given as male (Nun) with a female counterpart (Naunet); the sources treat the waters as a pair [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-apep",
+    "culture": "egyptian",
+    "name": "Apep (Apophis)",
+    "native_name": "Apep / Apophis",
+    "alternative_names": [
+      "Apep",
+      "Apophis"
+    ],
+    "classification": "monster",
+    "gender": "male",
+    "domains": [
+      "chaos",
+      "the night serpent",
+      "the enemy of the sun"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "egy-ra"
+    ],
+    "associated_realms": [
+      "egy-duat"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-solar-journey"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The great chaos serpent who tries each night to devour the sun god in the Duat; he is defeated every night — but must be defeated again.",
+    "description_long": "Apep (Apophis) is the great serpent of chaos who dwells in the primordial waters and tries every night to devour the sun god Ra as Ra travels through the Duat (the underworld) [S2][S4]. At the hour of the sun's weakest point (around midnight), Apep strikes; the sun god (helped by Thoth and others) defeats him — often with a knife or by the 'Eye of Ra' (Sekhmet) [S2][S4]. The defeat is repeated nightly: Apep is not permanently destroyed, he is merely driven back. This nightly battle is the mythic basis for the Egyptian understanding of the sun's daily rising [S2][S4]. Priests performed rites each night to 'bind' Apep [S4].",
+    "interesting_facts": [
+      "The nightly enemy of the sun god in the Duat [S2][S4].",
+      "Defeated every night but never permanently destroyed [S2][S4].",
+      "Priests performed nightly rites to bind him [S4]."
+    ],
+    "uncertainty_notes": [
+      "Apep's relationship to Nun (the primordial waters) is close but not identical: Apep is the active threat, Nun the passive pre-creation state [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-shu",
+    "culture": "egyptian",
+    "name": "Shu",
+    "native_name": "Shu",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the air",
+      "the atmosphere",
+      "the first divine pair (with Tefnut)"
+    ],
+    "symbols": [
+      "the feather (his headdress)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-aur"
+    ],
+    "siblings": [
+      "egy-tefnut"
+    ],
+    "partners": [
+      "egy-tefnut"
+    ],
+    "children": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "God of the air, son of Atum-Ra (with Tefnut); he holds up the sky (Nut) to keep it from the earth (Geb).",
+    "description_long": "Shu is the god of the air and the atmosphere, the first son of Atum-Ra [S1][S4]. He and his sister Tefnut (moisture) are the first divine pair born from the self-created god. Their children are Geb (earth) and Nut (sky) [S1][S4]. Shu's defining image is that of the supporter: he stands between earth and sky, holding Nut up with his hands so that the sky does not collapse onto the earth [S4]. He is a god of the ordered atmosphere — the space between the solid earth and the solid sky that the air (Shu) maintains [S4].",
+    "interesting_facts": [
+      "Holds up the sky (Nut) to keep it from the earth (Geb) [S4].",
+      "Son of Atum-Ra; brother of Tefnut [S1][S4].",
+      "Father of Geb and Nut [S1][S4]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-tefnut",
+    "culture": "egyptian",
+    "name": "Tefnut",
+    "native_name": "Tefnut",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "moisture",
+      "rain",
+      "the first divine pair (with Shu)"
+    ],
+    "symbols": [
+      "the crocodile's head (in some images)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-aur"
+    ],
+    "siblings": [
+      "egy-shu"
+    ],
+    "partners": [
+      "egy-shu"
+    ],
+    "children": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "Goddess of moisture and rain, sister and consort of Shu; together they are the first divine pair.",
+    "description_long": "Tefnut is the goddess of moisture, rain, and the cool air, the sister and consort of Shu [S4]. She is the first divine pair with Shu, and their children are Geb and Nut [S1][S4]. Tefnut is also associated with the 'Eye of Ra' — in one myth she is the angry eye that Ra sent out to punish humanity, and who became Sekhmet (or was calmed and became Hathor) [S3][S4].",
+    "interesting_facts": [
+      "Goddess of moisture and rain [S4].",
+      "The first divine pair with Shu [S1][S4].",
+      "Associated with the 'Eye of Ra' myth [S3][S4]."
+    ],
+    "uncertainty_notes": [
+      "Tefnut's identification with the 'Eye of Ra' is one of several identifications; the Eye is a fluid concept in Egyptian thought [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-gebel",
+    "culture": "egyptian",
+    "name": "Geb",
+    "native_name": "Geb",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the earth",
+      "fertility",
+      "the land"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-shu",
+      "egy-tefnut"
+    ],
+    "siblings": [
+      "egy-nut"
+    ],
+    "partners": [
+      "egy-nut"
+    ],
+    "children": [
+      "egy-osiris",
+      "egy-isfet",
+      "egy-set",
+      "egy-nephthys"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis",
+      "egy-osiris-murder"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "God of the earth, son of Shu and Tefnut; he is the father of Osiris, Isis, Set, and Nephthys.",
+    "description_long": "Geb is the god of the earth, the solid ground, the source of fertility [S4]. He is the son of Shu and Tefnut and the husband of Nut (his sister) [S1][S4]. Geb and Nut are the parents of the four children who form the core of the Osiris cycle: Osiris, Isis, Set, and Nephthys [S1][S4]. The myth of Geb and Nut: Shu separated them, holding Nut up, because the earth-god and the sky-goddess were inseparable [S4]. Geb's domain is the fertile black soil of the Nile, the source of all life [S4].",
+    "interesting_facts": [
+      "God of the earth and fertility [S4].",
+      "Father of Osiris, Isis, Set, and Nephthys [S1][S4].",
+      "Separated from Nut by Shu [S4]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-nut",
+    "culture": "egyptian",
+    "name": "Nut",
+    "native_name": "Nut",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the sky",
+      "the stars",
+      "the heavens"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-shu",
+      "egy-tefnut"
+    ],
+    "siblings": [
+      "egy-gebel"
+    ],
+    "partners": [
+      "egy-gebel"
+    ],
+    "children": [
+      "egy-osiris",
+      "egy-isfet",
+      "egy-set",
+      "egy-nephthys"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-heliopolis",
+      "egy-solar-journey"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "Goddess of the sky, daughter of Shu and Tefnut; she swallows the sun each night and gives it birth each morning.",
+    "description_long": "Nut is the goddess of the sky, the dome of the heavens studded with stars [S4]. She is the daughter of Shu and Tefnut and the wife of Geb (her brother) [S1][S4]. Nut's body arches over the earth: each night she swallows the sun (Ra) as it sets, carries it through her body through the night, and gives it birth again at dawn [S2][S4]. The sun's nightly journey through Nut's body is the same journey through the Duat (the underworld) where Apep waits [S2]. Nut is a goddess of the stars and of the cycle of death and rebirth that the sun performs daily [S4].",
+    "interesting_facts": [
+      "The sky goddess who swallows and rebirths the sun nightly [S2][S4].",
+      "Daughter of Shu and Tefnut; wife of Geb [S1][S4].",
+      "Mother of Osiris, Isis, Set, and Nephthys [S1][S4]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-osiris",
+    "culture": "egyptian",
+    "name": "Osiris",
+    "native_name": "Osiris",
+    "alternative_names": [
+      "Wsir",
+      "Usir"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the dead",
+      "resurrection",
+      "the afterlife",
+      "the Nile's flood",
+      "the fertile earth"
+    ],
+    "symbols": [
+      "the atef crown",
+      "the crook and flail",
+      "the mummified form"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "siblings": [
+      "egy-isfet",
+      "egy-set",
+      "egy-nephthys"
+    ],
+    "partners": [
+      "egy-isfet"
+    ],
+    "children": [
+      "egy-horus"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-duat",
+      "egy-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-isis-restores",
+      "egy-horus-vs-set"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-osiris-stele",
+      "egy-art-osiris-walters"
+    ],
+    "description_short": "The lord of the dead and resurrection; murdered by his brother Set, restored by Isis, and father of Horus; he judges the dead in the afterlife.",
+    "description_long": "Osiris is the lord of the dead, the god of resurrection, and the judge of the afterlife [S1][S2][S3][S4]. In the great myth, he was a just king of Egypt who was murdered by his jealous brother Set: Set placed him in a chest, sealed it with lead, and cast it into the Nile; the chest washed up in Byblos, and a tamarisk tree grew around it [S3][S4]. Isis found the body, restored it, and through their union conceived Horus [S3][S4]. Osiris then became lord of the Duat (the underworld), where he judges the dead: the 'Weighing of the Heart' (the heart weighed against the feather of Ma'at) determines the fate of the soul [S2][S4]. Osiris is the prototype of mummification: his restored body is the model for the mummified dead who seek resurrection [S4]. He is also associated with the annual Nile flood, which made the land fertile [S4].",
+    "interesting_facts": [
+      "Lord of the dead and the afterlife [S1][S2].",
+      "Murdered by Set, restored by Isis [S3][S4].",
+      "Father of Horus [S3][S4].",
+      "Judges the dead in the 'Weighing of the Heart' [S2].",
+      "The prototype of mummification [S4].",
+      "Associated with the Nile flood and fertility [S4]."
+    ],
+    "uncertainty_notes": [
+      "The 'Byblos' episode (the chest washing up in Phoenicia) is a later addition to the myth [S3][S4].",
+      "Osiris's role as 'king of the dead' developed over time; in the earliest Pyramid Texts he is one of the blessed dead, not yet the lord of all the dead [S1][S4]."
+    ],
+    "hero_artwork": "egy-art-osiris-stele"
+  },
+  {
+    "id": "egy-isfet",
+    "culture": "egyptian",
+    "name": "Isis",
+    "native_name": "Isis",
+    "alternative_names": [
+      "Isis",
+      "Aset"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "magic",
+      "motherhood",
+      "healing",
+      "fidelity",
+      "the protection of the dead"
+    ],
+    "symbols": [
+      "the throne (her name means 'throne')",
+      "the ankh",
+      "the sistrum"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "siblings": [
+      "egy-osiris",
+      "egy-set",
+      "egy-nephthys"
+    ],
+    "partners": [
+      "egy-osiris"
+    ],
+    "children": [
+      "egy-horus"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-isis-restores",
+      "egy-horus-vs-set"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-isis-shroud",
+      "egy-art-isis-pompeii"
+    ],
+    "description_short": "The greatest of the Egyptian goddesses: wife of Osiris, mother of Horus, the master of magic, the protector of the dead, and the faithful wife.",
+    "description_long": "Isis is the most widely worshipped of the Egyptian goddesses and one of the most important figures in the Osiris cycle [S3][S4]. She is the sister and wife of Osiris and the mother of Horus [S1][S3][S4]. After Set murdered Osiris, Isis gathered the scattered pieces of his body (all except the genitals, which were lost) and used her magic to restore him and conceive Horus [S3][S4]. She is the master of magic (she is the one who, in one myth, learned the secret name of Ra and thereby gained his power) [S3][S4]. Isis is the protector of the dead: in the Book of the Dead, she appears as one of the four daughters of Horus who protect the canopic jars (the internal organs) [S2][S4]. Her worship spread across the Mediterranean and into the Roman world, where the 'Isis cult' persisted for centuries [S3][S4].",
+    "interesting_facts": [
+      "Wife of Osiris, mother of Horus [S1][S3][S4].",
+      "Restored Osiris's body and conceived Horus [S3][S4].",
+      "Master of magic [S3][S4].",
+      "Protector of the dead (one of the four daughters of Horus) [S2][S4].",
+      "Her cult spread across the Roman world [S3][S4]."
+    ],
+    "uncertainty_notes": [
+      "Isis's 'magic' is a later development; in the earliest sources she is a faithful wife and a good mother [S4].",
+      "The 'secret name of Ra' episode is a late (Greco-Roman period) text [S3][S4]."
+    ],
+    "hero_artwork": "egy-art-isis-shroud"
+  },
+  {
+    "id": "egy-horus",
+    "culture": "egyptian",
+    "name": "Horus",
+    "native_name": "Horus",
+    "alternative_names": [
+      "Horus",
+      "Hr"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sky",
+      "kingship",
+      "the sun (as Horakhty)",
+      "the falcon",
+      "the protector of the pharaoh"
+    ],
+    "symbols": [
+      "the falcon",
+      "the wedjat eye (the Eye of Horus)"
+    ],
+    "animals": [
+      "the falcon"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-osiris",
+      "egy-isfet"
+    ],
+    "siblings": [
+      "egy-horus-elder"
+    ],
+    "partners": [
+      "egy-isfet"
+    ],
+    "children": [
+      "egy-horus-elder"
+    ],
+    "allies": [],
+    "enemies": [
+      "egy-set"
+    ],
+    "associated_realms": [
+      "egy-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-horus-vs-set"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-horus-walters",
+      "egy-art-horus-double-crown"
+    ],
+    "description_short": "The falcon god of the sky and of kingship; son of Osiris and Isis; he avenges his father by defeating Set. The living pharaoh is Horus; the dead pharaoh becomes Osiris.",
+    "description_long": "Horus is the falcon god of the sky and of kingship [S4]. In the Osiris cycle, he is the son of Osiris and Isis, born after Osiris's murder, and his life's task is to avenge his father by defeating Set and reclaiming the throne [S3][S4]. The great myth of Horus vs. Set is a long, episodic struggle (preserved in the 'Contendings of Horus and Set') in which the two cousins fight for the throne of Egypt, judged by the Ennead [S4]. Horus wins, and becomes the king of the unified Egypt [S4]. The living pharaoh is identified with Horus (Horus 'so-and-so' is the pharaoh's name); the dead pharaoh becomes Osiris [S4]. There is also an 'elder' Horus (Harsomatus / the son of the first Horus) in some genealogies [S4]. The 'Eye of Horus' (the wedjat) is the broken-and-restored eye that Horus lost to Set and regained — a symbol of healing and protection [S4].",
+    "interesting_facts": [
+      "Falcon god of the sky and kingship [S4].",
+      "Son of Osiris and Isis; avenges his father against Set [S3][S4].",
+      "The living pharaoh is Horus; the dead pharaoh becomes Osiris [S4].",
+      "The 'Eye of Horus' (wedjat) is a symbol of healing [S4]."
+    ],
+    "uncertainty_notes": [
+      "The 'two Horuses' (the sky-falcon and the son of Osiris) are sometimes treated as the same god and sometimes as distinct; the sources are not consistent [S4]."
+    ],
+    "hero_artwork": "egy-art-horus-walters"
+  },
+  {
+    "id": "egy-set",
+    "culture": "egyptian",
+    "name": "Set (Seth)",
+    "native_name": "Set",
+    "alternative_names": [
+      "Set",
+      "Seth",
+      "Sutekh"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the desert",
+      "storm",
+      "chaos",
+      "violence",
+      "the foreigner"
+    ],
+    "symbols": [
+      "the Set animal (a mysterious creature with a long snout)"
+    ],
+    "animals": [
+      "the Set animal",
+      "the donkey",
+      "the pig"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "siblings": [
+      "egy-osiris",
+      "egy-isfet",
+      "egy-nephthys"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "egy-osiris",
+      "egy-horus"
+    ],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-horus-vs-set"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-set-ramesses"
+    ],
+    "description_short": "The god of the desert, storm, and chaos; brother of Osiris who murdered him; the great enemy of Horus and of Ma'at (order).",
+    "description_long": "Set (Seth) is the god of the desert, the storm, chaos, and violence — the great antagonist of the Osiris cycle [S4]. He is the brother of Osiris and the one who murdered him, out of jealousy (Osiris was the rightful king) [S3][S4]. Set's defining act is the murder of Osiris: he lured Osiris to a banquet, measured him for a coffin, seized him, wrapped him in the coffin, sealed it with lead, and threw it in the Nile [S3][S4]. Set is then the great enemy of Horus (his nephew), and the two fight for the throne in the 'Contendings' [S4]. Set is the god of the foreign, the chaotic, the violent — the desert that threatens the fertile Nile valley [S4]. He is not simply 'evil': he is the necessary counterforce to Ma'at (order), the storm that keeps the world from stagnation [S4]. He was eventually 'demonized' as Egypt's enemies (the Libyans, then the Nubians, then the Persians) were associated with him [S4].",
+    "interesting_facts": [
+      "God of the desert, storm, and chaos [S4].",
+      "Murdered his brother Osiris [S3][S4].",
+      "The great enemy of Horus [S4].",
+      "Eventually 'demonized' as the god of Egypt's enemies [S4]."
+    ],
+    "uncertainty_notes": [
+      "Set's character changed over time: from a complex storm god to an outright 'evil' figure (especially in the Greco-Roman period) [S4].",
+      "The 'Set animal' (his symbol) is still unidentified — it may be a hybrid creature or a stylized animal [S4]."
+    ],
+    "hero_artwork": "egy-art-set-ramesses"
+  },
+  {
+    "id": "egy-nephthys",
+    "culture": "egyptian",
+    "name": "Nephthys",
+    "native_name": "Nephthys",
+    "alternative_names": [
+      "Nephthys",
+      "Nebthet"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the dead",
+      "the protection of the mummy",
+      "the threshold (her name means 'lady of the house)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "egy-gebel",
+      "egy-nut"
+    ],
+    "siblings": [
+      "egy-osiris",
+      "egy-isfet",
+      "egy-set"
+    ],
+    "partners": [
+      "egy-set",
+      "egy-osiris"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-isis-restores"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "The goddess of the dead and the protection of the mummy; sister of Osiris and Isis; she helped Isis restore her brother.",
+    "description_long": "Nephthys is the goddess of the dead, the protection of the mummy, and the threshold (her name means 'lady of the house') [S4]. She is the sister of Osiris and Isis and the wife (in some accounts) of Set [S4]. In the Osiris cycle, Nephthys stands with Isis in grief and in the restoration of Osiris: the two sisters (Isis as the kite, Nephthys as the swallow) circle the body of Osiris, mourning and protecting it [S3][S4]. Nephthys is one of the four protectors of the canopic jars (the internal organs) in the Book of the Dead [S2][S4]. She is a goddess of the threshold — the boundary between the living and the dead — and of the protection of the mummy in the tomb [S4].",
+    "interesting_facts": [
+      "Goddess of the dead and the protection of the mummy [S4].",
+      "Sister of Osiris and Isis; helped restore Osiris [S3][S4].",
+      "One of the four protectors of the canopic jars [S2][S4]."
+    ],
+    "uncertainty_notes": [
+      "Nephthys's relationship to Set (as his wife) is odd given that Set is the murderer of her brother; the sources treat it as a fact without explaining it [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-ra",
+    "culture": "egyptian",
+    "name": "Ra",
+    "native_name": "Ra",
+    "alternative_names": [
+      "Ra",
+      "Amun-Ra (fused)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sun",
+      "creation",
+      "the king of the gods"
+    ],
+    "symbols": [
+      "the solar disc",
+      "the vulture (on the disc)"
+    ],
+    "animals": [
+      "the bull",
+      "the vulture"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "egy-apep"
+    ],
+    "associated_realms": [
+      "egy-sky",
+      "egy-duat"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-solar-journey",
+      "egy-creation-heliopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-ra-dendera",
+      "egy-art-ra-slays-apep"
+    ],
+    "description_short": "The sun god, king of the gods, who travels across the sky by day and through the Duat by night; he is defeated nightly by Apep and reborn each dawn.",
+    "description_long": "Ra is the sun god, the king of the gods, the creator (in the Heliopolitan tradition, as Atum-Ra) [S1][S4]. By day he crosses the sky in his solar barque (the 'Day Barque'), bringing light and life [S2][S4]. At sunset he enters the Duat (the underworld) in the 'Night Barque' and travels through the twelve hours of the night, where he faces Apep (the chaos serpent) at the hour of greatest danger (around midnight) [S2][S4]. Thoth and other gods help him defeat Apep, and he rises again at dawn [S2][S4]. Ra's nightly journey is the mythic basis of the Egyptian afterlife: the dead who are justified 'sail with Ra' through the night [S2][S4]. In the later (New Kingdom and after) period, Ra was fused with Amun to become 'Amun-Ra', the supreme god of the state religion [S4].",
+    "interesting_facts": [
+      "The sun god and king of the gods [S4].",
+      "Travels across the sky by day and through the Duat by night [S2][S4].",
+      "Defeats Apep nightly [S2][S4].",
+      "Fused with Amun to become Amun-Ra [S4]."
+    ],
+    "uncertainty_notes": [
+      "Ra's 'creation' role (as Atum) is specifically Heliopolitan; other traditions give the creation role to Ptah or the Ogdoad [S4]."
+    ],
+    "hero_artwork": "egy-art-ra-dendera"
+  },
+  {
+    "id": "egy-amun",
+    "culture": "egyptian",
+    "name": "Amun",
+    "native_name": "Amun",
+    "alternative_names": [
+      "Amun",
+      "Amun-Ra (fused with Ra)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the hidden one",
+      "the king of the gods",
+      "creation (in later periods)"
+    ],
+    "symbols": [
+      "the double plumes (his headdress)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-temple"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-memphis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-amun-statue"
+    ],
+    "description_short": "The 'Hidden One', the supreme god of the later Egyptian state religion; fused with Ra to become Amun-Ra.",
+    "description_long": "Amun is the 'Hidden One', a god who was originally a local god of Thebes but rose to become the supreme god of the Egyptian state religion in the New Kingdom and later periods [S4]. His name means 'the hidden one' — he is the invisible, the unseen, the source that is behind all things [S4]. Amun was fused with Ra to become 'Amun-Ra', the supreme creator and king of the gods [S4]. The great temple of Amun at Karnak was the largest temple complex in Egypt [S4]. Amun's 'hiddenness' made him a good candidate for fusion with other gods (Amun-Ra, Amun-Montu, etc.) [S4].",
+    "interesting_facts": [
+      "The 'Hidden One', supreme god of the later state religion [S4].",
+      "Fused with Ra to become Amun-Ra [S4].",
+      "His great temple was at Karnak [S4]."
+    ],
+    "uncertainty_notes": [
+      "Amun's 'hiddenness' is a theological concept, not a mythic attribute; the sources do not give him a detailed mythic biography [S4]."
+    ],
+    "hero_artwork": "egy-art-amun-statue"
+  },
+  {
+    "id": "egy-ptah",
+    "culture": "egyptian",
+    "name": "Ptah",
+    "native_name": "Ptah",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "creation",
+      "the craftsman-god",
+      "the patron of Memphis",
+      "the sculptor of the world"
+    ],
+    "symbols": [
+      "the ankh, was-sceptre, and djed (his triple symbol)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [
+      "Memphis"
+    ],
+    "major_myths": [
+      "egy-creation-memphis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The creator-god of Memphis, the divine craftsman who 'fashioned' the world in his heart and mouth; in the Memphite tradition he is the self-created first god.",
+    "description_long": "Ptah is the creator-god of Memphis, the patron of craftsmen and sculptors [S4]. In the Memphite creation tradition (preserved in the 'Memphite Theology' inscribed on a statue of Ptah-Sokar-Osiris), Ptah is the self-created first god who created the world 'in his heart and with his mouth' — that is, by thought (the heart) and by speech (the mouth), naming things into existence [S4]. This is a distinct creation tradition from the Heliopolitan (Atum-Ra) and the Hermopolitan (Ogdoad) accounts [S4]. Ptah is the divine craftsman: he is the patron of sculptors, metalworkers, and all makers, and the temple workshops at Memphis were centers of artistic production [S4]. Ptah was later fused with Sokar (aMemphite god of the necropolis) and with Osiris to become 'Ptah-Sokar-Osiris' [S4].",
+    "interesting_facts": [
+      "Creator-god of Memphis [S4].",
+      "Created the world 'in his heart and mouth' (Memphite Theology) [S4].",
+      "Patron of craftsmen and sculptors [S4].",
+      "Fused with Sokar and Osiris to become Ptah-Sokar-Osiris [S4]."
+    ],
+    "uncertainty_notes": [
+      "The Memphite Theology is a late (Saite period) text that 'reinterprets' Ptah as the supreme creator; earlier sources do not give Ptah this role [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-thoth",
+    "culture": "egyptian",
+    "name": "Thoth",
+    "native_name": "Thoth",
+    "alternative_names": [
+      "Thoth",
+      "Djehuty"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "wisdom",
+      "writing",
+      "the moon",
+      "magic",
+      "the judge of the dead"
+    ],
+    "symbols": [
+      "the ibis (his animal form)",
+      "the scribe's palette"
+    ],
+    "animals": [
+      "the ibis"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-solar-journey",
+      "egy-osiris-murder"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "egy-art-thoth-ibis"
+    ],
+    "description_short": "The ibis-headed god of wisdom, writing, and the moon; he records the verdict in the Weighing of the Heart and helps Ra defeat Apep.",
+    "description_long": "Thoth is the ibis-headed god of wisdom, writing, and the moon [S4]. He is the scribe of the gods: he records the verdict in the 'Weighing of the Heart' (the judgment of the dead) [S2][S4]. He is the inventor of writing (hieroglyphs) and of magic [S4]. In the solar journey, Thoth helps Ra defeat Apep at the critical midnight hour [S2][S4]. Thoth is also associated with the moon (his name is linked to the 'calculations' of the lunar calendar) [S4]. He is a god of order and knowledge — the opposite of the chaos that Apep represents [S4].",
+    "interesting_facts": [
+      "Ibis-headed god of wisdom and writing [S4].",
+      "Records the verdict in the Weighing of the Heart [S2][S4].",
+      "Helps Ra defeat Apep at midnight [S2][S4].",
+      "Associated with the moon [S4]."
+    ],
+    "uncertainty_notes": [
+      "Thoth's 'moon' association is debated: some scholars see it as a later development, others as ancient [S4]."
+    ],
+    "hero_artwork": "egy-art-thoth-ibis"
+  },
+  {
+    "id": "egy-hathor",
+    "culture": "egyptian",
+    "name": "Hathor",
+    "native_name": "Hathor",
+    "alternative_names": [
+      "Hathor"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "love",
+      "music",
+      "dance",
+      "joy",
+      "the sky (as the cow)",
+      "the protection of women"
+    ],
+    "symbols": [
+      "the sistrum",
+      "the menat necklace",
+      "the cow's horns and solar disc"
+    ],
+    "animals": [
+      "the cow"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-eye-of-ra"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-hathor-head",
+      "egy-art-hathor-cow"
+    ],
+    "description_short": "The cow goddess of love, music, dance, and joy; she is the 'Great One' and the mother of the pharaoh; in the 'Eye of Ra' myth she becomes Sekhmet.",
+    "description_long": "Hathor is the cow goddess of love, music, dance, and joy, the 'Great One' and the mother of the pharaoh [S4]. She is the goddess of the western desert (the land of the dead) and of the mining regions (the turquoise mines of Serabit el-Khadim) [S4]. In the 'Eye of Ra' myth, Hathor (or Tefnut) is the eye that Ra sends out to punish humanity for plotting against him; the eye becomes enraged and is transformed into Sekhmet (the warrior goddess), and is calmed (by a trick involving red-dyed water that looks like blood) and returns as Hathor [S3][S4]. Hathor is the patroness of music and dance: her priests played the sistrum and the menat [S4]. She is also the 'mistress of the West' — the goddess who receives the dead [S4].",
+    "interesting_facts": [
+      "Cow goddess of love, music, dance, and joy [S4].",
+      "The 'Eye of Ra' who becomes Sekhmet and is calmed back to Hathor [S3][S4].",
+      "Patroness of the mining regions [S4]."
+    ],
+    "uncertainty_notes": [
+      "The 'Eye of Ra' is a fluid concept: it is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-bastet",
+    "culture": "egyptian",
+    "name": "Bastet",
+    "native_name": "Bastet",
+    "alternative_names": [
+      "Bastet"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the home",
+      "the protection of women",
+      "cats",
+      "the gentle moon"
+    ],
+    "symbols": [
+      "the cat",
+      "the sistrum"
+    ],
+    "animals": [
+      "the cat"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-bastet-statue"
+    ],
+    "description_short": "The cat goddess of the home, the protection of women, and the gentle aspects of the moon; the 'gentle' counterpart of Sekhmet.",
+    "description_long": "Bastet is the cat goddess of the home, the protection of women, and the gentle aspects of the moon [S4]. She is the 'gentle' counterpart of Sekhmet (the warrior goddess): where Sekhmet is the raging eye of Ra, Bastet is the calm, protective cat [S4]. Her great cult center was at Bubastis, where a great festival was held in her honor [S4]. Cats were sacred to Bastet: mummified cats were buried in great numbers at Bubastis and other sites [S4]. Bastet is a goddess of the domestic, the protective, the gentle — the opposite of the violent desert [S4].",
+    "interesting_facts": [
+      "Cat goddess of the home and protection [S4].",
+      "The 'gentle' counterpart of Sekhmet [S4].",
+      "Her cult center was at Bubastis [S4].",
+      "Cats were mummified and buried for her [S4]."
+    ],
+    "uncertainty_notes": [
+      "Bastet's 'moon' association is later; the earliest Bastet is a cat goddess of the home [S4]."
+    ],
+    "hero_artwork": "egy-art-bastet-statue"
+  },
+  {
+    "id": "egy-sekhemet",
+    "culture": "egyptian",
+    "name": "Sekhmet",
+    "native_name": "Sekhmet",
+    "alternative_names": [
+      "Sekhmet"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "war",
+      "the destruction",
+      "the raging eye of Ra"
+    ],
+    "symbols": [
+      "the lioness",
+      "the solar disc"
+    ],
+    "animals": [
+      "the lioness"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-eye-of-ra"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [
+      "egy-art-sekhmet-lioness"
+    ],
+    "description_short": "The lioness goddess of war and destruction; the 'raging eye of Ra' who is calmed back into Hathor.",
+    "description_long": "Sekhmet is the lioness goddess of war, destruction, and the raging aspects of the sun [S4]. She is the 'eye of Ra' in her enraged form: when Ra sends his eye out to punish humanity, it becomes Sekhmet, who slaughters the rebels [S3][S4]. To calm her, Ra (or Thoth) devises a trick: he brews a potion dyed red with beet juice (to look like blood) and floods the land with it; Sekhmet, thinking she has drunk the blood of her victims, becomes drunk and calm, and returns as Hathor [S3][S4]. Sekhmet is the warrior goddess, the patron of the pharaoh in battle, and the destructive power of the sun [S4].",
+    "interesting_facts": [
+      "Lioness goddess of war and destruction [S4].",
+      "The 'raging eye of Ra' who is calmed into Hathor [S3][S4].",
+      "Patron of the pharaoh in battle [S4]."
+    ],
+    "uncertainty_notes": [
+      "Sekhmet and Hathor are two aspects of the same 'Eye of Ra' — the sources treat them as distinct goddesses who are also the same [S4]."
+    ],
+    "hero_artwork": "egy-art-sekhmet-lioness"
+  },
+  {
+    "id": "egy-anubis",
+    "culture": "egyptian",
+    "name": "Anubis",
+    "native_name": "Anubis",
+    "alternative_names": [
+      "Anubis",
+      "Wepwawet (a related jackal god)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the mummification",
+      "the dead",
+      "the threshold of the tomb",
+      "the protection of the grave"
+    ],
+    "symbols": [
+      "the jackal's head",
+      "the crook and flail"
+    ],
+    "animals": [
+      "the jackal"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "egy-osiris-murder"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Pyramid Texts",
+        "date": "c. 2400–2300 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Pyramid_Texts"
+      },
+      {
+        "type": "text",
+        "name": "Book of the Dead (e.g., Papyrus of Ani)",
+        "date": "c. 1250 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+      },
+      {
+        "type": "text",
+        "name": "Plutarch, On Isis and Osiris",
+        "date": "c. 79 CE",
+        "ref": "S3",
+        "url": "https://en.wikisource.org/wiki/On_Isis_and_Osiris"
+      },
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Egyptian collection (open access)",
+        "date": "museum",
+        "ref": "S5",
+        "url": "https://www.metmuseum.org/art/collection"
+      }
+    ],
+    "artworks": [
+      "egy-art-anubis-jackal"
+    ],
+    "description_short": "The jackal-headed god of mummification and the dead; he oversees the embalming of the body and guides the soul to the afterlife.",
+    "description_long": "Anubis is the jackal-headed god of mummification and the dead [S4]. He is the overseer of the embalming: in the 'Weighing of the Heart' scene, Anubis (or a priest in his guise) performs the weighing [S2][S4]. He is the god of the threshold of the tomb — the boundary between the world of the living and the world of the dead [S4]. Anubis is the 'foremost of the westerners' (the west is the land of the dead, where the sun sets) [S4]. In the Osiris cycle, Anubis is the one who mummifies Osiris's body, making him the first mummy [S3][S4]. He is a god of protection of the grave and of the safe passage of the soul to the afterlife [S4].",
+    "interesting_facts": [
+      "Jackal-headed god of mummification [S4].",
+      "Oversees the embalming and the Weighing of the Heart [S2][S4].",
+      "Mummified Osiris's body (the first mummy) [S3][S4]."
+    ],
+    "uncertainty_notes": [
+      "Anubis's status declined in the later periods as Osiris took over much of his 'lord of the dead' role [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-ogdoad-nun",
+    "culture": "egyptian",
+    "name": "Nun & Naunet (primeval waters)",
+    "native_name": "Nun & Naunet",
+    "alternative_names": [],
+    "classification": "primordial",
+    "gender": "unknown",
+    "domains": [
+      "the primeval waters (Hermopolitan account)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-hermopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "In the Hermopolitan creation tradition, the primeval waters (Nun and his female counterpart Naunet) are the first of the Ogdoad — the eight primeval deities.",
+    "description_long": "In the Hermopolitan (Hermopolis) creation tradition, the world begins with the Ogdoad — a group of eight primeval deities representing the conditions of the primordial state [S4]. The first pair is Nun and Naunet, the primeval waters [S4]. The Ogdoad is a distinct creation account from the Heliopolitan (Atum-Ra) and Memphite (Ptah) traditions [S4].",
+    "interesting_facts": [
+      "The first pair of the Hermopolitan Ogdoad [S4]."
+    ],
+    "uncertainty_notes": [
+      "The Ogdoad is one of several creation accounts; we do not treat it as 'the' Egyptian creation [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-ogdoad-heh",
+    "culture": "egyptian",
+    "name": "Heh & Hehet (primordial infinity)",
+    "native_name": "Heh & Hehet",
+    "alternative_names": [],
+    "classification": "primordial",
+    "gender": "unknown",
+    "domains": [
+      "primordial infinity (Hermopolitan account)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-hermopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "In the Hermopolitan Ogdoad, Heh and Hehet represent primordial infinity (the endless, the without-beginning).",
+    "description_long": "Heh and Hehet are the second pair of the Hermopolitan Ogdoad, representing primordial infinity — the endless, the without-beginning [S4]. They are the 'eternity' that underlies the other primeval conditions [S4].",
+    "interesting_facts": [
+      "The second pair of the Hermopolitan Ogdoad [S4]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-ogdoad-khnum",
+    "culture": "egyptian",
+    "name": "Khenunu & Khenunit (primordial mystery)",
+    "native_name": "Khenunu & Khenunit",
+    "alternative_names": [],
+    "classification": "primordial",
+    "gender": "unknown",
+    "domains": [
+      "primordial mystery (Hermopolitan account)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-hermopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "In the Hermopolitan Ogdoad, Khenunu and Khenunit represent primordial mystery (the hidden, the secret).",
+    "description_long": "Khenunu and Khenunit are the third pair of the Hermopolitan Ogdoad, representing primordial mystery — the hidden, the secret, the unknown [S4]. (Not to be confused with Khnum, the ram-headed creator-god of the Nile cataracts, who is a separate, later deity [S4].)",
+    "interesting_facts": [
+      "The third pair of the Hermopolitan Ogdoad [S4]."
+    ],
+    "uncertainty_notes": [
+      "Do not confuse Khenunu (the Ogdoad 'mystery') with Khnum (the ram-headed god) [S4]."
+    ],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-ogdoad-sat",
+    "culture": "egyptian",
+    "name": "Sat & Satet (primordial duration)",
+    "native_name": "Sat & Satet",
+    "alternative_names": [],
+    "classification": "primordial",
+    "gender": "unknown",
+    "domains": [
+      "primordial duration (Hermopolitan account)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "egy-primordial"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "egy-creation-hermopolis"
+    ],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "In the Hermopolitan Ogdoad, Sat and Satet represent primordial duration (the enduring, the lasting).",
+    "description_long": "Sat and Satet are the fourth pair of the Hermopolitan Ogdoad, representing primordial duration — the enduring, the lasting, the stable [S4].",
+    "interesting_facts": [
+      "The fourth pair of the Hermopolitan Ogdoad [S4]."
+    ],
+    "uncertainty_notes": [],
+    "hero_artwork": null
+  },
+  {
+    "id": "egy-horus-elder",
+    "culture": "egyptian",
+    "name": "Horus the Elder (Harsomatus)",
+    "native_name": "Harsomatus",
+    "alternative_names": [
+      "Horus the Elder"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the elder sky-falcon"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [
+      "egy-horus"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "academic",
+        "name": "Hornung, 'The Ancient Egyptian Books of the Dead' / 'Nile Religion' (academic)",
+        "date": "modern (translation & scholarship)",
+        "ref": "S4",
+        "url": null
+      }
+    ],
+    "artworks": [],
+    "description_short": "In some genealogies, an 'elder' Horus (Harsomatus) is the father of the younger Horus (son of Osiris).",
+    "description_long": "In some Egyptian genealogies (especially the later 'syncrisis' that tried to merge the different traditions), there is an 'elder' Horus (Harsomatus, 'Horus of the South') who is the son of the original sky-falcon Horus and the father of the younger Horus (the son of Osiris and Isis) [S4]. This is one of the genuine complications in Egyptian genealogy: the sources do not consistently distinguish the 'sky-falcon' Horus from the 'son of Osiris' Horus [S4].",
+    "interesting_facts": [
+      "The 'elder' Horus in some genealogies [S4]."
+    ],
+    "uncertainty_notes": [
+      "The 'two Horuses' are sometimes merged, sometimes distinct; the sources are not consistent [S4]."
+    ],
+    "hero_artwork": null
+  }
+]

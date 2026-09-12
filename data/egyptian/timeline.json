@@ -1,0 +1,47 @@
+[
+  {
+    "id": "egy-t1",
+    "label": "Predynastic / Early Dynastic",
+    "year_label": "c. 3100–2686 BCE",
+    "sort_year": 0,
+    "kind": "period",
+    "description": "The earliest Egyptian religion. The gods Ra, Osiris, Isis, Horus, Set, and others are worshipped. The earliest evidence is archaeological (tombs, offerings, early inscriptions).",
+    "confidence": "attested"
+  },
+  {
+    "id": "egy-t2",
+    "label": "Old Kingdom",
+    "year_label": "c. 2686–2181 BCE",
+    "sort_year": 1,
+    "kind": "period",
+    "description": "The Pyramid Texts are inscribed in the pyramids — the earliest surviving religious texts. They describe the king's journey to the sky and his union with the gods.",
+    "confidence": "attested"
+  },
+  {
+    "id": "egy-t3",
+    "label": "Middle Kingdom",
+    "year_label": "c. 2055–1650 BCE",
+    "sort_year": 2,
+    "kind": "period",
+    "description": "The 'Contendings of Horus and Set' and other mythic texts are composed. The Book of the Dead begins to take shape.",
+    "confidence": "attested"
+  },
+  {
+    "id": "egy-t4",
+    "label": "New Kingdom",
+    "year_label": "c. 1550–1069 BCE",
+    "sort_year": 3,
+    "kind": "period",
+    "description": "The Book of the Dead (in its classic form) is used. Amun rises to supreme status (Amun-Ra). The great temples at Karnak and Luxor are built.",
+    "confidence": "attested"
+  },
+  {
+    "id": "egy-t5",
+    "label": "Late / Ptolemaic",
+    "year_label": "c. 664 BCE – 395 CE",
+    "sort_year": 4,
+    "kind": "period",
+    "description": "The 'Isis cult' spreads across the Mediterranean. The last temple (at Philae) closes in 395 CE under the Roman/Christian empire.",
+    "confidence": "attested"
+  }
+]

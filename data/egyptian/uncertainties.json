@@ -1,0 +1,88 @@
+[
+  {
+    "id": "egy-u1",
+    "topic": "Which god is 'first' (the creation account)",
+    "positions": [
+      {
+        "name": "Heliopolis",
+        "description": "Atum-Ra is the self-created first god"
+      },
+      {
+        "name": "Memphis",
+        "description": "Ptah is the self-created creator"
+      },
+      {
+        "name": "Hermopolis",
+        "description": "The Ogdoad (eight primeval deities) are first"
+      }
+    ],
+    "how_we_present_it": "We present all three as genuinely competing accounts, not as one story with variants. We do NOT silently choose one."
+  },
+  {
+    "id": "egy-u2",
+    "topic": "The identity of the 'Eye of Ra'",
+    "positions": [
+      {
+        "name": "S4",
+        "description": "The Eye is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet"
+      }
+    ],
+    "how_we_present_it": "We note the fluidity; the Eye is a concept, not a fixed goddess."
+  },
+  {
+    "id": "egy-u3",
+    "topic": "The 'two Horuses'",
+    "positions": [
+      {
+        "name": "S4",
+        "description": "The sky-falcon Horus and the 'son of Osiris' Horus are sometimes the same, sometimes distinct"
+      }
+    ],
+    "how_we_present_it": "We store both and note the inconsistency in the sources."
+  },
+  {
+    "id": "egy-u4",
+    "topic": "Set's character",
+    "positions": [
+      {
+        "name": "Early",
+        "description": "A complex storm/chaos god (not simply 'evil')"
+      },
+      {
+        "name": "Late (Greco-Roman)",
+        "description": "An outright 'evil' figure, the god of Egypt's enemies"
+      }
+    ],
+    "how_we_present_it": "We present the development over time; we do not flatten Set into a simple villain."
+  },
+  {
+    "id": "egy-u5",
+    "topic": "Osiris as 'lord of the dead'",
+    "positions": [
+      {
+        "name": "Pyramid Texts (early)",
+        "description": "Osiris is one of the blessed dead"
+      },
+      {
+        "name": "Later (Middle Kingdom on)",
+        "description": "Osiris becomes the lord of all the dead and the judge of the afterlife"
+      }
+    ],
+    "how_we_present_it": "We note the development; the 'judge of the dead' role is a later accretion."
+  },
+  {
+    "id": "egy-u6",
+    "topic": "The dating of the myths",
+    "positions": [
+      {
+        "name": "Archaeological",
+        "description": "The gods are worshipped from at least c. 3100 BCE"
+      },
+      {
+        "name": "Literary",
+        "description": "The main texts (Pyramid Texts, Book of the Dead) are c. 2400 BCE and c. 1250 BCE"
+      }
+    ],
+    "how_we_present_it": "We make clear that the worship is much older than the surviving texts."
+  }
+]

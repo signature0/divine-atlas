@@ -1,0 +1,723 @@
+[
+  {
+    "from": "nor-ginnungagap",
+    "to": "nor-ymir",
+    "type": "CREATED",
+    "note": "Ginnungagap's rime and frost formed Ymir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-ginnungagap",
+    "to": "nor-aurdhumbla",
+    "type": "CREATED",
+    "note": "Ginnungagap's rime formed the cow Auðhumbla.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-aurdhumbla",
+    "to": "nor-burir",
+    "type": "CREATED",
+    "note": "Búri was formed from the salt Auðhumbla licked from the ice.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-ymir",
+    "to": "nor-burir",
+    "type": "CREATED",
+    "note": "(Alternative reading) some accounts link Ymir's sweat to the first beings; we keep the salt/Auðhumbla account as primary.",
+    "confidence": "uncertain",
+    "sources": [
+      "S2"
+    ],
+    "explanation": "The primary account is that Búri came from the salt Auðhumbla licked. We note the Ymir-sweat variant."
+  },
+  {
+    "from": "nor-burir",
+    "to": "nor-borr",
+    "type": "PARENT_OF",
+    "note": "Búri is the parent of Borr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-borr",
+    "to": "nor-odin",
+    "type": "PARENT_OF",
+    "note": "Borr (with Bestla) is the parent of Odin.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-borr",
+    "to": "nor-vili",
+    "type": "PARENT_OF",
+    "note": "Borr is the parent of Vili.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-borr",
+    "to": "nor-ve",
+    "type": "PARENT_OF",
+    "note": "Borr is the parent of Vé.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-bestla",
+    "to": "nor-odin",
+    "type": "PARENT_OF",
+    "note": "Bestla (with Borr) is the parent of Odin.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-bestla",
+    "to": "nor-vili",
+    "type": "PARENT_OF",
+    "note": "Bestla is the parent of Vili.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-bestla",
+    "to": "nor-ve",
+    "type": "PARENT_OF",
+    "note": "Bestla is the parent of Vé.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-vili",
+    "type": "SIBLING_OF",
+    "note": "Odin, Vili, and Vé are brothers.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-ve",
+    "type": "SIBLING_OF",
+    "note": "Odin and Vé are brothers.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-vili",
+    "to": "nor-ve",
+    "type": "SIBLING_OF",
+    "note": "Vili and Vé are brothers.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-ymir",
+    "type": "KILLED",
+    "note": "Odin, Vili, and Vé killed Ymir and made the world from his body.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ],
+    "explanation": "The body of Ymir became the world: blood the seas, flesh the earth, bones the mountains, skull the sky."
+  },
+  {
+    "from": "nor-vili",
+    "to": "nor-ymir",
+    "type": "KILLED",
+    "note": "Vili (with Odin and Vé) killed Ymir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-ve",
+    "to": "nor-ymir",
+    "type": "KILLED",
+    "note": "Vé (with Odin and Vili) killed Ymir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-frigg",
+    "type": "PARTNER_OF",
+    "note": "Odin and Frigg are the king and queen of the Æsir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-baldr",
+    "type": "PARENT_OF",
+    "note": "Odin (with Frigg) is the parent of Baldr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-frigg",
+    "to": "nor-baldr",
+    "type": "PARENT_OF",
+    "note": "Frigg is the parent of Baldr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-thor",
+    "type": "PARENT_OF",
+    "note": "Odin is the parent of Thor.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-heimdall",
+    "type": "PARENT_OF",
+    "note": "Odin is (in one account) the parent of Heimdall.",
+    "confidence": "variant",
+    "sources": [
+      "S2"
+    ],
+    "explanation": "Heimdall's parentage is a variant: Odin & Angrboða vs. nine mothers."
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-vidar",
+    "type": "PARENT_OF",
+    "note": "Odin is the parent of Víðarr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-vali",
+    "type": "PARENT_OF",
+    "note": "Odin is the parent of Váli.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-baldr",
+    "to": "nor-hodr",
+    "type": "SIBLING_OF",
+    "note": "Baldr and Höðr are brothers.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-baldr",
+    "to": "nor-nanna",
+    "type": "PARTNER_OF",
+    "note": "Baldr and Nanna are married.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-baldr",
+    "to": "nor-forseti",
+    "type": "PARENT_OF",
+    "note": "Baldr (with Nanna) is the parent of Fosite.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-sif",
+    "type": "PARTNER_OF",
+    "note": "Thor and Sif are married.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-uthra",
+    "type": "PARENT_OF",
+    "note": "Thor (with Sif) is (in some accounts) the parent of Ullr.",
+    "confidence": "variant",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-modi",
+    "type": "PARENT_OF",
+    "note": "Thor is the parent of Móði.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-nyrd",
+    "to": "nor-freyr",
+    "type": "PARENT_OF",
+    "note": "Njord (with Skaði) is the parent of Freyr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-nyrd",
+    "to": "nor-freyja",
+    "type": "PARENT_OF",
+    "note": "Njord is the parent of Freyja.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-freyr",
+    "to": "nor-freyja",
+    "type": "SIBLING_OF",
+    "note": "Freyr and Freyja are siblings.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-freyr",
+    "to": "nor-gerd",
+    "type": "PARTNER_OF",
+    "note": "Freyr loves the giantess Gerðr (and gives his sword to win her).",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-anguela",
+    "type": "PARTNER_OF",
+    "note": "Loki and Angerboa are the monster-couple.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-fenrir",
+    "type": "PARENT_OF",
+    "note": "Loki (with Angerboa) is the parent of Fenrir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-jormungandr",
+    "type": "PARENT_OF",
+    "note": "Loki is the parent of Jörmungandr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-hel",
+    "type": "PARENT_OF",
+    "note": "Loki is the parent of Hel.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-sleipnir",
+    "type": "PARENT_OF",
+    "note": "Loki (in the form of a mare) is the parent of Sleipnir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-anguela",
+    "to": "nor-fenrir",
+    "type": "PARENT_OF",
+    "note": "Angerboa (with Loki) is the parent of Fenrir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-anguela",
+    "to": "nor-jormungandr",
+    "type": "PARENT_OF",
+    "note": "Angerboa is the parent of Jörmungandr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-anguela",
+    "to": "nor-hel",
+    "type": "PARENT_OF",
+    "note": "Angerboa is the parent of Hel.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-fenrir",
+    "to": "nor-jormungandr",
+    "type": "SIBLING_OF",
+    "note": "Fenrir, Jörmungandr, and Hel are siblings.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-fenrir",
+    "to": "nor-hel",
+    "type": "SIBLING_OF",
+    "note": "Fenrir and Hel are siblings.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-baldr",
+    "type": "KILLED",
+    "note": "Loki engineered Baldr's death (via the mistletoe and Höðr).",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ],
+    "explanation": "Loki, disguised as an old woman, led Höðr to throw the mistletoe at Baldr."
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-hodr",
+    "type": "ALLY_OF",
+    "note": "Loki instigated Höðr to throw the mistletoe at Baldr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-hodr",
+    "to": "nor-baldr",
+    "type": "KILLED",
+    "note": "Höðr (at Loki's instigation) threw the mistletoe that killed Baldr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-sif",
+    "type": "FOUGHT",
+    "note": "Loki cut off Sif's golden hair (an act of mischief against Thor's wife).",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-thor",
+    "type": "ENEMY_OF",
+    "note": "Loki is ultimately an enemy of the gods, including Thor.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-tyr",
+    "to": "nor-fenrir",
+    "type": "FOUGHT",
+    "note": "Týr placed his hand in Fenrir's mouth to bind him; the wolf bit off his hand.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-fenrir",
+    "to": "nor-odin",
+    "type": "KILLED",
+    "note": "Fenrir will kill Odin at Ragnarök.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-vidar",
+    "to": "nor-fenrir",
+    "type": "KILLED",
+    "note": "Víðarr will avenge Odin by slaying Fenrir.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-jormungandr",
+    "to": "nor-thor",
+    "type": "KILLED",
+    "note": "Jörmungandr and Thor will kill each other at Ragnarök.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-heimdall",
+    "to": "nor-loomi",
+    "type": "KILLED",
+    "note": "Heimdall and Loki will kill each other at Ragnarök.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-freyr",
+    "to": "nor-surt",
+    "type": "KILLED",
+    "note": "Freyr will be slain by Surt at Ragnarök (having given away his sword).",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-vali",
+    "to": "nor-hodr",
+    "type": "KILLED",
+    "note": "Váli will slay Höðr, the killer of Baldr.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-baldr",
+    "to": "nor-nanna",
+    "type": "PARTNER_OF",
+    "note": "Baldr and Nanna are married.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-baldr",
+    "to": "nor-forseti",
+    "type": "PARENT_OF",
+    "note": "Baldr (with Nanna) is the parent of Fosite.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-nanna",
+    "to": "nor-forseti",
+    "type": "PARENT_OF",
+    "note": "Nanna is the parent of Fosite.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-magni",
+    "type": "PARENT_OF",
+    "note": "Thor (with Járnsaxa) is the parent of Magni.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-modi",
+    "type": "PARENT_OF",
+    "note": "Thor is the parent of Móði.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-jarnsaxa",
+    "to": "nor-magni",
+    "type": "PARENT_OF",
+    "note": "Járnsaxa (with Thor) is the parent of Magni.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-jarnsaxa",
+    "to": "nor-modi",
+    "type": "PARENT_OF",
+    "note": "Járnsaxa is the parent of Móði.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-magni",
+    "to": "nor-modi",
+    "type": "SIBLING_OF",
+    "note": "Magni and Móði are brothers.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-freyr",
+    "to": "nor-gerd",
+    "type": "PARTNER_OF",
+    "note": "Freyr loved Gerðr and gave his sword away to win her.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-freyr",
+    "to": "nor-surt",
+    "type": "KILLED",
+    "note": "Freyr will be slain by Surt at Ragnarök.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-surt",
+    "to": "nor-freyr",
+    "type": "KILLED",
+    "note": "Surt will slay Freyr at Ragnarök.",
+    "confidence": "attested",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-nyrd",
+    "to": "nor-ska",
+    "type": "PARTNER_OF",
+    "note": "Njord and Skaði were married (the marriage failed).",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-hrungnir",
+    "type": "KILLED",
+    "note": "Thor slew the giant Hrungnir with Mjölnir.",
+    "confidence": "attested",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-loomi",
+    "to": "nor-sid",
+    "type": "PARTNER_OF",
+    "note": "Loki and Síd are (in one account) the parents of Sleipnir.",
+    "confidence": "variant",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "from": "nor-sid",
+    "to": "nor-sleipnir",
+    "type": "PARENT_OF",
+    "note": "Síd (with Loki) is (in one account) the parent of Sleipnir.",
+    "confidence": "variant",
+    "sources": [
+      "S2"
+    ]
+  }
+]

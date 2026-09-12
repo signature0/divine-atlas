@@ -1,0 +1,44 @@
+[
+  {
+    "type": "text",
+    "name": "Enuma Elish (Babylonian Creation Epic)",
+    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+    "ref": "S1",
+    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+  },
+  {
+    "type": "text",
+    "name": "Epic of Gilgamesh (Standard Babylonian version)",
+    "date": "c. 1200 BCE",
+    "ref": "S2",
+    "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+  },
+  {
+    "type": "text",
+    "name": "Atrahasis",
+    "date": "Old Babylonian c. 17th c. BCE",
+    "ref": "S3",
+    "url": "https://en.wikipedia.org/wiki/Atrahasis"
+  },
+  {
+    "type": "text",
+    "name": "Inanna's Descent to the Underworld",
+    "date": "c. 1900-1700 BCE (Sumerian)",
+    "ref": "S4",
+    "url": "https://en.wikipedia.org/wiki/Inanna%27s_Descent_to_the_Underworld"
+  },
+  {
+    "type": "corpus",
+    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+    "date": "corpus (Sumerian/Akkadian texts)",
+    "ref": "S5",
+    "url": "https://etcsl.orinst.ox.ac.uk/"
+  },
+  {
+    "type": "museum",
+    "name": "Met Museum Mesopotamian collection (open access)",
+    "date": "museum",
+    "ref": "S6",
+    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+  }
+]
