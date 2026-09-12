@@ -1,0 +1,37 @@
+[
+ {
+  "id": "nor-t1",
+  "period": "Proto-Norse",
+  "date_range": "c. 500–800 CE",
+  "description": "The Norse gods are worshipped in Scandinavia; the earliest evidence is archaeological (runestones, offerings, place-names). The gods Odin, Thor, and others are named.",
+  "confidence": "attested (archaeological)"
+ },
+ {
+  "id": "nor-t2",
+  "period": "Viking Age",
+  "date_range": "c. 793–1066 CE",
+  "description": "The Viking Age. Skaldic poetry names the gods. The great ship burials (Oseberg, c. 834; Gokstad) and the Gosforth Cross (c. 950–1000) show the gods in art.",
+  "confidence": "attested"
+ },
+ {
+  "id": "nor-t3",
+  "period": "Conversion",
+  "date_range": "c. 1000–1100 CE",
+  "description": "Scandinavia converts to Christianity; the old gods are suppressed but survive in poetry and place-names.",
+  "confidence": "attested"
+ },
+ {
+  "id": "nor-t4",
+  "period": "Snorri Sturluson",
+  "date_range": "c. 1220–1235 CE",
+  "description": "Snorri Sturluson writes the Prose Edda, preserving the myths in a Christian context. This is the main source for most Norse myth.",
+  "confidence": "attested (text)"
+ },
+ {
+  "id": "nor-t5",
+  "period": "Poetic Edda",
+  "date_range": "c. 1270 CE (preserves 9th–11th c. poetry)",
+  "description": "The Poetic Edda (Codex Regius) is copied, preserving older oral poetry (the Hávamál, the Völuspá, and others).",
+  "confidence": "attested (text)"
+ }
+]

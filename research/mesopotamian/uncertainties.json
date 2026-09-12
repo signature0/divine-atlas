@@ -1,0 +1,56 @@
+[
+ {
+  "id": "mes-u1",
+  "question": "The 'supremacy' of the gods over time",
+  "versions": {
+   "Sumerian": "An is the supreme god",
+   "Akkadian/Babylonian": "Enlil is the king of the gods",
+   "Babylonian (later)": "Marduk is the king of the gods"
+  },
+  "how_we_present_it": "We present the 'supremacy' as a political/theological development over time, not as a mythic event. We do NOT flatten the pantheon into one 'supreme god'."
+ },
+ {
+  "id": "mes-u2",
+  "question": "Inanna and Ereshkigal",
+  "versions": {
+   "S4": "In some accounts they are 'sisters'; in others they are adversaries"
+  },
+  "how_we_present_it": "We store both versions and note the variation."
+ },
+ {
+  "id": "mes-u3",
+  "question": "The flood-story",
+  "versions": {
+   "Atrahasis": "The flood-hero is Atrahasis; the flood is part of the creation-of-humanity story",
+   "Gilgamesh": "The flood-hero is Utnapishtim; the flood is part of Gilgamesh's quest for immortality"
+  },
+  "how_we_present_it": "We present both versions (Atrahasis and Gilgamesh) and note the differences."
+ },
+ {
+  "id": "mes-u4",
+  "question": "The 'Descent' myth",
+  "versions": {
+   "Sumerian (c. 1900-1700 BCE)": "The 'Descent' in its Sumerian form",
+   "Akkadian (Ishtar) version": "The details vary (the 'stand-in' is sometimes not Dumuzi)"
+  },
+  "how_we_present_it": "We present the Sumerian version as the primary and note the Akkadian variant."
+ },
+ {
+  "id": "mes-u5",
+  "question": "The dating of the myths",
+  "versions": {
+   "Sumerian": "The Sumerian texts are c. 3500-2000 BCE",
+   "Babylonian": "The Babylonian texts (Enuma Elish, Gilgamesh) are c. 1800-1000 BCE"
+  },
+  "how_we_present_it": "We make clear that the Sumerian religion is much older than the Babylonian texts that preserve it."
+ },
+ {
+  "id": "mes-u6",
+  "question": "The 'creation' of humanity",
+  "versions": {
+   "Enuma Elish": "From Kingu's blood (Tiamat's general)",
+   "Atrahasis": "From Apsu's flesh (the primeval fresh water)"
+  },
+  "how_we_present_it": "We present both versions and note that they are distinct creation-accounts."
+ }
+]

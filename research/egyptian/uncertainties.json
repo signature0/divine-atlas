@@ -1,0 +1,55 @@
+[
+ {
+  "id": "egy-u1",
+  "question": "Which god is 'first' (the creation account)",
+  "versions": {
+   "Heliopolis": "Atum-Ra is the self-created first god",
+   "Memphis": "Ptah is the self-created creator",
+   "Hermopolis": "The Ogdoad (eight primeval deities) are first"
+  },
+  "how_we_present_it": "We present all three as genuinely competing accounts, not as one story with variants. We do NOT silently choose one."
+ },
+ {
+  "id": "egy-u2",
+  "question": "The identity of the 'Eye of Ra'",
+  "versions": {
+   "S4": "The Eye is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet"
+  },
+  "how_we_present_it": "We note the fluidity; the Eye is a concept, not a fixed goddess."
+ },
+ {
+  "id": "egy-u3",
+  "question": "The 'two Horuses'",
+  "versions": {
+   "S4": "The sky-falcon Horus and the 'son of Osiris' Horus are sometimes the same, sometimes distinct"
+  },
+  "how_we_present_it": "We store both and note the inconsistency in the sources."
+ },
+ {
+  "id": "egy-u4",
+  "question": "Set's character",
+  "versions": {
+   "Early": "A complex storm/chaos god (not simply 'evil')",
+   "Late (Greco-Roman)": "An outright 'evil' figure, the god of Egypt's enemies"
+  },
+  "how_we_present_it": "We present the development over time; we do not flatten Set into a simple villain."
+ },
+ {
+  "id": "egy-u5",
+  "question": "Osiris as 'lord of the dead'",
+  "versions": {
+   "Pyramid Texts (early)": "Osiris is one of the blessed dead",
+   "Later (Middle Kingdom on)": "Osiris becomes the lord of all the dead and the judge of the afterlife"
+  },
+  "how_we_present_it": "We note the development; the 'judge of the dead' role is a later accretion."
+ },
+ {
+  "id": "egy-u6",
+  "question": "The dating of the myths",
+  "versions": {
+   "Archaeological": "The gods are worshipped from at least c. 3100 BCE",
+   "Literary": "The main texts (Pyramid Texts, Book of the Dead) are c. 2400 BCE and c. 1250 BCE"
+  },
+  "how_we_present_it": "We make clear that the worship is much older than the surviving texts."
+ }
+]

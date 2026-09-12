@@ -1,0 +1,4 @@
+=== MESOPOTAMIAN dataset report ===
+entities: 19  relationships: 31  myths: 6
+
+All references valid.

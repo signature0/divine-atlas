@@ -1,0 +1,44 @@
+[
+ {
+  "id": "gre-t1",
+  "period": "Mycenaean",
+  "date_range": "c. 1600–1100 BCE",
+  "description": "Palace culture; earliest evidence of some deities (Linear B tablets name a 'Po-ti-ni-a,' possibly Athena or a mother-goddess, and a 'Di-wi-je-u,' possibly Zeus).",
+  "confidence": "attested (archaeological)"
+ },
+ {
+  "id": "gre-t2",
+  "period": "Hesiod & Homer",
+  "date_range": "c. 750–700 BCE",
+  "description": "The Iliad, Odyssey, and the Theogony are composed (orated/written). The Olympian pantheon takes its classical literary shape.",
+  "confidence": "attested (text)"
+ },
+ {
+  "id": "gre-t3",
+  "period": "Archaic",
+  "date_range": "c. 700–480 BCE",
+  "description": "Great sanctuaries flourish: Olympia, Delphi, Dodona. Vase painting depicts the myths. The Homeric Hymns are composed.",
+  "confidence": "attested"
+ },
+ {
+  "id": "gre-t4",
+  "period": "Classical",
+  "date_range": "c. 480–323 BCE",
+  "description": "The classical pantheon is fixed; the Parthenon is built for Athena (447–432 BCE). Tragedy and comedy flourish at the Dionysia.",
+  "confidence": "attested"
+ },
+ {
+  "id": "gre-t5",
+  "period": "Hellenistic",
+  "date_range": "c. 323–31 BCE",
+  "description": "Apollo becomes strongly identified with the sun; mystery cults and syncretism (e.g. Sarapis) spread. Later myths (e.g. Ovid's) are composed.",
+  "confidence": "attested"
+ },
+ {
+  "id": "gre-t6",
+  "period": "Roman & Later",
+  "date_range": "c. 31 BCE – 400 CE",
+  "description": "Greek gods are equated with Roman ones (Zeus=Jupiter, etc.). Pausanias writes his survey of Greek sanctuaries (c. 150–180 CE).",
+  "confidence": "attested"
+ }
+]

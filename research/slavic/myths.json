@@ -1,0 +1,173 @@
+[
+ {
+  "id": "slv-cosmology",
+  "culture": "slavic",
+  "title": "The Slavic Cosmology (the three-layered world)",
+  "summary": "The Slavic cosmos is three-layered: the Sky (Nebo) above, the Earth (Zemlya) in the middle, and the Underworld (Nav/Cherd) below. A world-axis (the world-tree, the 'axis mundi') connects the three layers. The Sky is the realm of Nebo and Perun; the Earth is the realm of the human world and the earth-gods; the Underworld is the realm of the dead (Nav/Cherd) and Veles [S4][S5][S6].",
+  "participants": [
+   "slv-nebo",
+   "slv-perun",
+   "slv-veles",
+   "slv-cherd"
+  ],
+  "primary_sources": [
+   "S4",
+   "S5",
+   "S6"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The three-layered cosmology is a scholarly reconstruction from folk belief and comparative evidence; it is not described in a single pre-Christian source [S6].",
+  "evidence_status": "reconstructed",
+  "chapters": [
+   {
+    "heading": "The Sky (Nebo)",
+    "body": "The highest heaven, the realm of Nebo and Perun [S4][S5]."
+   },
+   {
+    "heading": "The Earth (Zemlya)",
+    "body": "The human world, the realm of the earth-gods [S4][S5]."
+   },
+   {
+    "heading": "The Underworld (Nav/Cherd)",
+    "body": "The realm of the dead, the domain of Veles and Cherd [S4][S5][S6]."
+   },
+   {
+    "heading": "The World-Axis",
+    "body": "The world-tree (the 'axis mundi') connects the three layers [S5][S6]."
+   }
+  ]
+ },
+ {
+  "id": "slv-perun-veles",
+  "culture": "slavic",
+  "title": "The Perun-Veles Conflict (reconstructed)",
+  "summary": "In the reconstructed 'Perun-Veles' conflict, the sky-thunder-god Perun and the underworld-serpent-god Veles are in opposition. This is a scholarly reconstruction (Ivanov & Toporov) of an Indo-European 'sky-father vs. underworld-serpent' duality, not a single attested Slavic myth [S6]. The 'conflict' is expressed in folk belief as the opposition of the thunder (Perun) and the serpent (Veles) [S5][S6].",
+  "participants": [
+   "slv-perun",
+   "slv-veles"
+  ],
+  "primary_sources": [
+   "S5",
+   "S6"
+  ],
+  "variants": [],
+  "uncertainty_notes": "This is a scholarly reconstruction (Ivanov & Toporov), NOT a single attested Slavic myth. We present it explicitly as a reconstruction [S6].",
+  "evidence_status": "reconstructed",
+  "chapters": [
+   {
+    "heading": "The Sky-Thunder (Perun)",
+    "body": "Perun, the thunder-god, the sky-father [S5][S6]."
+   },
+   {
+    "heading": "The Underworld-Serpent (Veles)",
+    "body": "Veles, the serpent-god, the underworld-god [S5][S6]."
+   },
+   {
+    "heading": "The Opposition",
+    "body": "The thunder (Perun) vs. the serpent (Veles) — the reconstructed duality [S5][S6]."
+   }
+  ]
+ },
+ {
+  "id": "slv-seasonal",
+  "culture": "slavic",
+  "title": "The Seasonal Cycle (Jarilo vs. Morana, reconstructed)",
+  "summary": "In the reconstructed seasonal cycle, Jarilo (spring/youth) and Morana (winter/death) are in opposition. The cycle is expressed in folk ritual: the 'drowning of Marzanna' (the winter-goddess) in spring, and the 'Kupala' night (the midsummer fire-and-water festival) in the height of summer [S5][S6]. The 'spring kills winter, summer peaks, winter returns' is the reconstructed annual cycle [S5][S6].",
+  "participants": [
+   "slv-jarilo",
+   "slv-morana"
+  ],
+  "primary_sources": [
+   "S5",
+   "S6"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The seasonal cycle is reconstructed from well-attested folk rituals (the 'drowning of Marzanna', the 'Kupala' night); the 'myth' itself is a scholarly interpretation of these rituals [S6].",
+  "evidence_status": "attested (folk)",
+  "chapters": [
+   {
+    "heading": "Winter (Morana)",
+    "body": "Morana, the winter/death goddess, rules the cold season [S5]."
+   },
+   {
+    "heading": "The Drowning of Marzanna",
+    "body": "In spring, an effigy of the winter-goddess is drowned to 'kill' winter [S5]."
+   },
+   {
+    "heading": "The Kupala Night",
+    "body": "At midsummer, the 'Kupala' fire-and-water festival (Jarilo's peak) [S5]."
+   },
+   {
+    "heading": "The Return of Winter",
+    "body": "Morana returns; the cycle repeats [S5][S6]."
+   }
+  ]
+ },
+ {
+  "id": "slv-kupala",
+  "culture": "slavic",
+  "title": "The Kupala Night (the midsummer fire-and-water festival)",
+  "summary": "The 'Kupala' night (the midsummer solstice, around June 23/24) is a well-attested folk fire-and-water festival across Slavic lands: bonfires are lit, people leap over the fire, the 'Kupala' flower (the fern-flower) is sought, and the water is blessed [S5]. The 'Kupala' is associated with Jarilo (the spring/youth/sun god), though the relationship is debated [S5][S6].",
+  "participants": [
+   "slv-jarilo"
+  ],
+  "primary_sources": [
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The 'Kupala' is a well-attested folk festival; its relationship to Jarilo (the sun/spring god) is debated [S5][S6].",
+  "evidence_status": "attested (folk)",
+  "chapters": [
+   {
+    "heading": "The Bonfires",
+    "body": "Great bonfires are lit on the Kupala night [S5]."
+   },
+   {
+    "heading": "Leaping the Fire",
+    "body": "People leap over the fire (a rite of purification) [S5]."
+   },
+   {
+    "heading": "The Fern-Flower",
+    "body": "The 'Kupala' flower (the fern-flower) is sought (a rare, magical bloom) [S5]."
+   },
+   {
+    "heading": "The Water",
+    "body": "The water is blessed; the 'Kupala' water is collected [S5]."
+   }
+  ]
+ },
+ {
+  "id": "slv-idol-destruction",
+  "culture": "slavic",
+  "title": "The Destruction of the Idols at Kiev (980 CE)",
+  "summary": "In 980 CE, the pagan ruler Vladimir of Kiev (later baptized as Vladimir) ordered the destruction of the pagan idols. The great wooden idol of Perun (with a golden head and beard) was dragged from its hill by the Dnieper, beaten, and thrown into the river [S1][S3]. This is the oldest attested event in the Slavic pantheon's history — the moment of the Christianization of Kiev [S1][S3]. The 'Tale of the Destruction of the Idols' (a later retelling) describes the event in detail [S3].",
+  "participants": [
+   "slv-perun"
+  ],
+  "primary_sources": [
+   "S1",
+   "S3"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The Primary Chronicle (c. 1113 CE) is the oldest source but is a later literary retelling of 10th c. events; the 'Tale of the Destruction of the Idols' (16th-18th c.) is a much later retelling [S1][S3].",
+  "evidence_status": "attested",
+  "chapters": [
+   {
+    "heading": "The Pagan Kiev",
+    "body": "The pagan idols stand on the hill by the Dnieper; Perun is the head [S1]."
+   },
+   {
+    "heading": "Vladimir's Decision",
+    "body": "Vladimir (influenced by the 'ambassador' episode) chooses Christianity [S1]."
+   },
+   {
+    "heading": "The Destruction",
+    "body": "The idols are dragged into the river; Perun is beaten and drowned [S1][S3]."
+   },
+   {
+    "heading": "The Christianization",
+    "body": "Kiev is baptized; the pagan pantheon is destroyed [S1]."
+   }
+  ]
+ }
+]

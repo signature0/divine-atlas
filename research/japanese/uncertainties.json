@@ -1,0 +1,103 @@
+[
+ {
+  "topic": "Amaterasu's supremacy",
+  "description": "Whether Amaterasu is the single 'supreme' deity or one of several high deities.",
+  "positions": [
+   {
+    "name": "Later/medieval view",
+    "description": "Amaterasu as the highest deity and ancestress of the emperors (the basis of state Shinto).",
+    "support": "Later Shinto and Meiji-era framing [S1][S21]"
+   },
+   {
+    "name": "Kojiki text",
+    "description": "The Kojiki presents her as one of the high deities sent to rule a portion of the realms, not explicitly 'above' all others.",
+    "support": "Kojiki text [S1]"
+   }
+  ],
+  "sources": [
+   "S1",
+   "S2",
+   "S21"
+  ]
+ },
+ {
+  "topic": "The Rock-Cave myth details",
+  "description": "The precise roles of the deities, the naming of the cave, and the role of Takemikazuchi in luring Amaterasu out.",
+  "positions": [
+   {
+    "name": "Kojiki version",
+    "description": "Ame-no-Uzume's dance, the mirror, and the assembled deities' clamor; specific naming of the cave and deities.",
+    "support": "Kojiki [S1]"
+   },
+   {
+    "name": "Nihon Shoki version",
+    "description": "A related account with different wording and emphasis on the roles.",
+    "support": "Nihon Shoki [S2]"
+   }
+  ],
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "topic": "Ōkuninushi's handover",
+  "description": "Whether Ōkuninushi 'yields' the land or is 'subjugated,' and the exact sequence of the Kuniyurinshi contest and the handover of the regalia.",
+  "positions": [
+   {
+    "name": "Kojiki version",
+    "description": "The sword-throw contest, the subduing of Sarutahiko, and the handover of the three regalia.",
+    "support": "Kojiki [S1]"
+   },
+   {
+    "name": "Nihon Shoki version",
+    "description": "A related account with different wording of the sequence and the role of Kotohikone.",
+    "support": "Nihon Shoki [S2]"
+   }
+  ],
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "topic": "The Yomi-separation details",
+  "description": "The details of Izanagi's descent to Yomi, the separation point, and the purification (misogi) with the birth of kami from the washed body-parts.",
+  "positions": [
+   {
+    "name": "Kojiki version",
+    "description": "The descent, the discovery of decay, the flight, the threshold-separation, and the purification with the birth of kami.",
+    "support": "Kojiki [S1]"
+   },
+   {
+    "name": "Nihon Shoki version",
+    "description": "A related account with different wording of the descent and the purification.",
+    "support": "Nihon Shoki [S2]"
+   }
+  ],
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "topic": "Inari's nature",
+  "description": "Inari Ōkami's gender and the identity of the 'foxes' (messengers vs. embodiments), and the deity's precise nature.",
+  "positions": [
+   {
+    "name": "Female-deity view",
+    "description": "Inari as a female deity of rice and prosperity attended by fox messengers.",
+    "support": "Common shrine practice [S21]"
+   },
+   {
+    "name": "Paired/genderless view",
+    "description": "Inari as a paired (male-female) or genderless deity; the foxes as embodiments rather than messengers.",
+    "support": "Scholarly/variant shrine practice [S21]"
+   }
+  ],
+  "sources": [
+   "S1",
+   "S21"
+  ]
+ }
+]

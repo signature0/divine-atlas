@@ -1,0 +1,325 @@
+[
+ {
+  "id": "jpn-creation-primordial",
+  "culture": "japanese",
+  "title": "The Primordial Beginning and the High Plain of Heaven",
+  "summary": "In the Kojiki's opening, when 'the heavenly high plain had just come into being,' the first-born deity Takamimusubi ('the high divine origin of heavenly things') is named, and the deities of the High Plain of Heaven (Amenominakanushi) 'give birth to' or command the birth of the creator pair Izanagi and Izanami, ordering them to shape and settle the earthly islands [S1]. This establishes the vertical cosmology: a high heavenly realm above, an earthly realm below, with the creative pair sent from above to order the world below [S1][S2].",
+  "participants": [
+   "jpn-kamimusubi",
+   "jpn-amenominakanushi",
+   "jpn-izananagi",
+   "jpn-izananami"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki version",
+    "description": "Names the first-born Kamimusubi and the high-plain deities, then the 'birth' of the creator pair and the command to shape the islands."
+   },
+   {
+    "name": "Nihon Shoki version",
+    "description": "A parallel account that phrases the 'birth' of the creator pair as a command/order from the heavenly realm, with different wording and emphasis."
+   }
+  ],
+  "uncertainty_notes": "The precise relationship among Takamimusubi/Kamimusubi/Aminakanushi and the 'birth' of the creator pair is not clearly stated; the Kojiki and Nihon Shoki word the mechanism ('birth' vs. 'command') differently [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The High Plain of Heaven",
+    "body": "The Kojiki opens in the time when the heavenly high plain (Takamagahara) had just come into being [S1]."
+   },
+   {
+    "heading": "The First-Born",
+    "body": "First of all was born the high divine origin of heavenly things, Takamimusubi; his younger brothers Kamimusubi and Aminakanushi follow [S1]."
+   },
+   {
+    "heading": "The Creator Pair",
+    "body": "The kami of the high plain 'give birth to' Izanagi and Izanami and order them to shape and settle the earthly islands [S1]."
+   }
+  ]
+ },
+ {
+  "id": "jpn-creation-islands",
+  "culture": "japanese",
+  "title": "Izanagi and Izanami Form the Islands",
+  "summary": "The creator pair Izanagi and Izanami stand on the Floating Bridge of Heaven (Ame-no-ukihashi) and, with the jeweled spear Ame-no-nuhokohe, stir the brine of the deep sea; the salt that drips from the spear forms the first island, Onogoro [S1]. There they wed and, in a series of 'birthings,' produce the great islands of Japan (naming them as they are formed) and then the deities (kami) who attend them [S1]. The sequence of islands and the sequence of kami are given in the text, though the two lists differ between the Kojiki and Nihon Shoki [S1][S2].",
+  "participants": [
+   "jpn-izananagi",
+   "jpn-izananami"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki island list",
+    "description": "The Kojiki names the islands in a specific order as they are 'born.'"
+   },
+   {
+    "name": "Nihon Shoki island list",
+    "description": "The Nihon Shoki gives a related but not identical list and order of the islands."
+   }
+  ],
+  "uncertainty_notes": "The exact list and order of the islands, and which kami are born in which 'birthing,' differ between the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Floating Bridge",
+    "body": "Izanagi and Izanami stand on the Floating Bridge of Heaven (Ame-no-ukihashi) over the brine of the sea [S1]."
+   },
+   {
+    "heading": "The First Island",
+    "body": "With the jeweled spear Ame-no-nuhokohe they stir the brine; the dripping salt forms Onogoro, the first island [S1]."
+   },
+   {
+    "heading": "The Islands and the Kami",
+    "body": "Over a series of birthings they form the great islands of Japan and give birth to the deities [S1]."
+   }
+  ],
+  "art": [
+   "jpn-art-izanagi-izanami-nishikawa",
+   "jpn-art-izanagi-izanami-kobayashi",
+   "jpn-art-izanagi-izanami-shinbutsu"
+  ]
+ },
+ {
+  "id": "jpn-izananagis-purification",
+  "culture": "japanese",
+  "title": "Izanami's Death and the Separation of the World (Izanagi's Purification)",
+  "summary": "In giving birth to the fire god Kagutsuchi, Izanami is burned and dies [S1]. Izanagi descends to the Land of Yomi to bring her back; finding her decayed and attended by the 'devils of rotting,' he flees, and the two are separated at the threshold—the mythic origin of the divide between the clean world of the living and the polluted realm of the dead [S1]. Fleeing to the world of the living, Izanagi performs a ritual purification (misogi), washing his body; from his washed body-parts a series of kami are born, and the separation is made permanent [S1]. This is the foundational myth of death, impurity (kegare), and purification in Japanese religion [S1][S2].",
+  "participants": [
+   "jpn-izananagi",
+   "jpn-izananami",
+   "jpn-kagutsuchi"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki Yomi episode",
+    "description": "The full descent, the discovery of decay, the flight, the threshold-separation, and the purification with the birth of kami from the washed body-parts."
+   },
+   {
+    "name": "Nihon Shoki Yomi episode",
+    "description": "A related account with different wording of the descent, the separation point, and the subsequent purification."
+   }
+  ],
+  "uncertainty_notes": "The details of the Yomi episode—the 'hedge' of hedges, the exact point of no return, which body-parts birth which kami, and the sequence—differ between the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Fire Birth",
+    "body": "Izanami, giving birth to the fire god Kagutsuchi, is burned and dies [S1]."
+   },
+   {
+    "heading": "The Descent to Yomi",
+    "body": "Izanagi descends to the Land of Yomi to bring her back; he finds her decayed and attended by the 'devils of rotting' [S1]."
+   },
+   {
+    "heading": "The Separation",
+    "body": "Izanagi flees; at the threshold the two are separated—the origin of the divide between living and dead [S1]."
+   },
+   {
+    "heading": "The Purification",
+    "body": "Izanagi washes himself (misogi); from his washed body-parts a series of kami are born [S1]."
+   }
+  ]
+ },
+ {
+  "id": "jpn-amaterasu-cave",
+  "culture": "japanese",
+  "title": "The Heavenly Rock-Cave (Amaterasu and the Dark World)",
+  "summary": "After his brother Susanoo is banished from the High Plain of Heaven for his violent misconduct, Amaterasu, in grief and fear, withdraws into the Heavenly Rock-Cave (Ame-no-Ohafutsu), and the world is plunged into darkness [S1]. The assembled kami devise a plan to lure her out: the goddess Ame-no-Uzume performs a dance (on an upturned tub), and with the clamor of the assembled deities (including the thunder god Takemikazuchi) and a held-out mirror, they provoke Amaterasu's curiosity and joy [S1]. She peers out to see what the commotion is, sees her own radiance in the mirror, and is drawn back into the light, restoring the world [S1]. This is the mythic origin of the kagura (ritual dance) and of the 'luring back of the sun' [S1][S2].",
+  "participants": [
+   "jpn-amaterasu",
+   "jpn-susanoo",
+   "jpn-ameno-uzume",
+   "jpn-takemikazuchi"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki cave myth",
+    "description": "The full account: Susanoo's banishment, Amaterasu's withdrawal, Ame-no-Uzume's dance, the mirror, and the restoration of light."
+   },
+   {
+    "name": "Nihon Shoki cave myth",
+    "description": "A related account with different wording of the roles of the deities, the naming of the cave, and the precise sequence."
+   }
+  ],
+  "uncertainty_notes": "The precise roles of each deity in the cave myth, the naming of the cave, and the role of Takemikazuchi differ between the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Banishment",
+    "body": "Susanoo's violent misconduct leads to his banishment from Takamagahara; Amaterasu is grieved and afraid [S1]."
+   },
+   {
+    "heading": "The Withdrawal",
+    "body": "Amaterasu withdraws into the Heavenly Rock-Cave, and the world is dark [S1]."
+   },
+   {
+    "heading": "The Dance",
+    "body": "Ame-no-Uzume dances on an upturned tub; the assembled deities make a clamor; a mirror is held out [S1]."
+   },
+   {
+    "heading": "The Return of Light",
+    "body": "Amaterasu peers out, sees her radiance in the mirror, and is drawn back into the light [S1]."
+   }
+  ],
+  "art": [
+   "jpn-art-amaterasu-cave-met",
+   "jpn-art-amaterasu-cave-kunisada",
+   "jpn-art-amaterasu-yoshitoshi"
+  ]
+ },
+ {
+  "id": "jpn-susanoo-orochi",
+  "culture": "japanese",
+  "title": "Susanoo Slayes Yamata-no-Orochi",
+  "summary": "On his way down from the banished heaven to the earthly realm (Izumo), Susanoo meets the weeping parents of a family whose daughters are being devoured by the eight-headed, eight-tailed serpent Yamata-no-Orochi; seven of the eight daughters have already been eaten, and the last, Kushinada-hime, is next [S1]. Susanoo asks for her hand, turns himself into a hair-comb, and has her wear it in her hair [S1]. He prepares eight vats of sweetened sake and sets out eight cutting-stations; when the serpent drinks and comes to drink, Susanoo slays it, and in its tail he finds the sword Kusanagi (Ame-murakumo-no-tsurugi) [S1]. He rescues Kushinada-hime and marries her [S1]. This is the archetypal Japanese monster-slaying myth and the origin of the sacred sword Kusanagi [S1][S2].",
+  "participants": [
+   "jpn-susanoo",
+   "jpn-yamata-no-orochi",
+   "jpn-kushiinadahime"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki Orochi myth",
+    "description": "The full account: the weeping parents, the comb, the eight vats of sake, the slaying, and the sword in the tail."
+   },
+   {
+    "name": "Nihon Shoki Orochi myth",
+    "description": "A related account with different wording of the method (the sake, the cutting) and some details."
+   }
+  ],
+  "uncertainty_notes": "The method of the slaying (the eight vats of sake, the cutting-stations) and some details differ between the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Weeping Parents",
+    "body": "Susanoo meets the weeping parents whose daughters are being devoured by the serpent [S1]."
+   },
+   {
+    "heading": "The Comb",
+    "body": "He asks for the last daughter, turns himself into a hair-comb, and has her wear it [S1]."
+   },
+   {
+    "heading": "The Slaying",
+    "body": "With eight vats of sweetened sake and cutting-stations, he slays the serpent [S1]."
+   },
+   {
+    "heading": "The Sword and the Bride",
+    "body": "In the serpent's tail he finds the sword Kusanagi; he rescues and marries Kushinada-hime [S1]."
+   }
+  ],
+  "art": [
+   "jpn-art-susanoo-orochi-yoshitoshi",
+   "jpn-art-susanoo-kuniyoshi",
+   "jpn-art-susanoo-chikanobu"
+  ]
+ },
+ {
+  "id": "jpn-kuniyurinshi",
+  "culture": "japanese",
+  "title": "The Subjugation of the Country (Kuniyurinshi)",
+  "summary": "When the heavenly prince Ninigi is sent down to rule the middle land, the indigenous island god Ōkuninushi and his retinue (led by the crossroads god Sarutahiko) resist the heavenly takeover [S1]. A contest ensues, centered on the throwing of the sword: the thunder god Takemikazuchi throws the sword (Kusanagi) from the high land to the middle land, hitting the target and demonstrating the heavenly gods' strength [S1]. Sarutahiko, carrying the sword, is subdued, and Ōkuninushi is defeated; he yields the land and hands over the three sacred regalia (mirror, jewel, sword) as pledge [S1]. Thereafter Ōkuninushi becomes a local deity of the earth, healing, and agriculture (especially in Izumo), while the heavenly line takes sovereignty [S1][S2]. This is the mythic foundation of the transfer of rule from the indigenous to the heavenly/imperial line.",
+  "participants": [
+   "jpn-ninigi",
+   "jpn-okuninushi",
+   "jpn-sarutahiko",
+   "jpn-takemikazuchi",
+   "jpn-kotohikone",
+   "jpn-susanoo"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki Kuniyurinshi",
+    "description": "The full contest: the sword-throw, the subduing of Sarutahiko, the yielding of the land, and the handover of the regalia."
+   },
+   {
+    "name": "Nihon Shoki Kuniyurinshi",
+    "description": "A related account with different wording of the sequence, the role of Kotohikone, and which regalia are handed over."
+   }
+  ],
+  "uncertainty_notes": "The exact sequence of the contest (the sword-throw, the subduing of Sarutahiko, which regalia are handed over, and the role of Kotohikone) differs between the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Resistance",
+    "body": "Ōkuninushi and his retinue (led by Sarutahiko) resist the descending heavenly prince [S1]."
+   },
+   {
+    "heading": "The Sword-Throw",
+    "body": "Takemikazuchi throws the sword (Kusanagi) from the high land to the middle land, hitting the target [S1]."
+   },
+   {
+    "heading": "The Subduing",
+    "body": "Sarutahiko, carrying the sword, is subdued; Ōkuninushi is defeated [S1]."
+   },
+   {
+    "heading": "The Handover",
+    "body": "Ōkuninushi yields the land and hands over the three sacred regalia; he becomes a local deity [S1]."
+   }
+  ]
+ },
+ {
+  "id": "jpn-ninigi-descent",
+  "culture": "japanese",
+  "title": "The Descent of Ninigi (Tenson Kōryō)",
+  "summary": "The heavenly prince Ninigi, grandson of Amaterasu, is sent down from Takamagahara to take rule of the middle land (Ashihara-no-Nakatsukuni) [S1]. His descent (Tenson Kōryō) alights at Takachiho in Hyūga (Kyūshū) [S1]. Guided by the crossroads god Sarutahiko, he is confronted by Ōkuninushi's side (the Kuniyurinshi), after which the land is yielded [S1]. Ninigi takes the earthly bride Konohanasakuya-hime and later the heavenly bride Toyotama-hime (Amaterasu's daughter); their son Hooroni (Ōyahata) is the ancestor of the emperors [S1][S2]. The 'birth at sea' of Hooroni (Toyotama-hime giving birth in a hut at sea, whence the sea is born) is part of this descent narrative [S1].",
+  "participants": [
+   "jpn-ninigi",
+   "jpn-amaterasu",
+   "jpn-konohanasakuhana",
+   "jpn-toyotama",
+   "jpn-hooroni",
+   "jpn-sarutahiko",
+   "jpn-okuninushi"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Kojiki descent",
+    "description": "The descent to Takachiho, the Kuniyurinshi, the two brides, and the birth of Hooroni at sea."
+   },
+   {
+    "name": "Nihon Shoki descent",
+    "description": "A related account with the imperial genealogy from Hooroni to Emperor Jimmu, and different wording of the descent."
+   }
+  ],
+  "uncertainty_notes": "The exact mechanism of the descent, the sequence of the Ōkuninushi contest, and the genealogy to the emperors (Hooroni → Jimmu) are stated differently in the Kojiki and Nihon Shoki [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Descent",
+    "body": "Ninigi, grandson of Amaterasu, is sent down to rule the middle land; he alights at Takachiho in Hyūga [S1]."
+   },
+   {
+    "heading": "The Confrontation",
+    "body": "Guided by Sarutahiko, he is confronted by Ōkuninushi's side (the Kuniyurinshi); the land is yielded [S1]."
+   },
+   {
+    "heading": "The Brides",
+    "body": "Ninigi takes the earthly bride Konohanasakuya-hime and the heavenly bride Toyotama-hime [S1]."
+   },
+   {
+    "heading": "The Birth at Sea",
+    "body": "Toyotama-hime gives birth to Hooroni at sea; the sea is born, and the imperial line begins [S1]."
+   }
+  ]
+ }
+]

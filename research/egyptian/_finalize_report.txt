@@ -1,0 +1,4 @@
+=== EGYPTIAN dataset report ===
+entities: 25  relationships: 44  myths: 8
+
+All references valid.

@@ -1,0 +1,11 @@
+=== NORSE dataset report ===
+entities: 40  relationships: 71  myths: 7
+
+Pruned dangling array refs (no entity modeled):
+  nor-berkuthroth x1
+  nor-thrudgelmir x1
+  nor-brage x1
+  nor-geirdrud x1
+  nor-byr x1
+
+All references valid.

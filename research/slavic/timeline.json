@@ -1,0 +1,37 @@
+[
+ {
+  "id": "slv-t1",
+  "period": "Pre-Christian Slavic religion",
+  "date_range": "c. 6th-10th century CE (reconstructed)",
+  "description": "The pre-Christian Slavic religion. The gods Perun, Veles, Svarog, Dazhbog, Khors, Stribog, and Mokosh are worshipped. The evidence is archaeological and reconstructed (no contemporary literary sources).",
+  "confidence": "reconstructed"
+ },
+ {
+  "id": "slv-t2",
+  "period": "The 980 CE 'destruction of the idols'",
+  "date_range": "980 CE",
+  "description": "The pagan ruler Vladimir of Kiev orders the destruction of the pagan idols, including the great wooden idol of Perun. This is the oldest attested event in the Slavic pantheon's history.",
+  "confidence": "attested (chronicle)"
+ },
+ {
+  "id": "slv-t3",
+  "period": "The Primary Chronicle",
+  "date_range": "c. 1113 CE (describes 10th c.)",
+  "description": "The Primary Chronicle (Latopis povest' vremen'nykh let) is composed. It names the Kiev pantheon (Perun, Khors, Dazhbog, Stribog, Veles, Mokosh) and describes the 980 'destruction of the idols'.",
+  "confidence": "attested (text, later literary)"
+ },
+ {
+  "id": "slv-t4",
+  "period": "The 'Tales of the Destruction of the Idols'",
+  "date_range": "16th-18th century CE",
+  "description": "The 'Tale of the Destruction of the Idols' (Skazanie o razrushenii idolov) and other later chronicles retell the 980 event and the pagan pantheon in detail.",
+  "confidence": "attested (text, much later retelling)"
+ },
+ {
+  "id": "slv-t5",
+  "period": "Ethnographic collection",
+  "date_range": "19th-20th century CE",
+  "description": "19th-20th c. ethnographers (Vsevolod Miller, Vasily Ivanov, etc.) collect folk survivals of the pre-Christian religion: the 'drowning of Marzanna', the 'Kupala' night, the 'Veles-day', the folk gods (Lada, Morana, Zorya).",
+  "confidence": "attested (folk, ethnographic)"
+ }
+]

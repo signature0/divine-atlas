@@ -1,0 +1,3091 @@
+[
+ {
+  "id": "gre-chaos",
+  "culture": "greek",
+  "name": "Chaos",
+  "native_name": "Χάος",
+  "alternative_names": [
+   "Chaos"
+  ],
+  "classification": "primordial",
+  "gender": "unknown",
+  "domains": [
+   "origin",
+   "the void"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "The first 'gap' or 'yawn' of existence in Hesiod's Theogony — the void from which all else, including Night and Eros, first emerged.",
+  "description_long": "In Hesiod's Theogony, the very first thing is Chaos — a yawning gap, not a god in the anthropomorphic sense but the primordial void from which the earliest beings spring [S1]. From Chaos come Gaia (Earth), Tartarus (the deep abyss), Eros (attraction/love), and Nyx (Night) [S1]. Chaos is best understood as a cosmogonic principle — the empty space that makes differentiation possible — rather than a character. Later Orphic tradition recasts the origin differently (a cosmic egg, Phanes), a genuine variant we present alongside the Hesiodic account [S1][S5].",
+  "interesting_facts": [
+   "In Hesiod, Chaos is not 'evil' — the word's later connotation is a modern development [S1].",
+   "Orphic cosmogony replaces Chaos-at-first with a golden cosmic egg and the god Phanes [S5]."
+  ],
+  "uncertainty_notes": [
+   "The precise 'nature' of Chaos (void vs. a personified entity) is interpretive; Hesiod only says it came first [S1]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-gaia",
+  "culture": "greek",
+  "name": "Gaia",
+  "native_name": "Γαῖα",
+  "alternative_names": [
+   "Earth",
+   "Ge"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "earth",
+   "fertility",
+   "creation"
+  ],
+  "symbols": [
+   "corn",
+   "the land itself"
+  ],
+  "animals": [
+   "serpents (guardians)"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [],
+  "children": [
+   "gre-ouranos",
+   "gre-oceanus",
+   "gre-tethys"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-earth"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-creation"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Earth herself — the first solid being in Hesiod, mother of the Titans and mother of nearly every primordial lineage.",
+  "description_long": "Gaia (Earth) is, in Hesiod's Theogony, the second named being after Chaos: from Chaos came Gaia, the broad breast that is the foundation of all [S1]. She is a mother to an extraordinary degree — she gives birth to Uranus (Sky), to the sea (Pontus), and to the mountains, and she is the mother of the Titans (with Uranus) [S1]. In myth she is also the avenger: she impregnates herself and bears the giant Typhon (or, in the Theogony, the monstrous Typhaon) in revenge for Uranus's mutilation by Cronus, and it is her counsel that sets Cronus against Uranus [S1][S5]. Cultically Gaia/Ge was venerated as the earth-mother at many sites; 'Gaia' is often the generic 'earth' while 'Ge' the deity [S6].",
+  "interesting_facts": [
+   "Mother of the Titans (with Uranus) and of many other primordial lines [S1].",
+   "In the Theogony, Gaia engineers the overthrow of Uranus by Cronus [S1]."
+  ],
+  "uncertainty_notes": [
+   "The 'Typhon born of Gaia alone' passage (Theogony 810–820) is widely regarded as a later interpolation; we flag it [S1]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-ouranos",
+  "culture": "greek",
+  "name": "Uranus",
+  "native_name": "Οὐρανός",
+  "alternative_names": [
+   "Ouranos",
+   "Sky"
+  ],
+  "classification": "primordial",
+  "gender": "male",
+  "domains": [
+   "sky",
+   "heaven"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-gaia"
+  ],
+  "children": [
+   "gre-cronus",
+   "gre-rhea",
+   "gre-oceanus",
+   "gre-tethys"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-sky"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-creation",
+   "gre-overthrow-of-ouranos"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Sky, the first 'god' and husband of Gaia; father of the Titans. He was overthrown and castrated by his son Cronus.",
+  "description_long": "Ouranos (Uranus) is Sky in Hesiod: he loved Gaia and covered her entirely, and their union produced the twelve Titans, the Cyclopes, and the three Hecatoncheires (Hundred-Hands) [S1]. Fearing his monstrous children, Ouranos imprisoned them in Tartarus, and Gaia, grieving and plotting, forged a flint sickle and set her son Cronus to castrate and overthrow him [S1]. Dismembered, his severed parts fell to earth and gave rise to further beings (the Erinyes from his blood, Aphrodite from his severed member, in one account) [S1]. He then retreated to the heavens, and Cronus took his place as the supreme ruler [S1][S5].",
+  "interesting_facts": [
+   "His castration is the origin-story of both the Erinyes (Furies) and, in the Theogony, Aphrodite [S1].",
+   "The 'Hundred-Handed' brothers (Cottus, Briareus, Gyges) later help Zeus defeat the Titans [S1]."
+  ],
+  "uncertainty_notes": [
+   "Aphrodite's birth from Ouranos's severed member (Theogony) vs. her birth from Zeus & Dione (Iliad) — a genuine variant, both stored [S1][S2]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-cronus",
+  "culture": "greek",
+  "name": "Cronus",
+  "native_name": "Κρόνος",
+  "alternative_names": [
+   "Cronos"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "time (later association)",
+   "kingship",
+   "harvest"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [
+   "sickle (sickle of Gaia)"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "siblings": [
+   "gre-rhea",
+   "gre-oceanus",
+   "gre-tethys"
+  ],
+  "partners": [
+   "gre-rhea"
+  ],
+  "children": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-hades",
+   "gre-hestia",
+   "gre-demeter",
+   "gre-poseidon"
+  ],
+  "allies": [],
+  "enemies": [
+   "gre-ouranos",
+   "gre-zeus"
+  ],
+  "associated_realms": [
+   "gre-tartarus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-overthrow-of-ouranos",
+   "gre-titanomachy"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Titan king who overthrew his father Ouranos and, in turn, was overthrown by his son Zeus.",
+  "description_long": "Cronus is the youngest and last of the Titans, and the one Gaia chose to overthrow Ouranos with the flint sickle [S1]. He castrated his father and, with Rhea, reigned over the next age of the world [S1]. Warned by a prophecy (delivered by his parents) that he too would be overthrown by a child, Cronus swallowed each of his newborn children — Hestia, Demeter, Hera, Hades, and Poseidon — as they were born [S1][S5]. Rhea hid the infant Zeus in a Cretan cave, and Zeus, grown, forced Cronus to disgorge his siblings, then led them (with the help of the Cyclopes and Hecatoncheires) to war against the Titans: the Titanomachy [S1]. Defeated, Cronus and the other Titans were cast into Tartarus, with the Hecatoncheires set as guards [S1].",
+  "interesting_facts": [
+   "'Cronus = time' is a later (Hellenistic/Roman) etymological gloss, not what the Greek myths themselves assert [S1][S5].",
+   "Zeus made him regurgitate his swallowed siblings [S1]."
+  ],
+  "uncertainty_notes": [
+   "The 'Cronus = Chronos (time)' identification is a secondary interpretive layer; we keep it as interpretation, not primary myth [S1][S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-rhea",
+  "culture": "greek",
+  "name": "Rhea",
+  "native_name": "Ῥέα",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "motherhood",
+   "the earth"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "siblings": [
+   "gre-cronus"
+  ],
+  "partners": [
+   "gre-cronus"
+  ],
+  "children": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-hades",
+   "gre-hestia",
+   "gre-demeter",
+   "gre-poseidon"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-titanomachy"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Titaness, wife of Cronus, mother of the first Olympians; she hid Zeus from her husband.",
+  "description_long": "Rhea is a Titaness, daughter of Gaia and Ouranos, and the wife of her brother Cronus [S1]. Mother of the first generation of Olympians, she was the one who saved Zeus: when Cronus was devouring their children, Rhea hid the newborn Zeus in a cave on Crete, and gave Cronus a stone wrapped in swaddling-clothes to swallow in his place [S1][S5]. This act preserved the line that would overthrow Cronus in the Titanomachy [S1].",
+  "interesting_facts": [
+   "She gave Cronus a wrapped stone in place of the infant Zeus [S1][S5].",
+   "The Cretan cave where Zeus hid is one of the sacred sites Pausanias describes [S6]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-zeus",
+  "culture": "greek",
+  "name": "Zeus",
+  "native_name": "Ζεύς",
+  "alternative_names": [
+   "Jupiter (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "sky",
+   "thunder",
+   "kingship",
+   "law",
+   "order",
+   "rain",
+   "oaths"
+  ],
+  "symbols": [
+   "eagle",
+   "oak",
+   "lightning bolt",
+   "throne",
+   "scepter"
+  ],
+  "animals": [
+   "eagle",
+   "bull"
+  ],
+  "weapons": [
+   "thunderbolt"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-hera",
+   "gre-hades",
+   "gre-poseidon",
+   "gre-demeter",
+   "gre-hestia"
+  ],
+  "partners": [
+   "gre-hera"
+  ],
+  "children": [
+   "gre-athena",
+   "gre-apollo",
+   "gre-artemis",
+   "gre-ares",
+   "gre-aphrodite",
+   "gre-hermes",
+   "gre-dionysus",
+   "gre-perseus"
+  ],
+  "allies": [],
+  "enemies": [
+   "gre-cronus",
+   "gre-typhon"
+  ],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-creation",
+   "gre-titanomachy",
+   "gre-zeus-eye",
+   "gre-persephone"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-zeus-stat",
+   "gre-art-zeus-bust",
+   "gre-art-zeus-sarapis"
+  ],
+  "description_short": "King of the gods, ruler of Olympus, lord of sky, thunder, and kingly order — father of many gods and heroes.",
+  "description_long": "Zeus is the supreme god of the classical Greek pantheon, king of Olympus and lord of the sky, thunder, weather, and the moral and political order [S1][S2][S3]. Son of the Titans Cronus and Rhea, he survived his father's attempt to devour him, grew up hidden in Crete, and led the overthrow of the Titans in the Titanomachy, for which he was awarded the sky and the thunderbolt (won from the Cyclopes, who forged it) [S1]. The cosmos was divided by lot: Zeus took the sky, Poseidon the sea, Hades the underworld [S1]. Zeus is the patron of hospitality (xenia), oaths, and kingship, and enforces cosmic order; his many offspring include Athena, Apollo, Artemis, Ares, Hermes, Dionysus, and the hero Perseus, among others [S2][S4][S5]. Cultically he was worshipped at Dodona, Olympia, and countless other sites; Zeus was 'the one who gives the season' and the upholder of the world's balance [S6].",
+  "interesting_facts": [
+   "His thunderbolt was forged for him by the Cyclopes [S1].",
+   "Zeus is the god of xenia (hospitality) — a guest under his protection is sacred [S2][S3].",
+   "Dodona (in Epirus) was his oldest oracle, predating Delphi [S6]."
+  ],
+  "uncertainty_notes": [
+   "Zeus's parentage is stable across sources (Cronus & Rhea); his 'many children' reflect both myth and the practice of local cults claiming him as patron [S1][S6]."
+  ],
+  "hero_artwork": "gre-art-zeus-stat"
+ },
+ {
+  "id": "gre-hera",
+  "culture": "greek",
+  "name": "Hera",
+  "native_name": "Ἥρα",
+  "alternative_names": [
+   "Juno (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "marriage",
+   "women",
+   "kingship",
+   "fidelity (as patron)"
+  ],
+  "symbols": [
+   "peacock",
+   "crown",
+   "scepter",
+   "lily"
+  ],
+  "animals": [
+   "peacock",
+   "cow",
+   "sparrow"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-zeus",
+   "gre-hades",
+   "gre-poseidon",
+   "gre-demeter",
+   "gre-hestia"
+  ],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-ares",
+   "gre-hebe"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-persephone"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Queen of the gods, wife of Zeus, goddess of marriage and the protection of women and kings.",
+  "description_long": "Hera is the queen of Olympus and Zeus's wife (and, in Hesiod, his sister) [S1]. Goddess of marriage, the family, and the protection of women, she is also the protector of kings and their authority — her wrath, famously, falls on those who dishonor the institution of marriage [S2][S3]. In the Iliad her long resentment of Zeus's many affairs drives much of the plot, and she takes the side of the Greeks [S2]. Her sacred animals include the peacock and the cow (Io, a maiden she transformed into a heifer, is her most famous victim-turned-cow) [S2][S5]. Hera was worshipped at Argos, Samos, and elsewhere; the Heraion at Samos was one of the great sanctuaries [S6].",
+  "interesting_facts": [
+   "Io, the mistress of Zeus, was turned into a heifer by jealous Hera — a foundational myth of her cult [S2][S5].",
+   "The peacock feathers on her throne are said to be the eyes of the hundred-eyed Argus [S5]."
+  ],
+  "uncertainty_notes": [
+   "Hera's 'jealousy' is a literary characterization prominent in Homer; cult practice emphasized her as a benevolent marriage-goddess [S2][S6]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-hades",
+  "culture": "greek",
+  "name": "Hades",
+  "native_name": "ᾍδης",
+  "alternative_names": [
+   "Pluto (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "the dead",
+   "wealth (underground)",
+   "the underworld"
+  ],
+  "symbols": [
+   "bident",
+   "key",
+   "cornucopia",
+   "helmet of invisibility (Kerberos-guard)"
+  ],
+  "animals": [
+   "dog (Cerberus)",
+   "serpent"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-poseidon",
+   "gre-demeter",
+   "gre-hestia"
+  ],
+  "partners": [
+   "gre-persephone"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-underworld"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-persephone",
+   "gre-orpheus-eurydice"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-hades-persephone-relief"
+  ],
+  "description_short": "God and ruler of the underworld, lord of the dead and of the wealth of the earth; he seized Persephone to be his queen.",
+  "description_long": "Hades (the Roman Pluto) is the god and king of the underworld, the realm of the dead [S2][S3]. One of the first-born sons of Cronus and Rhea, he was swallowed at birth and later disgorged by Zeus [S1]. When the world was divided, Hades received the third of it: the underworld [S1]. His most defining act is the seizure of Persephone (daughter of Demeter) to be his queen, which set in motion the myth of the seasons [S4][S5]. Though often conflated with his realm, Hades is a distinct deity: a stern, just, and not especially evil ruler of the dead, who rarely leaves his domain [S2][S3][S5]. The name 'Hades' came to mean the place itself (the underworld) as well as its god — a shift the sources make clear [S2].",
+  "interesting_facts": [
+   "The 'Hades' as a place vs. Hades the god are distinct — a common modern confusion [S2].",
+   "He rarely leaves the underworld; when he does, it is for Persephone [S4][S5].",
+   "The Cornucopia (horn of plenty) is a symbol of his wealth of the earth [S5]."
+  ],
+  "uncertainty_notes": [
+   "Hades is not 'the god of evil' — that is a later conflation with the Christian Satan; in Greek myth he is a stern but just ruler of the dead [S2][S3][S5]."
+  ],
+  "hero_artwork": "gre-art-hades-persephone-relief"
+ },
+ {
+  "id": "gre-poseidon",
+  "culture": "greek",
+  "name": "Poseidon",
+  "native_name": "Ποσειδών",
+  "alternative_names": [
+   "Neptune (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "the sea",
+   "earthquakes",
+   "horses",
+   "storms"
+  ],
+  "symbols": [
+   "trident",
+   "horse",
+   "bull",
+   "waves"
+  ],
+  "animals": [
+   "horse",
+   "bull",
+   "dolphin"
+  ],
+  "weapons": [
+   "trident"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-hades",
+   "gre-demeter",
+   "gre-hestia"
+  ],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-zeus",
+   "gre-athena"
+  ],
+  "associated_realms": [
+   "gre-sea"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-creation",
+   "gre-athena-athens",
+   "gre-odysseus-kyklops"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-poseidon-stat",
+   "gre-art-poseidon-stat2",
+   "gre-art-panathenaic-leagros"
+  ],
+  "description_short": "God of the sea, earthquakes, and horses; brother and rival of Zeus, and rival of Athena for Athens.",
+  "description_long": "Poseidon (Neptune) is the god of the sea, of earthquakes (he was 'the Earth-shaker'), and of horses — the animals he is said to have created [S1][S2]. Brother of Zeus and Hades, he received the sea when the world was divided [S1]. His rivalry with Zeus for supremacy runs through much of the Iliad, where he is a major (though restrained) actor [S2]. He contested Athena for the patronage of the city that bears his rival's name: he struck the rock and sent forth a salt spring (or, in some accounts, a horse); Athena gave the olive tree, and the city chose her [S5][S6]. He is a father of many — to gods, heroes (e.g. the hero Theseus's divine father is Poseidon in one tradition), and sea-creatures; his most famous confrontation with a mortal is his blinding of Odysseus's son Telegonos and his anger at the blinding of his son the Cyclops Polyphemus by Odysseus [S3].",
+  "interesting_facts": [
+   "He is 'Earth-shaker' (ennosigen) — god of earthquakes as well as the sea [S1][S2].",
+   "He is credited with creating the horse [S5].",
+   "Rival of Athena for Athens — he gave the sea/spring, she gave the olive [S5][S6]."
+  ],
+  "uncertainty_notes": [
+   "Poseidon's 'rivalry' with Zeus is literary (Iliad); in cult he was a benevolent local patron at many coastal sites [S2][S6]."
+  ],
+  "hero_artwork": "gre-art-poseidon-stat"
+ },
+ {
+  "id": "gre-athena",
+  "culture": "greek",
+  "name": "Athena",
+  "native_name": "Ἀθηνᾶ",
+  "alternative_names": [
+   "Minerva (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "wisdom",
+   "war (strategy)",
+   "craft",
+   "city",
+   "reason"
+  ],
+  "symbols": [
+   "owl",
+   "olive",
+   "Aegis",
+   "spear",
+   "shield"
+  ],
+  "animals": [
+   "owl",
+   "snake",
+   "goat (Amalthea)"
+  ],
+  "weapons": [
+   "spear",
+   "Aegis",
+   "shield (Aegis)"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-poseidon"
+  ],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [
+   "Athens"
+  ],
+  "major_myths": [
+   "gre-athena-birth",
+   "gre-athena-athens",
+   "gre-pandora",
+   "gre-odysseus-kyklops"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-athena-stat",
+   "gre-art-athena-cameo",
+   "gre-art-athena-lekythos",
+   "gre-art-panathenaic-kleophrades"
+  ],
+  "description_short": "Goddess of wisdom, strategic war, and craft; born fully-formed from Zeus's head; patron of Athens.",
+  "description_long": "Athena is the goddess of wisdom, strategic warfare, and craft (crafts of the city, weaving, and the arts) [S1][S2][S4]. She is born in a remarkable and unique way: from the head of Zeus, fully grown and armored, after Zeus swallowed her mother Metis (the goddess of cunning) when pregnant, on the advice that their child would surpass him [S1][S4][S5]. (In the Theogony her mother is Metis; the Iliad names her mother as Metis too, though a variant gives Dione — a minor discrepancy we note.) [S1][S2] She is the patron deity of Athens (the Parthenon was her temple), and her rivalry with Poseidon over the city's patronage is one of the founding myths of Athens — she gave the olive tree and won [S5][S6]. She is the protector of heroes (Odysseus, Perseus, Theseus, Odysseus's son Telemachus), and she is associated with reason, law, and the city-state (polis) [S2][S3][S6].",
+  "interesting_facts": [
+   "Born fully armed from Zeus's head [S1][S4].",
+   "Patron of Athens — the Parthenon was her temple [S6].",
+   "Gave the olive tree, winning Athens over Poseidon [S5][S6].",
+   "Protector of heroes: Odysseus, Perseus, Theseus [S2][S3][S5]."
+  ],
+  "uncertainty_notes": [
+   "Her mother is Metis in the Theogony and Iliad (a variant gives Dione in the Iliad) — stored as a minor variant [S1][S2]."
+  ],
+  "hero_artwork": "gre-art-athena-stat"
+ },
+ {
+  "id": "gre-apollo",
+  "culture": "greek",
+  "name": "Apollo",
+  "native_name": "Ἀπόλλων",
+  "alternative_names": [
+   "Appolō"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "sun (later)",
+   "music",
+   "poetry",
+   "prophecy",
+   "medicine",
+   "archery"
+  ],
+  "symbols": [
+   "lyre",
+   "bow",
+   "laurel",
+   "sun (later association)"
+  ],
+  "animals": [
+   "swan",
+   "raven",
+   "cicada",
+   "python"
+  ],
+  "weapons": [
+   "bow and arrow"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-let-o"
+  ],
+  "siblings": [
+   "gre-artemis"
+  ],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [
+   "Delphi",
+   "Pythia"
+  ],
+  "major_myths": [
+   "gre-python-slaying",
+   "gre-cassandra",
+   "gre-narcissus"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "God of the sun (in later association), music, poetry, prophecy, medicine, and archery; twin of Artemis.",
+  "description_long": "Apollo is a god of many domains, and his identity shifted across the Greek world: earliest a god associated with light, youth, and the archery, he came to be strongly identified with the sun (a Hellenistic development — the 'sun-god' Apollo is later than the archer Apollo) [S4][S5]. He is the god of music (lyre), poetry (the Muse-calling), prophecy (his oracle at Delphi, the Pythia), medicine (his son Asclepius), and archery [S4][S5][S6]. He is the twin brother of Artemis, and both are children of Zeus and Leto (Latona) [S4]. As a child he slew the Python that guarded the Delphic oracle, founding his sanctuary there [S4][S5]. He is also a god of plague (he sent the arrow-plague on the Greeks in the Iliad's opening) and of its healing — a duality the sources preserve [S2][S4].",
+  "interesting_facts": [
+   "Twin of Artemis, both children of Zeus and Leto [S4].",
+   "Slew the Python at Delphi, founding his oracle there [S4][S5].",
+   "The 'sun-god' Apollo is a later (Hellenistic) identification; the earliest Apollo is an archer [S4][S5].",
+   "God of both plague and healing (sent the Iliad's plague; his son Asclepius heals) [S2][S4]."
+  ],
+  "uncertainty_notes": [
+   "Apollo's 'sun' association is later than his archer identity — we present both and date the shift [S4][S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-artemis",
+  "culture": "greek",
+  "name": "Artemis",
+  "native_name": "Ἄρτεμις",
+  "alternative_names": [
+   "Diana (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "the hunt",
+   "wild animals",
+   "the moon (later)",
+   "virginity",
+   "birth"
+  ],
+  "symbols": [
+   "bow",
+   "crescent moon (later)",
+   "deer"
+  ],
+  "animals": [
+   "deer",
+   "bears",
+   "dogs"
+  ],
+  "weapons": [
+   "bow and arrow"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-let-o"
+  ],
+  "siblings": [
+   "gre-apollo"
+  ],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [
+   "Ephesus",
+   "Brauron"
+  ],
+  "major_myths": [
+   "gre-actaeon",
+   "gre-orion",
+   "gre-arachne"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Goddess of the hunt, wild animals, and (in later association) the moon; twin of Apollo; protector of young women.",
+  "description_long": "Artemis (Diana) is the goddess of the hunt, wild animals, and the wilderness, and the protector of young girls and of childbirth (she is a midwife-goddess in some cults) [S4][S5][S6]. Twin of Apollo, daughter of Zeus and Leto, she asked Zeus for eternal virginity and for the gifts of the hunt [S4][S5]. In later (Hellenistic/Roman) association she was linked to the moon (a development parallel to Apollo's link to the sun) [S4][S5]. She is a powerful, sometimes vengeful goddess: Actaeon was turned into a stag and torn by his own hounds for seeing her bathing; Orion was punished for his arrogance; Arachne was transformed for her hubristic weaving [S4][S5]. Her great sanctuary was at Ephesus (the Temple of Artemis, one of the Seven Wonders) and at Brauron in Attica [S6].",
+  "interesting_facts": [
+   "Twin of Apollo, daughter of Zeus and Leto [S4].",
+   "Asked Zeus for eternal virginity and the gift of the hunt [S4][S5].",
+   "Temple at Ephesus was one of the Seven Wonders of the Ancient World [S6].",
+   "The 'moon' association is later (Hellenistic/Roman), parallel to Apollo's sun [S4][S5]."
+  ],
+  "uncertainty_notes": [
+   "Artemis's 'moon' link is a later development; the earliest Artemis is a huntress of the wilderness [S4][S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-ares",
+  "culture": "greek",
+  "name": "Ares",
+  "native_name": "Ἄρης",
+  "alternative_names": [
+   "Mars (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "war (violence, bloodshed)"
+  ],
+  "symbols": [
+   "sword",
+   "helmet",
+   "boar"
+  ],
+  "animals": [
+   "boar",
+   "vulture",
+   "dog"
+  ],
+  "weapons": [
+   "sword",
+   "spear"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-hera"
+  ],
+  "siblings": [
+   "gre-hebe"
+  ],
+  "partners": [
+   "gre-aphrodite"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-athena"
+  ],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-ares-aphrodite-caught"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "God of the violent, bloodier aspect of war; son of Zeus and Hera; lover of Aphrodite.",
+  "description_long": "Ares (Mars) is the god of war — specifically its violent, brutal, blood-soaked aspect, as opposed to Athena's strategic, disciplined side of war [S2][S4]. Son of Zeus and Hera, he is one of the few Olympians born of a union that required no pregnancy in the usual sense (Hera 'conceived' him, in one account, without a consort) [S4][S5]. He is a major character in the Iliad, where he is a fierce combatant but is also treated with a mix of awe and disdain — the Greeks call him 'the hound of war' [S2]. His most famous myth is his affair with Aphrodite, caught in the act by her husband Hephaestus and displayed before the assembled gods in shame [S2][S5].",
+  "interesting_facts": [
+   "God of war's violent side, contrasted with Athena's strategic side [S2][S4].",
+   "Caught in an affair with Aphrodite by Hephaestus — a famous shame-myth [S2][S5]."
+  ],
+  "uncertainty_notes": [
+   "Ares's 'born without a consort' account is one variant; the standard is Zeus & Hera [S4][S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-aphrodite",
+  "culture": "greek",
+  "name": "Aphrodite",
+  "native_name": "Ἀφροδίτη",
+  "alternative_names": [
+   "Venus (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "love",
+   "beauty",
+   "desire",
+   "fertility",
+   "sex"
+  ],
+  "symbols": [
+   "dove",
+   "mirror",
+   "myrtle",
+   "cypress"
+  ],
+  "animals": [
+   "dove",
+   "swan",
+   "sparrow",
+   "cat (later)"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-ouranos"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-ares",
+   "gre-hephaestus"
+  ],
+  "children": [
+   "gre-eros"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-aphrodite-birth",
+   "gre-aphrodite-adonis",
+   "gre-ares-caught"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-aphrodite-eros",
+   "gre-art-aphrodite-stat",
+   "gre-art-aphrodite-medici"
+  ],
+  "description_short": "Goddess of love, beauty, and desire; born (in the Theogony) from the sea-foam around a severed divine member.",
+  "description_long": "Aphrodite (Venus) is the goddess of love, beauty, desire, and sexual love [S1][S4][S5]. Her birth is one of the great variants in Greek myth: in Hesiod's Theogony she is born from the sea-foam that gathered around the severed member of Ouranos (cast into the sea by Cronus), rising fully formed at Cythera [S1]; in the Iliad she is the daughter of Zeus and Dione [S2]. Both accounts are preserved and the difference is genuine [S1][S2]. She is married to Hephaestus (the smith-god) but famously lovers with Ares; her children include Eros (Love) and, with Ares, Phobos (Fear) and Deimos (Dread) [S4][S5]. The Homeric Hymn to Aphrodite opens with her power over gods and mortals alike [S4].",
+  "interesting_facts": [
+   "Two birth-accounts: sea-foam from Ouranos (Theogony) vs. daughter of Zeus & Dione (Iliad) — a genuine variant [S1][S2].",
+   "Married to Hephaestus, lovers with Ares [S4][S5].",
+   "Mother of Eros (Love) [S4][S5]."
+  ],
+  "uncertainty_notes": [
+   "The two birth-accounts are incompatible and both are canonical; we present them side by side, not as one [S1][S2]."
+  ],
+  "hero_artwork": "gre-art-aphrodite-eros"
+ },
+ {
+  "id": "gre-hermes",
+  "culture": "greek",
+  "name": "Hermes",
+  "native_name": "Ἑρμῆς",
+  "alternative_names": [
+   "Mercury (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "messengers",
+   "travelers",
+   "thieves",
+   "commerce",
+   "cattle",
+   "the boundary",
+   "guiding the dead"
+  ],
+  "symbols": [
+   "caduceus (winged staff)",
+   "winged sandals",
+   "helmet",
+   "messenger wings"
+  ],
+  "animals": [
+   "tortoise",
+   "rooster",
+   "goat (Amalthea)"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-maia"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus",
+   "gre-underworld"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-hermes-cattle-theft",
+   "gre-hermes-psychopomp"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-hermes-stat",
+   "gre-art-hermes-propylaios",
+   "gre-art-hermes-polykleitos"
+  ],
+  "description_short": "Messenger of the gods, god of travelers, commerce, and thieves; guide of souls to the underworld (psychopomp).",
+  "description_long": "Hermes (Mercury) is the messenger of the gods and the god of a remarkably wide range of activities: travelers, commerce, cattle, thievery (he is the divine patron of cunning and the 'trickster'), and the boundary (he is Hermes 'the guide' at crossroads) [S1][S2][S4][S5]. Son of Zeus and the nymph Maia, he is a child-prodigy: on the day of his birth he stole Apollo's cattle and invented the lyre from a tortoise shell, then traded it to Apollo [S4][S5]. His most solemn role is as psychopomp — the guide who leads the souls of the dead to the underworld (he escorts Persephone, he guides Odysseus's crew's dead, etc.) [S3][S4]. He is the patron of thieves, merchants, and travelers, and his wand (the caduceus, winged and entwined by two serpents) is his signature [S4][S5].",
+  "interesting_facts": [
+   "Stole Apollo's cattle the day he was born and invented the lyre [S4][S5].",
+   "Psychopomp — guide of the dead to the underworld [S3][S4].",
+   "The caduceus (winged staff) is his signature [S4][S5].",
+   "Patron of thieves, merchants, and travelers [S4][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": "gre-art-hermes-stat"
+ },
+ {
+  "id": "gre-dionysus",
+  "culture": "greek",
+  "name": "Dionysus",
+  "native_name": "Διόνυσος",
+  "alternative_names": [
+   "Bacchus (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "wine",
+   "ecstasy",
+   "theater",
+   "fertility",
+   "the vine",
+   "transformation"
+  ],
+  "symbols": [
+   "vine",
+   "grape",
+   "ivy",
+   "thyrsus (staff)"
+  ],
+  "animals": [
+   "panther",
+   "snake",
+   "bull"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-semele"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-dionysus-birth",
+   "gre-dionysus-indo-europeans"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "God of wine, ecstasy, theater, and fertility; the only Olympian born of a mortal mother (Semele).",
+  "description_long": "Dionysus (Bacchus) is the god of wine, vine, ecstasy, theater, and fertility — a liminal, dual-natured god whose festivals (the Dionysia) were central to Athenian civic and religious life [S4][S5][S6]. He is the only Olympian born of a mortal mother: his mother Semele, a mortal princess, was persuaded by Hera to demand proof of Zeus's divinity (a bolt of lightning), and was destroyed by it; Zeus saved the unborn child by sewing him into his thigh until he was ready to be born [S5]. (This is the standard account; a variant gives a double birth.) [S5] He is the patron of the theater — the great tragedy and comedy festivals at Athens were in his honor [S6]. He is a god of transformation and ecstasy, and his followers (the Maenads) are in a state of divine frenzy [S5][S6].",
+  "interesting_facts": [
+   "Only Olympian born of a mortal mother (Semele) [S5].",
+   "Patron of the theater — the Athenian Dionysia celebrated him [S6].",
+   "God of wine, ecstasy, and transformation [S4][S5]."
+  ],
+  "uncertainty_notes": [
+   "A 'double birth' (Semele then Zeus's thigh) is one account; we note the variant [S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-hephaestus",
+  "culture": "greek",
+  "name": "Hephaestus",
+  "native_name": "Ἡφαῖστος",
+  "alternative_names": [
+   "Vulcan (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "fire",
+   "the forge",
+   "craft",
+   "volcanoes",
+   "smithing"
+  ],
+  "symbols": [
+   "hammer",
+   "tongs",
+   "anvil"
+  ],
+  "animals": [
+   "goat"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-hera"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-aphrodite"
+  ],
+  "children": [
+   "gre-ares"
+  ],
+  "allies": [],
+  "enemies": [
+   "gre-zeus"
+  ],
+  "associated_realms": [
+   "gre-underground-forge"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-hephaestus-zeus-throne",
+   "gre-hephaestus-aphrodite-net"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "God of fire and the forge, the divine smith who made the gods' weapons; married to Aphrodite.",
+  "description_long": "Hephaestus (Vulcan) is the god of fire, the forge, and craft — the divine blacksmith who made the gods' finest weapons and treasures, including Zeus's thunderbolt and his own net that caught Ares and Aphrodite [S1][S2][S4][S5]. His parentage is a genuine variant: in the Iliad he is the son of Hera alone (Hera, spurned by Zeus, produced him without a consort, in a fit of spite); in the Theogony he is the son of Zeus and Hera [S1][S2]. He is lame (in one account he was thrown from Olympus by Zeus and crippled in the fall) and dwells in an underground forge, often associated with volcanoes [S2][S4][S5]. Despite his ugliness and lameness, he is the only god who can match Zeus in craft, and he is married to the beautiful Aphrodite (a union that is itself a source of myth, given her affair with Ares) [S2][S4][S5].",
+  "interesting_facts": [
+   "Made Zeus's thunderbolt and the net that caught Ares & Aphrodite [S1][S2][S4][S5].",
+   "Two parentage accounts: Hera alone (Iliad) vs. Zeus & Hera (Theogony) — a genuine variant [S1][S2].",
+   "Lame; dwells in an underground forge, linked to volcanoes [S2][S4][S5]."
+  ],
+  "uncertainty_notes": [
+   "His parentage (Hera alone vs. Zeus & Hera) is a real variant between the Iliad and Theogony; we store both [S1][S2]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-demeter",
+  "culture": "greek",
+  "name": "Demeter",
+  "native_name": "Δημήτηρ",
+  "alternative_names": [
+   "Ceres (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "harvest",
+   "the grain",
+   "fertility",
+   "the seasons"
+  ],
+  "symbols": [
+   "wheat",
+   "sheaf",
+   "torch",
+   "pig"
+  ],
+  "animals": [
+   "pig",
+   "serpent"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-hades",
+   "gre-poseidon",
+   "gre-hestia"
+  ],
+  "partners": [],
+  "children": [
+   "gre-persephone"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [
+   "Eleusis"
+  ],
+  "major_myths": [
+   "gre-persephone",
+   "gre-eleusinian-mysteries"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-eleusinian-relief"
+  ],
+  "description_short": "Goddess of the harvest and the grain; mother of Persephone; her grief at Persephone's abduction set the seasons in motion.",
+  "description_long": "Demeter (Ceres) is the goddess of the harvest, the grain, and the fertility of the earth [S1][S4][S5]. One of the first-born children of Cronus and Rhea (swallowed and later disgorged by Zeus), she is the mother of Persephone [S4][S5]. Her defining myth is the abduction of Persephone by Hades: in her grief, Demeter withdrew the fertility of the earth, and the world went cold and barren until a compromise was reached — Persephone would spend part of the year with her mother (spring/summer) and part in the underworld (autumn/winter), giving rise to the cycle of the seasons [S4][S5]. Her great sanctuary was at Eleusis, where the Eleusinian Mysteries (a secret initiation cult) were held in her and Persephone's honor [S6].",
+  "interesting_facts": [
+   "Her grief at Persephone's abduction is the origin of the seasons [S4][S5].",
+   "The Eleusinian Mysteries at Eleusis were her great cult [S6].",
+   "Mother of Persephone [S4][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": "gre-art-eleusinian-relief"
+ },
+ {
+  "id": "gre-persephone",
+  "culture": "greek",
+  "name": "Persephone",
+  "native_name": "Περσεφόνη",
+  "alternative_names": [
+   "Proserpina (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "the underworld",
+   "spring",
+   "vegetation",
+   "the dead"
+  ],
+  "symbols": [
+   "pomegranate",
+   "torch",
+   "lily"
+  ],
+  "animals": [
+   "lily",
+   "bee"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-demeter"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-hades"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-underworld"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-persephone"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-hades-persephone-relief"
+  ],
+  "description_short": "Queen of the underworld, wife of Hades, daughter of Demeter; her annual return to earth gives spring.",
+  "description_long": "Persephone (Proserpina) is the daughter of Demeter and Zeus, and the queen of the underworld as wife of Hades [S4][S5]. Her story is the founding myth of the seasons: Hades abducts her (in some accounts she is plucking flowers in a meadow) to be his queen; Demeter's grief withholds the earth's fertility; a compromise is reached whereby Persephone spends part of the year (the warmer months) on earth with her mother and part (the colder months) in the underworld with Hades [S4][S5]. The detail that made the arrangement binding: while in the underworld she ate six pomegranate seeds, and so was bound to return to the dead for a portion of each year [S4][S5]. She is both a spring/vegetation goddess and the queen of the dead — a dual role the sources preserve without resolving the tension [S4][S6].",
+  "interesting_facts": [
+   "Ate six pomegranate seeds in the underworld, binding her to return each year [S4][S5].",
+   "Her annual return to earth is the mythic origin of spring [S4][S5].",
+   "Queen of the underworld as Hades's wife [S4][S5]."
+  ],
+  "uncertainty_notes": [
+   "The 'six pomegranate seeds' detail is from the Orphic Hymns and later tradition, not the Homeric Hymn to Demeter (which gives the season-compromise without the seeds) — we note the layering [S4][S5]."
+  ],
+  "hero_artwork": "gre-art-hades-persephone-relief"
+ },
+ {
+  "id": "gre-hestia",
+  "culture": "greek",
+  "name": "Hestia",
+  "native_name": "Ἑστία",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "hearth",
+   "the home",
+   "domesticity",
+   "sacrifice"
+  ],
+  "symbols": [
+   "hearth-fire",
+   "brazier"
+  ],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "siblings": [
+   "gre-zeus",
+   "gre-hera",
+   "gre-hades",
+   "gre-poseidon",
+   "gre-demeter"
+  ],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [
+   "gre-olympus"
+  ],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Goddess of the hearth and the home, the eldest of the Olympians; she renounced a seat on Olympus to let Zeus divide the world.",
+  "description_long": "Hestia is the goddess of the hearth, the home, and the domestic flame — the eldest of the first-born children of Cronus and Rhea [S1][S5]. She is a serene, non-combative deity, and in one famous account she renounced her place among the twelve Olympians, yielding her seat so that the world could be divided (or so that Dionysus could take it) [S5]. Her cult was the first sacrifice offered at the opening of any public gathering, and the hearth (hearth-fire) was the center of the Greek home and the city [S6]. She is a figure of domestic stability and continuity rather than dramatic myth.",
+  "interesting_facts": [
+   "Eldest of the first-born Olympians [S1].",
+   "Renounced her Olympian seat (in one account) to make room for Dionysus [S5].",
+   "The hearth-fire was the center of home and city; her sacrifice opened public gatherings [S6]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-let-o",
+  "culture": "greek",
+  "name": "Leto",
+  "native_name": "Λητώ",
+  "alternative_names": [
+   "Latona (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "motherhood (as mother of Apollo/Artemis)"
+  ],
+  "symbols": [],
+  "animals": [
+   "swan"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-apollo",
+   "gre-artemis"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Titaness, mother of Apollo and Artemis by Zeus.",
+  "description_long": "Leto (Latona) is a Titaness, daughter of Coeus and Phoebe, and the mother of Apollo and Artemis by Zeus [S1][S4]. She is a relatively minor figure in the myths but central as the mother of the twin gods. Her pregnancy was pursued by Hera's jealousy (she was barred from giving birth on the dry land of the earth, and gave birth on the floating island of Delos) [S4][S5].",
+  "interesting_facts": [
+   "Mother of Apollo and Artemis [S4].",
+   "Barred from giving birth on earth by Hera; gave birth on Delos [S4][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-metis",
+  "culture": "greek",
+  "name": "Metis",
+  "native_name": "Μῆτις",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "counsel",
+   "cunning",
+   "wisdom"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-athena"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-athena-birth"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Titaness of counsel and cunning; mother of Athena; swallowed by Zeus, from whose head Athena was born.",
+  "description_long": "Metis is a Titaness, the personification of counsel and cunning, and the first wife of Zeus [S1][S4][S5]. A prophecy said that their child would overthrow Zeus as he had overthrown Cronus, so Zeus swallowed Metis while she was pregnant with Athena; Athena was then born fully formed from Zeus's head [S1][S4][S5]. Metis is thus the mother of Athena and a symbol of the cunning wisdom that Zeus embodies.",
+  "interesting_facts": [
+   "Mother of Athena [S1][S4].",
+   "Swallowed by Zeus to avert the prophecy that their child would overthrow him [S1][S4][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-perseus",
+  "culture": "greek",
+  "name": "Perseus",
+  "native_name": "Περσεύς",
+  "alternative_names": [],
+  "classification": "hero",
+  "gender": "male",
+  "domains": [
+   "heroism",
+   "the slaying of Medusa"
+  ],
+  "symbols": [
+   "sickle",
+   "winged sandals",
+   "mirror-shield"
+  ],
+  "animals": [
+   "horse (Pegasus)"
+  ],
+  "weapons": [
+   "sickle (harpe)"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-danae"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-andromeda"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-medusa"
+  ],
+  "associated_realms": [
+   "gre-earth"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-perseus-medusa",
+   "gre-andromeda"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-perseus-mirror"
+  ],
+  "description_short": "Hero who slew the Gorgon Medusa and rescued Andromeda; aided by Athena, Hermes, and the gift of winged sandals.",
+  "description_long": "Perseus is the hero who slew the Gorgon Medusa and rescued the maiden Andromeda from the sea-monster Cetus [S4][S5]. Son of Zeus and the Danaid Danaë, he was sent to fetch Medusa's head by the tyrant Polydectes; aided by Athena (who gave him a mirror-shield), Hermes (who gave him winged sandals and a sickle), and the Naiads, he beheaded Medusa — and from her blood sprang the winged horse Pegasus [S5]. He then rescued Andromeda, who was being offered to Cetus, and took her as his wife [S5]. Perseus is one of the canonical Greek heroes, and his story is a model of the divinely-aided hero.",
+  "interesting_facts": [
+   "Slew Medusa and rescued Andromeda [S5].",
+   "Pegasus (the winged horse) sprang from Medusa's blood [S5].",
+   "Aided by Athena (mirror-shield) and Hermes (winged sandals, sickle) [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": "gre-art-perseus-mirror"
+ },
+ {
+  "id": "gre-medusa",
+  "culture": "greek",
+  "name": "Medusa",
+  "native_name": "Μέδουσα",
+  "alternative_names": [],
+  "classification": "monster",
+  "gender": "female",
+  "domains": [
+   "the Gorgon",
+   "the petrifying gaze"
+  ],
+  "symbols": [
+   "snakes for hair"
+  ],
+  "animals": [
+   "snakes (for hair)"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-echidna"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-perseus"
+  ],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-perseus-medusa"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [
+   "gre-art-gorgon-olpe"
+  ],
+  "description_short": "The Gorgon with snakes for hair whose gaze turned viewers to stone; slain by Perseus.",
+  "description_long": "Medusa is one of the three Gorgon sisters (with Stheno and Euryale), and the only one who was mortal; her hair was living snakes and her gaze turned any who met it to stone [S4][S5]. In the standard account (Ovid, building on earlier tradition) she was a beautiful maiden transformed into a monster (in Ovid, for her hubris and for an offense against Athena), and she was slain by Perseus, who used Athena's mirror-shield to avoid meeting her gaze [S5]. (In Hesiod's earlier Theogony the Gorgons are monstrous from the start, daughters of the sea-gods Phorcys and Ceto — the 'beautiful maiden' version is later, from Ovid.) [S1][S5] From her severed neck sprang the winged horse Pegasus and the giant Chrysaor [S1][S5].",
+  "interesting_facts": [
+   "Her gaze turned viewers to stone [S4][S5].",
+   "Sln by Perseus using Athena's mirror-shield [S5].",
+   "Pegasus and Chrysaor sprang from her blood [S1][S5].",
+   "The 'beautiful maiden' version is later (Ovid); Hesiod's Gorgons are monstrous from birth [S1][S5]."
+  ],
+  "uncertainty_notes": [
+   "The 'transformed from a beautiful maiden' account is Ovid's (Roman, later); the earlier Greek account (Hesiod) has her as a monstrous Gorgon from birth. Both stored [S1][S5]."
+  ],
+  "hero_artwork": "gre-art-gorgon-olpe"
+ },
+ {
+  "id": "gre-typhon",
+  "culture": "greek",
+  "name": "Typhon",
+  "native_name": "Τυφώνας",
+  "alternative_names": [
+   "Typhoeus"
+  ],
+  "classification": "monster",
+  "gender": "male",
+  "domains": [
+   "the great monster",
+   "chaos"
+  ],
+  "symbols": [],
+  "animals": [
+   "hundred heads (in some accounts)"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-echidna"
+  ],
+  "children": [
+   "gre-cerberus"
+  ],
+  "allies": [],
+  "enemies": [
+   "gre-zeus"
+  ],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-typhon-zeus"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "The greatest of the monsters, born of Gaia to avenge the Titans; he was the only being to seriously wound Zeus before being overthrown.",
+  "description_long": "Typhon (Typhoeus) is the greatest and most terrifying of the Greek monsters, a hundred-headed (in some accounts) offspring of Gaia, born (in the Theogony, in a passage widely judged to be a later interpolation) to avenge the defeat of the Titans [S1]. He warred against the gods and was the only creature to seriously wound Zeus (who was cut and whose sinews were cut, causing him to fall) before Zeus recovered, regained his thunderbolt, and buried Typhon under Mount Etna — whose fires are explained as Typhon's breathing [S1][S5]. He is the father (with the monster Echidna) of many of the great monsters of Greek myth, including Cerberus, the Hydra, and the Chimera [S1][S5].",
+  "interesting_facts": [
+   "The only creature to seriously wound Zeus [S1].",
+   "Buried under Mount Etna; its fires are his breathing [S1][S5].",
+   "Father (with Echidna) of Cerberus, the Hydra, the Chimera, and others [S1][S5]."
+  ],
+  "uncertainty_notes": [
+   "The Typhon passage in the Theogony (lines 810–835) is widely regarded as a later interpolation, not Hesiod's own — we flag it [S1]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-cerberus",
+  "culture": "greek",
+  "name": "Cerberus",
+  "native_name": "Κέρβερος",
+  "alternative_names": [],
+  "classification": "monster",
+  "gender": "male",
+  "domains": [
+   "the guardian of the underworld"
+  ],
+  "symbols": [
+   "three heads",
+   "serpent tail"
+  ],
+  "animals": [
+   "(is) a dog"
+  ],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-typhon",
+   "gre-echidna"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-heracles"
+  ],
+  "associated_realms": [
+   "gre-underworld"
+  ],
+  "associated_places": [],
+  "major_myths": [
+   "gre-heracles-cerberus"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "The three-headed hound that guards the gates of the underworld, preventing the dead from leaving.",
+  "description_long": "Cerberus is the three-headed hound that guards the gates of the underworld, preventing the dead from leaving and the living from entering unbidden [S1][S3][S5]. Son of the monsters Typhon and Echidna (and sibling to the Hydra and the Chimera), he is one of the great 'impossible' creatures of Greek myth [S1][S5]. His capture is the final (twelfth) labor of Heracles, who wrestled him down and brought him to the surface without killing him [S5].",
+  "interesting_facts": [
+   "Three-headed; guards the gates of the underworld [S3][S5].",
+   "Captured by Heracles as his final labor [S5].",
+   "Son of Typhon and Echidna [S1]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-heracles",
+  "culture": "greek",
+  "name": "Heracles",
+  "native_name": "Ἡράκλεια",
+  "alternative_names": [
+   "Hercules (Roman)"
+  ],
+  "classification": "hero",
+  "gender": "male",
+  "domains": [
+   "strength",
+   "heroism",
+   "the twelve labors"
+  ],
+  "symbols": [
+   "club",
+   "Nemean lion skin",
+   "bow"
+  ],
+  "animals": [
+   "Nemean lion"
+  ],
+  "weapons": [
+   "club",
+   "bow"
+  ],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-alcmena"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [
+   "gre-hera"
+  ],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-heracles-labors",
+   "gre-heracles-cerberus"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pausanias, Description of Greece",
+    "date": "c. 150–180 CE",
+    "ref": "S6",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "The greatest of the Greek heroes, son of Zeus; he performed the twelve labors and was raised to Olympus.",
+  "description_long": "Heracles (Hercules) is the greatest of the Greek heroes, the son of Zeus and the mortal Alcmena [S2][S5]. Driven to madness by Hera (who resented Zeus's affair with Alcmena) he killed his own children, and was later set to perform the twelve labors by King Eurystheus as penance — including capturing Cerberus, slaying the Nemean lion, and capturing the Cretan bull [S5]. After his death (he was burned on a pyre, set up by his wife or by fate), he was raised to Olympus and married the goddess Hebe [S5]. He is the model of the strength-hero, and his cult was widespread; he was a patron of athletes and of the city of Thebes (his birthplace) [S6].",
+  "interesting_facts": [
+   "Son of Zeus and the mortal Alcmena [S2][S5].",
+   "Performed the twelve labors for Eurystheus [S5].",
+   "Captured Cerberus as his final labor [S5].",
+   "Raised to Olympus after his death; married Hebe [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-odysseus",
+  "culture": "greek",
+  "name": "Odysseus",
+  "native_name": "Ὀδυσσεύς",
+  "alternative_names": [
+   "Ulysses (Latin)"
+  ],
+  "classification": "hero",
+  "gender": "male",
+  "domains": [
+   "cunning",
+   "the journey home",
+   "wit"
+  ],
+  "symbols": [
+   "bow",
+   "the Ithacan home"
+  ],
+  "animals": [],
+  "weapons": [
+   "bow"
+  ],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-penelope"
+  ],
+  "children": [
+   "gre-telemachus"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [
+   "Ithaca"
+  ],
+  "major_myths": [
+   "gre-odysseus-kyklops",
+   "gre-odysseus-trojan"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   }
+  ],
+  "artworks": [],
+  "description_short": "The cunning king of Ithaca, hero of the Odyssey; his ten-year journey home from Troy is a foundational epic.",
+  "description_long": "Odysseus (Ulysses) is the king of Ithaca and the hero of Homer's Odyssey — the epic of his ten-year journey home from the Trojan War [S3]. A man of extraordinary cunning (his name is associated with 'metis,' cunning intelligence), he devised the Wooden Horse that won the Trojans the war [S2][S3], and he overcame a succession of monsters and gods on his way home: the Cyclops Polyphemus (whom he blinded and outwitted, calling himself 'Nobody'), the witch Circe, the Sirens, Scylla and Charybdis, and the cattle of the sun [S3]. His defining qualities are wit, endurance, and the desire to return home (nostos) to his wife Penelope and son Telemachus [S3].",
+  "interesting_facts": [
+   "Devised the Wooden Horse that ended the Trojan War [S2][S3].",
+   "Blinded and outwitted the Cyclops Polyphemus (calling himself 'Nobody') [S3].",
+   "His ten-year journey home is the subject of the Odyssey [S3].",
+   "King of Ithaca; husband of Penelope, father of Telemachus [S3]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-maia",
+  "culture": "greek",
+  "name": "Maia",
+  "native_name": "Μαῖα",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "the nymph",
+   "mother of Hermes"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-atlas"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-hermes"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Nymph, daughter of the Titan Atlas, and mother of Hermes by Zeus.",
+  "description_long": "Maia is a nymph, one of the Pleiades (daughters of the Titan Atlas and the oceanid Pleione), and the mother of Hermes by Zeus [S1][S4][S5]. She is a minor figure, known chiefly as Hermes's mother; the Homeric Hymn to Hermes opens with her nursing the infant god in a cave [S4].",
+  "interesting_facts": [
+   "Mother of Hermes by Zeus [S4].",
+   "One of the Pleiades, daughter of Atlas [S1][S4]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-atlas",
+  "culture": "greek",
+  "name": "Atlas",
+  "native_name": "Ἄτλας",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "the sky (bore)"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [],
+  "children": [
+   "gre-maia"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-atlas-sky"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Titan condemned to hold up the sky (or the heavens) for eternity; father of the Pleiades.",
+  "description_long": "Atlas is a Titan, son of Iapetus, who was punished by Zeus after the Titanomachy for siding with the Titans; he was condemned to hold up the sky (or the heavens) on his shoulders for eternity [S1][S5]. He is the father (with the oceanid Pleione) of the Pleiades, a group of sisters who were turned into stars [S1][S5]. He is also the father of the Hesperides and, in some accounts, of the Gorgons' mother Ceto. The 'holding up the sky' image is a later (post-Homeric) development; the earliest Atlas is a great Titan of strength [S5].",
+  "interesting_facts": [
+   "Condemned to hold up the sky after the Titanomachy [S1][S5].",
+   "Father of the Pleiades (with Pleione) [S1][S5].",
+   "The 'holding up the sky' image is later than the earliest accounts [S5]."
+  ],
+  "uncertainty_notes": [
+   "The 'holding up the sky' punishment is a later development; we date it [S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-danae",
+  "culture": "greek",
+  "name": "Danae",
+  "native_name": "Δανάη",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "female",
+  "domains": [
+   "the mortal mother of Perseus"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-perseus"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-perseus-medusa"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Mortal princess, daughter of King Acrisius of Argos; mother of Perseus by Zeus.",
+  "description_long": "Danaë is a mortal princess, daughter of King Acrisius of Argos. When an oracle warned Acrisius that he would be overthrown by his grandson, he imprisoned Danaë in a bronze tower to prevent her from bearing a child. Zeus came to her (in the form of a shower of gold) and she bore Perseus [S5]. Acrisius later cast mother and son out in a chest, but they were saved; Perseus went on to become the hero who slew Medusa [S5].",
+  "interesting_facts": [
+   "Imprisoned by her father Acrisius to prevent the oracle's fulfillment [S5].",
+   "Mother of Perseus by Zeus (who came to her as a shower of gold) [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-semele",
+  "culture": "greek",
+  "name": "Semele",
+  "native_name": "Σεμέλη",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "female",
+  "domains": [
+   "the mortal mother of Dionysus"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-dionysus"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [
+   "gre-dionysus-birth"
+  ],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Mortal princess, mother of Dionysus by Zeus; destroyed by a bolt of lightning, from whose womb Zeus saved the unborn god.",
+  "description_long": "Semele is a mortal princess (daughter of Cadmus of Thebes) who became the mistress of Zeus and bore him Dionysus. Hera, jealous, persuaded Semele to demand that Zeus prove his divinity by appearing to her in his full glory (a bolt of lightning); the mortal mother was destroyed by the lightning, but Zeus saved the unborn child by sewing it into his thigh until it was ready to be born [S5]. Semele's story is the origin of Dionysus's 'double birth' (first of Semele, then of Zeus).",
+  "interesting_facts": [
+   "Mortal mother of Dionysus by Zeus [S5].",
+   "Destroyed by a bolt of lightning; Zeus saved the unborn Dionysus in his thigh [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-eros",
+  "culture": "greek",
+  "name": "Eros",
+  "native_name": "Ἔρως",
+  "alternative_names": [
+   "Cupid (Roman)"
+  ],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "love",
+   "desire (primordial)"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-aphrodite"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Homeric Hymns",
+    "date": "c. 700–300 BCE",
+    "ref": "S4",
+    "url": null
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "God of love and desire; in the Theogony a primordial force, in later myth the son of Aphrodite.",
+  "description_long": "Eros (Cupid) is the god of love and desire. In Hesiod's Theogony he is a primordial being, born directly from Chaos — an impersonal force of attraction [S1]; in later myth he is the son of Aphrodite (and in some accounts of Ares), the winged child who drives gods and mortals to love [S4][S5]. The two conceptions coexist: the cosmic force and the charming child-god.",
+  "interesting_facts": [
+   "Primordial in the Theogony (born of Chaos); son of Aphrodite in later myth [S1][S5]."
+  ],
+  "uncertainty_notes": [
+   "Two conceptions (primordial force vs. Aphrodite's son) coexist across sources [S1][S4][S5]."
+  ],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-andromeda",
+  "culture": "greek",
+  "name": "Andromeda",
+  "native_name": "Ἀνδρομέδα",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "female",
+  "domains": [
+   "the rescued princess"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-perseus"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Princess of Aethiopia, offered to the sea-monster Cetus and rescued by Perseus, who married her.",
+  "description_long": "Andromeda is a princess of Aethiopia whose mother Cassiopeia (a queen) boasted that Andromeda was more beautiful than the Nereids; Poseidon sent the monster Cetus to ravage the coast, and Andromeda was chained to a rock as a sacrifice. Perseus, passing by, slew Cetus with the head of Medusa and rescued her, and she became his wife [S5].",
+  "interesting_facts": [
+   "Rescued from the sea-monster Cetus by Perseus [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-echidna",
+  "culture": "greek",
+  "name": "Echidna",
+  "native_name": "Ἔχιδνα",
+  "alternative_names": [],
+  "classification": "monster",
+  "gender": "female",
+  "domains": [
+   "the monster-mother"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-typhon"
+  ],
+  "children": [
+   "gre-cerberus"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Half-woman, half-serpent monster who, with Typhon, mothered many of the great monsters of Greek myth.",
+  "description_long": "Echidna is a half-woman, half-serpent creature who dwelt in a cave and, in partnership with the monster Typhon, mothered many of the great monsters of Greek myth, including Cerberus, the Lernaean Hydra, the Chimera, the Sphinx, and Orthrus [S1][S5]. She is the 'mother of monsters,' a source of the chthonic terror that the heroes of Greek myth must overcome.",
+  "interesting_facts": [
+   "Mother (with Typhon) of Cerberus, the Hydra, the Chimera, the Sphinx, and more [S1][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-oceanus",
+  "culture": "greek",
+  "name": "Oceanus",
+  "native_name": "Ὠκεανός",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "male",
+  "domains": [
+   "the great world-river",
+   "the sea (primordial)"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "siblings": [
+   "gre-tethys",
+   "gre-cronus",
+   "gre-rhea"
+  ],
+  "partners": [
+   "gre-tethys"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Primordial Titan, personification of the great river that (in Greek thought) encircled the inhabited world.",
+  "description_long": "Oceanus is the primordial Titan who personifies the great ocean-river that, in Greek cosmography, encircled the inhabited world (the oikoumene) [S1]. He is the eldest of the Titans and the consort of Tethys; together they are the parents of the rivers, the oceanids, and the winds [S1]. He is a vast, serene figure, more a cosmic boundary than an active god, but his role as the boundary of the world is cosmographically important.",
+  "interesting_facts": [
+   "The world-encircling river in Greek cosmography [S1].",
+   "Consort of Tethys; parent of rivers and oceanids [S1]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-tethys",
+  "culture": "greek",
+  "name": "Tethys",
+  "native_name": "Τηθυς",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "the primordial sea",
+   "the mother of rivers"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "siblings": [
+   "gre-oceanus"
+  ],
+  "partners": [
+   "gre-oceanus"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Hesiod, Theogony",
+    "date": "c. 700 BCE",
+    "ref": "S1",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0020"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Primordial Titaness, consort of Oceanus and mother of the rivers and oceanids.",
+  "description_long": "Tethys is a primordial Titaness, daughter of Gaia and Ouranos, and the consort of her brother Oceanus [S1]. Together they are the parents of the rivers, the oceanids (sea-nymphs), and the winds [S1]. She is a vast, maternal figure associated with the productive waters of the world.",
+  "interesting_facts": [
+   "Consort of Oceanus; mother of rivers and oceanids [S1]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-alcmena",
+  "culture": "greek",
+  "name": "Alcmena",
+  "native_name": "Ἀλκμήνη",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "female",
+  "domains": [
+   "the mortal mother of Heracles"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-zeus"
+  ],
+  "children": [
+   "gre-heracles"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Iliad",
+    "date": "c. 750 BCE",
+    "ref": "S2",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+   },
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Mortal woman, wife of Amphitryon and mother of Heracles by Zeus.",
+  "description_long": "Alcmena is a mortal woman, the wife of Amphitryon, king of Thebes. Zeus took her in the form of Amphitryon and fathered Heracles [S2][S5]. (The 'Amphitryon' story — Zeus impersonating the husband — is a later elaboration; the core fact is that Heracles's divine father is Zeus and his mortal mother is Alcmena.) [S5]",
+  "interesting_facts": [
+   "Mother of Heracles by Zeus [S2][S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-penelope",
+  "culture": "greek",
+  "name": "Penelope",
+  "native_name": "Πηνελόπεια",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "female",
+  "domains": [
+   "the faithful wife of Odysseus"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [],
+  "siblings": [],
+  "partners": [
+   "gre-odysseus"
+  ],
+  "children": [
+   "gre-telemachus"
+  ],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   }
+  ],
+  "artworks": [],
+  "description_short": "Queen of Ithaca, faithful wife of Odysseus; she warded off the suitors for twenty years while her husband was away.",
+  "description_long": "Penelope is the wife of Odysseus and queen of Ithaca. During her husband's long absence (first the ten years of the Trojan War, then the ten years of his wanderings), she was besieged by suitors who pressed her to remarry. She delayed them with the ruse of weaving a shroud by day and unwinding it by night, remaining faithful to Odysseus until his return [S3].",
+  "interesting_facts": [
+   "Feigned to weave a shroud for Laertes, unwinding it each night to delay the suitors [S3]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-telemachus",
+  "culture": "greek",
+  "name": "Telemachus",
+  "native_name": "Τηλεμαχός",
+  "alternative_names": [],
+  "classification": "mortal",
+  "gender": "male",
+  "domains": [
+   "the son of Odysseus"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-odysseus",
+   "gre-penelope"
+  ],
+  "siblings": [],
+  "partners": [],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Homer, Odyssey",
+    "date": "c. 725 BCE",
+    "ref": "S3",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+   }
+  ],
+  "artworks": [],
+  "description_short": "Son of Odysseus and Penelope; the Odyssey begins with his quest to find his father.",
+  "description_long": "Telemachus is the son of Odysseus and Penelope. The Odyssey opens with him, now a young man, being urged by Athena (in disguise) to take charge and to seek news of his missing father. His journey (the 'telemachy') to Pylos and Sparta to find out what happened to Odysseus frames the epic's opening books [S3].",
+  "interesting_facts": [
+   "The Odyssey opens with his quest for his father (the 'telemachy') [S3].",
+   "Aided by Athena (in disguise) [S3]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ },
+ {
+  "id": "gre-hebe",
+  "culture": "greek",
+  "name": "Hebe",
+  "native_name": "Ἥβη",
+  "alternative_names": [],
+  "classification": "deity",
+  "gender": "female",
+  "domains": [
+   "youth",
+   "the cup-bearer of the gods"
+  ],
+  "symbols": [],
+  "animals": [],
+  "weapons": [],
+  "sacred_objects": [],
+  "parents": [
+   "gre-zeus",
+   "gre-hera"
+  ],
+  "siblings": [],
+  "partners": [
+   "gre-heracles"
+  ],
+  "children": [],
+  "allies": [],
+  "enemies": [],
+  "associated_realms": [],
+  "associated_places": [],
+  "major_myths": [],
+  "primary_sources": [
+   {
+    "type": "text",
+    "name": "Pseudo-Apollodorus, Library (Bibliotheca)",
+    "date": "c. 1st–2nd c. CE (transmits earlier)",
+    "ref": "S5",
+    "url": null
+   }
+  ],
+  "artworks": [],
+  "description_short": "Goddess of youth, cup-bearer of the gods; she married Heracles after his deification.",
+  "description_long": "Hebe is the goddess of youth and the cup-bearer of the gods at Olympus. She is the daughter of Zeus and Hera [S5]. After Heracles was raised to Olympus following his death, he married Hebe [S5].",
+  "interesting_facts": [
+   "Cup-bearer of the gods [S5].",
+   "Married Heracles after his deification [S5]."
+  ],
+  "uncertainty_notes": [],
+  "hero_artwork": null
+ }
+]

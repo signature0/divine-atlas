@@ -1,0 +1,4 @@
+=== SLAVIC dataset report ===
+entities: 13  relationships: 16  myths: 5
+
+All references valid.

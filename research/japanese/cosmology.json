@@ -1,0 +1,71 @@
+{
+ "realms": [
+  {
+   "id": "jpn-takamagahara",
+   "name": "Takamagahara",
+   "native_name": "高天原",
+   "description": "The High Plain of Heaven, the upper realm where the high deities (Amaterasu, Tsukuyomi) dwell and from which the creative pair and the descending prince are sent [S1]. It is the heavenly axis and the origin of the imperial line [S1].",
+   "entities": [
+    "jpn-kamimusubi",
+    "jpn-amenominakanushi",
+    "jpn-amaterasu",
+    "jpn-tsurugumo",
+    "jpn-susanoo",
+    "jpn-ameno-uzume",
+    "jpn-takemikazuchi",
+    "jpn-toyotama",
+    "jpn-ninigi",
+    "jpn-izananagi",
+    "jpn-izananami"
+   ],
+   "layout": {
+    "x": 25,
+    "y": 6,
+    "w": 50,
+    "h": 22
+   }
+  },
+  {
+   "id": "jpn-ashihara",
+   "name": "Ashihara-no-Nakatsukuni",
+   "native_name": "宇迦之御魂/現世",
+   "description": "The 'Middle Land of the High Plains'—the earthly realm, the world of the living and of the indigenous deities (Ōkuninushi, Inari), where the islands are and where the heavenly prince is sent to rule [S1].",
+   "entities": [
+    "jpn-okuninushi",
+    "jpn-kotohikone",
+    "jpn-sarutahiko",
+    "jpn-konohanasakuhana",
+    "jpn-kushiinadahime",
+    "jpn-yamata-no-orochi",
+    "jpn-ninigi",
+    "jpn-hooroni",
+    "jpn-inari",
+    "jpn-yamato-takeru",
+    "jpn-susanoo"
+   ],
+   "layout": {
+    "x": 20,
+    "y": 36,
+    "w": 60,
+    "h": 26
+   }
+  },
+  {
+   "id": "jpn-yomi",
+   "name": "Yomi",
+   "native_name": "黄泉",
+   "description": "The Land of Yomi, the realm of the dead and of decay (the 'devils of rotting'), separated from the clean world of the living by the threshold at which Izanagi and Izanami part [S1]. It is the polluted underworld [S1].",
+   "entities": [
+    "jpn-izananami",
+    "jpn-kagutsuchi"
+   ],
+   "layout": {
+    "x": 25,
+    "y": 70,
+    "w": 50,
+    "h": 22
+   }
+  }
+ ],
+ "structure_notes": "A vertical three-tier cosmology: Takamagahara (high heaven) above, Ashihara-no-Nakatsukuni (the earthly middle land) in the middle, and Yomi (the land of the dead) below. The 'floating bridge of heaven' (Ame-no-ukihashi) and the 'heavenly pillar' (Amanohabaki) are the axis connecting the upper and middle realms. This is the Kojiki/Nihon Shoki model; it is a mythographic (8th-century) rendering of an older cosmology, and the precise spatial relationships are not fully specified in the texts [S1][S2]."
+}

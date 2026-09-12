@@ -1,0 +1,319 @@
+[
+ {
+  "source": "mes-apas",
+  "target": "mes-ki",
+  "type": "PARTNER_OF",
+  "note": "An (the sky) and Ki (the earth) are the first pair (the 'parents' of the world).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ],
+  "explanation": "An and Ki are the 'parents' of the world in Sumerian cosmology [S5]."
+ },
+ {
+  "source": "mes-apas",
+  "target": "mes-enlil",
+  "type": "PARENT_OF",
+  "note": "An (with Ki) is the parent of Enlil.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-apas",
+  "target": "mes-enki",
+  "type": "PARENT_OF",
+  "note": "An (with Ki) is the parent of Enki (in some accounts).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-ki",
+  "target": "mes-enlil",
+  "type": "PARENT_OF",
+  "note": "Ki (with An) is the parent of Enlil.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-abzu",
+  "target": "mes-tiamat",
+  "type": "PARTNER_OF",
+  "note": "Apsu (the fresh water) and Tiamat (the salt water) are the two primeval waters (a 'pair').",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S5"
+  ],
+  "explanation": "Apsu and Tiamat are the two primeval waters in Sumerian cosmology [S3][S5]."
+ },
+ {
+  "source": "mes-enki",
+  "target": "mes-abzu",
+  "type": "KILLED",
+  "note": "Enki slays Apsu (in the Atrahasis) — the creation-of-humanity story.",
+  "confidence": "attested",
+  "sources": [
+   "S3"
+  ],
+  "explanation": "Enki slays Apsu because his noise disturbs his rest; humanity is made from Apsu's flesh [S3]."
+ },
+ {
+  "source": "mes-enki",
+  "target": "mes-enlil",
+  "type": "ALLY_OF",
+  "note": "Enki allies with the gods against Apsu (in the Atrahasis).",
+  "confidence": "attested",
+  "sources": [
+   "S3"
+  ]
+ },
+ {
+  "source": "mes-enki",
+  "target": "mes-marduk",
+  "type": "PARENT_OF",
+  "note": "Enki (Ea) is the father of Marduk (in the Enuma Elish).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "source": "mes-tiamat",
+  "target": "mes-kingu",
+  "type": "PARTNER_OF",
+  "note": "Tiamat and Kingu are a 'pair' (Kingu is her general and consort).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "source": "mes-marduk",
+  "target": "mes-tiamat",
+  "type": "KILLED",
+  "note": "Marduk slays Tiamat (in the Enuma Elish).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ],
+  "explanation": "Marduk slays Tiamat with his bow, net, and 'rakasu' winds [S1]."
+ },
+ {
+  "source": "mes-marduk",
+  "target": "mes-tiamat",
+  "type": "CREATED",
+  "note": "Marduk splits Tiamat's body in two to make the sky (upper half) and the earth (lower half).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "source": "mes-marduk",
+  "target": "mes-kingu",
+  "type": "KILLED",
+  "note": "Marduk slays Kingu (in the Enuma Elish).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "source": "mes-marduk",
+  "target": "mes-kingu",
+  "type": "SUCCESSOR_OF",
+  "note": "Marduk takes the 'Tablet of Destinies' from Kingu (the symbol of cosmic authority).",
+  "confidence": "attested",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "source": "mes-enlil",
+  "target": "mes-enki",
+  "type": "SIBLING_OF",
+  "note": "Enlil and Enki are siblings (both sons of An and Ki, in some accounts).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-enlil",
+  "target": "mes-ninlil",
+  "type": "PARTNER_OF",
+  "note": "Enlil and Ninlil are a 'pair'.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-enlil",
+  "target": "mes-nanna",
+  "type": "PARENT_OF",
+  "note": "Enlil (with Ninlil) is the parent of Nanna (the moon god).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-ninlil",
+  "target": "mes-nanna",
+  "type": "PARENT_OF",
+  "note": "Ninlil (with Enlil) is the parent of Nanna.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-enlil",
+  "target": "mes-ninlil",
+  "type": "CREATED",
+  "note": "(Mythic) In one text, Enlil seduces Ninlil (in the underworld) and she bears Nanna there.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-nanna",
+  "target": "mes-utu",
+  "type": "PARENT_OF",
+  "note": "Nanna (with Ningal) is the parent of Utu (the sun god).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-nanna",
+  "target": "mes-inanna",
+  "type": "PARENT_OF",
+  "note": "Nanna (with Ningal) is the parent of Inanna (the love/war goddess).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-ninagal",
+  "target": "mes-utu",
+  "type": "PARENT_OF",
+  "note": "Ningal (with Nanna) is the parent of Utu.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-ninagal",
+  "target": "mes-inanna",
+  "type": "PARENT_OF",
+  "note": "Ningal (with Nanna) is the parent of Inanna.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-utu",
+  "target": "mes-inanna",
+  "type": "SIBLING_OF",
+  "note": "Utu and Inanna are siblings (both children of Nanna).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-nanna",
+  "target": "mes-ninagal",
+  "type": "PARTNER_OF",
+  "note": "Nanna and Ningal are a 'pair'.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-enki",
+  "target": "mes-nabu",
+  "type": "PARENT_OF",
+  "note": "Enki is the father of Nabu (the god of writing).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-inanna",
+  "target": "mes-erishkigal",
+  "type": "SIBLING_OF",
+  "note": "Inanna and Ereshkigal are sisters (in some accounts).",
+  "confidence": "attested",
+  "sources": [
+   "S4",
+   "S5"
+  ],
+  "explanation": "In some accounts they are sisters; in others they are adversaries [S4][S5]."
+ },
+ {
+  "source": "mes-inanna",
+  "target": "mes-erishkigal",
+  "type": "FOUGHT",
+  "note": "Inanna descends to the underworld (to Ereshkigal's funeral) and is killed there.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "mes-erishkigal",
+  "target": "mes-nergal",
+  "type": "PARTNER_OF",
+  "note": "Ereshkigal and Nergal are a 'pair' (the 'Nergal and Ereshkigal' marriage myth).",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-nergal",
+  "target": "mes-erishkigal",
+  "type": "KILLED",
+  "note": "(Mythic) In the 'Nergal and Ereshkigal' myth, Nergal 'rapes' (or marries) Ereshkigal.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-erishkigal-consort",
+  "target": "mes-erishkigal",
+  "type": "PARTNER_OF",
+  "note": "Nergal (as Ereshkigal's consort) is her 'pair'.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "source": "mes-apas",
+  "target": "mes-antum",
+  "type": "PARTNER_OF",
+  "note": "An and Antu (Anatum) are a 'pair'.",
+  "confidence": "attested",
+  "sources": [
+   "S5"
+  ]
+ }
+]

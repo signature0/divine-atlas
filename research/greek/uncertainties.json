@@ -1,0 +1,56 @@
+[
+ {
+  "id": "gre-u1",
+  "question": "Aphrodite's parentage",
+  "versions": {
+   "S1 (Theogony)": "Born from sea-foam around Ouranos's severed member",
+   "S2 (Iliad)": "Daughter of Zeus and Dione"
+  },
+  "how_we_present_it": "Two birth-accounts side by side; neither is declared 'the' truth."
+ },
+ {
+  "id": "gre-u2",
+  "question": "Hephaestus's parentage",
+  "versions": {
+   "S2 (Iliad)": "Son of Hera alone",
+   "S1 (Theogony)": "Son of Zeus and Hera"
+  },
+  "how_we_present_it": "Both stored; the Iliad's 'Hera alone' is the more distinctive account."
+ },
+ {
+  "id": "gre-u3",
+  "question": "The Olympian 'family' as a system",
+  "versions": {
+   "Literary (Hesiod/Homer)": "A tidy pantheon of twelve",
+   "Cult (local)": "Deities had local identities that predate and differ from the classical syncretic pantheon"
+  },
+  "how_we_present_it": "We note where a deity's 'family position' is a literary synthesis vs. a local cult reality."
+ },
+ {
+  "id": "gre-u4",
+  "question": "Orphic vs. Hesiodic cosmogony",
+  "versions": {
+   "Hesiodic": "Chaos → Gaia/Ouranos → Titans",
+   "Orphic": "A cosmic egg and the god Phanes"
+  },
+  "how_we_present_it": "Both cosmogonies presented as variants, not merged."
+ },
+ {
+  "id": "gre-u5",
+  "question": "The Typhon passage",
+  "versions": {
+   "Traditional reading": "Part of Hesiod's Theogony",
+   "Scholarly view": "A later interpolation (lines 810–835)"
+  },
+  "how_we_present_it": "We flag the passage as likely interpolated, per the scholarly consensus."
+ },
+ {
+  "id": "gre-u6",
+  "question": "Medusa's origin",
+  "versions": {
+   "Hesiodic": "Monstrous Gorgon from birth (daughter of Phorcys & Ceto)",
+   "Ovid (later)": "A beautiful maiden transformed (for hubris / an offense against Athena)"
+  },
+  "how_we_present_it": "Both versions stored; the 'maiden' version is dated as later (Roman)."
+ }
+]

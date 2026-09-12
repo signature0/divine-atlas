@@ -1,0 +1,20 @@
+=== GREEK dataset report ===
+entities: 41  relationships: 80  myths: 11
+
+Pruned dangling array refs (no entity modeled):
+  gre-faunus x3
+  gre-ileitithyia x2
+  gre-hydra x2
+  gre-chimera x2
+  gre-titans x1
+  gre-asclepius x1
+  gre-phobos x1
+  gre-deimos x1
+  gre-ariadne x1
+  gre-hepaestus x1
+  gre-echidna-children x1
+  gre-pleione x1
+  gre-pleiades x1
+  gre-akeus x1
+
+All references valid.

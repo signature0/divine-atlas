@@ -1,0 +1,4 @@
+=== JAPANESE dataset report ===
+entities: 21  relationships: 44  myths: 7
+
+All references valid.

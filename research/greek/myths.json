@@ -1,0 +1,374 @@
+[
+ {
+  "id": "gre-creation",
+  "culture": "greek",
+  "title": "The Hesiodic Creation (Cosmogony)",
+  "summary": "In the Theogony, the first thing is Chaos, from which come Gaia (Earth), Tartarus, Eros, and Nyx. Gaia bears Ouranos (Sky), and the union of Gaia and Ouranos produces the Titans, the Cyclopes, and the Hecatoncheires [S1].",
+  "participants": [
+   "gre-chaos",
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "primary_sources": [
+   "S1"
+  ],
+  "variants": [
+   {
+    "name": "Hesiodic",
+    "description": "Chaos → Gaia/Ouranos → Titans (Theogony)."
+   },
+   {
+    "name": "Orphic",
+    "description": "A cosmic egg and the god Phanes; a different, later cosmogony [S5]."
+   }
+  ],
+  "uncertainty_notes": "The Orphic cosmogony (egg, Phanes) is a genuine alternative to the Hesiodic account; both are preserved [S1][S5].",
+  "chapters": [
+   {
+    "heading": "Chaos First",
+    "body": "The first thing was Chaos, the yawning gap [S1]."
+   },
+   {
+    "heading": "Gaia and the First Beings",
+    "body": "From Chaos came Gaia, Tartarus, Eros, and Nyx [S1]."
+   },
+   {
+    "heading": "Ouranos and the Titans",
+    "body": "Gaia bore Ouranos; their union produced the Titans, Cyclopes, and Hecatoncheires [S1]."
+   }
+  ]
+ },
+ {
+  "id": "gre-overthrow-of-ouranos",
+  "culture": "greek",
+  "title": "The Overthrow of Ouranos",
+  "summary": "Ouranos imprisoned his children in Tartarus. Gaia, grieving, forged a flint sickle and set Cronus to castrate and overthrow him; the Erinyes and (in the Theogony) Aphrodite arose from his severed parts [S1].",
+  "participants": [
+   "gre-ouranos",
+   "gre-gaia",
+   "gre-cronus"
+  ],
+  "primary_sources": [
+   "S1"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The origin of Aphrodite from Ouranos's severed member (Theogony) vs. her birth from Zeus & Dione (Iliad) is a genuine variant [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Imprisonment",
+    "body": "Ouranos cast his children into Tartarus [S1]."
+   },
+   {
+    "heading": "The Sickle",
+    "body": "Gaia forged a sickle and set Cronus against him [S1]."
+   },
+   {
+    "heading": "The Fall",
+    "body": "Cronus castrated Ouranos, who retreated to the heavens [S1]."
+   }
+  ]
+ },
+ {
+  "id": "gre-titanomachy",
+  "culture": "greek",
+  "title": "The Titanomachy (War of the Titans)",
+  "summary": "Zeus, grown, forced Cronus to disgorge his siblings, freed the Cyclopes and Hecatoncheires, and led them to war against the Titans. After a great battle, the Titans were defeated and cast into Tartarus [S1].",
+  "participants": [
+   "gre-zeus",
+   "gre-cronus",
+   "gre-rhea",
+   "gre-gaia",
+   "gre-ouranos"
+  ],
+  "primary_sources": [
+   "S1"
+  ],
+  "variants": [],
+  "uncertainty_notes": "",
+  "chapters": [
+   {
+    "heading": "The Stone for Zeus",
+    "body": "Rhea gave Cronus a wrapped stone in place of the infant Zeus [S1][S5]."
+   },
+   {
+    "heading": "The Disgorging",
+    "body": "Zeus forced Cronus to vomit up his swallowed siblings [S1]."
+   },
+   {
+    "heading": "The War",
+    "body": "With the Cyclopes and Hecatoncheires, Zeus defeated the Titans [S1]."
+   },
+   {
+    "heading": "The Division",
+    "body": "Zeus took the sky, Poseidon the sea, Hades the underworld [S1]."
+   }
+  ]
+ },
+ {
+  "id": "gre-athena-birth",
+  "culture": "greek",
+  "title": "The Birth of Athena",
+  "summary": "Zeus swallowed Metis, pregnant with their child, to avert the prophecy that the child would overthrow him. Athena was born fully formed and armored from Zeus's head [S1][S4][S5].",
+  "participants": [
+   "gre-zeus",
+   "gre-metis",
+   "gre-athena"
+  ],
+  "primary_sources": [
+   "S1",
+   "S4",
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "Her mother is Metis in the Theogony and Iliad (a variant gives Dione) [S1][S2].",
+  "chapters": [
+   {
+    "heading": "The Prophecy",
+    "body": "A child of Metis would overthrow Zeus [S1][S5]."
+   },
+   {
+    "heading": "The Swallowing",
+    "body": "Zeus swallowed Metis while pregnant [S1]."
+   },
+   {
+    "heading": "The Birth",
+    "body": "Athena sprang from Zeus's head, fully armed [S4][S5]."
+   }
+  ]
+ },
+ {
+  "id": "gre-athena-athens",
+  "culture": "greek",
+  "title": "Athena and Poseidon for Athens",
+  "summary": "Athena and Poseidon each offered a gift to the city: she the olive tree, he the sea (or a horse). The city chose Athena's gift, and she became its patron [S5][S6].",
+  "participants": [
+   "gre-athena",
+   "gre-poseidon"
+  ],
+  "primary_sources": [
+   "S5",
+   "S6"
+  ],
+  "variants": [],
+  "uncertainty_notes": "A civic aition (origin story), not a battle; the 'gifts' differ slightly across sources [S5][S6].",
+  "chapters": [
+   {
+    "heading": "The Contest",
+    "body": "Both gods offered a gift to the new city [S5]."
+   },
+   {
+    "heading": "The Gifts",
+    "body": "Athena gave the olive; Poseidon the sea/spring [S5][S6]."
+   },
+   {
+    "heading": "The Choice",
+    "body": "The city chose Athena, who became its patron [S6]."
+   }
+  ]
+ },
+ {
+  "id": "gre-aphrodite-birth",
+  "culture": "greek",
+  "title": "The Birth of Aphrodite (Two Accounts)",
+  "summary": "In the Theogony, Aphrodite is born from the sea-foam around Ouranos's severed member at Cythera. In the Iliad, she is the daughter of Zeus and Dione. Both accounts are canonical and incompatible [S1][S2].",
+  "participants": [
+   "gre-aphrodite",
+   "gre-ouranos",
+   "gre-zeus"
+  ],
+  "primary_sources": [
+   "S1",
+   "S2"
+  ],
+  "variants": [
+   {
+    "name": "Theogony (sea-foam)",
+    "description": "Born of Ouranos's severed member [S1]."
+   },
+   {
+    "name": "Iliad (Zeus & Dione)",
+    "description": "Daughter of Zeus and Dione [S2]."
+   }
+  ],
+  "uncertainty_notes": "These are genuinely incompatible accounts; we present both, not a merge [S1][S2].",
+  "chapters": [
+   {
+    "heading": "Theogony Version",
+    "body": "Sea-foam from Ouranos's severed member [S1]."
+   },
+   {
+    "heading": "Iliad Version",
+    "body": "Daughter of Zeus and Dione [S2]."
+   }
+  ]
+ },
+ {
+  "id": "gre-persephone",
+  "culture": "greek",
+  "title": "The Abduction of Persephone and the Seasons",
+  "summary": "Hades abducted Persephone to be his queen. Demeter's grief withheld the earth's fertility until a compromise: Persephone spends part of the year on earth (spring/summer) and part in the underworld (autumn/winter), because she ate pomegranate seeds below [S4][S5].",
+  "participants": [
+   "gre-hades",
+   "gre-persephone",
+   "gre-demeter"
+  ],
+  "primary_sources": [
+   "S4",
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The pomegranate-seed detail is from later/Orphic tradition, not the Homeric Hymn to Demeter [S4][S5].",
+  "chapters": [
+   {
+    "heading": "The Abduction",
+    "body": "Hades took Persephone from a meadow [S4][S5]."
+   },
+   {
+    "heading": "The Grief",
+    "body": "Demeter's sorrow made the earth barren [S4][S5]."
+   },
+   {
+    "heading": "The Compromise",
+    "body": "Persephone divides the year between earth and underworld [S4][S5]."
+   },
+   {
+    "heading": "The Pomegranate",
+    "body": "Six pomegranate seeds bound her to return (later/Orphic detail) [S4][S5]."
+   }
+  ]
+ },
+ {
+  "id": "gre-perseus-medusa",
+  "culture": "greek",
+  "title": "Perseus and Medusa",
+  "summary": "Sent to fetch Medusa's head, Perseus was aided by Athena (mirror-shield) and Hermes (winged sandals, sickle); he beheaded the Gorgon, and Pegasus and Chrysaor sprang from her blood [S1][S5].",
+  "participants": [
+   "gre-perseus",
+   "gre-medusa",
+   "gre-athena",
+   "gre-hermes"
+  ],
+  "primary_sources": [
+   "S1",
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The 'beautiful maiden' Medusa is Ovid's later version; Hesiod's Gorgons are monstrous from birth [S1][S5].",
+  "chapters": [
+   {
+    "heading": "The Quest",
+    "body": "Polydectes sent Perseus for Medusa's head [S5]."
+   },
+   {
+    "heading": "The Gifts",
+    "body": "Athena's shield, Hermes's sandals and sickle [S5]."
+   },
+   {
+    "heading": "The Slaying",
+    "body": "Perseus beheaded Medusa via the mirror [S5]."
+   },
+   {
+    "heading": "Pegasus",
+    "body": "Pegasus and Chrysaor sprang from her blood [S1][S5]."
+   }
+  ]
+ },
+ {
+  "id": "gre-typhon-zeus",
+  "culture": "greek",
+  "title": "Typhon and Zeus",
+  "summary": "Typhon, the greatest monster, warred against the gods and wounded Zeus, who was cut and fell. Zeus recovered, regained his thunderbolt, and buried Typhon under Mount Etna [S1][S5].",
+  "participants": [
+   "gre-typhon",
+   "gre-zeus",
+   "gre-gaia"
+  ],
+  "primary_sources": [
+   "S1",
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "The Typhon passage in the Theogony is a later interpolation [S1].",
+  "chapters": [
+   {
+    "heading": "The Monster",
+    "body": "Typhon, hundred-headed, born of Gaia [S1]."
+   },
+   {
+    "heading": "The Wounding",
+    "body": "Typhon cut Zeus and made him fall [S1]."
+   },
+   {
+    "heading": "The Burial",
+    "body": "Zeus buried Typhon under Etna; its fires are his breath [S1][S5]."
+   }
+  ]
+ },
+ {
+  "id": "gre-heracles-labors",
+  "culture": "greek",
+  "title": "The Twelve Labors of Heracles",
+  "summary": "Driven to madness by Hera, Heracles killed his children and was set to perform the twelve labors for Eurystheus as penance — including the Nemean lion, the Lernaean Hydra, and the capture of Cerberus. After his death he was raised to Olympus [S5].",
+  "participants": [
+   "gre-heracles",
+   "gre-hera",
+   "gre-cerberus"
+  ],
+  "primary_sources": [
+   "S5"
+  ],
+  "variants": [],
+  "uncertainty_notes": "",
+  "chapters": [
+   {
+    "heading": "The Madness",
+    "body": "Hera drove Heracles to kill his children [S5]."
+   },
+   {
+    "heading": "The Labors",
+    "body": "Twelve tasks for Eurystheus [S5]."
+   },
+   {
+    "heading": "Cerberus",
+    "body": "The final labor: capture Cerberus [S5]."
+   },
+   {
+    "heading": "Olympus",
+    "body": "After his death he was raised to Olympus [S5]."
+   }
+  ]
+ },
+ {
+  "id": "gre-odysseus-kyklops",
+  "culture": "greek",
+  "title": "Odysseus and the Cyclops",
+  "summary": "On his way home from Troy, Odysseus was trapped by the Cyclops Polyphemus, whom he blinded and escaped by calling himself 'Nobody' (Outis), so the other Cyclopes did not come when they heard 'Nobody is doing this' [S3].",
+  "participants": [
+   "gre-odysseus",
+   "gre-poseidon"
+  ],
+  "primary_sources": [
+   "S3"
+  ],
+  "variants": [],
+  "uncertainty_notes": "",
+  "chapters": [
+   {
+    "heading": "The Cave",
+    "body": "Odysseus's men were trapped by Polyphemus [S3]."
+   },
+   {
+    "heading": "The Blinding",
+    "body": "Odysseus blinded the Cyclops with a stake [S3]."
+   },
+   {
+    "heading": "'Nobody'",
+    "body": "He called himself Outis (Nobody) to outwit the others [S3]."
+   },
+   {
+    "heading": "The Wrath",
+    "body": "Poseidon (Polyphemus's father) cursed Odysseus's journey home [S3]."
+   }
+  ]
+ }
+]

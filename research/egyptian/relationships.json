@@ -1,0 +1,481 @@
+[
+ {
+  "source": "egy-aur",
+  "target": "egy-shu",
+  "type": "CREATED",
+  "note": "Atum-Ra created Shu (and Tefnut) from his own body.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-aur",
+  "target": "egy-tefnut",
+  "type": "CREATED",
+  "note": "Atum-Ra created Tefnut.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-shu",
+  "target": "egy-tefnut",
+  "type": "SIBLING_OF",
+  "note": "Shu and Tefnut are the first divine pair (siblings).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-shu",
+  "target": "egy-tefnut",
+  "type": "PARTNER_OF",
+  "note": "Shu and Tefnut are the first divine couple.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-shu",
+  "target": "egy-gebel",
+  "type": "PARENT_OF",
+  "note": "Shu (with Tefnut) is the parent of Geb.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-shu",
+  "target": "egy-nut",
+  "type": "PARENT_OF",
+  "note": "Shu is the parent of Nut.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-tefnut",
+  "target": "egy-gebel",
+  "type": "PARENT_OF",
+  "note": "Tefnut is the parent of Geb.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-tefnut",
+  "target": "egy-nut",
+  "type": "PARENT_OF",
+  "note": "Tefnut is the parent of Nut.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-nut",
+  "type": "SIBLING_OF",
+  "note": "Geb and Nut are siblings.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-nut",
+  "type": "PARTNER_OF",
+  "note": "Geb and Nut are married (brother-sister).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-shu",
+  "target": "egy-nut",
+  "type": "RULES",
+  "note": "Shu holds up the sky (Nut) to keep it from the earth (Geb).",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ],
+  "explanation": "Shu stands between earth and sky, supporting Nut."
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-osiris",
+  "type": "PARENT_OF",
+  "note": "Geb (with Nut) is the parent of Osiris.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-isfet",
+  "type": "PARENT_OF",
+  "note": "Geb is the parent of Isis.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-set",
+  "type": "PARENT_OF",
+  "note": "Geb is the parent of Set.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-gebel",
+  "target": "egy-nephthys",
+  "type": "PARENT_OF",
+  "note": "Geb is the parent of Nephthys.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nut",
+  "target": "egy-osiris",
+  "type": "PARENT_OF",
+  "note": "Nut is the parent of Osiris.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nut",
+  "target": "egy-isfet",
+  "type": "PARENT_OF",
+  "note": "Nut is the parent of Isis.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nut",
+  "target": "egy-set",
+  "type": "PARENT_OF",
+  "note": "Nut is the parent of Set.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nut",
+  "target": "egy-nephthys",
+  "type": "PARENT_OF",
+  "note": "Nut is the parent of Nephthys.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-osiris",
+  "target": "egy-isfet",
+  "type": "SIBLING_OF",
+  "note": "Osiris and Isis are siblings.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-osiris",
+  "target": "egy-set",
+  "type": "SIBLING_OF",
+  "note": "Osiris and Set are siblings.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-isfet",
+  "target": "egy-set",
+  "type": "SIBLING_OF",
+  "note": "Isis and Set are siblings.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-osiris",
+  "target": "egy-isfet",
+  "type": "PARTNER_OF",
+  "note": "Osiris and Isis are married (and siblings).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-osiris",
+  "target": "egy-horus",
+  "type": "PARENT_OF",
+  "note": "Osiris (with Isis) is the parent of Horus.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-isfet",
+  "target": "egy-horus",
+  "type": "PARENT_OF",
+  "note": "Isis is the parent of Horus.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-set",
+  "target": "egy-nephthys",
+  "type": "PARTNER_OF",
+  "note": "Set and Nephthys are (in some accounts) married.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-set",
+  "target": "egy-osiris",
+  "type": "KILLED",
+  "note": "Set murdered his brother Osiris.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ],
+  "explanation": "Set lured Osiris to a banquet, seized him, sealed him in a coffin, and cast it into the Nile."
+ },
+ {
+  "source": "egy-horus",
+  "target": "egy-set",
+  "type": "ENEMY_OF",
+  "note": "Horus and Set are the great enemies, fighting for the throne.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-horus",
+  "target": "egy-set",
+  "type": "FOUGHT",
+  "note": "Horus and Set fight in the 'Contendings' for the throne of Egypt.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nephthys",
+  "target": "egy-isfet",
+  "type": "ALLY_OF",
+  "note": "Nephthys stands with Isis in the grief and restoration of Osiris.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-horus-elder",
+  "target": "egy-horus",
+  "type": "PARENT_OF",
+  "note": "(In some genealogies) Horus the Elder (Harsomatus) is the parent of the younger Horus.",
+  "confidence": "variant",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-isfet",
+  "target": "egy-horus",
+  "type": "ALLY_OF",
+  "note": "Isis protects and supports Horus in his quest against Set.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-ra",
+  "target": "egy-apep",
+  "type": "ENEMY_OF",
+  "note": "Ra and Apep are the great enemies: the sun vs. the chaos serpent.",
+  "confidence": "attested",
+  "sources": [
+   "S2",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-ra",
+  "target": "egy-apep",
+  "type": "FOUGHT",
+  "note": "Ra defeats Apep nightly in the Duat.",
+  "confidence": "attested",
+  "sources": [
+   "S2",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-thoth",
+  "target": "egy-ra",
+  "type": "ALLY_OF",
+  "note": "Thoth helps Ra defeat Apep at the critical midnight hour.",
+  "confidence": "attested",
+  "sources": [
+   "S2",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-nut",
+  "target": "egy-ra",
+  "type": "ASSOCIATED_WITH",
+  "note": "Nut's body is the sky through which the sun travels; she swallows and rebirths the sun.",
+  "confidence": "attested",
+  "sources": [
+   "S2",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-hathor",
+  "target": "egy-sekhemet",
+  "type": "ASSOCIATED_WITH",
+  "note": "Hathor and Sekhmet are two aspects of the 'Eye of Ra' (calm vs. raging).",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ],
+  "explanation": "The Eye of Ra becomes Sekhmet in rage and is calmed back into Hathor."
+ },
+ {
+  "source": "egy-sekhemet",
+  "target": "egy-hathor",
+  "type": "SUCCESSOR_OF",
+  "note": "(Aspect-shift) Sekhmet is calmed and returns as Hathor.",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-anubis",
+  "target": "egy-osiris",
+  "type": "ALLY_OF",
+  "note": "Anubis mummified Osiris's body (making him the first mummy).",
+  "confidence": "attested",
+  "sources": [
+   "S3",
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-anubis",
+  "target": "egy-horus",
+  "type": "ALLY_OF",
+  "note": "Anubis protects the young Horus and the throne.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-amun",
+  "target": "egy-ra",
+  "type": "ASSOCIATED_WITH",
+  "note": "Amun was fused with Ra to become Amun-Ra (the supreme god).",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ],
+  "explanation": "This is a theological fusion, not a mythic event."
+ },
+ {
+  "source": "egy-ogdoad-nun",
+  "target": "egy-ogdoad-heh",
+  "type": "SIBLING_OF",
+  "note": "The Ogdoad pairs are 'siblings' (primeval conditions).",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-ogdoad-nun",
+  "target": "egy-ogdoad-khnum",
+  "type": "SIBLING_OF",
+  "note": "The Ogdoad pairs are primeval conditions.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "source": "egy-ogdoad-nun",
+  "target": "egy-ogdoad-sat",
+  "type": "SIBLING_OF",
+  "note": "The Ogdoad pairs are primeval conditions.",
+  "confidence": "attested",
+  "sources": [
+   "S4"
+  ]
+ }
+]

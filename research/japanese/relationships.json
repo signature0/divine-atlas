@@ -1,0 +1,505 @@
+[
+ {
+  "source": "jpn-amenominakanushi",
+  "target": "jpn-izananagi",
+  "type": "CREATED",
+  "note": "The high-plain deity 'gives birth to' / commands the birth of Izanagi.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The Kojiki words this as the kami of the high plain 'giving birth to' the pair and ordering them to shape the islands; the Nihon Shoki phrases it as a command. Whether 'birth' is literal or a ritual/creative order is debated."
+ },
+ {
+  "source": "jpn-amenominakanushi",
+  "target": "jpn-izananami",
+  "type": "CREATED",
+  "note": "The high-plain deity 'gives birth to' / commands the birth of Izanami.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As with Izanagi: the Kojiki's 'birth' of the creator pair from the high plain vs. the Nihon Shoki's 'command.'"
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-izananami",
+  "type": "PARTNER_OF",
+  "note": "Izanagi and Izanami are the wed creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-amaterasu",
+  "type": "PARENT_OF",
+  "note": "Izanagi is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The exact birth sequence (which child, from which hand) differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-izananami",
+  "target": "jpn-amaterasu",
+  "type": "PARENT_OF",
+  "note": "Izanami is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As above; the parentage is shared by the creator pair, but the precise sequence varies across the two texts."
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-tsurugumo",
+  "type": "PARENT_OF",
+  "note": "Izanagi is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The exact birth sequence (which child, from which hand) differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-izananami",
+  "target": "jpn-tsurugumo",
+  "type": "PARENT_OF",
+  "note": "Izanami is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As above; the parentage is shared by the creator pair, but the precise sequence varies across the two texts."
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-susanoo",
+  "type": "PARENT_OF",
+  "note": "Izanagi is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The exact birth sequence (which child, from which hand) differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-izananami",
+  "target": "jpn-susanoo",
+  "type": "PARENT_OF",
+  "note": "Izanami is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As above; the parentage is shared by the creator pair, but the precise sequence varies across the two texts."
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-kagutsuchi",
+  "type": "PARENT_OF",
+  "note": "Izanagi is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The exact birth sequence (which child, from which hand) differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-izananami",
+  "target": "jpn-kagutsuchi",
+  "type": "PARENT_OF",
+  "note": "Izanami is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As above; the parentage is shared by the creator pair, but the precise sequence varies across the two texts."
+ },
+ {
+  "source": "jpn-izananagi",
+  "target": "jpn-konohanasakuhana",
+  "type": "PARENT_OF",
+  "note": "Izanagi is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The exact birth sequence (which child, from which hand) differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-izananami",
+  "target": "jpn-konohanasakuhana",
+  "type": "PARENT_OF",
+  "note": "Izanami is a parent of the high deity born in the creation sequence.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "As above; the parentage is shared by the creator pair, but the precise sequence varies across the two texts."
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-tsurugumo",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-susanoo",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-tsurugumo",
+  "target": "jpn-susanoo",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-kagutsuchi",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-konohanasakuhana",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-tsurugumo",
+  "target": "jpn-kagutsuchi",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-susanoo",
+  "target": "jpn-kagutsuchi",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-susanoo",
+  "target": "jpn-konohanasakuhana",
+  "type": "SIBLING_OF",
+  "note": "Siblings among the high deities born of the creator pair.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-tsurugumo",
+  "type": "ENEMY_OF",
+  "note": "Amaterasu is estranged from Tsukuyomi after he desecrates the weaving hall (the mythic separation of sun and moon).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "This is a mythic 'estrangement' (the separate courses of sun and moon), not a battle. The Kojiki's Ukehimuka episode is the stated cause; wording differs in the Nihon Shoki."
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-susanoo",
+  "type": "ENEMY_OF",
+  "note": "Amaterasu and Susanoo are estranged after his violent misconduct; he is banished from heaven.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "A mythic estrangement/banishment rather than a battle. The list of his 'transgressions' (fields, weaving hall) differs slightly between the texts."
+ },
+ {
+  "source": "jpn-susanoo",
+  "target": "jpn-yamata-no-orochi",
+  "type": "KILLED",
+  "note": "Susanoo slays the eight-headed serpent Yamata-no-Orochi.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-susanoo",
+  "target": "jpn-kushiinadahime",
+  "type": "PARTNER_OF",
+  "note": "Susanoo marries the rescued Kushinada-hime.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-kushiinadahime",
+  "target": "jpn-susanoo",
+  "type": "PARTNER_OF",
+  "note": "Kushinada-hime marries Susanoo (symmetric).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-kagutsuchi",
+  "target": "jpn-izananami",
+  "type": "KILLED",
+  "note": "The fire of Kagutsuchi's birth burns and kills his mother Izanami.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The Kojiki states that in giving birth to the fire god, Izanami 'was burned and died.' The 'killing' is the fire of childbirth, not a deliberate act."
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-toyotama",
+  "type": "PARENT_OF",
+  "note": "Amaterasu is the parent of the heavenly bride Toyotama-hime.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-amaterasu",
+  "target": "jpn-ninigi",
+  "type": "ASSOCIATED_WITH",
+  "note": "Ninigi is Amaterasu's grandson, the sent-down heavenly prince.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The Kojiki makes Ninigi the grandson of Amaterasu (through the line); the precise generational link (Toyotama-hime as the intermediate) is stated in the descent episode."
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-konohanasakuhana",
+  "type": "PARTNER_OF",
+  "note": "Ninigi marries the earthly bride Konohanasakuya-hime.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-toyotama",
+  "type": "PARTNER_OF",
+  "note": "Ninigi marries the heavenly bride Toyotama-hime.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-hooroni",
+  "type": "PARENT_OF",
+  "note": "Ninigi (with Toyotama-hime) is the parent of Hooroni, the imperial ancestor.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-toyotama",
+  "target": "jpn-hooroni",
+  "type": "PARENT_OF",
+  "note": "Toyotama-hime (with Ninigi) is the parent of Hooroni.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-okuninushi",
+  "target": "jpn-konohanasakuhana",
+  "type": "PARENT_OF",
+  "note": "Ōkuninushi is the parent of the flower goddess Konohanasakuya-hime.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "Some accounts make her a daughter of Ōkuninushi; others a local mountain deity. The Kojiki/Nihon Shoki differ on the exact parentage."
+ },
+ {
+  "source": "jpn-takemikazuchi",
+  "target": "jpn-okuninushi",
+  "type": "FOUGHT",
+  "note": "Takemikazuchi throws the sword in the contest against Ōkuninushi's side.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The 'contest' (the sword-throw) is the Kuniyurinshi; the sequence of acts differs between the Kojiki and Nihon Shoki."
+ },
+ {
+  "source": "jpn-susanoo",
+  "target": "jpn-okuninushi",
+  "type": "FOUGHT",
+  "note": "Susanoo takes part in the subjugation of Ōkuninushi (Kuniyurinshi).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-okuninushi",
+  "type": "FOUGHT",
+  "note": "Ninigi's heavenly side confronts Ōkuninushi in the Kuniyurinshi.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-sarutahiko",
+  "type": "ASSOCIATED_WITH",
+  "note": "Sarutahiko guides Ninigi and is subdued in the contest.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-okuninushi",
+  "target": "jpn-sarutahiko",
+  "type": "ALLY_OF",
+  "note": "Sarutahiko leads Ōkuninushi's retinue.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-okuninushi",
+  "target": "jpn-kotohikone",
+  "type": "ALLY_OF",
+  "note": "Kotohikone brokers the alliance/marriage in the handover.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ninigi",
+  "target": "jpn-okuninushi",
+  "type": "SUCCESSOR_OF",
+  "note": "The heavenly line (Ninigi) succeeds to rule the land that Ōkuninushi held.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ],
+  "explanation": "The 'succession' is the transfer of sovereignty in the Kuniyurinshi; Ōkuninushi becomes a local deity thereafter."
+ },
+ {
+  "source": "jpn-okuninushi",
+  "target": "jpn-ninigi",
+  "type": "RULES",
+  "note": "Ōkuninushi rules the middle land (until the Kuniyurinshi).",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-ameno-uzume",
+  "target": "jpn-amaterasu",
+  "type": "ALLY_OF",
+  "note": "Ame-no-Uzume's dance lures Amaterasu out of the cave.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "source": "jpn-takemikazuchi",
+  "target": "jpn-amaterasu",
+  "type": "ALLY_OF",
+  "note": "Takemikazuchi's clamor helps draw Amaterasu out.",
+  "confidence": "attested",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ }
+]

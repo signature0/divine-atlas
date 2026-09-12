@@ -1,0 +1,37 @@
+[
+ {
+  "id": "mes-t1",
+  "period": "Sumerian period",
+  "date_range": "c. 3500-2000 BCE",
+  "description": "The Sumerian period. The gods An, Enlil, Enki, Nanna, Utu, and Inanna are worshipped. The great temples at Nippur (Enlil), Eridu (Enki), Ur (Nanna), and Uruk (Inanna) are built. The evidence is archaeological and cuneiform (Sumerian texts).",
+  "confidence": "attested (archaeological & cuneiform)"
+ },
+ {
+  "id": "mes-t2",
+  "period": "Akkadian period",
+  "date_range": "c. 2334-2154 BCE",
+  "description": "The Akkadian period. The Sumerian gods are assimilated into the Akkadian pantheon (An becomes Anu, Enki becomes Ea, Nanna becomes Sin, Utu becomes Shamash, Inanna becomes Ishtar). Enlil becomes the king of the gods.",
+  "confidence": "attested (cuneiform)"
+ },
+ {
+  "id": "mes-t3",
+  "period": "Old Babylonian period",
+  "date_range": "c. 2000-1600 BCE",
+  "description": "The Old Babylonian period. Marduk rises to be the king of the gods (as Babylon rises to power). The Atrahasis and the early flood-stories are composed.",
+  "confidence": "attested (cuneiform)"
+ },
+ {
+  "id": "mes-t4",
+  "period": "Standard Babylonian period",
+  "date_range": "c. 1200-1000 BCE",
+  "description": "The Standard Babylonian period. The Enuma Elish (in its standard form) and the Epic of Gilgamesh (in its Standard Babylonian version) are composed. Marduk is the supreme god.",
+  "confidence": "attested (cuneiform)"
+ },
+ {
+  "id": "mes-t5",
+  "period": "Neo-Babylonian / Achaemenid period",
+  "date_range": "c. 626-330 BCE",
+  "description": "The Neo-Babylonian and Achaemenid (Persian) period. Marduk is the supreme god (Neo-Babylonian); under the Persians, his supremacy declines. The great temple at Babylon (the Esagila) is still a center of worship.",
+  "confidence": "attested (cuneiform & archaeology)"
+ }
+]
