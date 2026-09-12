@@ -69,9 +69,7 @@
         "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
       }
     ],
-    "artworks": [
-      "mes-art-anu-bull"
-    ],
+    "artworks": [],
     "description_short": "The sky god, the supreme deity of the Sumerian pantheon; 'An' means 'sky/heaven'. In the Akkadian period he is called Anu. Father of Enlil and (in some accounts) Enki.",
     "description_long": "'An' (Sumerian; 'Anu' in Akkadian) is the sky god, the supreme deity of the Sumerian pantheon [S5][S6]. 'An' means 'sky' or 'heaven' — the god is the sky itself, the highest of the three cosmic regions (heaven, earth, underworld) [S5]. In the Sumerian period, An was the head of the pantheon; in the Akkadian and Babylonian periods, his supremacy was increasingly ceded to Enlil (and later Marduk) [S1][S6]. An's symbol is the star (the five-pointed star) and his animal is the bull [S5][S6]. An's consort is Antu (Sumerian; 'Anatum' in some accounts) [S5]. An is the father of Enlil (the air/storm god) and, in some accounts, Enki (the freshwater god) [S5]. The 'An' is also a title: the 'An' is the divine, the 'godhead' itself [S5].",
     "interesting_facts": [
@@ -83,7 +81,6 @@
     "uncertainty_notes": [
       "An's supremacy 'declines' over time: Sumerian (supreme) → Akkadian (Enlil rises) → Babylonian (Marduk rises). This is a political/theological development, not a mythic event [S1][S6]."
     ],
-    "hero_artwork": "mes-art-anu-bull",
     "evidence_status": "attested"
   },
   {
@@ -141,7 +138,6 @@
     "uncertainty_notes": [
       "Ki is less well-attested as a distinct deity than An; she is the earth-principle [S5]."
     ],
-    "hero_artwork": null,
     "evidence_status": "attested"
   },
   {
@@ -212,7 +208,6 @@
     "uncertainty_notes": [
       "Apsu's 'slaying' in the Atrahasis is the creation-of-humanity story: humanity is made from Apsu's flesh/blood to relieve the gods of their labor [S3]."
     ],
-    "hero_artwork": null,
     "evidence_status": "attested"
   },
   {
@@ -338,7 +333,6 @@
       "Slain by Marduk; his blood is used to create humanity [S1]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null,
     "evidence_status": "attested"
   },
   {
@@ -441,7 +435,8 @@
       }
     ],
     "artworks": [
-      "mes-art-enlil"
+      "mes-art-file-god-enlil-seated-from-nippur-iraq-1800-1600",
+      "mes-art-file-enlilandninlil"
     ],
     "description_short": "The 'air/wind/storm' god, the 'breath' of the world; in the Akkadian and Babylonian periods he is the king of the gods. His great temple was at Nippur. He is the 'decider' — he makes the fates (the 'me').",
     "description_long": "'Enlil' (Akkadian 'Ellil') is the 'air/wind/storm' god, the 'breath' of the world — his name means 'the breath of Enlil' (the wind that gives life) [S5][S6]. In the Sumerian period, Enlil was one of the great gods; in the Akkadian and Babylonian periods, he became the king of the gods (the 'Anum' — the supreme deity) [S1][S6]. Enlil's great temple was at Nippur (the 'Ekur' — the 'mountain house') [S5][S6]. Enlil is the 'decider': he makes the fates (the 'me' — the divine decrees that order the world) [S5]. Enlil's consort is Ninlil [S5]. Enlil's children include Nanna (the moon god), Ninhursag (the earth-mother, in some accounts), and Nergal (the underworld god, in some accounts) [S5]. Enlil is the god who decrees the flood (in the Atrahasis and the Gilgamesh flood-story) [S2][S3].",
@@ -455,8 +450,8 @@
     "uncertainty_notes": [
       "Enlil's 'supremacy' is period-specific: Sumerian (one of the great gods) → Akkadian/Babylonian (king of the gods) → Late Babylonian (Marduk rises) [S1][S6]."
     ],
-    "hero_artwork": "mes-art-enlil",
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-god-enlil-seated-from-nippur-iraq-1800-1600"
   },
   {
     "id": "mes-enki",
@@ -548,7 +543,8 @@
       }
     ],
     "artworks": [
-      "mes-art-enki"
+      "mes-art-file-god-ea-also-enki-holding-a-cup-with-overflo",
+      "mes-art-file-ea-babilonian-enki-sumerian"
     ],
     "description_short": "The freshwater god of wisdom, magic, and the 'me' (the divine decrees); his great temple was at Eridu (the oldest city in Sumerian tradition). In the Atrahasis and the Gilgamesh flood-story, he saves the flood-hero against Enlil's will.",
     "description_long": "'Enki' (Sumerian; 'Ea' in Akkadian) is the freshwater god of wisdom, magic, and the 'me' (the divine decrees) [S5][S6]. His great temple was at Eridu (the 'Aabzu' — the 'house of the deep'), the oldest city in Sumerian tradition [S5][S6]. Enki is the god of wisdom, magic, and the 'me' — the divine decrees that order the world [S5]. He is the 'apku' (the sage), the patron of the scribes and the craftsmen [S5]. In the Atrahasis and the Gilgamesh flood-story, Enki (Ea) saves the flood-hero (Atrahasis/Utnapishtim) against Enlil's will, by whispering to the hero to build a boat [S2][S3]. Enki is the father of Nabu (the god of writing) [S5]. Enki's 'slanding' of Apsu (in the Atrahasis) is the creation-of-humanity story [S3].",
@@ -561,8 +557,8 @@
     "uncertainty_notes": [
       "Enki's 'wisdom' role is central; his relationship to the 'me' (the divine decrees) is complex: he is both a holder and a distributor of the 'me' [S5]."
     ],
-    "hero_artwork": "mes-art-enki",
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-god-ea-also-enki-holding-a-cup-with-overflo"
   },
   {
     "id": "mes-ninlil",
@@ -605,7 +601,10 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-enlilandninlil-2",
+      "mes-art-file-bead-dedicated-to-ninlil-by-kurigalzu-i-or-"
+    ],
     "description_short": "The consort of Enlil; in some accounts she is the moon-goddess (or the 'light' of Enlil). She is the mother of Nanna (the moon god).",
     "description_long": "Ninlil is the consort of Enlil [S5]. In some accounts, she is the moon-goddess (or the 'light' of Enlil) [S5]. She is the mother of Nanna (the moon god) [S5]. Ninlil's myth: in one Sumerian text, Enlil seduces Ninlil (while she is in the underworld), and she bears Nanna (the moon) there [S5]. Ninlil is the 'light' of Enlil — the moonlight that follows the storm-god [S5].",
     "interesting_facts": [
@@ -616,8 +615,8 @@
     "uncertainty_notes": [
       "Ninlil's 'moon' role is debated: in some accounts she is the moon-goddess, in others she is simply Enlil's consort [S5]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-enlilandninlil-2"
   },
   {
     "id": "mes-nanna",
@@ -681,7 +680,8 @@
       }
     ],
     "artworks": [
-      "mes-art-sin"
+      "mes-art-file-urfa-museum-sin-temple-votive-stele-iron-ag",
+      "mes-art-file-plaque-of-nanna-and-ningal-moon-god-and-god"
     ],
     "description_short": "The moon god, the god of time, the calendar, and fate; his great temple was at Ur. In Sumerian tradition he is the son of Enlil; in Akkadian he is called Sin. Father of Utu (Shamash) and Inanna (Ishtar).",
     "description_long": "'Nanna' (Sumerian; 'Sin' in Akkadian) is the moon god, the god of time, the calendar, and fate [S5][S6]. His great temple was at Ur (the 'Ehursag') [S5][S6]. In Sumerian tradition, Nanna is the son of Enlil (and Ninlil) [S5]. In Akkadian, he is called Sin [S5]. Nanna is the father of Utu (the sun god, Akkadian 'Shamash') and Inanna (the love/war goddess, Akkadian 'Ishtar') [S5]. The moon-god decrees fates (the 'me') — the moon's phases are the measure of time [S5]. Nanna's 'time' role makes him the god of the calendar and of the measurement of the months [S5].",
@@ -694,8 +694,8 @@
     "uncertainty_notes": [
       "Nanna's parentage varies: in some texts he is the son of Enlil, in others he is a 'self-existing' god [S5]."
     ],
-    "hero_artwork": "mes-art-sin",
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-urfa-museum-sin-temple-votive-stele-iron-ag"
   },
   {
     "id": "mes-utu",
@@ -999,7 +999,10 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-ancient-parthian-relief-carving-of-the-god-",
+      "mes-art-file-nergal-symbol-old-babylonian-fired-clay-pla"
+    ],
     "description_short": "The underworld god, the 'lord of the netherworld', the god of the plague; in some accounts he is Ereshkigal's consort. In the 'Nergal and Ereshkigal' myth, he 'rapes' (or marries) Ereshkigal and becomes her consort.",
     "description_long": "'Nergal' is the underworld god, the 'lord of the netherworld', the god of the plague [S5]. In some accounts, he is Ereshkigal's consort [S5]. The 'Nergal and Ereshkigal' myth: Nergal 'rapes' (or marries) Ereshkigal, and becomes her consort and the lord of the underworld [S5]. Nergal is the god of the plague and the 'dark' power of the underworld [S5]. He is also a war-god (in some accounts) [S5]. Nergal's 'plague' role makes him a feared deity — his 'dark' power is the power of death and disease [S5].",
     "interesting_facts": [
@@ -1010,8 +1013,8 @@
     "uncertainty_notes": [
       "Nergal's 'raping' of Ereshkigal is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god-"
   },
   {
     "id": "mes-marduk",
@@ -1083,7 +1086,7 @@
       }
     ],
     "artworks": [
-      "mes-art-marduk"
+      "mes-art-file-marduk-tiamat-battle-from-enuma-elish-repai"
     ],
     "description_short": "The Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period; in the Enuma Elish he slays Tiamat and creates the world from her body. His great temple was at Babylon (the Esagila).",
     "description_long": "'Marduk' is the Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period [S1][S6]. In the Enuma Elish, Marduk is chosen by the gods to fight Tiamat; he slays her with his bow, net, and 'rakasu' winds, and splits her body in two to make the sky (the upper half) and the earth (the lower half) [S1]. From Kingu's blood (Tiamat's general), Marduk creates humanity [S1]. Marduk takes the 'Tablet of Destinies' (the symbol of cosmic authority) from Kingu [S1]. Marduk's great temple was at Babylon (the Esagila) [S6]. Marduk's 'supremacy' is a political/theological development: as Babylon rose to power (Old Babylonian period, c. 2000-1600 BCE), Marduk rose to be the king of the gods [S1][S6]. The Enuma Elish (the 'New Year' festival text) is the great myth of Marduk's supremacy [S1].",
@@ -1097,8 +1100,8 @@
     "uncertainty_notes": [
       "Marduk's 'supremacy' is period-specific: Old Babylonian (rises) → Neo-Babylonian (supreme) → Achaemenid/Persian (declines) [S1][S6]."
     ],
-    "hero_artwork": "mes-art-marduk",
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-marduk-tiamat-battle-from-enuma-elish-repai"
   },
   {
     "id": "mes-antum",
@@ -1148,7 +1151,6 @@
     "uncertainty_notes": [
       "Antu is less well-attested as a distinct deity than An [S5]."
     ],
-    "hero_artwork": null,
     "evidence_status": "attested"
   },
   {
@@ -1189,7 +1191,10 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-ninhursag1",
+      "mes-art-file-copper-alloy-bull-from-tell-al-ubaid"
+    ],
     "description_short": "The 'earth-mother', the 'mistress of the mountains'; in some accounts a consort of Enlil or a mother-figure. Her name means 'Lady of the Mountain'.",
     "description_long": "'Ninhursag' (also 'Nin-hursag') is the 'earth-mother', the 'mistress of the mountains' — her name means 'Lady of the Mountain' [S5]. She is a mother-figure in the Sumerian pantheon, the 'mother' of the gods (in some accounts) [S5]. Ninhursag is the 'earth' as a female principle [S5]. She is less well-attested as a distinct deity than the great gods; she is the 'earth-mother' principle [S5].",
     "interesting_facts": [
@@ -1199,8 +1204,8 @@
     "uncertainty_notes": [
       "Ninhursag is less well-attested as a distinct deity than the great gods [S5]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ninhursag1"
   },
   {
     "id": "mes-erishkigal-consort",
@@ -1237,15 +1242,17 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
+    ],
     "description_short": "Nergal as Ereshkigal's consort (the 'Nergal and Ereshkigal' marriage myth).",
     "description_long": "Nergal as Ereshkigal's consort: in the 'Nergal and Ereshkigal' myth, Nergal 'rapes' (or marries) Ereshkigal and becomes her consort and the lord of the underworld [S5]. This is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5].",
     "interesting_facts": [
       "Nergal as Ereshkigal's consort [S5]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
   },
   {
     "id": "mes-ninagal",
@@ -1285,7 +1292,10 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-goddess-bau-from-ur-c-1800-bce-iraq-museum",
+      "mes-art-file-plaque-of-nanna-and-ningal-moon-god-and-god-2"
+    ],
     "description_short": "The consort of Nanna (the moon god); the 'light' of the moon.",
     "description_long": "'Ningal' is the consort of Nanna (the moon god) [S5]. She is the 'light' of the moon [S5]. Ningal is less well-attested as a distinct deity than Nanna; she is the 'consort of the moon' [S5].",
     "interesting_facts": [
@@ -1294,8 +1304,8 @@
     "uncertainty_notes": [
       "Ningal is less well-attested as a distinct deity than Nanna [S5]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-goddess-bau-from-ur-c-1800-bce-iraq-museum"
   },
   {
     "id": "mes-nabu",
@@ -1337,7 +1347,9 @@
         "url": "https://etcsl.orinst.ox.ac.uk/"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
+    ],
     "description_short": "The god of writing and wisdom, the patron of the scribes; son of Enki (Ea).",
     "description_long": "'Nabu' is the god of writing and wisdom, the patron of the scribes [S5]. He is the son of Enki (Ea) [S5]. Nabu is the 'sage' (the 'apku') and the patron of the scribal arts [S5]. His great temple was at Nippur (the 'Ezida') [S5].",
     "interesting_facts": [
@@ -1346,7 +1358,7 @@
       "The patron of the scribes [S5]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
   }
 ]

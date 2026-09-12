@@ -43,7 +43,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-kamimusubi-shinbutsu-zue"
+    ],
     "description_short": "The first-born deity in the Kojiki, 'the High Deity who gives birth to the origin of things,' invoked at the opening of the creation sequence.",
     "description_long": "Takamimusubi (高皇産霊神; also read Kamimusubi, 'the high divine origin') is the first divine being named in the Kojiki's opening passage: 'In the time when the heavenly high plain had just come into being, first of all was born the high divine origin of heavenly things, Kamimusubi' [S1]. He is generally treated as a primordial deity associated with the origin of things rather than a figure with a developed myth of his own. His exact nature—whether a personified principle of origin, a progenitor, or a ritual formula—is debated; the Kojiki's account is terse and heavily ritualized [S1][S2]. He is sometimes paired with two younger brothers (Takamimusubi's 'younger brothers'), but the genealogy of these primordial figures is one of the least stable in the corpus.",
     "interesting_facts": [
@@ -53,7 +55,7 @@
     "uncertainty_notes": [
       "His relationship to the later 'primordial' pair (Izanagi/Izanami) and to Amenominakanushi is not clearly stated in the Kojiki; scholars differ on whether he is a separate progenitor or an aspect of the same high-origin principle [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-kamimusubi-shinbutsu-zue"
   },
   {
     "id": "jpn-amenominakanushi",
@@ -110,8 +112,7 @@
     ],
     "uncertainty_notes": [
       "Whether Amenominakanushi is a distinct progenitor, a title, or a collective of the high-plain kami is debated; the Kojiki and Nihon Shoki word the 'birth/order' of the creator pair differently [S1][S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "jpn-izananagi",
@@ -492,8 +493,7 @@
     "uncertainty_notes": [
       "The exact circumstances of the Ukehimuka episode and its wording differ between the Kojiki and Nihon Shoki [S1][S2].",
       "Some scholars note that the 'separation of sun and moon' is a cosmogonic motif rather than a developed narrative about Tsukuyomi personally [S1][S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "jpn-susanoo",
@@ -667,7 +667,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-kagutsuchi-shinbutsu-zue"
+    ],
     "description_short": "The Fire God, whose birth in the flames of childbirth kills his mother Izanami, driving the Kojiki's Yomi-separation episode.",
     "description_long": "Kagutsuchi (also Hinode-no-Kami, 'Fire God') is the deity of fire, born in the Kojiki's sequence as the child whose birth kills his mother: Izanami, giving birth to him, is burned by the fire of childbirth and dies [S1]. His birth is the catalytic event of the myth: it sends Izanagi down to Yomi and produces the separation of the living and dead realms [S1]. He is associated with fire, heat, and (in some accounts) volcanic/mountain activity. He has little independent mythology beyond this pivotal, tragic birth [S1][S2].",
     "interesting_facts": [
@@ -678,7 +680,7 @@
       "The precise sequence of the birth sequence (which child, in what order) differs between the Kojiki and Nihon Shoki [S1][S2].",
       "Some accounts give him a further role in conflict with Izanagi; these are less well-attested [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-kagutsuchi-shinbutsu-zue"
   },
   {
     "id": "jpn-konohanasakuhana",
@@ -739,7 +741,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-konohana-sakuyahime"
+    ],
     "description_short": "The 'Flower-Blossom' goddess of the earthly realm, daughter of Ōkuninushi, who marries the descending heavenly prince Ninigi and bears the imperial ancestor Hooroni.",
     "description_long": "Konohanasakuya-hime ('Blossoming of the Wood-Flower') is the goddess of flowers and the earthly realm, a daughter of the island god Ōkuninushi [S1]. When the heavenly prince Ninigi descends to the middle land (Ashihara-no-Nakatsukuni), she is the first earthly bride he takes; from their union is born (in the genealogy) the line that leads to the imperial ancestor Hooroni [S1]. She embodies the fertile, blossoming earth that the heavenly line is sent to rule. Her name is a poetic compound evoking the flowering of a tree (wood + flower + blossom). [S1][S2]",
     "interesting_facts": [
@@ -750,7 +754,7 @@
     "uncertainty_notes": [
       "Her exact parentage (daughter of Ōkuninushi vs. a local mountain deity) and the precise genealogy to Hooroni vary between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-konohana-sakuyahime"
   },
   {
     "id": "jpn-ninigi",
@@ -818,7 +822,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-ninigi-otokawa"
+    ],
     "description_short": "The 'Heavenly Prince' (grandson of Amaterasu) sent down to rule the middle land; central to the Tenson Kōryō (descent of the heavenly deity) and the founding of the imperial line.",
     "description_long": "Ninigi-no-Mikoto is the heavenly prince, grandson of Amaterasu, sent down from Takamagahara to take rule of the middle land (Ashihara-no-Nakatsukuni) [S1]. His descent (Tenson Kōryō) alights at Takachiho in Hyuga (Kyūshū) [S1]. On the way, guided by the crossroads god Sarutahiko, he is confronted by the island god Ōkuninushi and his retinue, who resist the heavenly takeover; after the contest (the throwing of the sword) and the subjugation (Kuniyurinshi), Ōkuninushi hands over the land and the sacred regalia [S1]. Ninigi takes the earthly bride Konohanasakuya-hime and later the heavenly bride Toyotama-hime (Amaterasu's daughter); their son Hooroni (Ōyahata) is the ancestor of the emperors [S1][S2]. He is thus the hinge figure between the heavenly and earthly realms and the founding link in the imperial genealogy.",
     "interesting_facts": [
@@ -830,7 +836,7 @@
       "The exact mechanism of the descent and the sequence of the Ōkuninushi contest differ between the Kojiki and Nihon Shoki [S1][S2].",
       "His parentage (grandson of Amaterasu) and the precise link to Hooroni are stated differently in the two texts [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-ninigi-otokawa"
   },
   {
     "id": "jpn-toyotama",
@@ -891,7 +897,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-toyotamahime-shinbutsu-zue",
+      "jpn-art-file-hoori-and-toyotama-hime"
+    ],
     "description_short": "Daughter of Amaterasu and the 'heavenly bride' of Ninigi; when she gives birth to Hooroni at sea, she becomes the sea goddess (Watatsumi), the mythic origin of the sea.",
     "description_long": "Toyotama-hime ('Abundant Jewel Princess'), also called Hohodemi, is a daughter of Amaterasu sent down as the 'heavenly bride' of the descending prince Ninigi [S1]. In the Kojiki she gives birth to their son Hooroni (Ōyahata) in a small hut (hori-hutsu) at sea; when Ninigi, impatient, opens the hut, smoke and blood issue and the sea is born—thereafter Toyotama-hime is identified with the sea as the goddess Watatsumi [S1]. She thus embodies the heavenly line's union with the earthly/sea realm and the mythic origin of the sea. The genealogy from her to the emperors (through Hooroni) is a key part of the imperial founding myth [S1][S2].",
     "interesting_facts": [
@@ -903,7 +912,7 @@
       "The 'birth at sea' episode and its wording (the opening of the hori-hutsu, the origin of the sea) differ between the Kojiki and Nihon Shoki [S1][S2].",
       "Her exact position in the imperial genealogy (vs. Konohanasakuya-hime) is stated differently in the two texts [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-toyotamahime-shinbutsu-zue"
   },
   {
     "id": "jpn-hooroni",
@@ -955,7 +964,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-hoori-and-toyotama-hime-2"
+    ],
     "description_short": "Son of Ninigi and Toyotama-hime, born at sea; the direct ancestor in the mythic line leading to the Japanese emperors.",
     "description_long": "Hooroni (Ōyahata-no-Mikoto) is the son of the heavenly prince Ninigi and his heavenly bride Toyotama-hime, born in the 'birth at sea' episode [S1]. He is the link in the mythic genealogy from the heavenly line to the historical (semi-legendary) emperors; the line proceeds Hooroni → Hibi → … → Emperor Jimmu (the first historical-legendary emperor) [S1][S2]. He is a genealogical figure rather than a character with developed mythology.",
     "interesting_facts": [
@@ -965,7 +976,7 @@
     "uncertainty_notes": [
       "The exact length and names of the generational chain from Hooroni to Jimmu are given in the Nihon Shoki's imperial genealogy; the Kojiki is terser [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-hoori-and-toyotama-hime-2"
   },
   {
     "id": "jpn-okuninushi",
@@ -1029,7 +1040,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-kiyomizu-deraokuninushino-mikoto-visage"
+    ],
     "description_short": "The 'Great Lord of the Country,' the powerful indigenous deity of the middle land who resists, then yields, the heavenly takeover (the Kuniyurinshi).",
     "description_long": "Ōkuninushi-no-Kami ('Great Lord of the Country') is the powerful indigenous deity of the earthly realm (Ashihara-no-Nakatsukuni), especially associated with Izumo [S1]. In the Kojiki's Kuniyurinshi ('pacification/subjugation of the country') episode, when the heavenly prince Ninigi is sent down to rule, Ōkuninushi and his retinue (led by the crossroads god Sarutahiko) resist the heavenly takeover [S1]. After a contest—centered on the throwing of the sword and the subduing of Sarutahiko—Ōkuninushi is defeated and yields the land, handing over the three sacred regalia (mirror, jewel, sword) as pledge [S1]. Thereafter he is a deity of the earth, healing, and agriculture (especially in Izumo), but no longer the sovereign of the whole land. He is a complex figure: the displaced indigenous power who becomes a local, beneficent deity [S1][S2].",
     "interesting_facts": [
@@ -1041,7 +1054,7 @@
       "The exact sequence of the contest (the sword-throw, the subduing of Sarutahiko, which regalia are handed over) differs between the Kojiki and Nihon Shoki [S1][S2].",
       "Whether he 'yields' the land or is 'subjugated,' and the role of Kotohikone in the marriage/alliance, are treated differently in the two texts [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-kiyomizu-deraokuninushino-mikoto-visage"
   },
   {
     "id": "jpn-kotohikone",
@@ -1107,8 +1120,7 @@
     ],
     "uncertainty_notes": [
       "His identity (separate deity vs. title vs. aspect of another) and his precise role in the handover differ between the Kojiki and Nihon Shoki [S1][S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "jpn-sarutahiko",
@@ -1165,7 +1177,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-sarutahiko-shinbutsu-zue",
+      "jpn-art-file-saruta-hiko-and-uzume-illustration-by-willi"
+    ],
     "description_short": "The 'Monkey-Field' crossroads god who guides the descending prince Ninigi through the earthly realm, and is subdued in the Kuniyurinshi contest.",
     "description_long": "Sarutahiko-no-Ōkami ('Monkey-Field God') is a deity of crossroads and guidance, especially in Izumo [S1]. In the Kuniyurinshi he is the lead of Ōkuninushi's retinue who resists the heavenly prince Ninigi; he is the one who, carrying the sword, is subdued in the contest, clearing the way for the heavenly takeover [S1]. He is also the guide who leads Ninigi through the earthly realm on his descent [S1]. He is a liminal figure of the crossroads and the threshold between the heavenly and earthly realms [S1][S2].",
     "interesting_facts": [
@@ -1176,7 +1191,7 @@
     "uncertainty_notes": [
       "The exact sequence of his subduing (the sword, the 'heavenly gods are strong' line) and his role as guide differ between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-sarutahiko-shinbutsu-zue"
   },
   {
     "id": "jpn-ameno-uzume",
@@ -1238,7 +1253,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-amenouzume-shinbutsu-zue",
+      "jpn-art-file-the-goddess-uzume-with-rooster-and-mirror"
+    ],
     "description_short": "The 'Heavenly Dancing Goddess' whose dance, in the Rock-Cave myth, lures Amaterasu back out and restores the light.",
     "description_long": "Ame-no-Uzume-no-Mikoto ('Heavenly Uzume') is the dancing goddess who, in the Heavenly Rock-Cave myth, performs the central act of restoration [S1]. When Amaterasu withdraws into the cave and the world is dark, the other kami devise a plan; Ame-no-Uzume dances (a ritual kagura) on an upturned tub, and her dance, with the assembled kami's clamor, provokes Amaterasu's curiosity and joy, drawing her to the cave mouth so that she is lured back into the light [S1]. She is the embodiment of the dance that 'lures the sun back,' and the kagura (Shinto ritual dance) is ritually linked to her act [S1][S2].",
     "interesting_facts": [
@@ -1248,7 +1266,7 @@
     "uncertainty_notes": [
       "The precise role of each deity in the cave myth (and the naming of the cave and the 'deities of the cave') differs between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-amenouzume-shinbutsu-zue"
   },
   {
     "id": "jpn-takemikazuchi",
@@ -1311,7 +1329,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-takemikazuchi-shinbutsu-zue",
+      "jpn-art-file-takemikazuchi-by-hokusai",
+      "jpn-art-file-takemikazuchi-pins-namazu-with-kaname-ishi-"
+    ],
     "description_short": "The thunder/war god who throws the sword in the Kuniyurinshi contest and plays a role in luring Amaterasu from the cave.",
     "description_long": "Takemikazuchi-no-Mikoto ('Sword Thunder God') is a deity of thunder and war [S1]. In the Kuniyurinshi episode he is the one who throws the sword (Kusanagi) from the high land to the middle land, hitting the target and demonstrating the heavenly gods' strength in the contest with Ōkuninushi's side [S1]. He also plays a role in the Rock-Cave myth, where the assembled deities (including him) make the clamor that draws Amaterasu out [S1]. He is a martial, thunder-associated figure in the high and earthly realms [S1][S2].",
     "interesting_facts": [
@@ -1321,7 +1343,7 @@
     "uncertainty_notes": [
       "The exact sequence of his acts (which myth, in what order) differs between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-takemikazuchi-shinbutsu-zue"
   },
   {
     "id": "jpn-kushiinadahime",
@@ -1382,7 +1404,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-susanoo-rescues-kushinada-hime-by-toyohara-"
+    ],
     "description_short": "The last daughter of the family whose daughters were devoured by Yamata-no-Orochi; rescued and married by Susanoo after he slays the serpent.",
     "description_long": "Kushinada-hime ('Comb-Field Princess') is the last of the eight daughters of the family in Izumo whose older sisters had been devoured by the eight-headed serpent Yamata-no-Orochi [S1]. Susanoo, on his way down to the earthly realm, learns of her impending fate, turns himself into a hair-comb, and has her wear it; when the serpent comes for her, he slays it and rescues her, and they marry [S1]. She is thus the 'rescued bride' of the Orochi myth, a figure of deliverance from the monster [S1][S2].",
     "interesting_facts": [
@@ -1392,7 +1416,7 @@
     "uncertainty_notes": [
       "The family's identity (the 'parents' and their lineage) and some details of the rescue differ between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-susanoo-rescues-kushinada-hime-by-toyohara-"
   },
   {
     "id": "jpn-yamata-no-orochi",
@@ -1447,7 +1471,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-susanoo-no-mikoto-slays-yamata-no-orochi-in"
+    ],
     "description_short": "The eight-headed, eight-tailed serpent that devours the daughters of the Izumo family and is slain by Susanoo, whose tail yields the sword Kusanagi.",
     "description_long": "Yamata-no-Orochi ('Eight-Branched Great Serpent') is the great serpent monster of the Izumo region, with eight heads and eight tails [S1]. It devours the daughters of a local family one by one (seven of the eight), and the last, Kushinada-hime, is next [S1]. Susanoo slays the beast—traditionally by luring it with sweetened sake in eight vats and cutting it down—and in its tail he finds the sword Kusanagi (Ame-murakumo-no-tsurugi) [S1]. It is the archetypal Japanese serpent monster, a force of destructive chaos overcome by the hero-god [S1][S2].",
     "interesting_facts": [
@@ -1458,7 +1484,7 @@
     "uncertainty_notes": [
       "The method of the slaying (the eight vats of sake, the cutting) and some details differ between the Kojiki and Nihon Shoki [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-susanoo-no-mikoto-slays-yamata-no-orochi-in"
   },
   {
     "id": "jpn-inari",
@@ -1513,7 +1539,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "jpn-art-file-oji-inari-shrine-painting-by-kawanabe-kyosa"
+    ],
     "description_short": "The 'Rice' deity (Inari Ōkami) of rice, prosperity, and foxes, with the great Fushimi Inari shrine; a later (Heian-onward) development, not a Kojiki figure.",
     "description_long": "Inari Ōkami is the deity of rice, prosperity, and the fox (kitsune), centered on the great Fushimi Inari Taisha in Kyōto [S1]. Unlike the high deities of the Kojiki, Inari is a later (Heian-period and later) development of Shinto, illustrating that the Japanese tradition continued to grow long after the 8th-century mythographic compilations [S1][S21]. The deity is often represented as a female figure and is attended by foxes, which serve as messengers. Inari's rise reflects the agricultural and mercantile concerns of later Japanese religion, and it shows that 'Japanese mythology' is not a closed 8th-century corpus but a living, accreting tradition [S1][S21].",
     "interesting_facts": [
@@ -1525,7 +1553,7 @@
       "Inari's gender (often female, sometimes paired male-female, sometimes genderless) is not fixed and varies by shrine and period [S1][S21].",
       "The deity's precise nature and the identity of the 'foxes' as messengers vs. embodiments are debated [S1][S21]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "jpn-art-file-oji-inari-shrine-painting-by-kawanabe-kyosa"
   },
   {
     "id": "jpn-yamato-takeru",
@@ -1586,7 +1614,6 @@
     ],
     "uncertainty_notes": [
       "His historicity is uncertain; he is a legend/semi-legendary figure, and the details of his exploits are literary [S2][S21]."
-    ],
-    "hero_artwork": null
+    ]
   }
 ]

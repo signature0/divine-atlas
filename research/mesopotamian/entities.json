@@ -1,1352 +1,1364 @@
 [
- {
-  "id": "mes-apas",
-  "culture": "mesopotamian",
-  "name": "An (the heavens)",
-  "native_name": "An",
-  "alternative_names": [
-   "Anu",
-   "Anu (Akkadian)",
-   "An (Sumerian)"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the sky",
-   "the heavens",
-   "the supreme god (Sumerian period)",
-   "king of the gods"
-  ],
-  "symbols": [
-   "the star (the five-pointed star)",
-   "the horned crown (the crown of kingship)",
-   "the bull"
-  ],
-  "animals": [
-   "the bull"
-  ],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-antum"
-  ],
-  "children": [
-   "mes-enlil",
-   "mes-enki"
-  ],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [
-   "mes-sky"
-  ],
-  "associated_places": [],
-  "major_myths": [
-   "mes-enuma",
-   "mes-creation"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-anu-bull"
-  ],
-  "description_short": "The sky god, the supreme deity of the Sumerian pantheon; 'An' means 'sky/heaven'. In the Akkadian period he is called Anu. Father of Enlil and (in some accounts) Enki.",
-  "description_long": "'An' (Sumerian; 'Anu' in Akkadian) is the sky god, the supreme deity of the Sumerian pantheon [S5][S6]. 'An' means 'sky' or 'heaven' — the god is the sky itself, the highest of the three cosmic regions (heaven, earth, underworld) [S5]. In the Sumerian period, An was the head of the pantheon; in the Akkadian and Babylonian periods, his supremacy was increasingly ceded to Enlil (and later Marduk) [S1][S6]. An's symbol is the star (the five-pointed star) and his animal is the bull [S5][S6]. An's consort is Antu (Sumerian; 'Anatum' in some accounts) [S5]. An is the father of Enlil (the air/storm god) and, in some accounts, Enki (the freshwater god) [S5]. The 'An' is also a title: the 'An' is the divine, the 'godhead' itself [S5].",
-  "interesting_facts": [
-   "The sky god, the supreme deity of the Sumerian pantheon [S5].",
-   "'An' means 'sky/heaven' — the god is the sky itself [S5].",
-   "His symbol is the star; his animal is the bull [S5][S6].",
-   "Father of Enlil (and, in some accounts, Enki) [S5]."
-  ],
-  "uncertainty_notes": [
-   "An's supremacy 'declines' over time: Sumerian (supreme) → Akkadian (Enlil rises) → Babylonian (Marduk rises). This is a political/theological development, not a mythic event [S1][S6]."
-  ],
-  "hero_artwork": "mes-art-anu-bull",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-ki",
-  "culture": "mesopotamian",
-  "name": "Ki (the earth)",
-  "native_name": "Ki",
-  "alternative_names": [
-   "Ki",
-   "Kı"
-  ],
-  "classification": "primordial",
-  "gender": "female",
-  "domains": [
-   "the earth",
-   "the ground",
-   "the lower world (in some accounts)"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-apas"
-  ],
-  "children": [
-   "mes-enlil",
-   "mes-enki"
-  ],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [
-   "mes-earth"
-  ],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The earth goddess, the consort of An (the sky); the 'mother' of the world. In Sumerian cosmology, An (heaven) and Ki (earth) are the first pair.",
-  "description_long": "'Ki' is the earth goddess, the consort of An (the sky) [S5]. In Sumerian cosmology, An (heaven) and Ki (earth) are the first pair — the 'parents' of the world [S5]. Ki is the 'mother' of the world, the ground, the earth [S5]. The name 'Ki' is also the root of 'Kish' (a city) and of the 'ki' in 'kigurra' (a ritual object) [S5]. Ki is less well-attested as a deity than An: she is the earth-principle, the 'mother' of the world [S5].",
-  "interesting_facts": [
-   "The earth goddess, the consort of An [S5].",
-   "The 'mother' of the world in Sumerian cosmology [S5]."
-  ],
-  "uncertainty_notes": [
-   "Ki is less well-attested as a distinct deity than An; she is the earth-principle [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-abzu",
-  "culture": "mesopotamian",
-  "name": "Apsu (the primeval freshwater)",
-  "native_name": "Apsu",
-  "alternative_names": [
-   "Apsu",
-   "Abzu",
-   "the fresh-water abyss"
-  ],
-  "classification": "primordial",
-  "gender": "male",
-  "domains": [
-   "the primeval freshwater",
-   "the deep",
-   "the sweet water beneath the earth"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-enki"
-  ],
-  "associated_realms": [
-   "mes-underworld"
-  ],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "text",
-    "name": "Atrahasis",
-    "date": "Old Babylonian c. 17th c. BCE",
-    "ref": "S3",
-    "url": "https://en.wikipedia.org/wiki/Atrahasis"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The primeval freshwater, the 'deep' beneath the earth; in the Atrahasis and Enuma Elish, Apsu is the god of the fresh water who is slain (in Atrahasis) or overthrown (in Enuma Elish).",
-  "description_long": "'Apsu' (also 'Abzu') is the primeval freshwater, the 'deep' beneath the earth — the sweet water that underlies the world [S3][S5]. In Sumerian cosmology, Apsu (the fresh water) and Tiamat (the salt water) are the two primeval waters [S3][S5]. In the Atrahasis, Apsu (the god of the fresh water) is slain by Enki (and the gods) because his noise (the noise of humanity) disturbs his rest [S3]. In the Enuma Elish, Apsu's role is taken by Apsu (the fresh water) who is slain by Ea (Enki's Akkadian name) [S1]. Apsu is the 'deep', the primeval fresh water, the source of life [S3][S5].",
-  "interesting_facts": [
-   "The primeval freshwater, the 'deep' beneath the earth [S3][S5].",
-   "Slain in the Atrahasis (by Enki) and the Enuma Elish (by Ea) [S1][S3].",
-   "One of the two primeval waters (with Tiamat) [S3][S5]."
-  ],
-  "uncertainty_notes": [
-   "Apsu's 'slaying' in the Atrahasis is the creation-of-humanity story: humanity is made from Apsu's flesh/blood to relieve the gods of their labor [S3]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-tiamat",
-  "culture": "mesopotamian",
-  "name": "Tiamat",
-  "native_name": "Tiamat",
-  "alternative_names": [
-   "Tiamat",
-   "Tiamtu"
-  ],
-  "classification": "primordial",
-  "gender": "female",
-  "domains": [
-   "the primeval saltwater",
-   "the salt sea",
-   "chaos (the primordial state)"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-kingu"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-marduk"
-  ],
-  "associated_realms": [
-   "mes-underworld"
-  ],
-  "associated_places": [],
-  "major_myths": [
-   "mes-enuma"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [
-   "mes-art-tiamat",
-   "mes-art-enuma-tablet"
-  ],
-  "description_short": "The primeval saltwater, the 'salt sea', the embodiment of chaos; in the Enuma Elish she is the great adversary of Marduk, whose slain body is used to create the world.",
-  "description_long": "'Tiamat' is the primeval saltwater, the 'salt sea', the embodiment of the primordial state [S1][S5]. In Sumerian cosmology, Tiamat (the salt water) and Apsu (the fresh water) are the two primeval waters [S3][S5]. In the Enuma Elish, Tiamat is the great adversary of Marduk: she raises an army of monsters (led by Kingu) to fight Marduk, and is slain by Marduk, who splits her body in two to make the sky (the upper half) and the earth (the lower half) [S1]. Tiamat is the embodiment of chaos, the 'salt sea', the primordial state from which the ordered world emerges [S1][S5].",
-  "interesting_facts": [
-   "The primeval saltwater, the embodiment of chaos [S1][S5].",
-   "The great adversary of Marduk in the Enuma Elish [S1].",
-   "Her slain body is split to make the sky and the earth [S1]."
-  ],
-  "uncertainty_notes": [
-   "Tiamat's 'chaos' role is a later (Babylonian) interpretation; in earlier (Sumerian) texts she is simply the salt-water principle [S5]."
-  ],
-  "hero_artwork": "mes-art-tiamat",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-kingu",
-  "culture": "mesopotamian",
-  "name": "Kingu",
-  "native_name": "Kingu",
-  "alternative_names": [
-   "Kingu"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the 'crown' (his title: he holds the 'Tablet of Destinies')",
-   "the general of Tiamat's army"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [
-   "the mace (in some accounts)"
-  ],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-tiamat"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-marduk"
-  ],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [
-   "mes-enuma"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The general of Tiamat's army in the Enuma Elish; he holds the 'Tablet of Destinies' (the symbol of cosmic authority); he is slain by Marduk.",
-  "description_long": "Kingu is the general of Tiamat's army in the Enuma Elish [S1]. He holds the 'Tablet of Destinies' (the 'me' of kingship, the symbol of cosmic authority) on Tiamat's behalf [S1]. Marduk slays Kingu and takes the Tablet of Destinies; from Kingu's blood, Marduk creates humanity (in the Enuma Elish) [S1]. Kingu is the 'crown' (his title: he holds the 'Tablet of Destinies') [S1].",
-  "interesting_facts": [
-   "The general of Tiamat's army in the Enuma Elish [S1].",
-   "Holds the 'Tablet of Destinies' [S1].",
-   "Slain by Marduk; his blood is used to create humanity [S1]."
-  ],
-  "uncertainty_notes": [],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-enlil",
-  "culture": "mesopotamian",
-  "name": "Enlil",
-  "native_name": "Enlil",
-  "alternative_names": [
-   "Enlil",
-   "Ellil"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the air",
-   "the wind",
-   "the storm",
-   "king of the gods (Akkadian/Babylonian period)",
-   "the 'breath' of the world"
-  ],
-  "symbols": [
-   "the horned crown",
-   "the aegis (the 'mullu' — a composite creature)",
-   "the bull"
-  ],
-  "animals": [
-   "the bull",
-   "the lion"
-  ],
-  "weapons": [
-   "the mace"
-  ],
-  "sacred_objects": [
-   "the horned crown (the symbol of kingship)"
-  ],
-  "parents": [
-   "mes-apas",
-   "mes-ki"
-  ],
-  "siblings": [
-   "mes-enki"
-  ],
-  "partners": [
-   "mes-ninlil"
-  ],
-  "children": [
-   "mes-nanna",
-   "mes-ninhursag",
-   "mes-nergal"
-  ],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [
-   "mes-sky",
-   "mes-earth"
-  ],
-  "associated_places": [
-   "Nippur (his great temple)"
-  ],
-  "major_myths": [
-   "mes-creation",
-   "mes-flood",
-   "mes-enlil-erosion"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "text",
-    "name": "Epic of Gilgamesh (Standard Babylonian version)",
-    "date": "c. 1200 BCE",
-    "ref": "S2",
-    "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
-   },
-   {
-    "type": "text",
-    "name": "Atrahasis",
-    "date": "Old Babylonian c. 17th c. BCE",
-    "ref": "S3",
-    "url": "https://en.wikipedia.org/wiki/Atrahasis"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-enlil"
-  ],
-  "description_short": "The 'air/wind/storm' god, the 'breath' of the world; in the Akkadian and Babylonian periods he is the king of the gods. His great temple was at Nippur. He is the 'decider' — he makes the fates (the 'me').",
-  "description_long": "'Enlil' (Akkadian 'Ellil') is the 'air/wind/storm' god, the 'breath' of the world — his name means 'the breath of Enlil' (the wind that gives life) [S5][S6]. In the Sumerian period, Enlil was one of the great gods; in the Akkadian and Babylonian periods, he became the king of the gods (the 'Anum' — the supreme deity) [S1][S6]. Enlil's great temple was at Nippur (the 'Ekur' — the 'mountain house') [S5][S6]. Enlil is the 'decider': he makes the fates (the 'me' — the divine decrees that order the world) [S5]. Enlil's consort is Ninlil [S5]. Enlil's children include Nanna (the moon god), Ninhursag (the earth-mother, in some accounts), and Nergal (the underworld god, in some accounts) [S5]. Enlil is the god who decrees the flood (in the Atrahasis and the Gilgamesh flood-story) [S2][S3].",
-  "interesting_facts": [
-   "The 'air/wind/storm' god, the 'breath' of the world [S5].",
-   "King of the gods in the Akkadian/Babylonian period [S1][S6].",
-   "His great temple was at Nippur (the 'Ekur') [S5][S6].",
-   "The 'decider' — he makes the fates (the 'me') [S5].",
-   "Decrees the flood (Atrahasis, Gilgamesh) [S2][S3]."
-  ],
-  "uncertainty_notes": [
-   "Enlil's 'supremacy' is period-specific: Sumerian (one of the great gods) → Akkadian/Babylonian (king of the gods) → Late Babylonian (Marduk rises) [S1][S6]."
-  ],
-  "hero_artwork": "mes-art-enlil",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-enki",
-  "culture": "mesopotamian",
-  "name": "Enki (Ea)",
-  "native_name": "Enki",
-  "alternative_names": [
-   "Ea (Akkadian)",
-   "Enki (Sumerian)"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the freshwater",
-   "wisdom",
-   "magic",
-   "the 'me' (the divine decrees)",
-   "crafts",
-   "the 'apku' (the sage)"
-  ],
-  "symbols": [
-   "the fresh water",
-   "the 'me' (the divine decrees)",
-   "the goat-fish (the 'adapa' fish, in some accounts)"
-  ],
-  "animals": [
-   "the goat-fish"
-  ],
-  "weapons": [],
-  "sacred_objects": [
-   "the 'me' (the divine decrees)"
-  ],
-  "parents": [],
-  "siblings": [],
-  "partners": [],
-  "children": [
-   "mes-nabu"
-  ],
-  "allies": [
-   "mes-utu"
-  ],
-  "enemies": [
-   "mes-abzu"
-  ],
-  "associated_realms": [],
-  "associated_places": [
-   "Eridu (his great temple)"
-  ],
-  "major_myths": [
-   "mes-enuma",
-   "mes-flood",
-   "mes-creation"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "text",
-    "name": "Epic of Gilgamesh (Standard Babylonian version)",
-    "date": "c. 1200 BCE",
-    "ref": "S2",
-    "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
-   },
-   {
-    "type": "text",
-    "name": "Atrahasis",
-    "date": "Old Babylonian c. 17th c. BCE",
-    "ref": "S3",
-    "url": "https://en.wikipedia.org/wiki/Atrahasis"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-enki"
-  ],
-  "description_short": "The freshwater god of wisdom, magic, and the 'me' (the divine decrees); his great temple was at Eridu (the oldest city in Sumerian tradition). In the Atrahasis and the Gilgamesh flood-story, he saves the flood-hero against Enlil's will.",
-  "description_long": "'Enki' (Sumerian; 'Ea' in Akkadian) is the freshwater god of wisdom, magic, and the 'me' (the divine decrees) [S5][S6]. His great temple was at Eridu (the 'Aabzu' — the 'house of the deep'), the oldest city in Sumerian tradition [S5][S6]. Enki is the god of wisdom, magic, and the 'me' — the divine decrees that order the world [S5]. He is the 'apku' (the sage), the patron of the scribes and the craftsmen [S5]. In the Atrahasis and the Gilgamesh flood-story, Enki (Ea) saves the flood-hero (Atrahasis/Utnapishtim) against Enlil's will, by whispering to the hero to build a boat [S2][S3]. Enki is the father of Nabu (the god of writing) [S5]. Enki's 'slanding' of Apsu (in the Atrahasis) is the creation-of-humanity story [S3].",
-  "interesting_facts": [
-   "The freshwater god of wisdom, magic, and the 'me' [S5].",
-   "His great temple was at Eridu (the 'Aabzu') [S5][S6].",
-   "Saves the flood-hero against Enlil's will (Atrahasis, Gilgamesh) [S2][S3].",
-   "The 'apku' (the sage), patron of the scribes [S5]."
-  ],
-  "uncertainty_notes": [
-   "Enki's 'wisdom' role is central; his relationship to the 'me' (the divine decrees) is complex: he is both a holder and a distributor of the 'me' [S5]."
-  ],
-  "hero_artwork": "mes-art-enki",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-ninlil",
-  "culture": "mesopotamian",
-  "name": "Ninlil",
-  "native_name": "Ninlil",
-  "alternative_names": [
-   "Ninlil",
-   "Ningal"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "the moon (as consort of Enlil)",
-   "the 'light' of Enlil"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-enlil"
-  ],
-  "children": [
-   "mes-nanna"
-  ],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The consort of Enlil; in some accounts she is the moon-goddess (or the 'light' of Enlil). She is the mother of Nanna (the moon god).",
-  "description_long": "Ninlil is the consort of Enlil [S5]. In some accounts, she is the moon-goddess (or the 'light' of Enlil) [S5]. She is the mother of Nanna (the moon god) [S5]. Ninlil's myth: in one Sumerian text, Enlil seduces Ninlil (while she is in the underworld), and she bears Nanna (the moon) there [S5]. Ninlil is the 'light' of Enlil — the moonlight that follows the storm-god [S5].",
-  "interesting_facts": [
-   "The consort of Enlil [S5].",
-   "The mother of Nanna (the moon god) [S5].",
-   "In one myth, Enlil seduces her in the underworld [S5]."
-  ],
-  "uncertainty_notes": [
-   "Ninlil's 'moon' role is debated: in some accounts she is the moon-goddess, in others she is simply Enlil's consort [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-nanna",
-  "culture": "mesopotamian",
-  "name": "Nanna (Sin)",
-  "native_name": "Nanna",
-  "alternative_names": [
-   "Sin (Akkadian)",
-   "Nanna (Sumerian)"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the moon",
-   "time",
-   "the calendar",
-   "fate (the moon-god decrees fates)"
-  ],
-  "symbols": [
-   "the crescent moon",
-   "the disc"
-  ],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [
-   "mes-enlil",
-   "mes-ninlil"
-  ],
-  "siblings": [],
-  "partners": [
-   "mes-ninagal"
-  ],
-  "children": [
-   "mes-utu",
-   "mes-inanna"
-  ],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [
-   "mes-sky"
-  ],
-  "associated_places": [
-   "Ur (his great temple)"
-  ],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-sin"
-  ],
-  "description_short": "The moon god, the god of time, the calendar, and fate; his great temple was at Ur. In Sumerian tradition he is the son of Enlil; in Akkadian he is called Sin. Father of Utu (Shamash) and Inanna (Ishtar).",
-  "description_long": "'Nanna' (Sumerian; 'Sin' in Akkadian) is the moon god, the god of time, the calendar, and fate [S5][S6]. His great temple was at Ur (the 'Ehursag') [S5][S6]. In Sumerian tradition, Nanna is the son of Enlil (and Ninlil) [S5]. In Akkadian, he is called Sin [S5]. Nanna is the father of Utu (the sun god, Akkadian 'Shamash') and Inanna (the love/war goddess, Akkadian 'Ishtar') [S5]. The moon-god decrees fates (the 'me') — the moon's phases are the measure of time [S5]. Nanna's 'time' role makes him the god of the calendar and of the measurement of the months [S5].",
-  "interesting_facts": [
-   "The moon god, the god of time, the calendar, and fate [S5].",
-   "His great temple was at Ur (the 'Ehursag') [S5][S6].",
-   "Son of Enlil (and Ninlil) [S5].",
-   "Father of Utu (Shamash) and Inanna (Ishtar) [S5]."
-  ],
-  "uncertainty_notes": [
-   "Nanna's parentage varies: in some texts he is the son of Enlil, in others he is a 'self-existing' god [S5]."
-  ],
-  "hero_artwork": "mes-art-sin",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-utu",
-  "culture": "mesopotamian",
-  "name": "Utu (Shamash)",
-  "native_name": "Utu",
-  "alternative_names": [
-   "Shamash (Akkadian)",
-   "Utu (Sumerian)"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the sun",
-   "justice",
-   "the 'light' that reveals the truth",
-   "the 'day'"
-  ],
-  "symbols": [
-   "the sun-disc",
-   "the 'saw' (the sun's disc as a saw that cuts through the night)"
-  ],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [
-   "mes-nanna"
-  ],
-  "siblings": [
-   "mes-inanna"
-  ],
-  "partners": [],
-  "children": [],
-  "allies": [
-   "mes-enki"
-  ],
-  "enemies": [],
-  "associated_realms": [
-   "mes-sky",
-   "mes-underworld"
-  ],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Epic of Gilgamesh (Standard Babylonian version)",
-    "date": "c. 1200 BCE",
-    "ref": "S2",
-    "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-shamash-seal"
-  ],
-  "description_short": "The sun god, the god of justice and the 'light' that reveals the truth; in Akkadian he is called Shamash. The sun-god travels through the underworld by night (the 'journey of the sun through the Duat' equivalent).",
-  "description_long": "'Utu' (Sumerian; 'Shamash' in Akkadian) is the sun god, the god of justice and the 'light' that reveals the truth [S5][S6]. The sun-god travels across the sky by day and through the underworld by night (the 'journey of the sun') [S5]. Utu is the god of justice: he 'sees' all, and his light reveals the truth [S5]. In the 'Utnapishtim' flood-story and other texts, Utu is a 'judge' who sees the wickedness of humanity [S2]. Utu is the brother of Inanna (Ishtar) [S5]. Utu's 'justice' role makes him the patron of the oaths and the courts [S5].",
-  "interesting_facts": [
-   "The sun god, the god of justice [S5].",
-   "Travels through the underworld by night (the 'journey of the sun') [S5].",
-   "The 'light' that reveals the truth [S5].",
-   "The brother of Inanna (Ishtar) [S5]."
-  ],
-  "uncertainty_notes": [
-   "Utu's 'justice' role is central; his 'sun-journey' (through the underworld by night) is a distinct mythic cycle [S5]."
-  ],
-  "hero_artwork": "mes-art-shamash-seal",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-inanna",
-  "culture": "mesopotamian",
-  "name": "Inanna (Ishtar)",
-  "native_name": "Inanna",
-  "alternative_names": [
-   "Ishtar (Akkadian)",
-   "Inanna (Sumerian)"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "love",
-   "sexuality",
-   "war",
-   "fertility",
-   "the 'queen of heaven'",
-   "the morning/evening star (Venus)"
-  ],
-  "symbols": [
-   "the eight-pointed star (Venus)",
-   "the lion",
-   "the date-palm"
-  ],
-  "animals": [
-   "the lion",
-   "the date-palm"
-  ],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [
-   "mes-nanna"
-  ],
-  "siblings": [
-   "mes-utu"
-  ],
-  "partners": [],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-erishkigal"
-  ],
-  "associated_realms": [
-   "mes-sky",
-   "mes-underworld"
-  ],
-  "associated_places": [
-   "Uruk (her great temple)"
-  ],
-  "major_myths": [
-   "mes-inanna-descent",
-   "mes-inanna-erishkigal"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Inanna's Descent to the Underworld",
-    "date": "c. 1900-1700 BCE (Sumerian)",
-    "ref": "S4",
-    "url": "https://en.wikipedia.org/wiki/Inanna%27s_Descent_to_the_Underworld"
-   },
-   {
-    "type": "text",
-    "name": "Epic of Gilgamesh (Standard Babylonian version)",
-    "date": "c. 1200 BCE",
-    "ref": "S2",
-    "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-inanna-star",
-   "mes-art-ishtar-gate",
-   "mes-art-ishtar-hymn"
-  ],
-  "description_short": "The great goddess of love, sexuality, war, and fertility; 'queen of heaven'; the morning/evening star (Venus); her great temple was at Uruk. In Akkadian she is Ishtar. She descends to the underworld and is restored (the 'Inanna's Descent' myth).",
-  "description_long": "'Inanna' (Sumerian; 'Ishtar' in Akkadian) is the great goddess of love, sexuality, war, and fertility [S4][S5][S6]. She is the 'queen of heaven', the morning/evening star (Venus) [S5]. Her great temple was at Uruk (the 'Eanna') [S5][S6]. Inanna is the most complex of the Mesopotamian deities: she is both the goddess of love and the goddess of war, both the life-giver and the death-bringer [S4][S5]. The great myth of 'Inanna's Descent to the Underworld': Inanna descends to the underworld to attend the funeral of her sister Ereshkigal (the underworld-goddess), is stripped of her powers at the seven gates, is killed, and is restored by Enki (who sends a being to bring her back) [S4][S5]. The 'Descent' is a myth of death and resurrection, and is one of the oldest attested 'descent-and-return' myths [S4][S5]. Inanna's 'Venus' role (the morning/evening star) makes her the goddess of the 'star' (the eight-pointed star is her symbol) [S5].",
-  "interesting_facts": [
-   "The great goddess of love, sexuality, war, and fertility [S4][S5].",
-   "The 'queen of heaven', the morning/evening star (Venus) [S5].",
-   "Her great temple was at Uruk (the 'Eanna') [S5][S6].",
-   "The 'Inanna's Descent' myth (death and resurrection) [S4][S5].",
-   "The eight-pointed star is her symbol [S5]."
-  ],
-  "uncertainty_notes": [
-   "Inanna's 'love' and 'war' roles are not separate: she is a single, complex goddess who embodies both [S4][S5].",
-   "The 'Descent' myth has multiple versions (Sumerian c. 1900-1700 BCE; later Akkadian versions); the details vary [S4]."
-  ],
-  "hero_artwork": "mes-art-inanna-star",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-erishkigal",
-  "culture": "mesopotamian",
-  "name": "Ereshkigal",
-  "native_name": "Ereshkigal",
-  "alternative_names": [
-   "Nergal's consort (in some accounts)"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "the underworld",
-   "the queen of the dead",
-   "the 'dark'"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-erishkigal-consort"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-inanna"
-  ],
-  "associated_realms": [
-   "mes-underworld"
-  ],
-  "associated_places": [],
-  "major_myths": [
-   "mes-inanna-descent"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Inanna's Descent to the Underworld",
-    "date": "c. 1900-1700 BCE (Sumerian)",
-    "ref": "S4",
-    "url": "https://en.wikipedia.org/wiki/Inanna%27s_Descent_to_the_Underworld"
-   },
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [
-   "mes-art-ereshkigal-burney"
-  ],
-  "description_short": "The queen of the underworld, the 'dark' goddess of the dead; Inanna's sister (in some accounts) or adversary. In the 'Descent' myth, Inanna attends her funeral (or is her guest) and is killed there.",
-  "description_long": "'Ereshkigal' is the queen of the underworld, the 'dark' goddess of the dead [S4][S5]. She is the lord of the 'irigal' (the underworld) [S5]. In the 'Inanna's Descent' myth, Inanna descends to the underworld to attend Ereshkigal's funeral (or is her guest), and is killed there [S4][S5]. Ereshkigal is Inanna's sister (in some accounts) or her adversary [S4][S5]. Ereshkigal's consort is Nergal (the underworld-god, in some accounts) [S5]. Ereshkigal is the 'dark' counterpart of Inanna (the 'light' goddess) [S4][S5].",
-  "interesting_facts": [
-   "The queen of the underworld, the 'dark' goddess of the dead [S4][S5].",
-   "Inanna's sister (in some accounts) or adversary [S4][S5].",
-   "The 'Descent' myth: Inanna is killed at her funeral [S4][S5]."
-  ],
-  "uncertainty_notes": [
-   "Ereshkigal's relationship to Inanna (sister vs. adversary) varies by version [S4][S5]."
-  ],
-  "hero_artwork": "mes-art-ereshkigal-burney",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-nergal",
-  "culture": "mesopotamian",
-  "name": "Nergal",
-  "native_name": "Nergal",
-  "alternative_names": [
-   "Nergal"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the underworld",
-   "the plague",
-   "the 'lord of the netherworld'",
-   "war (in some accounts)"
-  ],
-  "symbols": [
-   "the 'lion' (in some accounts)",
-   "the 'snake'"
-  ],
-  "animals": [
-   "the lion",
-   "the snake"
-  ],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-erishkigal"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [
-   "mes-underworld"
-  ],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The underworld god, the 'lord of the netherworld', the god of the plague; in some accounts he is Ereshkigal's consort. In the 'Nergal and Ereshkigal' myth, he 'rapes' (or marries) Ereshkigal and becomes her consort.",
-  "description_long": "'Nergal' is the underworld god, the 'lord of the netherworld', the god of the plague [S5]. In some accounts, he is Ereshkigal's consort [S5]. The 'Nergal and Ereshkigal' myth: Nergal 'rapes' (or marries) Ereshkigal, and becomes her consort and the lord of the underworld [S5]. Nergal is the god of the plague and the 'dark' power of the underworld [S5]. He is also a war-god (in some accounts) [S5]. Nergal's 'plague' role makes him a feared deity — his 'dark' power is the power of death and disease [S5].",
-  "interesting_facts": [
-   "The underworld god, the 'lord of the netherworld' [S5].",
-   "The god of the plague [S5].",
-   "Ereshkigal's consort (in the 'Nergal and Ereshkigal' myth) [S5]."
-  ],
-  "uncertainty_notes": [
-   "Nergal's 'raping' of Ereshkigal is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-marduk",
-  "culture": "mesopotamian",
-  "name": "Marduk",
-  "native_name": "Marduk",
-  "alternative_names": [
-   "Marduk"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the 'storm' (in the Babylonian period)",
-   "king of the gods (Babylonian period)",
-   "creation",
-   "the 'flood' (in the Enuma Elish)"
-  ],
-  "symbols": [
-   "the 'mullu' (a composite creature: the bull-lion-eagle-snake)",
-   "the 'Tablet of Destinies'",
-   "the bow"
-  ],
-  "animals": [
-   "the 'mullu' (the composite creature)"
-  ],
-  "weapons": [
-   "the bow",
-   "the mace",
-   "the net",
-   "the 'wind' (the 'rakasu' winds)"
-  ],
-  "sacred_objects": [
-   "the 'Tablet of Destinies'"
-  ],
-  "parents": [
-   "mes-enki"
-  ],
-  "siblings": [],
-  "partners": [],
-  "children": [],
-  "allies": [],
-  "enemies": [
-   "mes-tiamat",
-   "mes-kingu"
-  ],
-  "associated_realms": [
-   "mes-sky"
-  ],
-  "associated_places": [
-   "Babylon (his great temple: the Esagila)"
-  ],
-  "major_myths": [
-   "mes-enuma"
-  ],
-  "primary_sources": [
-   {
-    "type": "text",
-    "name": "Enuma Elish (Babylonian Creation Epic)",
-    "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
-    "ref": "S1",
-    "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
-   },
-   {
-    "type": "museum",
-    "name": "Met Museum Mesopotamian collection (open access)",
-    "date": "museum",
-    "ref": "S6",
-    "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
-   }
-  ],
-  "artworks": [
-   "mes-art-marduk"
-  ],
-  "description_short": "The Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period; in the Enuma Elish he slays Tiamat and creates the world from her body. His great temple was at Babylon (the Esagila).",
-  "description_long": "'Marduk' is the Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period [S1][S6]. In the Enuma Elish, Marduk is chosen by the gods to fight Tiamat; he slays her with his bow, net, and 'rakasu' winds, and splits her body in two to make the sky (the upper half) and the earth (the lower half) [S1]. From Kingu's blood (Tiamat's general), Marduk creates humanity [S1]. Marduk takes the 'Tablet of Destinies' (the symbol of cosmic authority) from Kingu [S1]. Marduk's great temple was at Babylon (the Esagila) [S6]. Marduk's 'supremacy' is a political/theological development: as Babylon rose to power (Old Babylonian period, c. 2000-1600 BCE), Marduk rose to be the king of the gods [S1][S6]. The Enuma Elish (the 'New Year' festival text) is the great myth of Marduk's supremacy [S1].",
-  "interesting_facts": [
-   "The Babylonian supreme god, the 'storm' god [S1][S6].",
-   "In the Enuma Elish, he slays Tiamat and creates the world [S1].",
-   "Takes the 'Tablet of Destinies' from Kingu [S1].",
-   "His great temple was at Babylon (the Esagila) [S6].",
-   "His 'supremacy' is a political/theological development (Babylonian rise) [S1][S6]."
-  ],
-  "uncertainty_notes": [
-   "Marduk's 'supremacy' is period-specific: Old Babylonian (rises) → Neo-Babylonian (supreme) → Achaemenid/Persian (declines) [S1][S6]."
-  ],
-  "hero_artwork": "mes-art-marduk",
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-antum",
-  "culture": "mesopotamian",
-  "name": "Antu (Anatum)",
-  "native_name": "Antu",
-  "alternative_names": [
-   "Anatum",
-   "Antu"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "the 'consort of An'",
-   "the 'sky' (as consort)"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-apas"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The consort of An (the sky god); the 'sky' as a female principle (in some accounts).",
-  "description_long": "'Antu' (also 'Anatum') is the consort of An (the sky god) [S5]. She is the 'sky' as a female principle (in some accounts) [S5]. Antu is less well-attested as a distinct deity than An; she is the 'consort of the sky' [S5].",
-  "interesting_facts": [
-   "The consort of An (the sky god) [S5]."
-  ],
-  "uncertainty_notes": [
-   "Antu is less well-attested as a distinct deity than An [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-ninhursag",
-  "culture": "mesopotamian",
-  "name": "Ninhursag",
-  "native_name": "Ninhursag",
-  "alternative_names": [
-   "Ninhursag",
-   "Nin-hursag"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "the earth",
-   "the 'mother' of the gods",
-   "the 'mistress of the mountains'"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The 'earth-mother', the 'mistress of the mountains'; in some accounts a consort of Enlil or a mother-figure. Her name means 'Lady of the Mountain'.",
-  "description_long": "'Ninhursag' (also 'Nin-hursag') is the 'earth-mother', the 'mistress of the mountains' — her name means 'Lady of the Mountain' [S5]. She is a mother-figure in the Sumerian pantheon, the 'mother' of the gods (in some accounts) [S5]. Ninhursag is the 'earth' as a female principle [S5]. She is less well-attested as a distinct deity than the great gods; she is the 'earth-mother' principle [S5].",
-  "interesting_facts": [
-   "The 'earth-mother', the 'mistress of the mountains' [S5].",
-   "A mother-figure in the Sumerian pantheon [S5]."
-  ],
-  "uncertainty_notes": [
-   "Ninhursag is less well-attested as a distinct deity than the great gods [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-erishkigal-consort",
-  "culture": "mesopotamian",
-  "name": "Nergal (Ereshkigal's consort)",
-  "native_name": "Nergal",
-  "alternative_names": [],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "the underworld (as Ereshkigal's consort)"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-erishkigal"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "Nergal as Ereshkigal's consort (the 'Nergal and Ereshkigal' marriage myth).",
-  "description_long": "Nergal as Ereshkigal's consort: in the 'Nergal and Ereshkigal' myth, Nergal 'rapes' (or marries) Ereshkigal and becomes her consort and the lord of the underworld [S5]. This is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5].",
-  "interesting_facts": [
-   "Nergal as Ereshkigal's consort [S5]."
-  ],
-  "uncertainty_notes": [],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-ninagal",
-  "culture": "mesopotamian",
-  "name": "Ningal",
-  "native_name": "Ningal",
-  "alternative_names": [
-   "Ningal"
-  ],
-  "classification": "deity",
-  "gender": "female",
-  "domains": [
-   "the moon (as consort of Nanna)",
-   "the 'light' of the moon"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [],
-  "siblings": [],
-  "partners": [
-   "mes-nanna"
-  ],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The consort of Nanna (the moon god); the 'light' of the moon.",
-  "description_long": "'Ningal' is the consort of Nanna (the moon god) [S5]. She is the 'light' of the moon [S5]. Ningal is less well-attested as a distinct deity than Nanna; she is the 'consort of the moon' [S5].",
-  "interesting_facts": [
-   "The consort of Nanna (the moon god) [S5]."
-  ],
-  "uncertainty_notes": [
-   "Ningal is less well-attested as a distinct deity than Nanna [S5]."
-  ],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- },
- {
-  "id": "mes-nabu",
-  "culture": "mesopotamian",
-  "name": "Nabu",
-  "native_name": "Nabu",
-  "alternative_names": [
-   "Nabu"
-  ],
-  "classification": "deity",
-  "gender": "male",
-  "domains": [
-   "writing",
-   "wisdom",
-   "the 'sage'",
-   "the 'scribes'"
-  ],
-  "symbols": [],
-  "animals": [],
-  "weapons": [],
-  "sacred_objects": [],
-  "parents": [
-   "mes-enki"
-  ],
-  "siblings": [],
-  "partners": [],
-  "children": [],
-  "allies": [],
-  "enemies": [],
-  "associated_realms": [],
-  "associated_places": [],
-  "major_myths": [],
-  "primary_sources": [
-   {
-    "type": "corpus",
-    "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-    "date": "corpus (Sumerian/Akkadian texts)",
-    "ref": "S5",
-    "url": "https://etcsl.orinst.ox.ac.uk/"
-   }
-  ],
-  "artworks": [],
-  "description_short": "The god of writing and wisdom, the patron of the scribes; son of Enki (Ea).",
-  "description_long": "'Nabu' is the god of writing and wisdom, the patron of the scribes [S5]. He is the son of Enki (Ea) [S5]. Nabu is the 'sage' (the 'apku') and the patron of the scribal arts [S5]. His great temple was at Nippur (the 'Ezida') [S5].",
-  "interesting_facts": [
-   "The god of writing and wisdom [S5].",
-   "Son of Enki (Ea) [S5].",
-   "The patron of the scribes [S5]."
-  ],
-  "uncertainty_notes": [],
-  "hero_artwork": null,
-  "evidence_status": "attested"
- }
+  {
+    "id": "mes-apas",
+    "culture": "mesopotamian",
+    "name": "An (the heavens)",
+    "native_name": "An",
+    "alternative_names": [
+      "Anu",
+      "Anu (Akkadian)",
+      "An (Sumerian)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sky",
+      "the heavens",
+      "the supreme god (Sumerian period)",
+      "king of the gods"
+    ],
+    "symbols": [
+      "the star (the five-pointed star)",
+      "the horned crown (the crown of kingship)",
+      "the bull"
+    ],
+    "animals": [
+      "the bull"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-antum"
+    ],
+    "children": [
+      "mes-enlil",
+      "mes-enki"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "mes-sky"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "mes-enuma",
+      "mes-creation"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The sky god, the supreme deity of the Sumerian pantheon; 'An' means 'sky/heaven'. In the Akkadian period he is called Anu. Father of Enlil and (in some accounts) Enki.",
+    "description_long": "'An' (Sumerian; 'Anu' in Akkadian) is the sky god, the supreme deity of the Sumerian pantheon [S5][S6]. 'An' means 'sky' or 'heaven' — the god is the sky itself, the highest of the three cosmic regions (heaven, earth, underworld) [S5]. In the Sumerian period, An was the head of the pantheon; in the Akkadian and Babylonian periods, his supremacy was increasingly ceded to Enlil (and later Marduk) [S1][S6]. An's symbol is the star (the five-pointed star) and his animal is the bull [S5][S6]. An's consort is Antu (Sumerian; 'Anatum' in some accounts) [S5]. An is the father of Enlil (the air/storm god) and, in some accounts, Enki (the freshwater god) [S5]. The 'An' is also a title: the 'An' is the divine, the 'godhead' itself [S5].",
+    "interesting_facts": [
+      "The sky god, the supreme deity of the Sumerian pantheon [S5].",
+      "'An' means 'sky/heaven' — the god is the sky itself [S5].",
+      "His symbol is the star; his animal is the bull [S5][S6].",
+      "Father of Enlil (and, in some accounts, Enki) [S5]."
+    ],
+    "uncertainty_notes": [
+      "An's supremacy 'declines' over time: Sumerian (supreme) → Akkadian (Enlil rises) → Babylonian (Marduk rises). This is a political/theological development, not a mythic event [S1][S6]."
+    ],
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-ki",
+    "culture": "mesopotamian",
+    "name": "Ki (the earth)",
+    "native_name": "Ki",
+    "alternative_names": [
+      "Ki",
+      "Kı"
+    ],
+    "classification": "primordial",
+    "gender": "female",
+    "domains": [
+      "the earth",
+      "the ground",
+      "the lower world (in some accounts)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-apas"
+    ],
+    "children": [
+      "mes-enlil",
+      "mes-enki"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "mes-earth"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The earth goddess, the consort of An (the sky); the 'mother' of the world. In Sumerian cosmology, An (heaven) and Ki (earth) are the first pair.",
+    "description_long": "'Ki' is the earth goddess, the consort of An (the sky) [S5]. In Sumerian cosmology, An (heaven) and Ki (earth) are the first pair — the 'parents' of the world [S5]. Ki is the 'mother' of the world, the ground, the earth [S5]. The name 'Ki' is also the root of 'Kish' (a city) and of the 'ki' in 'kigurra' (a ritual object) [S5]. Ki is less well-attested as a deity than An: she is the earth-principle, the 'mother' of the world [S5].",
+    "interesting_facts": [
+      "The earth goddess, the consort of An [S5].",
+      "The 'mother' of the world in Sumerian cosmology [S5]."
+    ],
+    "uncertainty_notes": [
+      "Ki is less well-attested as a distinct deity than An; she is the earth-principle [S5]."
+    ],
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-abzu",
+    "culture": "mesopotamian",
+    "name": "Apsu (the primeval freshwater)",
+    "native_name": "Apsu",
+    "alternative_names": [
+      "Apsu",
+      "Abzu",
+      "the fresh-water abyss"
+    ],
+    "classification": "primordial",
+    "gender": "male",
+    "domains": [
+      "the primeval freshwater",
+      "the deep",
+      "the sweet water beneath the earth"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-enki"
+    ],
+    "associated_realms": [
+      "mes-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "text",
+        "name": "Atrahasis",
+        "date": "Old Babylonian c. 17th c. BCE",
+        "ref": "S3",
+        "url": "https://en.wikipedia.org/wiki/Atrahasis"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The primeval freshwater, the 'deep' beneath the earth; in the Atrahasis and Enuma Elish, Apsu is the god of the fresh water who is slain (in Atrahasis) or overthrown (in Enuma Elish).",
+    "description_long": "'Apsu' (also 'Abzu') is the primeval freshwater, the 'deep' beneath the earth — the sweet water that underlies the world [S3][S5]. In Sumerian cosmology, Apsu (the fresh water) and Tiamat (the salt water) are the two primeval waters [S3][S5]. In the Atrahasis, Apsu (the god of the fresh water) is slain by Enki (and the gods) because his noise (the noise of humanity) disturbs his rest [S3]. In the Enuma Elish, Apsu's role is taken by Apsu (the fresh water) who is slain by Ea (Enki's Akkadian name) [S1]. Apsu is the 'deep', the primeval fresh water, the source of life [S3][S5].",
+    "interesting_facts": [
+      "The primeval freshwater, the 'deep' beneath the earth [S3][S5].",
+      "Slain in the Atrahasis (by Enki) and the Enuma Elish (by Ea) [S1][S3].",
+      "One of the two primeval waters (with Tiamat) [S3][S5]."
+    ],
+    "uncertainty_notes": [
+      "Apsu's 'slaying' in the Atrahasis is the creation-of-humanity story: humanity is made from Apsu's flesh/blood to relieve the gods of their labor [S3]."
+    ],
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-tiamat",
+    "culture": "mesopotamian",
+    "name": "Tiamat",
+    "native_name": "Tiamat",
+    "alternative_names": [
+      "Tiamat",
+      "Tiamtu"
+    ],
+    "classification": "primordial",
+    "gender": "female",
+    "domains": [
+      "the primeval saltwater",
+      "the salt sea",
+      "chaos (the primordial state)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-kingu"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-marduk"
+    ],
+    "associated_realms": [
+      "mes-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "mes-enuma"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-tiamat",
+      "mes-art-enuma-tablet"
+    ],
+    "description_short": "The primeval saltwater, the 'salt sea', the embodiment of chaos; in the Enuma Elish she is the great adversary of Marduk, whose slain body is used to create the world.",
+    "description_long": "'Tiamat' is the primeval saltwater, the 'salt sea', the embodiment of the primordial state [S1][S5]. In Sumerian cosmology, Tiamat (the salt water) and Apsu (the fresh water) are the two primeval waters [S3][S5]. In the Enuma Elish, Tiamat is the great adversary of Marduk: she raises an army of monsters (led by Kingu) to fight Marduk, and is slain by Marduk, who splits her body in two to make the sky (the upper half) and the earth (the lower half) [S1]. Tiamat is the embodiment of chaos, the 'salt sea', the primordial state from which the ordered world emerges [S1][S5].",
+    "interesting_facts": [
+      "The primeval saltwater, the embodiment of chaos [S1][S5].",
+      "The great adversary of Marduk in the Enuma Elish [S1].",
+      "Her slain body is split to make the sky and the earth [S1]."
+    ],
+    "uncertainty_notes": [
+      "Tiamat's 'chaos' role is a later (Babylonian) interpretation; in earlier (Sumerian) texts she is simply the salt-water principle [S5]."
+    ],
+    "hero_artwork": "mes-art-tiamat",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-kingu",
+    "culture": "mesopotamian",
+    "name": "Kingu",
+    "native_name": "Kingu",
+    "alternative_names": [
+      "Kingu"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the 'crown' (his title: he holds the 'Tablet of Destinies')",
+      "the general of Tiamat's army"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [
+      "the mace (in some accounts)"
+    ],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-tiamat"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-marduk"
+    ],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [
+      "mes-enuma"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The general of Tiamat's army in the Enuma Elish; he holds the 'Tablet of Destinies' (the symbol of cosmic authority); he is slain by Marduk.",
+    "description_long": "Kingu is the general of Tiamat's army in the Enuma Elish [S1]. He holds the 'Tablet of Destinies' (the 'me' of kingship, the symbol of cosmic authority) on Tiamat's behalf [S1]. Marduk slays Kingu and takes the Tablet of Destinies; from Kingu's blood, Marduk creates humanity (in the Enuma Elish) [S1]. Kingu is the 'crown' (his title: he holds the 'Tablet of Destinies') [S1].",
+    "interesting_facts": [
+      "The general of Tiamat's army in the Enuma Elish [S1].",
+      "Holds the 'Tablet of Destinies' [S1].",
+      "Slain by Marduk; his blood is used to create humanity [S1]."
+    ],
+    "uncertainty_notes": [],
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-enlil",
+    "culture": "mesopotamian",
+    "name": "Enlil",
+    "native_name": "Enlil",
+    "alternative_names": [
+      "Enlil",
+      "Ellil"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the air",
+      "the wind",
+      "the storm",
+      "king of the gods (Akkadian/Babylonian period)",
+      "the 'breath' of the world"
+    ],
+    "symbols": [
+      "the horned crown",
+      "the aegis (the 'mullu' — a composite creature)",
+      "the bull"
+    ],
+    "animals": [
+      "the bull",
+      "the lion"
+    ],
+    "weapons": [
+      "the mace"
+    ],
+    "sacred_objects": [
+      "the horned crown (the symbol of kingship)"
+    ],
+    "parents": [
+      "mes-apas",
+      "mes-ki"
+    ],
+    "siblings": [
+      "mes-enki"
+    ],
+    "partners": [
+      "mes-ninlil"
+    ],
+    "children": [
+      "mes-nanna",
+      "mes-ninhursag",
+      "mes-nergal"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "mes-sky",
+      "mes-earth"
+    ],
+    "associated_places": [
+      "Nippur (his great temple)"
+    ],
+    "major_myths": [
+      "mes-creation",
+      "mes-flood",
+      "mes-enlil-erosion"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "text",
+        "name": "Epic of Gilgamesh (Standard Babylonian version)",
+        "date": "c. 1200 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+      },
+      {
+        "type": "text",
+        "name": "Atrahasis",
+        "date": "Old Babylonian c. 17th c. BCE",
+        "ref": "S3",
+        "url": "https://en.wikipedia.org/wiki/Atrahasis"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-god-enlil-seated-from-nippur-iraq-1800-1600",
+      "mes-art-file-enlilandninlil"
+    ],
+    "description_short": "The 'air/wind/storm' god, the 'breath' of the world; in the Akkadian and Babylonian periods he is the king of the gods. His great temple was at Nippur. He is the 'decider' — he makes the fates (the 'me').",
+    "description_long": "'Enlil' (Akkadian 'Ellil') is the 'air/wind/storm' god, the 'breath' of the world — his name means 'the breath of Enlil' (the wind that gives life) [S5][S6]. In the Sumerian period, Enlil was one of the great gods; in the Akkadian and Babylonian periods, he became the king of the gods (the 'Anum' — the supreme deity) [S1][S6]. Enlil's great temple was at Nippur (the 'Ekur' — the 'mountain house') [S5][S6]. Enlil is the 'decider': he makes the fates (the 'me' — the divine decrees that order the world) [S5]. Enlil's consort is Ninlil [S5]. Enlil's children include Nanna (the moon god), Ninhursag (the earth-mother, in some accounts), and Nergal (the underworld god, in some accounts) [S5]. Enlil is the god who decrees the flood (in the Atrahasis and the Gilgamesh flood-story) [S2][S3].",
+    "interesting_facts": [
+      "The 'air/wind/storm' god, the 'breath' of the world [S5].",
+      "King of the gods in the Akkadian/Babylonian period [S1][S6].",
+      "His great temple was at Nippur (the 'Ekur') [S5][S6].",
+      "The 'decider' — he makes the fates (the 'me') [S5].",
+      "Decrees the flood (Atrahasis, Gilgamesh) [S2][S3]."
+    ],
+    "uncertainty_notes": [
+      "Enlil's 'supremacy' is period-specific: Sumerian (one of the great gods) → Akkadian/Babylonian (king of the gods) → Late Babylonian (Marduk rises) [S1][S6]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-god-enlil-seated-from-nippur-iraq-1800-1600"
+  },
+  {
+    "id": "mes-enki",
+    "culture": "mesopotamian",
+    "name": "Enki (Ea)",
+    "native_name": "Enki",
+    "alternative_names": [
+      "Ea (Akkadian)",
+      "Enki (Sumerian)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the freshwater",
+      "wisdom",
+      "magic",
+      "the 'me' (the divine decrees)",
+      "crafts",
+      "the 'apku' (the sage)"
+    ],
+    "symbols": [
+      "the fresh water",
+      "the 'me' (the divine decrees)",
+      "the goat-fish (the 'adapa' fish, in some accounts)"
+    ],
+    "animals": [
+      "the goat-fish"
+    ],
+    "weapons": [],
+    "sacred_objects": [
+      "the 'me' (the divine decrees)"
+    ],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [
+      "mes-nabu"
+    ],
+    "allies": [
+      "mes-utu"
+    ],
+    "enemies": [
+      "mes-abzu"
+    ],
+    "associated_realms": [],
+    "associated_places": [
+      "Eridu (his great temple)"
+    ],
+    "major_myths": [
+      "mes-enuma",
+      "mes-flood",
+      "mes-creation"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "text",
+        "name": "Epic of Gilgamesh (Standard Babylonian version)",
+        "date": "c. 1200 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+      },
+      {
+        "type": "text",
+        "name": "Atrahasis",
+        "date": "Old Babylonian c. 17th c. BCE",
+        "ref": "S3",
+        "url": "https://en.wikipedia.org/wiki/Atrahasis"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-god-ea-also-enki-holding-a-cup-with-overflo",
+      "mes-art-file-ea-babilonian-enki-sumerian"
+    ],
+    "description_short": "The freshwater god of wisdom, magic, and the 'me' (the divine decrees); his great temple was at Eridu (the oldest city in Sumerian tradition). In the Atrahasis and the Gilgamesh flood-story, he saves the flood-hero against Enlil's will.",
+    "description_long": "'Enki' (Sumerian; 'Ea' in Akkadian) is the freshwater god of wisdom, magic, and the 'me' (the divine decrees) [S5][S6]. His great temple was at Eridu (the 'Aabzu' — the 'house of the deep'), the oldest city in Sumerian tradition [S5][S6]. Enki is the god of wisdom, magic, and the 'me' — the divine decrees that order the world [S5]. He is the 'apku' (the sage), the patron of the scribes and the craftsmen [S5]. In the Atrahasis and the Gilgamesh flood-story, Enki (Ea) saves the flood-hero (Atrahasis/Utnapishtim) against Enlil's will, by whispering to the hero to build a boat [S2][S3]. Enki is the father of Nabu (the god of writing) [S5]. Enki's 'slanding' of Apsu (in the Atrahasis) is the creation-of-humanity story [S3].",
+    "interesting_facts": [
+      "The freshwater god of wisdom, magic, and the 'me' [S5].",
+      "His great temple was at Eridu (the 'Aabzu') [S5][S6].",
+      "Saves the flood-hero against Enlil's will (Atrahasis, Gilgamesh) [S2][S3].",
+      "The 'apku' (the sage), patron of the scribes [S5]."
+    ],
+    "uncertainty_notes": [
+      "Enki's 'wisdom' role is central; his relationship to the 'me' (the divine decrees) is complex: he is both a holder and a distributor of the 'me' [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-god-ea-also-enki-holding-a-cup-with-overflo"
+  },
+  {
+    "id": "mes-ninlil",
+    "culture": "mesopotamian",
+    "name": "Ninlil",
+    "native_name": "Ninlil",
+    "alternative_names": [
+      "Ninlil",
+      "Ningal"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the moon (as consort of Enlil)",
+      "the 'light' of Enlil"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-enlil"
+    ],
+    "children": [
+      "mes-nanna"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-enlilandninlil-2",
+      "mes-art-file-bead-dedicated-to-ninlil-by-kurigalzu-i-or-"
+    ],
+    "description_short": "The consort of Enlil; in some accounts she is the moon-goddess (or the 'light' of Enlil). She is the mother of Nanna (the moon god).",
+    "description_long": "Ninlil is the consort of Enlil [S5]. In some accounts, she is the moon-goddess (or the 'light' of Enlil) [S5]. She is the mother of Nanna (the moon god) [S5]. Ninlil's myth: in one Sumerian text, Enlil seduces Ninlil (while she is in the underworld), and she bears Nanna (the moon) there [S5]. Ninlil is the 'light' of Enlil — the moonlight that follows the storm-god [S5].",
+    "interesting_facts": [
+      "The consort of Enlil [S5].",
+      "The mother of Nanna (the moon god) [S5].",
+      "In one myth, Enlil seduces her in the underworld [S5]."
+    ],
+    "uncertainty_notes": [
+      "Ninlil's 'moon' role is debated: in some accounts she is the moon-goddess, in others she is simply Enlil's consort [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-enlilandninlil-2"
+  },
+  {
+    "id": "mes-nanna",
+    "culture": "mesopotamian",
+    "name": "Nanna (Sin)",
+    "native_name": "Nanna",
+    "alternative_names": [
+      "Sin (Akkadian)",
+      "Nanna (Sumerian)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the moon",
+      "time",
+      "the calendar",
+      "fate (the moon-god decrees fates)"
+    ],
+    "symbols": [
+      "the crescent moon",
+      "the disc"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "mes-enlil",
+      "mes-ninlil"
+    ],
+    "siblings": [],
+    "partners": [
+      "mes-ninagal"
+    ],
+    "children": [
+      "mes-utu",
+      "mes-inanna"
+    ],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "mes-sky"
+    ],
+    "associated_places": [
+      "Ur (his great temple)"
+    ],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-urfa-museum-sin-temple-votive-stele-iron-ag",
+      "mes-art-file-plaque-of-nanna-and-ningal-moon-god-and-god"
+    ],
+    "description_short": "The moon god, the god of time, the calendar, and fate; his great temple was at Ur. In Sumerian tradition he is the son of Enlil; in Akkadian he is called Sin. Father of Utu (Shamash) and Inanna (Ishtar).",
+    "description_long": "'Nanna' (Sumerian; 'Sin' in Akkadian) is the moon god, the god of time, the calendar, and fate [S5][S6]. His great temple was at Ur (the 'Ehursag') [S5][S6]. In Sumerian tradition, Nanna is the son of Enlil (and Ninlil) [S5]. In Akkadian, he is called Sin [S5]. Nanna is the father of Utu (the sun god, Akkadian 'Shamash') and Inanna (the love/war goddess, Akkadian 'Ishtar') [S5]. The moon-god decrees fates (the 'me') — the moon's phases are the measure of time [S5]. Nanna's 'time' role makes him the god of the calendar and of the measurement of the months [S5].",
+    "interesting_facts": [
+      "The moon god, the god of time, the calendar, and fate [S5].",
+      "His great temple was at Ur (the 'Ehursag') [S5][S6].",
+      "Son of Enlil (and Ninlil) [S5].",
+      "Father of Utu (Shamash) and Inanna (Ishtar) [S5]."
+    ],
+    "uncertainty_notes": [
+      "Nanna's parentage varies: in some texts he is the son of Enlil, in others he is a 'self-existing' god [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-urfa-museum-sin-temple-votive-stele-iron-ag"
+  },
+  {
+    "id": "mes-utu",
+    "culture": "mesopotamian",
+    "name": "Utu (Shamash)",
+    "native_name": "Utu",
+    "alternative_names": [
+      "Shamash (Akkadian)",
+      "Utu (Sumerian)"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the sun",
+      "justice",
+      "the 'light' that reveals the truth",
+      "the 'day'"
+    ],
+    "symbols": [
+      "the sun-disc",
+      "the 'saw' (the sun's disc as a saw that cuts through the night)"
+    ],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "mes-nanna"
+    ],
+    "siblings": [
+      "mes-inanna"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [
+      "mes-enki"
+    ],
+    "enemies": [],
+    "associated_realms": [
+      "mes-sky",
+      "mes-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Epic of Gilgamesh (Standard Babylonian version)",
+        "date": "c. 1200 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-shamash-seal"
+    ],
+    "description_short": "The sun god, the god of justice and the 'light' that reveals the truth; in Akkadian he is called Shamash. The sun-god travels through the underworld by night (the 'journey of the sun through the Duat' equivalent).",
+    "description_long": "'Utu' (Sumerian; 'Shamash' in Akkadian) is the sun god, the god of justice and the 'light' that reveals the truth [S5][S6]. The sun-god travels across the sky by day and through the underworld by night (the 'journey of the sun') [S5]. Utu is the god of justice: he 'sees' all, and his light reveals the truth [S5]. In the 'Utnapishtim' flood-story and other texts, Utu is a 'judge' who sees the wickedness of humanity [S2]. Utu is the brother of Inanna (Ishtar) [S5]. Utu's 'justice' role makes him the patron of the oaths and the courts [S5].",
+    "interesting_facts": [
+      "The sun god, the god of justice [S5].",
+      "Travels through the underworld by night (the 'journey of the sun') [S5].",
+      "The 'light' that reveals the truth [S5].",
+      "The brother of Inanna (Ishtar) [S5]."
+    ],
+    "uncertainty_notes": [
+      "Utu's 'justice' role is central; his 'sun-journey' (through the underworld by night) is a distinct mythic cycle [S5]."
+    ],
+    "hero_artwork": "mes-art-shamash-seal",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-inanna",
+    "culture": "mesopotamian",
+    "name": "Inanna (Ishtar)",
+    "native_name": "Inanna",
+    "alternative_names": [
+      "Ishtar (Akkadian)",
+      "Inanna (Sumerian)"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "love",
+      "sexuality",
+      "war",
+      "fertility",
+      "the 'queen of heaven'",
+      "the morning/evening star (Venus)"
+    ],
+    "symbols": [
+      "the eight-pointed star (Venus)",
+      "the lion",
+      "the date-palm"
+    ],
+    "animals": [
+      "the lion",
+      "the date-palm"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "mes-nanna"
+    ],
+    "siblings": [
+      "mes-utu"
+    ],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-erishkigal"
+    ],
+    "associated_realms": [
+      "mes-sky",
+      "mes-underworld"
+    ],
+    "associated_places": [
+      "Uruk (her great temple)"
+    ],
+    "major_myths": [
+      "mes-inanna-descent",
+      "mes-inanna-erishkigal"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Inanna's Descent to the Underworld",
+        "date": "c. 1900-1700 BCE (Sumerian)",
+        "ref": "S4",
+        "url": "https://en.wikipedia.org/wiki/Inanna%27s_Descent_to_the_Underworld"
+      },
+      {
+        "type": "text",
+        "name": "Epic of Gilgamesh (Standard Babylonian version)",
+        "date": "c. 1200 BCE",
+        "ref": "S2",
+        "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-inanna-star",
+      "mes-art-ishtar-gate",
+      "mes-art-ishtar-hymn"
+    ],
+    "description_short": "The great goddess of love, sexuality, war, and fertility; 'queen of heaven'; the morning/evening star (Venus); her great temple was at Uruk. In Akkadian she is Ishtar. She descends to the underworld and is restored (the 'Inanna's Descent' myth).",
+    "description_long": "'Inanna' (Sumerian; 'Ishtar' in Akkadian) is the great goddess of love, sexuality, war, and fertility [S4][S5][S6]. She is the 'queen of heaven', the morning/evening star (Venus) [S5]. Her great temple was at Uruk (the 'Eanna') [S5][S6]. Inanna is the most complex of the Mesopotamian deities: she is both the goddess of love and the goddess of war, both the life-giver and the death-bringer [S4][S5]. The great myth of 'Inanna's Descent to the Underworld': Inanna descends to the underworld to attend the funeral of her sister Ereshkigal (the underworld-goddess), is stripped of her powers at the seven gates, is killed, and is restored by Enki (who sends a being to bring her back) [S4][S5]. The 'Descent' is a myth of death and resurrection, and is one of the oldest attested 'descent-and-return' myths [S4][S5]. Inanna's 'Venus' role (the morning/evening star) makes her the goddess of the 'star' (the eight-pointed star is her symbol) [S5].",
+    "interesting_facts": [
+      "The great goddess of love, sexuality, war, and fertility [S4][S5].",
+      "The 'queen of heaven', the morning/evening star (Venus) [S5].",
+      "Her great temple was at Uruk (the 'Eanna') [S5][S6].",
+      "The 'Inanna's Descent' myth (death and resurrection) [S4][S5].",
+      "The eight-pointed star is her symbol [S5]."
+    ],
+    "uncertainty_notes": [
+      "Inanna's 'love' and 'war' roles are not separate: she is a single, complex goddess who embodies both [S4][S5].",
+      "The 'Descent' myth has multiple versions (Sumerian c. 1900-1700 BCE; later Akkadian versions); the details vary [S4]."
+    ],
+    "hero_artwork": "mes-art-inanna-star",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-erishkigal",
+    "culture": "mesopotamian",
+    "name": "Ereshkigal",
+    "native_name": "Ereshkigal",
+    "alternative_names": [
+      "Nergal's consort (in some accounts)"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the underworld",
+      "the queen of the dead",
+      "the 'dark'"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-erishkigal-consort"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-inanna"
+    ],
+    "associated_realms": [
+      "mes-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [
+      "mes-inanna-descent"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Inanna's Descent to the Underworld",
+        "date": "c. 1900-1700 BCE (Sumerian)",
+        "ref": "S4",
+        "url": "https://en.wikipedia.org/wiki/Inanna%27s_Descent_to_the_Underworld"
+      },
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-ereshkigal-burney"
+    ],
+    "description_short": "The queen of the underworld, the 'dark' goddess of the dead; Inanna's sister (in some accounts) or adversary. In the 'Descent' myth, Inanna attends her funeral (or is her guest) and is killed there.",
+    "description_long": "'Ereshkigal' is the queen of the underworld, the 'dark' goddess of the dead [S4][S5]. She is the lord of the 'irigal' (the underworld) [S5]. In the 'Inanna's Descent' myth, Inanna descends to the underworld to attend Ereshkigal's funeral (or is her guest), and is killed there [S4][S5]. Ereshkigal is Inanna's sister (in some accounts) or her adversary [S4][S5]. Ereshkigal's consort is Nergal (the underworld-god, in some accounts) [S5]. Ereshkigal is the 'dark' counterpart of Inanna (the 'light' goddess) [S4][S5].",
+    "interesting_facts": [
+      "The queen of the underworld, the 'dark' goddess of the dead [S4][S5].",
+      "Inanna's sister (in some accounts) or adversary [S4][S5].",
+      "The 'Descent' myth: Inanna is killed at her funeral [S4][S5]."
+    ],
+    "uncertainty_notes": [
+      "Ereshkigal's relationship to Inanna (sister vs. adversary) varies by version [S4][S5]."
+    ],
+    "hero_artwork": "mes-art-ereshkigal-burney",
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-nergal",
+    "culture": "mesopotamian",
+    "name": "Nergal",
+    "native_name": "Nergal",
+    "alternative_names": [
+      "Nergal"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the underworld",
+      "the plague",
+      "the 'lord of the netherworld'",
+      "war (in some accounts)"
+    ],
+    "symbols": [
+      "the 'lion' (in some accounts)",
+      "the 'snake'"
+    ],
+    "animals": [
+      "the lion",
+      "the snake"
+    ],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-erishkigal"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [
+      "mes-underworld"
+    ],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-ancient-parthian-relief-carving-of-the-god-",
+      "mes-art-file-nergal-symbol-old-babylonian-fired-clay-pla"
+    ],
+    "description_short": "The underworld god, the 'lord of the netherworld', the god of the plague; in some accounts he is Ereshkigal's consort. In the 'Nergal and Ereshkigal' myth, he 'rapes' (or marries) Ereshkigal and becomes her consort.",
+    "description_long": "'Nergal' is the underworld god, the 'lord of the netherworld', the god of the plague [S5]. In some accounts, he is Ereshkigal's consort [S5]. The 'Nergal and Ereshkigal' myth: Nergal 'rapes' (or marries) Ereshkigal, and becomes her consort and the lord of the underworld [S5]. Nergal is the god of the plague and the 'dark' power of the underworld [S5]. He is also a war-god (in some accounts) [S5]. Nergal's 'plague' role makes him a feared deity — his 'dark' power is the power of death and disease [S5].",
+    "interesting_facts": [
+      "The underworld god, the 'lord of the netherworld' [S5].",
+      "The god of the plague [S5].",
+      "Ereshkigal's consort (in the 'Nergal and Ereshkigal' myth) [S5]."
+    ],
+    "uncertainty_notes": [
+      "Nergal's 'raping' of Ereshkigal is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god-"
+  },
+  {
+    "id": "mes-marduk",
+    "culture": "mesopotamian",
+    "name": "Marduk",
+    "native_name": "Marduk",
+    "alternative_names": [
+      "Marduk"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the 'storm' (in the Babylonian period)",
+      "king of the gods (Babylonian period)",
+      "creation",
+      "the 'flood' (in the Enuma Elish)"
+    ],
+    "symbols": [
+      "the 'mullu' (a composite creature: the bull-lion-eagle-snake)",
+      "the 'Tablet of Destinies'",
+      "the bow"
+    ],
+    "animals": [
+      "the 'mullu' (the composite creature)"
+    ],
+    "weapons": [
+      "the bow",
+      "the mace",
+      "the net",
+      "the 'wind' (the 'rakasu' winds)"
+    ],
+    "sacred_objects": [
+      "the 'Tablet of Destinies'"
+    ],
+    "parents": [
+      "mes-enki"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [
+      "mes-tiamat",
+      "mes-kingu"
+    ],
+    "associated_realms": [
+      "mes-sky"
+    ],
+    "associated_places": [
+      "Babylon (his great temple: the Esagila)"
+    ],
+    "major_myths": [
+      "mes-enuma"
+    ],
+    "primary_sources": [
+      {
+        "type": "text",
+        "name": "Enuma Elish (Babylonian Creation Epic)",
+        "date": "Old Babylonian version c. 18th c. BCE; standard form c. 1100-1000 BCE",
+        "ref": "S1",
+        "url": "https://en.wikipedia.org/wiki/Enuma_Elish"
+      },
+      {
+        "type": "museum",
+        "name": "Met Museum Mesopotamian collection (open access)",
+        "date": "museum",
+        "ref": "S6",
+        "url": "https://www.metmuseum.org/art/collection/search/FA2667E5-846E-4D48-9C0D-5B1E3B1A6D8B"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-marduk-tiamat-battle-from-enuma-elish-repai"
+    ],
+    "description_short": "The Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period; in the Enuma Elish he slays Tiamat and creates the world from her body. His great temple was at Babylon (the Esagila).",
+    "description_long": "'Marduk' is the Babylonian supreme god, the 'storm' god, the king of the gods in the Babylonian period [S1][S6]. In the Enuma Elish, Marduk is chosen by the gods to fight Tiamat; he slays her with his bow, net, and 'rakasu' winds, and splits her body in two to make the sky (the upper half) and the earth (the lower half) [S1]. From Kingu's blood (Tiamat's general), Marduk creates humanity [S1]. Marduk takes the 'Tablet of Destinies' (the symbol of cosmic authority) from Kingu [S1]. Marduk's great temple was at Babylon (the Esagila) [S6]. Marduk's 'supremacy' is a political/theological development: as Babylon rose to power (Old Babylonian period, c. 2000-1600 BCE), Marduk rose to be the king of the gods [S1][S6]. The Enuma Elish (the 'New Year' festival text) is the great myth of Marduk's supremacy [S1].",
+    "interesting_facts": [
+      "The Babylonian supreme god, the 'storm' god [S1][S6].",
+      "In the Enuma Elish, he slays Tiamat and creates the world [S1].",
+      "Takes the 'Tablet of Destinies' from Kingu [S1].",
+      "His great temple was at Babylon (the Esagila) [S6].",
+      "His 'supremacy' is a political/theological development (Babylonian rise) [S1][S6]."
+    ],
+    "uncertainty_notes": [
+      "Marduk's 'supremacy' is period-specific: Old Babylonian (rises) → Neo-Babylonian (supreme) → Achaemenid/Persian (declines) [S1][S6]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-marduk-tiamat-battle-from-enuma-elish-repai"
+  },
+  {
+    "id": "mes-antum",
+    "culture": "mesopotamian",
+    "name": "Antu (Anatum)",
+    "native_name": "Antu",
+    "alternative_names": [
+      "Anatum",
+      "Antu"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the 'consort of An'",
+      "the 'sky' (as consort)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-apas"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [],
+    "description_short": "The consort of An (the sky god); the 'sky' as a female principle (in some accounts).",
+    "description_long": "'Antu' (also 'Anatum') is the consort of An (the sky god) [S5]. She is the 'sky' as a female principle (in some accounts) [S5]. Antu is less well-attested as a distinct deity than An; she is the 'consort of the sky' [S5].",
+    "interesting_facts": [
+      "The consort of An (the sky god) [S5]."
+    ],
+    "uncertainty_notes": [
+      "Antu is less well-attested as a distinct deity than An [S5]."
+    ],
+    "evidence_status": "attested"
+  },
+  {
+    "id": "mes-ninhursag",
+    "culture": "mesopotamian",
+    "name": "Ninhursag",
+    "native_name": "Ninhursag",
+    "alternative_names": [
+      "Ninhursag",
+      "Nin-hursag"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the earth",
+      "the 'mother' of the gods",
+      "the 'mistress of the mountains'"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-ninhursag1",
+      "mes-art-file-copper-alloy-bull-from-tell-al-ubaid"
+    ],
+    "description_short": "The 'earth-mother', the 'mistress of the mountains'; in some accounts a consort of Enlil or a mother-figure. Her name means 'Lady of the Mountain'.",
+    "description_long": "'Ninhursag' (also 'Nin-hursag') is the 'earth-mother', the 'mistress of the mountains' — her name means 'Lady of the Mountain' [S5]. She is a mother-figure in the Sumerian pantheon, the 'mother' of the gods (in some accounts) [S5]. Ninhursag is the 'earth' as a female principle [S5]. She is less well-attested as a distinct deity than the great gods; she is the 'earth-mother' principle [S5].",
+    "interesting_facts": [
+      "The 'earth-mother', the 'mistress of the mountains' [S5].",
+      "A mother-figure in the Sumerian pantheon [S5]."
+    ],
+    "uncertainty_notes": [
+      "Ninhursag is less well-attested as a distinct deity than the great gods [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ninhursag1"
+  },
+  {
+    "id": "mes-erishkigal-consort",
+    "culture": "mesopotamian",
+    "name": "Nergal (Ereshkigal's consort)",
+    "native_name": "Nergal",
+    "alternative_names": [],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "the underworld (as Ereshkigal's consort)"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-erishkigal"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
+    ],
+    "description_short": "Nergal as Ereshkigal's consort (the 'Nergal and Ereshkigal' marriage myth).",
+    "description_long": "Nergal as Ereshkigal's consort: in the 'Nergal and Ereshkigal' myth, Nergal 'rapes' (or marries) Ereshkigal and becomes her consort and the lord of the underworld [S5]. This is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5].",
+    "interesting_facts": [
+      "Nergal as Ereshkigal's consort [S5]."
+    ],
+    "uncertainty_notes": [],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
+  },
+  {
+    "id": "mes-ninagal",
+    "culture": "mesopotamian",
+    "name": "Ningal",
+    "native_name": "Ningal",
+    "alternative_names": [
+      "Ningal"
+    ],
+    "classification": "deity",
+    "gender": "female",
+    "domains": [
+      "the moon (as consort of Nanna)",
+      "the 'light' of the moon"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [],
+    "siblings": [],
+    "partners": [
+      "mes-nanna"
+    ],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-goddess-bau-from-ur-c-1800-bce-iraq-museum",
+      "mes-art-file-plaque-of-nanna-and-ningal-moon-god-and-god-2"
+    ],
+    "description_short": "The consort of Nanna (the moon god); the 'light' of the moon.",
+    "description_long": "'Ningal' is the consort of Nanna (the moon god) [S5]. She is the 'light' of the moon [S5]. Ningal is less well-attested as a distinct deity than Nanna; she is the 'consort of the moon' [S5].",
+    "interesting_facts": [
+      "The consort of Nanna (the moon god) [S5]."
+    ],
+    "uncertainty_notes": [
+      "Ningal is less well-attested as a distinct deity than Nanna [S5]."
+    ],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-goddess-bau-from-ur-c-1800-bce-iraq-museum"
+  },
+  {
+    "id": "mes-nabu",
+    "culture": "mesopotamian",
+    "name": "Nabu",
+    "native_name": "Nabu",
+    "alternative_names": [
+      "Nabu"
+    ],
+    "classification": "deity",
+    "gender": "male",
+    "domains": [
+      "writing",
+      "wisdom",
+      "the 'sage'",
+      "the 'scribes'"
+    ],
+    "symbols": [],
+    "animals": [],
+    "weapons": [],
+    "sacred_objects": [],
+    "parents": [
+      "mes-enki"
+    ],
+    "siblings": [],
+    "partners": [],
+    "children": [],
+    "allies": [],
+    "enemies": [],
+    "associated_realms": [],
+    "associated_places": [],
+    "major_myths": [],
+    "primary_sources": [
+      {
+        "type": "corpus",
+        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
+        "date": "corpus (Sumerian/Akkadian texts)",
+        "ref": "S5",
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "artworks": [
+      "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
+    ],
+    "description_short": "The god of writing and wisdom, the patron of the scribes; son of Enki (Ea).",
+    "description_long": "'Nabu' is the god of writing and wisdom, the patron of the scribes [S5]. He is the son of Enki (Ea) [S5]. Nabu is the 'sage' (the 'apku') and the patron of the scribal arts [S5]. His great temple was at Nippur (the 'Ezida') [S5].",
+    "interesting_facts": [
+      "The god of writing and wisdom [S5].",
+      "Son of Enki (Ea) [S5].",
+      "The patron of the scribes [S5]."
+    ],
+    "uncertainty_notes": [],
+    "evidence_status": "attested",
+    "hero_artwork": "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
+  }
 ]

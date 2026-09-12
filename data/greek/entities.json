@@ -51,8 +51,7 @@
     ],
     "uncertainty_notes": [
       "The precise 'nature' of Chaos (void vs. a personified entity) is interpretive; Hesiod only says it came first [S1]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "gre-gaia",
@@ -119,7 +118,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-roman-gaia-walters-54874"
+    ],
     "description_short": "Earth herself — the first solid being in Hesiod, mother of the Titans and mother of nearly every primordial lineage.",
     "description_long": "Gaia (Earth) is, in Hesiod's Theogony, the second named being after Chaos: from Chaos came Gaia, the broad breast that is the foundation of all [S1]. She is a mother to an extraordinary degree — she gives birth to Uranus (Sky), to the sea (Pontus), and to the mountains, and she is the mother of the Titans (with Uranus) [S1]. In myth she is also the avenger: she impregnates herself and bears the giant Typhon (or, in the Theogony, the monstrous Typhaon) in revenge for Uranus's mutilation by Cronus, and it is her counsel that sets Cronus against Uranus [S1][S5]. Cultically Gaia/Ge was venerated as the earth-mother at many sites; 'Gaia' is often the generic 'earth' while 'Ge' the deity [S6].",
     "interesting_facts": [
@@ -129,7 +130,7 @@
     "uncertainty_notes": [
       "The 'Typhon born of Gaia alone' passage (Theogony 810–820) is widely regarded as a later interpolation; we flag it [S1]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-roman-gaia-walters-54874"
   },
   {
     "id": "gre-ouranos",
@@ -205,8 +206,7 @@
     ],
     "uncertainty_notes": [
       "Aphrodite's birth from Ouranos's severed member (Theogony) vs. her birth from Zeus & Dione (Iliad) — a genuine variant, both stored [S1][S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "gre-cronus",
@@ -278,7 +278,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-kronos-o-saturno-inv-698-i-sec-a-c-fg",
+      "gre-art-file-head-of-kronos-or-of-saturn-formerly-consid"
+    ],
     "description_short": "Titan king who overthrew his father Ouranos and, in turn, was overthrown by his son Zeus.",
     "description_long": "Cronus is the youngest and last of the Titans, and the one Gaia chose to overthrow Ouranos with the flint sickle [S1]. He castrated his father and, with Rhea, reigned over the next age of the world [S1]. Warned by a prophecy (delivered by his parents) that he too would be overthrown by a child, Cronus swallowed each of his newborn children — Hestia, Demeter, Hera, Hades, and Poseidon — as they were born [S1][S5]. Rhea hid the infant Zeus in a Cretan cave, and Zeus, grown, forced Cronus to disgorge his siblings, then led them (with the help of the Cyclopes and Hecatoncheires) to war against the Titans: the Titanomachy [S1]. Defeated, Cronus and the other Titans were cast into Tartarus, with the Hecatoncheires set as guards [S1].",
     "interesting_facts": [
@@ -288,7 +291,7 @@
     "uncertainty_notes": [
       "The 'Cronus = Chronos (time)' identification is a secondary interpretive layer; we keep it as interpretation, not primary myth [S1][S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-kronos-o-saturno-inv-698-i-sec-a-c-fg"
   },
   {
     "id": "gre-rhea",
@@ -354,7 +357,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-eleusis-museum-rhea-cybele-statue-01"
+    ],
     "description_short": "Titaness, wife of Cronus, mother of the first Olympians; she hid Zeus from her husband.",
     "description_long": "Rhea is a Titaness, daughter of Gaia and Ouranos, and the wife of her brother Cronus [S1]. Mother of the first generation of Olympians, she was the one who saved Zeus: when Cronus was devouring their children, Rhea hid the newborn Zeus in a cave on Crete, and gave Cronus a stone wrapped in swaddling-clothes to swallow in his place [S1][S5]. This act preserved the line that would overthrow Cronus in the Titanomachy [S1].",
     "interesting_facts": [
@@ -362,7 +367,7 @@
       "The Cretan cave where Zeus hid is one of the sacred sites Pausanias describes [S6]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-eleusis-museum-rhea-cybele-statue-01"
   },
   {
     "id": "gre-zeus",
@@ -584,7 +589,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-farnese-hera-49345482287"
+    ],
     "description_short": "Queen of the gods, wife of Zeus, goddess of marriage and the protection of women and kings.",
     "description_long": "Hera is the queen of Olympus and Zeus's wife (and, in Hesiod, his sister) [S1]. Goddess of marriage, the family, and the protection of women, she is also the protector of kings and their authority — her wrath, famously, falls on those who dishonor the institution of marriage [S2][S3]. In the Iliad her long resentment of Zeus's many affairs drives much of the plot, and she takes the side of the Greeks [S2]. Her sacred animals include the peacock and the cow (Io, a maiden she transformed into a heifer, is her most famous victim-turned-cow) [S2][S5]. Hera was worshipped at Argos, Samos, and elsewhere; the Heraion at Samos was one of the great sanctuaries [S6].",
     "interesting_facts": [
@@ -594,7 +601,7 @@
     "uncertainty_notes": [
       "Hera's 'jealousy' is a literary characterization prominent in Homer; cult practice emphasized her as a benevolent marriage-goddess [S2][S6]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-farnese-hera-49345482287"
   },
   {
     "id": "gre-hades",
@@ -1012,7 +1019,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-apollo-belvedere-vatican-museums",
+      "gre-art-file-apollo-belvedere-2"
+    ],
     "description_short": "God of the sun (in later association), music, poetry, prophecy, medicine, and archery; twin of Artemis.",
     "description_long": "Apollo is a god of many domains, and his identity shifted across the Greek world: earliest a god associated with light, youth, and the archery, he came to be strongly identified with the sun (a Hellenistic development — the 'sun-god' Apollo is later than the archer Apollo) [S4][S5]. He is the god of music (lyre), poetry (the Muse-calling), prophecy (his oracle at Delphi, the Pythia), medicine (his son Asclepius), and archery [S4][S5][S6]. He is the twin brother of Artemis, and both are children of Zeus and Leto (Latona) [S4]. As a child he slew the Python that guarded the Delphic oracle, founding his sanctuary there [S4][S5]. He is also a god of plague (he sent the arrow-plague on the Greeks in the Iliad's opening) and of its healing — a duality the sources preserve [S2][S4].",
     "interesting_facts": [
@@ -1024,7 +1034,7 @@
     "uncertainty_notes": [
       "Apollo's 'sun' association is later than his archer identity — we present both and date the shift [S4][S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-apollo-belvedere-vatican-museums"
   },
   {
     "id": "gre-artemis",
@@ -1103,7 +1113,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-artemis-of-ephesus-rome-musei-capitolini-ha",
+      "gre-art-file-artemis-ephesus-musei-capitolini-mc1182"
+    ],
     "description_short": "Goddess of the hunt, wild animals, and (in later association) the moon; twin of Apollo; protector of young women.",
     "description_long": "Artemis (Diana) is the goddess of the hunt, wild animals, and the wilderness, and the protector of young girls and of childbirth (she is a midwife-goddess in some cults) [S4][S5][S6]. Twin of Apollo, daughter of Zeus and Leto, she asked Zeus for eternal virginity and for the gifts of the hunt [S4][S5]. In later (Hellenistic/Roman) association she was linked to the moon (a development parallel to Apollo's link to the sun) [S4][S5]. She is a powerful, sometimes vengeful goddess: Actaeon was turned into a stag and torn by his own hounds for seeing her bathing; Orion was punished for his arrogance; Arachne was transformed for her hubristic weaving [S4][S5]. Her great sanctuary was at Ephesus (the Temple of Artemis, one of the Seven Wonders) and at Brauron in Attica [S6].",
     "interesting_facts": [
@@ -1115,7 +1128,7 @@
     "uncertainty_notes": [
       "Artemis's 'moon' link is a later development; the earliest Artemis is a huntress of the wilderness [S4][S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-artemis-of-ephesus-rome-musei-capitolini-ha"
   },
   {
     "id": "gre-ares",
@@ -1190,7 +1203,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-ares-ludovisi-altemps-inv8602-n2",
+      "gre-art-file-ares-ludovisi-01"
+    ],
     "description_short": "God of the violent, bloodier aspect of war; son of Zeus and Hera; lover of Aphrodite.",
     "description_long": "Ares (Mars) is the god of war — specifically its violent, brutal, blood-soaked aspect, as opposed to Athena's strategic, disciplined side of war [S2][S4]. Son of Zeus and Hera, he is one of the few Olympians born of a union that required no pregnancy in the usual sense (Hera 'conceived' him, in one account, without a consort) [S4][S5]. He is a major character in the Iliad, where he is a fierce combatant but is also treated with a mix of awe and disdain — the Greeks call him 'the hound of war' [S2]. His most famous myth is his affair with Aphrodite, caught in the act by her husband Hephaestus and displayed before the assembled gods in shame [S2][S5].",
     "interesting_facts": [
@@ -1200,7 +1216,7 @@
     "uncertainty_notes": [
       "Ares's 'born without a consort' account is one variant; the standard is Zeus & Hera [S4][S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-ares-ludovisi-altemps-inv8602-n2"
   },
   {
     "id": "gre-aphrodite",
@@ -1476,7 +1492,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-marble-statue-of-dionysus-met-dp117048",
+      "gre-art-file-marble-statue-of-dionysus-met-dp132163"
+    ],
     "description_short": "God of wine, ecstasy, theater, and fertility; the only Olympian born of a mortal mother (Semele).",
     "description_long": "Dionysus (Bacchus) is the god of wine, vine, ecstasy, theater, and fertility — a liminal, dual-natured god whose festivals (the Dionysia) were central to Athenian civic and religious life [S4][S5][S6]. He is the only Olympian born of a mortal mother: his mother Semele, a mortal princess, was persuaded by Hera to demand proof of Zeus's divinity (a bolt of lightning), and was destroyed by it; Zeus saved the unborn child by sewing him into his thigh until he was ready to be born [S5]. (This is the standard account; a variant gives a double birth.) [S5] He is the patron of the theater — the great tragedy and comedy festivals at Athens were in his honor [S6]. He is a god of transformation and ecstasy, and his followers (the Maenads) are in a state of divine frenzy [S5][S6].",
     "interesting_facts": [
@@ -1487,7 +1506,7 @@
     "uncertainty_notes": [
       "A 'double birth' (Semele then Zeus's thigh) is one account; we note the variant [S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-marble-statue-of-dionysus-met-dp117048"
   },
   {
     "id": "gre-hephaestus",
@@ -1568,7 +1587,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-athena-and-hephaestus-frieze-of-the-parthen"
+    ],
     "description_short": "God of fire and the forge, the divine smith who made the gods' weapons; married to Aphrodite.",
     "description_long": "Hephaestus (Vulcan) is the god of fire, the forge, and craft — the divine blacksmith who made the gods' finest weapons and treasures, including Zeus's thunderbolt and his own net that caught Ares and Aphrodite [S1][S2][S4][S5]. His parentage is a genuine variant: in the Iliad he is the son of Hera alone (Hera, spurned by Zeus, produced him without a consort, in a fit of spite); in the Theogony he is the son of Zeus and Hera [S1][S2]. He is lame (in one account he was thrown from Olympus by Zeus and crippled in the fall) and dwells in an underground forge, often associated with volcanoes [S2][S4][S5]. Despite his ugliness and lameness, he is the only god who can match Zeus in craft, and he is married to the beautiful Aphrodite (a union that is itself a source of myth, given her affair with Ares) [S2][S4][S5].",
     "interesting_facts": [
@@ -1579,7 +1600,7 @@
     "uncertainty_notes": [
       "His parentage (Hera alone vs. Zeus & Hera) is a real variant between the Iliad and Theogony; we store both [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-athena-and-hephaestus-frieze-of-the-parthen"
   },
   {
     "id": "gre-demeter",
@@ -1825,7 +1846,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-hestia-giustiniani",
+      "gre-art-file-hestia-wellesley-college-dsc09634"
+    ],
     "description_short": "Goddess of the hearth and the home, the eldest of the Olympians; she renounced a seat on Olympus to let Zeus divide the world.",
     "description_long": "Hestia is the goddess of the hearth, the home, and the domestic flame — the eldest of the first-born children of Cronus and Rhea [S1][S5]. She is a serene, non-combative deity, and in one famous account she renounced her place among the twelve Olympians, yielding her seat so that the world could be divided (or so that Dionysus could take it) [S5]. Her cult was the first sacrifice offered at the opening of any public gathering, and the hearth (hearth-fire) was the center of the Greek home and the city [S6]. She is a figure of domestic stability and continuity rather than dramatic myth.",
     "interesting_facts": [
@@ -1834,7 +1858,7 @@
       "The hearth-fire was the center of home and city; her sacrifice opened public gatherings [S6]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-hestia-giustiniani"
   },
   {
     "id": "gre-let-o",
@@ -1899,8 +1923,7 @@
       "Mother of Apollo and Artemis [S4].",
       "Barred from giving birth on earth by Hera; gave birth on Delos [S4][S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-metis",
@@ -1964,8 +1987,7 @@
       "Mother of Athena [S1][S4].",
       "Swallowed by Zeus to avert the prophecy that their child would overthrow him [S1][S4][S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-perseus",
@@ -2029,7 +2051,8 @@
       }
     ],
     "artworks": [
-      "gre-art-perseus-mirror"
+      "gre-art-perseus-mirror",
+      "gre-art-gorgon-olpe"
     ],
     "description_short": "Hero who slew the Gorgon Medusa and rescued Andromeda; aided by Athena, Hermes, and the gift of winged sandals.",
     "description_long": "Perseus is the hero who slew the Gorgon Medusa and rescued the maiden Andromeda from the sea-monster Cetus [S4][S5]. Son of Zeus and the Danaid Danaë, he was sent to fetch Medusa's head by the tyrant Polydectes; aided by Athena (who gave him a mirror-shield), Hermes (who gave him winged sandals and a sickle), and the Naiads, he beheaded Medusa — and from her blood sprang the winged horse Pegasus [S5]. He then rescued Andromeda, who was being offered to Cetus, and took her as his wife [S5]. Perseus is one of the canonical Greek heroes, and his story is a model of the divinely-aided hero.",
@@ -2163,7 +2186,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-set-anubis-typhon-bes-h-g-wells-outline-of-"
+    ],
     "description_short": "The greatest of the monsters, born of Gaia to avenge the Titans; he was the only being to seriously wound Zeus before being overthrown.",
     "description_long": "Typhon (Typhoeus) is the greatest and most terrifying of the Greek monsters, a hundred-headed (in some accounts) offspring of Gaia, born (in the Theogony, in a passage widely judged to be a later interpolation) to avenge the defeat of the Titans [S1]. He warred against the gods and was the only creature to seriously wound Zeus (who was cut and whose sinews were cut, causing him to fall) before Zeus recovered, regained his thunderbolt, and buried Typhon under Mount Etna — whose fires are explained as Typhon's breathing [S1][S5]. He is the father (with the monster Echidna) of many of the great monsters of Greek myth, including Cerberus, the Hydra, and the Chimera [S1][S5].",
     "interesting_facts": [
@@ -2174,7 +2199,7 @@
     "uncertainty_notes": [
       "The Typhon passage in the Theogony (lines 810–835) is widely regarded as a later interpolation, not Hesiod's own — we flag it [S1]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-set-anubis-typhon-bes-h-g-wells-outline-of-"
   },
   {
     "id": "gre-cerberus",
@@ -2245,8 +2270,7 @@
       "Captured by Heracles as his final labor [S5].",
       "Son of Typhon and Echidna [S1]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-heracles",
@@ -2316,7 +2340,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-zeus-hera-and-heracles-archaic-sculpture-ak"
+    ],
     "description_short": "The greatest of the Greek heroes, son of Zeus; he performed the twelve labors and was raised to Olympus.",
     "description_long": "Heracles (Hercules) is the greatest of the Greek heroes, the son of Zeus and the mortal Alcmena [S2][S5]. Driven to madness by Hera (who resented Zeus's affair with Alcmena) he killed his own children, and was later set to perform the twelve labors by King Eurystheus as penance — including capturing Cerberus, slaying the Nemean lion, and capturing the Cretan bull [S5]. After his death (he was burned on a pyre, set up by his wife or by fate), he was raised to Olympus and married the goddess Hebe [S5]. He is the model of the strength-hero, and his cult was widespread; he was a patron of athletes and of the city of Thebes (his birthplace) [S6].",
     "interesting_facts": [
@@ -2326,7 +2352,7 @@
       "Raised to Olympus after his death; married Hebe [S5]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-zeus-hera-and-heracles-archaic-sculpture-ak"
   },
   {
     "id": "gre-odysseus",
@@ -2386,7 +2412,9 @@
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-greek-vase-painting-archaic-or-geometric-po"
+    ],
     "description_short": "The cunning king of Ithaca, hero of the Odyssey; his ten-year journey home from Troy is a foundational epic.",
     "description_long": "Odysseus (Ulysses) is the king of Ithaca and the hero of Homer's Odyssey — the epic of his ten-year journey home from the Trojan War [S3]. A man of extraordinary cunning (his name is associated with 'metis,' cunning intelligence), he devised the Wooden Horse that won the Trojans the war [S2][S3], and he overcame a succession of monsters and gods on his way home: the Cyclops Polyphemus (whom he blinded and outwitted, calling himself 'Nobody'), the witch Circe, the Sirens, Scylla and Charybdis, and the cattle of the sun [S3]. His defining qualities are wit, endurance, and the desire to return home (nostos) to his wife Penelope and son Telemachus [S3].",
     "interesting_facts": [
@@ -2396,7 +2424,7 @@
       "King of Ithaca; husband of Penelope, father of Telemachus [S3]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-greek-vase-painting-archaic-or-geometric-po"
   },
   {
     "id": "gre-maia",
@@ -2452,7 +2480,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-pheneos-360-340-bc-silver-stater-head-of-ma"
+    ],
     "description_short": "Nymph, daughter of the Titan Atlas, and mother of Hermes by Zeus.",
     "description_long": "Maia is a nymph, one of the Pleiades (daughters of the Titan Atlas and the oceanid Pleione), and the mother of Hermes by Zeus [S1][S4][S5]. She is a minor figure, known chiefly as Hermes's mother; the Homeric Hymn to Hermes opens with her nursing the infant god in a cave [S4].",
     "interesting_facts": [
@@ -2460,7 +2490,7 @@
       "One of the Pleiades, daughter of Atlas [S1][S4]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-pheneos-360-340-bc-silver-stater-head-of-ma"
   },
   {
     "id": "gre-atlas",
@@ -2506,7 +2536,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-farnese-atlas-01-49344858118",
+      "gre-art-file-atlas-farnese-globe"
+    ],
     "description_short": "Titan condemned to hold up the sky (or the heavens) for eternity; father of the Pleiades.",
     "description_long": "Atlas is a Titan, son of Iapetus, who was punished by Zeus after the Titanomachy for siding with the Titans; he was condemned to hold up the sky (or the heavens) on his shoulders for eternity [S1][S5]. He is the father (with the oceanid Pleione) of the Pleiades, a group of sisters who were turned into stars [S1][S5]. He is also the father of the Hesperides and, in some accounts, of the Gorgons' mother Ceto. The 'holding up the sky' image is a later (post-Homeric) development; the earliest Atlas is a great Titan of strength [S5].",
     "interesting_facts": [
@@ -2517,7 +2550,7 @@
     "uncertainty_notes": [
       "The 'holding up the sky' punishment is a later development; we date it [S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-farnese-atlas-01-49344858118"
   },
   {
     "id": "gre-danae",
@@ -2565,8 +2598,7 @@
       "Imprisoned by her father Acrisius to prevent the oracle's fulfillment [S5].",
       "Mother of Perseus by Zeus (who came to her as a shower of gold) [S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-semele",
@@ -2614,8 +2646,7 @@
       "Mortal mother of Dionysus by Zeus [S5].",
       "Destroyed by a bolt of lightning; Zeus saved the unborn Dionysus in his thigh [S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-eros",
@@ -2669,7 +2700,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-eros-delf-n-farnese-01"
+    ],
     "description_short": "God of love and desire; in the Theogony a primordial force, in later myth the son of Aphrodite.",
     "description_long": "Eros (Cupid) is the god of love and desire. In Hesiod's Theogony he is a primordial being, born directly from Chaos — an impersonal force of attraction [S1]; in later myth he is the son of Aphrodite (and in some accounts of Ares), the winged child who drives gods and mortals to love [S4][S5]. The two conceptions coexist: the cosmic force and the charming child-god.",
     "interesting_facts": [
@@ -2678,7 +2711,7 @@
     "uncertainty_notes": [
       "Two conceptions (primordial force vs. Aphrodite's son) coexist across sources [S1][S4][S5]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-eros-delf-n-farnese-01"
   },
   {
     "id": "gre-andromeda",
@@ -2721,8 +2754,7 @@
     "interesting_facts": [
       "Rescued from the sea-monster Cetus by Perseus [S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-echidna",
@@ -2774,8 +2806,7 @@
     "interesting_facts": [
       "Mother (with Typhon) of Cerberus, the Hydra, the Chimera, the Sphinx, and more [S1][S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-oceanus",
@@ -2827,7 +2858,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-the-oceanus-and-tethys-mosaic"
+    ],
     "description_short": "Primordial Titan, personification of the great river that (in Greek thought) encircled the inhabited world.",
     "description_long": "Oceanus is the primordial Titan who personifies the great ocean-river that, in Greek cosmography, encircled the inhabited world (the oikoumene) [S1]. He is the eldest of the Titans and the consort of Tethys; together they are the parents of the rivers, the oceanids, and the winds [S1]. He is a vast, serene figure, more a cosmic boundary than an active god, but his role as the boundary of the world is cosmographically important.",
     "interesting_facts": [
@@ -2835,7 +2868,7 @@
       "Consort of Tethys; parent of rivers and oceanids [S1]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-the-oceanus-and-tethys-mosaic"
   },
   {
     "id": "gre-tethys",
@@ -2885,14 +2918,17 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "gre-art-file-greek-goddess-tethys",
+      "gre-art-file-tethys-83d40m-antakyamuseum-turkey"
+    ],
     "description_short": "Primordial Titaness, consort of Oceanus and mother of the rivers and oceanids.",
     "description_long": "Tethys is a primordial Titaness, daughter of Gaia and Ouranos, and the consort of her brother Oceanus [S1]. Together they are the parents of the rivers, the oceanids (sea-nymphs), and the winds [S1]. She is a vast, maternal figure associated with the productive waters of the world.",
     "interesting_facts": [
       "Consort of Oceanus; mother of rivers and oceanids [S1]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "gre-art-file-greek-goddess-tethys"
   },
   {
     "id": "gre-alcmena",
@@ -2944,8 +2980,7 @@
     "interesting_facts": [
       "Mother of Heracles by Zeus [S2][S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-penelope",
@@ -2990,8 +3025,7 @@
     "interesting_facts": [
       "Feigned to weave a shroud for Laertes, unwinding it each night to delay the suitors [S3]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-telemachus",
@@ -3036,8 +3070,7 @@
       "The Odyssey opens with his quest for his father (the 'telemachy') [S3].",
       "Aided by Athena (in disguise) [S3]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "gre-hebe",
@@ -3085,7 +3118,6 @@
       "Cup-bearer of the gods [S5].",
       "Married Heracles after his deification [S5]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   }
 ]

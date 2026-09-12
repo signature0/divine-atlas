@@ -47,8 +47,7 @@
       "Between Niflheim (ice) and Muspelheim (fire) [S2].",
       "The rime that dripped from it became Ymir [S1][S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-muspel",
@@ -98,8 +97,7 @@
       "Its heat began creation [S2].",
       "Surt, its fire-giant, burns the world at Ragnarök [S1][S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-niflheim",
@@ -148,8 +146,7 @@
     "interesting_facts": [
       "Source of the primordial rime [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-ymir",
@@ -206,8 +203,7 @@
       "His body became the world when the gods killed him [S2].",
       "His descendants (frost-giants) are the gods' chief enemies [S1][S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-aurdhumbla",
@@ -249,8 +245,7 @@
       "Licked Ymir free of the ice [S2].",
       "Búri (the first god) was formed from the salt she licked from the ice [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-burir",
@@ -296,8 +291,7 @@
     ],
     "uncertainty_notes": [
       "Búri's role is minimal in the sources; he is a genealogical link [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-borr",
@@ -346,8 +340,7 @@
     "interesting_facts": [
       "Father of Odin, Vili, and Vé [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-bestla",
@@ -395,8 +388,7 @@
       "Mother of Odin, Vili, and Vé [S2].",
       "Her giant lineage links the gods to the giants [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-odin",
@@ -570,8 +562,7 @@
     ],
     "uncertainty_notes": [
       "Vili is a 'thin' figure; the sources give him almost no independent myth [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-ve",
@@ -621,8 +612,7 @@
     ],
     "uncertainty_notes": [
       "Vé is a 'thin' figure [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-thor",
@@ -808,7 +798,7 @@
     "uncertainty_notes": [
       "The 'mistletoe' detail and Frigg's role vary across sources; the core is Baldr's death by Loki's hand [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-oseberg-ship"
   },
   {
     "id": "nor-baldr",
@@ -892,7 +882,7 @@
     "uncertainty_notes": [
       "Baldr's association with the sun is later and interpretive; the earliest Baldr is a god of light and beauty, not strictly the sun [S1][S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-baldr-cramer"
   },
   {
     "id": "nor-hodr",
@@ -932,7 +922,9 @@
         "url": "https://www.sacred-texts.com/neu/pse/index.htm"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-baldr-s-death-by-doepler"
+    ],
     "description_short": "The blind brother of Baldr, who unknowingly threw the mistletoe dart that killed his brother, at Loki's instigation.",
     "description_long": "Höðr is the blind brother of Baldr. At Loki's instigation (disguised as an old woman), Höðr was led to throw a mistletoe dart at Baldr, killing him [S2]. Höðr is a figure of tragic innocence — he did not know what he was doing, and he is the unwitting instrument of the great tragedy [S2].",
     "interesting_facts": [
@@ -940,7 +932,7 @@
       "Unwittingly killed Baldr at Loki's instigation [S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-baldr-s-death-by-doepler"
   },
   {
     "id": "nor-loomi",
@@ -1031,7 +1023,7 @@
     "uncertainty_notes": [
       "Loki's status (god vs. giant vs. trickster) is ambiguous in the sources; he is not a 'true' Æsir but is bound up with them [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-loki-frolich"
   },
   {
     "id": "nor-tyr",
@@ -1088,7 +1080,7 @@
       }
     ],
     "artworks": [
-      "nor-art-tyr-binding"
+      "nor-art-file-tyr-and-fenrir-john-bauer"
     ],
     "description_short": "God of war, justice, and law; he sacrificed his hand to bind the wolf Fenrir.",
     "description_long": "Týr is the god of war, justice, and law, and (in some accounts) of the sky. His defining act is the binding of the wolf Fenrir: the gods tricked Fenrir into letting them bind him, but only Týr was brave enough to place his hand in the wolf's mouth as a pledge of good faith; when the binding held, Fenrir bit off his hand [S2]. Týr is thus the god of the sacrifice of justice — he gave his hand to keep a promise, and he is the patron of oaths and of the law [S2]. His name gives 'Tuesday' (Tiw's day) [S3].",
@@ -1100,7 +1092,7 @@
     "uncertainty_notes": [
       "Týr's 'sky' association is later; the earliest Týr is a god of war and law [S2][S3]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-tyr-and-fenrir-john-bauer"
   },
   {
     "id": "nor-freyr",
@@ -1181,7 +1173,7 @@
     "uncertainty_notes": [
       "Freyr's 'sun' association is later; the earliest Freyr is a fertility god of the Vanir [S2][S3]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-gokstad-ship"
   },
   {
     "id": "nor-freyja",
@@ -1261,7 +1253,7 @@
     "uncertainty_notes": [
       "Freyja's seiðr (magic) was associated with taboo and with a 'unmanly' practice (argi) in some male sources; the sources are ambiguous about her own role [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-freyja-penrose"
   },
   {
     "id": "nor-nyrd",
@@ -1323,8 +1315,7 @@
       "Father of Freyr and Freyja [S2].",
       "Home is Nóatún, by the sea [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-heimdall",
@@ -1385,7 +1376,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-heimdall-wooden-statue"
+    ],
     "description_short": "The watchman of the gods, who guards the Bifrost and will sound the horn Gjallarhorn at Ragnarök; he and Loki will kill each other.",
     "description_long": "Heimdall is the watchman of the gods, the one who guards the Bifrost (the rainbow bridge to Asgard) and who can see and hear across the whole world [S2]. He is the god of the light and the dawn, and he will sound the horn Gjallarhorn to wake the gods at Ragnarök [S1][S2]. At the final battle, Heimdall and Loki will fight and kill each other [S1][S2]. His parentage is a genuine variant: in one account he is the son of Odin and of a giantess named Angrboða (which is odd, because Angrboða is elsewhere Loki's wife); in another he has nine mothers [S2].",
     "interesting_facts": [
@@ -1396,7 +1389,7 @@
     "uncertainty_notes": [
       "Heimdall's parentage is a genuine variant: son of Odin & Angrboða (odd, since she is elsewhere Loki's wife) vs. nine mothers [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-heimdall-wooden-statue"
   },
   {
     "id": "nor-vidar",
@@ -1455,7 +1448,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-vidar-by-hansen",
+      "nor-art-file-vidar-by-collingwood",
+      "nor-art-file-vidar-lindboe-hansen"
+    ],
     "description_short": "The silent son of Odin, who will avenge his father by slaying the wolf Fenrir at Ragnarök.",
     "description_long": "Víðarr is the son of Odin and (in one account) of the giantess Gríðr; he is a god of silence and of strength. At Ragnarök, he will avenge his father by slaying the wolf Fenrir, who has killed Odin, by kicking the wolf's lower jaw up and driving his sword through its head [S1][S2]. Víðarr is the 'silent' god — he speaks little, and his vengeance is the only one that succeeds at Ragnarök [S2].",
     "interesting_facts": [
@@ -1463,7 +1460,7 @@
       "Will avenge Odin by slaying Fenrir at Ragnarök [S1][S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-vidar-by-hansen"
   },
   {
     "id": "nor-vali",
@@ -1522,8 +1519,7 @@
     ],
     "uncertainty_notes": [
       "Váli's birth 'from Baldr's body' is a strange and unexplained detail in the sources [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-fenrir",
@@ -1606,7 +1602,7 @@
       "Will be avenged by Odin's son Víðarr [S1][S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-fenrir-hardy"
   },
   {
     "id": "nor-jormungandr",
@@ -1670,7 +1666,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-thor-und-die-midgardsschlange",
+      "nor-art-file-thor-hymir-and-the-midgard-serpent",
+      "nor-art-file-jormungandr"
+    ],
     "description_short": "The world-serpent, son of Loki, whom the gods cast into the sea; he encircles the world and will kill Thor at Ragnarök.",
     "description_long": "Jörmungandr (the Midgard Serpent) is the world-serpent, son of Loki and Angerboa [S2]. The gods, fearing him, cast him into the sea around Midgard, where he grew so large that he encircles the whole world and bites his own tail [S2]. Thor famously fishes him up in one episode (the great catch), but lets him go when he realizes the serpent's size [S2]. At Ragnarök, Jörmungandr rises from the sea, and Thor slays him — but walks nine steps and dies of the serpent's venom [S1][S2].",
     "interesting_facts": [
@@ -1679,7 +1679,7 @@
       "Thor slays him at Ragnarök but dies of his venom [S1][S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-thor-und-die-midgardsschlange"
   },
   {
     "id": "nor-hel",
@@ -1754,7 +1754,7 @@
     "uncertainty_notes": [
       "Hel's realm is distinct from Valhalla; the two 'afterlives' are different destinations [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-hel-zarubina"
   },
   {
     "id": "nor-sleipnir",
@@ -1813,7 +1813,7 @@
       "The only steed that can ride between the worlds [S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-odin-sleipnir-ms"
   },
   {
     "id": "nor-anguela",
@@ -1863,8 +1863,7 @@
     ],
     "uncertainty_notes": [
       "Note: some sources confuse Angerboa with Heimdall's mother; the sources are not consistent [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-sif",
@@ -1913,7 +1912,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-sif-by-dollman",
+      "nor-art-file-sif-was-queen-of-the-fields",
+      "nor-art-file-loki-and-sif-by-a-chase"
+    ],
     "description_short": "The wife of Thor, whose golden hair was cut off by Loki and regrown by dwarves as real gold.",
     "description_long": "Sif is the wife of Thor and the mother of Ullr (in some accounts). Her defining myth: Loki, in a fit of mischief, cut off her beautiful golden hair; Thor threatened to kill him, so Loki went to the dwarves and had them make new hair for her — real gold, which grew like real hair [S2]. Sif is a figure of beauty and of the domestic side of the Æsir [S2].",
     "interesting_facts": [
@@ -1921,7 +1924,7 @@
       "Her golden hair was cut by Loki and regrown by dwarves as real gold [S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-sif-by-dollman"
   },
   {
     "id": "nor-uthra",
@@ -1970,7 +1973,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-am-738-4to-39v-bw-ullr"
+    ],
     "description_short": "The archer-god, associated with winter, skiing, and archery; son of Thor.",
     "description_long": "Ullr is a god of the Æsir, associated with archery, skiing, and the winter [S2]. He is the son of Thor and Sif (in some accounts) [S2]. Ullr is a relatively minor figure, but he is the patron of archery and of the winter sports [S2].",
     "interesting_facts": [
@@ -1980,7 +1985,7 @@
     "uncertainty_notes": [
       "Ullr's parentage (son of Thor vs. son of the giant Trúðr) is a genuine variant [S2]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-am-738-4to-39v-bw-ullr"
   },
   {
     "id": "nor-nanna",
@@ -2028,8 +2033,7 @@
       "Wife of Baldr [S2].",
       "Followed Baldr in death (burned on his pyre, in one account) [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-forseti",
@@ -2071,14 +2075,16 @@
         "url": "https://www.sacred-texts.com/neu/pse/index.htm"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-forseti-zu-gericht-sitzend"
+    ],
     "description_short": "The son of Baldr, god of peace and reconciliation, who sits in the hall of Glitnir to settle disputes.",
     "description_long": "Fosite (Forsétir) is the son of Baldr and Nanna, and a god of peace, reconciliation, and justice. He sits in the hall of Glitnir, where he settles all disputes, and his judgments are accepted by all [S2].",
     "interesting_facts": [
       "Sits in the hall of Glitnir to settle disputes [S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-forseti-zu-gericht-sitzend"
   },
   {
     "id": "nor-magni",
@@ -2125,8 +2131,7 @@
       "Son of Thor and the giantess Járnsaxa [S2].",
       "Destined to carry on after Ragnarök [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-modi",
@@ -2172,8 +2177,7 @@
     "interesting_facts": [
       "Son of Thor and the giantess Járnsaxa [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-jarnsaxa",
@@ -2221,8 +2225,7 @@
     ],
     "uncertainty_notes": [
       "Járnsaxa is sometimes confused in retellings with Thor's own mother; the sources treat her as the mother of Thor's sons [S2]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "nor-gerd",
@@ -2266,8 +2269,7 @@
       "Beloved of Freyr [S2].",
       "Freyr gave his sword away to win her, and is slain unarmed at Ragnarök [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-ska",
@@ -2320,8 +2322,7 @@
       "Goddess of the hunt, mountains, skiing [S2].",
       "Married Njord, but the marriage failed (sea vs. mountains) [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-surt",
@@ -2372,7 +2373,9 @@
         "url": "https://www.sacred-texts.com/neu/pse/index.htm"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "nor-art-file-freyr-and-surtr-by-fr-lich"
+    ],
     "description_short": "The fire-giant of Muspelheim, who wields the great flame-sword and will destroy the world at Ragnarök.",
     "description_long": "Surt is the fire-giant of Muspelheim, who wields a sword whose flame shines brighter than the sun [S1][S2]. At Ragnarök he marches against the gods, and he slays Freyr (who is unarmed, having given away his sword) [S1][S2]. Finally Surt hurls his flame over the whole world, destroying it [S1][S2].",
     "interesting_facts": [
@@ -2381,7 +2384,7 @@
       "Slays Freyr at Ragnarök, then burns the world [S1][S2]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "nor-art-file-freyr-and-surtr-by-fr-lich"
   },
   {
     "id": "nor-hrungnir",
@@ -2425,8 +2428,7 @@
       "Giant of the iron head and iron belly [S2].",
       "Slew by Thor with Mjölnir [S2]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "nor-sid",
@@ -2471,7 +2473,6 @@
     ],
     "uncertainty_notes": [
       "Sleipnir's parentage is a variant: Loki-as-mare vs. Loki + Síd [S2]."
-    ],
-    "hero_artwork": null
+    ]
   }
 ]

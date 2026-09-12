@@ -180,7 +180,8 @@
     ],
     "artworks": [
       "slv-art-perun-oak",
-      "slv-art-idol-kyiv"
+      "slv-art-idol-kyiv",
+      "slv-art-bogatyr"
     ],
     "description_short": "The supreme thunder-god of the pre-Christian Slavs, the sky-father, god of thunder, lightning, war, and the sacred oak. His great idol stood on a hill in Kiev, destroyed in 980 CE.",
     "description_long": "Perun is the supreme thunder-god of the pre-Christian Slavs — the sky-father, the god of thunder, lightning, war, and the sacred oak [S1][S2][S4][S5]. He was the head of the Kiev pantheon: in the Primary Chronicle, the pagan ruler Vladimir of Kiev (980 CE) erected a great wooden idol of Perun on a hill (the 'Khorivets' hill) by the Dnieper, with a golden head and beard, and a row of other gods below [S1][S3]. The 'Tale of the Destruction of the Idols' (a later retelling) describes the idol being dragged into the river and destroyed in 980 [S3]. Perun's attributes: the hammer (the weapon that hurls thunder/lightning), the sacred oak (his tree), the sacred fire (he was 'the fire-god' in some accounts — the sacred flame that was not extinguished) [S4][S5][S6]. Perun is the great antagonist of Veles (the underworld god) in the reconstructed 'Perun-Veles' conflict [S6]. Perun's role is comparable to the Indo-European sky-father (Zeus, Thor, Dyaus Pitar) [S6].",
@@ -463,7 +464,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-io-dazhbog"
+    ],
     "description_short": "The 'day-god' or 'light-god' (his name means 'giving day' or 'giving light'); a sun god, in the Kiev pantheon.",
     "description_long": "Dazhbog (Dazh'bozh) is the 'day-god' or 'light-god' — his name is generally interpreted as 'giving day' or 'giving light' (from 'dazh' = day, 'bog' = god) [S1][S2][S4][S5]. He is a sun/light god in the Kiev pantheon [S1][S2]. His exact role is less well-attested than Perun or Veles: the sources name him but give little detail [S4]. He is sometimes identified with the sun, sometimes with the daylight in general [S4][S6]. A solar cult (the 'Dazhbog' sun-worship) is attested in folk survivals [S5].",
     "interesting_facts": [
@@ -475,8 +478,8 @@
       "Dazhbog's exact role is poorly attested: the sources name him but give little detail [S4].",
       "Whether 'Dazhbog' is a sun-god or a 'daylight' god is debated [S4][S6]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "slv-art-file-io-dazhbog"
   },
   {
     "id": "slv-khors",
@@ -540,7 +543,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-la-religion-ancienne-et-moderne-des-moscovi"
+    ],
     "description_short": "A solar god (a 'sun' deity) in the Kiev pantheon; less well-attested than Dazhbog.",
     "description_long": "Khors (Kors) is a solar god in the Kiev pantheon [S1][S2]. His exact relationship to Dazhbog (the 'day-god') is unclear: the two are both solar/light deities, and their distinction is not well-defined in the sources [S4]. Khors is named in the idol list but given little detail [S4]. Some scholars see Khors as a 'solar' god and Dazhbog as a 'daylight' god; others see them as overlapping [S6].",
     "interesting_facts": [
@@ -550,8 +555,8 @@
     "uncertainty_notes": [
       "The distinction between Khors and Dazhbog is not clear in the sources [S4][S6]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "slv-art-file-la-religion-ancienne-et-moderne-des-moscovi"
   },
   {
     "id": "slv-stribog",
@@ -617,7 +622,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-stribog-by-konenkov-1910-gtg-01-by-shakko",
+      "slv-art-file-stribog-schleusing"
+    ],
     "description_short": "The god of the wind, the air, the breath of the sky; in the Kiev pantheon. The 'Stribog' is the wind itself in folk belief.",
     "description_long": "Stribog is the god of the wind, the air, the breath of the sky [S1][S2][S4][S5]. In the Primary Chronicle, Stribog is named as the 'father of the winds' (he 'sends the winds') [S1]. In folk belief, the 'Stribog' is the wind itself, and the wind is sometimes personified as a deity [S5]. Stribog's role is clear (the wind-god) but his mythic biography is not attested [S4].",
     "interesting_facts": [
@@ -628,8 +636,8 @@
     "uncertainty_notes": [
       "Stribog's mythic biography is not attested; the sources name him as the wind-god but give no stories [S4]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "slv-art-file-stribog-by-konenkov-1910-gtg-01-by-shakko"
   },
   {
     "id": "slv-mokosh",
@@ -705,7 +713,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-mocossi",
+      "slv-art-file-mokosh-2-schleusing",
+      "slv-art-file-obec-moko-n-bohyn-moko"
+    ],
     "description_short": "The goddess of fertility, the earth, weaving, and the fate (the spinning of destiny); in the Kiev pantheon. Her name is the root of the common Slavic word for 'moisture/wetness'.",
     "description_long": "Mokosh (Mocoš) is the goddess of fertility, the earth, weaving, and the fate (the spinning of destiny) [S1][S2][S4][S5]. Her name is generally interpreted as related to the common Slavic word for 'moisture/wetness' (the life-giving wetness of the earth) [S4]. Mokosh is the patroness of women's work (weaving, spinning) and of the fate — the 'spinning of destiny' (the threads of life) [S5]. In folk belief, the 'Mokosh' is associated with the earth-mother, the fertility of the land, and the fate of the household [S5]. She is named in the Kiev idol list [S1][S2]. Her relationship to the 'fate-spinning' (the Moirai/Norns equivalent) is a reconstructed parallel [S6].",
     "interesting_facts": [
@@ -716,8 +728,8 @@
     "uncertainty_notes": [
       "Mokosh's 'fate-spinning' role is a reconstructed parallel to the Moirai/Norns, not a single attested myth [S6]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested"
+    "evidence_status": "attested",
+    "hero_artwork": "slv-art-file-mocossi"
   },
   {
     "id": "slv-lada",
@@ -780,7 +792,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-lada-by-konenkov-1909-tretyakov-gallery-01-",
+      "slv-art-file-lada-slovan-t-bohov-cesta-vody-zoo-ostrava-"
+    ],
     "description_short": "The goddess of spring, fertility, beauty, and the household; in folk belief the 'Lada' is the beloved, the beautiful one. Her status as a formal pre-Christian goddess is debated.",
     "description_long": "Lada is the goddess of spring, fertility, beauty, and the household [S4][S5]. In folk belief, the 'Lada' is the beloved, the beautiful one (the word 'lada' means 'beautiful, lovely, harmonious') [S5]. Lada is associated with the spring, the blossoming, the fertility of the land, and the harmony of the household [S4][S5]. Her status as a formal pre-Christian goddess (vs. a folk concept) is debated: the 'Lada' is more clearly a folk deity than a member of the formal Kiev pantheon [S6]. She is a 'spring/fertility' goddess, comparable to the Indo-European spring-maidens [S6].",
     "interesting_facts": [
@@ -791,8 +806,8 @@
     "uncertainty_notes": [
       "Lada's status as a formal pre-Christian goddess is debated; she is more clearly a folk concept [S6]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested (folk)"
+    "evidence_status": "attested (folk)",
+    "hero_artwork": "slv-art-file-lada-by-konenkov-1909-tretyakov-gallery-01-"
   },
   {
     "id": "slv-morana",
@@ -860,7 +875,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-letohr-dek-kinsk-ch-musaion-712",
+      "slv-art-file-morana-by-du-an-bo-i",
+      "slv-art-file-marzanna-matka-polski"
+    ],
     "description_short": "The goddess of death and winter; in folk tradition the 'drowning of Marzanna' (an effigy of the winter-goddess) is a spring-ritual that 'kills' winter and 'calls' spring. Her pre-Christian status is debated.",
     "description_long": "Morana (Marena, Morena) is the goddess of death and winter [S4][S5]. In folk tradition, the 'drowning of Marzanna' (the 'Marzanna'/'Morana' doll) is a spring-ritual: an effigy of the winter-goddess is made, carried around, and drowned in a river to 'kill' winter and 'call' spring [S5]. This is a well-attested folk ritual (the 'proshchanie s zimoi' = 'farewell to winter') [S5]. Morana's status as a formal pre-Christian goddess is debated: the 'Marzanna'/'Morana' is more clearly a folk death/winter figure than a member of the formal Kiev pantheon [S6]. She is the great antagonist of Jarilo (the spring/youth god) in the reconstructed seasonal cycle [S6].",
     "interesting_facts": [
@@ -872,8 +891,8 @@
       "Morana's status as a formal pre-Christian goddess is debated; she is more clearly a folk death/winter figure [S6].",
       "The 'Marzanna'/'Morana'/'Marena' are regional variants of the same winter/death figure [S5]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested (folk)"
+    "evidence_status": "attested (folk)",
+    "hero_artwork": "slv-art-file-letohr-dek-kinsk-ch-musaion-712"
   },
   {
     "id": "slv-jarilo",
@@ -939,7 +958,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "slv-art-file-jarilo"
+    ],
     "description_short": "The god of spring, youth, and the sun; in folk tradition the 'Kupala' night (the midsummer solstice) is a fire-and-water festival. His relationship to the 'Kupala' ritual is well-attested in folk tradition.",
     "description_long": "Jarilo (Yarilo) is the god of spring, youth, and the sun [S4][S5]. In folk tradition, the 'Kupala' night (the midsummer solstice, around June 23/24) is a fire-and-water festival: bonfires are lit, people leap over the fire, and the 'Kupala' flower (the fern-flower) is sought [S5]. The 'Kupala' ritual is well-attested in folk tradition across Slavic lands [S5]. Jarilo's relationship to the 'Kupala' festival is debated: some see Jarilo as the 'Kupala' god (the spring/youth/sun god), others see the 'Kupala' as a separate (possibly older) water/sun ritual [S6]. Jarilo is the great antagonist of Morana (the winter/death goddess) in the reconstructed seasonal cycle [S6].",
     "interesting_facts": [
@@ -951,8 +972,8 @@
       "The relationship between Jarilo and the 'Kupala' festival is debated: is Jarilo the 'Kupala' god, or is the 'Kupala' a separate older ritual? [S6].",
       "Jarilo's 'sun' role is debated; in some accounts he is the 'spring' god, in others the 'sun' god [S4][S6]."
     ],
-    "hero_artwork": null,
-    "evidence_status": "attested (folk)"
+    "evidence_status": "attested (folk)",
+    "hero_artwork": "slv-art-file-jarilo"
   },
   {
     "id": "slv-zorya",
@@ -1026,7 +1047,6 @@
       "Zorya's status as a formal pre-Christian goddess is debated; she is more clearly a folk dawn/star figure [S6].",
       "The 'two Zorya' (rising and setting) are a folk elaboration [S5]."
     ],
-    "hero_artwork": null,
     "evidence_status": "attested (folk)"
   },
   {
@@ -1091,7 +1111,6 @@
       "Cherd's pre-Christian status is debated; the 'Chert' is more clearly a folk/Christian figure [S6].",
       "Do not confuse the pre-Christian underworld-god with the Christian 'devil' — they are distinct, though the folk tradition merged them [S6]."
     ],
-    "hero_artwork": null,
     "evidence_status": "reconstructed"
   }
 ]

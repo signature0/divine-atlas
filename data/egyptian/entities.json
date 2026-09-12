@@ -134,8 +134,7 @@
     ],
     "uncertainty_notes": [
       "Nun's 'gender' is often given as male (Nun) with a female counterpart (Naunet); the sources treat the waters as a pair [S4]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "egy-apep",
@@ -195,7 +194,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-ra-slays-apep-tomb-scene-in-deir-el-medina-"
+    ],
     "description_short": "The great chaos serpent who tries each night to devour the sun god in the Duat; he is defeated every night — but must be defeated again.",
     "description_long": "Apep (Apophis) is the great serpent of chaos who dwells in the primordial waters and tries every night to devour the sun god Ra as Ra travels through the Duat (the underworld) [S2][S4]. At the hour of the sun's weakest point (around midnight), Apep strikes; the sun god (helped by Thoth and others) defeats him — often with a knife or by the 'Eye of Ra' (Sekhmet) [S2][S4]. The defeat is repeated nightly: Apep is not permanently destroyed, he is merely driven back. This nightly battle is the mythic basis for the Egyptian understanding of the sun's daily rising [S2][S4]. Priests performed rites each night to 'bind' Apep [S4].",
     "interesting_facts": [
@@ -206,7 +207,7 @@
     "uncertainty_notes": [
       "Apep's relationship to Nun (the primordial waters) is close but not identical: Apep is the active threat, Nun the passive pre-creation state [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-ra-slays-apep-tomb-scene-in-deir-el-medina-"
   },
   {
     "id": "egy-shu",
@@ -265,7 +266,11 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-shu-god",
+      "egy-art-file-amulet-depicting-the-god-shu-faience-museo-",
+      "egy-art-file-shu-separating-geb-and-nut"
+    ],
     "description_short": "God of the air, son of Atum-Ra (with Tefnut); he holds up the sky (Nut) to keep it from the earth (Geb).",
     "description_long": "Shu is the god of the air and the atmosphere, the first son of Atum-Ra [S1][S4]. He and his sister Tefnut (moisture) are the first divine pair born from the self-created god. Their children are Geb (earth) and Nut (sky) [S1][S4]. Shu's defining image is that of the supporter: he stands between earth and sky, holding Nut up with his hands so that the sky does not collapse onto the earth [S4]. He is a god of the ordered atmosphere — the space between the solid earth and the solid sky that the air (Shu) maintains [S4].",
     "interesting_facts": [
@@ -274,7 +279,7 @@
       "Father of Geb and Nut [S1][S4]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-shu-god"
   },
   {
     "id": "egy-tefnut",
@@ -338,7 +343,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-tefnut-goddess",
+      "egy-art-file-tefnut"
+    ],
     "description_short": "Goddess of moisture and rain, sister and consort of Shu; together they are the first divine pair.",
     "description_long": "Tefnut is the goddess of moisture, rain, and the cool air, the sister and consort of Shu [S4]. She is the first divine pair with Shu, and their children are Geb and Nut [S1][S4]. Tefnut is also associated with the 'Eye of Ra' — in one myth she is the angry eye that Ra sent out to punish humanity, and who became Sekhmet (or was calmed and became Hathor) [S3][S4].",
     "interesting_facts": [
@@ -349,7 +357,7 @@
     "uncertainty_notes": [
       "Tefnut's identification with the 'Eye of Ra' is one of several identifications; the Eye is a fluid concept in Egyptian thought [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-tefnut-goddess"
   },
   {
     "id": "egy-gebel",
@@ -410,7 +418,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-geb-god",
+      "egy-art-file-egyptian-god-geb-and-goddess-nut-from-the-g"
+    ],
     "description_short": "God of the earth, son of Shu and Tefnut; he is the father of Osiris, Isis, Set, and Nephthys.",
     "description_long": "Geb is the god of the earth, the solid ground, the source of fertility [S4]. He is the son of Shu and Tefnut and the husband of Nut (his sister) [S1][S4]. Geb and Nut are the parents of the four children who form the core of the Osiris cycle: Osiris, Isis, Set, and Nephthys [S1][S4]. The myth of Geb and Nut: Shu separated them, holding Nut up, because the earth-god and the sky-goddess were inseparable [S4]. Geb's domain is the fertile black soil of the Nile, the source of all life [S4].",
     "interesting_facts": [
@@ -419,7 +430,7 @@
       "Separated from Nut by Shu [S4]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-geb-god"
   },
   {
     "id": "egy-nut",
@@ -487,7 +498,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-geb-nut-shu"
+    ],
     "description_short": "Goddess of the sky, daughter of Shu and Tefnut; she swallows the sun each night and gives it birth each morning.",
     "description_long": "Nut is the goddess of the sky, the dome of the heavens studded with stars [S4]. She is the daughter of Shu and Tefnut and the wife of Geb (her brother) [S1][S4]. Nut's body arches over the earth: each night she swallows the sun (Ra) as it sets, carries it through her body through the night, and gives it birth again at dawn [S2][S4]. The sun's nightly journey through Nut's body is the same journey through the Duat (the underworld) where Apep waits [S2]. Nut is a goddess of the stars and of the cycle of death and rebirth that the sun performs daily [S4].",
     "interesting_facts": [
@@ -496,7 +509,7 @@
       "Mother of Osiris, Isis, Set, and Nephthys [S1][S4]."
     ],
     "uncertainty_notes": [],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-geb-nut-shu"
   },
   {
     "id": "egy-osiris",
@@ -997,7 +1010,10 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-seated-goddess-nephthys-inscribed-for-meres",
+      "egy-art-file-amulet-depicting-the-goddess-nephthys-faien"
+    ],
     "description_short": "The goddess of the dead and the protection of the mummy; sister of Osiris and Isis; she helped Isis restore her brother.",
     "description_long": "Nephthys is the goddess of the dead, the protection of the mummy, and the threshold (her name means 'lady of the house') [S4]. She is the sister of Osiris and Isis and the wife (in some accounts) of Set [S4]. In the Osiris cycle, Nephthys stands with Isis in grief and in the restoration of Osiris: the two sisters (Isis as the kite, Nephthys as the swallow) circle the body of Osiris, mourning and protecting it [S3][S4]. Nephthys is one of the four protectors of the canopic jars (the internal organs) in the Book of the Dead [S2][S4]. She is a goddess of the threshold — the boundary between the living and the dead — and of the protection of the mummy in the tomb [S4].",
     "interesting_facts": [
@@ -1008,7 +1024,7 @@
     "uncertainty_notes": [
       "Nephthys's relationship to Set (as his wife) is odd given that Set is the murderer of her brother; the sources treat it as a fact without explaining it [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-seated-goddess-nephthys-inscribed-for-meres"
   },
   {
     "id": "egy-ra",
@@ -1215,7 +1231,11 @@
         "url": "https://www.metmuseum.org/art/collection"
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-ptah-statue-met-2009-175-front",
+      "egy-art-file-statue-of-the-god-ptah-granodiorite-museo-e",
+      "egy-art-file-ptah-statue-met-dp216330"
+    ],
     "description_short": "The creator-god of Memphis, the divine craftsman who 'fashioned' the world in his heart and mouth; in the Memphite tradition he is the self-created first god.",
     "description_long": "Ptah is the creator-god of Memphis, the patron of craftsmen and sculptors [S4]. In the Memphite creation tradition (preserved in the 'Memphite Theology' inscribed on a statue of Ptah-Sokar-Osiris), Ptah is the self-created first god who created the world 'in his heart and with his mouth' — that is, by thought (the heart) and by speech (the mouth), naming things into existence [S4]. This is a distinct creation tradition from the Heliopolitan (Atum-Ra) and the Hermopolitan (Ogdoad) accounts [S4]. Ptah is the divine craftsman: he is the patron of sculptors, metalworkers, and all makers, and the temple workshops at Memphis were centers of artistic production [S4]. Ptah was later fused with Sokar (aMemphite god of the necropolis) and with Osiris to become 'Ptah-Sokar-Osiris' [S4].",
     "interesting_facts": [
@@ -1227,7 +1247,7 @@
     "uncertainty_notes": [
       "The Memphite Theology is a late (Saite period) text that 'reinterprets' Ptah as the supreme creator; earlier sources do not give Ptah this role [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-ptah-statue-met-2009-175-front"
   },
   {
     "id": "egy-thoth",
@@ -1383,7 +1403,7 @@
     "uncertainty_notes": [
       "The 'Eye of Ra' is a fluid concept: it is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-hathor-head"
   },
   {
     "id": "egy-bastet",
@@ -1604,7 +1624,7 @@
     "uncertainty_notes": [
       "Anubis's status declined in the later periods as Osiris took over much of his 'lord of the dead' role [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-anubis-jackal"
   },
   {
     "id": "egy-ogdoad-nun",
@@ -1651,8 +1671,7 @@
     ],
     "uncertainty_notes": [
       "The Ogdoad is one of several creation accounts; we do not treat it as 'the' Egyptian creation [S4]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "egy-ogdoad-heh",
@@ -1697,8 +1716,7 @@
     "interesting_facts": [
       "The second pair of the Hermopolitan Ogdoad [S4]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "egy-ogdoad-khnum",
@@ -1745,8 +1763,7 @@
     ],
     "uncertainty_notes": [
       "Do not confuse Khenunu (the Ogdoad 'mystery') with Khnum (the ram-headed god) [S4]."
-    ],
-    "hero_artwork": null
+    ]
   },
   {
     "id": "egy-ogdoad-sat",
@@ -1791,8 +1808,7 @@
     "interesting_facts": [
       "The fourth pair of the Hermopolitan Ogdoad [S4]."
     ],
-    "uncertainty_notes": [],
-    "hero_artwork": null
+    "uncertainty_notes": []
   },
   {
     "id": "egy-horus-elder",
@@ -1831,7 +1847,9 @@
         "url": null
       }
     ],
-    "artworks": [],
+    "artworks": [
+      "egy-art-file-haroeris-horus-the-greater-36320554561"
+    ],
     "description_short": "In some genealogies, an 'elder' Horus (Harsomatus) is the father of the younger Horus (son of Osiris).",
     "description_long": "In some Egyptian genealogies (especially the later 'syncrisis' that tried to merge the different traditions), there is an 'elder' Horus (Harsomatus, 'Horus of the South') who is the son of the original sky-falcon Horus and the father of the younger Horus (the son of Osiris and Isis) [S4]. This is one of the genuine complications in Egyptian genealogy: the sources do not consistently distinguish the 'sky-falcon' Horus from the 'son of Osiris' Horus [S4].",
     "interesting_facts": [
@@ -1840,6 +1858,6 @@
     "uncertainty_notes": [
       "The 'two Horuses' are sometimes merged, sometimes distinct; the sources are not consistent [S4]."
     ],
-    "hero_artwork": null
+    "hero_artwork": "egy-art-file-haroeris-horus-the-greater-36320554561"
   }
 ]
