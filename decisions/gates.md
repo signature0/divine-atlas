@@ -5,10 +5,10 @@
 
 | Gate | Name | Date | Approved by | Evidence / Notes |
 |---|---|---|---|---|
-| 1 | Discovery Approved | | PENDING PO | EV registry (docs/01-discovery/); Phase 1 corpus in research/ |
-| 2 | Requirements Approved | | PENDING PO | docs/03-requirements/requirements.md (retro-derived, 16 REQ + 6 TECH + 5 UX) |
-| 3 | Technical Approach Approved | | PENDING PO | ADR-001 + docs/DATA-SCHEMA.md + validate.mjs green |
-| 4 | Brand/UX Approved | | PENDING PO | docs/DESIGN-SYSTEM.md + shipped culture palettes |
+| 1 | Discovery Approved | 2026-09-13 | Mazen (PO) | EV registry docs/01-discovery/evidence-registry.md; Phase 1 corpus in research/ |
+| 2 | Requirements Approved | 2026-09-13 | Mazen (PO) | docs/03-requirements/requirements.md (16 REQ + 6 TECH + 5 UX) |
+| 3 | Technical Approach Approved | 2026-09-13 | Mazen (PO) | ADR-001 + docs/DATA-SCHEMA.md + validate.mjs green |
+| 4 | Brand/UX Approved | 2026-09-13 | Mazen (PO) | docs/DESIGN-SYSTEM.md + shipped culture palettes |
 | 5 | Implementation Complete | | PENDING orchestrator | board coverage + build success |
 | 6 | QA Passed | | PENDING orchestrator | Playwright route sweep + visual regression baselines (qa/baseline/) |
 | 7 | Design Review Passed | | PENDING PO | design-critic pass (docs/09-design-review/) |

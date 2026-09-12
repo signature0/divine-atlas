@@ -6,9 +6,9 @@
 Work began 2026-09-12, before this project joined Studio OS. Phases 1–2
 (research + Next.js app) are already DONE with evidence in git (`90cd87a` →
 `bef08be`). On 2026-09-13 the project was retro-adopted: board, gates, and
-requirement docs were created from the existing state. Gates 1–4 are
-**pending PO ratification** of the retro-documented artifacts (not rework —
-the PO's decisions are already embodied in the shipped data model and app).
+requirement docs were created from the existing state. Gates 1–4 were
+**ratified by the PO on 2026-09-13** (retro-docs, no rework — the PO's
+decisions were already embodied in the shipped data model and app).
 
 ## Pipeline depth decisions
 | Stage | Depth | Notes |
