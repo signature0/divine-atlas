@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   Entity, Relationship, Myth, Cosmology, Artwork, TimelineEvent,
-  Uncertainty, SourceRef, Culture, CultureData,
+  Uncertainty, SourceRef, Culture, CultureData, GraphData,
 } from './types';
 
 export const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
@@ -65,6 +65,20 @@ export function entityById(id: string): Entity | undefined {
 }
 export function cultureOfId(id: string): string | undefined {
   return id?.split('-')[0] ? entityById(id)?.culture : undefined;
+}
+
+// ---- global (cross-culture) dataset for the /graph explorer ----
+let _global: GraphData | null = null;
+export function globalData(): GraphData {
+  if (_global) return _global;
+  const all = Object.values(allCultures());
+  _global = {
+    entities: all.flatMap((d) => d.entities),
+    relationships: all.flatMap((d) => d.relationships),
+    myths: all.flatMap((d) => d.myths),
+    artworks: all.flatMap((d) => d.artworks),
+  };
+  return _global;
 }
 
 // ---- graph queries ----

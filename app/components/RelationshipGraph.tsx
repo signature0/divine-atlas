@@ -6,10 +6,9 @@ import { useMemo, useRef, useState, useEffect, useCallback, useId } from 'react'
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
-  CultureData, Relationship, Entity, EdgeCategory,
-  CATEGORY_TYPES, CATEGORY_COLORS, categoryOf,
+  GraphData, Relationship, Entity, EdgeCategory,
+  CATEGORY_COLORS, categoryOf, CULTURE_NAMES, CULTURE_ACCENTS,
 } from '../lib/types';
-import { SourceRef } from '../lib/types';
 
 const CATS: EdgeCategory[] = ['family', 'marriage', 'creation', 'conflict', 'alliance', 'association'];
 const CAT_LABELS: Record<EdgeCategory, string> = {
@@ -21,10 +20,16 @@ type Focus = 'all' | 'ancestors' | 'descendants' | 'enemies' | 'myths';
 type Node = { id: string; x: number; y: number; name: string; classification: string; img?: string };
 type Edge = { from: string; to: string; rel: Relationship; cat: EdgeCategory; bidir: boolean };
 
+// Round layout math before rendering: Math.cos/sin can differ by 1 ulp between
+// the Node (SSR) and browser (hydration) builds, which React flags as a
+// hydration mismatch. 1/100 SVG-unit precision is far below sub-pixel.
+const r2 = (n: number) => Math.round(n * 100) / 100;
+const r4 = (n: number) => Math.round(n * 10000) / 10000;
+
 // Best-image URL per entity (hero first, else first linked artwork with a direct image).
 // Preloaded at build time: SVG <image> can't lazy-load, so nodes without a
 // resolved URL fall back to the plain seal (initials) — never a broken image.
-function entityImageMap(data: CultureData): Record<string, string> {
+function entityImageMap(data: GraphData): Record<string, string> {
   const artById = new Map(data.artworks.map((a) => [a.id, a]));
   const out: Record<string, string> = {};
   for (const e of data.entities) {
@@ -37,12 +42,11 @@ function entityImageMap(data: CultureData): Record<string, string> {
   return out;
 }
 
-export function RelationshipGraph({ data, centerId }: { data: CultureData; centerId: string }) {
+export function RelationshipGraph({ data, centerId }: { data: GraphData; centerId?: string }) {
   const router = useRouter();
   const clipId = useId().replace(/:/g, '');
   const [cats, setCats] = useState<Set<EdgeCategory>>(new Set(CATS));
   const [focus, setFocus] = useState<Focus>('all');
-  const [view, setView] = useState({ x: 0, y: 0, k: 1 });
   const [hover, setHover] = useState<Edge | null>(null);
   const [imgLoaded, setImgLoaded] = useState<Set<string>>(new Set());
   const [imgFailed, setImgFailed] = useState<Set<string>>(new Set());
@@ -52,10 +56,12 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
   // entity id -> best image URL (artwork linked to that entity)
   const imgMap = useMemo(() => entityImageMap(data), [data]);
 
-  // ---- subgraph selection ----
-  const { nodes, edges } = useMemo(() => {
-    const center = data.entities.find((e) => e.id === centerId);
-    if (!center) return { nodes: [] as Node[], edges: [] as Edge[] };
+  // ---- subgraph selection + layout ----
+  // With a center: ring layout around it (the deity-page inset behavior).
+  // Without one (the /graph full atlas): one ring per culture, clusters in a grid.
+  const center = centerId ? data.entities.find((e) => e.id === centerId) : undefined;
+  const { nodes, edges, clusterLabels } = useMemo(() => {
+    if (!center) return layoutGlobal(data, cats, imgMap);
 
     // which edges survive filters?
     let pool = data.relationships.filter((r) => cats.has(categoryOf(r.type)));
@@ -125,15 +131,21 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
       ring.forEach((id, i) => {
         const a = (i / ring.length) * Math.PI * 2 - Math.PI / 2;
         const e = data.entities.find((x) => x.id === id)!;
-        nodeMap[id] = { id, x: CX + R * Math.cos(a), y: CY + R * Math.sin(a) * 0.72, name: e.name, classification: e.classification, img: imgMap[id] };
+        nodeMap[id] = { id, x: r2(CX + R * Math.cos(a)), y: r2(CY + R * Math.sin(a) * 0.72), name: e.name, classification: e.classification, img: imgMap[id] };
       });
     }
-    const isSym = (t: string) => ['SIBLING_OF', 'PARTNER_OF', 'ALLY_OF', 'ENEMY_OF', 'FOUGHT', 'ASSOCIATED_WITH'].includes(t);
     const edgeList: Edge[] = pool
       .filter((r) => nodeMap[r.from] && nodeMap[r.to] && r.from !== r.to)
       .map((r) => ({ from: r.from, to: r.to, rel: r, cat: categoryOf(r.type), bidir: isSym(r.type) }));
-    return { nodes: Object.values(nodeMap), edges: edgeList };
-  }, [data, centerId, cats, focus, imgMap]);
+    return { nodes: Object.values(nodeMap), edges: edgeList, clusterLabels: [] as ClusterLabel[] };
+  }, [data, center, cats, focus, imgMap]);
+
+  // View transform: identity for a centered graph, fitted to the clusters for
+  // the full atlas. Re-fits whenever the node set changes (filter/focus/seed).
+  const [view, setView] = useState(() => (center ? { x: 0, y: 0, k: 1 } : fitToView(nodes, clusterLabels)));
+  useEffect(() => {
+    setView(center ? { x: 0, y: 0, k: 1 } : fitToView(nodes, clusterLabels));
+  }, [nodes, clusterLabels, center]);
 
   const byId = useMemo(() => new Map(data.entities.map((e) => [e.id, e])), [data]);
 
@@ -191,8 +203,8 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
           </button>
         ))}
       </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 16 }}>
-        {(Object.keys(FOCUS_LABELS) as Focus[]).map((f) => (
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 16, alignItems: 'center' }}>
+        {center && (Object.keys(FOCUS_LABELS) as Focus[]).map((f) => (
           <button key={f} className={`chip-btn ${focus === f ? 'active' : ''}`} onClick={() => setFocus(f)}>
             {FOCUS_LABELS[f]}
           </button>
@@ -207,11 +219,21 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
       {/* canvas */}
       <div style={{ position: 'relative', border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden', background: 'var(--surface)' }}>
         <svg ref={svgRef} viewBox="0 0 800 520" role="img"
-          aria-label={`Relationship graph centered on ${byId.get(centerId)?.name}`}
+          aria-label={center
+            ? `Relationship graph centered on ${center.name}`
+            : `Cross-culture relationship graph, ${nodes.length} entities in ${clusterLabels.length} tradition clusters`}
           style={{ width: '100%', height: 'auto', display: 'block', cursor: 'grab', touchAction: 'none' }}
           onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp}
           onWheel={(e) => zoom(e.deltaY < 0 ? 1.12 : 0.89)}>
           <g transform={`translate(${view.x},${view.y}) scale(${view.k})`} style={{ transformOrigin: '400px 260px' }}>
+            {/* cluster labels (full-atlas mode) */}
+            {clusterLabels.map((l) => (
+              <text key={l.culture} x={l.x} y={l.y} textAnchor="middle"
+                fill={CULTURE_ACCENTS[l.culture] || 'var(--gold)'} opacity={0.9}
+                style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: 2 }}>
+                {l.text}
+              </text>
+            ))}
             {edges.map((e, i) => {
               const a = nodes.find((n) => n.id === e.from)!;
               const b = nodes.find((n) => n.id === e.to)!;
@@ -282,7 +304,7 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
             })}
           </g>
           {/* hover tooltip (screen coords approx) */}
-          {hover && (
+          {hover && edges.some((e) => e.from === hover.from && e.to === hover.to) && (
             <foreignObject x="12" y="12" width="330" height="90">
               <div style={{ background: 'var(--bg-2)', border: '1px solid var(--line)', borderRadius: 4, padding: '8px 10px', fontFamily: 'var(--font-mono)', fontSize: '0.64rem', color: 'var(--ink-0)' }}>
                 <div style={{ color: CATEGORY_COLORS[hover.cat], textTransform: 'uppercase', letterSpacing: 1, marginBottom: 3 }}>
@@ -308,6 +330,9 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
         <span style={{ color: 'var(--ink-2)', fontSize: '0.62rem', display: 'flex', alignItems: 'center', gap: 6 }}>
           <span style={{ width: 18, height: 0, borderTop: '2px dotted var(--ink-2)' }} /> reconstructed
         </span>
+        {clusterLabels.length > 0 && (
+          <span style={{ color: 'var(--ink-2)', fontSize: '0.62rem' }}>· each cluster is one tradition</span>
+        )}
       </div>
 
       {/* screen-reader / linear fallback */}
@@ -328,6 +353,68 @@ export function RelationshipGraph({ data, centerId }: { data: CultureData; cente
       </details>
     </div>
   );
+}
+
+// Symmetric relations render undirected (no arrowhead implied).
+const isSym = (t: string) => ['SIBLING_OF', 'PARTNER_OF', 'ALLY_OF', 'ENEMY_OF', 'FOUGHT', 'ASSOCIATED_WITH'].includes(t);
+
+// ---- full-atlas (no center) layout ----
+type ClusterLabel = { x: number; y: number; text: string; culture: string };
+
+/**
+ * One ring per culture; culture clusters arranged in a grid around the origin.
+ * Coordinates are abstract units — the component fits the resulting bounding
+ * box into the viewBox, so the layout scales to any number of traditions.
+ */
+function layoutGlobal(
+  data: GraphData,
+  cats: Set<EdgeCategory>,
+  imgMap: Record<string, string>,
+): { nodes: Node[]; edges: Edge[]; clusterLabels: ClusterLabel[] } {
+  const groups: { culture: string; ents: Entity[] }[] = [];
+  const gmap = new Map<string, { culture: string; ents: Entity[] }>();
+  for (const e of data.entities) {
+    let g = gmap.get(e.culture);
+    if (!g) { g = { culture: e.culture, ents: [] }; gmap.set(e.culture, g); groups.push(g); }
+    g.ents.push(e);
+  }
+  const n = groups.length;
+  const cols = Math.max(1, Math.ceil(Math.sqrt(n)));
+  const rows = Math.max(1, Math.ceil(n / cols));
+  const SX = 380, SY = 320; // cluster spacing (abstract units)
+  const nodeMap: Record<string, Node> = {};
+  const clusterLabels: ClusterLabel[] = [];
+  groups.forEach((g, i) => {
+    const cx = (i % cols - (cols - 1) / 2) * SX;
+    const cy = (Math.floor(i / cols) - (rows - 1) / 2) * SY;
+    const r = Math.min(150, Math.max(60, 12 + g.ents.length * 3.6));
+    g.ents.forEach((e, j) => {
+      const a = (j / g.ents.length) * Math.PI * 2 - Math.PI / 2;
+      nodeMap[e.id] = {
+        id: e.id, x: r2(cx + r * Math.cos(a)), y: r2(cy + r * Math.sin(a) * 0.78),
+        name: e.name, classification: e.classification, img: imgMap[e.id],
+      };
+    });
+    const label = CULTURE_NAMES[g.culture] || g.culture;
+    clusterLabels.push({ x: r2(cx), y: r2(cy - r * 0.78 - 26), text: `${label.toUpperCase()} · ${g.ents.length}`, culture: g.culture });
+  });
+  const pool = data.relationships.filter((r) => cats.has(categoryOf(r.type)));
+  const edges: Edge[] = pool
+    .filter((r) => nodeMap[r.from] && nodeMap[r.to] && r.from !== r.to)
+    .map((r) => ({ from: r.from, to: r.to, rel: r, cat: categoryOf(r.type), bidir: isSym(r.type) }));
+  return { nodes: Object.values(nodeMap), edges, clusterLabels };
+}
+
+/** Scale/translate so the node bounding box fits the 800×520 viewBox. */
+function fitToView(nodes: Node[], labels: ClusterLabel[]): { x: number; y: number; k: number } {
+  if (!nodes.length) return { x: 0, y: 0, k: 1 };
+  const pad = 48, W = 800, H = 520;
+  const minX = Math.min(...nodes.map((p) => p.x), ...labels.map((l) => l.x)) - pad;
+  const maxX = Math.max(...nodes.map((p) => p.x), ...labels.map((l) => l.x)) + pad;
+  const minY = Math.min(...nodes.map((p) => p.y), ...labels.map((l) => l.y)) - pad;
+  const maxY = Math.max(...nodes.map((p) => p.y)) + pad;
+  const k = r4(Math.min(W / (maxX - minX), H / (maxY - minY), 1.15));
+  return { x: r4(W / 2 - k * (minX + (maxX - minX) / 2)), y: r4(H / 2 - k * (minY + (maxY - minY) / 2)), k };
 }
 
 function walkUp(keep: Set<string>, id: string, rels: Relationship[]) {

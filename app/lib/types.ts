@@ -190,3 +190,18 @@ export function categoryOf(t: RelType): EdgeCategory {
   }
   return 'association';
 }
+
+// ---- Global graph (the /graph explorer) ----
+/** Data the relationship explorer needs — one culture's CultureData or the global merge. */
+export type GraphData = Pick<CultureData, 'entities' | 'relationships' | 'myths' | 'artworks'>;
+
+// Display names + palette accents for the live traditions (docs/DESIGN-SYSTEM.md
+// per-culture palettes; keep in sync with data/cultures.json).
+export const CULTURE_NAMES: Record<string, string> = {
+  japanese: 'Japanese', greek: 'Greek', norse: 'Norse',
+  egyptian: 'Egyptian', slavic: 'Slavic', mesopotamian: 'Mesopotamian',
+};
+export const CULTURE_ACCENTS: Record<string, string> = {
+  japanese: '#c0392b', greek: '#c9a227', norse: '#5b8db8',
+  egyptian: '#c8a24a', slavic: '#8a9a5b', mesopotamian: '#3f7ca6',
+};
