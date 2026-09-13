@@ -501,5 +501,75 @@
       "S1",
       "S2"
     ]
+  },
+  {
+    "from": "jpn-susanoo",
+    "to": "jpn-kusanagi",
+    "type": "FOUND",
+    "note": "Susanoo draws Kusanagi from the tail of Yamata no Orochi.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-susanoo",
+    "to": "jpn-amaterasu",
+    "type": "GIFTED",
+    "note": "Susanoo offers Kusanagi to Amaterasu.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-amaterasu",
+    "to": "jpn-kusanagi",
+    "type": "OWNS",
+    "note": "Kusanagi becomes a regalia of the imperial line.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-amaterasu",
+    "to": "jpn-yata-kagami",
+    "type": "OWNS",
+    "note": "Yata no Kagami is a regalia of the imperial line.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-amaterasu",
+    "to": "jpn-yasakani",
+    "type": "OWNS",
+    "note": "Yasakani no Magatama is a regalia of the imperial line.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-izananagi",
+    "to": "jpn-amenonuboko",
+    "type": "OWNS",
+    "note": "Izanagi wields the celestial lance in the island-forming.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "jpn-izananami",
+    "to": "jpn-amenonuboko",
+    "type": "OWNS",
+    "note": "Izanami stands with Izanagi at the Bridge of Heaven.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
   }
 ]

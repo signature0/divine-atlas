@@ -315,5 +315,35 @@
     "sources": [
       "S5"
     ]
+  },
+  {
+    "from": "mes-enlil",
+    "to": "mes-tablets-of-fate",
+    "type": "OWNS",
+    "note": "The Tablets of Destiny are the emblem of the highest divine authority.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "mes-marduk",
+    "to": "mes-tablets-of-fate",
+    "type": "INHERITED",
+    "note": "Marduk takes the Tablets when he is set over the gods.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "mes-nabu",
+    "to": "mes-tablets-of-fate",
+    "type": "ASSOCIATED_WITH",
+    "note": "Nabu, god of writing, is associated with the tablets of fate.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
   }
 ]

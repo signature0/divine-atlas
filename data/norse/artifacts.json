@@ -1,0 +1,683 @@
+[
+  {
+    "id": "nor-mjolnir",
+    "slug": "mjolnir",
+    "culture": "norse",
+    "name": "Mjölnir",
+    "native_name": "Mjölnir",
+    "alternative_names": [
+      "Thor's Hammer",
+      "The World-Scourge"
+    ],
+    "category": "weapon",
+    "artifact_type": "Hammer",
+    "domains": [
+      "Thunder",
+      "Protection",
+      "Consecration",
+      "Giant-Slaying"
+    ],
+    "owner": "nor-thor",
+    "owner_name": "Thor",
+    "creator": null,
+    "creator_name": "Brokkr & Sindri (dwarf-smiths, no entity node)",
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-thor"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [
+      "nor-hrungnir"
+    ],
+    "material": "Unknown (described as a weapon of wondrous make)",
+    "appearance": "A short-handled hammer; in the Prose Edda its head is engraved with runes.",
+    "symbols": [
+      "Hammer",
+      "Thunder",
+      "Consecration"
+    ],
+    "limitations": [
+      "It must be wielded by Thor (or one of equal stature); it will not leave his hand in the myths."
+    ],
+    "creation_story": "In a wager with Loki, the dwarves Brokkr and Sindri forge Mjölnir; Loki's interference makes the handle short, but the hammer is otherwise perfect. [S2]",
+    "origin_story": "Forged in the underworld forge of the dwarves as a contest-piece against Loki. [S2]",
+    "major_myths": [
+      "nor-creation"
+    ],
+    "associated_realms": [
+      "Midgard",
+      "Niflheim (forge)"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "The hammer is attested in both Eddas, but many of its specific properties (returning, runic head, exact forging) rest on the Prose Edda and later tradition.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: a named god's signature weapon, cosmologically tied to thunder and consecration, and central to multiple major myths; not primordial or cosmic in scope.",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 9,
+        "explanation": "No surviving Norse source says Mjölnir failed to break what it struck; it is the weapon of choice against the strongest foes, including giants and Fenrir's kin."
+      },
+      {
+        "attribute": "Defense",
+        "value": 8,
+        "explanation": "Thor is never wounded in a myth in which Mjölnir is his shield; the hammer is his default protection."
+      },
+      {
+        "attribute": "Protection",
+        "value": 9,
+        "explanation": "Linked to blessing and consecration of marriages, births and houses; the hammer is a charm, not just a weapon."
+      },
+      {
+        "attribute": "Magic",
+        "value": 8,
+        "explanation": "In the Prose Edda its head is engraved with runes; it is tied to Odin's magic and to Thor's thunder."
+      },
+      {
+        "attribute": "Durability",
+        "value": 10,
+        "explanation": "No surviving Norse myth describes Mjölnir being broken or destroyed."
+      },
+      {
+        "attribute": "Range",
+        "value": 7,
+        "explanation": "Thrown and returned; its strike spans the field of battle but it is not a long-range projectile in the way a spear is."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "THUNDERCALL",
+        "description": "Channeling of Thor's thunder; lightning and storm accompany the hammer's use.",
+        "source": "Poetic & Prose Edda (Thor's thunder)",
+        "certainty": "attested"
+      },
+      {
+        "name": "RETURNING WEAPON",
+        "description": "Mjölnir returns to Thor's hand after being thrown, as in later accounts.",
+        "source": "Prose Edda (Gylfaginning); later tradition",
+        "certainty": "later_tradition"
+      },
+      {
+        "name": "CONSECRATION",
+        "description": "Used to bless and sanctify marriages, births and dwellings; the hammer as a consecrating symbol.",
+        "source": "Archaeological hammer pendants; Prose Edda",
+        "certainty": "likely"
+      },
+      {
+        "name": "GIANT SLAYER",
+        "description": "Frequently the weapon with which Thor kills giants (e.g. Hrungnir).",
+        "source": "Hrafnagaldur in Poetic Edda",
+        "certainty": "attested"
+      }
+    ],
+    "artwork": {
+      "title": "The Gosforth Cross, detail of the hammering figure",
+      "artist": "Unknown (Anglo-Scandinavian mason)",
+      "date": "c. 990 CE",
+      "institution": "Gosforth, Cumbria (on display; carved cross)",
+      "license": "Public domain (archaeological monument)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gosforth_fishing.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "The hammer itself does not survive. This is a 10th-century carved cross whose figure is interpreted as Thor brandishing Mjölnir — the best surviving visual witness to the hammer in its cultural context.",
+      "copyright_status": "Public domain (10th-century monument)"
+    },
+    "gallery": [],
+    "description_short": "Thor's hammer, the working symbol of thunder, protection and consecration in the Norse world.",
+    "description_long": "Mjölnir ('crusher' / 'grinder') is the hammer of Thor, forged by the dwarves Brokkr and Sindri in a wager with Loki. [S2] In the Poetic Edda it is the instrument of Thor's thunder and his weapon against the giants, most famously in the slaying of Hrungnir. [S1] In the Prose Edda the head is said to be engraved with runes. [S2] Its legacy survives in the hammer-pendant found across Scandinavia as a consecrating and protective amulet. [S4]",
+    "interesting_facts": [
+      "The short handle is blamed on a fly (Loki in disguise) that bit Brokkr as he worked the bellows. [S2]"
+    ],
+    "uncertainty_notes": [
+      "The \"World-Scourge\" epithet is attested in skaldic verse but its exact sense (world-scorcher / grinder of giants) is debated."
+    ],
+    "status_note": "No physical Mjölnir survives; the hammer is known through the Eddas and archaeological hammer-pendants."
+  },
+  {
+    "id": "nor-gungnir",
+    "slug": "gungnir",
+    "culture": "norse",
+    "name": "Gungnir",
+    "native_name": "Gungnir",
+    "alternative_names": [
+      "The Piercer"
+    ],
+    "category": "weapon",
+    "artifact_type": "Spear",
+    "domains": [
+      "Sovereignty",
+      "War",
+      "Guidance"
+    ],
+    "owner": "nor-odin",
+    "owner_name": "Odin",
+    "creator": null,
+    "creator_name": "Rind (dwarf-smith, no entity node)",
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-odin"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [
+      "nor-fenrir"
+    ],
+    "material": "Gold shaft, silver point (per Prose Edda)",
+    "appearance": "A long spear; in the Prose Edda, golden shaft and silvery head, engraved with runes.",
+    "symbols": [
+      "Spear",
+      "Sovereignty",
+      "Rune"
+    ],
+    "limitations": [
+      "Bound to Odin; it is an instrument of the Allfather, not a common weapon."
+    ],
+    "creation_story": "Forged by the dwarf Rind; Odin plants it on the shore and it never misses. [S2]",
+    "origin_story": "A product of Odinic magic and dwarven craft. [S2]",
+    "major_myths": [
+      "nor-creation",
+      "nor-fenrir-binding"
+    ],
+    "associated_realms": [
+      "Asgard"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Prose Edda; the specific gold/silver composition and \"never misses\" formula are Snorri's account.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: Odin's signature instrument of sovereignty and war-magic, tied to the binding of Fenrir and the end-times; not cosmic in scope.",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 9,
+        "explanation": "A spear that never misses; in myth it is the instrument of the gods' war and of the binding of Fenrir."
+      },
+      {
+        "attribute": "Magic",
+        "value": 9,
+        "explanation": "Engraved with runes that \"harm any foe who comes against it\"; it is a product of the highest magic (Odin's own)."
+      },
+      {
+        "attribute": "Range",
+        "value": 9,
+        "explanation": "A throwing spear that \"never misses its target\" — long, precise reach."
+      },
+      {
+        "attribute": "Durability",
+        "value": 8,
+        "explanation": "No source describes Gungnir breaking; it is a permanent instrument of Odin."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 8,
+        "explanation": "Tied to Odin's sovereignty and to the oaths sworn by it."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "NEVER-MISSING",
+        "description": "Gungnir never misses the mark it is thrown at.",
+        "source": "Prose Edda (Gylfaginning 45)",
+        "certainty": "attested"
+      },
+      {
+        "name": "RUNIC ENGRAVEMENT",
+        "description": "Engraved with runes that harm any foe who stands against it.",
+        "source": "Prose Edda (Gylfaginning 45)",
+        "certainty": "attested"
+      },
+      {
+        "name": "SOVEREIGN'S OATH",
+        "description": "The spear is the axis of divine authority and oaths.",
+        "source": "Scholarly inference from its Odinic association",
+        "certainty": "modern_interpretation"
+      }
+    ],
+    "artwork": {
+      "title": "Odin (from a 19th-c. mythology manual)",
+      "artist": "Unknown",
+      "date": "19th century CE",
+      "institution": "Public domain (Wikimedia Commons)",
+      "license": "Public domain (19th-c. book illustration)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Odin_%28Manual_of_Mythology%29.jpg",
+      "image_type": "MODERN ART",
+      "depicts": "Gungnir does not survive as an object. This is a 19th-century illustration of Odin — a later artistic interpretation, not an ancient depiction.",
+      "copyright_status": "Public domain"
+    },
+    "gallery": [],
+    "description_short": "The all-missing spear of Odin, engraved with runes and never out of his hand.",
+    "description_long": "Gungnir ('the Piercer') is Odin's spear, forged by the dwarf Rind. In the Prose Edda it is described as a spear that never misses, its shaft of gold and its point of silver, engraved with runes that harm any foe who comes against it. [S2] It is the emblem of Odinic sovereignty and of the war-magic of the Allfather.",
+    "interesting_facts": [
+      "Planted at the shore of the sea, it is said to mark the boundary of the gods' order."
+    ],
+    "uncertainty_notes": [
+      "The \"never misses\" and gold/silver details are Prose Edda (Snorri) material, not independent skaldic attestations."
+    ]
+  },
+  {
+    "id": "nor-draupnir",
+    "slug": "draupnir",
+    "culture": "norse",
+    "name": "Draupnir",
+    "native_name": "Draupnir",
+    "alternative_names": [
+      "The Dripper"
+    ],
+    "category": "magical_object",
+    "artifact_type": "Ring",
+    "domains": [
+      "Reproduction",
+      "Wealth",
+      "Resurrection"
+    ],
+    "owner": "nor-odin",
+    "owner_name": "Odin",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-odin"
+    ],
+    "associated_heroes": [
+      "nor-baldr"
+    ],
+    "associated_monsters": [],
+    "material": "Gold",
+    "appearance": "A gold ring; in the Prose Edda it \"drips\" eight rings every ninth night.",
+    "symbols": [
+      "Ring",
+      "Wealth",
+      "Reproduction"
+    ],
+    "limitations": [
+      "Its self-replication is a property of the mythic object, not a described mechanism."
+    ],
+    "creation_story": "Given to Odin (origin not fully specified in the surviving sources). [S2]",
+    "origin_story": "An Odinic relic of the self-reproducing gold. [S2]",
+    "major_myths": [
+      "nor-baldr-death"
+    ],
+    "associated_realms": [
+      "Asgard"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Prose Edda and in Grímnismál; the \"eight rings\" detail is a single tradition.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named wonder-object of a chief god with a distinctive, repeated property, but narrower in mythic role than the divine-tier hammers/spears.",
+    "power_profile": [
+      {
+        "attribute": "CREATION",
+        "value": 7,
+        "explanation": "It reproduces itself — eight new rings drip from it every ninth night, each as heavy as the first."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "A self-replicating ring is among the most \"impossible\" objects in Norse myth."
+      },
+      {
+        "attribute": "UTILITY",
+        "value": 7,
+        "explanation": "A source of inexhaustible wealth and of gifts."
+      },
+      {
+        "attribute": "TRANSFORMATION",
+        "value": 5,
+        "explanation": "It is tied to Baldr's resurrection-ritual (the pyre and the tears)."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SELF-REPLICATION",
+        "description": "Every ninth night eight rings, each as heavy as the first, drip from it.",
+        "source": "Prose Edda (Gylfaginning 47)",
+        "certainty": "attested"
+      },
+      {
+        "name": "BALDR'S PYRE",
+        "description": "Placed on Baldr's pyre; tied to the grief and the hope of return.",
+        "source": "Prose Edda (Gylfaginning); Grímnismál",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Viking-Age gold ring (Hoo hoard)",
+      "artist": "Unknown (archaeological find)",
+      "date": "c. 8th–9th century CE",
+      "institution": "British Museum (Hoo hoard)",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/HOARD_%28FindID_969299-1083015%29.jpg",
+      "image_type": "ARCHAEOLOGICAL",
+      "depicts": "No Draupnir ring survives. This is a genuine Viking-Age gold ring of the period — a type-proxy showing the real object-class, not the mythic ring itself.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "Odin's self-replicating gold ring, eight new rings every ninth night.",
+    "description_long": "Draupnir ('the Dripper') is Odin's ring. In the Prose Edda, every ninth night eight new rings, each as heavy as the first, drip from it. [S2] It is placed on the pyre of Baldr, and it figures in the hope of his return. [S2]",
+    "interesting_facts": [
+      "The eight-rings detail is one of the most-cited \"wonder-objects\" of the Eddas."
+    ],
+    "uncertainty_notes": [
+      "Draupnir's origin and how Odin came to possess it are not stated in the surviving Eddas."
+    ]
+  },
+  {
+    "id": "nor-brisingamen",
+    "slug": "brisingamen",
+    "culture": "norse",
+    "name": "Brísingamen",
+    "native_name": "Brísingamen",
+    "alternative_names": [
+      "Brísingamen's Necklace"
+    ],
+    "category": "jewelry",
+    "artifact_type": "Necklace",
+    "domains": [
+      "Fertility",
+      "Radiance",
+      "Divine Feminine"
+    ],
+    "owner": "nor-freyja",
+    "owner_name": "Freyja",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-freyja"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Gold and precious stones (described as wondrous, shining)",
+    "appearance": "A necklace of wondrous, shining beauty.",
+    "symbols": [
+      "Necklace",
+      "Radiance",
+      "Feminine Divinity"
+    ],
+    "limitations": [
+      "A personal ornament of Freyja; not described as a weapon."
+    ],
+    "creation_story": "In the Völsunga tradition, tied to Andvari's cursed ring and dwarf-craft. [S3]",
+    "origin_story": "A token of the Vanir's radiance, given to the Aesir. [S2]",
+    "major_myths": [
+      "nor-creation"
+    ],
+    "associated_realms": [
+      "Fólkvangr",
+      "Asgard"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Eddas as Freyja's necklace; the Andvari/Neckaring origin is a later saga tradition.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named, wondrous divine ornament with a rich origin-tradition, but a personal attribute rather than a cosmological instrument.",
+    "power_profile": [
+      {
+        "attribute": "PROTECTION",
+        "value": 6,
+        "explanation": "Worn by Freyja, the chief goddess of the Vanir; it is a token of her radiance and sovereignty."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 7,
+        "explanation": "Its making is a feat of dwarven craft; its radiance is described as wondrous."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 6,
+        "explanation": "A mark of Freyja's divine status and of the Vanir's gift to the Aesir."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "RADIANCE",
+        "description": "Described as a necklace of wondrous, shining beauty worn by Freyja.",
+        "source": "Poetic & Prose Edda",
+        "certainty": "attested"
+      },
+      {
+        "name": "DWARVEN CRAFT",
+        "description": "Forged by the dwarves (Andvari's ring lineage in some accounts).",
+        "source": "Völsunga saga; Prose Edda",
+        "certainty": "later_tradition"
+      }
+    ],
+    "artwork": {
+      "title": "Freyja with Brísingamen (19th-c. illustration)",
+      "artist": "Unknown",
+      "date": "19th century CE",
+      "institution": "Public domain (Wikimedia Commons)",
+      "license": "Public domain (19th-c. illustration)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Freja_brisingamen.jpg",
+      "image_type": "MODERN ART",
+      "depicts": "No Brísingamen survives. This is a 19th-century artistic interpretation of Freyja wearing the necklace — not an ancient depiction.",
+      "copyright_status": "Public domain"
+    },
+    "gallery": [],
+    "description_short": "Freyja's wondrous necklace, the radiance of the Vanir goddess.",
+    "description_long": "Brísingamen is the necklace of Freyja, the chief goddess of the Vanir. In the Eddas it is described as a wondrous, shining ornament of her. [S1][S2] Its origin is given in the Völsunga tradition, where it is tied to Andvari's ring and the dwarf-craft of the Neckaring. It is the emblem of Freyja's radiance and of the Vanir's gifts to the Aesir.",
+    "interesting_facts": [
+      "Brísingamen is one of the few named ornaments of a Norse goddess."
+    ],
+    "uncertainty_notes": [
+      "The Andvari/Neckaring connection is a later saga (Völsunga) tradition, not an Eddic one."
+    ]
+  },
+  {
+    "id": "nor-gjallarhorn",
+    "slug": "gjallarhorn",
+    "culture": "norse",
+    "name": "Gjallarhorn",
+    "native_name": "Gjallarhorn",
+    "alternative_names": [
+      "The Resounding Horn"
+    ],
+    "category": "instrument",
+    "artifact_type": "Horn",
+    "domains": [
+      "Omen",
+      "Eschatology",
+      "The Dead"
+    ],
+    "owner": "nor-heimdall",
+    "owner_name": "Heimdall",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-heimdall",
+      "nor-odin"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Bone or horn (described as a great horn)",
+    "appearance": "A great, resounding horn.",
+    "symbols": [
+      "Horn",
+      "Omen",
+      "The End"
+    ],
+    "limitations": [
+      "An instrument of signal and summons, not a weapon."
+    ],
+    "creation_story": "Its making is not specified in the surviving sources.",
+    "origin_story": "The horn of the watchman, tied to the eschatology of the gods. [S1]",
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "associated_realms": [
+      "Asgard",
+      "Gjallar (the world of the dead)"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Völuspá and the Prose Edda; its exact mechanism of \"calling the dead\" is interpretive.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named eschatological instrument of a watchman-god, central to the end-times but not a weapon of cosmological scope.",
+    "power_profile": [
+      {
+        "attribute": "RANGE",
+        "value": 9,
+        "explanation": "Its sound is heard across the worlds; it is the herald of the end-times."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 7,
+        "explanation": "Blown by Heimdall, the watchman of the gods, to call the dead and to sound Ragnarök."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 5,
+        "explanation": "It summons and signals; it is a tool of eschatological announcement."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "HERALD OF RAGNARÖK",
+        "description": "Blown to signal the beginning of the end-times.",
+        "source": "Völuspá (Poetic Edda)",
+        "certainty": "attested"
+      },
+      {
+        "name": "SUMMONING THE DEAD",
+        "description": "Its sound calls the dead / the armies of the end.",
+        "source": "Völuspá; Gylfaginning",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Odin rides to Hel (19th-c. illustration, horn visible)",
+      "artist": "Unknown",
+      "date": "19th century CE",
+      "institution": "Public domain (Wikimedia Commons)",
+      "license": "Public domain (19th-c. illustration)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Odin_rides_to_Hel.jpg",
+      "image_type": "MODERN ART",
+      "depicts": "No Gjallarhorn survives. This is a 19th-century illustration in which the great horn appears — a later artistic interpretation, not an ancient object.",
+      "copyright_status": "Public domain"
+    },
+    "gallery": [],
+    "description_short": "Heimdall's horn, whose blast heralds Ragnarök and calls the dead.",
+    "description_long": "Gjallarhorn ('the Resounding Horn') is the great horn of Heimdall, the watchman of the gods. In the Völuspá it is blown to herald Ragnarök and to call the dead. [S1] In the Prose Edda it is the horn whose sound is heard across the worlds. It is the emblem of the coming of the end.",
+    "interesting_facts": [
+      "Gjallarhorn is the Norse equivalent of the eschatological trumpet."
+    ],
+    "uncertainty_notes": [
+      "The \"calling of the dead\" reading of the horn's blast is interpretive; the Völuspá's lines are terse."
+    ]
+  },
+  {
+    "id": "nor-skidbladnir",
+    "slug": "skidbladnir",
+    "culture": "norse",
+    "name": "Skíðblaðnir",
+    "native_name": "Skíðblaðnir",
+    "alternative_names": [
+      "Skidbladnir"
+    ],
+    "category": "vehicle",
+    "artifact_type": "Ship",
+    "domains": [
+      "Travel",
+      "Wind",
+      "The Gods' Passage"
+    ],
+    "owner": "nor-odin",
+    "owner_name": "Odin",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "nor-odin",
+      "nor-thor"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Wood (a ship of wondrous make)",
+    "appearance": "The largest of ships; foldable like a cloak.",
+    "symbols": [
+      "Ship",
+      "Wind",
+      "Passage"
+    ],
+    "limitations": [
+      "The gods' own vessel; not a common ship."
+    ],
+    "creation_story": "Its making is not specified in the surviving sources.",
+    "origin_story": "The vessel of the gods, tied to their passage and to Ragnarök. [S2]",
+    "major_myths": [
+      "nor-ragnarok"
+    ],
+    "associated_realms": [
+      "Asgard",
+      "the Sea"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Prose Edda; the folding detail is Snorri's account.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named wonder-vehicle of the gods with a distinctive, repeated property (folding), but narrower in role than the divine-tier instruments.",
+    "power_profile": [
+      {
+        "attribute": "MOBILITY",
+        "value": 9,
+        "explanation": "The largest of ships; it can fold up like a cloak and fit in a pouch, yet carry all the gods and their armies."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "A ship that folds and unfurls at will is among the wondrous objects of Norse myth."
+      },
+      {
+        "attribute": "RANGE",
+        "value": 8,
+        "explanation": "It carries the gods across the sea and into the end-times."
+      },
+      {
+        "attribute": "DURABILITY",
+        "value": 7,
+        "explanation": "It is the gods' own vessel; no source describes it sinking."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "FOLDING HULL",
+        "description": "It can be folded up like a cloak and carried in a pouch; unfurled, it is the largest ship.",
+        "source": "Gylfaginning (Prose Edda)",
+        "certainty": "attested"
+      },
+      {
+        "name": "WIND-DRIVEN",
+        "description": "It needs no oars; the wind fills it and it sails at the gods' will.",
+        "source": "Gylfaginning (Prose Edda)",
+        "certainty": "attested"
+      }
+    ],
+    "artwork": {
+      "title": "Oseberg Ship, Viking Ship Museum (Oslo)",
+      "artist": "Unknown (archaeological find)",
+      "date": "c. 830 CE",
+      "institution": "Viking Ship Museum, Oslo",
+      "license": "CC BY 2.0 (Wikimedia Commons)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Oseberg_Ship_-_Viking_Ship_Museum_(Oslo).jpg",
+      "image_type": "ARCHAEOLOGICAL",
+      "depicts": "No Skíðblaðnir survives. This is a genuine Viking-Age ship (the Oseberg ship) — a type-proxy showing the real object-class of the gods' vessel, not the mythic ship itself.",
+      "copyright_status": "CC BY 2.0"
+    },
+    "gallery": [],
+    "description_short": "The gods' folding ship, largest of vessels, carried by wind and pouch.",
+    "description_long": "Skíðblaðnir is the great ship of the gods. In the Prose Edda it is the largest of ships, yet it can be folded up like a cloak and carried in a pouch; the wind fills it and it needs no oars. [S2] It carries the gods and their armies, and it figures in the end-times. It is the emblem of the gods' passage across the sea.",
+    "interesting_facts": [
+      "Skíðblaðnir is the Norse \"ark of the gods,\" the vessel of the end-times."
+    ],
+    "uncertainty_notes": [
+      "Its origin and maker are not stated in the surviving Eddas."
+    ]
+  }
+]

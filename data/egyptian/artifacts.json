@@ -1,0 +1,336 @@
+[
+  {
+    "id": "egy-peschent",
+    "slug": "pschent",
+    "culture": "egyptian",
+    "name": "Pschent (the Double Crown)",
+    "native_name": "Pschent / Psḥenty",
+    "alternative_names": [
+      "The Double Crown",
+      "The Two Lands Crown"
+    ],
+    "category": "regalia",
+    "artifact_type": "Crown",
+    "domains": [
+      "Sovereignty",
+      "The Two Lands",
+      "Divine Kingship"
+    ],
+    "owner": "egy-ra",
+    "owner_name": "The Pharaoh (as the living Horus / son of Ra)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "egy-ra",
+      "egy-horus"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Gold, electrum, and precious stones (the royal crowns)",
+    "appearance": "A double crown uniting the white (Upper) and red (Lower) crowns, with a uraeus (cobra) at the front.",
+    "symbols": [
+      "Double Crown",
+      "Two Lands",
+      "Sovereignty",
+      "Uraeus"
+    ],
+    "limitations": [
+      "The crown of the pharaoh; not an object in ordinary use, and its exact form rests on reconstruction."
+    ],
+    "creation_story": "Its making is not specified; it is the crown of the kingship.",
+    "origin_story": "The emblem of the unification of the Two Lands, the crown of the divine king. [S5]",
+    "major_myths": [
+      "egy-creation-heliopolis"
+    ],
+    "associated_realms": [
+      "The Two Lands",
+      "the Temple"
+    ],
+    "current_status": "lost",
+    "source_confidence": "medium",
+    "confidence_note": "The crown is attested in models, reliefs and later depictions; no intact royal Pschent survives, so its exact form rests on reconstruction.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named regalia of the divine kingship, the emblem of the unification of the Two Lands, but a symbol of office rather than a cosmological instrument with a described power.",
+    "power_profile": [
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "The Pschent unites the White Crown of Upper Egypt and the Red Crown of Lower Egypt — the emblem of the pharaoh's rule over the Two Lands."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 6,
+        "explanation": "It is the crown of the king; it is the emblem of his protection and of his divine right."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 6,
+        "explanation": "It is a sacred object of the kingship; it is the emblem of the pharaoh's divine status."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "TWO-LANDS UNIFICATION",
+        "description": "It unites the crowns of Upper and Lower Egypt, the emblem of the pharaoh's rule over the Two Lands.",
+        "source": "Archaeological (crown models); Pyramid Texts",
+        "certainty": "attested"
+      },
+      {
+        "name": "KING'S CROWN",
+        "description": "It is the crown of the pharaoh, the emblem of his divine kingship.",
+        "source": "Archaeological; scholarly",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "The Pschent (Double Crown) — reconstruction",
+      "artist": "Unknown",
+      "date": "reconstruction",
+      "institution": "Public domain (Wikimedia Commons)",
+      "license": "Public domain (reconstruction diagram)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Pschent_Crown.png",
+      "image_type": "MODERN RECONSTRUCTION",
+      "depicts": "No intact Pschent survives. This is a reconstruction diagram of the Double Crown — a modern reconstruction of the object-class, clearly labeled as such, not an ancient object.",
+      "copyright_status": "Public domain"
+    },
+    "gallery": [],
+    "description_short": "The Double Crown of the pharaoh, uniting Upper and Lower Egypt — the emblem of the Two Lands.",
+    "description_long": "The Pschent ('the Psḥenty') is the Double Crown of the pharaoh. It unites the White Crown (hedjet) of Upper Egypt and the Red Crown (deshret) of Lower Egypt, and it is the emblem of the pharaoh's rule over the Two Lands. [S5] It is the crown of the king, the emblem of his divine kingship and of his protection. It is one of the most recognizable symbols of Egyptian monarchy. (The intact crown itself is known from models and from later depictions; no full royal Pschent survives intact.)",
+    "interesting_facts": [
+      "The Pschent is the most recognizable symbol of Egyptian monarchy; the uraeus (cobra) at the front is the emblem of the king's protection."
+    ],
+    "uncertainty_notes": [
+      "No intact royal Pschent survives; its form rests on models and later depictions, so details are reconstructed."
+    ]
+  },
+  {
+    "id": "egy-ankh",
+    "slug": "ankh",
+    "culture": "egyptian",
+    "name": "Ankh",
+    "native_name": "Ankh / ꜥnḫ",
+    "alternative_names": [
+      "The Key of Life",
+      "The Breath of Life"
+    ],
+    "category": "magical_object",
+    "artifact_type": "Amulet / Sign",
+    "domains": [
+      "Life",
+      "Immortality",
+      "Divine Power"
+    ],
+    "owner": "egy-ra",
+    "owner_name": "The gods (shared sign)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "egy-ra",
+      "egy-osiris",
+      "egy-isfet",
+      "egy-horus"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Gold, stone, and faience (amulets); the sign appears in all media",
+    "appearance": "A looped cross (a cross with a loop at the top).",
+    "symbols": [
+      "Ankh",
+      "Life",
+      "Breath",
+      "Immortality"
+    ],
+    "limitations": [
+      "A sign / amulet-class, not a single unique object; its power is the sign of life, not a described mechanism."
+    ],
+    "creation_story": "It is the sign of life; its \"making\" is not a single act.",
+    "origin_story": "The emblem of the life that the gods give, the sign of the creative and sustaining power. [S1]",
+    "major_myths": [
+      "egy-solar-journey",
+      "egy-osiris-murder"
+    ],
+    "associated_realms": [
+      "The Temple",
+      "the Afterlife"
+    ],
+    "current_status": "preserved",
+    "source_confidence": "high",
+    "confidence_note": "The ankh is attested across the Pyramid Texts, the Book of the Dead, and the entire visual record; it is a sign-class, not a single object.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named sacred sign of the highest order (the sign of life itself), central to the whole religious system, but a sign / amulet-class rather than a single cosmological instrument with a described power.",
+    "power_profile": [
+      {
+        "attribute": "HEALING",
+        "value": 8,
+        "explanation": "The ankh is the sign of life itself; it is the \"breath of life\" that the gods give to the pharaoh."
+      },
+      {
+        "attribute": "CREATION",
+        "value": 7,
+        "explanation": "It is the emblem of the creative and sustaining power of the gods; it is the sign of life given to the dead."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 7,
+        "explanation": "It is a sacred sign of life; it is the emblem of the divine power that sustains the world."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 6,
+        "explanation": "It is a protective amulet; it is the sign of the life that the gods give."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "LIFE-GIVING",
+        "description": "The ankh is the sign of life; the gods hold it to the pharaoh's mouth to give him the breath of life.",
+        "source": "Pyramid Texts; Book of the Dead; reliefs",
+        "certainty": "attested"
+      },
+      {
+        "name": "ETERNAL LIFE",
+        "description": "It is the emblem of the life given to the dead; it is the sign of immortality.",
+        "source": "Book of the Dead; scholarly",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Standing Osiris with Ankh, Crook and Flail (LACMA)",
+      "artist": "Unknown (Egyptian)",
+      "date": "c. 1300–1200 BCE (New Kingdom)",
+      "institution": "LACMA (open)",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Standing_Osiris_Figure_with_Crook_and_Flail_LACMA_45.23.7.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "The ankh is a sign more than a single object; it appears on countless amulets and reliefs. This is a New Kingdom statue of Osiris holding the ankh — an ancient depiction of the sign in its divine context, not a single \"the ankh\" object.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The ankh — the sign of life, the \"breath of life\" that the gods give to the pharaoh and to the dead.",
+    "description_long": "The ankh (ꜥnḫ, 'life') is the Egyptian sign of life itself. In the Pyramid Texts and the Book of the Dead the gods hold the ankh to the mouth of the pharaoh to give him the \"breath of life.\" [S1][S2] It is the emblem of the creative and sustaining power of the gods, and of the life given to the dead. It is one of the most recognizable signs of Egyptian religion. (It is a sign / amulet-class rather than a single unique object; it appears on countless amulets, reliefs and statues.)",
+    "interesting_facts": [
+      "The ankh is the Egyptian equivalent of the \"life-giving\" sign; it is held to the mouth of the pharaoh to give him the breath of life."
+    ],
+    "uncertainty_notes": [
+      "The ankh is a sign-class; it is not a single unique object with a single history."
+    ]
+  },
+  {
+    "id": "egy-heka",
+    "slug": "heka",
+    "culture": "egyptian",
+    "name": "Heka (the Crook and Flail)",
+    "native_name": "Heka / Was & Nekhakh",
+    "alternative_names": [
+      "The Crook and Flail",
+      "The Scepters of Kingship"
+    ],
+    "category": "regalia",
+    "artifact_type": "Scepters",
+    "domains": [
+      "Sovereignty",
+      "Divine Kingship",
+      "Order"
+    ],
+    "owner": "egy-osiris",
+    "owner_name": "The Pharaoh (as Osiris-king)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "egy-osiris",
+      "egy-horus",
+      "egy-ra"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Wood, gold, and stone (the scepters)",
+    "appearance": "A shepherd's crook and a flail, held in the hands of the king.",
+    "symbols": [
+      "Crook",
+      "Flail",
+      "Kingship",
+      "Shepherd",
+      "Strike"
+    ],
+    "limitations": [
+      "A regalia-class, not a single unique object; their power is the emblem of kingship, not a described mechanism."
+    ],
+    "creation_story": "Their making is not a single act; they are the scepters of the kingship.",
+    "origin_story": "The emblem of the pharaoh's kingship, the scepters of the divine king. [S5]",
+    "major_myths": [
+      "egy-osiris-murder",
+      "egy-horus-vs-set"
+    ],
+    "associated_realms": [
+      "The Temple",
+      "the Afterlife"
+    ],
+    "current_status": "preserved",
+    "source_confidence": "high",
+    "confidence_note": "The crook and flail are attested across the visual record and in the statues; they are a regalia-class, not a single object.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named regalia of the divine kingship, the emblem of the pharaoh's power to rule, but a regalia-class rather than a single cosmological instrument with a described power.",
+    "power_profile": [
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 8,
+        "explanation": "The crook (heka) and flail (nekhakh) are the scepters of the pharaoh, the emblem of his kingship and of his power to rule and to punish."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 7,
+        "explanation": "The crook and flail are the instruments of rule; they are the emblem of the king's authority to shepherd and to strike."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 6,
+        "explanation": "They are sacred objects of the kingship; they are the emblem of the pharaoh's divine status."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 5,
+        "explanation": "They are the scepters of the king; they are the emblem of his protection and of his rule."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SHEPHERD AND STRIKE",
+        "description": "The crook (shepherd's crook) and the flail are the emblem of the king's power to shepherd and to strike.",
+        "source": "Reliefs; scholarly",
+        "certainty": "attested"
+      },
+      {
+        "name": "KING'S SCEPTERS",
+        "description": "They are the scepters of the pharaoh, the emblem of his divine kingship.",
+        "source": "Reliefs; archaeological",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Standing Osiris with Crook and Flail (LACMA)",
+      "artist": "Unknown (Egyptian)",
+      "date": "c. 1300–1200 BCE (New Kingdom)",
+      "institution": "LACMA (open)",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Standing_Osiris_Figure_with_Crook_and_Flail_LACMA_45.23.7.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "The crook and flail appear on countless statues and reliefs. This is a New Kingdom statue of Osiris holding the crook and flail — an ancient depiction of the scepters in their divine context, not a single \"the crook and flail\" object.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The crook and flail — the scepters of the pharaoh, the emblem of his kingship and of his power to rule and to punish.",
+    "description_long": "The heka (crook) and the nekhakh (flail) are the scepters of the pharaoh. In the reliefs and the statues they are the emblem of the king's kingship, of his power to shepherd (the crook) and to strike (the flail). [S5] They are sacred objects of the kingship, the emblem of the pharaoh's divine status and of his protection. Osiris is the chief god shown holding them, as the king of the dead. (They are a regalia-class, not a single unique object; they appear on countless statues and reliefs.)",
+    "interesting_facts": [
+      "The crook and flail are the chief scepters of the pharaoh; Osiris is the god most associated with them."
+    ],
+    "uncertainty_notes": [
+      "The crook and flail are a regalia-class; they are not a single unique object with a single history."
+    ]
+  }
+]

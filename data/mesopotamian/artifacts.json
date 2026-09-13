@@ -1,0 +1,126 @@
+[
+  {
+    "id": "mes-tablets-of-fate",
+    "slug": "tablets-of-fate",
+    "culture": "mesopotamian",
+    "name": "Tablets of Destiny",
+    "native_name": "Nadbû / ṭuppi šiprī",
+    "alternative_names": [
+      "The Tablet of Destiny",
+      "The Tablet of Decrees"
+    ],
+    "category": "book",
+    "artifact_type": "Tablet",
+    "domains": [
+      "Fate",
+      "Sovereignty",
+      "Divine Order"
+    ],
+    "owner": "mes-enlil",
+    "owner_name": "The chief god (Enlil / Marduk)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "mes-enlil",
+      "mes-marduk",
+      "mes-nabu"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Clay (the cuneiform tablets); the mythic Tablets are of the divine order",
+    "appearance": "Cuneiform clay tablets inscribed with the decrees of fate.",
+    "symbols": [
+      "Tablet",
+      "Fate",
+      "Decree",
+      "Sovereignty",
+      "Order"
+    ],
+    "limitations": [
+      "A class of the fate-tablets, not a single unique object; their power is the written fate, not a described mechanism."
+    ],
+    "creation_story": "They are the tablets of the divine order; their \"making\" is the act of the highest god.",
+    "origin_story": "The emblem of the written fate, the tablets of the highest divine authority. [S1]",
+    "major_myths": [
+      "mes-enuma"
+    ],
+    "associated_realms": [
+      "The Divine Assembly",
+      "the Cosmos"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "high",
+    "confidence_note": "The Tablets of Destiny are attested in the Enuma Elish and in the later fate-utukku / incantation tradition; they are a class of the fate-tablets, of which many cuneiform tablets are real examples.",
+    "tier": "cosmic",
+    "rank": "SS",
+    "tier_rationale": "COSMIC: the emblem of the written fate of the whole cosmos, the instrument by which the king of the gods orders the world; higher than a single god's weapon because it is the fate of all, not of one.",
+    "power_profile": [
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 10,
+        "explanation": "The Tablets of Destiny are the tablets on which the fates of the gods and the world are written; they are the emblem of the highest divine authority."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 9,
+        "explanation": "They are the instrument of fate; the god who holds them holds the fate of the world."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "They are a product of the highest divine order; they are the emblem of the written fate."
+      },
+      {
+        "attribute": "CREATION",
+        "value": 6,
+        "explanation": "They are tied to the ordering of the world; the god who takes them orders the cosmos."
+      },
+      {
+        "attribute": "DURABILITY",
+        "value": 9,
+        "explanation": "They are the eternal tablets of fate; no source describes them being broken or lost."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "WRITTEN FATE",
+        "description": "The Tablets of Destiny are the tablets on which the fates of the gods and the world are written.",
+        "source": "Enuma Elish; scholarly",
+        "certainty": "attested"
+      },
+      {
+        "name": "SOVEREIGN'S DECREE",
+        "description": "The god who holds the Tablets holds the fate of the world; it is the emblem of the highest divine authority.",
+        "source": "Enuma Elish; later tradition",
+        "certainty": "attested"
+      },
+      {
+        "name": "ORDERING OF THE COSMOS",
+        "description": "The taking of the Tablets is the moment at which the cosmos is ordered under the new king of the gods.",
+        "source": "Enuma Elish",
+        "certainty": "attested"
+      }
+    ],
+    "artwork": {
+      "title": "Babylonian Cuneiform Tablet (Nippur, c. 1550–1450 BCE)",
+      "artist": "Unknown (Babylonian)",
+      "date": "c. 1550–1450 BCE",
+      "institution": "(cuneiform tablet)",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Babylonian_cuneiform_tablet_with_a_map_from_Nippur_1550-1450_BCE.jpg",
+      "image_type": "ARCHAEOLOGICAL",
+      "depicts": "No Tablet of Destiny survives as a unique object. This is a genuine Babylonian cuneiform tablet — a type-proxy showing the real object-class (the clay tablet on which fate / decrees were written), not the mythic Tablet itself.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The Tablets of Destiny — the tablets on which the fates of the gods and the world are written; the emblem of the highest divine authority.",
+    "description_long": "The Tablets of Destiny (the ṭuppi šiprī, \"tablets of decrees\") are the tablets on which, in Mesopotamian myth, the fates of the gods and the world are written. In the Enuma Elish they are the emblem of the highest divine authority: the god who holds them holds the fate of the world, and the taking of the Tablets is the moment at which the cosmos is ordered under the new king of the gods (Marduk). [S1] They are the instrument of fate and the emblem of the written order. (No single \"Tablet of Destiny\" survives as a unique object; the phrase names the class of the fate-tablets, of which many cuneiform tablets are real examples.)",
+    "interesting_facts": [
+      "The Tablets of Destiny are the Mesopotamian equivalent of the \"book of fate\"; the god who holds them holds the fate of the world."
+    ],
+    "uncertainty_notes": [
+      "The Tablets are a class (the fate-tablets), not a single unique object; the exact number and form of the mythic Tablets are not specified."
+    ]
+  }
+]

@@ -477,5 +477,55 @@
     "sources": [
       "S4"
     ]
+  },
+  {
+    "from": "egy-horus",
+    "to": "egy-peschent",
+    "type": "ASSOCIATED_WITH",
+    "note": "The Pschent is the crown of the pharaoh, the living Horus.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "egy-osiris",
+    "to": "egy-heka",
+    "type": "OWNS",
+    "note": "Osiris holds the crook and flail, the scepters of kingship.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "egy-osiris",
+    "to": "egy-ankh",
+    "type": "ASSOCIATED_WITH",
+    "note": "Osiris is shown holding the ankh, the sign of life.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "egy-ra",
+    "to": "egy-ankh",
+    "type": "ASSOCIATED_WITH",
+    "note": "Ra is shown holding the ankh, the breath of life.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "egy-peschent",
+    "to": "egy-horus",
+    "type": "ASSOCIATED_WITH",
+    "note": "The Double Crown is the emblem of the pharaoh as Horus.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
   }
 ]

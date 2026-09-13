@@ -1,0 +1,595 @@
+[
+  {
+    "id": "gre-zeus-thunderbolt",
+    "slug": "zeus-thunderbolt",
+    "culture": "greek",
+    "name": "Thunderbolt of Zeus",
+    "native_name": "Bóltēs / Ἀσπίς",
+    "alternative_names": [
+      "Thunderbolt",
+      "The Sky-Thunder"
+    ],
+    "category": "weapon",
+    "artifact_type": "Thunderbolt",
+    "domains": [
+      "Sky",
+      "Sovereignty",
+      "Justice"
+    ],
+    "owner": "gre-zeus",
+    "owner_name": "Zeus",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "gre-zeus"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [
+      "gre-typhon"
+    ],
+    "material": "Divine (Cyclopean) craft",
+    "appearance": "A bolt of lightning, hurled from the sky.",
+    "symbols": [
+      "Lightning",
+      "Sky",
+      "Sovereignty",
+      "Justice"
+    ],
+    "limitations": [
+      "The weapon of the sky; not a common weapon, and bound to Zeus's will."
+    ],
+    "creation_story": "Forged for Zeus by the Cyclopes after the Titanomachy. [S1]",
+    "origin_story": "A product of the highest divine craft, the emblem of the new order. [S1]",
+    "major_myths": [
+      "gre-titanomachy",
+      "gre-typhon-zeus"
+    ],
+    "associated_realms": [
+      "Olympus",
+      "the Sky"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "high",
+    "confidence_note": "Attested across Hesiod, Homer and the visual record; the Cyclopean forging is in the Theogony.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the supreme weapon of the chief god, the instrument that overthrew the Titans and the emblem of cosmic order; not primordial (it is made, not self-existent).",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 10,
+        "explanation": "The thunderbolt is the supreme weapon of the sky; it is the instrument that overthrew the Titans and the Typhons."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "The bolt is the emblem of Zeus' sovereignty over the cosmos and the order of the gods."
+      },
+      {
+        "attribute": "RANGE",
+        "value": 8,
+        "explanation": "A projectile of the sky, striking from a distance across the world."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "A product of divine (Cyclopean) craft; it is an instrument of the highest power."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 7,
+        "explanation": "It is the arbiter of Zeus's will, directed at hubris and disorder."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SKY-THUNDER",
+        "description": "The thunderbolt is the weapon of the sky, the emblem of Zeus' sovereignty.",
+        "source": "Hesiod Theogony; Homer Iliad",
+        "certainty": "attested"
+      },
+      {
+        "name": "TITAN-SLAYER",
+        "description": "It is the instrument by which Zeus overthrew the Titans.",
+        "source": "Hesiod Theogony 810–880",
+        "certainty": "attested"
+      },
+      {
+        "name": "HUBRIS-ARBITER",
+        "description": "It is directed at hubris and disorder; it is the justice of the sky.",
+        "source": "Scholarly inference from its use",
+        "certainty": "modern_interpretation"
+      }
+    ],
+    "artwork": {
+      "title": "Zeus Casting Thunderbolts (Dodona, c. 470 BC)",
+      "artist": "Unknown (Etruscan/Greek)",
+      "date": "c. 470 BCE",
+      "institution": "Antikensammlung, Berlin",
+      "license": "Public domain (ancient work)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Zeus_Casting_Thunderbolts%2C_Dodona_470_BC%2C_Antikensammlung_Berlin%2C_141639.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "No thunderbolt survives as an object. This is a 5th-century BCE sculpture of Zeus hurling his thunderbolt — an ancient depiction of the myth, not the object itself.",
+      "copyright_status": "Public domain (ancient work)"
+    },
+    "gallery": [],
+    "description_short": "The thunderbolt of Zeus, the supreme weapon of the sky and the arbiter of order.",
+    "description_long": "The thunderbolt (Bóltēs) is the supreme weapon of Zeus. In Hesiod's Theogony it is the instrument by which Zeus overthrew the Titans, forged for him by the Cyclopes. [S1] In the Iliad it is the emblem of Zeus' sovereignty, hurled at hubris and at the armies of disorder. [S2] It is the arbiter of the sky's justice.",
+    "interesting_facts": [
+      "The thunderbolt is the Greek equivalent of the eschatological / sovereign sky-weapon."
+    ],
+    "uncertainty_notes": [
+      "The \"Cyclopean forging\" is Hesiod's account; other traditions localize the craft differently."
+    ]
+  },
+  {
+    "id": "gre-aegis",
+    "slug": "aegis",
+    "culture": "greek",
+    "name": "Aegis",
+    "native_name": "Aἰγίς",
+    "alternative_names": [
+      "The Aegis",
+      "The Terror"
+    ],
+    "category": "armor",
+    "artifact_type": "Shield / Breastplate",
+    "domains": [
+      "Protection",
+      "Terror",
+      "Wisdom"
+    ],
+    "owner": "gre-athena",
+    "owner_name": "Athena",
+    "creator": null,
+    "creator_name": "Hephaestus (in some accounts)",
+    "previous_owners": [],
+    "associated_deities": [
+      "gre-athena"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [
+      "gre-medusa"
+    ],
+    "material": "Goat-skin (per the name) set with metal and the Gorgoneion",
+    "appearance": "A shield / breastplate, set with the Gorgoneion, surrounded by snakes or clouds in later art.",
+    "symbols": [
+      "Shield",
+      "Gorgoneion",
+      "Terror",
+      "Wisdom"
+    ],
+    "limitations": [
+      "The emblem of Athena; not a common shield, and bound to the goddess."
+    ],
+    "creation_story": "In some accounts given or made by Hephaestus; in others it is her own.",
+    "origin_story": "The emblem of Athena's sovereignty over war and wisdom. [S1]",
+    "major_myths": [
+      "gre-athena-birth",
+      "gre-athena-athens"
+    ],
+    "associated_realms": [
+      "Olympus",
+      "Athens"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "high",
+    "confidence_note": "Attested across Homer, Hesiod and the visual record; the Gorgoneion detail is in the Theogony and the Iliad.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the emblem of a chief goddess' sovereignty and terror, set with the Gorgoneion; a permanent, unbroken divine attribute.",
+    "power_profile": [
+      {
+        "attribute": "DEFENSE",
+        "value": 9,
+        "explanation": "The Aegis is the shield/breastplate of Athena, the emblem of her unassailable protection."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 9,
+        "explanation": "It is the emblem of inviolability; it turns fear against the enemy."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "The Gorgoneion (Medusa's head) is set in it; it is an instrument of divine terror."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 8,
+        "explanation": "It is the mark of Athena's sovereignty over war and wisdom."
+      },
+      {
+        "attribute": "DURABILITY",
+        "value": 8,
+        "explanation": "No source describes the Aegis being broken; it is a permanent emblem of the goddess."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "GORGOINE TERROR",
+        "description": "The Gorgoneion (Medusa's head) set in the Aegis turns fear against the enemy.",
+        "source": "Homer Iliad; Hesiod Theogony",
+        "certainty": "attested"
+      },
+      {
+        "name": "INVIOLABLE SHIELD",
+        "description": "The Aegis is the emblem of Athena's unassailable protection.",
+        "source": "Scholarly inference from its use",
+        "certainty": "likely"
+      },
+      {
+        "name": "WEATHER-FRAME",
+        "description": "Clouds and thunder surround the Aegis in some accounts; it is a frame of the storm.",
+        "source": "Iliad; later tradition",
+        "certainty": "later_tradition"
+      }
+    ],
+    "artwork": {
+      "title": "Athena with the Kreuzbandaegis (ancient relief)",
+      "artist": "Unknown (Greek)",
+      "date": "c. 5th–4th century BCE",
+      "institution": "Antikensammlung (ancient work)",
+      "license": "Public domain (ancient work)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Athena_Kreuzbandaegis_anagoria.JPG",
+      "image_type": "SCULPTURE",
+      "depicts": "No Aegis survives as an object. This is an ancient relief of Athena wearing the aegis — an ancient depiction of the emblem, not the object itself.",
+      "copyright_status": "Public domain (ancient work)"
+    },
+    "gallery": [],
+    "description_short": "The shield / breastplate of Athena, set with the Gorgoneion, the emblem of her terror and protection.",
+    "description_long": "The Aegis ('the goat-skin') is the shield or breastplate of Athena. In Homer and Hesiod it is set with the Gorgoneion — the head of Medusa — and it is the emblem of her unassailable protection and of the terror she turns against her enemies. [S1][S2] In later accounts clouds and thunder surround it. It is the mark of Athena's sovereignty over war and wisdom.",
+    "interesting_facts": [
+      "The Aegis is the Greek equivalent of the protective divine shield; the Gorgoneion is its terror."
+    ],
+    "uncertainty_notes": [
+      "Whether the Aegis is a shield, a breastplate, or a cloak is debated; the sources use the word loosely."
+    ]
+  },
+  {
+    "id": "gre-hades-helmet",
+    "slug": "hades-helmet",
+    "culture": "greek",
+    "name": "Helmet of Hades",
+    "native_name": "Kéryx / Kélos",
+    "alternative_names": [
+      "Helmet of Invisibility",
+      "The Helm of Darkness"
+    ],
+    "category": "armor",
+    "artifact_type": "Helmet",
+    "domains": [
+      "Invisibility",
+      "The Underworld",
+      "The Dead"
+    ],
+    "owner": "gre-hades",
+    "owner_name": "Hades",
+    "creator": null,
+    "creator_name": "The Cyclopes (in Hesiod) / Hephaestus (in some accounts)",
+    "previous_owners": [],
+    "associated_deities": [
+      "gre-hades"
+    ],
+    "associated_heroes": [
+      "gre-perseus"
+    ],
+    "associated_monsters": [
+      "gre-medusa"
+    ],
+    "material": "Divine (Cyclopean / Hephaestean) craft",
+    "appearance": "A helm / cap; in later art a winged or darkened helmet.",
+    "symbols": [
+      "Helm",
+      "Invisibility",
+      "The Underworld"
+    ],
+    "limitations": [
+      "The emblem of the underworld; not a common helm, and bound to the passage of the dead."
+    ],
+    "creation_story": "In the Theogony, given by the Cyclopes to Zeus, who in turn gives it to Perseus. [S1]",
+    "origin_story": "A product of the underworld's power, made wearable. [S1]",
+    "major_myths": [
+      "gre-perseus-medusa"
+    ],
+    "associated_realms": [
+      "The Underworld",
+      "Olympus"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in the Odyssey (Perseus) and the Theogony (given by the Cyclopes); the \"invisibility\" is the consistent property.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named divine instrument with a distinctive, repeated property (invisibility), central to a major myth (Perseus), but narrower in cosmological scope than the divine-tier emblem.",
+    "power_profile": [
+      {
+        "attribute": "TRANSFORMATION",
+        "value": 9,
+        "explanation": "It renders the wearer invisible — the power of the underworld made wearable."
+      },
+      {
+        "attribute": "MOBILITY",
+        "value": 8,
+        "explanation": "It grants stealth and passage; the wearer moves unseen."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "A product of divine (Cyclopean / Hephaestean) craft; invisibility is a property of the underworld."
+      },
+      {
+        "attribute": "UTILITY",
+        "value": 7,
+        "explanation": "It is a tool of stealth and of the passage of the dead."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "INVISIBILITY",
+        "description": "It renders the wearer invisible; the power of the underworld made wearable.",
+        "source": "Homer Odyssey; Hesiod Theogony",
+        "certainty": "attested"
+      },
+      {
+        "name": "PASSAGE OF THE DEAD",
+        "description": "It is the emblem of the underworld and of the passage of the dead.",
+        "source": "Scholarly inference from its Hades-association",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Corinthian Helmet (ancient)",
+      "artist": "Unknown (Greek)",
+      "date": "c. 5th–4th century BCE",
+      "institution": "National Archaeological Museum, Athens",
+      "license": "Public domain (ancient work)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Corinthian_helmet_15153_NAMAthens.jpg",
+      "image_type": "TYPE-PROXY",
+      "depicts": "No Helmet of Hades survives. This is a genuine ancient Corinthian helmet — a type-proxy showing the real object-class of the helm, not the mythic object of invisibility itself.",
+      "copyright_status": "Public domain (ancient work)"
+    },
+    "gallery": [],
+    "description_short": "The helmet of Hades, which renders its wearer invisible — the power of the underworld made wearable.",
+    "description_long": "The Helmet of Hades (also called the Helm of Darkness or the Cap of Invisibility) is the emblem of the underworld. In Homer it renders the wearer invisible; it is given to Perseus to slay Medusa and is associated with the passage of the dead. [S3] It is a product of divine craft, the power of the underworld made wearable.",
+    "interesting_facts": [
+      "The Helm is the Greek equivalent of the \"invisibility cloak\" — a property of the underworld."
+    ],
+    "uncertainty_notes": [
+      "Whether it is a helm or a cap is debated; the sources use different words. Its maker (Cyclopes vs. Hephaestus) varies by tradition."
+    ]
+  },
+  {
+    "id": "gre-poseidon-trident",
+    "slug": "poseidon-trident",
+    "culture": "greek",
+    "name": "Trident of Poseidon",
+    "native_name": "Tritóon / Tríhkos",
+    "alternative_names": [
+      "The Trident"
+    ],
+    "category": "weapon",
+    "artifact_type": "Trident",
+    "domains": [
+      "Sea",
+      "Earthquakes",
+      "Sovereignty"
+    ],
+    "owner": "gre-poseidon",
+    "owner_name": "Poseidon",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "gre-poseidon"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Divine (Cyclopean) craft",
+    "appearance": "A three-pronged spear / trident.",
+    "symbols": [
+      "Trident",
+      "Sea",
+      "Earthquake",
+      "Sovereignty"
+    ],
+    "limitations": [
+      "The weapon of the sea; not a common weapon, and bound to Poseidon's will."
+    ],
+    "creation_story": "Forged for Poseidon by the Cyclopes. [S1]",
+    "origin_story": "A product of the highest divine craft, the emblem of the sea's order. [S1]",
+    "major_myths": [
+      "gre-titanomachy"
+    ],
+    "associated_realms": [
+      "The Sea",
+      "the Earth",
+      "Olympus"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "high",
+    "confidence_note": "Attested across Homer, Hesiod and the visual record; the Cyclopean forging is in the Theogony.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the emblem of a chief god's sovereignty over a whole realm (the sea and the earth), the instrument of earthquakes; not primordial (it is made, not self-existent).",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 9,
+        "explanation": "The trident strikes the sea and the land; it is the instrument of earthquakes and of the sea's power."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "It is the emblem of Poseidon's sovereignty over the sea and the earth."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 8,
+        "explanation": "It stirs the sea, raises mountains, and splits the rock; it is the arbiter of the waters."
+      },
+      {
+        "attribute": "RANGE",
+        "value": 7,
+        "explanation": "A spear-like weapon of the sea, striking from a distance."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 7,
+        "explanation": "A product of divine (Cyclopean) craft; it is an instrument of the sea's power."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SEA-STIR",
+        "description": "It stirs the sea and raises the waves; the power of the waters made a weapon.",
+        "source": "Homer Iliad; Hesiod Theogony",
+        "certainty": "attested"
+      },
+      {
+        "name": "EARTHQUAKE",
+        "description": "It strikes the land and raises mountains; the instrument of earthquakes.",
+        "source": "Homer Iliad 13.16",
+        "certainty": "attested"
+      },
+      {
+        "name": "SOVEREIGN OF THE SEA",
+        "description": "It is the emblem of Poseidon's sovereignty over the sea and the earth.",
+        "source": "Hesiod Theogony",
+        "certainty": "attested"
+      }
+    ],
+    "artwork": {
+      "title": "Poseidon with Trident and Dolphin (ancient pinax)",
+      "artist": "Unknown (Greek)",
+      "date": "c. 5th century BCE",
+      "institution": "Antikensammlung, Berlin",
+      "license": "Public domain (ancient work)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Corinthian_pinax_-_Poseidon_with_trident_and_dolphin_-_Berlin_AS_F_460.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "No trident survives as an object. This is an ancient terracotta pinax of Poseidon holding his trident — an ancient depiction of the emblem, not the object itself.",
+      "copyright_status": "Public domain (ancient work)"
+    },
+    "gallery": [],
+    "description_short": "The trident of Poseidon, the emblem of the sea and the earth, the instrument of earthquakes.",
+    "description_long": "The trident is the weapon of Poseidon, the god of the sea. In Homer and Hesiod it is the emblem of his sovereignty over the waters and the earth; it stirs the sea, raises the waves, and strikes the land to raise mountains and cause earthquakes. [S1][S2] It is a product of divine (Cyclopean) craft. It is the arbiter of the waters and the emblem of the sea's power.",
+    "interesting_facts": [
+      "The trident is the Greek equivalent of the sovereign sea-weapon; it is the emblem of earthquakes."
+    ],
+    "uncertainty_notes": [
+      "The \"Cyclopean forging\" is Hesiod's account; the trident's exact make is not specified elsewhere."
+    ]
+  },
+  {
+    "id": "gre-hermes-caduceus",
+    "slug": "hermes-caduceus",
+    "culture": "greek",
+    "name": "Caduceus of Hermes",
+    "native_name": "Kadukeíon",
+    "alternative_names": [
+      "The Caduceus",
+      "The Staff of the Two Serpents"
+    ],
+    "category": "tool",
+    "artifact_type": "Staff",
+    "domains": [
+      "Messenger",
+      "Trade",
+      "Guidance"
+    ],
+    "owner": "gre-hermes",
+    "owner_name": "Hermes",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "gre-hermes"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Wood or metal set with two entwined serpents",
+    "appearance": "A staff with two entwined serpents and (in later art) wings.",
+    "symbols": [
+      "Staff",
+      "Two Serpents",
+      "Messenger",
+      "Mediation"
+    ],
+    "limitations": [
+      "The emblem of the messenger; not a weapon, and bound to Hermes's passage."
+    ],
+    "creation_story": "Its making is not specified in the surviving sources.",
+    "origin_story": "The emblem of the messenger and the mediator, tied to the passage between worlds. [S3]",
+    "major_myths": [
+      "gre-persephone",
+      "gre-odysseus-kyklops"
+    ],
+    "associated_realms": [
+      "The World of the Gods",
+      "The Underworld"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "medium",
+    "confidence_note": "Attested in Homer as Hermes' staff; the \"sleep/wake\" property is in the Odyssey and later tradition; the medical use is a much later, separate association.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a named divine instrument of a major god with a distinctive property (mediation / the passage between worlds), but narrower in cosmological scope than the divine-tier emblems.",
+    "power_profile": [
+      {
+        "attribute": "CONTROL",
+        "value": 6,
+        "explanation": "It is the instrument of the messenger and the mediator; it guides and reconciles."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 6,
+        "explanation": "In some accounts it can put the dead to sleep or wake them; it is an instrument of the passage between worlds."
+      },
+      {
+        "attribute": "MOBILITY",
+        "value": 7,
+        "explanation": "It is the emblem of the messenger's passage; Hermes moves the world with it."
+      },
+      {
+        "attribute": "UTILITY",
+        "value": 7,
+        "explanation": "A tool of the messenger, the trader, and the guide of souls."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "MEDIATOR",
+        "description": "It is the instrument of the messenger and the mediator; it guides and reconciles.",
+        "source": "Homer Odyssey; later tradition",
+        "certainty": "attested"
+      },
+      {
+        "name": "SLEEP AND WAKING",
+        "description": "In some accounts it can put the dead to sleep or wake them; the passage between worlds.",
+        "source": "Homer Odyssey 24; later tradition",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "A Caduceus (Wellcome historical illustration)",
+      "artist": "Unknown",
+      "date": "19th century CE",
+      "institution": "Wellcome Collection (open)",
+      "license": "Public domain (historical illustration)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/A_caduceus._Wellcome_M0002644.jpg",
+      "image_type": "MODERN ART",
+      "depicts": "No caduceus survives as a mythic object. This is a historical illustration of the caduceus (the staff of the two serpents) — a later depiction of the emblem, not an ancient object.",
+      "copyright_status": "Public domain"
+    },
+    "gallery": [],
+    "description_short": "The caduceus of Hermes, the staff of the two serpents, the emblem of the messenger and the mediator.",
+    "description_long": "The caduceus is the staff of Hermes, the messenger of the gods. In Homer it is the emblem of his passage and his mediation; in later tradition it is the instrument that can put the dead to sleep or wake them, the guide of souls between the worlds. [S3] It is the emblem of the messenger, the trader, and the guide. (Note: the caduceus is also later adopted as a medical symbol, but that is a much later, separate use.)",
+    "interesting_facts": [
+      "The caduceus is the Greek equivalent of the \"guide of souls\" staff; the medical use is a much later, separate adoption."
+    ],
+    "uncertainty_notes": [
+      "Whether the two serpents are real or symbolic is debated; the \"sleep/wake\" property is in the Odyssey but is not a consistent feature in all accounts."
+    ]
+  }
+]

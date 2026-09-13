@@ -719,5 +719,95 @@
     "sources": [
       "S2"
     ]
+  },
+  {
+    "from": "nor-thor",
+    "to": "nor-mjolnir",
+    "type": "OWNS",
+    "note": "Thor is the wielder of Mjölnir, the hammer of his thunder.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-gungnir",
+    "type": "OWNS",
+    "note": "Gungnir is Odin's spear; it never leaves his hand in the myths.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-draupnir",
+    "type": "OWNS",
+    "note": "Draupnir is Odin's self-replicating ring.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-freyja",
+    "to": "nor-brisingamen",
+    "type": "OWNS",
+    "note": "Brísingamen is the necklace of Freyja.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-heimdall",
+    "to": "nor-gjallarhorn",
+    "type": "OWNS",
+    "note": "Gjallarhorn is the horn of Heimdall, watchman of the gods.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-odin",
+    "to": "nor-skidbladnir",
+    "type": "OWNS",
+    "note": "Skíðblaðnir is the folding ship of the gods.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "nor-mjolnir",
+    "to": "nor-hrungnir",
+    "type": "FOUGHT",
+    "note": "Mjölnir is the weapon with which Thor breaks the giant Hrungnir.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "nor-gungnir",
+    "to": "nor-fenrir",
+    "type": "FOUGHT",
+    "note": "Gungnir is bound up in the binding of Fenrir.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "nor-draupnir",
+    "to": "nor-baldr",
+    "type": "ASSOCIATED_WITH",
+    "note": "Draupnir is placed on the pyre of Baldr.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
   }
 ]

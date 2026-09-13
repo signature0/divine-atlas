@@ -839,5 +839,125 @@
     "sources": [
       "S5"
     ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-zeus-thunderbolt",
+    "type": "OWNS",
+    "note": "The thunderbolt is the supreme weapon of Zeus.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-athena",
+    "to": "gre-aegis",
+    "type": "OWNS",
+    "note": "The Aegis is the shield / breastplate of Athena.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-hades",
+    "to": "gre-hades-helmet",
+    "type": "OWNS",
+    "note": "The Helmet of Invisibility is the emblem of the underworld.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-poseidon",
+    "to": "gre-poseidon-trident",
+    "type": "OWNS",
+    "note": "The trident is the weapon of Poseidon.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-hermes",
+    "to": "gre-hermes-caduceus",
+    "type": "OWNS",
+    "note": "The caduceus is the staff of Hermes.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-zeus-thunderbolt",
+    "to": "gre-typhon",
+    "type": "FOUGHT",
+    "note": "The thunderbolt is the instrument of Zeus against Typhon.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "gre-zeus-thunderbolt",
+    "to": "gre-hephaestus",
+    "type": "CREATED_BY",
+    "note": "The bolt is forged by divine craft (the Cyclopes in Hesiod).",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "gre-poseidon-trident",
+    "to": "gre-hephaestus",
+    "type": "CREATED_BY",
+    "note": "The trident is forged by divine craft.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "gre-hades-helmet",
+    "to": "gre-perseus",
+    "type": "GIFTED",
+    "note": "The helm is given to Perseus to slay Medusa.",
+    "confidence": "attested",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-perseus",
+    "to": "gre-medusa",
+    "type": "FOUGHT",
+    "note": "Perseus slays Medusa; the Gorgoneion is set in the Aegis.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
+  },
+  {
+    "from": "gre-aegis",
+    "to": "gre-medusa",
+    "type": "CONTAINS",
+    "note": "The Gorgoneion (Medusa's head) is set in the Aegis.",
+    "confidence": "disputed",
+    "sources": [
+      "[S1]"
+    ]
+  },
+  {
+    "from": "gre-zeus",
+    "to": "gre-hermes-caduceus",
+    "type": "ASSOCIATED_WITH",
+    "note": "Hermes is the messenger of Zeus; his staff is the emblem of mediation.",
+    "sources": [
+      "S1"
+    ],
+    "confidence": "attested"
   }
 ]

@@ -1,0 +1,471 @@
+[
+  {
+    "id": "jpn-kusanagi",
+    "slug": "kusanagi-no-tsurugi",
+    "culture": "japanese",
+    "name": "Kusanagi-no-Tsurugi",
+    "native_name": "草薙剣",
+    "alternative_names": [
+      "Ame-no-Murakumo-no-Tsurugi",
+      "The Grass-Cutting Sword"
+    ],
+    "category": "weapon",
+    "artifact_type": "Sword",
+    "domains": [
+      "Sovereignty",
+      "Purification",
+      "War"
+    ],
+    "owner": "jpn-amaterasu",
+    "owner_name": "Amaterasu (imperial regalia)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "jpn-amaterasu",
+      "jpn-susanoo"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [
+      "jpn-yamata-no-orochi"
+    ],
+    "material": "Steel (the mythic sword); the Regalia are not publicly examined",
+    "appearance": "A sword; the regalia are kept in the Ise shrines and are not displayed.",
+    "symbols": [
+      "Sword",
+      "Sovereignty",
+      "Purification"
+    ],
+    "limitations": [
+      "A regalia of the imperial line; not a weapon in ordinary use, and its physical form is not publicly examined."
+    ],
+    "creation_story": "Drawn by Susanoo from the tail of Yamata no Orochi; offered to Amaterasu. [S1]",
+    "origin_story": "The sword of the serpent-slaying, passed to the sun-goddess and thence to the imperial line. [S1]",
+    "major_myths": [
+      "jpn-susanoo-orochi"
+    ],
+    "associated_realms": [
+      "The Plain of High Heaven",
+      "Ise"
+    ],
+    "current_status": "hidden",
+    "source_confidence": "high",
+    "confidence_note": "The sword is attested in both primary chronicles and in the Engishiki as one of the Regalia; its physical survival as a public object is unknown (the Regalia are not displayed).",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: a named regalia of the chief sun-goddess, tied to a foundational myth (the serpent-slaying) and to the imperial line; cosmologically central to Japanese kingship.",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 8,
+        "explanation": "The sword that slew the eight-headed serpent Yamata no Orochi; a weapon of the gods."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 8,
+        "explanation": "In legend it quelled a great fire at Ise; it is a charm against fire and against disorder."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 7,
+        "explanation": "One of the Three Sacred Treasures; it is the emblem of the sovereign's divine right."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "It is the regalia of the emperor, the emblem of the imperial line's descent from Amaterasu."
+      },
+      {
+        "attribute": "DURABILITY",
+        "value": 7,
+        "explanation": "The mythic sword is unbroken in the sources; the physical treasure's survival is unknown."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "OROGI-SLAYER",
+        "description": "Drawn from the tail of Yamata no Orochi, it is the sword that slew the serpent.",
+        "source": "Kojiki; Nihon Shoki",
+        "certainty": "attested"
+      },
+      {
+        "name": "FIRE-QUENCH",
+        "description": "In legend it quenched a great fire at Ise.",
+        "source": "Nihon Shoki; later tradition",
+        "certainty": "later_tradition"
+      },
+      {
+        "name": "SOVEREIGN'S REGALIA",
+        "description": "It is one of the Three Sacred Treasures, the emblem of the emperor's divine right.",
+        "source": "Kojiki; Engishiki",
+        "certainty": "attested"
+      }
+    ],
+    "artwork": {
+      "title": "Sword Pommel, Kofun Period (Tokyo National Museum)",
+      "artist": "Unknown (archaeological find)",
+      "date": "6th century CE",
+      "institution": "Tokyo National Museum",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Sword_Pommell%2C_Kofun_Period%2C_6th_Century_at_Tokyo_National_Museum.jpg",
+      "image_type": "TYPE-PROXY",
+      "depicts": "The mythic Kusanagi does not survive as a public object. This is a genuine Kofun-period sword pommel — a type-proxy showing the real object-class of the sword, not the regalia itself.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The sword that slew Yamata no Orochi; one of the Three Sacred Treasures of Japan.",
+    "description_long": "Kusanagi-no-Tsurugi (also called Ame-no-Murakumo-no-Tsurugi) is the sword that, in the Kojiki and the Nihon Shoki, Susanoo drew from the tail of the eight-headed serpent Yamata no Orochi and offered to Amaterasu. [S1][S2] It is one of the Three Sacred Treasures (the Regalia) and the emblem of the imperial line's descent from the sun-goddess. In legend it quenched a great fire at Ise. [S2] As one of the Regalia it is the emblem of the emperor's divine right.",
+    "interesting_facts": [
+      "Kusanagi is one of the Three Sacred Treasures (the Regalia) alongside the Yata no Kagami and the Yasakani no Magatama."
+    ],
+    "uncertainty_notes": [
+      "The regalia are not publicly displayed or examined; the physical sword's survival and form are a matter of tradition, not of public verification."
+    ]
+  },
+  {
+    "id": "jpn-yata-kagami",
+    "slug": "yata-no-kagami",
+    "culture": "japanese",
+    "name": "Yata no Kagami",
+    "native_name": "八咫鏡",
+    "alternative_names": [
+      "The Eight-Span Mirror"
+    ],
+    "category": "sacred_object",
+    "artifact_type": "Mirror",
+    "domains": [
+      "Truth",
+      "Purification",
+      "Sovereignty"
+    ],
+    "owner": "jpn-amaterasu",
+    "owner_name": "Amaterasu (imperial regalia)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "jpn-amaterasu"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Bronze (the mythic mirror); the regalia are not publicly examined",
+    "appearance": "A mirror; the regalia are kept in the Ise shrines and are not displayed.",
+    "symbols": [
+      "Mirror",
+      "Light",
+      "Truth",
+      "Purity"
+    ],
+    "limitations": [
+      "A regalia of the imperial line; not an object in ordinary use, and its physical form is not publicly examined."
+    ],
+    "creation_story": "Its making is not specified in the surviving sources; it is the mirror of the sun-goddess.",
+    "origin_story": "The mirror of the light-restoration, passed to the imperial line. [S1]",
+    "major_myths": [
+      "jpn-amaterasu-cave"
+    ],
+    "associated_realms": [
+      "The Plain of High Heaven",
+      "Ise"
+    ],
+    "current_status": "hidden",
+    "source_confidence": "high",
+    "confidence_note": "The mirror is attested in both primary chronicles and in the Engishiki as one of the Regalia; its physical survival as a public object is unknown (the Regalia are not displayed).",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: a named regalia of the chief sun-goddess, tied to a foundational myth (the restoration of the light) and to the imperial line; cosmologically central to Japanese kingship.",
+    "power_profile": [
+      {
+        "attribute": "TRUTH",
+        "value": 9,
+        "explanation": "The mirror is the emblem of truth and of the light of the sun-goddess; it reveals and purifies."
+      },
+      {
+        "attribute": "PROTECTION",
+        "value": 7,
+        "explanation": "It is a charm against impurity and against the disorder of the cave-dwelling."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "One of the Three Sacred Treasures; it is the emblem of the sovereign's divine right and of purity."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "It is the regalia of the emperor, the emblem of the imperial line's descent from Amaterasu."
+      },
+      {
+        "attribute": "CREATION",
+        "value": 5,
+        "explanation": "The mirror is tied to the revelation of Amaterasu from the cave — the restoration of the light."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "LIGHT-REVEAL",
+        "description": "The mirror was used to lure Amaterasu out of the cave of Amano-Izumi, restoring the light.",
+        "source": "Kojiki; Nihon Shoki",
+        "certainty": "attested"
+      },
+      {
+        "name": "SOVEREIGN'S REGALIA",
+        "description": "It is one of the Three Sacred Treasures, the emblem of the emperor's divine right.",
+        "source": "Kojiki; Engishiki",
+        "certainty": "attested"
+      },
+      {
+        "name": "CHARM OF PURITY",
+        "description": "It is a charm against impurity and against the disorder of the world.",
+        "source": "Engishiki; later tradition",
+        "certainty": "later_tradition"
+      }
+    ],
+    "artwork": {
+      "title": "Matsuyama kofun bronze mirror (Tokyo National Museum)",
+      "artist": "Unknown (archaeological find)",
+      "date": "c. 5th–6th century CE (Kofun period)",
+      "institution": "Tokyo National Museum",
+      "license": "Public domain (open-access museum photograph)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/%E6%9D%BE%E5%B1%B1%E5%8F%A4%E5%A2%B3%E5%87%BA%E5%9C%9F_%E6%B5%B7%E7%8D%A3%E8%91%A1%E8%90%84%E9%8F%A1_%28J-4866%29.JPG",
+      "image_type": "TYPE-PROXY",
+      "depicts": "The mythic Yata no Kagami does not survive as a public object. This is a genuine Kofun-period bronze mirror — a type-proxy showing the real object-class of the mirror, not the regalia itself.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The mirror that revealed the light; one of the Three Sacred Treasures of Japan.",
+    "description_long": "Yata no Kagami ('the Eight-Span Mirror') is the mirror that, in the Kojiki and the Nihon Shoki, was used to lure Amaterasu out of the cave of Amano-Izumi when she hid and the world fell into darkness. [S1][S2] Hung before the cave, its reflected light drew the goddess out, restoring the light of the world. It is one of the Three Sacred Treasures (the Regalia) and the emblem of the imperial line's descent from the sun-goddess. As a regalia it is the emblem of truth, purity, and the sovereign's divine right.",
+    "interesting_facts": [
+      "Yata no Kagami is one of the Three Sacred Treasures (the Regalia) alongside the Kusanagi and the Yasakani no Magatama."
+    ],
+    "uncertainty_notes": [
+      "The regalia are not publicly displayed or examined; the physical mirror's survival and form are a matter of tradition, not of public verification."
+    ]
+  },
+  {
+    "id": "jpn-yasakani",
+    "slug": "yasakani-no-magatama",
+    "culture": "japanese",
+    "name": "Yasakani no Magatama",
+    "native_name": "八咫玉",
+    "alternative_names": [
+      "The Eight-Span Jewel"
+    ],
+    "category": "stone",
+    "artifact_type": "Jewel (magatama)",
+    "domains": [
+      "Sovereignty",
+      "Longevity",
+      "Purification"
+    ],
+    "owner": "jpn-amaterasu",
+    "owner_name": "Amaterasu (imperial regalia)",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "jpn-amaterasu"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Jade / crystal (the mythic magatama); the regalia are not publicly examined",
+    "appearance": "A comma-shaped jewel (magatama); the regalia are kept in the Ise shrines and are not displayed.",
+    "symbols": [
+      "Jewel",
+      "Sovereignty",
+      "Longevity",
+      "Purity"
+    ],
+    "limitations": [
+      "A regalia of the imperial line; not an object in ordinary use, and its physical form is not publicly examined."
+    ],
+    "creation_story": "Its making is not specified in the surviving sources; it is the jewel of the sun-goddess.",
+    "origin_story": "The jewel of the Regalia, passed to the imperial line. [S1]",
+    "major_myths": [
+      "jpn-amaterasu-cave",
+      "jpn-ninigi-descent"
+    ],
+    "associated_realms": [
+      "The Plain of High Heaven",
+      "Ise"
+    ],
+    "current_status": "hidden",
+    "source_confidence": "high",
+    "confidence_note": "The magatama is attested in both primary chronicles and in the Engishiki as one of the Regalia; its physical survival as a public object is unknown (the Regalia are not displayed).",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: a named regalia of the chief sun-goddess, tied to the imperial line and to the descent myths; cosmologically central to Japanese kingship.",
+    "power_profile": [
+      {
+        "attribute": "PROTECTION",
+        "value": 7,
+        "explanation": "The magatama is a charm against impurity and against disorder; it is the emblem of the sovereign's right."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 7,
+        "explanation": "One of the Three Sacred Treasures; it is the emblem of the sovereign's divine right."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 9,
+        "explanation": "It is the regalia of the emperor, the emblem of the imperial line's descent from Amaterasu."
+      },
+      {
+        "attribute": "CREATION",
+        "value": 5,
+        "explanation": "The magatama is tied to the offering of the Regalia and to the descent of the imperial line."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SOVEREIGN'S REGALIA",
+        "description": "It is one of the Three Sacred Treasures, the emblem of the emperor's divine right.",
+        "source": "Kojiki; Engishiki",
+        "certainty": "attested"
+      },
+      {
+        "name": "CHARM OF PURITY",
+        "description": "It is a charm against impurity and against the disorder of the world.",
+        "source": "Engishiki; later tradition",
+        "certainty": "later_tradition"
+      },
+      {
+        "name": "LONGEVITY",
+        "description": "In later tradition the magatama is a charm of longevity and of the sovereign's enduring right.",
+        "source": "Later tradition",
+        "certainty": "modern_interpretation"
+      }
+    ],
+    "artwork": {
+      "title": "Magatama (jewel)",
+      "artist": "Unknown",
+      "date": "(jewel form)",
+      "institution": "Public domain (Wikimedia Commons)",
+      "license": "Public domain (open-access image)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Magatama.png",
+      "image_type": "TYPE-PROXY",
+      "depicts": "The mythic Yasakani no Magatama does not survive as a public object. This is a magatama — the comma-shaped jewel of the object-class — a type-proxy showing the real form, not the regalia itself.",
+      "copyright_status": "Public domain (open-access)"
+    },
+    "gallery": [],
+    "description_short": "The jewel of sovereignty and longevity; one of the Three Sacred Treasures of Japan.",
+    "description_long": "Yasakani no Magatama ('the Eight-Span Jewel') is the magatama — the comma-shaped jewel — that is one of the Three Sacred Treasures (the Regalia). In the Kojiki and the Nihon Shoki it is the jewel of the imperial line, the emblem of the sovereign's divine right and of purity. [S1][S2] As a regalia it is the emblem of sovereignty, longevity, and the enduring right of the imperial line. In later tradition the magatama is a charm of longevity.",
+    "interesting_facts": [
+      "Yasakani no Magatama is one of the Three Sacred Treasures (the Regalia) alongside the Kusanagi and the Yata no Kagami."
+    ],
+    "uncertainty_notes": [
+      "The regalia are not publicly displayed or examined; the physical magatama's survival and form are a matter of tradition, not of public verification."
+    ]
+  },
+  {
+    "id": "jpn-amenonuboko",
+    "slug": "ame-no-nuboko",
+    "culture": "japanese",
+    "name": "Ame-no-Nuboko",
+    "native_name": "天沼矛",
+    "alternative_names": [
+      "The Heavenly Lake-Lance"
+    ],
+    "category": "tool",
+    "artifact_type": "Lance / Scepter",
+    "domains": [
+      "Creation",
+      "Sovereignty",
+      "Order"
+    ],
+    "owner": "jpn-izananagi",
+    "owner_name": "Izanagi",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "jpn-izananagi",
+      "jpn-izananami"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Celestial (the mythic lance)",
+    "appearance": "A long celestial lance / scepter.",
+    "symbols": [
+      "Lance",
+      "Creation",
+      "Order",
+      "Sovereignty"
+    ],
+    "limitations": [
+      "The instrument of the creator-god; not a common weapon, and its later fate is not specified."
+    ],
+    "creation_story": "It is the celestial lance of the creator-cycle; its making is not specified in the surviving sources.",
+    "origin_story": "The instrument of the island-forming, the emblem of the creative act. [S1]",
+    "major_myths": [
+      "jpn-creation-islands"
+    ],
+    "associated_realms": [
+      "The Bridge of Heaven",
+      "the Brine"
+    ],
+    "current_status": "unknown",
+    "source_confidence": "high",
+    "confidence_note": "Attested in both primary chronicles as the instrument of the island-forming; its later fate is not specified.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the instrument of the creative act itself (the forming of the islands), the scepter of the creator-god; cosmologically central to the Japanese origin narrative.",
+    "power_profile": [
+      {
+        "attribute": "CREATION",
+        "value": 9,
+        "explanation": "The lance with which Izanagi and Izanami stirred the brine and formed the islands of Japan — the instrument of creation."
+      },
+      {
+        "attribute": "MAGIC",
+        "value": 8,
+        "explanation": "A divine instrument of the highest order; it is the emblem of the creative act."
+      },
+      {
+        "attribute": "DIVINE AUTHORITY",
+        "value": 8,
+        "explanation": "It is the scepter of the creator-god, the emblem of the power to make the world."
+      },
+      {
+        "attribute": "CONTROL",
+        "value": 6,
+        "explanation": "It stirs the brine and sets the islands in order; it is the instrument of the cosmic act."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "ISLAND-FORMING",
+        "description": "Izanagi and Izanami stirred the brine with the lance and formed the islands of Japan.",
+        "source": "Kojiki; Nihon Shoki",
+        "certainty": "attested"
+      },
+      {
+        "name": "CREATOR'S SCEPTER",
+        "description": "It is the scepter of the creator-god, the emblem of the power to make the world.",
+        "source": "Kojiki; later tradition",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Susanoo slays Yamata no Orochi (Tsukioka Yoshitoshi)",
+      "artist": "Tsukioka Yoshitoshi",
+      "date": "1861 CE",
+      "institution": "Metropolitan Museum of Art (Met Open Access)",
+      "license": "Public domain (artist d. 1884)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Susanoo-no-Mikoto-slays-Yamata-no-Orochi-in-Izumo-By-Tsukioka-Yoshitoshi.png",
+      "image_type": "MODERN ART",
+      "depicts": "No Ame-no-Nuboko survives. This is a 19th-century woodblock print of the serpent-slaying — a related myth of the same creator-cycle — a later artistic interpretation, not the lance itself.",
+      "copyright_status": "Public domain (Met Open Access)"
+    },
+    "gallery": [],
+    "description_short": "The celestial lance with which the islands of Japan were formed; the scepter of the creator-god.",
+    "description_long": "Ame-no-Nuboko ('the Heavenly Lake-Lance') is the lance with which, in the Kojiki and the Nihon Shoki, Izanagi and Izanami stood on the Bridge of Heaven and stirred the brine below, forming the islands of Japan. [S1][S2] It is the instrument of the creative act and the emblem of the power to make the world. It is the scepter of the creator-god, the emblem of the cosmic order that the islands embody.",
+    "interesting_facts": [
+      "Ame-no-Nuboko is the Japanese equivalent of the \"world-making\" instrument; it is the scepter of the creator-god."
+    ],
+    "uncertainty_notes": [
+      "The lance's later fate and its relationship to the other Regalia are not specified in the surviving sources."
+    ]
+  }
+]
