@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { loadCulture, ALL_CULTURES, entityById } from '../../lib/data';
+import { loadCulture, ALL_CULTURES, entityById, artifactRelationships } from '../../lib/data';
+import { TIER_LABELS } from '../../lib/types';
 import { RelationshipGraph } from '../../components/RelationshipGraph';
 import { ArtworkFigure } from '../../components/ArtworkFigure';
 import { SourceFootnote } from '../../components/SourceFootnote';
@@ -27,6 +28,15 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
   const artById = new Map(d.artworks.map((a) => [a.id, a]));
   const hero = (e.hero_artwork && artById.get(e.hero_artwork)) || (e.artworks?.[0] && artById.get(e.artworks[0]));
   const byId = new Map(d.entities.map((x) => [x.id, x]));
+  // Resolve a relationship endpoint: entities → /deity, artifacts → /artifacts.
+  const artMap = new Map(d.artifacts.map((x) => [x.id, x]));
+  const resolveRel = (id: string): { name: string; href: string } => {
+    const ent = byId.get(id);
+    if (ent) return { name: ent.name, href: `/deity/${id}` };
+    const art = artMap.get(id);
+    if (art) return { name: art.name, href: `/artifacts/${art.slug}` };
+    return { name: id, href: '#' };
+  };
 
   // this entity's relationships
   const rels = d.relationships.filter((r) => r.from === e.id || r.to === e.id);
@@ -36,9 +46,16 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
     { title: 'Creation', items: rels.filter((r) => ['CREATED', 'CREATED_BY'].includes(r.type)) },
     { title: 'Conflict & enmity', items: rels.filter((r) => ['KILLED', 'FOUGHT', 'ENEMY_OF'].includes(r.type)) },
     { title: 'Alliances & rule', items: rels.filter((r) => ['ALLY_OF', 'RULES', 'ASSOCIATED_WITH', 'SUCCESSOR_OF'].includes(r.type)) },
+    { title: 'Artifacts', items: rels.filter((r) => ['OWNS', 'FORGED', 'FOUND', 'STOLE', 'GIFTED', 'INHERITED', 'USED', 'DESTROYED', 'SEALED', 'CONTAINS', 'PROTECTS', 'UNLOCKS', 'CONTROLS', 'CREATED_BY'].includes(r.type)) },
   ];
 
   const myths = d.myths.filter((m) => m.participants.includes(e.id) || (e.major_myths || []).includes(m.id));
+
+  // Artifacts this entity is woven into: owner / previous owner / related by edge.
+  const entityArtifacts = d.artifacts.filter((a) => {
+    if (a.owner === e.id || (a.previous_owners || []).includes(e.id)) return true;
+    return artifactRelationships(a.id).some((r) => r.from === e.id || r.to === e.id);
+  });
 
   return (
     <div data-culture={e.culture}>
@@ -124,12 +141,12 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
                   <div className="rel-list">
                     {g.items.map((r, i) => {
                       const other = r.from === e.id ? r.to : r.from;
-                      const oe = byId.get(other);
+                      const o = resolveRel(other);
                       return (
                         <div key={i} className="rel-item">
                           <span className={`rel-type conf-${r.confidence}`}>{r.type}</span>
                           <span className="rel-note">
-                            {r.from === e.id ? '→' : '←'} <a href={`/deity/${other}`}>{oe?.name || other}</a> — {r.note}
+                            {r.from === e.id ? '→' : '←'} <a href={o.href}>{o.name}</a> — {r.note}
                             <span className="mono" style={{ color: 'var(--ink-2)', marginLeft: 6, fontSize: '0.62rem' }}>{r.sources.map((s) => `[${s}]`).join(' ')}</span>
                           </span>
                         </div>
@@ -204,6 +221,36 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
                     </a>
                   </p>
                 </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
+        {/* artifacts associated with this entity */}
+        {entityArtifacts.length ? (
+          <section style={{ marginTop: 64 }}>
+            <span className="eyebrow">Artifacts of {e.name}</span>
+            <h2 style={{ marginTop: 8, marginBottom: 8 }}>Objects they wielded, forged, or were bound to</h2>
+            <p className="mono" style={{ color: 'var(--ink-2)', fontSize: '0.66rem', marginBottom: 24, letterSpacing: '0.06em' }}>
+              INTERPRETIVE CLASSIFICATION · FULL PROFILE IN THE DIVINE VAULT
+            </p>
+            <div className="grid-3">
+              {entityArtifacts.map((a) => (
+                <Link key={a.id} href={`/artifacts/${a.slug}`} className="card" style={{ display: 'block', padding: 14 }}>
+                  <div style={{ width: '100%', aspectRatio: '4/3', overflow: 'hidden', borderRadius: 3, background: 'var(--surface)' }}>
+                    {a.artwork.image_url ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={a.artwork.image_url} alt={a.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    ) : (
+                      <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '2.4rem', color: 'var(--accent)' }}>{a.name.charAt(0)}</div>
+                    )}
+                  </div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', marginTop: 10, fontWeight: 600 }}>{a.name}</div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginTop: 8 }}>
+                    <span className="chip chip-accent" style={{ marginTop: 0 }}>{a.rank} · {TIER_LABELS[a.tier]}</span>
+                    <span className="chip" style={{ marginTop: 0 }}>{a.owner === e.id ? 'Wielded by ' + e.name : 'Associated'}</span>
+                  </div>
+                </Link>
               ))}
             </div>
           </section>

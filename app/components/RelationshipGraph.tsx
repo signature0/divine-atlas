@@ -6,18 +6,19 @@ import { useMemo, useRef, useState, useEffect, useCallback, useId } from 'react'
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
-  GraphData, Relationship, Entity, EdgeCategory,
+  GraphData, Relationship, Entity, EdgeCategory, Artifact,
   CATEGORY_COLORS, categoryOf, CULTURE_NAMES, CULTURE_ACCENTS,
 } from '../lib/types';
 
-const CATS: EdgeCategory[] = ['family', 'marriage', 'creation', 'conflict', 'alliance', 'association'];
+const CATS: EdgeCategory[] = ['family', 'marriage', 'creation', 'conflict', 'alliance', 'association', 'artifact'];
 const CAT_LABELS: Record<EdgeCategory, string> = {
   family: 'Family', marriage: 'Marriage', creation: 'Creation',
   conflict: 'Conflict', alliance: 'Alliance', association: 'Domain & Rule',
+  artifact: 'Artifacts',
 };
 type Focus = 'all' | 'ancestors' | 'descendants' | 'enemies' | 'myths';
 
-type Node = { id: string; x: number; y: number; name: string; classification: string; img?: string };
+type Node = { id: string; x: number; y: number; name: string; classification: string; img?: string; href?: string };
 type Edge = { from: string; to: string; rel: Relationship; cat: EdgeCategory; bidir: boolean };
 
 // Round layout math before rendering: Math.cos/sin can differ by 1 ulp between
@@ -38,6 +39,11 @@ function entityImageMap(data: GraphData): Record<string, string> {
       const u = artById.get(aid)?.image_url;
       if (u) { out[e.id] = u; break; }
     }
+  }
+  // Artifacts: keyed by artifact id (node id = artifact id; the node carries
+  // an explicit href to its /artifacts/<slug> page).
+  for (const a of data.artifacts) {
+    if (a.artwork.image_url) out[a.id] = a.artwork.image_url;
   }
   return out;
 }
@@ -120,9 +126,20 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
     }
     const rings: Record<number, string[]> = {};
     for (const [id, d] of depth) (rings[d] ||= []).push(id);
+    // Resolve a node label/classification from either an entity OR an artifact
+    // (artifact edges introduce artifact ids into the neighborhood).
+    const artById = new Map(data.artifacts.map((x) => [x.id, x]));
+    const resolve = (id: string): { name: string; classification: string; href?: string } | null => {
+      const e = data.entities.find((x) => x.id === id);
+      if (e) return { name: e.name, classification: e.classification };
+      const art = artById.get(id);
+      if (art) return { name: art.name, classification: 'object', href: `/artifacts/${art.slug}` };
+      return null;
+    };
     const CX = 400, CY = 260;
+    const c0 = resolve(centerId);
     const nodeMap: Record<string, Node> = {
-      [centerId]: { id: centerId, x: CX, y: CY, name: center.name, classification: center.classification, img: imgMap[centerId] },
+      [centerId]: { id: centerId, x: CX, y: CY, name: c0?.name || center.name, classification: c0?.classification || center.classification, img: imgMap[centerId] },
     };
     for (let d = 1; d <= 4; d++) {
       const ring = rings[d] || [];
@@ -130,8 +147,9 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
       const R = 110 * d;
       ring.forEach((id, i) => {
         const a = (i / ring.length) * Math.PI * 2 - Math.PI / 2;
-        const e = data.entities.find((x) => x.id === id)!;
-        nodeMap[id] = { id, x: r2(CX + R * Math.cos(a)), y: r2(CY + R * Math.sin(a) * 0.72), name: e.name, classification: e.classification, img: imgMap[id] };
+        const r = resolve(id);
+        if (!r) return; // unknown id — skip, never crash
+        nodeMap[id] = { id, x: r2(CX + R * Math.cos(a)), y: r2(CY + R * Math.sin(a) * 0.72), name: r.name, classification: r.classification, img: imgMap[id], href: r.href };
       });
     }
     const edgeList: Edge[] = pool
@@ -148,6 +166,15 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
   }, [nodes, clusterLabels, center]);
 
   const byId = useMemo(() => new Map(data.entities.map((e) => [e.id, e])), [data]);
+  const artById = useMemo(() => new Map(data.artifacts.map((a) => [a.id, a])), [data]);
+  // Resolve an endpoint id to {name, href} — entities go to /deity, artifacts to /artifacts.
+  const endpoint = (id: string): { name: string; href: string } => {
+    const e = byId.get(id);
+    if (e) return { name: e.name, href: `/deity/${e.id}` };
+    const a = artById.get(id);
+    if (a) return { name: a.name, href: `/artifacts/${a.slug}` };
+    return { name: id, href: '#' };
+  };
 
   // ---- pan & zoom ----
   const onPointerDown = (e: React.PointerEvent) => {
@@ -266,7 +293,7 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
               const showImg = !!n.img && !imgFailed.has(n.id);
               return (
                 <g key={n.id}
-                  onClick={() => { if (!drag.current?.moved) router.push(`/deity/${n.id}`); }}
+                  onClick={() => { if (!drag.current?.moved) router.push(n.href || `/deity/${n.id}`); }}
                   onMouseEnter={() => (document.body.style.cursor = 'pointer')}
                   onMouseLeave={() => (document.body.style.cursor = 'grab')}
                   style={{ cursor: 'pointer' }}>
@@ -345,7 +372,7 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
             <div key={i} className="rel-item">
               <span className={`rel-type conf-${e.rel.confidence}`} style={{ color: strokeFor(e) }}>{e.rel.type}</span>
               <span className="rel-note">
-                <a href={`/deity/${e.from}`}>{byId.get(e.from)?.name || e.from}</a> → <a href={`/deity/${e.to}`}>{byId.get(e.to)?.name || e.to}</a> — {e.rel.note}
+                <a href={endpoint(e.from).href}>{endpoint(e.from).name}</a> → <a href={endpoint(e.to).href}>{endpoint(e.to).name}</a> — {e.rel.note}
               </span>
             </div>
           ))}
@@ -378,6 +405,13 @@ function layoutGlobal(
     if (!g) { g = { culture: e.culture, ents: [] }; gmap.set(e.culture, g); groups.push(g); }
     g.ents.push(e);
   }
+  // Artifacts per culture — rendered as an outer ring around each cluster.
+  const artsByCulture = new Map<string, Artifact[]>();
+  for (const a of data.artifacts) {
+    const arr = artsByCulture.get(a.culture) || [];
+    arr.push(a);
+    artsByCulture.set(a.culture, arr);
+  }
   const n = groups.length;
   const cols = Math.max(1, Math.ceil(Math.sqrt(n)));
   const rows = Math.max(1, Math.ceil(n / cols));
@@ -397,6 +431,18 @@ function layoutGlobal(
     });
     const label = CULTURE_NAMES[g.culture] || g.culture;
     clusterLabels.push({ x: r2(cx), y: r2(cy - r * 0.78 - 26), text: `${label.toUpperCase()} · ${g.ents.length}`, culture: g.culture });
+    // Outer ring of artifact nodes around this cluster.
+    const arts = artsByCulture.get(g.culture) || [];
+    if (arts.length) {
+      const ra = r + 44;
+      arts.forEach((a, j) => {
+        const ang = (j / arts.length) * Math.PI * 2 - Math.PI / 2 + 0.4;
+        nodeMap[a.id] = {
+          id: a.id, x: r2(cx + ra * Math.cos(ang)), y: r2(cy + ra * Math.sin(ang) * 0.78),
+          name: a.name, classification: 'object', img: imgMap[a.id], href: `/artifacts/${a.slug}`,
+        };
+      });
+    }
   });
   const pool = data.relationships.filter((r) => cats.has(categoryOf(r.type)));
   const edges: Edge[] = pool

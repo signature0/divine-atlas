@@ -36,11 +36,20 @@ export default function GraphExplorer({ data, fromId }: { data: GraphData; fromI
       ids.add(e.id);
       return true;
     });
+    // Artifact node ids per visible culture (artifact graph edges reference them).
+    const artIds = new Set<string>();
+    const artifacts = data.artifacts.filter((a) => {
+      if (!effective.has(a.culture)) return false;
+      artIds.add(a.id);
+      return true;
+    });
+    const ok = (id: string) => ids.has(id) || artIds.has(id);
     return {
       entities,
-      relationships: data.relationships.filter((r) => ids.has(r.from) && ids.has(r.to)),
+      relationships: data.relationships.filter((r) => ok(r.from) && ok(r.to)),
       myths: data.myths.filter((m) => effective.has(m.culture)),
       artworks: data.artworks.filter((a) => effective.has(a.culture)),
+      artifacts,
     };
   }, [data, effective]);
 

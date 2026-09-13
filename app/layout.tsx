@@ -37,11 +37,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const all = allCultures();
   const entities = Object.values(all).flatMap((d) => d.entities);
   const myths = Object.values(all).flatMap((d) => d.myths);
+  const artifacts = Object.values(all).flatMap((d) => d.artifacts);
   return (
     <html lang="en">
       <body>
         <TopNav />
-        <SearchOverlay entities={entities} myths={myths} />
+        <SearchOverlay entities={entities} myths={myths} artifacts={artifacts} />
         <main id="main">{children}</main>
         <footer className="site-footer">
           <div className="container small" style={{ color: 'var(--ink-2)', display: 'flex', flexWrap: 'wrap', gap: '8px 24px' }}>

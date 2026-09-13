@@ -10,6 +10,7 @@ export function TopNav() {
           The Divine Atlas <span className="star">★</span>
         </Link>
         <div className="links">
+          <Link href="/artifacts">Vault</Link>
           <Link href="/graph">Graph</Link>
           {active.map((c) => (
             <Link key={c.id} href={`/culture/${c.id}`}>{c.name.replace(' Mythology', '').replace('Ancient ', '').replace(' Religion', '')}</Link>

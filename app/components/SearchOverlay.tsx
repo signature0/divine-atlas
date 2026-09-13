@@ -4,16 +4,16 @@
 // is server-only because it reads the filesystem).
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { Entity, Myth } from '../lib/types';
-
-type SearchResult = { entities: Entity[]; myths: Myth[] };
+import { Entity, Myth, Artifact, TIER_LABELS, CATEGORY_LABELS, CULTURE_NAMES } from '../lib/types';
 
 export function SearchOverlay({
   entities,
   myths,
+  artifacts = [],
 }: {
   entities: Entity[];
   myths: Myth[];
+  artifacts?: Artifact[];
 }) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState('');
@@ -31,6 +31,11 @@ export function SearchOverlay({
     for (const m of myths) {
       const hay = [m.title, m.summary].join(' ').toLowerCase();
       if (hay.includes(qn)) flat.push({ label: m.title, sub: `myth · ${m.culture}`, href: `/culture/${m.culture}#myth-${m.id}`, kind: 'myth' });
+    }
+    for (const a of artifacts) {
+      const hay = [a.name, a.native_name, ...(a.alternative_names || []), a.owner_name, a.artifact_type, ...(a.domains || []), ...(a.symbols || [])]
+        .filter(Boolean).join(' ').toLowerCase();
+      if (hay.includes(qn)) flat.push({ label: a.name, sub: `${CATEGORY_LABELS[a.category]} · ${CULTURE_NAMES[a.culture] || a.culture} · class ${TIER_LABELS[a.tier]}`, href: `/artifacts/${a.slug}`, kind: 'artifact' });
     }
   }
   const shown = flat.slice(0, 12);
