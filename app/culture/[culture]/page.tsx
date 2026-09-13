@@ -100,8 +100,8 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
                   <SourceFootnote text={m.summary} sources={d.sources} />
                 </p>
                 <div style={{ marginTop: 12 }} className="mono">
-                  <a href={`#myth-${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
-                    {m.participants.length} PARTICIPANTS · READ ↓
+                  <a href={`/myths/${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
+                    {m.participants.length} PARTICIPANTS · READ STORY →
                   </a>
                 </div>
               </div>

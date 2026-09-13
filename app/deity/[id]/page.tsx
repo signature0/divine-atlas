@@ -216,8 +216,8 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
                   </h3>
                   <p className="small muted" style={{ margin: '8px 0 0' }}><SourceFootnote text={m.summary} sources={d.sources} /></p>
                   <p style={{ margin: '10px 0 0' }} className="mono">
-                    <a href={`/culture/${d.culture}#myth-${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
-                      READ IN {d.meta.name.toUpperCase()} →
+                    <a href={`/myths/${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
+                      READ THE STORY →
                     </a>
                   </p>
                 </div>

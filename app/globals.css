@@ -291,6 +291,37 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .art-fact .k { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
 .art-fact .v { font-size: 0.88rem; color: var(--ink-0); margin-top: 3px; }
 
+/* ---- Story mode (/myths/[id]) ---- */
+/* Inline entity name chips inside narrative prose */
+.entity-chip { display: inline; font-family: var(--font-mono); font-size: 0.74em; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--accent); border-bottom: 1px dotted var(--accent);
+  padding-bottom: 1px; white-space: nowrap; transition: color .15s var(--ease), border-color .15s var(--ease); }
+.entity-chip:hover { color: var(--gold); border-bottom-color: var(--gold); }
+
+/* Single reading column for scrollytelling */
+.story-col { max-width: 780px; margin: 0 auto; }
+.story-lead { font-family: var(--font-display); font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.55; color: var(--ink-0); }
+.chapter { margin-bottom: 72px; }
+.chapter-src { margin-top: 16px; padding-top: 10px; border-top: 1px dashed var(--line);
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.chapter-src .lbl { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--ink-2); }
+.story-figure { margin: 36px 0 8px; }
+
+/* Uncertainty callout ("scholars disagree") */
+.uncertainty-callout { border: 1px dashed var(--line); border-left: 3px solid var(--accent);
+  background: var(--bg-1); border-radius: 4px; padding: 18px 22px; }
+
+/* Variant accordions */
+.variant-acc { border: 1px solid var(--line); border-left: 3px solid var(--accent-2);
+  background: var(--bg-1); border-radius: 4px; padding: 16px 20px; }
+.variant-acc summary { cursor: pointer; font-family: var(--font-mono); font-size: 0.7rem;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); list-style: none; }
+.variant-acc summary::-webkit-details-marker { display: none; }
+.variant-acc summary::before { content: '+\2002'; color: var(--accent); }
+.variant-acc[open] summary::before { content: '\2212\2002'; }
+.variant-item { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
+
 /* cross-links */
 .xlinks { display: flex; flex-wrap: wrap; gap: 8px; }
 .xlink { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg-2);
