@@ -4,21 +4,23 @@
 // A SECOND layout system, independent of RelationshipGraph (which is preserved
 // as the RELATIONSHIPS view). Node positions come ONLY from the genealogy DAG,
 // layered with @dagrejs/dagre:
-//   - vertical = generation (oldest/primordial at the top)
+//   - vertical = generation (oldest/primordial at the top, next generations below)
 //   - partners = horizontal union bonds; shared children fan out from the bond
-//     midpoint (one origin, not duplicate parent lines)
 //   - artifacts = satellites beside their owner, never in a generation row
 //   - other relationships = overlays drawn on top; they never move nodes
 //   - each tradition lays out in its own territory (no cross-tradition edges)
-//   - semantic zoom (map-style): far = primordial portraits+names,
-//     medium = all names, close = +domain +classification +relationship count
+//   - semantic zoom (map-style): far = primordials+names, medium = all names,
+//     close = +domain +classification +relationship count
 //   - focus mode re-lays-out a subgraph (ancestors/descendants/siblings/...)
+//   - well-known entities (many legends/relations) render BIGGER + highlighted
 //
-// Zoom model: the viewBox equals the content bounds and the fitted view is the
-// identity transform (preserveAspectRatio="meet" contains the whole wall).
-// Text is sized in CONTENT units so it scales WITH the zoom; a density boost
-// (∝ 1/viewBox-width) keeps text proportionally consistent between the huge
-// full-atlas viewBox and a single-tradition one.
+// View model (native scroll): the SVG's pixel size = content×zoom, so the wall
+// is a natively scrollable surface (pan by scroll/drag; zoom via buttons/wheel).
+// A portrait disc of content radius r renders at r*zoom px — 1 SVG unit = 1 px.
+// On a narrow phone the initial zoom is raised above the contain-fit so a disc
+// is at least MIN_DISC_PX wide (this is the "photos disappear" fix: the contain-
+// fit was shrinking 6-culture photos to ~3px). Labels are constant SCREEN size
+// (px) so names stay readable at every zoom.
 //
 // Layout runs client-side only (deterministic dagre) to stay SSR/hydration-safe.
 
@@ -31,17 +33,26 @@ import {
 } from '../lib/types';
 import {
   buildTraditionGenealogy, buildFocusedGenealogy,
-  TraditionGenealogy, GeneNode, GeneSatellite, Union, GeneEdge, FocusKind,
+  GeneNode, GeneSatellite, Union, GeneEdge, FocusKind,
 } from '../lib/genealogy';
 
 // ---- geometry constants (abstract content units; the canvas fits to content) ----
 const NODE_W = 132, NODE_H = 128;     // deity node box reserved for layout
 const DISC_R = 32;                    // portrait disc radius (content units)
+const DISC_R_MAJOR = DISC_R * 1.3;    // well-known entities render bigger
 const SAT_W = 72, SAT_H = 58;         // artifact satellite box
-const RANK_SEP = 70;                   // vertical gap between generations
-const NODE_SEP = 22, EDGE_SEP = 10;    // horizontal gaps (dagre)
-const T_GAP_X = 110, T_GAP_Y = 130;    // gutter between tradition territories
-const HEADER_H = 46;                   // reserved header space above each territory
+const RANK_SEP = 70;                  // vertical gap between generations
+const NODE_SEP = 22, EDGE_SEP = 10;   // horizontal gaps (dagre)
+const T_GAP_X = 110, T_GAP_Y = 130;   // gutter between tradition territories
+const HEADER_H = 46;                  // reserved header space above each territory
+const MIN_DISC_PX = 40;               // on narrow screens, start zoomed so a disc is ≥ this px
+
+// Within-row ordering so each generation reads logically left→right:
+// primordials/elders first, then major gods, then monsters/heroes/mortals.
+const CLASS_ORDER: Record<string, number> = {
+  primordial: 0, deity: 1, trickster: 1, giant: 2, realm: 2, monster: 3, hero: 4, mortal: 5,
+};
+const classRank = (c: string) => CLASS_ORDER[c] ?? 6;
 
 // Overlay definitions (parentage + marriage are always on in genealogy mode).
 type OverlayKey = 'creation' | 'conflict' | 'alliance' | 'association' | 'artifact';
@@ -63,6 +74,8 @@ type PlacedNode = {
   id: string; name: string; classification: string; domain?: string;
   x: number; y: number; img?: string; href: string;
   uncertain: boolean; rank: number; relCount: number; culture: string;
+  major: boolean;            // well-known entity: bigger disc + highlighted ring
+  score: number;             // prominence score (myths+relations+children+artifacts)
 };
 type Sat = { id: string; name: string; x: number; y: number; owner: string; side: string; href: string; img?: string };
 type Bond = { x1: number; y1: number; x2: number; y2: number; mx: number; my: number };
@@ -94,19 +107,54 @@ function layoutTradition(
   gr.setDefaultEdgeLabel(() => ({}));
   const relCount = new Map<string, number>();
   for (const r of rels) { relCount.set(r.from, (relCount.get(r.from) || 0) + 1); relCount.set(r.to, (relCount.get(r.to) || 0) + 1); }
-
+  // Prominence (the "well-known gods" set): total relationship weight, plus
+  // weight for each major myth they feature in, each child and each artwork.
+  // Per-tradition top ~40% (min 3) are rendered as MAJOR (bigger + highlighted).
+  const scores = ents.map((e) => ({
+    id: e.id,
+    score: (relCount.get(e.id) || 0) + 4 * (e.major_myths?.length || 0)
+      + 2 * (e.children?.length || 0) + 2 * (e.artworks?.length || 0),
+  }));
+  const sorted = [...scores].sort((a, b) => b.score - a.score);
+  const topN = Math.max(3, Math.ceil(ents.length * 0.4));
+  const cutoff = sorted[Math.min(topN, sorted.length) - 1]?.score ?? 0;
+  const scoreById = new Map(scores.map((s) => [s.id, s.score]));
   const pos = new Map<string, PlacedNode>();
-  for (const n of g.nodes) gr.setNode(n.id, { width: NODE_W, height: NODE_H });
+  // Within each generation (rank), hint dagre's left→right order so rows read
+  // logically: well-known (major) entities first, then by class seniority
+  // (primordial → deity → monster → hero → mortal), then by name.
+  const entById = new Map(ents.map((e) => [e.id, e]));
+  const byRank = new Map<number, typeof g.nodes>();
+  for (const n of g.nodes) {
+    if (!byRank.has(n.rank)) byRank.set(n.rank, []);
+    byRank.get(n.rank)!.push(n);
+  }
+  for (const list of byRank.values()) {
+    list.sort((a, b) => {
+      const sa = scoreById.get(a.id) || 0, sb = scoreById.get(b.id) || 0;
+      const ma = sa >= cutoff, mb = sb >= cutoff;
+      if (ma !== mb) return ma ? -1 : 1;
+      if (sa !== sb) return sb - sa;
+      const ca = classRank(entById.get(a.id)?.classification || ''), cb = classRank(entById.get(b.id)?.classification || '');
+      if (ca !== cb) return ca - cb;
+      return a.id.localeCompare(b.id);
+    });
+  }
+  for (const [rank, list] of byRank) {
+    list.forEach((n, i) => gr.setNode(n.id, { width: NODE_W, height: NODE_H, rank, order: i }));
+  }
   for (const e of g.edges) if (e.confidence !== 'variant') gr.setEdge(e.parent, e.child, { minlen: 1 });
   dagre.layout(gr);
 
   const nodes: PlacedNode[] = g.nodes.map((n: GeneNode) => {
     const p = gr.node(n.id);
+    const score = scoreById.get(n.id) || 0;
     const pl: PlacedNode = {
       id: n.id, name: n.name, classification: n.classification, domain: n.domain,
       x: tx + p.x, y: ty + p.y, img: imgMap[n.id], href: `/deity/${n.id}`,
       uncertain: n.uncertain, rank: n.rank,
       relCount: relCount.get(n.id) || 0, culture,
+      major: score >= cutoff, score,
     };
     pos.set(n.id, pl);
     return pl;
@@ -185,21 +233,32 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
   const [selectedId, setSelectedId] = useState<string | null>(centerId ?? null);
   const [hover, setHover] = useState<GEdge | null>(null);
   const [imgFailed, setImgFailed] = useState<Set<string>>(new Set());
-  const [view, setView] = useState({ x: 0, y: 0, k: 1 });
+  const imgAttempts = useRef<Record<string, number>>({});
   const [full, setFull] = useState(false);
+  // View state: a single zoom scale (px per content unit). Pan is NATIVE scroll.
+  const [zk, setZk] = useState(1);
+  const [canvasPx, setCanvasPx] = useState({ w: 1000, h: 600 });
+  const contRef = useRef<HTMLDivElement>(null);      // the scroll container (measured)
   const svgRef = useRef<SVGSVGElement>(null);
-  const drag = useRef<{ sx: number; sy: number; ox: number; oy: number; moved: boolean } | null>(null);
+  const scrollRef = useRef({ x: 0, y: 0 });
+  const scrollInit = useRef(false);
 
-  // Fullscreen: Esc exits (works while the canvas has focus or is dragging).
-  useEffect(() => {
-    if (!full) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFull(false); };
-    window.addEventListener('keydown', onKey);
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = 'hidden'; // page under the graph can't scroll away
-    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = prev; };
-  }, [full]);
-
+  // Image errors: retry up to 2× (transient network / slow hotlink) before
+  // hiding the photo — one flaky load must not permanently kill a portrait.
+  const markImgFailed = useCallback((id: string) => {
+    const n = (imgAttempts.current[id] || 0) + 1;
+    imgAttempts.current[id] = n;
+    if (n < 3) {
+      setTimeout(() => setImgFailed((p) => { const q = new Set(p); q.delete(id); return q; }), 1200 * n);
+    } else {
+      setImgFailed((p) => new Set(p).add(id));
+    }
+  }, []);
+  const cultures = useMemo(() => {
+    const s: string[] = []; const seen = new Set<string>();
+    for (const e of data.entities) if (!seen.has(e.culture)) { seen.add(e.culture); s.push(e.culture); }
+    return s;
+  }, [data]);
   const imgMap = useMemo(() => {
     const artById = new Map(data.artworks.map((a) => [a.id, a]));
     const out: Record<string, string> = {};
@@ -211,25 +270,13 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
     return out;
   }, [data]);
 
-  const byId = useMemo(() => new Map(data.entities.map((e) => [e.id, e])), [data]);
-  const cultures = useMemo(() => {
-    const s: string[] = []; const seen = new Set<string>();
-    for (const e of data.entities) if (!seen.has(e.culture)) { seen.add(e.culture); s.push(e.culture); }
-    return s;
-  }, [data]);
-
-  const selected = selectedId ? byId.get(selectedId) : undefined;
-  const focusedGenealogy = useMemo(() => {
-    if (!selected) return null;
-    return buildFocusedGenealogy(selected.culture, focusKind, selected.id,
-      data.entities.filter((e) => e.culture === selected.culture),
-      data.relationships, data.artifacts);
-  }, [selected, focusKind, data]);
-
   // ---- the layout. Recomputed ONLY when the node set changes — overlays are NOT
   //      inputs, so toggling an overlay can never move a node. ----
   const layout = useMemo<Layout>(() => {
-    if (selected && focusedGenealogy) {
+    const selected = selectedId ? data.entities.find((e) => e.id === selectedId) : undefined;
+    if (selected) {
+      const focusedGenealogy = buildFocusedGenealogy(selected.culture, focusKind, selected.id,
+        data.entities.filter((e) => e.culture === selected.culture), data.relationships, data.artifacts);
       const ents = data.entities.filter((e) => e.culture === selected.culture && focusedGenealogy.nodes.some((n) => n.id === e.id));
       const { terr, pos } = layoutTradition(selected.culture, ents, data.relationships,
         data.artifacts.filter((a) => focusedGenealogy.satellites.some((s) => s.id === a.id)), imgMap, 0, HEADER_H);
@@ -247,9 +294,6 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
     const n = parts.length;
     const cols = n <= 1 ? 1 : n <= 4 ? 2 : 3;
     const rows = Math.ceil(n / cols);
-    // Two-pass grid: column x-offsets from max width per column, row y-offsets
-    // from max height per row. This keeps every column and row aligned (a true
-    // grid, not masonry).
     const colW = new Array(cols).fill(0), rowH = new Array(rows).fill(0);
     parts.forEach((p, i) => {
       const col = i % cols, row = Math.floor(i / cols);
@@ -262,7 +306,6 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
     for (let r = 0; r < rows; r++) { rowY[r] = cy; cy += rowH[r] + T_GAP_Y; }
     const placed = parts.map((p, i) => {
       const col = i % cols, row = Math.floor(i / cols);
-      // center each territory in its grid cell
       const x = colX[col] + (colW[col] - p.terr.w) / 2;
       const y = rowY[row] + (rowH[row] - p.terr.h) / 2;
       return { p, x, y };
@@ -285,60 +328,127 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
       maxX = Math.max(maxX, x + p.terr.w); maxY = Math.max(maxY, y + p.terr.h);
     }
     return { territories: terrs, pos, content: { minX: 0, minY: 0, maxX, maxY } };
-  }, [data, cultures, imgMap, selected, focusedGenealogy]);
+  }, [data, cultures, imgMap, selectedId, focusKind]);
 
-  // viewBox = content bounds (padded).
+  const selected = selectedId ? data.entities.find((e) => e.id === selectedId) : undefined;
+
+  // content bounds (padded) — the SVG viewBox.
   const vb = useMemo(() => {
     const c = layout.content, pad = 30;
     const x = c.minX - pad, y = c.minY - pad;
     return { x, y, w: (c.maxX - c.minX) + pad * 2, h: (c.maxY - c.minY) + pad * 2 };
   }, [layout]);
-
-  // FITTED = identity transform (contain-fit via preserveAspectRatio="meet").
-  const fitK = 1;
-  const fit = useCallback(() => ({ x: vb.x, y: vb.y, k: fitK }), [vb, fitK]);
   const layoutKey = layout.focused ? `${layout.focused.id}:${focusKind}` : 'atlas:' + layout.territories.length;
-  useEffect(() => { setView(fit()); }, [layoutKey, fit]);
 
-  const onPointerDown = (e: React.PointerEvent) => {
-    drag.current = { sx: e.clientX, sy: e.clientY, ox: view.x, oy: view.y, moved: false };
-    (e.target as Element).setPointerCapture?.(e.pointerId);
+  // Visible container size (measure the container, not the self-sizing SVG).
+  useEffect(() => {
+    const el = contRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => {
+      const w = el.clientWidth, h = el.clientHeight;
+      if (w > 0 && h > 0) setCanvasPx({ w, h });
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [full]);
+
+  // FIT scale = the "contain" scale: whole content bounds inside the viewport.
+  const fitK = useMemo(() => {
+    if (!vb.w || !vb.h) return 1;
+    return Math.max(1e-6, Math.min(canvasPx.w / vb.w, canvasPx.h / vb.h));
+  }, [vb, canvasPx]);
+
+  // Initial zoom: fitted overview, EXCEPT on narrow canvases where the contain-
+  // fit would shrink portrait discs to a few px — then zoom in so a disc is at
+  // least MIN_DISC_PX on screen. (The "photos disappear on my phone" fix.)
+  const initialK = useCallback(() => {
+    const f = fitK;
+    const discPx = 2 * DISC_R * f;
+    if (canvasPx.w >= 700 || discPx >= MIN_DISC_PX) return f;
+    return Math.max(f, MIN_DISC_PX / (2 * DISC_R));
+  }, [fitK, canvasPx]);
+
+  const setScrollBoth = (x: number, y: number) => {
+    const el = contRef.current; if (!el) return;
+    el.scrollLeft = Math.max(0, x); el.scrollTop = Math.max(0, y);
+    scrollRef.current = { x: el.scrollLeft, y: el.scrollTop };
   };
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (!drag.current) return;
-    const rect = svgRef.current?.getBoundingClientRect();
-    const scale = rect ? vb.w / rect.width : 1;
-    const dx = (e.clientX - drag.current.sx) * scale, dy = (e.clientY - drag.current.sy) * scale;
-    if (Math.abs(dx) + Math.abs(dy) > 3) drag.current.moved = true;
-    setView((v) => ({ ...v, x: drag.current!.ox + dx, y: drag.current!.oy + dy }));
-  };
-  const onPointerUp = () => { drag.current = null; };
-  const zoom = useCallback((f: number, cx?: number, cy?: number) => setView((v) => {
-    const k = Math.min(fitK * 8, Math.max(fitK * 0.5, v.k * f));
-    if (cx === undefined || cy === undefined) return { ...v, k };
-    const r = k / v.k;
-    return { k, x: cx - (cx - v.x) * r, y: cy - (cy - v.y) * r };
-  }), [fitK]);
-  const toContent = (e: React.WheelEvent | React.PointerEvent): { x: number; y: number } => {
+  const centerContent = useCallback((k: number) => {
+    // start at the TOP-LEFT of the content (the first panel) — the natural
+    // reading position; the user scrolls/zooms to explore.
+    setScrollBoth(0, 0);
+  }, [vb, canvasPx]);
+
+  // On a new layout: pick the initial zoom, then center once the size is known.
+  useEffect(() => { setZk(initialK()); scrollInit.current = false; }, [layoutKey, initialK]);
+  useEffect(() => {
+    if (scrollInit.current || !vb.w) return;
+    centerContent(zk);
+    scrollInit.current = true;
+  }, [layoutKey, zk, canvasPx, vb, centerContent]);
+
+  const onScroll = useCallback(() => {
+    const el = contRef.current; if (!el) return;
+    scrollRef.current = { x: el.scrollLeft, y: el.scrollTop };
+  }, []);
+
+  // content coords of a screen point (the SVG's on-screen rect already reflects scroll).
+  const contentAt = (clientX: number, clientY: number) => {
     const rect = svgRef.current?.getBoundingClientRect();
     if (!rect) return { x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 };
-    return { x: vb.x + ((e.clientX - rect.left) / rect.width) * vb.w, y: vb.y + ((e.clientY - rect.top) / rect.height) * vb.h };
+    return { x: vb.x + (clientX - rect.left) / zk, y: vb.y + (clientY - rect.top) / zk };
   };
+  // Zoom keeping `anchor` (content coords) fixed under the cursor.
+  // Bounds are absolute-aware: on the wide atlas the fit scale is tiny, so a
+  // relative-only cap would never reach "readable portrait" zoom.
+  const zoom = useCallback((f: number, anchor?: { x: number; y: number }) => {
+    const maxK = Math.max(fitK * 14, 0.8);
+    const minK = Math.max(fitK * 0.5, 1e-6);
+    const k = Math.min(maxK, Math.max(minK, zk * f));
+    const el = contRef.current; if (!el) { setZk(k); return; }
+    const r = el.getBoundingClientRect();
+    const a = anchor ?? contentAt(r.left + r.width / 2, r.top + r.height / 2);
+    // screen point of `a` right now = its offset within the viewport + current scroll
+    const px = (a.x - vb.x) * zk - scrollRef.current.x;
+    const py = (a.y - vb.y) * zk - scrollRef.current.y;
+    setScrollBoth((a.x - vb.x) * k - px, (a.y - vb.y) * k - py);
+    setZk(k);
+  }, [fitK, zk, vb, contentAt]);
+  const doFit = useCallback(() => { setZk(fitK); centerContent(fitK); }, [fitK, centerContent]);
 
-  // Semantic-zoom tiers relative to the fitted scale: FAR ≈ fitted overview →
-  // MEDIUM (1.3–2.4×) → CLOSE (>2.4×).
-  const tier: 'far' | 'medium' | 'close' = view.k < fitK * 1.3 ? 'far' : view.k < fitK * 2.4 ? 'medium' : 'close';
+  // Wheel = zoom (non-passive so we can stop the native scroll too).
+  useEffect(() => {
+    const el = contRef.current; if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      const p = contentAt(e.clientX, e.clientY);
+      zoom(e.deltaY < 0 ? 1.12 : 0.89, p);
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, [zoom, contentAt]);
+
+  // Fullscreen: Esc exits.
+  useEffect(() => {
+    if (!full) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFull(false); };
+    window.addEventListener('keydown', onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = prev; };
+  }, [full]);
+
+  // Semantic-zoom tiers relative to the fitted scale.
+  const tier: 'far' | 'medium' | 'close' = zk < fitK * 1.3 ? 'far' : zk < fitK * 2.4 ? 'medium' : 'close';
   const showAll = tier !== 'far';
-  // Font density boost: the full-atlas viewBox is far wider than one tradition's,
-  // so content-unit text is proportionally smaller when fitted; ∝1/width keeps
-  // on-screen size consistent. Text still scales WITH zoom.
-  const fontBoost = Math.max(1, 2600 / vb.w);
+  // Constant SCREEN-size labels (content units = px / zoom).
+  const pxFont = (px: number) => px / zk;
 
   // ---- overlay edges (raw relationships; never affect layout) ----
   const overlayEdges = useMemo(() => {
     if (!overlays.size) return [] as GEdge[];
     const out: GEdge[] = [];
-    const seen = new Set<string>();
+    const seen = new Set();
     for (const r of data.relationships) {
       if (!OVERLAY_TYPES.has(r.type)) continue;
       const cat: EdgeCategory = (Object.entries(CATEGORY_TYPES).find(([, t]) => t.includes(r.type))?.[0] as EdgeCategory) || 'association';
@@ -357,7 +467,6 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
   const toggleOverlay = (k: OverlayKey) => setOverlays((prev) => {
     const s = new Set(prev); if (s.has(k)) s.delete(k); else s.add(k); return s;
   });
-
   const focusLabels: Record<FocusKind, string> = {
     full: 'Full pantheon', ancestors: 'Ancestors', descendants: 'Descendants',
     siblings: 'Siblings', partners: 'Partners',
@@ -377,7 +486,7 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
         <span style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
           <button className="chip-btn" onClick={() => zoom(1.25)} aria-label="Zoom in">+</button>
           <button className="chip-btn" onClick={() => zoom(0.8)} aria-label="Zoom out">−</button>
-          <button className="chip-btn" onClick={() => setView(fit())}>Fit</button>
+          <button className="chip-btn" onClick={doFit}>Fit</button>
           <button className="chip-btn" onClick={() => setFull((f) => !f)} aria-label="Toggle fullscreen"
             title="Full-screen the graph (Esc exits)">⛶</button>
         </span>
@@ -399,31 +508,30 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
         </div>
       )}
 
-      {/* canvas — full mode: pinned over the whole viewport, content scrolls under it */}
+      {/* canvas — a natively scrollable surface; full mode pins over the viewport */}
       <div style={full
         ? { position: 'fixed', inset: 0, zIndex: 1000, overflow: 'hidden',
             background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))' }
         : { position: 'relative', border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden',
             background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))',
             height: 'min(74vh, 800px)', minHeight: 420 }}>
-        <svg ref={svgRef} viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} preserveAspectRatio="xMidYMid meet" role="img"
-          aria-label={layout.focused
-            ? `Genealogy focused on ${layout.focused.name}, showing ${focusLabels[focusKind]}`
-            : `Hierarchical genealogy of ${layout.territories.length} traditions`}
-          style={{ width: '100%', height: '100%', display: 'block', cursor: 'grab', touchAction: 'none' }}
-          onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp}
-          onWheel={(e) => { const p = toContent(e); zoom(e.deltaY < 0 ? 1.12 : 0.89, p.x, p.y); }}>
-          <defs>
-            {layout.territories.flatMap((t) => t.nodes).map((n) => (
-              <clipPath key={n.id} id={`ggclip-${n.id}`}><circle cx={n.x} cy={n.y} r={DISC_R} /></clipPath>
-            ))}
-          </defs>
-          <g transform={`translate(${view.x},${view.y}) scale(${view.k})`}>
+        <div ref={contRef} onScroll={onScroll} style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+          <svg ref={svgRef} viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} role="img"
+            aria-label={layout.focused
+              ? `Genealogy focused on ${layout.focused.name}, showing ${focusLabels[focusKind]}`
+              : `Hierarchical genealogy of ${layout.territories.length} traditions`}
+            style={{ width: vb.w * zk, height: vb.h * zk, display: 'block' }}>
+            <defs>
+              {layout.territories.flatMap((t) => t.nodes).map((n) => {
+                const rr = n.major ? DISC_R_MAJOR : DISC_R;
+                return <clipPath key={n.id} id={`ggclip-${n.id}`}><circle cx={n.x} cy={n.y} r={rr} /></clipPath>;
+              })}
+            </defs>
             {layout.territories.map((t) => (
-              <TerritoryView key={t.culture} t={t} tier={tier} showAll={showAll} boost={fontBoost} imgFailed={imgFailed}
-                setImgFailed={(id) => setImgFailed((p) => new Set(p).add(id))}
-                onNodeClick={(id) => { if (!drag.current?.moved) setSelectedId(id); }}
-                onSatClick={(href) => { if (!drag.current?.moved) router.push(href); }}
+              <TerritoryView key={t.culture} t={t} tier={tier} showAll={showAll} k={zk} pxFont={pxFont} imgFailed={imgFailed}
+                setImgFailed={markImgFailed}
+                onNodeClick={(id) => setSelectedId(id)}
+                onSatClick={(href) => router.push(href)}
                 onEdgeHover={setHover} hover={hover} />
             ))}
             {/* overlays on top of every territory (never move nodes) */}
@@ -437,24 +545,12 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
                 </g>
               ))}
             </g>
-          </g>
-          {/* hover tooltip */}
-          {hover?.rel && (
-            <foreignObject x="12" y="12" width="340" height="100">
-              <div style={{ background: 'var(--bg-2)', border: '1px solid var(--line)', borderRadius: 4, padding: '8px 10px',
-                fontFamily: 'var(--font-mono)', fontSize: '0.64rem', color: 'var(--ink-0)' }}>
-                <div style={{ color: CATEGORY_COLORS[hover.cat as EdgeCategory], textTransform: 'uppercase', letterSpacing: 1, marginBottom: 3 }}>
-                  {hover.rel.type}{hover.rel.confidence !== 'attested' && ` · ${hover.rel.confidence}`}
-                </div>
-                <div>{hover.rel.note}</div>
-              </div>
-            </foreignObject>
-          )}
-        </svg>
+          </svg>
+        </div>
         {/* zoom tier indicator */}
         <div className="mono" style={{ position: 'absolute', right: 10, bottom: 8, fontSize: '0.58rem', color: 'var(--ink-2)',
           background: 'color-mix(in srgb, var(--bg-0) 70%, transparent)', padding: '2px 6px', borderRadius: 3 }}>
-          zoom {view.k.toFixed(2)}× · {tier}
+          zoom {(zk / fitK).toFixed(2)}× · {tier}
         </div>
         {full && (
           <button className="chip-btn" onClick={() => setFull(false)}
@@ -476,24 +572,25 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
             <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS[o.key as EdgeCategory]}` }} /> {o.label}
           </span>
         ))}
-        <span style={{ color: 'var(--ink-2)', fontSize: '0.6rem' }}>far = primordials · medium = all · close = detail — click a deity to focus</span>
+        <span style={{ color: 'var(--ink-2)', fontSize: '0.6rem' }}>far = primordials · medium = all · close = detail — scroll/pan, click a deity to focus</span>
       </div>
     </div>
   );
 }
 
 // ---- per-territory render ----
-function TerritoryView({ t, tier, showAll, boost, imgFailed, setImgFailed, onNodeClick, onSatClick, onEdgeHover, hover }: {
-  t: Territory; tier: 'far' | 'medium' | 'close'; showAll: boolean; boost: number;
+function TerritoryView({ t, tier, showAll, k, pxFont, imgFailed, setImgFailed, onNodeClick, onSatClick, onEdgeHover, hover }: {
+  t: Territory; tier: 'far' | 'medium' | 'close'; showAll: boolean; k: number;
+  pxFont: (px: number) => number;   // target screen px → content units (constant-size labels)
   imgFailed: Set<string>; setImgFailed: (id: string) => void;
   onNodeClick: (id: string) => void; onSatClick: (href: string) => void;
   onEdgeHover: (e: GEdge | null) => void; hover: GEdge | null;
 }) {
   const accent = CULTURE_ACCENTS[t.culture] || 'var(--gold)';
-  const fs = (base: number) => Math.max(7, base * boost);
-  const nameFor = (name: string) => {
-    // fit the name inside ~1.4× the node width at the current (content-unit) size
-    const maxChars = Math.max(4, Math.floor((NODE_W * 1.4) / fs(13)));
+  // Labels are constant screen-size, so their on-screen width budget is the
+  // layout's own node width in px (NODE_W*k) — scales with zoom, no overlap.
+  const nameFor = (name: string, fontPx: number, boxPx: number) => {
+    const maxChars = Math.max(4, Math.round(boxPx / (0.55 * fontPx)));
     return name.length > maxChars ? name.slice(0, maxChars - 1) + '…' : name;
   };
   return (
@@ -501,11 +598,11 @@ function TerritoryView({ t, tier, showAll, boost, imgFailed, setImgFailed, onNod
       {/* territory frame + header */}
       <rect x={t.x - 8} y={t.y - 8} width={t.w + 16} height={t.h + 16} rx={10}
         fill="color-mix(in srgb, var(--bg-0) 35%, transparent)" stroke="var(--line)" strokeDasharray="4 6" opacity={0.85} />
-      <text x={t.x + 14} y={t.y + 10} fill={accent} style={{ fontFamily: 'var(--font-mono)', fontSize: fs(13), letterSpacing: 2, fontWeight: 600 }}>
+      <text x={t.x + 14} y={t.y + 10} fill={accent} style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(11), letterSpacing: 2, fontWeight: 600 }}>
         {t.label.toUpperCase()} · {t.count}
       </text>
       {t.fragmentary && (
-        <text x={t.x + 14} y={t.y + 26} fill="var(--ink-2)" style={{ fontFamily: 'var(--font-mono)', fontSize: fs(9) }}>
+        <text x={t.x + 14} y={t.y + 26} fill="var(--ink-2)" style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(8.5) }}>
           fragmentary record — no firm parentage
         </text>
       )}
@@ -518,7 +615,7 @@ function TerritoryView({ t, tier, showAll, boost, imgFailed, setImgFailed, onNod
             strokeWidth={1.6} strokeDasharray={e.conf === 'variant' ? '3 4' : e.conf === 'disputed' ? '6 5' : e.conf === 'reconstructed' ? '2 4' : undefined}
             opacity={e.conf === 'variant' ? 0.5 : 0.7} />
           {e.label && <text x={(e.a.x + e.b.x) / 2} y={(e.a.y + e.b.y) / 2 - 8} textAnchor="middle"
-            fill={CATEGORY_COLORS.conflict} style={{ fontFamily: 'var(--font-mono)', fontSize: fs(9) }}>{e.label}</text>}
+            fill={CATEGORY_COLORS.conflict} style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(8.5) }}>{e.label}</text>}
         </g>
       ))}
 
@@ -527,7 +624,7 @@ function TerritoryView({ t, tier, showAll, boost, imgFailed, setImgFailed, onNod
         <g key={`bn${i}`}>
           <line x1={b.x1} y1={b.y1} x2={b.x2} y2={b.y2} stroke={CATEGORY_COLORS.marriage} strokeWidth={1.6} opacity={0.85} />
           <text x={b.mx} y={b.my - 5} textAnchor="middle" fill={CATEGORY_COLORS.marriage}
-            style={{ fontFamily: 'var(--font-mono)', fontSize: fs(11) }}>♥</text>
+            style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(11) }}>♥</text>
         </g>
       ))}
 
@@ -547,41 +644,54 @@ function TerritoryView({ t, tier, showAll, boost, imgFailed, setImgFailed, onNod
                 opacity={0.9} onError={() => setImgFailed(s.id)} />
             )}
             <text x={s.x} y={s.y + SAT_H / 2 - 6} textAnchor="middle" fill="var(--ink-1)"
-              style={{ fontFamily: 'var(--font-mono)', fontSize: fs(8) }}>{nameFor(s.name)}</text>
+              style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(8) }}>{nameFor(s.name, 8, SAT_W * k)}</text>
           </g>
         );
       })}
 
       {/* nodes */}
       {t.nodes.map((n) => {
+        const rr = n.major ? DISC_R_MAJOR : DISC_R;
         const showImg = !!n.img && !imgFailed.has(n.id);
-        // FAR tier: top two generations (primordials + first gen, the "major"
-        // figures) = portrait+name; deeper entities = small unlabeled dots
-        // (spec: FAR shows major deities only). MEDIUM: all names.
-        // CLOSE: +classification +domain +relationship count.
+        // FAR tier: top two generations = portrait+name; deeper = small dots.
         if (tier === 'far' && n.rank >= 2) {
-          return <circle key={n.id} cx={n.x} cy={n.y} r={6} fill="var(--ink-2)" opacity={0.5} />;
+          return <circle key={n.id} cx={n.x} cy={n.y} r={n.major ? 9 : 6}
+            fill={n.major ? accent : 'var(--ink-2)'} opacity={n.major ? 0.85 : 0.5} />;
         }
         return (
           <g key={n.id} onClick={() => onNodeClick(n.id)} style={{ cursor: 'pointer' }}>
-            <circle cx={n.x} cy={n.y} r={DISC_R + 3} fill="none" stroke={n.uncertain ? CATEGORY_COLORS.conflict : accent}
-              strokeWidth={1.2} strokeDasharray={n.uncertain ? '4 3' : undefined} opacity={0.7} />
+            {/* major (well-known) nodes: bigger disc + highlighted double ring + halo */}
+            {n.major && (
+              <circle cx={n.x} cy={n.y} r={rr + 12} fill={accent} opacity={0.09} />
+            )}
+            {n.major && (
+              <circle cx={n.x} cy={n.y} r={rr + 7} fill="none" stroke={accent}
+                strokeWidth={1} opacity={0.55} strokeDasharray="2 4" />
+            )}
+            <circle cx={n.x} cy={n.y} r={rr + 3} fill="none" stroke={n.uncertain ? CATEGORY_COLORS.conflict : accent}
+              strokeWidth={n.major ? 2.4 : 1.2} strokeDasharray={n.uncertain ? '4 3' : undefined}
+              opacity={n.major ? 1 : 0.7} />
             {showImg
-              ? <image href={n.img} x={n.x - DISC_R} y={n.y - DISC_R} width={DISC_R * 2} height={DISC_R * 2}
+              ? <image href={n.img} x={n.x - rr} y={n.y - rr} width={rr * 2} height={rr * 2}
                   clipPath={`url(#ggclip-${n.id})`} preserveAspectRatio="xMidYMid slice" onError={() => setImgFailed(n.id)} />
-              : <circle cx={n.x} cy={n.y} r={DISC_R} fill="color-mix(in srgb, var(--gold) 14%, var(--bg-2))" stroke={accent} strokeWidth={1} />}
-            <text x={n.x} y={n.y + DISC_R + fs(15)} textAnchor="middle" fill="var(--ink-0)"
-              style={{ fontFamily: 'var(--font-display)', fontSize: fs(13), fontWeight: 600 }}>{nameFor(n.name)}</text>
+              : <circle cx={n.x} cy={n.y} r={rr} fill="color-mix(in srgb, var(--gold) 14%, var(--bg-2))" stroke={accent} strokeWidth={n.major ? 1.6 : 1} />}
+            <text x={n.x} y={n.y + rr + pxFont(16)} textAnchor="middle"
+              fill={n.major ? 'var(--ink-0)' : 'var(--ink-1)'}
+              style={{ fontFamily: 'var(--font-display)', fontSize: pxFont(n.major ? 14 : 12), fontWeight: n.major ? 700 : 600,
+                paintOrder: 'stroke', stroke: 'var(--surface)', strokeWidth: pxFont(3) }}>
+              {nameFor(n.name, n.major ? 14 : 12, NODE_W * k)}
+            </text>
             {tier === 'close' && (
               <>
-                <text x={n.x} y={n.y + DISC_R + fs(27)} textAnchor="middle" fill={accent}
-                  style={{ fontFamily: 'var(--font-mono)', fontSize: fs(9), textTransform: 'uppercase', letterSpacing: 1 }}>
+                <text x={n.x} y={n.y + rr + pxFont(28)} textAnchor="middle" fill={accent}
+                  style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(8.5), textTransform: 'uppercase', letterSpacing: 1,
+                    paintOrder: 'stroke', stroke: 'var(--surface)', strokeWidth: pxFont(3) }}>
                   {n.classification}
                 </text>
-                {n.domain && <text x={n.x} y={n.y + DISC_R + fs(39)} textAnchor="middle" fill="var(--ink-1)"
-                  style={{ fontFamily: 'var(--font-body)', fontSize: fs(9) }}>{nameFor(n.domain)}</text>}
-                <text x={n.x} y={n.y + DISC_R + fs(51)} textAnchor="middle" fill="var(--ink-2)"
-                  style={{ fontFamily: 'var(--font-mono)', fontSize: fs(8) }}>{n.relCount} relations</text>
+                {n.domain && <text x={n.x} y={n.y + rr + pxFont(40)} textAnchor="middle" fill="var(--ink-1)"
+                  style={{ fontFamily: 'var(--font-body)', fontSize: pxFont(8.5) }}>{nameFor(n.domain, 8.5, NODE_W * 1.6 * k)}</text>}
+                <text x={n.x} y={n.y + rr + pxFont(52)} textAnchor="middle" fill="var(--ink-2)"
+                  style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(7.5) }}>{n.relCount} relations</text>
               </>
             )}
           </g>
