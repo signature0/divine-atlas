@@ -15,21 +15,37 @@
 ## DIVINE ARTIFACTS / RELICS — "The Divine Vault" (Gate 2 addendum, PO 2026-09-13)
 A new top-level wing alongside Cultures/Graph: sacred objects of gods, heroes,
 monsters. Data-driven (ADR-002); adding an artifact = adding JSON.
-- **MVP slice (prototype, "first ten exceptionally polished"):**
-  - Artifact dataset: 6 cultures integrated into `data/<culture>/artifacts.json`
-    + `artifact_artworks.json`, verified open-license images with honesty labels
-    (TASK-015).
-  - `/artifacts` collection — The Divine Vault: card grid, culture filter
-    (instant, URL-synced), type/rank/sort, search (REQ-017).
-  - `/artifacts/[slug]` detail — power profile, ability cards, sources,
-    artworks, source confidence (REQ-018).
-  - Graph + deity-page + search integration; `/relic` reveal; artifact compare
-    (REQ-019…023).
-  - `validate.mjs` artifact checks green (NFR-ART-003).
-- **NEXT (expansion, after the ten):**
-  - Remaining suggested artifacts (Skíðblaðnir, Draupnir, Gjallarhorn,
-    Ame-no-Nuboko, Pandora's jar, Golden Fleece, Apollo/Artemis bows,
-    Megingjörð, Freyja's cloak, Egyptian crowns/staffs, Mesopotamian regalia).
+- **MVP slice — DONE 2026-09-13 (TASK-015…018, commits 7dd7b43 / ab807f9 / 8542d7c):**
+  - Artifact dataset: 19 artifacts across 5 cultures in
+    `data/<culture>/artifacts.json`, verified open-license images with honesty
+    labels (image_type; reconstructions never posed as ancient) (TASK-015).
+    36 relationship edges wire artifacts into the entity graph.
+  - `/artifacts` collection — The Divine Vault: 19-card image-led grid,
+    instant tradition/type/class/owner filters (URL-synced), live search,
+    5 sort modes, count, empty state (TASK-016, REQ-017).
+  - `/artifacts/[slug]` detail — hero artwork with provenance + image_type,
+    ATLAS POWER PROFILE bars with per-value explanations, named ability cards
+    with certainty badges, ATLAS CLASSIFICATION (tier + compact rank +
+    editorial disclaimer), source confidence, limitations, uncertainty notes,
+    cross-links (TASK-017, REQ-018).
+  - Integration: artifact nodes + edges in RelationshipGraph (centered BFS +
+    global clusters, endpoint-aware routing), deity pages gain an
+    "Artifacts of <name>" section + artifact relationship group, ⌘K search
+    surfaces artifacts (TASK-018, REQ-019…021).
+  - `validate.mjs` artifact checks green (endpoints, enums, power 0–10,
+    list-field shape, relationship fields) — `✓ no errors` (NFR-ART-003).
+  - QA: 16/16 headless Playwright checks (filters, search, sort, detail,
+    deity cross-links, graph, console clean); `next build` green, all 19
+    detail pages prerendered.
+  - Deferred (documented, not failures): artifact compare (the deity
+    comparator is domain-shaped; needs a power-profile comparator), `/relic`
+    route (does not exist in the app — no route to integrate with).
+- **NEXT (expansion, after the first batch):**
+  - Remaining suggested artifacts (Pandora's jar, Golden Fleece,
+    Apollo/Artemis bows, Megingjörð, Freyja's cloak, Slavic attested objects
+    — max 3, quality over quantity) (Slavic intentionally skipped this round:
+    no artifact met the "reasonably supported by historical or folkloric
+    sources" bar with a verifiable image).
   - Special Collections (curated sets: Weapons of the Gods, Divine Jewelry,
     Objects of Creation/Death, The Three Sacred Treasures of Japan, …) (REQ-024).
   - Full secondary-filter exposure (POWER, OWNER, MATERIAL, ERA).
