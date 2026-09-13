@@ -35,6 +35,8 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; overflow-x: hidden; } /* safety net: nothing may force sideways scroll (BUG-002) */
+/* DES-008: body fills the viewport so the footer is grounded at the bottom of
+   short pages (the 404); main absorbs the slack. No effect on long pages. */
 body {
   margin: 0;
   background: var(--bg-0);
@@ -43,7 +45,13 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
+main#main { flex: 1; }
+.site-footer { border-top: 1px solid var(--line); }
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 
@@ -161,6 +169,22 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .skip-link { position: absolute; left: -9999px; top: 0; background: var(--accent); color: var(--bg-0); padding: 8px 14px; z-index: 100; }
 .skip-link:focus { left: 8px; top: 8px; }
+
+/* ---- 404 — a lost tablet in the Duat (DES-008) ---- */
+.notfound { position: relative; min-height: 100%; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 48px 24px 56px; }
+.notfound-glow { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(680px 460px at 50% 42%, color-mix(in srgb, var(--gold) 14%, transparent), transparent 70%); }
+.notfound > *:not(.notfound-glow) { position: relative; } /* keep copy above the glow */
+.notfound-tablet { width: 92px; height: 115px; margin-bottom: 24px; }
+.notfound-tablet .t-edge { stroke: var(--accent); stroke-width: 2.5; }
+.notfound-tablet .t-ankh { stroke: var(--accent); stroke-width: 3; stroke-linecap: round; }
+.notfound-tablet .t-scribe { stroke: var(--ink-2); stroke-width: 2; stroke-linecap: round; }
+.notfound-tablet .t-crack { stroke: var(--accent-2); stroke-width: 2; }
+@media (max-width: 560px) {
+  .notfound { padding: 32px 20px 40px; }
+  .notfound-tablet { width: 72px; height: 90px; margin-bottom: 16px; }
+}
 
 /* Top nav */
 .topnav { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg-0) 88%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }

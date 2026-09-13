@@ -126,7 +126,8 @@ if (mode === 'des006') {
   for (const [w, h, tag] of [[1440, 900, '1440'], [390, 844, '390']]) {
     const ctx = await browser.newContext({ viewport: { width: w, height: h }, isMobile: w < 500, hasTouch: w < 500, deviceScaleFactor: 1 });
     const p = await ctx.newPage();
-    const r = await p.goto(BASE + '/this-page-does-not-exist-xyz', { waitUntil: 'domcontentloaded', timeout: 45000 });
+    const resp = await p.goto(BASE + '/this-page-does-not-exist-xyz', { waitUntil: 'domcontentloaded', timeout: 45000 });
+    const httpStatus = resp ? resp.status() : null;
     await p.waitForTimeout(800);
     const nf = await p.evaluate(() => {
       const footer = document.querySelector('footer.site-footer');
@@ -134,20 +135,22 @@ if (mode === 'des006') {
       const fcs = footer ? getComputedStyle(footer) : null;
       const text = document.body?.innerText || '';
       return {
-        status: r ? 'rendered' : 'blank',
+        status: document.body ? 'rendered' : 'blank',
         noVersion1: !/version 1:/i.test(text),
         inWorld: /(tablet|duat|lost|inscri|ankh|djed|scribe|shard|frag)/i.test(text),
         duatNamed: /duat/i.test(text),
         footerBottomGap: fr ? Math.round(window.innerHeight - fr.bottom) : null,
         footerBorderTop: fcs ? fcs.borderTopWidth : null,
+        h1CenterPct: (() => { const r = document.querySelector('.notfound h1')?.getBoundingClientRect(); return r ? Math.round(((r.top + r.bottom) / 2 / window.innerHeight) * 100) : null; })(),
         sample: text.slice(0, 260).replace(/\n+/g, ' | '),
       };
     });
-    ok(`404-renders@${tag}`, nf.status === 'rendered');
+    ok(`404-renders@${tag}`, nf.status === 'rendered' && httpStatus === 404, `http=${httpStatus}`);
     ok(`404-no-version1@${tag}`, nf.noVersion1);
     ok(`404-in-world-copy@${tag}`, nf.inWorld && nf.duatNamed, nf.sample.slice(0, 140));
-    ok(`404-footer-grounded@${tag}`, nf.footerBottomGap != null && nf.footerBottomGap <= 2, `gap below footer=${nf.footerBottomGap}px`);
+    ok(`404-footer-grounded@${tag}`, nf.footerBottomGap != null && nf.footerBottomGap >= 0 && nf.footerBottomGap <= 2, `gap below footer=${nf.footerBottomGap}px (0..2, no scroll)`);
     ok(`404-footer-hairline@${tag}`, nf.footerBorderTop === '1px', `border-top=${nf.footerBorderTop}`);
+    ok(`404-content-centered@${tag}`, nf.h1CenterPct != null && nf.h1CenterPct >= 30 && nf.h1CenterPct <= 70, `h1 center at ${nf.h1CenterPct}% of viewport height`);
     await p.screenshot({ path: `${EV}/DES-008-404_${tag}.png` });
     await ctx.close();
   }

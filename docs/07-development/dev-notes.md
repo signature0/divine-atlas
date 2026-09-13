@@ -83,3 +83,17 @@ Verified: Playwright 390×844 isMobile — scrollWidth === clientWidth === 390 o
 /, /culture/japanese, /myths/gre-creation (previously 643); all 8 nav links
 within the viewport; sticky nav still pins after scrolling; 720–1440px widths
 all overflow-free; desktop 1440 remains a 60px single row.
+
+### DES-008 — 404 footer grounding + 'Version 1:' removal (2026-09-14)
+DES-008 is scoped to the 404, but the footer lives in the root layout, so the
+fix necessarily touches every page: `body` is now a flex column with
+`min-height: 100dvh`, `main#main` takes `flex: 1`, and `.site-footer` gets a
+hairline `border-top: 1px solid var(--line)`. Effect: the footer sits at the
+bottom of the viewport on short pages (404, thin culture pages) and behaves
+exactly as before on long pages. Verified with a 9-page × 2-viewport regression
+sweep (no overflow, footer in flow on all). The 'Version 1:' footer line was
+replaced with an in-world "Six galleries: …" line site-wide (it was a dev
+artifact in the shared footer; the 404 critique named it, but it rendered on
+every page). No design values invented: glow uses `var(--gold)` via color-mix,
+tablet strokes use `--accent` / `--accent-2` / `--ink-2` (non-text uses, per
+DES-005 routing rules).

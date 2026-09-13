@@ -49,7 +49,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="container small" style={{ color: 'var(--ink-2)', display: 'flex', flexWrap: 'wrap', gap: '8px 24px' }}>
             <span><strong style={{ color: 'var(--ink-1)' }}>The Divine Atlas</strong> — a museum of the world&apos;s divine imagination</span>
-            <span>Version 1: Japanese · Greek · Norse · Egyptian · Slavic · Mesopotamian</span>
+            {/* DES-008: drop the 'Version 1:' dev artifact — in-world footer voice */}
+            <span>Six galleries: Japanese · Greek · Norse · Egyptian · Slavic · Mesopotamian</span>
             <span>Every nontrivial claim carries a source. Uncertainties are preserved, not resolved.</span>
             <span>Artwork: public domain / open license, always attributed.</span>
           </div>
