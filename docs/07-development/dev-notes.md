@@ -65,3 +65,21 @@ applied to new slugs — suspected stale `.next/cache` of the page module). Movi
 `.next` aside (`.next-stale-*`) and rebuilding from clean produced 320/320 real
 pages. If a future build shows `__next_error__` shells under
 `.next/server/app/domain/`, clean-rebuild before debugging the code.
+
+### BUG-002 — mobile top-nav wrap + horizontal-overflow safety net (2026-09-13)
+`html { overflow-x: hidden }` as the safety net per HANDOFF-003. `.topnav .inner`
+and `.topnav .links` now `flex-wrap: wrap` at every width — a backstop so the
+~549px link row can never inflate the layout viewport again (was 643px on 390px
+phones). Below 768px the links take a full-width row under the brand with a
+tighter gap (8px 14px) and 0.6rem type; the bar grows (min-height 60px with
+padding instead of a fixed height). 768px is the narrowest width where the
+60px single row still fits (brand + gap + ~549px links ≈ 719px, plus 48px
+container padding); the global wrap covers everything below it. All values reuse
+the existing mono type scale / gap steps — no new design values. Note: the
+operating rule references docs/05-brand/tokens.css, which does not exist in this
+repo — the canonical tokens are the `:root` custom properties in
+app/globals.css (docs/DESIGN-SYSTEM.md); that's what this change uses.
+Verified: Playwright 390×844 isMobile — scrollWidth === clientWidth === 390 on
+/, /culture/japanese, /myths/gre-creation (previously 643); all 8 nav links
+within the viewport; sticky nav still pins after scrolling; 720–1440px widths
+all overflow-free; desktop 1440 remains a 60px single row.
