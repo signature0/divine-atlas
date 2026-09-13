@@ -1,0 +1,332 @@
+[
+  {
+    "name": "home",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 16,
+    "bold": false,
+    "large": false,
+    "sample": "日本神話"
+  },
+  {
+    "name": "home",
+    "fg": "rgb(192, 57, 43)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.28,
+    "fontSize": 11.52,
+    "bold": false,
+    "large": false,
+    "sample": "Explore →"
+  },
+  {
+    "name": "home",
+    "fg": "rgb(63, 124, 166)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.94,
+    "fontSize": 11.52,
+    "bold": false,
+    "large": false,
+    "sample": "Explore →"
+  },
+  {
+    "name": "home",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 12.8,
+    "bold": false,
+    "large": false,
+    "sample": "11"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(192, 57, 43)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 3.61,
+    "fontSize": 11.52,
+    "bold": false,
+    "large": false,
+    "sample": "Gallery ·"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 12,
+    "bold": false,
+    "large": false,
+    "sample": "21"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(192, 57, 43)",
+    "bg": "rgb(17, 17, 22)",
+    "ratio": 3.46,
+    "fontSize": 11.52,
+    "bold": false,
+    "large": false,
+    "sample": "living religious tradition"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(192, 57, 43)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.28,
+    "fontSize": 10.88,
+    "bold": false,
+    "large": false,
+    "sample": "Open source ↗"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(11, 11, 14)",
+    "bg": "rgb(192, 57, 43)",
+    "ratio": 3.61,
+    "fontSize": 11.2,
+    "bold": true,
+    "large": false,
+    "sample": "Genealogy"
+  },
+  {
+    "name": "culture-japanese",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 9.6,
+    "bold": false,
+    "large": false,
+    "sample": "archaeological"
+  },
+  {
+    "name": "culture-norse",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 12,
+    "bold": false,
+    "large": false,
+    "sample": "40"
+  },
+  {
+    "name": "culture-norse",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 10.88,
+    "bold": false,
+    "large": false,
+    "sample": "text"
+  },
+  {
+    "name": "culture-norse",
+    "fg": "rgb(181, 101, 74)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.18,
+    "fontSize": 10.56,
+    "bold": false,
+    "large": false,
+    "sample": "S2 (Prose Edda)"
+  },
+  {
+    "name": "culture-egyptian",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 12,
+    "bold": false,
+    "large": false,
+    "sample": "25"
+  },
+  {
+    "name": "culture-egyptian",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 10.88,
+    "bold": false,
+    "large": false,
+    "sample": "academic"
+  },
+  {
+    "name": "culture-egyptian",
+    "fg": "rgb(47, 127, 122)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.77,
+    "fontSize": 10.56,
+    "bold": false,
+    "large": false,
+    "sample": "Heliopolis"
+  },
+  {
+    "name": "zeus",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 11.2,
+    "bold": false,
+    "large": false,
+    "sample": "also:"
+  },
+  {
+    "name": "zeus",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 10.88,
+    "bold": false,
+    "large": false,
+    "sample": "text"
+  },
+  {
+    "name": "zeus",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(20, 21, 26)",
+    "ratio": 4.12,
+    "fontSize": 9.92,
+    "bold": false,
+    "large": false,
+    "sample": "Focus"
+  },
+  {
+    "name": "myth-creation",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 10.88,
+    "bold": false,
+    "large": false,
+    "sample": "text"
+  },
+  {
+    "name": "myth-creation",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 9.28,
+    "bold": false,
+    "large": false,
+    "sample": "CAST"
+  },
+  {
+    "name": "graph",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 9.92,
+    "bold": false,
+    "large": false,
+    "sample": "View"
+  },
+  {
+    "name": "vault",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 14,
+    "bold": false,
+    "large": false,
+    "sample": "Atlas classifications and power profiles"
+  },
+  {
+    "name": "vault",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 13.12,
+    "bold": false,
+    "large": false,
+    "sample": "Nadbû / ṭuppi šiprī"
+  },
+  {
+    "name": "vault",
+    "fg": "rgb(63, 124, 166)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.94,
+    "fontSize": 9.92,
+    "bold": false,
+    "large": false,
+    "sample": "Book"
+  },
+  {
+    "name": "vault",
+    "fg": "rgb(192, 57, 43)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 3.28,
+    "fontSize": 9.92,
+    "bold": false,
+    "large": false,
+    "sample": "Tool"
+  },
+  {
+    "name": "compare",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(17, 17, 22)",
+    "ratio": 4.26,
+    "fontSize": 10.56,
+    "bold": false,
+    "large": false,
+    "sample": "ATTRIBUTE"
+  },
+  {
+    "name": "compare",
+    "fg": "rgb(47, 127, 122)",
+    "bg": "rgb(17, 17, 22)",
+    "ratio": 3.98,
+    "fontSize": 11.2,
+    "bold": false,
+    "large": false,
+    "sample": "Amenominakanushi"
+  },
+  {
+    "name": "compare",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 9.92,
+    "bold": false,
+    "large": false,
+    "sample": "Culture"
+  },
+  {
+    "name": "compare",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 14.4,
+    "bold": false,
+    "large": false,
+    "sample": "高皇産霊神"
+  },
+  {
+    "name": "domain-war",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(23, 23, 30)",
+    "ratio": 4.03,
+    "fontSize": 13.6,
+    "bold": false,
+    "large": false,
+    "sample": "須佐之男命"
+  },
+  {
+    "name": "domain-war",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 14,
+    "bold": false,
+    "large": false,
+    "sample": "Version 1: Japanese · Greek · Norse · Eg"
+  },
+  {
+    "name": "notfound",
+    "fg": "rgb(124, 120, 105)",
+    "bg": "rgb(11, 11, 14)",
+    "ratio": 4.44,
+    "fontSize": 14,
+    "bold": false,
+    "large": false,
+    "sample": "Version 1: Japanese · Greek · Norse · Eg"
+  }
+]

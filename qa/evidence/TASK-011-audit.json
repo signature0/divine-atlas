@@ -1,0 +1,3707 @@
+{
+  "home": {
+    "route": "/",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "culturecard": {
+        "sel": ".culture-card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "btn": {
+        "sel": ".btn",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "3px",
+        "border": "1px rgb(200, 162, 74)",
+        "letterSpacing": "1.152px",
+        "textTransform": "uppercase"
+      },
+      "chip": {
+        "sel": ".chip",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "12.8px",
+        "weight": "400",
+        "radius": "2px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "1.28px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 0,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "The Divine Atlas"
+        },
+        {
+          "t": "H2",
+          "txt": "Six mythologies, one system"
+        },
+        {
+          "t": "H2",
+          "txt": "Where the gods overlap"
+        },
+        {
+          "t": "H2",
+          "txt": "Coming soon to the Atlas"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "The Divine Atlas"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 26,
+      "btns": 0
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "A museum of the world's divine imaginati"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "The Divine Atlas"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 17.6,
+        "bold": false,
+        "large": false,
+        "sample": "An interactive codex of"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Enter the Japanese gallery →"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "How this is built"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 16,
+        "bold": false,
+        "large": false,
+        "sample": "日本神話"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "c. 712 CE texts · living tradition"
+      },
+      {
+        "fg": "rgb(192, 57, 43)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.28,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Explore →"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.37,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Explore →"
+      },
+      {
+        "fg": "rgb(91, 141, 184)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 5.05,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Explore →"
+      },
+      {
+        "fg": "rgb(138, 154, 91)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 5.82,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Explore →"
+      },
+      {
+        "fg": "rgb(63, 124, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.94,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Explore →"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 12.8,
+        "bold": false,
+        "large": false,
+        "sample": "11"
+      }
+    ],
+    "meta": {
+      "title": "The Divine Atlas — An interactive museum of world mythology",
+      "desc": "An interactive codex of the world's mythologies — Japanese, Greek, Norse, Egyptian, Slavic, and Mesopotamian. A graph, not a family tree: every claim carried by its sources, every uncertainty preserved.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "culture-japanese": {
+    "route": "/culture/japanese",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(192, 57, 43)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(192, 57, 43)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "heroart": {
+        "sel": ".hero-art",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(19, 17, 20)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "6px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "framing": {
+        "sel": ".framing",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(17, 17, 22)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "4px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "sourcefootnote": {
+        "sel": ".src",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.24px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 29,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Japanese Mythology"
+        },
+        {
+          "t": "H2",
+          "txt": "The shape of the world"
+        },
+        {
+          "t": "H2",
+          "txt": "How the divine world is wired"
+        },
+        {
+          "t": "H2",
+          "txt": "The stories"
+        },
+        {
+          "t": "H3",
+          "txt": "The Primordial Beginning and the High Plain of Heaven"
+        },
+        {
+          "t": "H3",
+          "txt": "Izanagi and Izanami Form the Islands"
+        },
+        {
+          "t": "H3",
+          "txt": "Izanami's Death and the Separation of the World (Izanagi's P"
+        },
+        {
+          "t": "H3",
+          "txt": "The Heavenly Rock-Cave (Amaterasu and the Dark World)"
+        },
+        {
+          "t": "H3",
+          "txt": "Susanoo Slayes Yamata-no-Orochi"
+        },
+        {
+          "t": "H3",
+          "txt": "The Subjugation of the Country (Kuniyurinshi)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Descent of Ninigi (Tenson Kōryō)"
+        },
+        {
+          "t": "H2",
+          "txt": "The Primordial Beginning and the High Plain of Heaven"
+        },
+        {
+          "t": "H3",
+          "txt": "The High Plain of Heaven"
+        },
+        {
+          "t": "H3",
+          "txt": "The First-Born"
+        },
+        {
+          "t": "H3",
+          "txt": "The Creator Pair"
+        },
+        {
+          "t": "H2",
+          "txt": "Izanagi and Izanami Form the Islands"
+        },
+        {
+          "t": "H3",
+          "txt": "The Floating Bridge"
+        },
+        {
+          "t": "H3",
+          "txt": "The First Island"
+        },
+        {
+          "t": "H3",
+          "txt": "The Islands and the Kami"
+        },
+        {
+          "t": "H2",
+          "txt": "Izanami's Death and the Separation of the World (Izanagi's P"
+        },
+        {
+          "t": "H3",
+          "txt": "The Fire Birth"
+        },
+        {
+          "t": "H3",
+          "txt": "The Descent to Yomi"
+        },
+        {
+          "t": "H3",
+          "txt": "The Separation"
+        },
+        {
+          "t": "H3",
+          "txt": "The Purification"
+        },
+        {
+          "t": "H2",
+          "txt": "The Heavenly Rock-Cave (Amaterasu and the Dark World)"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Japanese Mythology"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 80,
+      "btns": 14
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(192, 57, 43)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 3.61,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Gallery ·"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "Japanese Mythology"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 20.8,
+        "bold": false,
+        "large": true,
+        "sample": "日本神話"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 12,
+        "bold": false,
+        "large": false,
+        "sample": "21"
+      },
+      {
+        "fg": "rgb(192, 57, 43)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 3.46,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "living religious tradition"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 8.9,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Shinto is a living religious tradition. "
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 10.88,
+        "bold": true,
+        "large": false,
+        "sample": "S1"
+      },
+      {
+        "fg": "rgb(192, 57, 43)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.28,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "Open source ↗"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(192, 57, 43)",
+        "ratio": 3.61,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Genealogy"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(19, 17, 20)",
+        "ratio": 8.88,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Relationships"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 20,
+        "bold": true,
+        "large": true,
+        "sample": "The Primordial Beginning and the High Pl"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "In the Kojiki's opening, when 'the heave"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "⚠ The date of a source is not the date o"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 9.6,
+        "bold": false,
+        "large": false,
+        "sample": "archaeological"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.37,
+        "fontSize": 10.56,
+        "bold": false,
+        "large": false,
+        "sample": "Later/medieval view"
+      }
+    ],
+    "meta": {
+      "title": "Japanese Mythology · The Divine Atlas",
+      "desc": "Shinto is a living religious tradition. These narratives are presented as the tradition's own mythic heritage, with the historical layers (Kojiki 712 CE, Nihon Shoki 720 CE, shrine engi) made visible. Modern state-Sinto and pop-culture readings are labeled separately from the primary texts.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "culture-norse": {
+    "route": "/culture/norse",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(91, 141, 184)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(91, 141, 184)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "heroart": {
+        "sel": ".hero-art",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(18, 20, 26)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "6px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "framing": {
+        "sel": ".framing",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(17, 17, 22)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "4px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "sourcefootnote": {
+        "sel": ".src",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.24px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 27,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Norse Mythology"
+        },
+        {
+          "t": "H2",
+          "txt": "The shape of the world"
+        },
+        {
+          "t": "H2",
+          "txt": "How the divine world is wired"
+        },
+        {
+          "t": "H2",
+          "txt": "The stories"
+        },
+        {
+          "t": "H3",
+          "txt": "The Creation of the World from Ymir"
+        },
+        {
+          "t": "H3",
+          "txt": "Odin and the Runes"
+        },
+        {
+          "t": "H3",
+          "txt": "The Death of Baldr"
+        },
+        {
+          "t": "H3",
+          "txt": "The Binding of Fenrir"
+        },
+        {
+          "t": "H3",
+          "txt": "Loki's Children"
+        },
+        {
+          "t": "H3",
+          "txt": "Ragnarök (The Fate of the Gods)"
+        },
+        {
+          "t": "H3",
+          "txt": "Thor and the Giantess (Geirðröðr)"
+        },
+        {
+          "t": "H2",
+          "txt": "The Creation of the World from Ymir"
+        },
+        {
+          "t": "H3",
+          "txt": "The Primordial Void"
+        },
+        {
+          "t": "H3",
+          "txt": "Ymir and Auðhumbla"
+        },
+        {
+          "t": "H3",
+          "txt": "Búri"
+        },
+        {
+          "t": "H3",
+          "txt": "The Three Brothers"
+        },
+        {
+          "t": "H3",
+          "txt": "The World from Ymir"
+        },
+        {
+          "t": "H2",
+          "txt": "Odin and the Runes"
+        },
+        {
+          "t": "H3",
+          "txt": "The Self-Sacrifice"
+        },
+        {
+          "t": "H3",
+          "txt": "The Reveal"
+        },
+        {
+          "t": "H2",
+          "txt": "The Death of Baldr"
+        },
+        {
+          "t": "H3",
+          "txt": "The Dreams"
+        },
+        {
+          "t": "H3",
+          "txt": "The Oaths"
+        },
+        {
+          "t": "H3",
+          "txt": "Loki's Trick"
+        },
+        {
+          "t": "H3",
+          "txt": "The Death"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Norse Mythology"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 68,
+      "btns": 19
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(91, 141, 184)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 5.57,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Gallery ·"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "Norse Mythology"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 20.8,
+        "bold": false,
+        "large": true,
+        "sample": "Nordisk mytologi"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 12,
+        "bold": false,
+        "large": false,
+        "sample": "40"
+      },
+      {
+        "fg": "rgb(91, 141, 184)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 5.33,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "historical mythology"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 8.9,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "The beliefs are pre-Christian (attested "
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 10.88,
+        "bold": true,
+        "large": false,
+        "sample": "S2"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "c. 1220–1235"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "text"
+      },
+      {
+        "fg": "rgb(91, 141, 184)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 5.05,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "Open source ↗"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(91, 141, 184)",
+        "ratio": 5.57,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Genealogy"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(18, 20, 26)",
+        "ratio": 8.71,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Relationships"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 20,
+        "bold": true,
+        "large": true,
+        "sample": "The Creation of the World from Ymir"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "⚠ The date of a source is not the date o"
+      },
+      {
+        "fg": "rgb(181, 101, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.18,
+        "fontSize": 10.56,
+        "bold": false,
+        "large": false,
+        "sample": "S2 (Prose Edda)"
+      }
+    ],
+    "meta": {
+      "title": "Norse Mythology · The Divine Atlas",
+      "desc": "The beliefs are pre-Christian (attested archaeologically from the Viking Age); the written sources are Christian-era (1220–1300) and post-hoc. The gap between belief and text is part of what this section presents.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "culture-egyptian": {
+    "route": "/culture/egyptian",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "heroart": {
+        "sel": ".hero-art",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(20, 19, 15)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "6px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "framing": {
+        "sel": ".framing",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(17, 17, 22)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "4px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "sourcefootnote": {
+        "sel": ".src",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.24px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 31,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Ancient Egyptian Religion"
+        },
+        {
+          "t": "H2",
+          "txt": "The shape of the world"
+        },
+        {
+          "t": "H2",
+          "txt": "How the divine world is wired"
+        },
+        {
+          "t": "H2",
+          "txt": "The stories"
+        },
+        {
+          "t": "H3",
+          "txt": "The Heliopolitan Creation (Atum-Ra)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Memphite Creation (Ptah)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Hermopolitan Creation (the Ogdoad)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Murder of Osiris"
+        },
+        {
+          "t": "H3",
+          "txt": "Isis Restores Osiris"
+        },
+        {
+          "t": "H3",
+          "txt": "The Contendings of Horus and Set"
+        },
+        {
+          "t": "H3",
+          "txt": "Ra's Journey Through the Duat (the Night)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Eye of Ra (Hathor/Sekhmet)"
+        },
+        {
+          "t": "H2",
+          "txt": "The Heliopolitan Creation (Atum-Ra)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Primordial Waters"
+        },
+        {
+          "t": "H3",
+          "txt": "Atum-Ra Rises"
+        },
+        {
+          "t": "H3",
+          "txt": "Shu and Tefnut"
+        },
+        {
+          "t": "H3",
+          "txt": "Geb and Nut"
+        },
+        {
+          "t": "H2",
+          "txt": "The Memphite Creation (Ptah)"
+        },
+        {
+          "t": "H3",
+          "txt": "Ptah, the Self-Created"
+        },
+        {
+          "t": "H3",
+          "txt": "Creation by Heart and Mouth"
+        },
+        {
+          "t": "H2",
+          "txt": "The Hermopolitan Creation (the Ogdoad)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Ogdoad"
+        },
+        {
+          "t": "H3",
+          "txt": "The Emergence of the World"
+        },
+        {
+          "t": "H2",
+          "txt": "The Murder of Osiris"
+        },
+        {
+          "t": "H3",
+          "txt": "The Jealousy"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Ancient Egyptian Religion"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 51,
+      "btns": 16
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Gallery ·"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "Ancient Egyptian Religion"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 20.8,
+        "bold": false,
+        "large": true,
+        "sample": "المعتقدات المصرية القديمة"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 12,
+        "bold": false,
+        "large": false,
+        "sample": "25"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 7.82,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "historical religion"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 8.9,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Ancient Egyptian religion spanned three "
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 10.88,
+        "bold": true,
+        "large": false,
+        "sample": "S4"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "modern (translation & scholarship)"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "academic"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(200, 162, 74)",
+        "ratio": 8.16,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Genealogy"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(20, 19, 15)",
+        "ratio": 8.79,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Relationships"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 20,
+        "bold": true,
+        "large": true,
+        "sample": "The Heliopolitan Creation (Atum-Ra)"
+      },
+      {
+        "fg": "rgb(47, 127, 122)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.77,
+        "fontSize": 10.56,
+        "bold": false,
+        "large": false,
+        "sample": "Heliopolis"
+      }
+    ],
+    "meta": {
+      "title": "Ancient Egyptian Religion · The Divine Atlas",
+      "desc": "Ancient Egyptian religion spanned three millennia. There is no single 'official' version: Heliopolitan, Memphite, and Hermopolitan creation traditions coexisted and are presented in parallel, not merged into a genealogy that never existed.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "zeus": {
+    "route": "/deity/gre-zeus",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "btn": {
+        "sel": ".btn",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "3px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "1.152px",
+        "textTransform": "uppercase"
+      },
+      "chip": {
+        "sel": ".chip",
+        "color": "rgb(201, 162, 39)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.92px",
+        "weight": "400",
+        "radius": "2px",
+        "border": "1px rgb(201, 162, 39)",
+        "letterSpacing": "0.992px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(201, 162, 39)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(201, 162, 39)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "heroart": {
+        "sel": ".hero-art",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(20, 21, 26)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "6px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "attrail": {
+        "sel": ".attribute-rail",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "sourcefootnote": {
+        "sel": ".src",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "10.7712px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 6,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Zeus"
+        },
+        {
+          "t": "H2",
+          "txt": "Who they are"
+        },
+        {
+          "t": "H2",
+          "txt": "Connections"
+        },
+        {
+          "t": "H3",
+          "txt": "Family & kinship"
+        },
+        {
+          "t": "H3",
+          "txt": "Partners"
+        },
+        {
+          "t": "H3",
+          "txt": "Conflict & enmity"
+        },
+        {
+          "t": "H3",
+          "txt": "Alliances & rule"
+        },
+        {
+          "t": "H3",
+          "txt": "Artifacts"
+        },
+        {
+          "t": "H2",
+          "txt": "Their corner of the divine world"
+        },
+        {
+          "t": "H2",
+          "txt": "6 stories"
+        },
+        {
+          "t": "H3",
+          "txt": "The Hesiodic Creation (Cosmogony)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Titanomachy (War of the Titans)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Birth of Athena"
+        },
+        {
+          "t": "H3",
+          "txt": "The Birth of Aphrodite (Two Accounts)"
+        },
+        {
+          "t": "H3",
+          "txt": "The Abduction of Persephone and the Seasons"
+        },
+        {
+          "t": "H3",
+          "txt": "Typhon and Zeus"
+        },
+        {
+          "t": "H2",
+          "txt": "Objects they wielded, forged, or were bound to"
+        },
+        {
+          "t": "H2",
+          "txt": "Depictions"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Zeus"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "skip": false,
+      "links": 70,
+      "btns": 17
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.12,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Greek Mythology"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "Zeus"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 24,
+        "bold": false,
+        "large": true,
+        "sample": "Ζεύς"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 11.2,
+        "bold": false,
+        "large": false,
+        "sample": "also:"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 10.88,
+        "bold": true,
+        "large": false,
+        "sample": "S1"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "c. 700 BCE"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "text"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.37,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "Open source ↗"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(201, 162, 39)",
+        "ratio": 8.12,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Genealogy"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(20, 21, 26)",
+        "ratio": 8.62,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Relationships"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(20, 21, 26)",
+        "ratio": 4.12,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Focus"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(20, 21, 26)",
+        "ratio": 7.54,
+        "fontSize": 16,
+        "bold": true,
+        "large": true,
+        "sample": "Zeus"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 20.8,
+        "bold": true,
+        "large": true,
+        "sample": "The Hesiodic Creation (Cosmogony)"
+      }
+    ],
+    "meta": {
+      "title": "Zeus · The Divine Atlas",
+      "desc": "King of the gods, ruler of Olympus, lord of sky, thunder, and kingly order — father of many gods and heroes.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 1002,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "myth-creation": {
+    "route": "/myths/gre-creation",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "btn": {
+        "sel": ".btn",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "3px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "1.152px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(201, 162, 39)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(201, 162, 39)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "display-xl": {
+        "sel": ".display-xl",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "104px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "-1.04px",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "framing": {
+        "sel": ".framing",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(17, 17, 22)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "4px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "sourcefootnote": {
+        "sel": ".src",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "14.784px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 0,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "The Hesiodic Creation (Cosmogony)"
+        },
+        {
+          "t": "H2",
+          "txt": "Chaos First"
+        },
+        {
+          "t": "H2",
+          "txt": "Gaia and the First Beings"
+        },
+        {
+          "t": "H2",
+          "txt": "Ouranos and the Titans"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "The Hesiodic Creation (Cosmogony)"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 35,
+      "btns": 0
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.12,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Story ·"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 104,
+        "bold": true,
+        "large": true,
+        "sample": "The Hesiodic Creation (Cosmogony)"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 10.88,
+        "bold": true,
+        "large": false,
+        "sample": "S1"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "c. 700 BCE"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "text"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.37,
+        "fontSize": 10.88,
+        "bold": false,
+        "large": false,
+        "sample": "Open source ↗"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "CAST"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 7.78,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "historical mythology"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 8.9,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Ancient Greek religion is a historical r"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 15.28,
+        "fontSize": 17.28,
+        "bold": true,
+        "large": true,
+        "sample": "Hesiodic"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "The Overthrow of Ouranos"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 14,
+        "bold": true,
+        "large": true,
+        "sample": "The Divine Atlas"
+      }
+    ],
+    "meta": {
+      "title": "The Hesiodic Creation (Cosmogony) — Greek Mythology · The Divine Atlas",
+      "desc": "In the Theogony, the first thing is Chaos, from which come Gaia (Earth), Tartarus, Eros, and Nyx. Gaia bears Ouranos (Sky), and the union of Gaia and Ouranos produces the Titans, the Cyclopes, and the Hecatoncheires .",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "graph": {
+    "route": "/graph",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 0,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "The relationship explorer"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "The relationship explorer"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 9,
+      "btns": 18
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "The atlas · all traditions"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 54.4,
+        "bold": true,
+        "large": true,
+        "sample": "The relationship explorer"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "159"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "View"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(200, 162, 74)",
+        "ratio": 8.16,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Genealogy"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(20, 19, 15)",
+        "ratio": 8.79,
+        "fontSize": 11.2,
+        "bold": true,
+        "large": false,
+        "sample": "Relationships"
+      }
+    ],
+    "meta": {
+      "title": "Relationship Explorer · The Divine Atlas",
+      "desc": "The full cross-culture relationship graph: every entity, every typed edge, every confidence — six traditions on one canvas.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "vault": {
+    "route": "/artifacts",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "chip": {
+        "sel": ".chip",
+        "color": "rgb(63, 124, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.92px",
+        "weight": "400",
+        "radius": "2px",
+        "border": "1px rgb(63, 124, 166)",
+        "letterSpacing": "0.992px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 19,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Every sacred object, one archive"
+        },
+        {
+          "t": "H3",
+          "txt": "Tablets of Destiny"
+        },
+        {
+          "t": "H3",
+          "txt": "Aegis"
+        },
+        {
+          "t": "H3",
+          "txt": "Ame-no-Nuboko"
+        },
+        {
+          "t": "H3",
+          "txt": "Gungnir"
+        },
+        {
+          "t": "H3",
+          "txt": "Kusanagi-no-Tsurugi"
+        },
+        {
+          "t": "H3",
+          "txt": "Mjölnir"
+        },
+        {
+          "t": "H3",
+          "txt": "Thunderbolt of Zeus"
+        },
+        {
+          "t": "H3",
+          "txt": "Trident of Poseidon"
+        },
+        {
+          "t": "H3",
+          "txt": "Yasakani no Magatama"
+        },
+        {
+          "t": "H3",
+          "txt": "Yata no Kagami"
+        },
+        {
+          "t": "H3",
+          "txt": "Ankh"
+        },
+        {
+          "t": "H3",
+          "txt": "Brísingamen"
+        },
+        {
+          "t": "H3",
+          "txt": "Caduceus of Hermes"
+        },
+        {
+          "t": "H3",
+          "txt": "Draupnir"
+        },
+        {
+          "t": "H3",
+          "txt": "Gjallarhorn"
+        },
+        {
+          "t": "H3",
+          "txt": "Heka (the Crook and Flail)"
+        },
+        {
+          "t": "H3",
+          "txt": "Helmet of Hades"
+        },
+        {
+          "t": "H3",
+          "txt": "Pschent (the Double Crown)"
+        },
+        {
+          "t": "H3",
+          "txt": "Skíðblaðnir"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Every sacred object, one archive"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 28,
+      "btns": 38
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "The Divine Vault · Artifacts & Relics"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 54.4,
+        "bold": true,
+        "large": true,
+        "sample": "Every sacred object, one archive"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Hammers and mirrors, crowns and tablets "
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Atlas classifications and power profiles"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 7.82,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Tradition"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 8.9,
+        "fontSize": 10.56,
+        "bold": false,
+        "large": false,
+        "sample": "Egyptian"
+      },
+      {
+        "fg": "rgb(11, 11, 14)",
+        "bg": "rgb(63, 124, 166)",
+        "ratio": 4.35,
+        "fontSize": 14.4,
+        "bold": true,
+        "large": true,
+        "sample": "SS"
+      },
+      {
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(19, 19, 18)",
+        "ratio": 18.59,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "Mesopotamian"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 20.8,
+        "bold": true,
+        "large": true,
+        "sample": "Tablets of Destiny"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 13.12,
+        "bold": false,
+        "large": false,
+        "sample": "Nadbû / ṭuppi šiprī"
+      },
+      {
+        "fg": "rgb(63, 124, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.94,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Book"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Cosmic"
+      },
+      {
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(20, 21, 26)",
+        "ratio": 18.23,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "Greek"
+      },
+      {
+        "fg": "rgb(201, 162, 39)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.37,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Armor"
+      },
+      {
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(19, 17, 20)",
+        "ratio": 18.78,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "Japanese"
+      },
+      {
+        "fg": "rgb(192, 57, 43)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 3.28,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Tool"
+      },
+      {
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(18, 20, 26)",
+        "ratio": 18.41,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "Norse"
+      },
+      {
+        "fg": "rgb(91, 141, 184)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 5.05,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Weapon"
+      },
+      {
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(20, 19, 15)",
+        "ratio": 18.59,
+        "fontSize": 9.28,
+        "bold": false,
+        "large": false,
+        "sample": "Egyptian"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Magical Object"
+      }
+    ],
+    "meta": {
+      "title": "The Divine Vault — Artifacts & Relics · The Divine Atlas",
+      "desc": "Every mythological artifact in the Atlas — weapons, regalia, sacred objects — in one interconnected archive.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "compare": {
+    "route": "/compare",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "h2": {
+        "sel": "h2",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "24px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 0,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "Compare the gods"
+        },
+        {
+          "t": "H2",
+          "txt": "Verdict"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "Compare the gods"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 11,
+      "btns": 0
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Cross-cultural comparator"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 54.4,
+        "bold": true,
+        "large": true,
+        "sample": "Compare the gods"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Pick two deities from any cultures. The "
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 4.26,
+        "fontSize": 10.56,
+        "bold": false,
+        "large": false,
+        "sample": "ATTRIBUTE"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 7.82,
+        "fontSize": 11.2,
+        "bold": false,
+        "large": false,
+        "sample": "Takamimusubi"
+      },
+      {
+        "fg": "rgb(47, 127, 122)",
+        "bg": "rgb(17, 17, 22)",
+        "ratio": 3.98,
+        "fontSize": 11.2,
+        "bold": false,
+        "large": false,
+        "sample": "Amenominakanushi"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "Culture"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 20.8,
+        "bold": false,
+        "large": true,
+        "sample": "Takamimusubi"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 14.4,
+        "bold": false,
+        "large": false,
+        "sample": "高皇産霊神"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "The first-born deity in the Kojiki, 'the"
+      }
+    ],
+    "meta": {
+      "title": "The Comparator · The Divine Atlas",
+      "desc": "An interactive codex of the world's mythologies — Japanese, Greek, Norse, Egyptian, Slavic, and Mesopotamian. A graph, not a family tree: every claim carried by its sources, every uncertainty preserved.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "domain-war": {
+    "route": "/domain/war",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "entitycard": {
+        "sel": ".entity-card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "card": {
+        "sel": ".card",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "5px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "btn": {
+        "sel": ".btn",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "3px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "1.152px",
+        "textTransform": "uppercase"
+      },
+      "chip": {
+        "sel": ".chip",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "9.92px",
+        "weight": "400",
+        "radius": "2px",
+        "border": "1px rgb(200, 162, 74)",
+        "letterSpacing": "0.992px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "capitalize"
+      },
+      "matband": {
+        "sel": ".mat-band",
+        "color": "rgb(128, 128, 128)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(128, 128, 128)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 8,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "war"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "war"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 19,
+      "btns": 0
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "Divine archetype"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 54.4,
+        "bold": true,
+        "large": true,
+        "sample": "war"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 19.2,
+        "bold": true,
+        "large": true,
+        "sample": "Susanoo"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 4.03,
+        "fontSize": 13.6,
+        "bold": false,
+        "large": false,
+        "sample": "須佐之男命"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 7.41,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "deity"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 8.43,
+        "fontSize": 9.92,
+        "bold": false,
+        "large": false,
+        "sample": "storm"
+      },
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(20, 19, 15)",
+        "ratio": 7.72,
+        "fontSize": 38.4,
+        "bold": false,
+        "large": true,
+        "sample": "YA"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 14,
+        "bold": true,
+        "large": true,
+        "sample": "The Divine Atlas"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Version 1: Japanese · Greek · Norse · Eg"
+      }
+    ],
+    "meta": {
+      "title": "The Divine Atlas — An interactive museum of world mythology",
+      "desc": "An interactive codex of the world's mythologies — Japanese, Greek, Norse, Egyptian, Slavic, and Mesopotamian. A graph, not a family tree: every claim carried by its sources, every uncertainty preserved.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  },
+  "notfound": {
+    "route": "/deity/nope-123",
+    "styleAudit": {
+      "topnav": {
+        "sel": ".topnav",
+        "color": "rgb(236, 231, 221)",
+        "bg": "color(srgb 0.0431373 0.0431373 0.054902 / 0.88)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "brand": {
+        "sel": ".topnav .brand",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      },
+      "navlinks": {
+        "sel": ".topnav .links",
+        "color": "rgb(183, 178, 166)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.2px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(183, 178, 166)",
+        "letterSpacing": "1.12px",
+        "textTransform": "uppercase"
+      },
+      "btn": {
+        "sel": ".btn",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "3px",
+        "border": "1px rgb(38, 38, 46)",
+        "letterSpacing": "1.152px",
+        "textTransform": "uppercase"
+      },
+      "eyebrow": {
+        "sel": ".eyebrow",
+        "color": "rgb(200, 162, 74)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "JetBrains Mono",
+        "size": "11.52px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(200, 162, 74)",
+        "letterSpacing": "2.0736px",
+        "textTransform": "uppercase"
+      },
+      "h1": {
+        "sel": "h1",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "54.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "footer": {
+        "sel": "footer.site-footer",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Inter",
+        "size": "16px",
+        "weight": "400",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "normal",
+        "textTransform": "none"
+      },
+      "first-link": {
+        "sel": "a",
+        "color": "rgb(236, 231, 221)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "font": "Cormorant Garamond",
+        "size": "18.4px",
+        "weight": "600",
+        "radius": "0px",
+        "border": "0px rgb(236, 231, 221)",
+        "letterSpacing": "0.368px",
+        "textTransform": "none"
+      }
+    },
+    "a11y": {
+      "imgCount": 0,
+      "noAlt": 0,
+      "emptyAlt": 0,
+      "headings": [
+        {
+          "t": "H1",
+          "txt": "This deity is not in the Atlas"
+        }
+      ],
+      "h1Count": 1,
+      "h1texts": [
+        "This deity is not in the Atlas"
+      ],
+      "btnsNoName": 0,
+      "landmarks": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "skip": false,
+      "links": 10,
+      "btns": 0
+    },
+    "contrasts": [
+      {
+        "fg": "rgb(200, 162, 74)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 8.16,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "404"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 15.95,
+        "fontSize": 54.4,
+        "bold": true,
+        "large": true,
+        "sample": "This deity is not in the Atlas"
+      },
+      {
+        "fg": "rgb(183, 178, 166)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 9.3,
+        "fontSize": 16,
+        "bold": false,
+        "large": false,
+        "sample": "The path you followed does not exist. Pe"
+      },
+      {
+        "fg": "rgb(236, 231, 221)",
+        "bg": "rgb(23, 23, 30)",
+        "ratio": 14.47,
+        "fontSize": 11.52,
+        "bold": false,
+        "large": false,
+        "sample": "← Return to the galleries"
+      },
+      {
+        "fg": "rgb(124, 120, 105)",
+        "bg": "rgb(11, 11, 14)",
+        "ratio": 4.44,
+        "fontSize": 14,
+        "bold": false,
+        "large": false,
+        "sample": "Version 1: Japanese · Greek · Norse · Eg"
+      }
+    ],
+    "meta": {
+      "title": "Not found · The Divine Atlas",
+      "desc": "An interactive codex of the world's mythologies — Japanese, Greek, Norse, Egyptian, Slavic, and Mesopotamian. A graph, not a family tree: every claim carried by its sources, every uncertainty preserved.",
+      "og": null,
+      "dataCulture": null,
+      "sw": 1440,
+      "cw": 1440
+    },
+    "mobile": {
+      "sw": 390,
+      "cw": 390,
+      "navH": 111.125
+    }
+  }
+}
