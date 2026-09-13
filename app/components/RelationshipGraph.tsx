@@ -245,7 +245,7 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
 
       {/* canvas */}
       <div style={{ position: 'relative', border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden', background: 'var(--surface)' }}>
-        <svg ref={svgRef} viewBox="0 0 800 520" role="img"
+        <svg ref={svgRef} viewBox="0 0 800 520" role="group"
           aria-label={center
             ? `Relationship graph centered on ${center.name}`
             : `Cross-culture relationship graph, ${nodes.length} entities in ${clusterLabels.length} tradition clusters`}
@@ -265,8 +265,10 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
               const a = nodes.find((n) => n.id === e.from)!;
               const b = nodes.find((n) => n.id === e.to)!;
               const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+              const edgeLabel = `${CAT_LABELS[e.cat]}${e.rel.confidence !== 'attested' ? ` (${e.rel.confidence})` : ''}: ${endpoint(e.from).name} — ${endpoint(e.to).name}`;
               return (
                 <g key={i}
+                  role="img" aria-label={edgeLabel}
                   onMouseEnter={() => setHover(e)} onMouseLeave={() => setHover(null)}
                   style={{ cursor: 'pointer' }}>
                   <line x1={a.x} y1={a.y} x2={b.x} y2={b.y}
@@ -344,22 +346,24 @@ export function RelationshipGraph({ data, centerId }: { data: GraphData; centerI
         </svg>
       </div>
 
-      {/* legend */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, marginTop: 12 }} className="mono" aria-hidden>
-        {CATS.map((c) => (
-          <span key={c} style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
-            <span style={{ width: 18, height: 0, borderTop: `2px solid ${CATEGORY_COLORS[c]}` }} /> {CAT_LABELS[c]}
-          </span>
-        ))}
-        <span style={{ color: 'var(--ink-2)', fontSize: '0.62rem', display: 'flex', alignItems: 'center', gap: 6 }}>
-          <span style={{ width: 18, height: 0, borderTop: '2px dashed var(--ink-2)' }} /> disputed
-        </span>
-        <span style={{ color: 'var(--ink-2)', fontSize: '0.62rem', display: 'flex', alignItems: 'center', gap: 6 }}>
-          <span style={{ width: 18, height: 0, borderTop: '2px dotted var(--ink-2)' }} /> reconstructed
-        </span>
-        {clusterLabels.length > 0 && (
-          <span style={{ color: 'var(--ink-2)', fontSize: '0.62rem' }}>· each cluster is one tradition</span>
-        )}
+      {/* legend — exposed to assistive tech (DES-004) */}
+      <div className="mono" style={{ marginTop: 12 }}>
+        <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 14, margin: 0, padding: 0, listStyle: 'none' }} aria-label="Edge types shown in the graph">
+          {CATS.map((c) => (
+            <li key={c} style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
+              <span style={{ width: 18, height: 0, borderTop: `2px solid ${CATEGORY_COLORS[c]}` }} /> {CAT_LABELS[c]}
+            </li>
+          ))}
+          <li style={{ color: 'var(--ink-2)', fontSize: '0.62rem', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ width: 18, height: 0, borderTop: '2px dashed var(--ink-2)' }} /> disputed
+          </li>
+          <li style={{ color: 'var(--ink-2)', fontSize: '0.62rem', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ width: 18, height: 0, borderTop: '2px dotted var(--ink-2)' }} /> reconstructed
+          </li>
+          {clusterLabels.length > 0 && (
+            <li style={{ color: 'var(--ink-2)', fontSize: '0.62rem' }}>· each cluster is one tradition</li>
+          )}
+        </ul>
       </div>
 
       {/* screen-reader / linear fallback */}

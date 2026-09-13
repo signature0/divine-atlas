@@ -78,9 +78,9 @@ type PlacedNode = {
   score: number;             // prominence score (myths+relations+children+artifacts)
 };
 type Sat = { id: string; name: string; x: number; y: number; owner: string; side: string; href: string; img?: string };
-type Bond = { x1: number; y1: number; x2: number; y2: number; mx: number; my: number };
+type Bond = { x1: number; y1: number; x2: number; y2: number; mx: number; my: number; aria?: string };
 type GEdge = {
-  d: string; cat: string; conf: string; label?: string;
+  d: string; cat: string; conf: string; label?: string; aria?: string;
   a: { x: number; y: number }; b: { x: number; y: number }; rel?: Relationship;
 };
 type Territory = {
@@ -179,7 +179,8 @@ function layoutTradition(
   for (const u of g.unions) {
     if (!pos.has(u.members[0]) || !pos.has(u.members[1])) continue;
     const m = midOf(u); bondFor.set(u.id, m);
-    bonds.push({ x1: m.a.x, y1: m.a.y, x2: m.b.x, y2: m.b.y, mx: m.mx, my: m.my });
+    bonds.push({ x1: m.a.x, y1: m.a.y, x2: m.b.x, y2: m.b.y, mx: m.mx, my: m.my,
+      aria: `marriage bond — ${m.a.name} and ${m.b.name}` });
   }
   const curve = (x1: number, y1: number, x2: number, y2: number): string => {
     const dy = (y2 - y1) * 0.5;
@@ -195,16 +196,24 @@ function layoutTradition(
     const c = pos.get(child)!;
     if (es.length >= 2 && es.every((e) => e.sharedUnion)) {
       const u = bondFor.get(es[0].sharedUnion!);
-      if (u) { edges.push({ d: curve(u.mx, u.my, c.x, c.y - NODE_H / 2), cat: 'family', conf: es[0].confidence, a: { x: u.mx, y: u.my }, b: { x: c.x, y: c.y - NODE_H / 2 } }); continue; }
+      if (u) {
+        const parents = es.map((e) => pos.get(e.parent)!.name).join(' and ');
+        edges.push({ d: curve(u.mx, u.my, c.x, c.y - NODE_H / 2), cat: 'family', conf: es[0].confidence,
+          a: { x: u.mx, y: u.my }, b: { x: c.x, y: c.y - NODE_H / 2 },
+          aria: `parentage — ${c.name}, child of ${parents}` }); continue;
+      }
     }
     for (const e of es) {
       const p = pos.get(e.parent)!;
       const topOfParent = p.y - NODE_H / 2;
       if (e.confidence === 'variant') {
         const mx = (p.x + c.x) / 2, my = Math.min(p.y, c.y) - 50;
-        edges.push({ d: `M ${c.x} ${c.y - NODE_H / 2} C ${mx} ${my}, ${mx} ${my}, ${p.x} ${topOfParent}`, cat: 'family', conf: 'variant', label: 'variant', a: { x: c.x, y: c.y }, b: { x: p.x, y: p.y } });
+        edges.push({ d: `M ${c.x} ${c.y - NODE_H / 2} C ${mx} ${my}, ${mx} ${my}, ${p.x} ${topOfParent}`, cat: 'family', conf: 'variant', label: 'variant',
+          a: { x: c.x, y: c.y }, b: { x: p.x, y: p.y },
+          aria: `parentage (variant) — ${c.name}, child of ${p.name}` });
       } else {
-        edges.push({ d: curve(p.x, topOfParent, c.x, c.y - NODE_H / 2), cat: 'family', conf: e.confidence, a: { x: p.x, y: topOfParent }, b: { x: c.x, y: c.y - NODE_H / 2 } });
+        edges.push({ d: curve(p.x, topOfParent, c.x, c.y - NODE_H / 2), cat: 'family', conf: e.confidence, a: { x: p.x, y: topOfParent }, b: { x: c.x, y: c.y - NODE_H / 2 },
+          aria: e.confidence === 'attested' ? `parentage — ${c.name}, child of ${p.name}` : `parentage (${e.confidence}) — ${c.name}, child of ${p.name}` });
       }
     }
   }
@@ -467,6 +476,14 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
   const toggleOverlay = (k: OverlayKey) => setOverlays((prev) => {
     const s = new Set(prev); if (s.has(k)) s.delete(k); else s.add(k); return s;
   });
+  // DES-004: expose overlay edge categories (and endpoints) to assistive tech.
+  const overlayAria = (e: GEdge) => {
+    const catLabel = OVERLAYS.find((o) => o.key === e.cat)?.label ?? e.cat;
+    const from = e.rel ? layout.pos.get(e.rel.from)?.name : undefined;
+    const to = e.rel ? layout.pos.get(e.rel.to)?.name : undefined;
+    const conf = e.conf && e.conf !== 'attested' ? ` (${e.conf})` : '';
+    return from && to ? `${catLabel}${conf}: ${from} — ${to}` : `${catLabel} edge${conf}`;
+  };
   const focusLabels: Record<FocusKind, string> = {
     full: 'Full pantheon', ancestors: 'Ancestors', descendants: 'Descendants',
     siblings: 'Siblings', partners: 'Partners',
@@ -516,7 +533,7 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
             background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))',
             height: 'min(74vh, 800px)', minHeight: 420 }}>
         <div ref={contRef} onScroll={onScroll} style={{ width: '100%', height: '100%', overflow: 'auto' }}>
-          <svg ref={svgRef} viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} role="img"
+          <svg ref={svgRef} viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} role="group"
             aria-label={layout.focused
               ? `Genealogy focused on ${layout.focused.name}, showing ${focusLabels[focusKind]}`
               : `Hierarchical genealogy of ${layout.territories.length} traditions`}
@@ -537,7 +554,7 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
             {/* overlays on top of every territory (never move nodes) */}
             <g>
               {overlayEdges.map((e, i) => (
-                <g key={`ov${i}`} onMouseEnter={() => setHover(e)} onMouseLeave={() => setHover(null)} style={{ cursor: 'pointer' }}>
+                <g key={`ov${i}`} role="img" aria-label={overlayAria(e)} onMouseEnter={() => setHover(e)} onMouseLeave={() => setHover(null)} style={{ cursor: 'pointer' }}>
                   <path d={e.d} fill="none" stroke={CATEGORY_COLORS[e.cat as EdgeCategory]} strokeWidth={hover === e ? 2.6 : 1.3}
                     strokeDasharray={e.conf === 'disputed' ? '6 5' : e.conf === 'reconstructed' ? '2 4' : undefined}
                     opacity={hover === e ? 1 : 0.55} />
@@ -560,19 +577,21 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
       </div>
 
       {/* legend */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, marginTop: 12 }} className="mono" aria-hidden>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
-          <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS.family}` }} /> parentage
-        </span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
-          <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS.marriage}` }} /> marriage ♥
-        </span>
-        {OVERLAYS.filter((o) => overlays.has(o.key)).map((o) => (
-          <span key={o.key} style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
-            <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS[o.key as EdgeCategory]}` }} /> {o.label}
-          </span>
-        ))}
-        <span style={{ color: 'var(--ink-2)', fontSize: '0.6rem' }}>far = primordials · medium = all · close = detail — scroll/pan, click a deity to focus</span>
+      <div className="mono" style={{ marginTop: 12 }}>
+        <ul style={{ display: 'flex', flexWrap: 'wrap', gap: 14, margin: 0, padding: 0, listStyle: 'none' }} aria-label="Edge types shown in the graph">
+          <li style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
+            <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS.family}` }} /> parentage
+          </li>
+          <li style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
+            <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS.marriage}` }} /> marriage ♥
+          </li>
+          {OVERLAYS.filter((o) => overlays.has(o.key)).map((o) => (
+            <li key={o.key} style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-1)', fontSize: '0.62rem' }}>
+              <span style={{ width: 18, borderTop: `2px solid ${CATEGORY_COLORS[o.key as EdgeCategory]}` }} /> {o.label}
+            </li>
+          ))}
+        </ul>
+        <p style={{ color: 'var(--ink-2)', fontSize: '0.6rem', margin: '10px 0 0' }}>far = primordials · medium = all · close = detail — scroll/pan, click a deity to focus</p>
       </div>
     </div>
   );
@@ -607,9 +626,9 @@ function TerritoryView({ t, tier, showAll, k, pxFont, imgFailed, setImgFailed, o
         </text>
       )}
 
-      {/* parentage edges */}
+      {/* parentage edges — each edge announces its category + endpoints (DES-004) */}
       {t.edges.map((e, i) => (
-        <g key={`ed${i}`} onMouseEnter={() => onEdgeHover(e)} onMouseLeave={() => onEdgeHover(null)}>
+        <g key={`ed${i}`} role="img" aria-label={e.aria || 'parentage edge'} onMouseEnter={() => onEdgeHover(e)} onMouseLeave={() => onEdgeHover(null)}>
           <path d={e.d} fill="none"
             stroke={e.conf === 'variant' ? 'var(--ink-2)' : e.conf === 'disputed' ? 'var(--ink-2)' : CATEGORY_COLORS.family}
             strokeWidth={1.6} strokeDasharray={e.conf === 'variant' ? '3 4' : e.conf === 'disputed' ? '6 5' : e.conf === 'reconstructed' ? '2 4' : undefined}
@@ -621,7 +640,7 @@ function TerritoryView({ t, tier, showAll, k, pxFont, imgFailed, setImgFailed, o
 
       {/* marriage/partner bonds (horizontal) */}
       {t.bonds.map((b, i) => (
-        <g key={`bn${i}`}>
+        <g key={`bn${i}`} role="img" aria-label={b.aria || 'marriage bond'}>
           <line x1={b.x1} y1={b.y1} x2={b.x2} y2={b.y2} stroke={CATEGORY_COLORS.marriage} strokeWidth={1.6} opacity={0.85} />
           <text x={b.mx} y={b.my - 5} textAnchor="middle" fill={CATEGORY_COLORS.marriage}
             style={{ fontFamily: 'var(--font-mono)', fontSize: pxFont(11) }}>♥</text>
