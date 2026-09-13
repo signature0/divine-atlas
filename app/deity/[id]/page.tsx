@@ -75,7 +75,7 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
               <div style={{ marginTop: 16, display: 'flex', flexWrap: 'wrap', gap: 6 }}>
                 <span className="chip chip-accent">{e.classification}</span>
                 {e.domains.map((dom) => <span key={dom} className="chip">{dom}</span>)}
-                {e.evidence_status && <span className="chip" style={{ borderColor: 'var(--accent-2)', color: 'var(--accent-2)' }}>{e.evidence_status}</span>}
+                {e.evidence_status && <span className="chip" style={{ borderColor: 'var(--accent-2)', color: 'var(--accent-2-text)' }}>{e.evidence_status}</span>}
               </div>
               <p style={{ marginTop: 22, maxWidth: 640, color: 'var(--ink-0)', lineHeight: 1.7 }}>
                 <SourceFootnote text={e.description_short} sources={d.sources} />

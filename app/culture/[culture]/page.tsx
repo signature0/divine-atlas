@@ -215,7 +215,7 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 12 }}>
                     {u.positions.map((p, j) => (
                       <div key={j} style={{ border: '1px solid var(--line)', borderRadius: 4, padding: 12 }}>
-                        <div className="mono" style={{ color: 'var(--accent-2)', fontSize: '0.66rem', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>{p.name}</div>
+                        <div className="mono" style={{ color: 'var(--accent-2-text)', fontSize: '0.66rem', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>{p.name}</div>
                         <div className="small" style={{ color: 'var(--ink-0)' }}><SourceFootnote text={p.description} sources={d.sources} /></div>
                       </div>
                     ))}

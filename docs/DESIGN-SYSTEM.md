@@ -37,10 +37,12 @@ Type scale (rem, fluid via `clamp`):
 --bg-2:   #17171e   /* card */
 --ink-0:  #ece7dd   /* primary text (warm off-white, not pure white) */
 --ink-1:  #b7b2a6   /* secondary */
---ink-2:  #7c7869   /* muted */
+--ink-2:  #868171   /* muted — bumped 2026-09-14 for AA on small text (DES-005) */
 --line:   #26262e   /* hairlines */
---accent: per-culture (below)
+--accent: per-culture (below) — rules, borders, badges, bars (NON-TEXT)
+--accent-text: per-culture (below) — AA-safe >=4.5:1 variant of --accent for TEXT
 --accent-2: per-culture
+--accent-2-text: per-culture (below) — AA-safe text variant of --accent-2
 --gold:   #c8a24a   /* the universal "divine" highlight, used sparingly */
 ```
 Base is a warm near-black, not a cool blue-black — reads as aged paper in the dark.

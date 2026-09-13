@@ -60,7 +60,7 @@ export default function Home() {
             {cultures.map((d) => (
               <Link key={d.culture} href={`/culture/${d.culture}`}
                 className="card culture-card"
-                style={{ ['--card-accent' as string]: d.meta.palette.accent }}>
+                style={{ ['--card-accent' as string]: d.meta.palette.accent, ['--card-accent-text' as string]: d.meta.palette.accentText }}>
                 <div>
                   <div className="c-name">{d.meta.name}</div>
                   {d.meta.native_label && <div className="c-native native">{d.meta.native_label}</div>}

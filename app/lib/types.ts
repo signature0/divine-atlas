@@ -146,7 +146,7 @@ export type Culture = {
   native_label?: string;
   framing: string;
   framing_note: string;
-  palette: { accent: string; accent2: string; bg: string; surface: string; ink: string };
+  palette: { accent: string; accentText: string; accent2: string; accent2Text: string; bg: string; surface: string; ink: string };
   region: { label: string; map: { x: number; y: number; w: number; h: number } };
   period: string;
   status: 'active' | 'coming soon';
