@@ -2,7 +2,7 @@
 id: TASK-002
 title: Story mode (/myths/[id])
 type: STORY
-status: REVIEW
+status: DONE
 priority: high
 owner: pi
 severity:
@@ -44,3 +44,6 @@ Commits be0f41d + 037df80. New: app/myths/[id]/page.tsx (SSG, generateStaticPara
 
 ## QA Notes
 {filled by QA}
+
+
+status REVIEW -> DONE (2026-09-13) — Orchestrator verified 2026-09-13: 3 commits (be0f41d, 037df80, 4751bb6), validate green, tsc clean, live spot-check on prod :3002 — 44/44 myth pages 200, unknown id 404, gre-creation has 7 chapter headings + 4 entity chips + variant accordion, jpn-amaterasu-cave has 3 alt-tagged figures, CTAs live on /deity + /culture pages
