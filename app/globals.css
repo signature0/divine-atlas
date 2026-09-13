@@ -162,13 +162,23 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .topnav .inner { display: flex; align-items: center; gap: 20px; height: 60px; flex-wrap: wrap; }
 .topnav .brand { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; letter-spacing: 0.02em; }
 .topnav .brand .star { color: var(--gold); }
-.topnav .links { display: flex; flex-wrap: wrap; gap: 18px; margin-left: auto; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-1); }
+.topnav .links { order: 2; display: flex; flex-wrap: wrap; gap: 18px; margin-left: auto; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-1); }
 .topnav .links a:hover { color: var(--accent-text); }
+/* DES-002: visible search trigger — right of links on desktop;
+   row 1 next to the wordmark on mobile (IA: "wordmark + search + menu"). */
+.topnav .search-btn { order: 3; display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-1); background: var(--surface); border: 1px solid var(--line); border-radius: 7px;
+  padding: 8px 12px; cursor: pointer; transition: color .15s, border-color .15s; }
+.topnav .search-btn svg { width: 14px; height: 14px; flex: none; }
+.topnav .search-btn:hover { color: var(--accent-text); border-color: var(--accent-text); }
+.topnav .search-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 /* Mobile (BUG-002): the 9-link row is ~549px and must not force a wide viewport —
    brand stays on row 1, links take a full-width row 2 and wrap if needed. */
 @media (max-width: 768px) {
   .topnav .inner { height: auto; min-height: 60px; padding-top: 10px; padding-bottom: 12px; }
   .topnav .links { margin-left: 0; width: 100%; gap: 8px 14px; font-size: 0.6rem; letter-spacing: 0.08em; }
+  .topnav .search-btn { order: 1; padding: 7px 10px; }
 }
 
 /* Scroll reveal (IntersectionObserver adds .in) */

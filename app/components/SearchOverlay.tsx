@@ -5,6 +5,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { Entity, Myth, Artifact, TIER_LABELS, CATEGORY_LABELS, CULTURE_NAMES } from '../lib/types';
+import { OPEN_SEARCH_EVENT } from './SearchTrigger';
 
 export function SearchOverlay({
   entities,
@@ -48,8 +49,17 @@ export function SearchOverlay({
         setTimeout(() => inputRef.current?.focus(), 10);
       } else if (e.key === 'Escape') setOpen(false);
     };
+    // DES-002: visible trigger in TopNav opens the same overlay
+    const onOpen = () => {
+      setOpen(true);
+      setTimeout(() => inputRef.current?.focus(), 10);
+    };
     window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    window.addEventListener(OPEN_SEARCH_EVENT, onOpen);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      window.removeEventListener(OPEN_SEARCH_EVENT, onOpen);
+    };
   }, []);
 
   useEffect(() => { setActive(0); }, [q]);

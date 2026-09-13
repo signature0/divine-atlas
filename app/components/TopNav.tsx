@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ALL_CULTURES, loadCulture } from '../lib/data';
+import { SearchTrigger } from './SearchTrigger';
 
 export function TopNav() {
   const active = ALL_CULTURES.map((c) => loadCulture(c).meta);
@@ -9,6 +10,7 @@ export function TopNav() {
         <Link href="/" className="brand" aria-label="The Divine Atlas — home">
           The Divine Atlas <span className="star">★</span>
         </Link>
+        <SearchTrigger />
         <div className="links">
           <Link href="/artifacts">Vault</Link>
           <Link href="/graph">Graph</Link>
