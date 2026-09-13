@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ALL_CULTURES, loadCulture } from '../../lib/data';
 import { FramingBanner } from '../../components/FramingBanner';
 import { CosmologyMap } from '../../components/CosmologyMap';
-import { RelationshipGraph } from '../../components/RelationshipGraph';
+import { GraphViewSwitch } from '../../components/GraphViewSwitch';
 import { ArtworkFigure } from '../../components/ArtworkFigure';
 import { SourceFootnote } from '../../components/SourceFootnote';
 
@@ -73,11 +73,13 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
           <h2 style={{ marginTop: 8, marginBottom: 8 }}>How the divine world is wired</h2>
           <hr className="mat-band" style={{ width: 140 }} />
           <p className="small muted" style={{ maxWidth: 700, marginBottom: 24 }}>
-            Every node is an entity; every edge is a typed relationship. Filter by category, focus on
-            a relationship kind, or click any node to open its profile. Line style encodes confidence:
+            Two ways to read the same data: the <strong>genealogy</strong> view layers generations
+            top → bottom (partners side by side, children fanning from the union), while the{' '}
+            <strong>relationships</strong> view shows the full web of typed relationships — filter by
+            category, or click any node to open its profile. Line style encodes confidence:
             solid = attested, dashed = disputed, dotted = scholarly reconstruction.
           </p>
-          <RelationshipGraph data={d} centerId={centerId} />
+          <GraphViewSwitch data={d} centerId={centerId} genealogyCenterId={null} />
         </div>
       </section>
 

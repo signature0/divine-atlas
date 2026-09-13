@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { loadCulture, ALL_CULTURES, entityById, artifactRelationships } from '../../lib/data';
 import { TIER_LABELS } from '../../lib/types';
-import { RelationshipGraph } from '../../components/RelationshipGraph';
+import { GraphViewSwitch } from '../../components/GraphViewSwitch';
 import { ArtworkFigure } from '../../components/ArtworkFigure';
 import { SourceFootnote } from '../../components/SourceFootnote';
 
@@ -164,7 +164,7 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
               <h2 style={{ marginTop: 8, marginBottom: 16 }}>Their corner of the divine world</h2>
               <hr className="mat-band" style={{ width: 100 }} />
               <div style={{ marginTop: 20 }}>
-                <RelationshipGraph data={d} centerId={e.id} />
+                <GraphViewSwitch data={d} centerId={e.id} />
               </div>
             </div>
           </div>
