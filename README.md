@@ -56,6 +56,17 @@ node scripts/validate.mjs   # data integrity gate ("no invented claims")
 node scripts/qa.mjs         # Playwright smoke (needs running server)
 ```
 
+### Production (always-on, since 2026-09-13)
+The site runs as the **`divine-atlas` systemd service** — port 3002, production
+build (`next start`), auto-start on boot, auto-restart on crash (2 GB memory cap).
+```bash
+sudo systemctl status divine-atlas    # health
+sudo systemctl restart divine-atlas   # after a new `npm run build`
+```
+After any `npm run build`, restart the service to serve the new build.
+The old failure mode (manually started `npm run start` dying silently after
+reboot/crash, nothing to bring it back) is gone.
+
 ## Document index
 | Doc | Status |
 |---|---|
