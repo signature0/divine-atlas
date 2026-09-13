@@ -1,15 +1,23 @@
 'use client';
-// Explorer chrome for /graph — tradition (culture) filter + "center on" entity
-// picker, wrapped around the shared RelationshipGraph component. The culture
-// filter is applied by passing a filtered dataset down; the component itself
-// stays dataset-agnostic.
+// Explorer chrome for /graph — the VIEW switch (GENEALOGY | RELATIONSHIPS),
+// tradition filter, and "center on" picker.
+//
+// Two DISTINCT layout systems share the same underlying dataset (ADR-003):
+//   GENEALOGY     — GenealogyGraph: hierarchical/layered (dagre). The default.
+//   RELATIONSHIPS — RelationshipGraph: the original force/ring network view,
+//                   preserved untouched as the secondary/expert view.
+// The culture filter applies to both by passing a filtered dataset down.
 import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { RelationshipGraph } from '../components/RelationshipGraph';
+import { GenealogyGraph } from '../components/GenealogyGraph';
 import { GraphData, CULTURE_NAMES } from '../lib/types';
+
+type ViewMode = 'genealogy' | 'relationships';
 
 export default function GraphExplorer({ data, fromId }: { data: GraphData; fromId?: string }) {
   const router = useRouter();
+  const [view, setView] = useState<ViewMode>('genealogy');
   const cultures = useMemo(() => {
     const s: string[] = [];
     const seen = new Set<string>();
@@ -59,8 +67,51 @@ export default function GraphExplorer({ data, fromId }: { data: GraphData; fromI
     return n;
   });
 
+  const switchView = (v: ViewMode) => {
+    setView(v);
+    // Re-centering is a genealogy concept; keep the ?from param so the
+    // relationship view can still honor a centered entity if one was chosen.
+  };
+
   return (
     <div>
+      {/* VIEW switch — the primary navigation between the two layout systems */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 14, alignItems: 'center' }}>
+        <span className="mono" style={{ fontSize: '0.62rem', color: 'var(--ink-2)', letterSpacing: '0.14em', textTransform: 'uppercase', marginRight: 4 }}>
+          View
+        </span>
+        <div role="tablist" aria-label="Graph view mode"
+          style={{ display: 'inline-flex', border: '1px solid var(--line)', borderRadius: 7, overflow: 'hidden' }}>
+          <button role="tab" aria-selected={view === 'genealogy'} onClick={() => switchView('genealogy')}
+            className="mono"
+            style={{
+              padding: '8px 18px', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', cursor: 'pointer',
+              border: 'none',
+              background: view === 'genealogy' ? 'var(--accent)' : 'var(--surface)',
+              color: view === 'genealogy' ? 'var(--bg-0)' : 'var(--ink-1)',
+              fontWeight: 600,
+            }}>
+            Genealogy
+          </button>
+          <button role="tab" aria-selected={view === 'relationships'} onClick={() => switchView('relationships')}
+            className="mono"
+            style={{
+              padding: '8px 18px', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', cursor: 'pointer',
+              border: 'none', borderLeft: '1px solid var(--line)',
+              background: view === 'relationships' ? 'var(--accent)' : 'var(--surface)',
+              color: view === 'relationships' ? 'var(--bg-0)' : 'var(--ink-1)',
+              fontWeight: 600,
+            }}>
+            Relationships
+          </button>
+        </div>
+        <span className="mono" style={{ fontSize: '0.62rem', color: 'var(--ink-2)', marginLeft: 4 }}>
+          {view === 'genealogy'
+            ? 'hierarchical — generations top → bottom, partners side by side'
+            : 'relationship network — the full web of divine relationships'}
+        </span>
+      </div>
+
       {/* tradition filter + center picker */}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 12, alignItems: 'center' }}>
         <span className="mono" style={{ fontSize: '0.62rem', color: 'var(--ink-2)', letterSpacing: '0.14em', textTransform: 'uppercase', marginRight: 2 }}>
@@ -97,7 +148,9 @@ export default function GraphExplorer({ data, fromId }: { data: GraphData; fromI
         </span>
       </div>
 
-      <RelationshipGraph data={filtered} centerId={fromId} />
+      {view === 'genealogy'
+        ? <GenealogyGraph data={filtered} centerId={fromId} />
+        : <RelationshipGraph data={filtered} centerId={fromId} />}
     </div>
   );
 }
