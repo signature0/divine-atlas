@@ -177,7 +177,9 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
    brand stays on row 1, links take a full-width row 2 and wrap if needed. */
 @media (max-width: 768px) {
   .topnav .inner { height: auto; min-height: 60px; padding-top: 10px; padding-bottom: 12px; }
-  .topnav .links { margin-left: 0; width: 100%; gap: 8px 14px; font-size: 0.6rem; letter-spacing: 0.08em; }
+  /* DES-003: one scrollable strip instead of a wrapping row — no orphan 2-link wrap row. */
+  .topnav .links { margin-left: 0; width: 100%; flex-wrap: nowrap; overflow-x: auto;
+    gap: 8px 14px; font-size: 0.6rem; letter-spacing: 0.08em; padding-bottom: 2px; }
   .topnav .search-btn { order: 1; padding: 7px 10px; }
 }
 

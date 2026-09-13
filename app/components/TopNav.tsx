@@ -14,6 +14,9 @@ export function TopNav() {
         <div className="links">
           <Link href="/artifacts">Vault</Link>
           <Link href="/graph">Graph</Link>
+          {/* DES-003: IA primary links. Map/Timeline stay out — still BACKLOG (TASK-003/006); no dead labels. */}
+          <Link href="/stories">Stories</Link>
+          <Link href="/compare">Compare</Link>
           {active.map((c) => (
             <Link key={c.id} href={`/culture/${c.id}`}>{c.name.replace(' Mythology', '').replace('Ancient ', '').replace(' Religion', '')}</Link>
           ))}
