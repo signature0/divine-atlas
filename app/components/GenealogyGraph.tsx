@@ -35,12 +35,12 @@ import {
 } from '../lib/genealogy';
 
 // ---- geometry constants (abstract content units; the canvas fits to content) ----
-const NODE_W = 150, NODE_H = 128;     // deity node box reserved for layout
+const NODE_W = 132, NODE_H = 128;     // deity node box reserved for layout
 const DISC_R = 32;                    // portrait disc radius (content units)
 const SAT_W = 72, SAT_H = 58;         // artifact satellite box
-const RANK_SEP = 96;                   // vertical gap between generations
-const NODE_SEP = 34, EDGE_SEP = 12;    // horizontal gaps (dagre)
-const T_GAP_X = 150, T_GAP_Y = 170;    // gutter between tradition territories
+const RANK_SEP = 70;                   // vertical gap between generations
+const NODE_SEP = 22, EDGE_SEP = 10;    // horizontal gaps (dagre)
+const T_GAP_X = 110, T_GAP_Y = 130;    // gutter between tradition territories
 const HEADER_H = 46;                   // reserved header space above each territory
 
 // Overlay definitions (parentage + marriage are always on in genealogy mode).
@@ -186,8 +186,19 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
   const [hover, setHover] = useState<GEdge | null>(null);
   const [imgFailed, setImgFailed] = useState<Set<string>>(new Set());
   const [view, setView] = useState({ x: 0, y: 0, k: 1 });
+  const [full, setFull] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
   const drag = useRef<{ sx: number; sy: number; ox: number; oy: number; moved: boolean } | null>(null);
+
+  // Fullscreen: Esc exits (works while the canvas has focus or is dragging).
+  useEffect(() => {
+    if (!full) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFull(false); };
+    window.addEventListener('keydown', onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden'; // page under the graph can't scroll away
+    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = prev; };
+  }, [full]);
 
   const imgMap = useMemo(() => {
     const artById = new Map(data.artworks.map((a) => [a.id, a]));
@@ -367,6 +378,8 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
           <button className="chip-btn" onClick={() => zoom(1.25)} aria-label="Zoom in">+</button>
           <button className="chip-btn" onClick={() => zoom(0.8)} aria-label="Zoom out">−</button>
           <button className="chip-btn" onClick={() => setView(fit())}>Fit</button>
+          <button className="chip-btn" onClick={() => setFull((f) => !f)} aria-label="Toggle fullscreen"
+            title="Full-screen the graph (Esc exits)">⛶</button>
         </span>
       </div>
 
@@ -386,10 +399,13 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
         </div>
       )}
 
-      {/* canvas */}
-      <div style={{ position: 'relative', border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden',
-        background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))',
-        height: 'min(74vh, 800px)', minHeight: 420 }}>
+      {/* canvas — full mode: pinned over the whole viewport, content scrolls under it */}
+      <div style={full
+        ? { position: 'fixed', inset: 0, zIndex: 1000, overflow: 'hidden',
+            background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))' }
+        : { position: 'relative', border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden',
+            background: 'radial-gradient(1200px 500px at 50% 0%, color-mix(in srgb, var(--gold) 6%, var(--surface)), var(--surface))',
+            height: 'min(74vh, 800px)', minHeight: 420 }}>
         <svg ref={svgRef} viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} preserveAspectRatio="xMidYMid meet" role="img"
           aria-label={layout.focused
             ? `Genealogy focused on ${layout.focused.name}, showing ${focusLabels[focusKind]}`
@@ -440,6 +456,11 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
           background: 'color-mix(in srgb, var(--bg-0) 70%, transparent)', padding: '2px 6px', borderRadius: 3 }}>
           zoom {view.k.toFixed(2)}× · {tier}
         </div>
+        {full && (
+          <button className="chip-btn" onClick={() => setFull(false)}
+            style={{ position: 'absolute', right: 10, top: 10 }} aria-label="Exit fullscreen"
+            title="Exit full screen (Esc)">✕ Exit</button>
+        )}
       </div>
 
       {/* legend */}
