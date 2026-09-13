@@ -2,7 +2,7 @@
 id: TASK-001
 title: Relationship graph explorer route (/graph)
 type: STORY
-status: REVIEW
+status: DONE
 priority: high
 owner: pi
 severity:
@@ -61,3 +61,6 @@ route + explorer chrome around it.
 
 ## QA Notes
 {filled by QA}
+
+
+status REVIEW -> DONE (2026-09-13) — Orchestrator verified: commit b978f63, validate.mjs green, tsc clean, /graph live on prod :3002 (877KB, HTTP 200), Playwright evidence in issue frontmatter

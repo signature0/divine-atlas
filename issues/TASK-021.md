@@ -4,7 +4,7 @@ title: QA genealogy graph: build + typecheck + headless visual checks (no overla
 type: TASK
 status: BACKLOG
 priority: medium
-owner: hermes
+owner: orchestrator
 severity: 
 created: 2026-09-13
 updated: 2026-09-13

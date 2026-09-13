@@ -4,7 +4,7 @@ title: Integrate artifact datasets (6 cultures) into data/<culture>/
 type: RESEARCH
 status: DONE
 priority: high
-owner: hermes
+owner: orchestrator
 severity:
 created: 2026-09-13
 updated: 2026-09-13
