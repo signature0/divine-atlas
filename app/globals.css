@@ -192,7 +192,108 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
   padding: 2px 8px; border: 1px solid var(--line); border-radius: 3px; color: var(--ink-2); flex: none; }
 .kind-entity { color: var(--accent); border-color: var(--accent); }
 .kind-myth { color: var(--gold); border-color: var(--gold); }
+.kind-artifact { color: #b58ad0; border-color: #b58ad0; }
 .search-label { font-family: var(--font-display); font-size: 1.15rem; color: var(--ink-0); }
 .search-sub { color: var(--ink-2); font-size: 0.75rem; font-family: var(--font-mono); }
 .search-foot { display: flex; justify-content: space-between; padding: 10px 20px; border-top: 1px solid var(--line);
   color: var(--ink-2); font-size: 0.62rem; letter-spacing: 0.1em; }
+
+/* ---- The Divine Vault (/artifacts) ---- */
+.vault { display: flex; flex-direction: column; gap: 22px; }
+.vault-search { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.vault-search input { flex: 1; min-width: 260px; background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 3px; color: var(--ink-0); font-family: var(--font-body); font-size: 0.9rem; padding: 12px 14px; }
+.vault-search input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.vault-count { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em; color: var(--ink-2); white-space: nowrap; }
+.vault-filters { display: flex; flex-direction: column; gap: 10px; border: 1px solid var(--line); background: var(--bg-1); border-radius: 5px; padding: 16px 18px; }
+.vault-frow { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.vault-flabel { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); min-width: 92px; }
+.vault-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.vault-toolbar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.vault-sort { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 0.64rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+.vault-empty { padding: 48px 0; text-align: center; color: var(--ink-1); }
+
+/* Vault card grid */
+.vault-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
+.vault-card { position: relative; display: flex; flex-direction: column; background: var(--bg-2);
+  border: 1px solid var(--line); border-radius: 6px; overflow: hidden; text-decoration: none;
+  transition: border-color .22s var(--ease), transform .22s var(--ease), box-shadow .22s var(--ease); }
+.vault-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 18px 40px rgba(0,0,0,0.45); }
+.vault-card-media { position: relative; aspect-ratio: 4/3; background: var(--surface); overflow: hidden; }
+.vault-card-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease); }
+.vault-card:hover .vault-card-media img { transform: scale(1.05); }
+.vault-card-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,.55)); pointer-events: none; }
+.vault-card-seal { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 3rem; color: var(--accent); }
+.vault-card-rank { position: absolute; top: 10px; right: 10px; z-index: 2; font-family: var(--font-mono); font-weight: 700;
+  font-size: 0.9rem; letter-spacing: 0.05em; color: #0b0b0e; background: var(--accent); padding: 3px 9px; border-radius: 3px; }
+.vault-card-culture { position: absolute; top: 12px; left: 12px; z-index: 2; font-family: var(--font-mono);
+  font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: #fff;
+  background: rgba(0,0,0,.55); padding: 3px 8px; border-radius: 2px; backdrop-filter: blur(3px); }
+.vault-card-imgtype { position: absolute; bottom: 10px; left: 12px; z-index: 2; font-family: var(--font-mono);
+  font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,.72);
+  border-left: 2px solid rgba(255,255,255,.4); padding-left: 6px; }
+.vault-card-body { display: flex; flex-direction: column; gap: 6px; padding: 14px 15px 16px; flex: 1; }
+.vault-card-top { display: flex; flex-direction: column; }
+.vault-card-name { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; line-height: 1.1; color: var(--ink-0); }
+.vault-card-native { font-family: var(--font-native); font-size: 0.82rem; color: var(--ink-2); }
+.vault-card-meta { display: flex; flex-wrap: wrap; gap: 4px; }
+.vault-card-meta .chip { margin-top: 0; }
+.vault-card-owner { font-size: 0.78rem; color: var(--ink-1); margin-top: 2px; }
+.vault-card-short { font-size: 0.8rem; color: var(--ink-2); line-height: 1.45; margin-top: 2px;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.vault-card-cta { margin-top: auto; padding-top: 8px; font-family: var(--font-mono); font-size: 0.64rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+
+/* ---- Artifact detail (/artifacts/[slug]) ---- */
+.art-detail { display: grid; grid-template-columns: minmax(0,1fr) 380px; gap: 48px; align-items: start; }
+@media (max-width: 1000px) { .art-detail { grid-template-columns: 1fr; } }
+.art-hero { position: relative; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); aspect-ratio: 16/10; }
+.art-hero img { width: 100%; height: 100%; object-fit: cover; }
+.art-hero .cap { position: absolute; inset: auto 0 0 0; padding: 40px 16px 14px; background: linear-gradient(transparent, rgba(5,5,8,.78) 34%, rgba(5,5,8,.95));
+  font-family: var(--font-mono); font-size: 0.66rem; color: var(--ink-0); line-height: 1.5; }
+.art-hero .cap .lbl { color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.58rem; display: block; }
+.art-hero .imgtype { position: absolute; top: 12px; left: 12px; font-family: var(--font-mono); font-size: 0.56rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: #fff; background: rgba(0,0,0,.55); padding: 3px 9px; border-radius: 2px; }
+
+/* Power profile */
+.power-profile { display: flex; flex-direction: column; gap: 12px; }
+.power-row { display: grid; grid-template-columns: 118px 14px 1fr; gap: 10px; align-items: start; }
+.power-attr { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-1); padding-top: 3px; }
+.power-bar { width: 100%; height: 8px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 2px; overflow: hidden; position: relative; }
+.power-fill { height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); transition: width .8s var(--ease); }
+.power-val { font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent); min-width: 14px; text-align: right; padding-top: 3px; }
+.power-exp { grid-column: 2 / -1; font-size: 0.74rem; color: var(--ink-2); line-height: 1.45; margin: 2px 0 0 24px; }
+@media (max-width: 560px) { .power-row { grid-template-columns: 92px 12px 1fr; } .power-exp { margin-left: 0; } }
+
+/* Ability cards */
+.ability-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 14px; }
+.ability-card { border: 1px solid var(--line); border-left: 3px solid var(--accent); background: var(--bg-1); border-radius: 4px; padding: 14px 16px; }
+.ability-name { font-family: var(--font-display); font-size: 1.08rem; font-weight: 600; }
+.ability-cert { display: inline-block; margin-top: 6px; font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 2px; border: 1px solid var(--line); color: var(--ink-2); }
+.cert-attested { color: #7fae8b; border-color: #7fae8b; }
+.cert-likely { color: var(--accent); border-color: var(--accent); }
+.cert-later_tradition { color: #c9a227; border-color: #c9a227; }
+.cert-modern_interpretation { color: #b5654a; border-color: #b5654a; }
+.cert-uncertain { color: var(--ink-2); border-color: var(--line); font-style: italic; }
+.ability-desc { font-size: 0.82rem; color: var(--ink-1); margin-top: 8px; line-height: 1.5; }
+.ability-src { font-family: var(--font-mono); font-size: 0.62rem; color: var(--ink-2); margin-top: 8px; }
+
+/* Classification / meta panel */
+.art-rail { position: sticky; top: 84px; display: flex; flex-direction: column; gap: 16px; }
+@media (max-width: 1000px) { .art-rail { position: static; } }
+.class-block { border: 1px solid var(--line); background: var(--bg-1); border-radius: 5px; padding: 16px 18px; }
+.class-tier { font-family: var(--font-display); font-size: 1.7rem; font-weight: 600; color: var(--accent); }
+.class-rank { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-1); }
+.class-disc { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); margin-top: 8px; line-height: 1.5; }
+.art-fact { border-top: 1px solid var(--line); padding: 10px 0; }
+.art-fact .k { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.art-fact .v { font-size: 0.88rem; color: var(--ink-0); margin-top: 3px; }
+
+/* cross-links */
+.xlinks { display: flex; flex-wrap: wrap; gap: 8px; }
+.xlink { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg-2);
+  border-radius: 3px; padding: 6px 11px; font-size: 0.78rem; color: var(--ink-1); transition: all .15s var(--ease); }
+.xlink:hover { border-color: var(--accent); color: var(--accent); }
+.xlink .kind { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
