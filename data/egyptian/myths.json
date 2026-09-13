@@ -18,12 +18,12 @@
     ],
     "variants": [
       {
-        "label": "Memphite alternative",
-        "text": "In Memphis, Ptah is the self-created creator who fashions the world 'in his heart and mouth' [S4]."
+        "name": "Memphite alternative",
+        "description": "In Memphis, Ptah is the self-created creator who fashions the world 'in his heart and mouth' [S4]."
       },
       {
-        "label": "Hermopolitan alternative",
-        "text": "In Hermopolis, creation begins with the Ogdoad (eight primeval deities), not a single self-created god [S4]."
+        "name": "Hermopolitan alternative",
+        "description": "In Hermopolis, creation begins with the Ogdoad (eight primeval deities), not a single self-created god [S4]."
       }
     ],
     "uncertainty_notes": "This is ONE of several Egyptian creation traditions. We do not present it as 'the' Egyptian creation — we present all three [S4].",

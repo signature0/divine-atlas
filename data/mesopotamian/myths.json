@@ -15,8 +15,8 @@
     ],
     "variants": [
       {
-        "label": "Atrahasis (Old Babylonian)",
-        "text": "In the Atrahasis, the creation of humanity is from Apsu's flesh (not Kingu's blood); the flood-hero is Atrahasis [S3]."
+        "name": "Atrahasis (Old Babylonian)",
+        "description": "In the Atrahasis, the creation of humanity is from Apsu's flesh (not Kingu's blood); the flood-hero is Atrahasis [S3]."
       }
     ],
     "uncertainty_notes": "The Enuma Elish has multiple versions (Old Babylonian c. 18th c. BCE; standard form c. 1100-1000 BCE); the details vary [S1].",
@@ -100,12 +100,12 @@
     ],
     "variants": [
       {
-        "label": "Gilgamesh (Standard Babylonian)",
-        "text": "In the Gilgamesh, the flood-hero is Utnapishtim (the 'faraway' one); the flood is part of Gilgamesh's quest for immortality [S2]."
+        "name": "Gilgamesh (Standard Babylonian)",
+        "description": "In the Gilgamesh, the flood-hero is Utnapishtim (the 'faraway' one); the flood is part of Gilgamesh's quest for immortality [S2]."
       },
       {
-        "label": "Atrahasis (Old Babylonian)",
-        "text": "In the Atrahasis, the flood-hero is Atrahasis; the flood is part of the creation-of-humanity story [S3]."
+        "name": "Atrahasis (Old Babylonian)",
+        "description": "In the Atrahasis, the flood-hero is Atrahasis; the flood is part of the creation-of-humanity story [S3]."
       }
     ],
     "uncertainty_notes": "The flood-story has multiple versions (Atrahasis, Gilgamesh, and others); the details vary [S2][S3].",
@@ -150,8 +150,8 @@
     ],
     "variants": [
       {
-        "label": "Akkadian (Ishtar) version",
-        "text": "In the Akkadian (Ishtar) version, the details vary (the 'stand-in' is sometimes not Dumuzi) [S4]."
+        "name": "Akkadian (Ishtar) version",
+        "description": "In the Akkadian (Ishtar) version, the details vary (the 'stand-in' is sometimes not Dumuzi) [S4]."
       }
     ],
     "uncertainty_notes": "The 'Descent' myth has multiple versions (Sumerian c. 1900-1700 BCE; later Akkadian versions); the details vary [S4].",
