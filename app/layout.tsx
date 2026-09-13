@@ -41,9 +41,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        {/* DES-006: skip link — first tab stop on every page, hidden until focused (.skip-link in globals.css) */}
+        <a className="skip-link" href="#main">Skip to content</a>
         <TopNav />
         <SearchOverlay entities={entities} myths={myths} artifacts={artifacts} />
-        <main id="main">{children}</main>
+        <main id="main" tabIndex={-1}>{children}</main>
         <footer className="site-footer">
           <div className="container small" style={{ color: 'var(--ink-2)', display: 'flex', flexWrap: 'wrap', gap: '8px 24px' }}>
             <span><strong style={{ color: 'var(--ink-1)' }}>The Divine Atlas</strong> — a museum of the world&apos;s divine imagination</span>
