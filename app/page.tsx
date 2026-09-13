@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ALL_CULTURES, loadCulture } from './lib/data';
+import { domainSlug } from './lib/domain';
 import { SourceRef } from './lib/types';
 void ({} as SourceRef);
 
@@ -89,7 +90,7 @@ export default function Home() {
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
             {archetypes.map(([dom, v]) => (
-              <Link key={dom} href={`/domain/${encodeURIComponent(dom)}`}
+              <Link key={dom} href={`/domain/${domainSlug(dom)}`}
                 className="chip" style={{ fontSize: '0.8rem', padding: '8px 16px' }}>
                 <strong style={{ color: 'var(--accent)', fontFamily: 'var(--font-display)', fontSize: '1rem' }}>{dom}</strong>
                 <span className="faint" style={{ marginLeft: 8 }}>{v.count} deities</span>

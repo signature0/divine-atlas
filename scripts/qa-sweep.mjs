@@ -30,14 +30,17 @@ for (const c of CULTS) {
   const alist = Array.isArray(arts) ? arts : ((arts && arts.artifacts) || []);
   for (const x of alist) add(`/artifacts/${x.slug || x.id}`);
 }
-// domains: raw domain strings (page lowercases + uses raw value, spaces allowed)
+// domains: route param is the SLUG since BUG-001 (app/lib/domain.ts) — raw
+// strings contain spaces/parens that prod static-file lookup can't match.
+// This inline slug MUST stay in sync with domainSlug() in app/lib/domain.ts.
+const domainSlug = (dm) => dm.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const domains = new Set();
 for (const c of CULTS) {
   const deities = load(`data/${c}/entities.json`);
   const dlist = Array.isArray(deities) ? deities : ((deities && deities.entities) || []);
-  for (const x of dlist) (x.domains || []).forEach(dm => domains.add(dm));
+  for (const x of dlist) (x.domains || []).forEach(dm => domains.add(domainSlug(dm)));
 }
-for (const dm of domains) add(`/domain/${encodeURIComponent(dm)}`);
+for (const dm of domains) add(`/domain/${dm}`);
 // dedupe
 const uniq = [...new Set(routes)];
 

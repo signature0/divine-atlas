@@ -1,17 +1,20 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ALL_CULTURES, loadCulture } from '../../lib/data';
+import { allDomainSlugs, domainFromSlug } from '../../lib/domain';
 import { EntityCard } from '../../components/EntityCard';
 
+// Route param is the SLUG (BUG-001): raw domain strings contain spaces/parens
+// that prod static-file lookup can't match. generateStaticParams emits slugs;
+// the component resolves the exact raw domain back from the slug.
 export function generateStaticParams() {
-  const domains = new Set<string>();
-  for (const c of ALL_CULTURES) for (const e of loadCulture(c).entities) e.domains.forEach((d) => domains.add(d));
-  return [...domains].map((d) => ({ domain: d }));
+  return allDomainSlugs().map((slug) => ({ domain: slug }));
 }
 
 export default async function DomainPage({ params }: { params: Promise<{ domain: string }> }) {
-  const { domain: rawDomain } = await params;
-  const domain = rawDomain.toLowerCase();
+  const { domain: slug } = await params;
+  const domain = domainFromSlug(slug);
+  if (!domain) notFound();
   const matches: { e: ReturnType<typeof loadCulture>['entities'][number]; art?: ReturnType<typeof loadCulture>['artworks'][number] }[] = [];
   for (const c of ALL_CULTURES) {
     const d = loadCulture(c);
