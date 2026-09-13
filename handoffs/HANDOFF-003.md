@@ -39,11 +39,10 @@ schema, or anything beyond what's specified.
   domains slugify to the same string, prefer a lossless scheme (e.g. keep the
   raw string but URL-encode differently) — verify uniqueness before shipping.
 
-### Acceptance (must all pass on prod :3002 after rebuild+redeploy)
-- All 320 `/domain/*` routes → 200. Run: `node scripts/qa-sweep.mjs` and confirm
-  0 `/domain/*` 404s.
-- Homepage domain chips all resolve (0 404s on the "Where the gods overlap" links).
-- `validate.mjs` + `tsc --noEmit` green.
+### Acceptance (orchestrator verifies after redeploy — you only need build green)
+- `npm run build` succeeds with the new slugs prerendered; `validate.mjs` +
+  `tsc --noEmit` green. The orchestrator then redeploys + re-sweeps and expects
+  all 320 `/domain/*` routes → 200 and 0 404s on the homepage domain chips.
 
 ## BUG-002 (MAJOR) — mobile top-nav forces 643px viewport (horizontal scroll)
 - `.topnav .links { display:flex; gap:18px; margin-left:auto }` (globals.css:156)
@@ -65,17 +64,16 @@ schema, or anything beyond what's specified.
 - Nav links still reachable on mobile.
 
 ## Process
-1. Make the changes. `npm run build` (SSG) so the new `/domain/` slugs are
+1. Make the code changes. `npm run build` (SSG) so the new `/domain/` slugs are
    prerendered. `node scripts/validate.mjs` + `npx tsc --noEmit`.
-2. Redeploy prod: the site runs under systemd `divine-atlas` on :3002
-   (`next start`). Restart it after the build.
-3. Re-run `node scripts/qa-sweep.mjs` and capture the new totals. Confirm
-   0 domain 404s and (for BUG-002) the mobile overflow check is clean.
-4. Update `issues/BUG-001.md` and `issues/BUG-002.md`: frontmatter
-   `status: REVIEW`, fill `evidence:` with the new sweep totals + commit SHAs,
-   and append a "## Fix" section noting exactly what changed.
-5. Commit per issue (or one commit with both, your call — but the commit message
-   must name both BUG ids).
+2. Update `issues/BUG-001.md` and `issues/BUG-002.md`: frontmatter
+   `status: REVIEW`, fill `evidence:` with the commit SHAs, and append a "## Fix"
+   section noting exactly what changed.
+3. Commit (one commit is fine — name both BUG ids in the message).
+4. **STOP after the build + commit — do NOT restart the prod service.** The
+   orchestrator (Hermes) handles the systemd `divine-atlas` redeploy + the
+   qa-sweep re-run + verification, since that needs sudo. Leave the new build on
+   disk (`.next/`) and tell me in your report that the build is ready for redeploy.
 
 Do NOT touch BUG-003/BUG-004 (non-blocking, backlog). Do NOT change the
 networkidle→load change in qa-sweep.mjs (already correct).
