@@ -27,8 +27,8 @@ export default function Home() {
 
   return (
     <>
-      {/* HERO */}
-      <section style={{ padding: '120px 0 80px', position: 'relative', overflow: 'hidden' }}>
+      {/* HERO — .home-hero in globals.css (DES-007: top padding collapses at <=560px) */}
+      <section className="home-hero">
         <div aria-hidden style={{ position: 'absolute', inset: 0, opacity: 0.05, background:
           'radial-gradient(1200px 500px at 20% 0%, var(--accent), transparent 60%), radial-gradient(900px 500px at 80% 100%, var(--accent-2), transparent 60%)' }} />
         <div className="container" style={{ position: 'relative' }}>

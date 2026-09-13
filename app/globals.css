@@ -61,6 +61,11 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .muted { color: var(--ink-1); }
 .faint { color: var(--ink-2); }
 
+/* Home hero (DES-007) — desktop keeps 120/80; at <=560px the top padding collapses
+   so H1 + lede land above the fold on a 390x844 screen (2-row mobile nav ~110px). */
+.home-hero { padding: 120px 0 80px; position: relative; overflow: hidden; }
+@media (max-width: 560px) { .home-hero { padding: 56px 0 40px; } }
+
 /* Layout */
 .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
 .section { padding: 96px 0; }
