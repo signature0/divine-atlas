@@ -113,6 +113,8 @@ export function VaultClient({ items, cultures, categories, tiers, owners }: Prop
         {hasFilters && (
           <button className="chip-btn" onClick={clearAll}>Clear filters ✕</button>
         )}
+        {/* DES-010: interpretive disclaimer relocated from the masthead into the filter row */}
+        <span className="vault-note">Atlas classifications and power profiles are interpretive — read, not historical fact.</span>
       </div>
 
       {/* Grid */}

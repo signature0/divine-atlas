@@ -87,22 +87,20 @@ export default function VaultPage() {
 
   return (
     <div>
-      <header style={{ padding: '64px 0 28px', borderBottom: '1px solid var(--line)' }}>
+      {/* DES-010: tightened header padding (64/28 -> 44/20) and 96px section top -> 32px so the
+          filter bar + first card row reach the fold at 1440; disclaimer moved to the filter row. */}
+      <header style={{ padding: '44px 0 20px', borderBottom: '1px solid var(--line)' }}>
         <div className="container">
           <span className="eyebrow">The Divine Vault · Artifacts &amp; Relics</span>
           <h1 className="display-l" style={{ marginTop: 10 }}>Every sacred object, one archive</h1>
           <hr className="mat-band" style={{ width: 140 }} />
-          <p className="muted small" style={{ maxWidth: 720, marginTop: 14 }}>
+          <p className="muted small" style={{ maxWidth: 720, marginTop: 12 }}>
             Hammers and mirrors, crowns and tablets — the objects gods made, wielded, and lost.
             Filter by tradition, object type, or Atlas classification; search by name, power, or owner.
-            <br />
-            <span style={{ color: 'var(--ink-2)' }}>
-              Atlas classifications and power profiles are interpretive — read, not historical fact.
-            </span>
           </p>
         </div>
       </header>
-      <div className="container section">
+      <div className="container section" style={{ paddingTop: 32 }}>
         <Suspense fallback={<div className="muted" style={{ padding: '40px 0' }}>Opening the vault…</div>}>
           <VaultClient
             items={items}
