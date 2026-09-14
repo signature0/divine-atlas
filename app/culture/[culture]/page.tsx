@@ -20,8 +20,10 @@ export async function generateMetadata({ params }: { params: Promise<{ culture: 
 
 export default async function CulturePage({ params }: { params: Promise<{ culture: string }> }) {
   const { culture } = await params;
+  // 404 on an unknown slug BEFORE loadCulture() — it throws on missing
+  // data/<culture>/entities.json, which would surface as a 500 (sweep 2026-09-14).
+  if (!ALL_CULTURES.includes(culture as never)) notFound();
   const d = loadCulture(culture);
-  if (!ALL_CULTURES.includes(d.culture as never)) notFound();
   const meta = d.meta;
 
   // pick the most-connected entity as the graph default center
