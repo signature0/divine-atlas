@@ -1,0 +1,18 @@
+routes: 555
+resuming — 25 routes already done
+...50/555
+...150/555
+...200/555
+cycling browser
+...250/555
+...300/555
+...350/555
+...400/555
+...450/555
+cycling browser
+...500/555
+...550/555
+
+=== SWEEP LIGHT SUMMARY ===
+routes=555 bad=0 mobile-overflow=0
+negatives: /deity/nope-123=404 /myths/nope-123=404 /artifacts/nope-123=404 /culture/nope=404 /this-page-does-not-exist-xyz=404
