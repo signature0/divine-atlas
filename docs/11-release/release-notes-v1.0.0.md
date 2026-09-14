@@ -1,6 +1,6 @@
-# Release Notes — v1.0.0 (2026-09-14)
+# Release Notes — v1.0.0 (2026-09-14) — RELEASED
 
-> Gate 8: release ready · Project: The Divine Atlas · PO: Mazen · Orchestrator: Hermes · Engineer: Pi
+> Gate 8: **PASSED — ratified by Mazen (PO) 2026-09-14** · git tag `v1.0.0` · Project: The Divine Atlas · PO: Mazen · Orchestrator: Hermes · Engineer: Pi
 
 ## What Shipped
 

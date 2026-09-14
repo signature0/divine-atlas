@@ -2,7 +2,7 @@
 id: TASK-014
 title: Release: target decision + release notes + final QA
 type: TASK
-status: IN_PROGRESS
+status: DONE
 priority: high
 owner: orchestrator
 severity: 
@@ -24,3 +24,6 @@ Release: target decision + release notes + final QA
 
 
 status BACKLOG -> IN_PROGRESS (2026-09-14) — Gate 8 package in progress: final sweep running, release notes drafted, HANDOFF-014 written
+
+
+status IN_PROGRESS -> DONE (2026-09-14) — Gate 8 ratified by PO 2026-09-14 — v1.0.0 RELEASED (tag v1.0.0)

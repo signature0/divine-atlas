@@ -33,5 +33,5 @@ decisions were already embodied in the shipped data model and app).
   map `/map` (TASK-006), genealogy sub-views (TASK-009) remain Phase-3+ backlog
 - M5 (DONE 2026-09-14): QA Gate 6 (555/555 sweep) + Design Critique Gate 7
   (12/12 DES-xxx closed, verified)
-- M6 (in progress 2026-09-14): PO Gate 8 → release — release notes
-  v1.0.0 + final sweep + HANDOFF-014; awaiting PO ratification
+- M6 (DONE 2026-09-14): PO ratified Gate 8 — **v1.0.0 RELEASED** (tag `v1.0.0`).
+  Release notes `docs/11-release/release-notes-v1.0.0.md`.
