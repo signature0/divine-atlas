@@ -24,6 +24,8 @@ This is the remaining minor batch from the same design review.
   (DES-005 is closed and AA-verified).
 - Commit per issue: `DES-00x: <summary>`; set issue frontmatter `status: REVIEW` with evidence paths.
 - Run `npx tsc --noEmit` before each commit.
-- :3002 serves the prod build — verify on a dev port (`npx next dev -p 3100`), do NOT rebuild
-  :3002 yourself; the orchestrator rebuilds once after the batch, then runs the QA sweep
-  (`node scripts/gate7-resweep.mjs` + `node scripts/qa-sweep-light.mjs`).
+- :3002 serves the prod build — verify on a dev port with an ISOLATED dist dir so you
+  never clobber the prod `.next/` (BUG-001 / 2026-09-14 incident, both caused by dev and
+  prod sharing `.next/`): `npx next dev -p 3100 -D .next-dev`. Do NOT rebuild :3002 yourself;
+  the orchestrator rebuilds once after the batch (`rm -rf .next && next build && restart`),
+  then runs the QA sweep (`node scripts/gate7-resweep.mjs` + `node scripts/qa-sweep-light.mjs`).

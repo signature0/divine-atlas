@@ -6,3 +6,6 @@ tsconfig.tsbuildinfo
 .env*
 !research/**/.gitkeep
 .next-stale-*/
+
+# dev isolation (BUG-001 / 2026-09-14 incident: dev must never share prod .next/)
+.next-dev
