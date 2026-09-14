@@ -286,8 +286,11 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .vault-card-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,.55)); pointer-events: none; }
 .vault-card-seal { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
   font-family: var(--font-display); font-size: 3rem; color: var(--accent); }
+/* DES-012: rank is ONE gold/neutral badge (tokens, not per-culture --accent) so rarity
+   reads as a single scale, not a rainbow; accent stays reserved for culture identity.
+   --gold on --bg-0 text ≈ 8.1:1 (AA at badge size). */
 .vault-card-rank { position: absolute; top: 10px; right: 10px; z-index: 2; font-family: var(--font-mono); font-weight: 700;
-  font-size: 0.9rem; letter-spacing: 0.05em; color: var(--accent-badge-text); background: var(--accent); padding: 3px 9px; border-radius: 3px; }
+  font-size: 0.9rem; letter-spacing: 0.05em; color: var(--bg-0); background: var(--gold); padding: 3px 9px; border-radius: 3px; }
 .vault-card-culture { position: absolute; top: 12px; left: 12px; z-index: 2; font-family: var(--font-mono);
   font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: #fff;
   background: rgba(0,0,0,.55); padding: 3px 8px; border-radius: 2px; backdrop-filter: blur(3px); }

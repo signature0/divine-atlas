@@ -97,3 +97,26 @@ artifact in the shared footer; the 404 critique named it, but it rendered on
 every page). No design values invented: glow uses `var(--gold)` via color-mix,
 tablet strokes use `--accent` / `--accent-2` / `--ink-2` (non-text uses, per
 DES-005 routing rules).
+
+### DES-012 — vault image fallback: error events before hydration are lost (2026-09-14)
+`<img onError>` alone is NOT reliable for the vault card seal fallback. Root
+cause found while verifying (Playwright, all Wikimedia requests aborted):
+image `error` events that fire BEFORE React hydration completes never reach
+React's `onError` handler — React attaches its non-delegated `error` listener
+only when the fiber hydrates/mounts. Reproduced: 19/19 error events fired in
+the DOM, but only the events after hydration reached the handler (0/19 with
+`loading="eager"` — all fire at parse time; 7/19 with `loading="lazy"` —
+below-fold images error during scroll, after hydration). The stuck `<img>`
+nodes are in the terminal error state (`complete === true &&
+naturalWidth === 0`) and fire no further events.
+Fix in `ArtifactCard` (app/artifacts/VaultClient.tsx): keep `onError` for
+post-hydration failures AND run a one-time mount check in `useEffect` —
+`img.complete && img.naturalWidth === 0` → swap to `.vault-card-seal`
+immediately. Verified: forced-failure run now renders 19/19 seals, 0 broken
+imgs, every seal = the artifact's initial; normal load renders 19/19 images,
+0 seals. Any future image fallback in this codebase should use the same
+two-path pattern, not bare `onError`.
+Rank badge: `.vault-card-rank` now uses `var(--gold)` bg + `var(--bg-0)` text
+(one token pair, ≈8.1:1) instead of per-culture `--accent` /
+`--accent-badge-text`, per DES-012 (DES-005's token values and the remaining
+`--accent-badge-text` usages in GraphViewSwitch legends are untouched).

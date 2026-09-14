@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { VaultItem } from './page';
@@ -173,12 +173,25 @@ function FilterRow({ label, value, onChange, options }: {
 }
 
 function ArtifactCard({ item: i }: { item: VaultItem }) {
+  // DES-012: when a remote image fails to load, the letter-seal must render —
+  // no card may show a broken image. Two paths, because error events that fire
+  // BEFORE React hydration (instant failures / aborted loads) never reach onError:
+  //  1) onError — catches failures after hydration;
+  //  2) mount-time check — an <img> already in the error state (complete &&
+  //     naturalWidth === 0) is swapped immediately. (Verified: without (2),
+  //     12/19 aborted images stayed broken; with it, all 19 render seals.)
+  const [imgBroken, setImgBroken] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) setImgBroken(true);
+  }, []);
   return (
     <Link href={`/artifacts/${i.slug}`} className="vault-card" data-culture={i.culture}>
       <div className="vault-card-media">
-        {i.imageURL ? (
+        {i.imageURL && !imgBroken ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={i.imageURL} alt={i.name} loading="lazy" />
+          <img ref={imgRef} src={i.imageURL} alt={i.name} loading="lazy" onError={() => setImgBroken(true)} />
         ) : (
           <div className="vault-card-seal">{i.name.charAt(0)}</div>
         )}
