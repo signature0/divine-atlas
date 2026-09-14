@@ -68,10 +68,14 @@ export default function About() {
             <h2>The expansion path</h2>
             <p style={{ marginTop: 12, color: 'var(--ink-1)' }}>
               The architecture is built so that a new culture is a new data folder plus one registry
-              entry — no migrations, no schema changes. Celtic, Chinese, Hindu, Aztec, Maya,
-              Polynesian, Roman, Finnish, Persian, West African, and Arabian traditions are on the
-              roadmap and appear as “coming soon” in the registry.
+              entry — no migrations, no schema changes. Eleven more traditions are already named in
+              the registry; their galleries open as the sources are verified.
             </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
+              {['Celtic', 'Chinese', 'Hindu', 'Aztec', 'Maya', 'Polynesian', 'Roman', 'Finnish', 'Persian / Zoroastrian', 'West African', 'Arabian (pre-Islamic)'].map((c) => (
+                <span key={c} className="chip">{c}</span>
+              ))}
+            </div>
           </section>
           <div>
             <Link href="/" className="btn">← Back to the galleries</Link>

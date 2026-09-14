@@ -74,6 +74,11 @@ export default function Home() {
               </Link>
             ))}
           </div>
+          {/* DES-009: one-line in-world mention only — the full expansion list lives on /about */}
+          <p className="small faint" style={{ marginTop: 24, maxWidth: 680 }}>
+            Eleven more traditions are named in the registry; their galleries open as the sources are verified.
+            <Link href="/about" style={{ color: 'var(--accent-text)', marginLeft: 8 }}>How this is built →</Link>
+          </p>
         </div>
       </section>
 
@@ -95,23 +100,6 @@ export default function Home() {
                 <strong style={{ color: 'var(--accent-text)', fontFamily: 'var(--font-display)', fontSize: '1rem' }}>{dom}</strong>
                 <span className="faint" style={{ marginLeft: 8 }}>{v.count} deities</span>
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* COMING SOON */}
-      <section className="section-sm" style={{ paddingBottom: 96 }}>
-        <div className="container">
-          <span className="eyebrow">Expansion path</span>
-          <h2 style={{ marginTop: 8, marginBottom: 20 }}>Coming soon to the Atlas</h2>
-          <p className="small muted" style={{ maxWidth: 680, marginBottom: 24 }}>
-            The architecture is built for it: a new culture is a new data folder plus one registry
-            entry. No migrations, no schema changes.
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-            {['Celtic', 'Chinese', 'Hindu', 'Aztec', 'Maya', 'Polynesian', 'Roman', 'Finnish', 'Persian / Zoroastrian', 'West African', 'Arabian (pre-Islamic)'].map((c) => (
-              <span key={c} className="chip">coming soon — {c}</span>
             ))}
           </div>
         </div>
