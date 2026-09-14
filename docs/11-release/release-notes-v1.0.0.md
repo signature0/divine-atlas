@@ -65,6 +65,25 @@ open items are explicitly Phase-3+ backlog (below), not release blockers.
   all 5 negative routes 404) — `qa/evidence/GATE8-final-sweep-2026-09-14.log`.
 - `tsc --noEmit` clean · `validate.mjs` clean.
 - Public exposure (tunnel/domain) is a PO decision — not included in v1.0.0.
+  **Update 2026-09-14 (post-release):** PO chose the exposure route —
+  **Cloudflare quick tunnel** running: `cloudflared tunnel --url
+  http://127.0.0.1:3002` (Hermes tracked bg process, `proc_73a64fb33179`).
+  Live at **https://tasks-formal-maintained-strange.trycloudflare.com**
+  (verified 200 root/zeus, 404 bad-slug). Quick tunnels are ephemeral — the
+  URL changes on every (re)start; read the current one from the tunnel's
+  log. For a stable URL: named tunnel + domain, or Tailscale (box is on
+  `mazen-homelab` tailnet, 100.121.23.95).
+
+## Mobile Audit (2026-09-14, post-release)
+- iPhone 14 (390x844, DPR 3) audit of home, deity (Zeus), culture, myth
+  story, graph, artifacts: **all 200, zero horizontal overflow
+  (docScrollW = innerW = 390), zero console/page errors** — evidence in
+  `qa/evidence/mobile-check/*.png` (+ scripts `mobile-check.mjs`,
+  `mobile-check2.mjs`).
+- Vision review of screenshots: layout clean, chips wrap, images render,
+  no overlaps/breakage. **One polish item found:** the top nav is a
+  designed scroll strip (BUG-002/DES-003) but shows "…NOR" at the right
+  edge with no fade/hint — filed as **TASK-022** (low, not a blocker).
 
 ## Post-Launch Watch
 
