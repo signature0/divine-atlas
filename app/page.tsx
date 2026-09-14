@@ -92,7 +92,7 @@ export default function Home() {
             {archetypes.map(([dom, v]) => (
               <Link key={dom} href={`/domain/${domainSlug(dom)}`}
                 className="chip" style={{ fontSize: '0.8rem', padding: '8px 16px' }}>
-                <strong style={{ color: 'var(--accent)', fontFamily: 'var(--font-display)', fontSize: '1rem' }}>{dom}</strong>
+                <strong style={{ color: 'var(--accent-text)', fontFamily: 'var(--font-display)', fontSize: '1rem' }}>{dom}</strong>
                 <span className="faint" style={{ marginLeft: 8 }}>{v.count} deities</span>
               </Link>
             ))}

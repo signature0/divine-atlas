@@ -514,7 +514,7 @@ export function GenealogyGraph({ data, centerId }: { data: GraphData; centerId?:
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 12, alignItems: 'center',
           border: '1px solid var(--line)', borderRadius: 6, padding: '8px 10px', background: 'var(--surface)' }}>
           <span className="mono" style={{ fontSize: '0.62rem', color: 'var(--ink-2)', letterSpacing: '0.14em', textTransform: 'uppercase' }}>Focus</span>
-          <span className="display-l" style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--accent)' }}>{selected.name}</span>
+          <span className="display-l" style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--accent-text)' }}>{selected.name}</span>
           <span className="mono" style={{ fontSize: '0.6rem', color: 'var(--ink-2)' }}>{CULTURE_NAMES[selected.culture] || selected.culture}</span>
           <span style={{ marginLeft: 'auto', display: 'flex', flexWrap: 'wrap', gap: 6 }}>
             {(Object.keys(focusLabels) as FocusKind[]).map((f) => (

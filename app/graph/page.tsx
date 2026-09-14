@@ -31,10 +31,10 @@ export default async function GraphPage({ searchParams }: { searchParams: Promis
           {seeded ? (
             <p className="small" style={{ marginTop: 12 }}>
               Centered on{' '}
-              <a href={`/deity/${seeded.id}`} style={{ color: 'var(--accent)' }}>{seeded.name}</a>
+              <a href={`/deity/${seeded.id}`} style={{ color: 'var(--accent-text)' }}>{seeded.name}</a>
               <span className="faint"> ({CULTURE_NAMES[seeded.culture] || seeded.culture})</span>
               <span style={{ margin: '0 10px', color: 'var(--line)' }}>·</span>
-              <Link href="/graph" style={{ color: 'var(--accent)' }}>return to the full atlas →</Link>
+              <Link href="/graph" style={{ color: 'var(--accent-text)' }}>return to the full atlas →</Link>
             </p>
           ) : null}
         </div>

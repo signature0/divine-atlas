@@ -43,7 +43,7 @@ export function GraphViewSwitch({
               padding: '8px 18px', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', cursor: 'pointer',
               border: 'none',
               background: view === 'genealogy' ? 'var(--accent)' : 'var(--surface)',
-              color: view === 'genealogy' ? 'var(--bg-0)' : 'var(--ink-1)',
+              color: view === 'genealogy' ? 'var(--accent-badge-text)' : 'var(--ink-1)',
               fontWeight: 600,
             }}>
             Genealogy
@@ -54,7 +54,7 @@ export function GraphViewSwitch({
               padding: '8px 18px', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', cursor: 'pointer',
               border: 'none', borderLeft: '1px solid var(--line)',
               background: view === 'relationships' ? 'var(--accent)' : 'var(--surface)',
-              color: view === 'relationships' ? 'var(--bg-0)' : 'var(--ink-1)',
+              color: view === 'relationships' ? 'var(--accent-badge-text)' : 'var(--ink-1)',
               fontWeight: 600,
             }}>
             Relationships

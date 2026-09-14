@@ -10,10 +10,10 @@ export function ArtworkFigure({ art, hero = false }: { art: Artwork; hero?: bool
     return (
       <figure className="hero-art" style={{ minHeight: hero ? 320 : 180, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div style={{ textAlign: 'center', padding: 20, color: 'var(--ink-1)' }}>
-          <div className="mono" style={{ color: 'var(--accent)', marginBottom: 8 }}>{art.license}</div>
+          <div className="mono" style={{ color: 'var(--accent-text)', marginBottom: 8 }}>{art.license}</div>
           <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem' }}>{art.title}</div>
           <div className="small faint" style={{ marginTop: 6 }}>
-            {art.museum} · <a href={art.source_url} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>view at source ↗</a>
+            {art.museum} · <a href={art.source_url} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-text)' }}>view at source ↗</a>
           </div>
         </div>
       </figure>

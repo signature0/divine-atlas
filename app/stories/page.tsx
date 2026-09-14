@@ -37,7 +37,7 @@ export default function StoriesPage() {
                     <SourceFootnote text={m.summary} sources={d.sources} />
                   </p>
                   <div style={{ marginTop: 12 }} className="mono">
-                    <a href={`/myths/${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
+                    <a href={`/myths/${m.id}`} style={{ color: 'var(--accent-text)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
                       {m.participants.length} PARTICIPANTS · READ STORY →
                     </a>
                   </div>

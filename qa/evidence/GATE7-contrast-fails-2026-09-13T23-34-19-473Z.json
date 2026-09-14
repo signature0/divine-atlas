@@ -1,0 +1,128 @@
+[
+ {
+  "page": "/culture/norse",
+  "text": "Genealogy",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "bg": [
+   91,
+   141,
+   184
+  ],
+  "ratio": 3.53,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/egyptian",
+  "text": "Genealogy",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "bg": [
+   200,
+   162,
+   74
+  ],
+  "ratio": 2.41,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/greek",
+  "text": "Genealogy",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "bg": [
+   201,
+   162,
+   39
+  ],
+  "ratio": 2.42,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/slavic",
+  "text": "Genealogy",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "bg": [
+   138,
+   154,
+   91
+  ],
+  "ratio": 3.06,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/gre-zeus",
+  "text": "Genealogy",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "bg": [
+   201,
+   162,
+   39
+  ],
+  "ratio": 2.42,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "Amaterasu",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 16,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/artifacts",
+  "text": "SS",
+  "rgb": [
+   11,
+   11,
+   14
+  ],
+  "bg": [
+   63,
+   124,
+   166
+  ],
+  "ratio": 4.35,
+  "fs": 14.4,
+  "bold": true,
+  "need": 4.5
+ }
+]

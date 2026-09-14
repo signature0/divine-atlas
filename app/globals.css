@@ -26,12 +26,12 @@
 
 /* Per-culture gallery palettes — one data attribute swap */
 /* DES-005: accent-text = AA (>=4.5:1) text variant per culture; accent-2-text for secondary text */
-[data-culture='greek']        { --accent:#c9a227; --accent-text:#c9a227; --accent-2:#7d8ca3; --accent-2-text:#7d8ca3; --surface:#14151a; }
-[data-culture='norse']        { --accent:#5b8db8; --accent-text:#5b8db8; --accent-2:#b5654a; --accent-2-text:#b96e55; --surface:#12141a; }
-[data-culture='japanese']     { --accent:#c0392b; --accent-text:#d7594c; --accent-2:#c9a227; --accent-2-text:#c9a227; --surface:#131114; --font-native:'Noto Serif JP', serif; }
-[data-culture='egyptian']     { --accent:#c8a24a; --accent-text:#c8a24a; --accent-2:#2f7f7a; --accent-2-text:#358e88; --surface:#14130f; }
-[data-culture='slavic']       { --accent:#8a9a5b; --accent-text:#8a9a5b; --accent-2:#b5654a; --accent-2-text:#b96e55; --surface:#12140f; }
-[data-culture='mesopotamian'] { --accent:#3f7ca6; --accent-text:#4587b5; --accent-2:#b08d57; --accent-2-text:#b08d57; --surface:#131312; }
+[data-culture='greek'] { --accent: #c9a227; --accent-text: #c9a227; --accent-2: #7d8ca3; --accent-2-text: #7d8ca3; --accent-badge-text: #0b0b0e; }
+[data-culture='norse'] { --accent: #5b8db8; --accent-text: #5b8db8; --accent-2: #b5654a; --accent-2-text: #b96e55; --accent-badge-text: #0b0b0e; }
+[data-culture='japanese']     { --accent:#c0392b; --accent-text:#d7594c; --accent-2:#c9a227; --accent-2-text:#c9a227; --accent-badge-text:#ffffff; --surface:#131114; --font-native:'Noto Serif JP', serif; }
+[data-culture='egyptian'] { --accent: #c8a24a; --accent-text: #c8a24a; --accent-2: #2f7f7a; --accent-2-text: #358e88; --accent-badge-text: #0b0b0e; }
+[data-culture='slavic'] { --accent: #8a9a5b; --accent-text: #8a9a5b; --accent-2: #b5654a; --accent-2-text: #b96e55; --accent-badge-text: #0b0b0e; }
+[data-culture='mesopotamian'] { --accent: #3f7ca6; --accent-text: #4587b5; --accent-2: #b08d57; --accent-2-text: #b08d57; --accent-badge-text: #ffffff; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; overflow-x: hidden; } /* safety net: nothing may force sideways scroll (BUG-002) */
@@ -207,9 +207,11 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 @media (max-width: 768px) {
   .topnav .inner { height: auto; min-height: 60px; padding-top: 10px; padding-bottom: 12px; }
   /* DES-003: one scrollable strip instead of a wrapping row — no orphan 2-link wrap row. */
+  .topnav .brand { flex: 1 1 auto; }
   .topnav .links { margin-left: 0; width: 100%; flex-wrap: nowrap; overflow-x: auto;
-    gap: 8px 14px; font-size: 0.6rem; letter-spacing: 0.08em; padding-bottom: 2px; }
-  .topnav .search-btn { order: 1; padding: 7px 10px; }
+    gap: 8px 14px; font-size: 0.6rem; letter-spacing: 0.08em; padding-bottom: 2px; scrollbar-width: none; }
+  .topnav .links::-webkit-scrollbar { display: none; }
+  .topnav .search-btn { order: 2; padding: 7px 10px; }
 }
 
 /* Scroll reveal (IntersectionObserver adds .in) */
@@ -282,7 +284,7 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .vault-card-seal { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
   font-family: var(--font-display); font-size: 3rem; color: var(--accent); }
 .vault-card-rank { position: absolute; top: 10px; right: 10px; z-index: 2; font-family: var(--font-mono); font-weight: 700;
-  font-size: 0.9rem; letter-spacing: 0.05em; color: #0b0b0e; background: var(--accent); padding: 3px 9px; border-radius: 3px; }
+  font-size: 0.9rem; letter-spacing: 0.05em; color: var(--accent-badge-text); background: var(--accent); padding: 3px 9px; border-radius: 3px; }
 .vault-card-culture { position: absolute; top: 12px; left: 12px; z-index: 2; font-family: var(--font-mono);
   font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: #fff;
   background: rgba(0,0,0,.55); padding: 3px 8px; border-radius: 2px; backdrop-filter: blur(3px); }

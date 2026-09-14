@@ -210,7 +210,7 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
 
             <div className="class-block">
               <div className="mono" style={{ fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--ink-2)', marginBottom: 8 }}>Source Confidence</div>
-              <div style={{ fontSize: '1.1rem', fontFamily: 'var(--font-display)', fontWeight: 600, color: 'var(--accent)' }}>{CONFIDENCE_LABELS[a.source_confidence]} confidence</div>
+              <div style={{ fontSize: '1.1rem', fontFamily: 'var(--font-display)', fontWeight: 600, color: 'var(--accent-text)' }}>{CONFIDENCE_LABELS[a.source_confidence]} confidence</div>
               <p style={{ fontSize: '0.78rem', color: 'var(--ink-2)', marginTop: 6, lineHeight: 1.5 }}>{CONFIDENCE_NOTES[a.source_confidence]}</p>
               {a.confidence_note && (
                 <p style={{ fontSize: '0.78rem', color: 'var(--ink-1)', marginTop: 8, lineHeight: 1.55, borderTop: '1px solid var(--line)', paddingTop: 8 }}>

@@ -100,7 +100,7 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
                   <SourceFootnote text={m.summary} sources={d.sources} />
                 </p>
                 <div style={{ marginTop: 12 }} className="mono">
-                  <a href={`/myths/${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
+                  <a href={`/myths/${m.id}`} style={{ color: 'var(--accent-text)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
                     {m.participants.length} PARTICIPANTS · READ STORY →
                   </a>
                 </div>
@@ -123,7 +123,7 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
               ))}
               {m.variants?.length ? (
                 <details style={{ marginTop: 14, maxWidth: 760, borderLeft: '2px solid var(--accent)', paddingLeft: 14 }}>
-                  <summary className="mono" style={{ cursor: 'pointer', color: 'var(--accent)', fontSize: '0.7rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+                  <summary className="mono" style={{ cursor: 'pointer', color: 'var(--accent-text)', fontSize: '0.7rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
                     Variant traditions ({m.variants.length})
                   </summary>
                   {m.variants.map((v, i) => (

@@ -1,0 +1,272 @@
+[
+ {
+  "page": "/culture/japanese",
+  "text": "Open source ↗",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 10.88,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "Genealogy",
+  "rgb": [
+   11,
+   11,
+   14
+  ],
+  "bg": [
+   192,
+   57,
+   43
+  ],
+  "ratio": 3.61,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "4 PARTICIPANTS · READ STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "2 PARTICIPANTS · READ STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "3 PARTICIPANTS · READ STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "6 PARTICIPANTS · READ STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "7 PARTICIPANTS · READ STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/japanese",
+  "text": "Variant traditions (2)",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/culture/mesopotamian",
+  "text": "Genealogy",
+  "rgb": [
+   11,
+   11,
+   14
+  ],
+  "bg": [
+   63,
+   124,
+   166
+  ],
+  "ratio": 4.35,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "Open source ↗",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 10.88,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "Genealogy",
+  "rgb": [
+   11,
+   11,
+   14
+  ],
+  "bg": [
+   192,
+   57,
+   43
+  ],
+  "ratio": 3.61,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "Amaterasu",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 16,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "READ THE STORY →",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 9.92,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/artifacts",
+  "text": "SS",
+  "rgb": [
+   11,
+   11,
+   14
+  ],
+  "bg": [
+   63,
+   124,
+   166
+  ],
+  "ratio": 4.35,
+  "fs": 14.4,
+  "bold": true,
+  "need": 4.5
+ },
+ {
+  "page": "/myths/jpn-creation-primordial",
+  "text": "Open source ↗",
+  "rgb": [
+   192,
+   57,
+   43
+  ],
+  "bg": [
+   0,
+   0,
+   0
+  ],
+  "ratio": 3.86,
+  "fs": 10.88,
+  "bold": false,
+  "need": 4.5
+ }
+]

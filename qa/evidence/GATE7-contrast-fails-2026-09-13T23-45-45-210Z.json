@@ -1,0 +1,38 @@
+[
+ {
+  "page": "/culture/japanese",
+  "text": "Genealogy",
+  "rgb": [
+   236,
+   231,
+   221
+  ],
+  "bg": [
+   192,
+   57,
+   43
+  ],
+  "ratio": 4.41,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ },
+ {
+  "page": "/deity/jpn-amaterasu",
+  "text": "Genealogy",
+  "rgb": [
+   236,
+   231,
+   221
+  ],
+  "bg": [
+   192,
+   57,
+   43
+  ],
+  "ratio": 4.41,
+  "fs": 11.2,
+  "bold": false,
+  "need": 4.5
+ }
+]

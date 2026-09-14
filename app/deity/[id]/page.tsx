@@ -216,7 +216,7 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
                   </h3>
                   <p className="small muted" style={{ margin: '8px 0 0' }}><SourceFootnote text={m.summary} sources={d.sources} /></p>
                   <p style={{ margin: '10px 0 0' }} className="mono">
-                    <a href={`/myths/${m.id}`} style={{ color: 'var(--accent)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
+                    <a href={`/myths/${m.id}`} style={{ color: 'var(--accent-text)', fontSize: '0.62rem', letterSpacing: '0.1em', textDecoration: 'none' }}>
                       READ THE STORY →
                     </a>
                   </p>
@@ -245,7 +245,7 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
                       <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '2.4rem', color: 'var(--accent)' }}>{a.name.charAt(0)}</div>
                     )}
                   </div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', marginTop: 10, fontWeight: 600 }}>{a.name}</div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', marginTop: 10, fontWeight: 600, color: 'var(--accent-text)' }}>{a.name}</div>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginTop: 8 }}>
                     <span className="chip chip-accent" style={{ marginTop: 0 }}>{a.rank} · {TIER_LABELS[a.tier]}</span>
                     <span className="chip" style={{ marginTop: 0 }}>{a.owner === e.id ? 'Wielded by ' + e.name : 'Associated'}</span>

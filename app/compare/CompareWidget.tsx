@@ -85,7 +85,7 @@ export function CompareWidget({ all }: { all: All[] }) {
       <div style={{ border: '1px solid var(--line)', borderRadius: 6, overflow: 'hidden' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '180px 1fr 1fr', borderBottom: '1px solid var(--line)', background: 'var(--bg-1)' }}>
           <div className="mono" style={{ padding: '12px 16px', color: 'var(--ink-2)', fontSize: '0.66rem' }}>ATTRIBUTE</div>
-          <div className="mono" style={{ padding: '12px 16px', color: 'var(--accent)', fontSize: '0.7rem' }}>{a.entity.name}</div>
+          <div className="mono" style={{ padding: '12px 16px', color: 'var(--accent-text)', fontSize: '0.7rem' }}>{a.entity.name}</div>
           <div className="mono" style={{ padding: '12px 16px', color: 'var(--accent-2-text)', fontSize: '0.7rem', borderLeft: '1px solid var(--line)' }}>{b.entity.name}</div>
         </div>
         {rows.map(([label, av, bv], i) => (

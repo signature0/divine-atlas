@@ -12,7 +12,8 @@
    "surface": "#131114",
    "ink": "#ece7dd",
    "accentText": "#d7594c",
-   "accent2Text": "#c9a227"
+   "accent2Text": "#c9a227",
+   "accentBadgeText": "#ffffff"
   },
   "region": {
    "label": "Japanese archipelago",
@@ -45,7 +46,8 @@
    "surface": "#14151a",
    "ink": "#ece7dd",
    "accentText": "#c9a227",
-   "accent2Text": "#7d8ca3"
+   "accent2Text": "#7d8ca3",
+   "accentBadgeText": "#0b0b0e"
   },
   "region": {
    "label": "Aegean & Mediterranean",
@@ -78,7 +80,8 @@
    "surface": "#12141a",
    "ink": "#ece7dd",
    "accentText": "#5b8db8",
-   "accent2Text": "#b96e55"
+   "accent2Text": "#b96e55",
+   "accentBadgeText": "#0b0b0e"
   },
   "region": {
    "label": "Scandinavia",
@@ -111,7 +114,8 @@
    "surface": "#14130f",
    "ink": "#ece7dd",
    "accentText": "#c8a24a",
-   "accent2Text": "#358e88"
+   "accent2Text": "#358e88",
+   "accentBadgeText": "#0b0b0e"
   },
   "region": {
    "label": "Nile Valley",
@@ -144,7 +148,8 @@
    "surface": "#12140f",
    "ink": "#ece7dd",
    "accentText": "#8a9a5b",
-   "accent2Text": "#b96e55"
+   "accent2Text": "#b96e55",
+   "accentBadgeText": "#0b0b0e"
   },
   "region": {
    "label": "Eastern & Central Europe",
@@ -177,7 +182,8 @@
    "surface": "#131312",
    "ink": "#ece7dd",
    "accentText": "#4587b5",
-   "accent2Text": "#b08d57"
+   "accent2Text": "#b08d57",
+   "accentBadgeText": "#ffffff"
   },
   "region": {
    "label": "Tigris–Euphrates (Iraq)",

@@ -36,7 +36,7 @@ function chip(ref: string, source: SourceRef | undefined): ReactNode {
         {source?.date && <span style={{ color: 'var(--ink-1)', marginTop: 4, display: 'block' }}>{source.date}</span>}
         {source?.type && <span style={{ color: 'var(--ink-2)', display: 'block' }}>{source.type}</span>}
         {source?.url && (
-          <a href={source.url} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+          <a href={source.url} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-text)' }}>
             Open source ↗
           </a>
         )}
