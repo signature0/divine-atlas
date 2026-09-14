@@ -1,0 +1,54 @@
+{
+ "ts": "2026-09-14T07-09-18-533Z",
+ "base": "http://localhost:3002",
+ "checks": {
+  "DES-001 deity-overflow@390": {
+   "pass": true,
+   "detail": "0/159 overflow"
+  },
+  "DES-002 search-trigger@1440": {
+   "pass": true,
+   "detail": "{\"click\":\"clicked\",\"overlayOpens\":true,\"searchText\":\"Search ⌘K\"}"
+  },
+  "DES-003 nav-links@1440": {
+   "pass": true,
+   "detail": "links=[\"The Divine Atlas ★\",\"Vault\",\"Graph\",\"Stories\",\"Compare\",\"Japanese\",\"Greek\",\"Norse\",\"Egyptian\",\"Slavic\",\"Mesopotamian\"] compare=true stories=true"
+  },
+  "DES-006 skip-link": {
+   "pass": true,
+   "detail": "skip=true"
+  },
+  "DES-007 hero-above-fold@390": {
+   "pass": true,
+   "detail": "h1Top=216 leadBottom=455 fold=844"
+  },
+  "DES-003 no-orphan-row@390": {
+   "pass": true,
+   "detail": "rows=[60] lastRow=10of10 navH=90"
+  },
+  "DES-002 search-trigger@390": {
+   "pass": true
+  },
+  "home-overflow@390": {
+   "pass": true,
+   "detail": "sw=390 cw=390"
+  },
+  "DES-004 graph-legend-exposed": {
+   "pass": true,
+   "detail": "{\"legendCount\":0,\"edgeAriaLabels\":113}"
+  },
+  "DES-008 404-in-world": {
+   "pass": true,
+   "detail": "noVersion1=true inWorldCues=true"
+  },
+  "DES-005 contrast-re-audit": {
+   "pass": true,
+   "detail": "0 fails across 12 pages"
+  }
+ },
+ "summary": {
+  "total": 11,
+  "pass": 11,
+  "failed": []
+ }
+}
