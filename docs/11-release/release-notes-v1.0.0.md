@@ -46,17 +46,18 @@ open items are explicitly Phase-3+ backlog (below), not release blockers.
 
 ## Deployment
 
-- **Target:** homelab box, port 3002.
-- **Serving now:** the prod build is live on :3002 via a Hermes-managed
-  background process (`npm run start` → `next start -p 3002`, NODE_ENV=
-  production), verified 200 on /, /deity/gre-zeus, /artifacts.
-- **systemd:** unit `divine-atlas.service` (Restart=always, 2G cap) is
-  **enabled** so it auto-starts on next boot. Live handoff to the unit was
-  NOT completed this session — non-interactive `systemctl start` stalls with
-  "Method call timed out" (polkit auth prompt can't be answered headless).
-  Finish the handoff when at the machine: `sudo systemctl restart divine-atlas`
-  (then the background process can be dropped). This is the one open
-  deployment step.
+- **Target:** homelab box, port 3002 — **owned by systemd** since
+  2026-09-14 (Gate 8 ratification).
+- **Service:** `divine-atlas.service` (`npm run start` → `next start -p
+  3002`, NODE_ENV=production, WorkingDirectory=`/AI/agents/workspaces/
+  divine-atlas`, Restart=always, 2G MemoryMax) — **active + enabled**
+  (auto-start on boot). Verified 200 on /, /deity/gre-zeus, /artifacts;
+  correct 404s for backlog routes and bad slugs.
+- **Handoff note:** non-interactive `systemctl` writes from the agent
+  session stall on headless polkit; the live handoff was completed via
+  `SUDO_ASKPASS=~/askpass.sh sudo -A systemctl start divine-atlas`
+  (PO-approved), after freeing the port from the interim Hermes background
+  process.
 - **Build:** prod `.next` (BUILD_ID bK3Z-TkliafDmxiT_BdvR); dev runs
   isolated on :3100 / `.next-dev` — they can never share a dist dir.
 - **Verified:** final full-route sweep on the release build (555 routes:
