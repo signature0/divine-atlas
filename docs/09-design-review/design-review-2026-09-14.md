@@ -8,11 +8,33 @@
 
 ## Verdict
 
-**FAIL — 4 CRITICAL / 4 MAJOR open.** The site is genuinely well-crafted (restrained museum-editorial
-system, honest grid, good micro-copy, zero generic-AI-aesthetic tells: no glassmorphism, no gradient
-headings, no glowing cards, no filler icons). The failures are not taste — they are spec deviations,
-a site-wide mobile break, and an a11y contract violation. None of the four CRITICALs block the
-*desktop* main path, but DES-001 breaks 100% of the mobile main path (every deity page).
+**FAIL → RESOLVED (2026-09-14).** Original critique: 4 CRITICAL / 4 MAJOR open. All 12 DES
+issues (4 CRITICAL, 4 MAJOR, 4 MINOR) are now **DONE** — fixed by Pi/Brand, independently
+re-verified by the orchestrator (probe re-runs), and passed a 11/11 Gate-7 QA re-sweep on live
+prod `:3002` (`qa/evidence/GATE7-resweep-*.json`). The site is genuinely well-crafted
+(restrained museum-editorial system, honest grid, good micro-copy, zero generic-AI-aesthetic
+tells: no glassmorphism, no gradient headings, no glowing cards, no filler icons). The original
+failures were spec deviations, a site-wide mobile break, and an a11y contract violation — all
+closed. See the per-issue status table below.
+
+### Resolution status (all closed 2026-09-14)
+
+| id | sev | owner | fix (commit) | orchestrator verification |
+|---|---|---|---|---|
+| DES-001 | CRITICAL | Pi | mobile deity overflow fixed (`minmax(0,1fr)` track) | probe: 0 overflow @390 across 159 deity pages |
+| DES-002 | CRITICAL | Pi | Compare + Stories added to nav (discoverable) | nav present desktop + mobile |
+| DES-003 | CRITICAL | Pi | nav restructure, no orphan row | nav audit clean |
+| DES-004 | CRITICAL | Pi | 404 "Lost in the Duat" in-world | /404 themed, 200 |
+| DES-005 | MAJOR | Brand | per-culture AA tokens + `--accent-badge-text` | contrast re-audit 0 fails / 12 pages |
+| DES-006 | MAJOR | Pi | graph legend AT-exposed | 113 labeled edges |
+| DES-007 | MAJOR | Pi | skip link + hero above fold @390 | a11y + fold probe pass |
+| DES-008 | MAJOR | Pi | 404 theming (see DES-004) | /404 themed |
+| DES-009 | MINOR | Pi | `ec661c0` expansion chips → /about, 1-line home mention | probe-des009: 0 home chips, 11/11 about |
+| DES-010 | MINOR | Pi | `68b7d2c` vault header void closed, disclaimer in toolbar | probe-des010: grid 720 <900, mobile no-overflow |
+| DES-011 | MINOR | Pi | `8445ed2` identical rel rows grouped | probe-des011: Zeus 1 sib row, Susanoo 10/13 |
+| DES-012 | MINOR | Pi | `7f0d738` single gold badge + robust seal fallback (post-hydration check) | probe-des012: forced-fail 19/19 seals, 0 broken |
+
+**QA re-sweep (prod :3002):** 11/11 checks pass, 0 contrast fails — `qa/evidence/GATE7-resweep-*.json`.
 
 ---
 
