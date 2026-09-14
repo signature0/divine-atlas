@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { loadCulture, ALL_CULTURES, entityById, artifactRelationships } from '../../lib/data';
-import { TIER_LABELS } from '../../lib/types';
+import { TIER_LABELS, Entity, Relationship } from '../../lib/types';
 import { GraphViewSwitch } from '../../components/GraphViewSwitch';
 import { ArtworkFigure } from '../../components/ArtworkFigure';
 import { SourceFootnote } from '../../components/SourceFootnote';
@@ -18,6 +18,58 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const e = entityById(id);
   if (!e) return { title: 'Not found' };
   return { title: e.name, description: e.description_short };
+}
+
+// DES-011: collapse same-type + same-note rows (e.g. Zeus' five identical SIBLING_OF
+// notes, or duplicated directed edges) into one row listing every counterpart.
+// The edge count stays true; the page shows a catalog note when rows < edges.
+// Direction: single-direction groups keep their arrow; mixed-direction groups
+// (symmetric edges stored both ways) drop it — the note carries the meaning.
+type RelRow = {
+  type: Relationship['type'];
+  confidence: Relationship['confidence'];
+  arrow: '→' | '←' | '';
+  others: { name: string; href: string }[];
+  note: string;
+  sources: string[];
+};
+
+function groupRelRows(
+  rels: Relationship[],
+  e: Entity,
+  resolveRel: (id: string) => { name: string; href: string },
+): RelRow[] {
+  type Group = {
+    type: Relationship['type'];
+    confidence: Relationship['confidence'];
+    dirs: Set<'from' | 'to'>;
+    others: Map<string, { name: string; href: string }>;
+    note: string;
+    sources: Set<string>;
+  };
+  const groups = new Map<string, Group>();
+  for (const r of rels) {
+    const other = r.from === e.id ? r.to : r.from;
+    const dir = r.from === e.id ? ('from' as const) : ('to' as const);
+    const note = (r.note || '').trim();
+    const key = `${r.type}\u0000${note}`;
+    let g = groups.get(key);
+    if (!g) {
+      g = { type: r.type, confidence: r.confidence, dirs: new Set(), others: new Map(), note, sources: new Set() };
+      groups.set(key, g);
+    }
+    g.dirs.add(dir);
+    g.others.set(other, resolveRel(other));
+    for (const s of r.sources) g.sources.add(s);
+  }
+  return [...groups.values()].map((g) => ({
+    type: g.type,
+    confidence: g.confidence,
+    arrow: g.dirs.size === 1 ? (g.dirs.has('from') ? '→' : '←') : '',
+    others: [...g.others.values()],
+    note: g.note,
+    sources: [...g.sources],
+  }));
 }
 
 export default async function DeityPage({ params }: { params: Promise<{ id: string }> }) {
@@ -48,6 +100,9 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
     { title: 'Alliances & rule', items: rels.filter((r) => ['ALLY_OF', 'RULES', 'ASSOCIATED_WITH', 'SUCCESSOR_OF'].includes(r.type)) },
     { title: 'Artifacts', items: rels.filter((r) => ['OWNS', 'FORGED', 'FOUND', 'STOLE', 'GIFTED', 'INHERITED', 'USED', 'DESTROYED', 'SEALED', 'CONTAINS', 'PROTECTS', 'UNLOCKS', 'CONTROLS', 'CREATED_BY'].includes(r.type)) },
   ];
+  // DES-011: grouped display rows (same-type + same-note collapsed per group)
+  const relRowsByGroup = relGroups.map((g) => ({ ...g, rows: groupRelRows(g.items, e, resolveRel) }));
+  const rowsShown = relRowsByGroup.reduce((s, g) => s + g.rows.length, 0);
 
   const myths = d.myths.filter((m) => m.participants.includes(e.id) || (e.major_myths || []).includes(m.id));
 
@@ -135,23 +190,28 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
               <span className="eyebrow">Relationships ({rels.length})</span>
               <h2 style={{ marginTop: 8, marginBottom: 16 }}>Connections</h2>
               <hr className="mat-band" style={{ width: 100 }} />
-              {relGroups.filter((g) => g.items.length).map((g) => (
+              {rowsShown < rels.length && rels.length > 0 && (
+                <p className="mono" style={{ color: 'var(--ink-2)', fontSize: '0.62rem', letterSpacing: '0.08em', textTransform: 'uppercase', margin: '0 0 4px' }}>
+                  {rowsShown} rows · {rels.length} recorded edges — identical notes are grouped
+                </p>
+              )}
+              {relRowsByGroup.filter((g) => g.items.length).map((g) => (
                 <div key={g.title} style={{ marginTop: 24 }}>
                   <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', marginBottom: 8, color: 'var(--ink-1)' }}>{g.title}</h3>
                   <div className="rel-list">
-                    {g.items.map((r, i) => {
-                      const other = r.from === e.id ? r.to : r.from;
-                      const o = resolveRel(other);
-                      return (
-                        <div key={i} className="rel-item">
-                          <span className={`rel-type conf-${r.confidence}`}>{r.type}</span>
-                          <span className="rel-note">
-                            {r.from === e.id ? '→' : '←'} <a href={o.href}>{o.name}</a> — {r.note}
-                            <span className="mono" style={{ color: 'var(--ink-2)', marginLeft: 6, fontSize: '0.62rem' }}>{r.sources.map((s) => `[${s}]`).join(' ')}</span>
-                          </span>
-                        </div>
-                      );
-                    })}
+                    {g.rows.map((row, i) => (
+                      <div key={i} className="rel-item">
+                        <span className={`rel-type conf-${row.confidence}`}>{row.type}</span>
+                        <span className="rel-note">
+                          {row.arrow ? <span aria-hidden="true">{row.arrow}&nbsp;</span> : null}
+                          {row.others.map((o, j) => (
+                            <span key={`${o.href}-${j}`}>{j > 0 ? ' · ' : null}<a href={o.href}>{o.name}</a></span>
+                          ))}
+                          {' — '}{row.note}
+                          <span className="mono" style={{ color: 'var(--ink-2)', marginLeft: 6, fontSize: '0.62rem' }}>{row.sources.map((s) => `[${s}]`).join(' ')}</span>
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               ))}
