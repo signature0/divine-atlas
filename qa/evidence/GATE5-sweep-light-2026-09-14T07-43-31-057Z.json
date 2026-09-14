@@ -1,0 +1,1817 @@
+{
+ "ts": "2026-09-14T07:43:31.057Z",
+ "total": 555,
+ "bad": [
+  {
+   "route": "/domain/women-s-work",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-household",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js"
+   ]
+  },
+  {
+   "route": "/domain/the-lada-the-beloved",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/winter",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-cold",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-drowning-of-marzanna-the-winter-ritual",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-kupala-night-the-midsummer-solstice",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-morning-star-venus",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-threshold-the-gate-of-the-sky",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-realm-of-the-dead-nav-cherd",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-devil-a-christianization-of-the-underworld-god",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-supreme-god-sumerian-period",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/king-of-the-gods",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-ground",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-lower-world-in-some-accounts",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-primeval-freshwater",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-deep",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-sweet-water-beneath-the-earth",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-primeval-saltwater",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-salt-sea",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/chaos-the-primordial-state",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-crown-his-title-he-holds-the-tablet-of-destinies",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-general-of-tiamat-s-army",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-storm",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/king-of-the-gods-akkadian-babylonian-period",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-breath-of-the-world",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-freshwater",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js"
+   ]
+  },
+  {
+   "route": "/domain/the-me-the-divine-decrees",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-apku-the-sage",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-moon-as-consort-of-enlil",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-light-of-enlil",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/time",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-calendar",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/fate-the-moon-god-decrees-fates",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-light-that-reveals-the-truth",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-day",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/sexuality",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-queen-of-heaven",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-morning-evening-star-venus",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-queen-of-the-dead",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-dark",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-plague",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-lord-of-the-netherworld",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/war-in-some-accounts",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-storm-in-the-babylonian-period",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/king-of-the-gods-babylonian-period",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-flood-in-the-enuma-elish",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-consort-of-an",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-sky-as-consort",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-mother-of-the-gods",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-mistress-of-the-mountains",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-underworld-as-ereshkigal-s-consort",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-moon-as-consort-of-nanna",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-light-of-the-moon",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  },
+  {
+   "route": "/domain/the-sage",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js"
+   ]
+  },
+  {
+   "route": "/domain/the-scribes",
+   "status": 200,
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+   ],
+   "pageErrors": [],
+   "failedReqs": [
+    "HTTP 400 http://localhost:3002/_next/static/css/f68de7a6fa44bf8d.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/0a4c1df537dec335.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/a930040d226d793a.css",
+    "HTTP 400 http://localhost:3002/_next/static/css/8246b6f4ed160ba2.css",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/webpack-b5d255ee946654e7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/255-37e0f0325134c4d7.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/main-app-28ed5083efc66e79.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/619-ba102abea3e3d0e4.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/domain/%5Bdomain%5D/page-37475c863a626f84.js",
+    "HTTP 400 http://localhost:3002/_next/static/chunks/app/layout-d4df4660a19c8585.js"
+   ]
+  }
+ ],
+ "neg": [
+  {
+   "route": "NEG /deity/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /myths/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /artifacts/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /culture/nope",
+   "status": 500,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /this-page-does-not-exist-xyz",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  }
+ ],
+ "mobile": [
+  {
+   "route": "/",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  },
+  {
+   "route": "/culture/japanese",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  },
+  {
+   "route": "/myths/gre-creation",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  },
+  {
+   "route": "/deity/gre-zeus",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  },
+  {
+   "route": "/artifacts",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  },
+  {
+   "route": "/stories",
+   "sw": 512,
+   "cw": 390,
+   "overflow": true
+  }
+ ]
+}

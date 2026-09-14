@@ -28,6 +28,10 @@ decisions were already embodied in the shipped data model and app).
 - M1 (DONE 2026-09-12): 6-culture datasets + 71 artworks (`90cd87a`)
 - M2 (DONE 2026-09-12): Next.js app, 9/9 pages clean (`95b2ebe`)
 - M3 (DONE 2026-09-13): 95/115 deities with verified artwork (`6e99aad`, `bef08be`)
-- M4 (next): remaining IA routes (graph explorer, story mode, timeline, world map, search)
-- M5 (next): QA Gate 6 + Design Critique Gate 7
-- M6 (next): PO Gate 8 → release
+- M4 (partial 2026-09-14): graph explorer + story mode + comparator + domains +
+  ⌘K search (basic) shipped for MVP; timeline `/timeline` (TASK-003), world
+  map `/map` (TASK-006), genealogy sub-views (TASK-009) remain Phase-3+ backlog
+- M5 (DONE 2026-09-14): QA Gate 6 (555/555 sweep) + Design Critique Gate 7
+  (12/12 DES-xxx closed, verified)
+- M6 (in progress 2026-09-14): PO Gate 8 → release — release notes
+  v1.0.0 + final sweep + HANDOFF-014; awaiting PO ratification

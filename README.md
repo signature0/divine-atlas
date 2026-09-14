@@ -3,9 +3,11 @@
 > Studio OS project · Created 2026-09-12 (pre-Studio-OS) · Adopted into Studio OS 2026-09-13 · PO: Mazen · Orchestrator: Hermes · Engineer: Pi
 
 ## Status
-- **Stage:** IMPLEMENTATION (Phase 2 shipped; QA + design review next — Gates 5–7 pending)
-- **Last updated:** 2026-09-13
-- **Next action:** formal QA pass (Gate 6) + design critique (Gate 7), then PO Gate 8 (release readiness)
+- **Stage:** RELEASE — Gate 8 package ready (PO decision pending)
+- **Last updated:** 2026-09-14
+- **Next action:** PO ratifies Gate 8 → release v1.0.0 (release notes
+  `docs/11-release/release-notes-v1.0.0.md`); Gates 5–7 done 2026-09-14
+  (impl + 555/555 QA sweep + all 12 design-critic fixes verified)
 
 ## What this is
 A "digital museum / ancient manuscript codex" explorer for world mythology.

@@ -1,0 +1,80 @@
+{
+ "ts": "2026-09-14T09:27:32.238Z",
+ "total": 555,
+ "bad": [],
+ "neg": [
+  {
+   "route": "NEG /deity/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /myths/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /artifacts/nope-123",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /culture/nope",
+   "status": 500,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  },
+  {
+   "route": "NEG /this-page-does-not-exist-xyz",
+   "status": 404,
+   "consoleErrors": [],
+   "pageErrors": [],
+   "failedReqs": []
+  }
+ ],
+ "mobile": [
+  {
+   "route": "/",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  },
+  {
+   "route": "/culture/japanese",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  },
+  {
+   "route": "/myths/gre-creation",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  },
+  {
+   "route": "/deity/gre-zeus",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  },
+  {
+   "route": "/artifacts",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  },
+  {
+   "route": "/stories",
+   "sw": 390,
+   "cw": 390,
+   "overflow": false
+  }
+ ]
+}

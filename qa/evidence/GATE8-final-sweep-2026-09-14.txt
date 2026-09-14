@@ -1,0 +1,3 @@
+=== SWEEP LIGHT SUMMARY ===
+routes=555 bad=0 mobile-overflow=0
+negatives: /deity/nope-123=404 /myths/nope-123=404 /artifacts/nope-123=404 /culture/nope=404 /this-page-does-not-exist-xyz=404
