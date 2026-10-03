@@ -1,11 +1,20 @@
 import Link from 'next/link';
-import { ALL_CULTURES, loadCulture } from './lib/data';
+import { ALL_CULTURES, loadCulture, allCards } from './lib/data';
 import { domainSlug } from './lib/domain';
 import { SourceRef } from './lib/types';
+import { DeityCard } from './components/DeityCard';
 void ({} as SourceRef);
 
 export default function Home() {
   const cultures = ALL_CULTURES.map((c) => loadCulture(c));
+
+  // The Deck teaser: one representative card per culture — the highest-essence
+  // card (the biggest god in each pantheon). Derived, never a hardcoded list.
+  const cards = allCards();
+  const deckTeaser = ALL_CULTURES.map((c) => {
+    const list = cards.filter((x) => x.culture === c);
+    return list.reduce((best, x) => (x.stats.essence > best.stats.essence ? x : best), list[0]);
+  }).filter(Boolean);
 
   // divine archetypes: most-populated domains across all cultures
   const domainCount = new Map<string, { count: number; ids: string[] }>();
@@ -101,6 +110,33 @@ export default function Home() {
                 <span className="faint" style={{ marginLeft: 8 }}>{v.count} deities</span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <hr className="divider" />
+
+      {/* THE DECK (ADR-004) */}
+      <section className="section">
+        <div className="container">
+          <span className="eyebrow">The Deck</span>
+          <h2 style={{ marginTop: 8, marginBottom: 8 }}>Every god, as a card</h2>
+          <p className="small muted" style={{ maxWidth: 680, marginBottom: 28 }}>
+            The whole Atlas as a collectible deck — {cards.length} deities across {ALL_CULTURES.length}
+            pantheons, each derived from the god&apos;s own verified profile. Six pantheon anchors below;
+            the full deck, filters, and print-ready cards live in The Deck.
+          </p>
+          <div className="deck-teaser-row">
+            {deckTeaser.map((c) => (
+              <Link key={c.id} href={`/cards/${c.id}`} className="deck-teaser-item" aria-label={`${c.name} card`}>
+                <DeityCard card={c} size="md" />
+              </Link>
+            ))}
+          </div>
+          <div style={{ marginTop: 28 }}>
+            <Link href="/cards" className="btn" style={{ borderColor: 'var(--accent)', color: 'var(--accent-text)' }}>
+              Browse the full deck →
+            </Link>
           </div>
         </div>
       </section>

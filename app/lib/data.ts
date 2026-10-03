@@ -6,6 +6,7 @@ import {
   Entity, Relationship, Myth, Cosmology, Artwork, TimelineEvent,
   Uncertainty, SourceRef, Culture, CultureData, GraphData, Artifact,
 } from './types';
+import { deriveCard, DeityCard } from './card';
 
 export const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
 export const ALL_CULTURES = CULTURES;
@@ -135,6 +136,36 @@ export function artifactRelationships(artifactId: string): Relationship[] {
   if (!a) return [];
   const d = loadCulture(a.culture);
   return d.relationships.filter((r) => r.from === artifactId || r.to === artifactId);
+}
+
+// ---- Deity cards (ADR-004) — a VIEW over Entity, never a new source of truth ----
+export type ResolvedCard = DeityCard & { image_url: string | null; image_credit: string };
+
+let _cards: ResolvedCard[] | null = null;
+/** Every entity across every culture, as a resolved card (image + credit attached). */
+export function allCards(): ResolvedCard[] {
+  if (_cards) return _cards;
+  const out: ResolvedCard[] = [];
+  for (const d of Object.values(allCultures())) {
+    const artById = new Map(d.artworks.map((a) => [a.id, a]));
+    d.entities.forEach((e, i) => {
+      const base = deriveCard(e, i + 1);
+      const art = base.hero_artwork_id ? artById.get(base.hero_artwork_id) : undefined;
+      out.push({ ...base, image_url: art?.image_url || null, image_credit: art ? `${art.title} · ${art.museum} · ${art.license}` : '' });
+    });
+  }
+  _cards = out;
+  return _cards;
+}
+let _cardById: Map<string, ResolvedCard> | null = null;
+/** The card for one entity id, with image + credit resolved. */
+export function cardFor(id: string): ResolvedCard | undefined {
+  if (!_cardById) _cardById = new Map(allCards().map((c) => [c.id, c]));
+  return _cardById.get(id);
+}
+/** Cards for one culture (used by /cards and the culture-page callout). */
+export function cardsForCulture(culture: string): ResolvedCard[] {
+  return allCards().filter((c) => c.culture === culture);
 }
 /** Artifacts involved in a myth (via major_myths or participant relationships). */
 export function artifactsForMyth(mythId: string): Artifact[] {
