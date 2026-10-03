@@ -26,7 +26,7 @@ export default async function CardsPage({ searchParams }: { searchParams: Promis
             {ALL_CULTURES.length} pantheons. Each card is derived directly from the
             verified data on the god&apos;s profile (domains, symbols, weapons, sources);
             the power numbers are <em>interpretive</em>, in the same spirit as the Vault&apos;s tiers.
-            {mythics} are Mythic. Hover a card to flip it; open it for the print-ready card.
+            {' '}{mythics} are Mythic. Hover a card to flip it; open it for the print-ready card.
           </p>
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 26 }}>
             <a href="#deck" className="btn">Browse the deck ↓</a>
