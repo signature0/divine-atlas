@@ -1,7 +1,7 @@
 'use client';
 // The Deck — interactive card gallery (ADR-004). Pure presentation over
 // allCards(); filtering is client-side so it feels instant across all 159 cards.
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ResolvedCard } from '../lib/data';
 import { FlippableCard } from './FlippableCard';
 import { ELEMENT_LABELS, ELEMENT_COLORS, RARITY_LABELS } from '../lib/card';
@@ -11,8 +11,15 @@ const CULTURE_ORDER = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'meso
 const ELEMENT_ORDER = ['void', 'light', 'storm', 'fire', 'water', 'earth', 'life', 'death', 'war', 'mind', 'sky'];
 const RARITY_ORDER = ['mythic', 'rare', 'uncommon', 'common'];
 
-export function CardDeck({ cards, initialCulture }: { cards: ResolvedCard[]; initialCulture?: string }) {
-  const [culture, setCulture] = useState<string>(initialCulture && CULTURE_ORDER.includes(initialCulture) ? initialCulture : 'all');
+export function CardDeck({ cards }: { cards: ResolvedCard[] }) {
+  // Static export (Cloudflare Pages): query params are read client-side on mount
+  // (previously passed from the server page via searchParams, which breaks
+  // `next build` with output: 'export').
+  const [culture, setCulture] = useState<string>('all');
+  useEffect(() => {
+    const c = new URLSearchParams(window.location.search).get('culture');
+    if (c && CULTURE_ORDER.includes(c)) setCulture(c);
+  }, []);
   const [element, setElement] = useState<string>('all');
   const [rarity, setRarity] = useState<string>('all');
   const [q, setQ] = useState('');

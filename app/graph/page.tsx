@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
-import { globalData, entityById } from '../lib/data';
-import { CULTURE_NAMES } from '../lib/types';
+import { globalData } from '../lib/data';
 import GraphExplorer from './GraphExplorer';
 
 export const metadata: Metadata = {
@@ -10,9 +8,7 @@ export const metadata: Metadata = {
     'The full cross-culture relationship graph: every entity, every typed edge, every confidence — six traditions on one canvas.',
 };
 
-export default async function GraphPage({ searchParams }: { searchParams: Promise<{ from?: string }> }) {
-  const { from } = await searchParams;
-  const seeded = from ? entityById(from) : undefined; // unknown id → full atlas, not an error
+export default function GraphPage() {
   const data = globalData();
   const cultureCount = new Set(data.entities.map((e) => e.culture)).size;
 
@@ -28,20 +24,11 @@ export default async function GraphPage({ searchParams }: { searchParams: Promis
             traditions, on one canvas. Hover an edge for its note and confidence — solid is attested, dashed is disputed,
             dotted is reconstructed. Click any node to open its profile.
           </p>
-          {seeded ? (
-            <p className="small" style={{ marginTop: 12 }}>
-              Centered on{' '}
-              <a href={`/deity/${seeded.id}`} style={{ color: 'var(--accent-text)' }}>{seeded.name}</a>
-              <span className="faint"> ({CULTURE_NAMES[seeded.culture] || seeded.culture})</span>
-              <span style={{ margin: '0 10px', color: 'var(--line)' }}>·</span>
-              <Link href="/graph" style={{ color: 'var(--accent-text)' }}>return to the full atlas →</Link>
-            </p>
-          ) : null}
         </div>
       </header>
 
       <div className="container section-sm" style={{ paddingBottom: 96 }}>
-        <GraphExplorer data={data} fromId={seeded?.id} />
+        <GraphExplorer data={data} />
       </div>
     </div>
   );

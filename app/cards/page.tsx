@@ -8,9 +8,7 @@ export const metadata: Metadata = {
   description: 'Every god in the Divine Atlas as a collectible card — 159 deities across six pantheons, with a print-ready PDF for each.',
 };
 
-export default async function CardsPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
-  const sp = await searchParams;
-  const initialCulture = typeof sp.culture === 'string' ? sp.culture : undefined;
+export default function CardsPage() {
   const cards = allCards();
   const byCulture = cards.reduce((m, c) => { m[c.culture] = (m[c.culture] || 0) + 1; return m; }, {} as Record<string, number>);
   const mythics = cards.filter((c) => c.rarity === 'mythic').length;
@@ -50,7 +48,7 @@ export default async function CardsPage({ searchParams }: { searchParams: Promis
 
       <div id="deck" className="section-sm" style={{ paddingTop: 8 }}>
         <div className="container">
-          <CardDeck cards={cards} initialCulture={initialCulture} />
+          <CardDeck cards={cards} />
         </div>
       </div>
 

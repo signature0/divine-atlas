@@ -7,17 +7,25 @@
 //   RELATIONSHIPS — RelationshipGraph: the original force/ring network view,
 //                   preserved untouched as the secondary/expert view.
 // The culture filter applies to both by passing a filtered dataset down.
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { RelationshipGraph } from '../components/RelationshipGraph';
 import { GenealogyGraph } from '../components/GenealogyGraph';
 import { GraphData, CULTURE_NAMES } from '../lib/types';
 
 type ViewMode = 'genealogy' | 'relationships';
 
-export default function GraphExplorer({ data, fromId }: { data: GraphData; fromId?: string }) {
+export default function GraphExplorer({ data }: { data: GraphData }) {
   const router = useRouter();
   const [view, setView] = useState<ViewMode>('genealogy');
+  // Static export (Cloudflare Pages): the ?from= deep-link param is read
+  // client-side on mount instead of via server-side searchParams.
+  const [fromId, setFromId] = useState<string | undefined>(undefined);
+  useEffect(() => {
+    const f = new URLSearchParams(window.location.search).get('from');
+    if (f) setFromId(f);
+  }, []);
   const cultures = useMemo(() => {
     const s: string[] = [];
     const seen = new Set<string>();
@@ -134,7 +142,7 @@ export default function GraphExplorer({ data, fromId }: { data: GraphData; fromI
             Center on
           </label>
           <select className="select-ctl" value={fromId || ''}
-            onChange={(e) => router.push(e.target.value ? `/graph?from=${e.target.value}` : '/graph')}
+            onChange={(e) => { const v = e.target.value || undefined; setFromId(v); router.push(v ? `/graph?from=${v}` : '/graph'); }}
             aria-label="Center the explorer on an entity">
             <option value="">Full atlas</option>
             {cultures.map((c) => (
@@ -147,6 +155,16 @@ export default function GraphExplorer({ data, fromId }: { data: GraphData; fromI
           </select>
         </span>
       </div>
+
+      {centerEntity ? (
+        <p className="small" style={{ marginTop: 10 }}>
+          Centered on{' '}
+          <a href={`/deity/${centerEntity.id}`} style={{ color: 'var(--accent-text)' }}>{centerEntity.name}</a>
+          <span className="faint"> ({CULTURE_NAMES[centerEntity.culture] || centerEntity.culture})</span>
+          <span style={{ margin: '0 10px', color: 'var(--line)' }}>·</span>
+          <Link href="/graph" style={{ color: 'var(--accent-text)' }}>return to the full atlas →</Link>
+        </p>
+      ) : null}
 
       {view === 'genealogy'
         ? <GenealogyGraph data={filtered} centerId={fromId} />
