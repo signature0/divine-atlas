@@ -53,7 +53,8 @@
       "Often read as a ritual/theogonic formula rather than a character in a narrative myth [S1]."
     ],
     "uncertainty_notes": [
-      "His relationship to the later 'primordial' pair (Izanagi/Izanami) and to Amenominakanushi is not clearly stated in the Kojiki; scholars differ on whether he is a separate progenitor or an aspect of the same high-origin principle [S1][S2]."
+      "His relationship to the later 'primordial' pair (Izanagi/Izanami) and to Amenominakanushi is not clearly stated in the Kojiki; scholars differ on whether he is a separate progenitor or an aspect of the same high-origin principle [S1][S2].",
+      "Audit 2026-10: Kojiki names TWO separate primordial deities, Takamimusubi (\"high producer\") and Kamimusubi (\"divine producer\"). This entity follows the Takamimusubi tradition (id kept for URL stability). See docs/UNCERTAIN.md."
     ],
     "hero_artwork": "jpn-art-file-kamimusubi-shinbutsu-zue"
   },
@@ -336,15 +337,16 @@
       "Yata no Kagami",
       "Yasakani no Magatama"
     ],
-    "parents": [],
+    "parents": [
+      "jpn-izananagi",
+      "jpn-izananami"
+    ],
     "siblings": [
       "jpn-tsurugumo",
       "jpn-susanoo"
     ],
     "partners": [],
-    "children": [
-      "jpn-toyotama"
-    ],
+    "children": [],
     "allies": [
       "jpn-ameno-uzume",
       "jpn-takemikazuchi",
@@ -426,7 +428,8 @@
     ],
     "uncertainty_notes": [
       "The cave myth's details (which kami take which roles, the naming of the cave, the precise role of Takemikazuchi) differ between the Kojiki and Nihon Shoki [S1][S2].",
-      "Her status as the single 'supreme' deity is a later (medieval-modern) development; the Kojiki presents her as one of the high deities sent to rule a portion of the realms [S1][S2]."
+      "Her status as the single 'supreme' deity is a later (medieval-modern) development; the Kojiki presents her as one of the high deities sent to rule a portion of the realms [S1][S2].",
+      "Audit 2026-10: previously listed Toyotama-hime as her daughter — corrected (she is a great-granddaughter through Ame-no-oshihomimi and Ninigi). Amaterasu's divine son Ame-no-oshihomimi is not modeled as a separate entity here."
     ],
     "hero_artwork": "jpn-art-amaterasu-cave-met"
   },
@@ -449,7 +452,10 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "jpn-izananagi",
+      "jpn-izananami"
+    ],
     "siblings": [
       "jpn-amaterasu",
       "jpn-susanoo"
@@ -525,7 +531,10 @@
     "sacred_objects": [
       "Kusanagi"
     ],
-    "parents": [],
+    "parents": [
+      "jpn-izananagi",
+      "jpn-izananami"
+    ],
     "siblings": [
       "jpn-amaterasu",
       "jpn-tsurugumo"
@@ -533,9 +542,7 @@
     "partners": [
       "jpn-kushiinadahime"
     ],
-    "children": [
-      "jpn-kushiinadahime"
-    ],
+    "children": [],
     "allies": [
       "jpn-takemikazuchi"
     ],
@@ -703,7 +710,9 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "jpn-okuninushi"
+    ],
     "siblings": [
       "jpn-okuninushi"
     ],
@@ -776,9 +785,7 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [
-      "jpn-amaterasu"
-    ],
+    "parents": [],
     "siblings": [],
     "partners": [
       "jpn-konohanasakuhana",
@@ -834,7 +841,8 @@
     ],
     "uncertainty_notes": [
       "The exact mechanism of the descent and the sequence of the Ōkuninushi contest differ between the Kojiki and Nihon Shoki [S1][S2].",
-      "His parentage (grandson of Amaterasu) and the precise link to Hooroni are stated differently in the two texts [S1][S2]."
+      "His parentage (grandson of Amaterasu) and the precise link to Hooroni are stated differently in the two texts [S1][S2].",
+      "Audit 2026-10: Ninigi is the son of Ame-no-oshihomimi and Takahara-bikihime, hence grandson of Amaterasu; sent to earth in the tenson kōrin (descent of the heavenly grandchild)."
     ],
     "hero_artwork": "jpn-art-file-ninigi-otokawa"
   },
@@ -859,9 +867,7 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [
-      "jpn-amaterasu"
-    ],
+    "parents": [],
     "siblings": [],
     "partners": [
       "jpn-ninigi"
@@ -910,7 +916,8 @@
     ],
     "uncertainty_notes": [
       "The 'birth at sea' episode and its wording (the opening of the hori-hutsu, the origin of the sea) differ between the Kojiki and Nihon Shoki [S1][S2].",
-      "Her exact position in the imperial genealogy (vs. Konohanasakuya-hime) is stated differently in the two texts [S1][S2]."
+      "Her exact position in the imperial genealogy (vs. Konohanasakuya-hime) is stated differently in the two texts [S1][S2].",
+      "Audit 2026-10: father is the sea deity Watatsumi (not in this dataset); wife of Ninigi, mother of Ugayafukiaezu and Hoori."
     ],
     "hero_artwork": "jpn-art-file-toyotamahime-shinbutsu-zue"
   },
@@ -1428,7 +1435,7 @@
       "the Eight-Headed Serpent"
     ],
     "classification": "monster",
-    "gender": "none",
+    "gender": "unknown",
     "domains": [
       "serpent",
       "monster",

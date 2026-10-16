@@ -30,7 +30,8 @@
     "parents": [],
     "siblings": [],
     "partners": [
-      "mes-antum"
+      "mes-antum",
+      "mes-ki"
     ],
     "children": [
       "mes-enlil",
@@ -79,7 +80,8 @@
       "Father of Enlil (and, in some accounts, Enki) [S5]."
     ],
     "uncertainty_notes": [
-      "An's supremacy 'declines' over time: Sumerian (supreme) → Akkadian (Enlil rises) → Babylonian (Marduk rises). This is a political/theological development, not a mythic event [S1][S6]."
+      "An's supremacy 'declines' over time: Sumerian (supreme) → Akkadian (Enlil rises) → Babylonian (Marduk rises). This is a political/theological development, not a mythic event [S1][S6].",
+      "Audit 2026-10: entity id \"mes-apas\" is a legacy label (the god is An/Anu); id kept for URL stability."
     ],
     "evidence_status": "attested"
   },
@@ -136,7 +138,8 @@
       "The 'mother' of the world in Sumerian cosmology [S5]."
     ],
     "uncertainty_notes": [
-      "Ki is less well-attested as a distinct deity than An; she is the earth-principle [S5]."
+      "Ki is less well-attested as a distinct deity than An; she is the earth-principle [S5].",
+      "Audit 2026-10: An+Ki are parents of Enlil in the Sumerian tradition; for Enki the mother is more often Nammu. Ki's motherhood of Enki kept only where the dataset already asserted it — see Enki entry."
     ],
     "evidence_status": "attested"
   },
@@ -163,7 +166,9 @@
     "sacred_objects": [],
     "parents": [],
     "siblings": [],
-    "partners": [],
+    "partners": [
+      "mes-tiamat"
+    ],
     "children": [],
     "allies": [],
     "enemies": [
@@ -233,9 +238,11 @@
     "parents": [],
     "siblings": [],
     "partners": [
+      "mes-abzu"
+    ],
+    "children": [
       "mes-kingu"
     ],
-    "children": [],
     "allies": [],
     "enemies": [
       "mes-marduk"
@@ -300,11 +307,11 @@
       "the mace (in some accounts)"
     ],
     "sacred_objects": [],
-    "parents": [],
-    "siblings": [],
-    "partners": [
+    "parents": [
       "mes-tiamat"
     ],
+    "siblings": [],
+    "partners": [],
     "children": [],
     "allies": [],
     "enemies": [
@@ -332,7 +339,9 @@
       "Holds the 'Tablet of Destinies' [S1].",
       "Slain by Marduk; his blood is used to create humanity [S1]."
     ],
-    "uncertainty_notes": [],
+    "uncertainty_notes": [
+      "Audit 2026-10: Enuma Elish I 27-29 — Tiamat \"exalted\" Kingu among the gods, \"placed the tablet of destinies on his lap\"; the \"made him husband\" language is about his exaltation as army commander. Executed with Qingu-name preserved in humankind (VI 33-38)."
+    ],
     "evidence_status": "attested"
   },
   {
@@ -484,7 +493,9 @@
     "sacred_objects": [
       "the 'me' (the divine decrees)"
     ],
-    "parents": [],
+    "parents": [
+      "mes-apas"
+    ],
     "siblings": [],
     "partners": [],
     "children": [
@@ -555,7 +566,8 @@
       "The 'apku' (the sage), patron of the scribes [S5]."
     ],
     "uncertainty_notes": [
-      "Enki's 'wisdom' role is central; his relationship to the 'me' (the divine decrees) is complex: he is both a holder and a distributor of the 'me' [S5]."
+      "Enki's 'wisdom' role is central; his relationship to the 'me' (the divine decrees) is complex: he is both a holder and a distributor of the 'me' [S5].",
+      "Audit 2026-10: mother is Nammu (primeval sea) in Sumerian tradition (Enki's birth cycle); Nammu is not modeled as an entity. Father An per the standard genealogy."
     ],
     "evidence_status": "attested",
     "hero_artwork": "mes-art-file-god-ea-also-enki-holding-a-cup-with-overflo"
@@ -902,10 +914,12 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "mes-apas"
+    ],
     "siblings": [],
     "partners": [
-      "mes-erishkigal-consort"
+      "mes-nergal"
     ],
     "children": [],
     "allies": [],
@@ -1011,7 +1025,8 @@
       "Ereshkigal's consort (in the 'Nergal and Ereshkigal' myth) [S5]."
     ],
     "uncertainty_notes": [
-      "Nergal's 'raping' of Ereshkigal is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5]."
+      "Nergal's 'raping' of Ereshkigal is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5].",
+      "Audit 2026-10: Erra/Nergal is \"seed of Enlil, offspring of Ninlil\" (Erra Epic I); as Ereshkigal's consort he is the \"Nergal and Ereshkigal\" myth. A duplicate entity for him was merged into this one (audit F35)."
     ],
     "evidence_status": "attested",
     "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god-"
@@ -1098,7 +1113,8 @@
       "His 'supremacy' is a political/theological development (Babylonian rise) [S1][S6]."
     ],
     "uncertainty_notes": [
-      "Marduk's 'supremacy' is period-specific: Old Babylonian (rises) → Neo-Babylonian (supreme) → Achaemenid/Persian (declines) [S1][S6]."
+      "Marduk's 'supremacy' is period-specific: Old Babylonian (rises) → Neo-Babylonian (supreme) → Achaemenid/Persian (declines) [S1][S6].",
+      "Audit 2026-10: Enuma Elish I 36-39 — Marduk is son of Ea (Enki) and Damkina, grandson of An and Tiamat (the \"Tiamat\" here is Ea's salt-water grandmother layer); Damkina not modeled as an entity."
     ],
     "evidence_status": "attested",
     "hero_artwork": "mes-art-file-marduk-tiamat-battle-from-enuma-elish-repai"
@@ -1208,53 +1224,6 @@
     "hero_artwork": "mes-art-file-ninhursag1"
   },
   {
-    "id": "mes-erishkigal-consort",
-    "culture": "mesopotamian",
-    "name": "Nergal (Ereshkigal's consort)",
-    "native_name": "Nergal",
-    "alternative_names": [],
-    "classification": "deity",
-    "gender": "male",
-    "domains": [
-      "the underworld (as Ereshkigal's consort)"
-    ],
-    "symbols": [],
-    "animals": [],
-    "weapons": [],
-    "sacred_objects": [],
-    "parents": [],
-    "siblings": [],
-    "partners": [
-      "mes-erishkigal"
-    ],
-    "children": [],
-    "allies": [],
-    "enemies": [],
-    "associated_realms": [],
-    "associated_places": [],
-    "major_myths": [],
-    "primary_sources": [
-      {
-        "type": "corpus",
-        "name": "etcl.mca.edu — Electronic Text Corpus of cuneiform (transliterations + translations)",
-        "date": "corpus (Sumerian/Akkadian texts)",
-        "ref": "S5",
-        "url": "https://etcsl.orinst.ox.ac.uk/"
-      }
-    ],
-    "artworks": [
-      "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
-    ],
-    "description_short": "Nergal as Ereshkigal's consort (the 'Nergal and Ereshkigal' marriage myth).",
-    "description_long": "Nergal as Ereshkigal's consort: in the 'Nergal and Ereshkigal' myth, Nergal 'rapes' (or marries) Ereshkigal and becomes her consort and the lord of the underworld [S5]. This is a 'marriage' myth: the underworld-god and the underworld-goddess become a pair [S5].",
-    "interesting_facts": [
-      "Nergal as Ereshkigal's consort [S5]."
-    ],
-    "uncertainty_notes": [],
-    "evidence_status": "attested",
-    "hero_artwork": "mes-art-file-ancient-parthian-relief-carving-of-the-god--2"
-  },
-  {
     "id": "mes-ninagal",
     "culture": "mesopotamian",
     "name": "Ningal",
@@ -1328,7 +1297,7 @@
     "weapons": [],
     "sacred_objects": [],
     "parents": [
-      "mes-enki"
+      "mes-marduk"
     ],
     "siblings": [],
     "partners": [],
@@ -1357,7 +1326,9 @@
       "Son of Enki (Ea) [S5].",
       "The patron of the scribes [S5]."
     ],
-    "uncertainty_notes": [],
+    "uncertainty_notes": [
+      "Audit 2026-10: mother given as Nisaba (or Tasmetu as consort) in different lists; neither modeled. Father: Marduk (standard first-millennium genealogy)."
+    ],
     "evidence_status": "attested",
     "hero_artwork": "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
   }

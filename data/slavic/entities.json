@@ -333,7 +333,7 @@
     "siblings": [],
     "partners": [],
     "children": [
-      "slv-veles"
+      "slv-dazhbog"
     ],
     "allies": [],
     "enemies": [],
@@ -392,7 +392,8 @@
     ],
     "uncertainty_notes": [
       "Svarog's 'sky/sun' role vs. his 'craftsman' role are not clearly distinguished in the sources; both are attested [S4][S6].",
-      "The 'Svarozhich' as a royal title is a folk/late development [S5]."
+      "The 'Svarozhich' as a royal title is a folk/late development [S5].",
+      "Audit 2026-10: the Svarog→Dazhbog father-son relation rests on ONE chronicle gloss (PVL ad 980: \"Dazhbog... Svarozhich\"); whether Svarog is a sky-god, a smith-god (Hephaestus identification), or a euhemerized king is debated. See UNCERTAIN.md."
     ],
     "hero_artwork": "slv-art-triglav-scheme",
     "evidence_status": "attested"
@@ -423,7 +424,9 @@
     ],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "slv-svarog"
+    ],
     "siblings": [],
     "partners": [],
     "children": [],
@@ -804,7 +807,8 @@
       "More clearly a folk deity than a formal pantheon member [S6]."
     ],
     "uncertainty_notes": [
-      "Lada's status as a formal pre-Christian goddess is debated; she is more clearly a folk concept [S6]."
+      "Lada's status as a formal pre-Christian goddess is debated; she is more clearly a folk concept [S6].",
+      "Audit 2026-10: Lada's existence as a Slavic DEITY is disputed — the main evidence is 16th–18th c. sources (Maciej of Miechów, Bielski, Gloger) possibly derived from misread Greek \"charis/Aglaia\" liturgical exclamations, plus the contested \"Slovic word\" for harmony. Folk \"Lado!\" exclamations are not proof of cult. See UNCERTAIN.md."
     ],
     "evidence_status": "attested (folk)",
     "hero_artwork": "slv-art-file-lada-by-konenkov-1909-tretyakov-gallery-01-"
@@ -970,7 +974,8 @@
     ],
     "uncertainty_notes": [
       "The relationship between Jarilo and the 'Kupala' festival is debated: is Jarilo the 'Kupala' god, or is the 'Kupala' a separate older ritual? [S6].",
-      "Jarilo's 'sun' role is debated; in some accounts he is the 'spring' god, in others the 'sun' god [S4][S6]."
+      "Jarilo's 'sun' role is debated; in some accounts he is the 'spring' god, in others the 'sun' god [S4][S6].",
+      "Audit 2026-10: Jarilo (Jarovit) is attested in 12th c. Elbe-Slavic records (Havelberg/Rethra idols); the equation with the Kupala festival figure is 19th–20th c. ethnographic reconstruction (Ivanov–Toporov). Kupala itself is tied to St. John's Eve. See UNCERTAIN.md."
     ],
     "evidence_status": "attested (folk)",
     "hero_artwork": "slv-art-file-jarilo"
@@ -1045,7 +1050,8 @@
     ],
     "uncertainty_notes": [
       "Zorya's status as a formal pre-Christian goddess is debated; she is more clearly a folk dawn/star figure [S6].",
-      "The 'two Zorya' (rising and setting) are a folk elaboration [S5]."
+      "The 'two Zorya' (rising and setting) are a folk elaboration [S5].",
+      "Audit 2026-10: the Zorya(s) — dawn star(s), often two or three sisters guarding the cosmic hound — are ethnographic/folkloric (19th c. records); their pre-Christian status is reconstruction. See UNCERTAIN.md."
     ],
     "evidence_status": "attested (folk)"
   },
@@ -1109,7 +1115,8 @@
     ],
     "uncertainty_notes": [
       "Cherd's pre-Christian status is debated; the 'Chert' is more clearly a folk/Christian figure [S6].",
-      "Do not confuse the pre-Christian underworld-god with the Christian 'devil' — they are distinct, though the folk tradition merged them [S6]."
+      "Do not confuse the pre-Christian underworld-god with the Christian 'devil' — they are distinct, though the folk tradition merged them [S6].",
+      "Audit 2026-10: \"Chert\" (devil) is attested only in late sources (Bielski 1564, via the \"black god\" of the PVL) and is likely a Christian-era concept projected backwards. See UNCERTAIN.md."
     ],
     "evidence_status": "reconstructed"
   }

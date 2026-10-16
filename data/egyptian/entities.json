@@ -2,7 +2,7 @@
   {
     "id": "egy-aur",
     "culture": "egyptian",
-    "name": "Atum-Ra (the primordial waters' first god)",
+    "name": "Atum-Ra",
     "native_name": "Atum / Ra",
     "alternative_names": [
       "Atum",
@@ -133,7 +133,8 @@
       "Apep, the chaos serpent, embodies the threat of Nun returning [S2]."
     ],
     "uncertainty_notes": [
-      "Nun's 'gender' is often given as male (Nun) with a female counterpart (Naunet); the sources treat the waters as a pair [S4]."
+      "Nun's 'gender' is often given as male (Nun) with a female counterpart (Naunet); the sources treat the waters as a pair [S4].",
+      "Audit 2026-10: near-duplicate of egy-ogdoad-nun (Nun & Naunet pair). Kept separate: solo Nun is the personified primeval waters of Heliopolitan/temple theology; the pair entry documents the Ogdoad."
     ]
   },
   {
@@ -547,7 +548,8 @@
       "egy-nephthys"
     ],
     "partners": [
-      "egy-isfet"
+      "egy-isfet",
+      "egy-nephthys"
     ],
     "children": [
       "egy-horus"
@@ -762,11 +764,9 @@
       "egy-horus-elder"
     ],
     "partners": [
-      "egy-isfet"
+      "egy-hathor"
     ],
-    "children": [
-      "egy-horus-elder"
-    ],
+    "children": [],
     "allies": [],
     "enemies": [
       "egy-set"
@@ -871,7 +871,9 @@
       "egy-isfet",
       "egy-nephthys"
     ],
-    "partners": [],
+    "partners": [
+      "egy-nephthys"
+    ],
     "children": [],
     "allies": [],
     "enemies": [
@@ -1022,7 +1024,8 @@
       "One of the four protectors of the canopic jars [S2][S4]."
     ],
     "uncertainty_notes": [
-      "Nephthys's relationship to Set (as his wife) is odd given that Set is the murderer of her brother; the sources treat it as a fact without explaining it [S4]."
+      "Nephthys's relationship to Set (as his wife) is odd given that Set is the murderer of her brother; the sources treat it as a fact without explaining it [S4].",
+      "Audit 2026-10: mother of Anubis — by Set in some traditions, by Osiris in the Plutarchan \"false-Osiris\" episode (Nephthys deceived Osiris thinking him Set). Both traditions preserved; Anubis's parentage flagged in UNCERTAIN.md."
     ],
     "hero_artwork": "egy-art-file-seated-goddess-nephthys-inscribed-for-meres"
   },
@@ -1323,7 +1326,8 @@
       "Associated with the moon [S4]."
     ],
     "uncertainty_notes": [
-      "Thoth's 'moon' association is debated: some scholars see it as a later development, others as ancient [S4]."
+      "Thoth's 'moon' association is debated: some scholars see it as a later development, others as ancient [S4].",
+      "Audit 2026-10: parentage varies — self-created on the primeval mound (Hermopolitan), \"tongue of Ra\" (creator's scribe), or born of Set's semen (Herodotus II.4 / Neferhotep tradition). Left unset deliberately; see UNCERTAIN.md."
     ],
     "hero_artwork": "egy-art-thoth-ibis"
   },
@@ -1357,7 +1361,9 @@
     "sacred_objects": [],
     "parents": [],
     "siblings": [],
-    "partners": [],
+    "partners": [
+      "egy-horus"
+    ],
     "children": [],
     "allies": [],
     "enemies": [],
@@ -1401,7 +1407,8 @@
       "Patroness of the mining regions [S4]."
     ],
     "uncertainty_notes": [
-      "The 'Eye of Ra' is a fluid concept: it is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet [S4]."
+      "The 'Eye of Ra' is a fluid concept: it is variously identified with Tefnut, Hathor, Sekhmet, or Wadjet [S4].",
+      "Audit 2026-10: \"daughter of Ra\" is common (Dendera theology) but Hathor's roles (eye of Ra, celestial cow, lady of the sycamore) precede and exceed that filiation; kept as domain, not asserted as fixed parentage."
     ],
     "hero_artwork": "egy-art-hathor-head"
   },
@@ -1563,7 +1570,10 @@
     ],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "egy-set",
+      "egy-nephthys"
+    ],
     "siblings": [],
     "partners": [],
     "children": [],
@@ -1622,7 +1632,8 @@
       "Mummified Osiris's body (the first mummy) [S3][S4]."
     ],
     "uncertainty_notes": [
-      "Anubis's status declined in the later periods as Osiris took over much of his 'lord of the dead' role [S4]."
+      "Anubis's status declined in the later periods as Osiris took over much of his 'lord of the dead' role [S4].",
+      "Audit 2026-10: parentage disputed — Set and Nephthys (late tradition) vs Osiris and Nephthys (Plutarch); earlier still Anubis is a son of Ra or of Hesat. See UNCERTAIN.md."
     ],
     "hero_artwork": "egy-art-anubis-jackal"
   },
@@ -1670,7 +1681,9 @@
       "The first pair of the Hermopolitan Ogdoad [S4]."
     ],
     "uncertainty_notes": [
-      "The Ogdoad is one of several creation accounts; we do not treat it as 'the' Egyptian creation [S4]."
+      "The Ogdoad is one of several creation accounts; we do not treat it as 'the' Egyptian creation [S4].",
+      "Audit 2026-10: this entry is a male+female pair (hermopolitan Ogdoad); gender field = \"unknown\" (the entry is a male+female pair; the schema enum has no \"pair\" value).",
+      "Audit 2026-10: see also solo Nun (egy-nun). Pair entry documents the Ogdoad member."
     ]
   },
   {
@@ -1716,18 +1729,22 @@
     "interesting_facts": [
       "The second pair of the Hermopolitan Ogdoad [S4]."
     ],
-    "uncertainty_notes": []
+    "uncertainty_notes": [
+      "Audit 2026-10: this entry is a male+female pair (hermopolitan Ogdoad); gender field = \"unknown\" (the entry is a male+female pair; the schema enum has no \"pair\" value)."
+    ]
   },
   {
     "id": "egy-ogdoad-khnum",
     "culture": "egyptian",
-    "name": "Khenunu & Khenunit (primordial mystery)",
-    "native_name": "Khenunu & Khenunit",
-    "alternative_names": [],
+    "name": "Kek & Kauket (primordial darkness)",
+    "native_name": "Kek & Kauket",
+    "alternative_names": [
+      "Kuk & Kauket"
+    ],
     "classification": "primordial",
     "gender": "unknown",
     "domains": [
-      "primordial mystery (Hermopolitan account)"
+      "primordial darkness"
     ],
     "symbols": [],
     "animals": [],
@@ -1762,19 +1779,22 @@
       "The third pair of the Hermopolitan Ogdoad [S4]."
     ],
     "uncertainty_notes": [
-      "Do not confuse Khenunu (the Ogdoad 'mystery') with Khnum (the ram-headed god) [S4]."
+      "Do not confuse Khenunu (the Ogdoad 'mystery') with Khnum (the ram-headed god) [S4].",
+      "Audit 2026-10: this entry is a male+female pair (hermopolitan Ogdoad); gender field = \"unknown\" (the entry is a male+female pair; the schema enum has no \"pair\" value)."
     ]
   },
   {
     "id": "egy-ogdoad-sat",
     "culture": "egyptian",
-    "name": "Sat & Satet (primordial duration)",
-    "native_name": "Sat & Satet",
-    "alternative_names": [],
+    "name": "Amun & Amaunet (primordial hiddenness)",
+    "native_name": "Jmn & Jmn.t",
+    "alternative_names": [
+      "Amun & Amaunet"
+    ],
     "classification": "primordial",
     "gender": "unknown",
     "domains": [
-      "primordial duration (Hermopolitan account)"
+      "primordial hiddenness / air"
     ],
     "symbols": [],
     "animals": [],
@@ -1808,7 +1828,10 @@
     "interesting_facts": [
       "The fourth pair of the Hermopolitan Ogdoad [S4]."
     ],
-    "uncertainty_notes": []
+    "uncertainty_notes": [
+      "Audit 2026-10: the Ogdoad's Amun (\"the Hidden One\") is the Hermopolitan principle of hiddenness/air, distinct from the Theban king-god Amun (see egy-amun). Previously mislabeled \"Sat & Satet\".",
+      "Audit 2026-10: this entry is a male+female pair (hermopolitan Ogdoad); gender field = \"unknown\" (the entry is a male+female pair; the schema enum has no \"pair\" value)."
+    ]
   },
   {
     "id": "egy-horus-elder",
@@ -1827,7 +1850,9 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [],
+    "parents": [
+      "egy-horus"
+    ],
     "siblings": [],
     "partners": [],
     "children": [
@@ -1856,7 +1881,8 @@
       "The 'elder' Horus in some genealogies [S4]."
     ],
     "uncertainty_notes": [
-      "The 'two Horuses' are sometimes merged, sometimes distinct; the sources are not consistent [S4]."
+      "The 'two Horuses' are sometimes merged, sometimes distinct; the sources are not consistent [S4].",
+      "Audit 2026-10: \"Horus the Elder\" (Harsomtus) is a late Edfu form/offspring of Horus, not a separate father-god. Relation was inverted; corrected."
     ],
     "hero_artwork": "egy-art-file-haroeris-horus-the-greater-36320554561"
   }

@@ -165,14 +165,10 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [
-      "nor-ginnungagap"
-    ],
+    "parents": [],
     "siblings": [],
     "partners": [],
-    "children": [
-      "nor-burir"
-    ],
+    "children": [],
     "allies": [],
     "enemies": [],
     "associated_realms": [],
@@ -290,7 +286,8 @@
       "Father of Borr, grandfather of Odin [S2]."
     ],
     "uncertainty_notes": [
-      "Búri's role is minimal in the sources; he is a genealogical link [S2]."
+      "Búri's role is minimal in the sources; he is a genealogical link [S2].",
+      "Audit 2026-10: Búri emerged from the salt-rime blocks (hrímkalpar) that the cow Auðumbla licked bare over three days (Gylfaginning IV); he has no parents in the sources."
     ]
   },
   {
@@ -447,7 +444,7 @@
       "nor-vidar",
       "nor-vali",
       "nor-thor",
-      "nor-heimdall"
+      "nor-hodr"
     ],
     "allies": [],
     "enemies": [
@@ -510,7 +507,8 @@
     ],
     "uncertainty_notes": [
       "Odin's 'war' aspect and his 'death' aspect are both genuine; the sources present him as both the god who wins battles and the god of the slain [S1][S2][S3].",
-      "Some scholars see Odin as a 'culture-hero' who brought the runes and poetry; this is interpretation, not a source claim [S3]."
+      "Some scholars see Odin as a 'culture-hero' who brought the runes and poetry; this is interpretation, not a source claim [S3].",
+      "Audit 2026-10: children shown are the dataset members attested for Odin (Baldr and Höðr with Frigg; Thor with Jörð; Víðarr with the giantess Gríðr; Váli with Rindr; Heimdall uncertain — see his entry). Mothers Gríðr, Rindr and Jörð are not modeled as entities."
     ],
     "hero_artwork": "nor-art-odin-doepler"
   },
@@ -670,9 +668,7 @@
     "associated_places": [],
     "major_myths": [
       "nor-thor-geirdrud",
-      "nor-thor-hrungnir",
-      "nor-ragnarok",
-      "nor-jormungandr"
+      "nor-ragnarok"
     ],
     "primary_sources": [
       {
@@ -750,8 +746,7 @@
     ],
     "children": [
       "nor-baldr",
-      "nor-vidar",
-      "nor-vali"
+      "nor-hodr"
     ],
     "allies": [],
     "enemies": [],
@@ -956,8 +951,7 @@
     "parents": [],
     "siblings": [],
     "partners": [
-      "nor-anguela",
-      "nor-sid"
+      "nor-anguela"
     ],
     "children": [
       "nor-fenrir",
@@ -1021,7 +1015,8 @@
       "Fights the gods at Ragnarök and is slain [S1][S2]."
     ],
     "uncertainty_notes": [
-      "Loki's status (god vs. giant vs. trickster) is ambiguous in the sources; he is not a 'true' Æsir but is bound up with them [S2]."
+      "Loki's status (god vs. giant vs. trickster) is ambiguous in the sources; he is not a 'true' Æsir but is bound up with them [S2].",
+      "Audit 2026-10: Loki is \"son of Fárbauti\" in the kenning tradition (Umbli's son, Laufjar/Laufey's son — Gylfaginning prologue); his mother Laufey/Nál and father Fárbauti are not modeled as entities. His wife is Sigyn (not in dataset); Angrboða is a consort."
     ],
     "hero_artwork": "nor-art-loki-frolich"
   },
@@ -1315,7 +1310,9 @@
       "Father of Freyr and Freyja [S2].",
       "Home is Nóatún, by the sea [S2]."
     ],
-    "uncertainty_notes": []
+    "uncertainty_notes": [
+      "Audit 2026-10: Freyr and Freyja's mother is Njörðr's sister (a nameless giantess; the incestuous union is noted in Ynglinga saga 4 and Loki's flyting in Lokasenna). Skaði is his later wife (divorced in the same saga)."
+    ]
   },
   {
     "id": "nor-heimdall",
@@ -1336,9 +1333,7 @@
     "animals": [],
     "weapons": [],
     "sacred_objects": [],
-    "parents": [
-      "nor-odin"
-    ],
+    "parents": [],
     "siblings": [],
     "partners": [],
     "children": [],
@@ -1387,7 +1382,8 @@
       "Will kill and be killed by Loki at Ragnarök [S1][S2]."
     ],
     "uncertainty_notes": [
-      "Heimdall's parentage is a genuine variant: son of Odin & Angrboða (odd, since she is elsewhere Loki's wife) vs. nine mothers [S2]."
+      "Heimdall's parentage is a genuine variant: son of Odin & Angrboða (odd, since she is elsewhere Loki's wife) vs. nine mothers [S2].",
+      "Audit 2026-10: parentage uncertain — Gylfaginning: born of nine mothers (nine waves / nine sisters); a skaldic kenning and Annalaí fragment hint at Odin as father. Previously listed as Odin's son; moved to UNCERTAIN.md."
     ],
     "hero_artwork": "nor-art-file-heimdall-wooden-statue"
   },
@@ -1772,7 +1768,8 @@
     "weapons": [],
     "sacred_objects": [],
     "parents": [
-      "nor-loomi"
+      "nor-loomi",
+      "nor-sid"
     ],
     "siblings": [
       "nor-fenrir",
@@ -1812,15 +1809,20 @@
       "Born of Loki (in the form of a mare) and the stallion Svaðilfari [S2].",
       "The only steed that can ride between the worlds [S2]."
     ],
-    "uncertainty_notes": [],
+    "uncertainty_notes": [
+      "Audit 2026-10: Sleipnir was borne by Loki in mare-shape, sired by the stallion Svaðilfari (Gylfaginning XIII) — Loki is his mother."
+    ],
     "hero_artwork": "nor-art-odin-sleipnir-ms"
   },
   {
     "id": "nor-anguela",
     "culture": "norse",
-    "name": "Angerboa",
+    "name": "Angrboða",
     "native_name": "Angrboða",
-    "alternative_names": [],
+    "alternative_names": [
+      "Angerboda",
+      "Angrboða"
+    ],
     "classification": "giant",
     "gender": "female",
     "domains": [
@@ -1946,7 +1948,6 @@
     "weapons": [],
     "sacred_objects": [],
     "parents": [
-      "nor-thor",
       "nor-sif"
     ],
     "siblings": [],
@@ -1983,7 +1984,8 @@
       "Son of Thor (and Sif, in some accounts) [S2]."
     ],
     "uncertainty_notes": [
-      "Ullr's parentage (son of Thor vs. son of the giant Trúðr) is a genuine variant [S2]."
+      "Ullr's parentage (son of Thor vs. son of the giant Trúðr) is a genuine variant [S2].",
+      "Audit 2026-10: Ullr is Sif's son by an unnamed father (Gylfaginning 31 calls him Thor's \"son\" in the step- sense; Snorri's skaldic usage). Thor is stepfather only."
     ],
     "hero_artwork": "nor-art-file-am-738-4to-39v-bw-ullr"
   },
@@ -2038,7 +2040,7 @@
   {
     "id": "nor-forseti",
     "culture": "norse",
-    "name": "Fosite (Forsétir)",
+    "name": "Forseti",
     "native_name": "Fórsétir",
     "alternative_names": [],
     "classification": "deity",
@@ -2182,7 +2184,7 @@
   {
     "id": "nor-jarnsaxa",
     "culture": "norse",
-    "name": "Járnsaxa (Járnsaxa)",
+    "name": "Járnsaxa",
     "native_name": "Járnsaxa",
     "alternative_names": [],
     "classification": "giant",
@@ -2433,13 +2435,13 @@
   {
     "id": "nor-sid",
     "culture": "norse",
-    "name": "Síd",
-    "native_name": "Síd",
+    "name": "Svaðilfari",
+    "native_name": "Svaðilfari",
     "alternative_names": [],
     "classification": "giant",
-    "gender": "female",
+    "gender": "male",
     "domains": [
-      "the giantess who bore Sleipnir (in one account)"
+      "the stallion of the frost-giant's builder"
     ],
     "symbols": [],
     "animals": [],
@@ -2447,10 +2449,10 @@
     "sacred_objects": [],
     "parents": [],
     "siblings": [],
-    "partners": [
-      "nor-loomi"
+    "partners": [],
+    "children": [
+      "nor-sleipnir"
     ],
-    "children": [],
     "allies": [],
     "enemies": [],
     "associated_realms": [],
@@ -2466,13 +2468,14 @@
       }
     ],
     "artworks": [],
-    "description_short": "A giantess who, in one account, is the mother of Sleipnir with Loki.",
-    "description_long": "Síd is a giantess who, in one account, is the mother of the eight-legged horse Sleipnir with Loki (in the more common account, Loki himself, in the form of a mare, is Sleipnir's mother) [S2]. This is one of the genuine variants in the parentage of Sleipnir [S2].",
+    "description_short": "The stallion of the unnamed hrímþurs who built the wall of Ásgarðr. Loki, transformed into a mare, lured Svaðilfari away from his work so the builder failed his deadline — and Loki bore Sleipnir as a mare.",
+    "description_long": "Gylfaginning IV–XIII: after the gods hired a giant builder to wall Ásgarðr, his horse Svaðilfari hauled stone at twice the speed of the gods' own carts, and the winter deadline loomed. The gods blamed Loki, who transformed himself into a mare; Svaðilfari ran after her, the builder lost the wager and was killed by Thor — and in that shape Loki bore the eight-legged foal Sleipnir (\"in one account\" the sources are explicit: Loki is Sleipnir's mother).",
     "interesting_facts": [
       "Mother of Sleipnir (in one account) [S2]."
     ],
     "uncertainty_notes": [
-      "Sleipnir's parentage is a variant: Loki-as-mare vs. Loki + Síd [S2]."
+      "Sleipnir's parentage is a variant: Loki-as-mare vs. Loki + Síd [S2].",
+      "Audit 2026-10: this entity was previously \"Síd, a giantess who bore Sleipnir\" — unattested and wrong. It is now Svaðilfari, the builder's stallion (Gylfaginning XIII); Sleipnir's parents are Loki (as a mare) and Svaðilfari."
     ]
   }
 ]

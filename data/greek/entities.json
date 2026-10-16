@@ -80,11 +80,16 @@
     "sacred_objects": [],
     "parents": [],
     "siblings": [],
-    "partners": [],
+    "partners": [
+      "gre-ouranos"
+    ],
     "children": [
       "gre-ouranos",
       "gre-oceanus",
-      "gre-tethys"
+      "gre-tethys",
+      "gre-cronus",
+      "gre-rhea",
+      "gre-typhon"
     ],
     "allies": [],
     "enemies": [],
@@ -128,7 +133,8 @@
       "In the Theogony, Gaia engineers the overthrow of Uranus by Cronus [S1]."
     ],
     "uncertainty_notes": [
-      "The 'Typhon born of Gaia alone' passage (Theogony 810–820) is widely regarded as a later interpolation; we flag it [S1]."
+      "The 'Typhon born of Gaia alone' passage (Theogony 810–820) is widely regarded as a later interpolation; we flag it [S1].",
+      "Audit 2026-10: children list includes only entities present in this dataset; the full Hesiodic list (Cyclopes, Hecatoncheires, Pontus, Nereus, etc.) is in the description."
     ],
     "hero_artwork": "gre-art-file-roman-gaia-walters-54874"
   },
@@ -415,7 +421,13 @@
       "gre-hestia"
     ],
     "partners": [
-      "gre-hera"
+      "gre-hera",
+      "gre-let-o",
+      "gre-metis",
+      "gre-maia",
+      "gre-danae",
+      "gre-semele",
+      "gre-alcmena"
     ],
     "children": [
       "gre-athena",
@@ -439,7 +451,6 @@
     "major_myths": [
       "gre-creation",
       "gre-titanomachy",
-      "gre-zeus-eye",
       "gre-persephone"
     ],
     "primary_sources": [
@@ -652,8 +663,7 @@
     ],
     "associated_places": [],
     "major_myths": [
-      "gre-persephone",
-      "gre-orpheus-eurydice"
+      "gre-persephone"
     ],
     "primary_sources": [
       {
@@ -815,7 +825,8 @@
       "Rival of Athena for Athens — he gave the sea/spring, she gave the olive [S5][S6]."
     ],
     "uncertainty_notes": [
-      "Poseidon's 'rivalry' with Zeus is literary (Iliad); in cult he was a benevolent local patron at many coastal sites [S2][S6]."
+      "Poseidon's 'rivalry' with Zeus is literary (Iliad); in cult he was a benevolent local patron at many coastal sites [S2][S6].",
+      "Audit 2026-10: attested offspring (Triton by Amphitrite; Pegasus and Chrysaor by Medusa; Theseus in the golden-bull tradition; the Rhodian Telchines, etc.) are not modeled as entities in this dataset."
     ],
     "hero_artwork": "gre-art-poseidon-stat"
   },
@@ -873,7 +884,6 @@
     "major_myths": [
       "gre-athena-birth",
       "gre-athena-athens",
-      "gre-pandora",
       "gre-odysseus-kyklops"
     ],
     "primary_sources": [
@@ -984,11 +994,7 @@
       "Delphi",
       "Pythia"
     ],
-    "major_myths": [
-      "gre-python-slaying",
-      "gre-cassandra",
-      "gre-narcissus"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1085,11 +1091,7 @@
       "Ephesus",
       "Brauron"
     ],
-    "major_myths": [
-      "gre-actaeon",
-      "gre-orion",
-      "gre-arachne"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1177,9 +1179,7 @@
       "gre-olympus"
     ],
     "associated_places": [],
-    "major_myths": [
-      "gre-ares-aphrodite-caught"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1214,7 +1214,8 @@
       "Caught in an affair with Aphrodite by Hephaestus — a famous shame-myth [S2][S5]."
     ],
     "uncertainty_notes": [
-      "Ares's 'born without a consort' account is one variant; the standard is Zeus & Hera [S4][S5]."
+      "Ares's 'born without a consort' account is one variant; the standard is Zeus & Hera [S4][S5].",
+      "Audit 2026-10: attested children (Harmonia with Aphrodite; the Amazon Penthesilea/hippolyte lineage; Deimos/Phobos in later tradition) are not modeled as entities here."
     ],
     "hero_artwork": "gre-art-file-ares-ludovisi-altemps-inv8602-n2"
   },
@@ -1267,9 +1268,7 @@
     ],
     "associated_places": [],
     "major_myths": [
-      "gre-aphrodite-birth",
-      "gre-aphrodite-adonis",
-      "gre-ares-caught"
+      "gre-aphrodite-birth"
     ],
     "primary_sources": [
       {
@@ -1314,7 +1313,8 @@
       "Mother of Eros (Love) [S4][S5]."
     ],
     "uncertainty_notes": [
-      "The two birth-accounts are incompatible and both are canonical; we present them side by side, not as one [S1][S2]."
+      "The two birth-accounts are incompatible and both are canonical; we present them side by side, not as one [S1][S2].",
+      "Audit 2026-10: two parentage traditions — Hesiod (born of Ouranos's sea-foam, hence parents = Ouranos) and Homer Il. 5 (daughter of Zeus and Dione). We keep the Hesiodic as primary; the Homeric variant is preserved here."
     ],
     "hero_artwork": "gre-art-aphrodite-eros"
   },
@@ -1364,10 +1364,7 @@
       "gre-underworld"
     ],
     "associated_places": [],
-    "major_myths": [
-      "gre-hermes-cattle-theft",
-      "gre-hermes-psychopomp"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1465,10 +1462,7 @@
       "gre-olympus"
     ],
     "associated_places": [],
-    "major_myths": [
-      "gre-dionysus-birth",
-      "gre-dionysus-indo-europeans"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1542,9 +1536,7 @@
     "partners": [
       "gre-aphrodite"
     ],
-    "children": [
-      "gre-ares"
-    ],
+    "children": [],
     "allies": [],
     "enemies": [
       "gre-zeus"
@@ -1553,10 +1545,7 @@
       "gre-underground-forge"
     ],
     "associated_places": [],
-    "major_myths": [
-      "gre-hephaestus-zeus-throne",
-      "gre-hephaestus-aphrodite-net"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -1654,8 +1643,7 @@
       "Eleusis"
     ],
     "major_myths": [
-      "gre-persephone",
-      "gre-eleusinian-mysteries"
+      "gre-persephone"
     ],
     "primary_sources": [
       {
@@ -1728,6 +1716,7 @@
     "weapons": [],
     "sacred_objects": [],
     "parents": [
+      "gre-zeus",
       "gre-demeter"
     ],
     "siblings": [],
@@ -2031,8 +2020,7 @@
     ],
     "associated_places": [],
     "major_myths": [
-      "gre-perseus-medusa",
-      "gre-andromeda"
+      "gre-perseus-medusa"
     ],
     "primary_sources": [
       {
@@ -2236,9 +2224,7 @@
       "gre-underworld"
     ],
     "associated_places": [],
-    "major_myths": [
-      "gre-heracles-cerberus"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -2305,7 +2291,9 @@
       "gre-alcmena"
     ],
     "siblings": [],
-    "partners": [],
+    "partners": [
+      "gre-hebe"
+    ],
     "children": [],
     "allies": [],
     "enemies": [
@@ -2314,8 +2302,7 @@
     "associated_realms": [],
     "associated_places": [],
     "major_myths": [
-      "gre-heracles-labors",
-      "gre-heracles-cerberus"
+      "gre-heracles-labors"
     ],
     "primary_sources": [
       {
@@ -2393,8 +2380,7 @@
       "Ithaca"
     ],
     "major_myths": [
-      "gre-odysseus-kyklops",
-      "gre-odysseus-trojan"
+      "gre-odysseus-kyklops"
     ],
     "primary_sources": [
       {
@@ -2517,9 +2503,7 @@
     "enemies": [],
     "associated_realms": [],
     "associated_places": [],
-    "major_myths": [
-      "gre-atlas-sky"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -2627,9 +2611,7 @@
     "enemies": [],
     "associated_realms": [],
     "associated_places": [],
-    "major_myths": [
-      "gre-dionysus-birth"
-    ],
+    "major_myths": [],
     "primary_sources": [
       {
         "type": "text",
@@ -2709,7 +2691,8 @@
       "Primordial in the Theogony (born of Chaos); son of Aphrodite in later myth [S1][S5]."
     ],
     "uncertainty_notes": [
-      "Two conceptions (primordial force vs. Aphrodite's son) coexist across sources [S1][S4][S5]."
+      "Two conceptions (primordial force vs. Aphrodite's son) coexist across sources [S1][S4][S5].",
+      "Audit 2026-10: parentage depends on the source — Hesiod's Theogony makes Eros a primordial being (before Aphrodite); the Hellenistic tradition (e.g. Apollonius of Rhodes, Aristophanes) makes him the son of Aphrodite (and Ares). We keep the Aphrodite-filiation as the later mainstream and flag the Hesiodic variant."
     ],
     "hero_artwork": "gre-art-file-eros-delf-n-farnese-01"
   },
