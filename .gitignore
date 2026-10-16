@@ -9,3 +9,6 @@ tsconfig.tsbuildinfo
 
 # dev isolation (BUG-001 / 2026-09-14 incident: dev must never share prod .next/)
 .next-dev
+
+# generated card art (513MB, deploy separately)
+public/cards/
