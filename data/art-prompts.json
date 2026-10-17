@@ -2060,6 +2060,16 @@
    "slot": "public/banners/page-about.png",
    "prompt": "A scholar's workshop where method is made visible: a wall map of the graph of gods, source folios, a validation ledger, and a single column of cuneiform and runes under a lamp, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
    "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-print",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "Print & play — the tabletop set",
+   "gender": "none",
+   "slot": "public/banners/page-print.png",
+   "prompt": "A print-and-play work table: freshly cut deity cards with crop-mark corners, a sheet of card backs, a ruler and craft knife beside scissors, a folded rules booklet, a reference sheet, and the corner of the A3 duelling mat, lit by a single lamp, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
   }
  ]
 }

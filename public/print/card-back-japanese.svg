@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69.5mm" height="94.8mm" viewBox="0 0 69.5 94.8" role="img" aria-label="The Divine Atlas card back — Japanese pantheon">
+  <defs>
+    <pattern id="lat" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#0e0e12"/>
+      <path d="M3 0 L6 3 L3 6 L0 3 Z" fill="#b3455a" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="69.5" height="94.8" fill="#0e0e12"/>
+  <rect x="0" y="0" width="69.5" height="94.8" fill="url(#lat)"/>
+  <rect x="7" y="7" width="55.5" height="80.8" fill="none" stroke="#d4af37" stroke-width="0.4"/>
+  <rect x="8.2" y="8.2" width="53.1" height="78.4" fill="none" stroke="#8a7530" stroke-width="0.18"/>
+  <g stroke="#b3455a" fill="none" stroke-width="0.5">
+    <circle cx="34.75" cy="41.4" r="15"/>
+    <g transform="translate(34.75 41.4)"><rect x="-10.8" y="-10.8" width="21.6" height="21.6"/><rect x="-10.8" y="-10.8" width="21.6" height="21.6" transform="rotate(45)"/></g>
+  </g>
+  <circle cx="34.75" cy="41.4" r="16.5" fill="none" stroke="#d4af37" stroke-width="0.25"/>
+  <text x="34.75" y="76" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="3.4" font-weight="700" fill="#d4af37" letter-spacing="0.1">THE DIVINE ATLAS</text>
+  <text x="34.75" y="81" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#b3455a">P A N T H E O N</text>
+  <text x="34.75" y="85" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.9" fill="#8a7530">Japanese pantheon</text>
+</svg>

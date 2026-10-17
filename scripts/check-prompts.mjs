@@ -68,7 +68,7 @@ const entries = [
 console.log('check:prompts — art field contract (Phase 5 D4)');
 console.log(`  schema ${data.schema || '(none)'} · items ${(data.items || []).length} · banners ${(data.banners || []).length}`);
 if ((data.items || []).length !== 184) warn(`items = ${(data.items || []).length}, expected 184`);
-if ((data.banners || []).length !== 24) warn(`banners = ${(data.banners || []).length}, expected 24`);
+if ((data.banners || []).length !== 25) warn(`banners = ${(data.banners || []).length}, expected 25`);
 
 const seenIds = new Set();
 const seenSlots = new Set();

@@ -51,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <span><strong style={{ color: 'var(--ink-1)' }}>The Divine Atlas</strong> — a museum of the world&apos;s divine imagination</span>
             {/* DES-008: drop the 'Version 1:' dev artifact — in-world footer voice */}
             <span>Six galleries: Japanese · Greek · Norse · Egyptian · Slavic · Mesopotamian</span>
+            <span><a href="/print" style={{ color: 'var(--ink-1)' }}>Print &amp; play</a> — the deck, mat &amp; rulebook, ready for the table</span>
             <span>Every nontrivial claim carries a source. Uncertainties are preserved, not resolved.</span>
             <span>Artwork: public domain / open license, always attributed.</span>
           </div>

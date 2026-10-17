@@ -57,6 +57,7 @@ const MORE_GROUPS: { title: string; items: MenuItem[] }[] = [
       { label: 'Graph', href: '/graph', Icon: GraphIcon },
       { label: 'Stories', href: '/stories', Icon: StoriesIcon },
       { label: 'Compare', href: '/compare', Icon: CompareIcon },
+      { label: 'Print & Play', href: '/print', Icon: BoardIcon },
     ],
   },
   {
@@ -77,7 +78,7 @@ function sectionOf(pathname: string): Section {
   if (pathname.startsWith('/artifacts')) return 'relics';
   if (pathname.startsWith('/cards')) return 'cards';
   if (pathname.startsWith('/play') || pathname.startsWith('/how-to-play')) return 'play';
-  if (pathname.startsWith('/graph') || pathname.startsWith('/stories') || pathname.startsWith('/compare'))
+  if (pathname.startsWith('/graph') || pathname.startsWith('/stories') || pathname.startsWith('/compare') || pathname.startsWith('/print'))
     return 'explore';
   if (pathname.startsWith('/about')) return 'about';
   return null;

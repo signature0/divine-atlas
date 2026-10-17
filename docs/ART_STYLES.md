@@ -297,7 +297,7 @@ Phase-5 generation target.
 | Aspect ratio | **21:9 landscape** |
 | Resolution | **2016 × 864** (PNG) |
 
-### 9.1 Slot list (24)
+### 9.1 Slot list (25)
 
 **Home carousel slides (11)** — one per content category:
 
@@ -315,7 +315,7 @@ Phase-5 generation target.
 | `home-slide-graph` | `/graph` |
 | `home-slide-stories` | `/stories` |
 
-**Page banners (13)** — one per main page:
+**Page banners (14)** — one per main page:
 
 | Slot | Page |
 |---|---|
@@ -327,6 +327,7 @@ Phase-5 generation target.
 | `page-stories` | `/stories` |
 | `page-compare` | `/compare` |
 | `page-about` | `/about` |
+| `page-print` | `/print` |
 
 ### 9.2 Resolution & fallback
 
@@ -341,7 +342,7 @@ same backdrop component is reused by the home carousel per slide.
 ### 9.3 Prompt contract
 
 Prompts live under the new top-level `banners` key of `data/art-prompts.json`
-(24 entries; same field shape as `items`, `kind: "banner"`, `gender: "none"`,
+(25 entries; same field shape as `items`, `kind: "banner"`, `gender: "none"`,
 `slot: public/banners/<slot>.png`). Each subject is a pantheon-defining myth
 scene grounded in the existing `data/<culture>/myths.json` (or, for the shared
 feature pages, the site's own content) — no invention. The shared composition

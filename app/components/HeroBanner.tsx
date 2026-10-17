@@ -20,6 +20,7 @@ import {
   StoriesIcon,
   CompareIcon,
   AboutIcon,
+  BoardIcon,
   BrandIcon,
   type IconComponent,
 } from './icons';
@@ -41,6 +42,7 @@ export const BANNER_VARIANTS: Record<string, BannerVariant> = {
   stories: { icon: StoriesIcon, accent: '#b08d57', accent2: '#7d8ca3' },
   compare: { icon: CompareIcon, accent: '#8a9a5b', accent2: '#c8a24a' },
   about: { icon: AboutIcon, accent: '#868171', accent2: '#c8a24a' },
+  print: { icon: BoardIcon, accent: '#c8a24a', accent2: '#7d8ca3' },
   default: { icon: BrandIcon, accent: '#c8a24a', accent2: '#2f7f7a' },
 };
 

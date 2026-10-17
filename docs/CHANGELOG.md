@@ -1,5 +1,15 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 7 (v2) — Print-ready PDFs + /print page — 2026-10-17
+- New `scripts/make-pdfs.py` (python3 + reportlab + Pillow, **no new deps**): argparse subcommands `cards|board|rules|tokens|all`, deterministic (`rl_config.invariant=1`). Card faces 63.5×88.8 mm + 3 mm bleed, 9-up A4 (**10-up 5×2 on A4 is geometrically impossible** — documented in the script header + UNCERTAIN.md), crop marks, fronts/backs sheets imposed for short-edge duplex (back grid = 180° in-place rotation); 7 missing Slavic relic slots render a styled placeholder, never blank. Card art embedded as raw JPEG q80, downsampled to 837 px (≈306 DPI at placed size) to stay under the ~60 MB ceiling (final fronts PDF ≈43 MB).
+- Card back design (D1): vector, site-styled (#0e0e12 + #d4af37), lattice + double-rule border + wordmark, six per-pantheon accent/glyph variants; emitted as `card-back.svg` + `card-back-<culture>.svg` in `public/print/`.
+- Board A3 + A4 landscape (vector seat zones, pillar/essence tracks, wheel, shared zones); rules booklet from `docs/GAME_RULES.md` (A5, cover + TOC + 13 sections + glossary, `multiBuild` TOC); reference sheets (wheel, trackers, keywords, synergies, cut-out tokens).
+- New `scripts/verify-pdfs.py`: pdfinfo (page size/pages/tools), pdffonts, gs render check, `pdfimages -list` (≥300 ppi), manifest front↔back slot identity + short-edge mirror; prints the verification table. All green.
+- New `/print` page (server component): `page-print` hero slot (banner prompt #25 added to `data/art-prompts.json`, ART_STYLES §9.1, check-prompts expected count), per-file cards with build-time sizes, card-back preview row, and full printing instructions (card stock, 100% scaling, short-edge duplex, crop marks, sleeving, board, saddle-stitch, sRGB/no-CMYK, font/native-script note). Added to More → Explore and the footer.
+- Fonts: base-14 only (site webfonts are woff2; conversion disallowed) — native-script names omitted rather than tofu. New `docs/PRINT.md` (regen, requirements, imposition, 300 DPI, troubleshooting).
+- Gates: `tsc --noEmit` / `npm run build` / `npm run validate` / `make-pdfs.py all` / `verify-pdfs.py` all green.
+- Worker: OpenCode deepseek-v4.1-flash-free (v2-phase7-print).
+
 ## Phase 5 (v2) — Unique-art enforcement + credit note — 2026-10-17
 - New `scripts/check-art-duplicates.mjs`: exact SHA-256 tier + perceptual dHash tier (64-bit, Hamming ≤5, confirmed by 16×16 MAD <1.0 to kill style-sibling false positives — calibration documented: true re-encodes = MAD 0, closest distinct pair MAD 3.0). Wired as `check:art`, appended to `validate`. Negative-tested: injected duplicate → exit 1; clean corpus (178 PNGs) → PASS, zero exact/near duplicates.
 - New `scripts/check-prompts.mjs` (`check:prompts`): field contract on all 184 items + 24 banners (subject/gender/appearance/pose/clothing/relics/setting/mood/composition/style/negative/filename). Negative-tested: dropped field → exit 1.

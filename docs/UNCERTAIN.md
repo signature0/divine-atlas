@@ -46,3 +46,9 @@ Anything the audit could not settle against well-established sources. Each item 
 ## Process notes
 - Dangling `major_myths` refs (greek 24, norse 2) were stripped, not authored — the referenced myths (Orion, Cassandra, Actaeon, Arachne, Trojan horse, Hrungnir, etc.) are candidates for Phase 4+ myth authoring if wanted.
 - Slavic `artifacts.json` missing entirely → Phase 4 fills it.
+
+## Phase 7 (print PDFs)
+- **Card imposition — "10-up (5×2) on A4" is geometrically impossible.** Five 63.5 mm cards need 317.5 mm of width before bleed; A4 is 210 mm wide (even the 3+3 shared bleed strip cannot reduce the pitch below 63.5 mm). `scripts/make-pdfs.py cards` therefore imposes **9-up (3×3) on A4**, the maximum true-size layout (190.5 × 266.4 mm grid, centred) and the print-shop standard. Documented in the script header and docs/PRINT.md. If a larger run is ever wanted, add an A3 5×2 variant (10-up fits A3) — not built here.
+- **Duplex wording — spec says "flip on short edge"; card printing guides insist portrait stock wants "long edge".** The backs sheet is imposed as a 180° in-place rotation of the front grid, which is the correct correction for a short-edge (short-axis) turn. The /print page and docs/PRINT.md give the short-edge instruction plus a troubleshooting note to try long edge if a printer's axes are labelled the other way. One test sheet decides it.
+- **No TTF in the repo → base-14 only.** Site fonts are self-hosted **woff2** (conversion disallowed: no new deps), so the PDFs use reportlab's built-in Helvetica / Times / Courier and **omit native-script names** (Greek/Japanese/cuneiform) rather than render tofu. Latin names, types, stats and set codes always print.
+- **`canvas.setPageCompressionLevel(9)` does not exist** in reportlab 5.0.1; `canvas.setPageCompression(1)` is used instead. Determinism comes from `rl_config.invariant = 1` (fixed 2000-01-01 metadata).
