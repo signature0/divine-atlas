@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import { allArtifacts } from '../lib/data';
+import { allArtifacts, allRelicCards } from '../lib/data';
+import type { RelicCard as RelicCardData } from '../lib/relic-card';
 import { TIER_LABELS, RANK_ORDER, TIER_ORDER, CATEGORY_LABELS, STATUS_LABELS, CONFIDENCE_LABELS } from '../lib/types';
 import { VaultClient } from './VaultClient';
 
@@ -79,6 +80,9 @@ function mapItem(a: Artifact): VaultItem {
 
 export default function VaultPage() {
   const items = allArtifacts().map(mapItem);
+  // Relic cards for the Cards layout (derived, serializable, deterministic).
+  const relicCards: Record<string, RelicCardData> = {};
+  for (const r of allRelicCards()) relicCards[r.id] = r;
   // culture facets present in the catalog
   const cultures = [...new Set(items.map((i) => i.culture))].sort();
   const categories = [...new Set(items.map((i) => i.category))].sort();
@@ -104,6 +108,7 @@ export default function VaultPage() {
         <Suspense fallback={<div className="muted" style={{ padding: '40px 0' }}>Opening the vault…</div>}>
           <VaultClient
             items={items}
+            relicCards={relicCards}
             cultures={cultures}
             categories={categories}
             tiers={tiers}

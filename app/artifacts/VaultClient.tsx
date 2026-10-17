@@ -1,23 +1,28 @@
 'use client';
-import { useMemo, useState, useEffect, useRef } from 'react';
+import { useCallback, useMemo, useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { RelicCard } from '../components/RelicCard';
+import type { RelicCard as RelicCardData } from '../lib/relic-card';
 import type { VaultItem } from './page';
 
 type Props = {
   items: VaultItem[];
+  relicCards: Record<string, RelicCardData>;
   cultures: string[];
   categories: string[];
   tiers: string[];
   owners: string[];
 };
 
+type VaultLayout = 'tiles' | 'cards';
+
 const CULTURE_LABELS: Record<string, string> = {
   japanese: 'Japanese', greek: 'Greek', norse: 'Norse',
   egyptian: 'Egyptian', slavic: 'Slavic', mesopotamian: 'Mesopotamian',
 };
 
-export function VaultClient({ items, cultures, categories, tiers, owners }: Props) {
+export function VaultClient({ items, relicCards, cultures, categories, tiers, owners }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const sp = useSearchParams();
@@ -29,6 +34,19 @@ export function VaultClient({ items, cultures, categories, tiers, owners }: Prop
   const [owner, setOwner] = useState(sp.get('owner') || 'all');
   const [q, setQ] = useState('');
   const [sort, setSort] = useState(sp.get('sort') || 'rank');
+
+  // layout mode (Tiles default), persisted client-side only — never during render
+  const [layout, setLayout] = useState<VaultLayout>('tiles');
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('vault-layout');
+      if (saved === 'tiles' || saved === 'cards') setLayout(saved);
+    } catch { /* localStorage may be unavailable */ }
+  }, []);
+  const chooseLayout = useCallback((l: VaultLayout) => {
+    setLayout(l);
+    try { localStorage.setItem('vault-layout', l); } catch { /* ignore */ }
+  }, []);
 
   // push filter state to the URL (replace, no history spam)
   useEffect(() => {
@@ -110,6 +128,23 @@ export function VaultClient({ items, cultures, categories, tiers, owners }: Prop
             <option value="confidence">Source confidence</option>
           </select>
         </label>
+        <div className="vault-layoutbar">
+          <span className="vault-flabel">View</span>
+          <div className="seg" role="radiogroup" aria-label="Vault layout">
+            {(['tiles', 'cards'] as VaultLayout[]).map((l) => (
+              <button
+                key={l}
+                type="button"
+                role="radio"
+                aria-checked={layout === l}
+                className={`seg-btn${layout === l ? ' active' : ''}`}
+                onClick={() => chooseLayout(l)}
+              >
+                {l === 'tiles' ? 'Tiles' : 'Cards'}
+              </button>
+            ))}
+          </div>
+        </div>
         {hasFilters && (
           <button className="chip-btn" onClick={clearAll}>Clear filters ✕</button>
         )}
@@ -121,6 +156,14 @@ export function VaultClient({ items, cultures, categories, tiers, owners }: Prop
       {filtered.length === 0 ? (
         <div className="vault-empty">
           No relics match. <button className="chip-btn" onClick={clearAll}>Clear filters</button>
+        </div>
+      ) : layout === 'cards' ? (
+        <div className="vault-cards-grid">
+          {filtered.map((i) => (
+            relicCards[i.id]
+              ? <RelicCard key={i.id} card={relicCards[i.id]} />
+              : <ArtifactCard key={i.id} item={i} />
+          ))}
         </div>
       ) : (
         <div className="vault-grid">

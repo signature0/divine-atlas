@@ -7,6 +7,7 @@ import {
   Uncertainty, SourceRef, Culture, CultureData, GraphData, Artifact,
 } from './types';
 import { deriveCard, DeityCard } from './card';
+import { deriveRelicCard, RelicCard } from './relic-card';
 
 export const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
 export const ALL_CULTURES = CULTURES;
@@ -136,6 +137,25 @@ export function artifactRelationships(artifactId: string): Relationship[] {
   if (!a) return [];
   const d = loadCulture(a.culture);
   return d.relationships.filter((r) => r.from === artifactId || r.to === artifactId);
+}
+
+// ---- Relic cards (Phase 4) — a VIEW over Artifact, never a new source of truth ----
+let _relicCards: RelicCard[] | null = null;
+/** Every artifact across every culture, as a relic card (culture-ordinal set_code). */
+export function allRelicCards(): RelicCard[] {
+  if (_relicCards) return _relicCards;
+  const out: RelicCard[] = [];
+  for (const c of CULTURES) {
+    loadCulture(c).artifacts.forEach((a, i) => out.push(deriveRelicCard(a, i + 1)));
+  }
+  _relicCards = out;
+  return _relicCards;
+}
+let _relicById: Map<string, RelicCard> | null = null;
+/** The relic card for one artifact id. */
+export function relicCardFor(id: string): RelicCard | undefined {
+  if (!_relicById) _relicById = new Map(allRelicCards().map((r) => [r.id, r]));
+  return _relicById.get(id);
 }
 
 // ---- Deity cards (ADR-004) — a VIEW over Entity, never a new source of truth ----

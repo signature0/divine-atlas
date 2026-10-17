@@ -42,14 +42,14 @@ export interface DeityCard {
 }
 
 // ---- deterministic hashing (stable across builds/machines) ----
-function hash32(s: string): number {
+export function hash32(s: string): number {
   let h = 2166136261;
   for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
   return h >>> 0;
 }
 // mulberry32 — a tiny deterministic PRNG, seeded so a given entity always rolls
 // the same stats.
-function mulberry(seed: number) {
+export function mulberry(seed: number) {
   let a = seed;
   return () => {
     a |= 0; a = (a + 0x6d2b79f5) | 0;
@@ -122,7 +122,7 @@ export function statsOf(id: string, c: Classification): CardStats {
   return { power, guard, essence };
 }
 
-const CURRENCY: Record<string, string> = {
+export const CURRENCY: Record<string, string> = {
   japanese: 'JPN', greek: 'GRE', norse: 'NOR', egyptian: 'EGY', slavic: 'SLA', mesopotamian: 'MES',
 };
 

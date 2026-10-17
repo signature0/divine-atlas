@@ -4,13 +4,14 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
   loadCulture, ALL_CULTURES, artifactBySlug, entityById,
-  artifactsForMyth, artifactRelationships,
+  artifactsForMyth, artifactRelationships, relicCardFor,
 } from '../../lib/data';
 import {
   TIER_LABELS, CATEGORY_LABELS, STATUS_LABELS, CONFIDENCE_LABELS, CONFIDENCE_NOTES,
   CULTURE_NAMES,
 } from '../../lib/types';
 import { SourceFootnote } from '../../components/SourceFootnote';
+import { RelicCard } from '../../components/RelicCard';
 
 export function generateStaticParams() {
   const slugs: string[] = [];
@@ -37,6 +38,7 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
   const d = loadCulture(a.culture);
   const rels = artifactRelationships(a.id);
   const cultureLabel = CULTURE_NAMES[a.culture] || a.culture;
+  const relic = relicCardFor(a.id);
 
   return (
     <div data-culture={a.culture}>
@@ -196,6 +198,16 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
 
           {/* RAIL */}
           <aside className="art-rail">
+            {/* Relic card callout (Phase 4) */}
+            {relic && (
+              <div className="rel-callout">
+                <RelicCard card={relic} />
+                <p className="rel-callout-disc mono">
+                  Card stats are interpretive, derived from the Atlas power profile.
+                </p>
+              </div>
+            )}
+
             <div className="class-block">
               <div className="mono" style={{ fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--ink-2)' }}>Atlas Classification</div>
               <div className="class-tier">{TIER_LABELS[a.tier]}</div>
