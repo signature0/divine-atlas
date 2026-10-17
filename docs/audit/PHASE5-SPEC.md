@@ -43,3 +43,24 @@ New: `app/how-to-play/page.tsx`, `app/how-to-play/board/page.tsx`, `app/play/pag
 3. `npm run validate` → ✓ no errors
 
 Reply DONE when all three pass, or list what still fails.
+
+## Addendum — environment pitfalls (read before coding)
+- `app/lib/data.ts` is BUILD-TIME (fs.readFileSync). A client component cannot import it.
+  `/play` needs the card pool at RUNTIME. Required bridge:
+  1. `scripts/gen-duel-data.ts` (run with `npx tsx`): imports `allCards()` and builds the
+     entity→relic attach map from `artifactsForEntity`, writes `public/duel-deck.json`
+     shaped `{ _meta, cards: ResolvedCard[], relics: Record<entityId, {slug,name}[]> }`.
+  2. `app/lib/pantheon-data.ts`: fs-free store — `setDuelDeck(cards, relics)`,
+     `duelDeckReady()`, `duelCard(id)`, `duelAllCards()`, `duelRelicsForEntity(id)`.
+  3. `app/lib/pantheon.ts` (engine) reads cards ONLY through `pantheon-data.ts`.
+  4. `DuelClient` fetches `/duel-deck.json` in useEffect → `setDuelDeck` → render duel.
+     Loading line until ready; error line on fetch failure.
+- Server components cannot have onClick: the board page's print button must be a separate
+  tiny `'use client'` component calling `window.print()`.
+- Engine purity is strict: no React, no Date.now, no Math.random, no module-level mutable
+  state. UIDs from a counter INSIDE state. Undo = replay action log minus last.
+- Deck legality: script-check that EVERY culture can build a legal deck under your rarity
+  rule before fixing DECK_SIZE (pool ~26/culture; 30 may be illegal — verify, adjust).
+- Mulligan/draw: be consistent which array end is the deck top; dumping hand to bottom must
+  not redraw the same cards.
+- Do NOT run git add/commit. Leave changes in the working tree.

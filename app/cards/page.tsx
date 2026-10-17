@@ -38,6 +38,7 @@ export default function CardsPage() {
           </p>
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 26 }}>
             <a href="#deck" className="btn">Browse the deck ↓</a>
+            <Link href="/how-to-play" className="btn">How to play</Link>
             <Link href="/cards/print" className="btn">Open print sheet</Link>
             <Link href="/artifacts" className="btn">The Vault</Link>
           </div>

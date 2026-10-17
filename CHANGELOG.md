@@ -25,3 +25,29 @@ Authored by OpenCode worker (DeepSeek V4.1 Flash-free), QA'd by the orchestrator
   the button toggled flip, click toggled back) — handlers moved to `.rc-flip-inner`.
 - Vision QA: front frame coherent and distinct from deity cards; back face clean,
   no clipping. tsc / build (723 pages) / validate all green.
+## Phase 5 — Pantheon card game (2026-10-17)
+
+Authored by OpenCode worker (DeepSeek V4.1 Flash-free, session ses_eb720ac0), QA'd by the orchestrator.
+
+- **Engine** `app/lib/pantheon.ts` (552 lines): pure deterministic reducer — mulberry32
+  PRNG from one numeric seed, uid counter inside state, undo = replay log minus last.
+  No React/Date.now/Math.random (audited). Pillars 20 HP, channel-only essence (+2 once
+  per turn, cap 12), summoning sickness, intercept exchange, deck-out reshuffles discard,
+  hand limit 7 (newest-end upkeep discard), DECK_SIZE 24 (Slavic pool caps legal decks
+  at 26 — worker script-verified), one-sided combat, pillar damage = base PWR.
+  Six culture synergies (Greek first-turn essence, Norse/Slavic domain GRD, Japanese
+  sky-domain PWR, Egyptian relic cost, Mesopotamian primordial cost).
+- **Data bridge**: `scripts/gen-duel-data.ts` → `public/duel-deck.json` (260 KB) →
+  `app/lib/pantheon-data.ts` fs-free accessors; DuelClient fetches at runtime.
+- **Pages**: `/how-to-play` (rules + wheel SVG + print rulebook), `/how-to-play/board`
+  (SVG dueling mat, print-isolated, h1 added in QA fix), `/play` (hot-seat duel: seed
+  input, phase strip, handoff curtain, pending-intercept region, undo, aria-live log,
+  win alertdialog).
+- **Tests** `scripts/enginetest.ts`: 15 pass — 6-culture deck legality, determinism,
+  channel gating, undo/replay, element wheel, 20-seed self-play termination, full-game
+  replay identity.
+- **QA**: Playwright v2 (21 checks: gating, handoff, overflow, zero errors) + v3 scripted
+  loop drove a real duel to "P1 topples the Cosmic Pillar, turn 7" through the UI.
+  Vision pass: nav "NORS" clipping was a misread (programmatic check: all 12 links
+  unclipped). One a11y defect found+fixed by worker: board page had no h1.
+- tsc / build (726 pages) / validate green on orchestrator's own clean-tree run.

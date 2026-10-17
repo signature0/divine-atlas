@@ -13,6 +13,7 @@ export function TopNav() {
         <SearchTrigger />
         <div className="links">
           <Link href="/cards">Deck</Link>
+          <Link href="/how-to-play">Play</Link>
           <Link href="/artifacts">Vault</Link>
           <Link href="/graph">Graph</Link>
           {/* DES-003: IA primary links. Map/Timeline stay out — still BACKLOG (TASK-003/006); no dead labels. */}
