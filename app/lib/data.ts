@@ -6,9 +6,9 @@ import {
   Entity, Relationship, Myth, Cosmology, Artwork, TimelineEvent,
   Uncertainty, SourceRef, Culture, CultureData, GraphData, Artifact,
 } from './types';
-import { deriveCard, DeityCard, artSlotPath } from './card';
+import { deriveCard, DeityCard } from './card';
 import { deriveRelicCard, RelicCard } from './relic-card';
-import { artSlotExists, GENERATED_ART_CREDIT } from './art-slot';
+import { artSlotUrl, GENERATED_ART_CREDIT } from './art-slot';
 
 export const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
 export const ALL_CULTURES = CULTURES;
@@ -195,7 +195,7 @@ export function allCards(): ResolvedCard[] {
       // existing behaviour: the archival artwork from data, with its museum
       // credit; else null → the card face's letter fallback. Generated art gets
       // an honest "generated reconstruction" credit, never an institution.
-      const slotUrl = artSlotExists(e.culture, e.id) ? artSlotPath(e.culture, e.id) : null;
+      const slotUrl = artSlotUrl(e.culture, e.id);
       out.push({
         ...base,
         image_url: slotUrl || art?.image_url || null,

@@ -1,5 +1,13 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 9 (v2) — Full QA sweep + `docs/FINAL_REPORT.md` — 2026-10-17
+- New `scripts/static-server.mjs` (dependency-free clean-URL server for `out/`) + `scripts/qa-sweep-v2.mjs` (723 routes × 380/1440 = 1446 loads; links, images, perf, a11y, contrast, print). Final sweep: 0 console errors, 0 failed requests, 0 broken links, 0 overflow, 0 oversized inline assets, 0 no-alt images, 0 contrast failures. Evidence: `qa/evidence/PHASE9-sweep-*.{json,md}`.
+- Perf fix: new `scripts/optimize-art.py` + `npm run optimize:art` wrote **177 `.webp`** siblings (PNG 508.7 MB → WebP 52.9 MB); `app/lib/art-slot.ts#artSlotUrl` prefers `.webp` then `.png` (wired via `data.ts` + `relic-card.ts`; `.png` stays canonical for prompts/PDF/dup-gate). `bigAssets 176 → 0`.
+- Data fix: `gre-art-hades-persephone-relief` image `DP2034.jpg` was HTTP 404 → retargeted to the same Met object's **CC0 Open Access mirror** on Wikimedia Commons; all **169** artwork `image_url`s validated (0 non-200).
+- Harness fixes: lazy-image classification (eager + poll-to-complete) and `color(srgb r g b / a)` contrast parsing with alpha compositing.
+- New `docs/FINAL_REPORT.md` (9 required sections). D2 gates all green: tsc · gen-duel-data (158/35) · enginetest (23 passed) · build (727 pages) · validate · check:art (177 PNG, 0 dup) · check:prompts (184/25) · make-pdfs all · verify-pdfs (29 checks, ≥306 DPI).
+- Worker: OpenCode deepseek-v4.1-flash-free (v2-phase9-qa).
+
 ## Phase 7 (v2) — Print-ready PDFs + /print page — 2026-10-17
 - New `scripts/make-pdfs.py` (python3 + reportlab + Pillow, **no new deps**): argparse subcommands `cards|board|rules|tokens|all`, deterministic (`rl_config.invariant=1`). Card faces 63.5×88.8 mm + 3 mm bleed, 9-up A4 (**10-up 5×2 on A4 is geometrically impossible** — documented in the script header + UNCERTAIN.md), crop marks, fronts/backs sheets imposed for short-edge duplex (back grid = 180° in-place rotation); 7 missing Slavic relic slots render a styled placeholder, never blank. Card art embedded as raw JPEG q80, downsampled to 837 px (≈306 DPI at placed size) to stay under the ~60 MB ceiling (final fronts PDF ≈43 MB).
 - Card back design (D1): vector, site-styled (#0e0e12 + #d4af37), lattice + double-rule border + wordmark, six per-pantheon accent/glyph variants; emitted as `card-back.svg` + `card-back-<culture>.svg` in `public/print/`.

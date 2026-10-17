@@ -16,18 +16,35 @@
 // never requests a missing image.
 import fs from 'fs';
 import path from 'path';
-import { artSlotPath } from './card';
+import { artSlotPath, artSlotWebPath } from './card';
 
 // Generated art is NOT archival: this credit never claims a museum institution.
 export const GENERATED_ART_CREDIT = 'generated reconstruction · The Divine Atlas';
 
-/** True when the deterministic generated PNG for a card exists on disk at build time. */
-export function artSlotExists(culture: string, id: string): boolean {
-  const webPath = artSlotPath(culture, id); // /cards/<culture>/<culture>-<id>.png
+function fileExists(webPath: string): boolean {
   const filePath = path.join(process.cwd(), 'public', webPath.replace(/^\//, ''));
   try {
     return fs.existsSync(filePath);
   } catch {
     return false;
   }
+}
+
+/** True when the deterministic generated PNG for a card exists on disk at build time. */
+export function artSlotExists(culture: string, id: string): boolean {
+  return fileExists(artSlotPath(culture, id));
+}
+
+/**
+ * The generated-art URL for a card, or null when no generated art exists.
+ * Prefers the WebP sibling written by scripts/optimize-art.py (inline-asset
+ * budget, Phase 9) and falls back to the canonical PNG. Returns null so a build
+ * without public/cards/ falls through to archival art / the letter fallback.
+ */
+export function artSlotUrl(culture: string, id: string): string | null {
+  const webp = artSlotWebPath(culture, id);
+  if (fileExists(webp)) return webp;
+  const png = artSlotPath(culture, id);
+  if (fileExists(png)) return png;
+  return null;
 }

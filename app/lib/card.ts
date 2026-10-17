@@ -148,6 +148,15 @@ export function artSlotPath(culture: string, id: string): string {
   return `/cards/${culture}/${culture}-${id}.png`;
 }
 
+/**
+ * The optimised sibling slot for `artSlotPath` (v2 Phase 9): the same art
+ * re-encoded to WebP by scripts/optimize-art.py. Pure path builder; the
+ * build-time existence preference lives in app/lib/art-slot.ts.
+ */
+export function artSlotWebPath(culture: string, id: string): string {
+  return `/cards/${culture}/${culture}-${id}.webp`;
+}
+
 /** Derive the card for one entity. `index` is the deity's ordinal within its culture (1-based). */
 export function deriveCard(e: Entity, index: number): DeityCard {
   const element = elementOf(e.domains);

@@ -9,6 +9,7 @@
     "validate": "node scripts/validate.mjs && npm run check:art",
     "check:art": "node scripts/check-art-duplicates.mjs",
     "check:prompts": "node scripts/check-prompts.mjs",
+    "optimize:art": "python3 scripts/optimize-art.py",
     "integrate": "node scripts/integrate.mjs"
   },
   "dependencies": {

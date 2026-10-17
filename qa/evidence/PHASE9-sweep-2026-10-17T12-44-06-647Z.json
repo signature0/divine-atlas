@@ -1,0 +1,3014 @@
+{
+ "summary": {
+  "ts": "2026-10-17T12-44-06-647Z",
+  "base": "http://localhost:8899",
+  "routes": 723,
+  "viewports": [
+   "380",
+   "1440"
+  ],
+  "pageLoads": 1446,
+  "http200": 1446,
+  "hardFailRoutes": 0,
+  "consoleErrorRoutes": 0,
+  "localFailedReqRoutes": 0,
+  "overflowRoutes": 0,
+  "brokenLinks": 0,
+  "bigAssets": 176,
+  "imagePages": 15,
+  "imageLocalBroken": 27,
+  "imageRemoteBroken": 81,
+  "imagesNoAlt": 0,
+  "contrastFails": 9
+ },
+ "verdict": "PASS",
+ "routesChecked": [
+  "/",
+  "/about",
+  "/artifacts",
+  "/artifacts/aegis",
+  "/artifacts/ame-no-nuboko",
+  "/artifacts/ankh",
+  "/artifacts/brisingamen",
+  "/artifacts/draupnir",
+  "/artifacts/gjallarhorn",
+  "/artifacts/gungnir",
+  "/artifacts/hades-helmet",
+  "/artifacts/heka",
+  "/artifacts/hermes-caduceus",
+  "/artifacts/jarilos-green-oak-branch",
+  "/artifacts/kusanagi-no-tsurugi",
+  "/artifacts/mjolnir",
+  "/artifacts/mokosh-spindle",
+  "/artifacts/morana-straw-effigy",
+  "/artifacts/perun-thunderbolt-axe",
+  "/artifacts/peruns-rain-belt",
+  "/artifacts/poseidon-trident",
+  "/artifacts/pschent",
+  "/artifacts/skidbladnir",
+  "/artifacts/svarogs-smith-tongs",
+  "/artifacts/tablets-of-fate",
+  "/artifacts/veles-shapeshift-horns",
+  "/artifacts/yasakani-no-magatama",
+  "/artifacts/yata-no-kagami",
+  "/artifacts/zeus-thunderbolt",
+  "/cards",
+  "/cards/egy-amun",
+  "/cards/egy-anubis",
+  "/cards/egy-apep",
+  "/cards/egy-aur",
+  "/cards/egy-bastet",
+  "/cards/egy-gebel",
+  "/cards/egy-hathor",
+  "/cards/egy-horus",
+  "/cards/egy-horus-elder",
+  "/cards/egy-isfet",
+  "/cards/egy-nephthys",
+  "/cards/egy-nun",
+  "/cards/egy-nut",
+  "/cards/egy-ogdoad-heh",
+  "/cards/egy-ogdoad-khnum",
+  "/cards/egy-ogdoad-nun",
+  "/cards/egy-ogdoad-sat",
+  "/cards/egy-osiris",
+  "/cards/egy-ptah",
+  "/cards/egy-ra",
+  "/cards/egy-sekhemet",
+  "/cards/egy-set",
+  "/cards/egy-shu",
+  "/cards/egy-tefnut",
+  "/cards/egy-thoth",
+  "/cards/gre-alcmena",
+  "/cards/gre-andromeda",
+  "/cards/gre-aphrodite",
+  "/cards/gre-apollo",
+  "/cards/gre-ares",
+  "/cards/gre-artemis",
+  "/cards/gre-athena",
+  "/cards/gre-atlas",
+  "/cards/gre-cerberus",
+  "/cards/gre-chaos",
+  "/cards/gre-cronus",
+  "/cards/gre-danae",
+  "/cards/gre-demeter",
+  "/cards/gre-dionysus",
+  "/cards/gre-echidna",
+  "/cards/gre-eros",
+  "/cards/gre-gaia",
+  "/cards/gre-hades",
+  "/cards/gre-hebe",
+  "/cards/gre-hephaestus",
+  "/cards/gre-hera",
+  "/cards/gre-heracles",
+  "/cards/gre-hermes",
+  "/cards/gre-hestia",
+  "/cards/gre-let-o",
+  "/cards/gre-maia",
+  "/cards/gre-medusa",
+  "/cards/gre-metis",
+  "/cards/gre-oceanus",
+  "/cards/gre-odysseus",
+  "/cards/gre-ouranos",
+  "/cards/gre-penelope",
+  "/cards/gre-persephone",
+  "/cards/gre-perseus",
+  "/cards/gre-poseidon",
+  "/cards/gre-rhea",
+  "/cards/gre-semele",
+  "/cards/gre-telemachus",
+  "/cards/gre-tethys",
+  "/cards/gre-typhon",
+  "/cards/gre-zeus",
+  "/cards/jpn-amaterasu",
+  "/cards/jpn-ameno-uzume",
+  "/cards/jpn-amenominakanushi",
+  "/cards/jpn-hooroni",
+  "/cards/jpn-inari",
+  "/cards/jpn-izananagi",
+  "/cards/jpn-izananami",
+  "/cards/jpn-kagutsuchi",
+  "/cards/jpn-kamimusubi",
+  "/cards/jpn-konohanasakuhana",
+  "/cards/jpn-kotohikone",
+  "/cards/jpn-kushiinadahime",
+  "/cards/jpn-ninigi",
+  "/cards/jpn-okuninushi",
+  "/cards/jpn-sarutahiko",
+  "/cards/jpn-susanoo",
+  "/cards/jpn-takemikazuchi",
+  "/cards/jpn-toyotama",
+  "/cards/jpn-tsurugumo",
+  "/cards/jpn-yamata-no-orochi",
+  "/cards/jpn-yamato-takeru",
+  "/cards/mes-abzu",
+  "/cards/mes-antum",
+  "/cards/mes-apas",
+  "/cards/mes-enki",
+  "/cards/mes-enlil",
+  "/cards/mes-erishkigal",
+  "/cards/mes-inanna",
+  "/cards/mes-ki",
+  "/cards/mes-kingu",
+  "/cards/mes-marduk",
+  "/cards/mes-nabu",
+  "/cards/mes-nanna",
+  "/cards/mes-nergal",
+  "/cards/mes-ninagal",
+  "/cards/mes-ninhursag",
+  "/cards/mes-ninlil",
+  "/cards/mes-tiamat",
+  "/cards/mes-utu",
+  "/cards/nor-anguela",
+  "/cards/nor-aurdhumbla",
+  "/cards/nor-baldr",
+  "/cards/nor-bestla",
+  "/cards/nor-borr",
+  "/cards/nor-burir",
+  "/cards/nor-fenrir",
+  "/cards/nor-forseti",
+  "/cards/nor-freyja",
+  "/cards/nor-freyr",
+  "/cards/nor-frigg",
+  "/cards/nor-gerd",
+  "/cards/nor-ginnungagap",
+  "/cards/nor-heimdall",
+  "/cards/nor-hel",
+  "/cards/nor-hodr",
+  "/cards/nor-hrungnir",
+  "/cards/nor-jarnsaxa",
+  "/cards/nor-jormungandr",
+  "/cards/nor-loomi",
+  "/cards/nor-magni",
+  "/cards/nor-modi",
+  "/cards/nor-muspel",
+  "/cards/nor-nanna",
+  "/cards/nor-niflheim",
+  "/cards/nor-nyrd",
+  "/cards/nor-odin",
+  "/cards/nor-sid",
+  "/cards/nor-sif",
+  "/cards/nor-ska",
+  "/cards/nor-sleipnir",
+  "/cards/nor-surt",
+  "/cards/nor-thor",
+  "/cards/nor-tyr",
+  "/cards/nor-uthra",
+  "/cards/nor-vali",
+  "/cards/nor-ve",
+  "/cards/nor-vidar",
+  "/cards/nor-vili",
+  "/cards/nor-ymir",
+  "/cards/print",
+  "/cards/slv-cherd",
+  "/cards/slv-dazhbog",
+  "/cards/slv-jarilo",
+  "/cards/slv-khors",
+  "/cards/slv-lada",
+  "/cards/slv-mokosh",
+  "/cards/slv-morana",
+  "/cards/slv-nebo",
+  "/cards/slv-perun",
+  "/cards/slv-stribog",
+  "/cards/slv-svarog",
+  "/cards/slv-veles",
+  "/cards/slv-zorya",
+  "/compare",
+  "/culture/egyptian",
+  "/culture/greek",
+  "/culture/japanese",
+  "/culture/mesopotamian",
+  "/culture/norse",
+  "/culture/slavic",
+  "/deity/egy-amun",
+  "/deity/egy-anubis",
+  "/deity/egy-apep",
+  "/deity/egy-aur",
+  "/deity/egy-bastet",
+  "/deity/egy-gebel",
+  "/deity/egy-hathor",
+  "/deity/egy-horus",
+  "/deity/egy-horus-elder",
+  "/deity/egy-isfet",
+  "/deity/egy-nephthys",
+  "/deity/egy-nun",
+  "/deity/egy-nut",
+  "/deity/egy-ogdoad-heh",
+  "/deity/egy-ogdoad-khnum",
+  "/deity/egy-ogdoad-nun",
+  "/deity/egy-ogdoad-sat",
+  "/deity/egy-osiris",
+  "/deity/egy-ptah",
+  "/deity/egy-ra",
+  "/deity/egy-sekhemet",
+  "/deity/egy-set",
+  "/deity/egy-shu",
+  "/deity/egy-tefnut",
+  "/deity/egy-thoth",
+  "/deity/gre-alcmena",
+  "/deity/gre-andromeda",
+  "/deity/gre-aphrodite",
+  "/deity/gre-apollo",
+  "/deity/gre-ares",
+  "/deity/gre-artemis",
+  "/deity/gre-athena",
+  "/deity/gre-atlas",
+  "/deity/gre-cerberus",
+  "/deity/gre-chaos",
+  "/deity/gre-cronus",
+  "/deity/gre-danae",
+  "/deity/gre-demeter",
+  "/deity/gre-dionysus",
+  "/deity/gre-echidna",
+  "/deity/gre-eros",
+  "/deity/gre-gaia",
+  "/deity/gre-hades",
+  "/deity/gre-hebe",
+  "/deity/gre-hephaestus",
+  "/deity/gre-hera",
+  "/deity/gre-heracles",
+  "/deity/gre-hermes",
+  "/deity/gre-hestia",
+  "/deity/gre-let-o",
+  "/deity/gre-maia",
+  "/deity/gre-medusa",
+  "/deity/gre-metis",
+  "/deity/gre-oceanus",
+  "/deity/gre-odysseus",
+  "/deity/gre-ouranos",
+  "/deity/gre-penelope",
+  "/deity/gre-persephone",
+  "/deity/gre-perseus",
+  "/deity/gre-poseidon",
+  "/deity/gre-rhea",
+  "/deity/gre-semele",
+  "/deity/gre-telemachus",
+  "/deity/gre-tethys",
+  "/deity/gre-typhon",
+  "/deity/gre-zeus",
+  "/deity/jpn-amaterasu",
+  "/deity/jpn-ameno-uzume",
+  "/deity/jpn-amenominakanushi",
+  "/deity/jpn-hooroni",
+  "/deity/jpn-inari",
+  "/deity/jpn-izananagi",
+  "/deity/jpn-izananami",
+  "/deity/jpn-kagutsuchi",
+  "/deity/jpn-kamimusubi",
+  "/deity/jpn-konohanasakuhana",
+  "/deity/jpn-kotohikone",
+  "/deity/jpn-kushiinadahime",
+  "/deity/jpn-ninigi",
+  "/deity/jpn-okuninushi",
+  "/deity/jpn-sarutahiko",
+  "/deity/jpn-susanoo",
+  "/deity/jpn-takemikazuchi",
+  "/deity/jpn-toyotama",
+  "/deity/jpn-tsurugumo",
+  "/deity/jpn-yamata-no-orochi",
+  "/deity/jpn-yamato-takeru",
+  "/deity/mes-abzu",
+  "/deity/mes-antum",
+  "/deity/mes-apas",
+  "/deity/mes-enki",
+  "/deity/mes-enlil",
+  "/deity/mes-erishkigal",
+  "/deity/mes-inanna",
+  "/deity/mes-ki",
+  "/deity/mes-kingu",
+  "/deity/mes-marduk",
+  "/deity/mes-nabu",
+  "/deity/mes-nanna",
+  "/deity/mes-nergal",
+  "/deity/mes-ninagal",
+  "/deity/mes-ninhursag",
+  "/deity/mes-ninlil",
+  "/deity/mes-tiamat",
+  "/deity/mes-utu",
+  "/deity/nor-anguela",
+  "/deity/nor-aurdhumbla",
+  "/deity/nor-baldr",
+  "/deity/nor-bestla",
+  "/deity/nor-borr",
+  "/deity/nor-burir",
+  "/deity/nor-fenrir",
+  "/deity/nor-forseti",
+  "/deity/nor-freyja",
+  "/deity/nor-freyr",
+  "/deity/nor-frigg",
+  "/deity/nor-gerd",
+  "/deity/nor-ginnungagap",
+  "/deity/nor-heimdall",
+  "/deity/nor-hel",
+  "/deity/nor-hodr",
+  "/deity/nor-hrungnir",
+  "/deity/nor-jarnsaxa",
+  "/deity/nor-jormungandr",
+  "/deity/nor-loomi",
+  "/deity/nor-magni",
+  "/deity/nor-modi",
+  "/deity/nor-muspel",
+  "/deity/nor-nanna",
+  "/deity/nor-niflheim",
+  "/deity/nor-nyrd",
+  "/deity/nor-odin",
+  "/deity/nor-sid",
+  "/deity/nor-sif",
+  "/deity/nor-ska",
+  "/deity/nor-sleipnir",
+  "/deity/nor-surt",
+  "/deity/nor-thor",
+  "/deity/nor-tyr",
+  "/deity/nor-uthra",
+  "/deity/nor-vali",
+  "/deity/nor-ve",
+  "/deity/nor-vidar",
+  "/deity/nor-vili",
+  "/deity/nor-ymir",
+  "/deity/slv-cherd",
+  "/deity/slv-dazhbog",
+  "/deity/slv-jarilo",
+  "/deity/slv-khors",
+  "/deity/slv-lada",
+  "/deity/slv-mokosh",
+  "/deity/slv-morana",
+  "/deity/slv-nebo",
+  "/deity/slv-perun",
+  "/deity/slv-stribog",
+  "/deity/slv-svarog",
+  "/deity/slv-veles",
+  "/deity/slv-zorya",
+  "/domain/agriculture",
+  "/domain/alliance",
+  "/domain/archery",
+  "/domain/beauty",
+  "/domain/birth",
+  "/domain/blossom",
+  "/domain/calm-winds",
+  "/domain/cats",
+  "/domain/cattle",
+  "/domain/chaos",
+  "/domain/chaos-the-pre-creation-state",
+  "/domain/chaos-the-primordial-state",
+  "/domain/city",
+  "/domain/cold",
+  "/domain/commerce",
+  "/domain/counsel",
+  "/domain/craft",
+  "/domain/crafts",
+  "/domain/creation",
+  "/domain/creation-in-later-periods",
+  "/domain/crossroads",
+  "/domain/cunning",
+  "/domain/dance",
+  "/domain/death",
+  "/domain/desire",
+  "/domain/desire-primordial",
+  "/domain/divinity",
+  "/domain/domesticity",
+  "/domain/earth",
+  "/domain/earthquakes",
+  "/domain/ecstasy",
+  "/domain/fate-the-moon-god-decrees-fates",
+  "/domain/fertility",
+  "/domain/fidelity",
+  "/domain/fidelity-as-patron",
+  "/domain/fire",
+  "/domain/fire-in-some-accounts",
+  "/domain/fire-the-sacred-flame",
+  "/domain/flowers",
+  "/domain/foxes",
+  "/domain/guidance",
+  "/domain/guiding-the-dead",
+  "/domain/harvest",
+  "/domain/healing",
+  "/domain/hearth",
+  "/domain/heat",
+  "/domain/heaven",
+  "/domain/heavenly-descent",
+  "/domain/hero",
+  "/domain/heroism",
+  "/domain/high-heaven",
+  "/domain/horses",
+  "/domain/ice",
+  "/domain/imperial-ancestry",
+  "/domain/izumo",
+  "/domain/joy",
+  "/domain/justice",
+  "/domain/king-of-the-gods",
+  "/domain/king-of-the-gods-akkadian-babylonian-period",
+  "/domain/king-of-the-gods-babylonian-period",
+  "/domain/kingship",
+  "/domain/law",
+  "/domain/light",
+  "/domain/lightning",
+  "/domain/love",
+  "/domain/magic",
+  "/domain/marriage",
+  "/domain/medicine",
+  "/domain/messengers",
+  "/domain/moisture",
+  "/domain/monster",
+  "/domain/moon",
+  "/domain/mother-of-hermes",
+  "/domain/motherhood",
+  "/domain/motherhood-as-mother-of-apollo-artemis",
+  "/domain/mountain",
+  "/domain/music",
+  "/domain/night",
+  "/domain/oaths",
+  "/domain/one-of-the-three-brothers-who-made-the-world",
+  "/domain/order",
+  "/domain/origin",
+  "/domain/peace",
+  "/domain/poetry",
+  "/domain/primordial-darkness",
+  "/domain/primordial-hiddenness-air",
+  "/domain/primordial-infinity-hermopolitan-account",
+  "/domain/prophecy",
+  "/domain/prosperity",
+  "/domain/purification",
+  "/domain/purity",
+  "/domain/rain",
+  "/domain/reason",
+  "/domain/reconciliation",
+  "/domain/resurrection",
+  "/domain/rice",
+  "/domain/rule",
+  "/domain/rulership",
+  "/domain/sacrifice",
+  "/domain/sailing",
+  "/domain/sea",
+  "/domain/sei-r-magic",
+  "/domain/serpent",
+  "/domain/sex",
+  "/domain/sexuality",
+  "/domain/silence",
+  "/domain/skiing",
+  "/domain/sky",
+  "/domain/smithing",
+  "/domain/spring",
+  "/domain/storm",
+  "/domain/storms",
+  "/domain/strength",
+  "/domain/sun",
+  "/domain/sun-later",
+  "/domain/the-afterlife",
+  "/domain/the-air",
+  "/domain/the-ancestor-of-the-gods",
+  "/domain/the-apku-the-sage",
+  "/domain/the-archer",
+  "/domain/the-atmosphere",
+  "/domain/the-avenger",
+  "/domain/the-avenger-of-baldr",
+  "/domain/the-blind-brother-of-baldr",
+  "/domain/the-boundary",
+  "/domain/the-breath-of-the-sky",
+  "/domain/the-breath-of-the-world",
+  "/domain/the-calendar",
+  "/domain/the-cold",
+  "/domain/the-consort-of-an",
+  "/domain/the-contest-sword",
+  "/domain/the-country",
+  "/domain/the-craftsman-god",
+  "/domain/the-crown-his-title-he-holds-the-tablet-of-destinies",
+  "/domain/the-cup-bearer-of-the-gods",
+  "/domain/the-dark",
+  "/domain/the-dawn",
+  "/domain/the-day",
+  "/domain/the-daylight",
+  "/domain/the-dead",
+  "/domain/the-deep",
+  "/domain/the-desert",
+  "/domain/the-destruction",
+  "/domain/the-devil-a-christianization-of-the-underworld-god",
+  "/domain/the-devoured-daughters",
+  "/domain/the-drowning-of-marzanna-the-winter-ritual",
+  "/domain/the-earth",
+  "/domain/the-eight-legged-horse-of-odin",
+  "/domain/the-elder-sky-falcon",
+  "/domain/the-end-of-the-world",
+  "/domain/the-enemy-of-the-sun",
+  "/domain/the-faithful-wife-of-odysseus",
+  "/domain/the-falcon",
+  "/domain/the-fate-the-spinning-of-destiny",
+  "/domain/the-fertile-earth",
+  "/domain/the-fire-giant",
+  "/domain/the-first-divine-pair-with-shu",
+  "/domain/the-first-divine-pair-with-tefnut",
+  "/domain/the-first-god",
+  "/domain/the-flood-in-the-enuma-elish",
+  "/domain/the-foreigner",
+  "/domain/the-forge",
+  "/domain/the-freshwater",
+  "/domain/the-general-of-tiamat-s-army",
+  "/domain/the-gentle-moon",
+  "/domain/the-giant-of-the-iron-head",
+  "/domain/the-giantess-beloved-of-freyr",
+  "/domain/the-giantess-mother-of-the-gods",
+  "/domain/the-giantess-mother-of-the-monsters",
+  "/domain/the-giantess-mother-of-thor-s-sons",
+  "/domain/the-giver-of-light-his-name-means-day-god-or-light-god",
+  "/domain/the-gorgon",
+  "/domain/the-grain",
+  "/domain/the-great-monster",
+  "/domain/the-great-wolf",
+  "/domain/the-great-world-river",
+  "/domain/the-ground",
+  "/domain/the-guardian-of-the-underworld",
+  "/domain/the-heavens",
+  "/domain/the-hero-slayer-of-monsters",
+  "/domain/the-hidden-one",
+  "/domain/the-highest-heaven",
+  "/domain/the-home",
+  "/domain/the-household",
+  "/domain/the-hunt",
+  "/domain/the-huntress",
+  "/domain/the-imperial-line",
+  "/domain/the-journey-home",
+  "/domain/the-judge-of-the-dead",
+  "/domain/the-king-of-the-gods",
+  "/domain/the-kupala-night-the-midsummer-solstice",
+  "/domain/the-lada-the-beloved",
+  "/domain/the-land",
+  "/domain/the-light",
+  "/domain/the-light-of-enlil",
+  "/domain/the-light-of-the-moon",
+  "/domain/the-light-that-reveals-the-truth",
+  "/domain/the-lord-of-the-netherworld",
+  "/domain/the-lower-world-in-some-accounts",
+  "/domain/the-lure-of-the-sun",
+  "/domain/the-me-the-divine-decrees",
+  "/domain/the-middle-land",
+  "/domain/the-mistress-of-the-mountains",
+  "/domain/the-monster-mother",
+  "/domain/the-moon",
+  "/domain/the-moon-as-consort-of-enlil",
+  "/domain/the-moon-as-consort-of-nanna",
+  "/domain/the-moon-later",
+  "/domain/the-morning-evening-star-venus",
+  "/domain/the-morning-star-venus",
+  "/domain/the-mortal-mother-of-dionysus",
+  "/domain/the-mortal-mother-of-heracles",
+  "/domain/the-mortal-mother-of-perseus",
+  "/domain/the-mother-of-rivers",
+  "/domain/the-mother-of-the-gods",
+  "/domain/the-mountains",
+  "/domain/the-mummification",
+  "/domain/the-night-serpent",
+  "/domain/the-nile-s-flood",
+  "/domain/the-nymph",
+  "/domain/the-oak",
+  "/domain/the-patron-of-memphis",
+  "/domain/the-petrifying-gaze",
+  "/domain/the-plague",
+  "/domain/the-primeval-freshwater",
+  "/domain/the-primeval-saltwater",
+  "/domain/the-primeval-waters-hermopolitan-account",
+  "/domain/the-primordial-cow",
+  "/domain/the-primordial-gap",
+  "/domain/the-primordial-giant",
+  "/domain/the-primordial-sea",
+  "/domain/the-primordial-waters",
+  "/domain/the-protection-of-humans",
+  "/domain/the-protection-of-the-dead",
+  "/domain/the-protection-of-the-grave",
+  "/domain/the-protection-of-the-mummy",
+  "/domain/the-protection-of-women",
+  "/domain/the-protector-of-the-pharaoh",
+  "/domain/the-queen-of-heaven",
+  "/domain/the-queen-of-the-dead",
+  "/domain/the-raging-eye-of-ra",
+  "/domain/the-realm-of-the-dead-nav",
+  "/domain/the-realm-of-the-dead-nav-cherd",
+  "/domain/the-rescued-bride",
+  "/domain/the-rescued-princess",
+  "/domain/the-runes",
+  "/domain/the-sage",
+  "/domain/the-salt-sea",
+  "/domain/the-scribes",
+  "/domain/the-sculptor-of-the-world",
+  "/domain/the-sea",
+  "/domain/the-sea-primordial",
+  "/domain/the-seasons",
+  "/domain/the-self-created-god",
+  "/domain/the-sky",
+  "/domain/the-sky-as-a-personification",
+  "/domain/the-sky-as-consort",
+  "/domain/the-sky-as-father",
+  "/domain/the-sky-as-the-cow",
+  "/domain/the-sky-bore",
+  "/domain/the-sky-in-some-accounts",
+  "/domain/the-slaying-of-medusa",
+  "/domain/the-snake-the-serpent",
+  "/domain/the-son-of-odysseus",
+  "/domain/the-stallion-of-the-frost-giant-s-builder",
+  "/domain/the-stars",
+  "/domain/the-storm",
+  "/domain/the-storm-in-the-babylonian-period",
+  "/domain/the-sun",
+  "/domain/the-sun-a-solar-god",
+  "/domain/the-sun-as-horakhty",
+  "/domain/the-sun-in-some-accounts",
+  "/domain/the-supreme-god-in-folk-belief",
+  "/domain/the-supreme-god-sumerian-period",
+  "/domain/the-sweet-water-beneath-the-earth",
+  "/domain/the-threshold-her-name-means-lady-of-the-house",
+  "/domain/the-threshold-of-the-tomb",
+  "/domain/the-threshold-the-gate-of-the-sky",
+  "/domain/the-twelve-labors",
+  "/domain/the-underworld",
+  "/domain/the-vine",
+  "/domain/the-void",
+  "/domain/the-watchman",
+  "/domain/the-wife-of-baldr",
+  "/domain/the-wife-of-thor",
+  "/domain/the-wind",
+  "/domain/the-winter",
+  "/domain/the-world-serpent",
+  "/domain/theater",
+  "/domain/thieves",
+  "/domain/thunder",
+  "/domain/thunder-in-some-accounts",
+  "/domain/time",
+  "/domain/time-later-association",
+  "/domain/transformation",
+  "/domain/travelers",
+  "/domain/trickery",
+  "/domain/underworld",
+  "/domain/vegetation",
+  "/domain/violence",
+  "/domain/virginity",
+  "/domain/volcanoes",
+  "/domain/war",
+  "/domain/war-in-some-accounts",
+  "/domain/war-strategy",
+  "/domain/war-violence-bloodshed",
+  "/domain/wealth",
+  "/domain/wealth-underground",
+  "/domain/weaving",
+  "/domain/wheat",
+  "/domain/wild-animals",
+  "/domain/wine",
+  "/domain/winter",
+  "/domain/wisdom",
+  "/domain/wit",
+  "/domain/women",
+  "/domain/women-s-work",
+  "/domain/writing",
+  "/domain/youth",
+  "/graph",
+  "/how-to-play",
+  "/how-to-play/board",
+  "/myths/egy-creation-heliopolis",
+  "/myths/egy-creation-hermopolis",
+  "/myths/egy-creation-memphis",
+  "/myths/egy-eye-of-ra",
+  "/myths/egy-horus-vs-set",
+  "/myths/egy-isis-restores",
+  "/myths/egy-osiris-murder",
+  "/myths/egy-solar-journey",
+  "/myths/gre-aphrodite-birth",
+  "/myths/gre-athena-athens",
+  "/myths/gre-athena-birth",
+  "/myths/gre-creation",
+  "/myths/gre-heracles-labors",
+  "/myths/gre-odysseus-kyklops",
+  "/myths/gre-overthrow-of-ouranos",
+  "/myths/gre-persephone",
+  "/myths/gre-perseus-medusa",
+  "/myths/gre-titanomachy",
+  "/myths/gre-typhon-zeus",
+  "/myths/jpn-amaterasu-cave",
+  "/myths/jpn-creation-islands",
+  "/myths/jpn-creation-primordial",
+  "/myths/jpn-izananagis-purification",
+  "/myths/jpn-kuniyurinshi",
+  "/myths/jpn-ninigi-descent",
+  "/myths/jpn-susanoo-orochi",
+  "/myths/mes-creation",
+  "/myths/mes-enlil-erosion",
+  "/myths/mes-enuma",
+  "/myths/mes-flood",
+  "/myths/mes-inanna-descent",
+  "/myths/mes-inanna-erishkigal",
+  "/myths/nor-baldr-death",
+  "/myths/nor-creation",
+  "/myths/nor-fenrir-binding",
+  "/myths/nor-loki-children",
+  "/myths/nor-ragnarok",
+  "/myths/nor-runes",
+  "/myths/nor-thor-geirdrud",
+  "/myths/slv-cosmology",
+  "/myths/slv-idol-destruction",
+  "/myths/slv-kupala",
+  "/myths/slv-perun-veles",
+  "/myths/slv-seasonal",
+  "/play",
+  "/print",
+  "/stories"
+ ],
+ "routeFailures": [],
+ "overflowRoutes": [],
+ "consoleErrorRoutes": [],
+ "localFailedReqRoutes": [],
+ "remoteFailedReqRoutes": [],
+ "brokenLinks": [],
+ "bigAssets": [
+  {
+   "url": "/cards/greek/greek-gre-aegis.png",
+   "bytes": 2556259,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-amenonuboko.png",
+   "bytes": 2924778,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ankh.png",
+   "bytes": 2176624,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-brisingamen.png",
+   "bytes": 2659407,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-draupnir.png",
+   "bytes": 2501012,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-gjallarhorn.png",
+   "bytes": 2598211,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-gungnir.png",
+   "bytes": 2491122,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/greek/greek-gre-hades-helmet.png",
+   "bytes": 2430485,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-heka.png",
+   "bytes": 2344345,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-kusanagi.png",
+   "bytes": 2938349,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-mjolnir.png",
+   "bytes": 2588999,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/greek/greek-gre-poseidon-trident.png",
+   "bytes": 2249432,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-peschent.png",
+   "bytes": 2264824,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/norse/norse-nor-skidbladnir.png",
+   "bytes": 2509397,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-tablets-of-fate.png",
+   "bytes": 2955653,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-yasakani.png",
+   "bytes": 2947805,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-yata-kagami.png",
+   "bytes": 3092776,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/greek/greek-gre-zeus-thunderbolt.png",
+   "bytes": 2296836,
+   "kind": "img",
+   "anchor": false,
+   "pages": 1
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-amun.png",
+   "bytes": 3136825,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-anubis.png",
+   "bytes": 3032793,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-apep.png",
+   "bytes": 3029320,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-aur.png",
+   "bytes": 3112594,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-bastet.png",
+   "bytes": 3052144,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-gebel.png",
+   "bytes": 3052904,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-hathor.png",
+   "bytes": 3021363,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-horus-elder.png",
+   "bytes": 3210896,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-horus.png",
+   "bytes": 3077163,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-isfet.png",
+   "bytes": 3088796,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-nephthys.png",
+   "bytes": 2993868,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-nun.png",
+   "bytes": 2964189,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-nut.png",
+   "bytes": 3148128,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ogdoad-heh.png",
+   "bytes": 3148847,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ogdoad-khnum.png",
+   "bytes": 3093872,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ogdoad-nun.png",
+   "bytes": 3181523,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ogdoad-sat.png",
+   "bytes": 3135258,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-osiris.png",
+   "bytes": 3019031,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ptah.png",
+   "bytes": 3117204,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-ra.png",
+   "bytes": 3008893,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-sekhemet.png",
+   "bytes": 3041436,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-set.png",
+   "bytes": 3057883,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-shu.png",
+   "bytes": 3183014,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-tefnut.png",
+   "bytes": 3152547,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/egyptian/egyptian-egy-thoth.png",
+   "bytes": 2909467,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-alcmena.png",
+   "bytes": 2650136,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-andromeda.png",
+   "bytes": 2644177,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-aphrodite.png",
+   "bytes": 2747546,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-apollo.png",
+   "bytes": 2701058,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-ares.png",
+   "bytes": 2659344,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-artemis.png",
+   "bytes": 2665593,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-athena.png",
+   "bytes": 2799331,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-atlas.png",
+   "bytes": 2676256,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-cerberus.png",
+   "bytes": 2749792,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-chaos.png",
+   "bytes": 2571934,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-cronus.png",
+   "bytes": 2706597,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-danae.png",
+   "bytes": 2668518,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-demeter.png",
+   "bytes": 2703959,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-dionysus.png",
+   "bytes": 2749592,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-echidna.png",
+   "bytes": 2732683,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-eros.png",
+   "bytes": 2670366,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-gaia.png",
+   "bytes": 2736262,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-hades.png",
+   "bytes": 2632801,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-hebe.png",
+   "bytes": 2721011,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-hephaestus.png",
+   "bytes": 2694978,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-hera.png",
+   "bytes": 2762971,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-heracles.png",
+   "bytes": 2717551,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-hermes.png",
+   "bytes": 2690411,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-hestia.png",
+   "bytes": 2716342,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-let-o.png",
+   "bytes": 2732094,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-maia.png",
+   "bytes": 2696835,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-medusa.png",
+   "bytes": 2815336,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-metis.png",
+   "bytes": 2742392,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-oceanus.png",
+   "bytes": 2702305,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-odysseus.png",
+   "bytes": 2740393,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-ouranos.png",
+   "bytes": 2613175,
+   "kind": "img",
+   "anchor": false,
+   "pages": 4
+  },
+  {
+   "url": "/cards/greek/greek-gre-penelope.png",
+   "bytes": 2686506,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-persephone.png",
+   "bytes": 2664774,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-perseus.png",
+   "bytes": 2705577,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-poseidon.png",
+   "bytes": 2781151,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-rhea.png",
+   "bytes": 2700521,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/greek/greek-gre-semele.png",
+   "bytes": 2637608,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-telemachus.png",
+   "bytes": 2731350,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-tethys.png",
+   "bytes": 2724614,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-typhon.png",
+   "bytes": 2704905,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/greek/greek-gre-zeus.png",
+   "bytes": 2837639,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-amaterasu.png",
+   "bytes": 3700892,
+   "kind": "img",
+   "anchor": false,
+   "pages": 4
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-ameno-uzume.png",
+   "bytes": 3652249,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-amenominakanushi.png",
+   "bytes": 3603916,
+   "kind": "img",
+   "anchor": false,
+   "pages": 4
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-hooroni.png",
+   "bytes": 3628263,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-inari.png",
+   "bytes": 3631925,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-izananagi.png",
+   "bytes": 3615052,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-izananami.png",
+   "bytes": 3573262,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-kagutsuchi.png",
+   "bytes": 3578911,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-kamimusubi.png",
+   "bytes": 3656641,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-konohanasakuhana.png",
+   "bytes": 3675507,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-kotohikone.png",
+   "bytes": 3578680,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-kushiinadahime.png",
+   "bytes": 3668215,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-ninigi.png",
+   "bytes": 3572918,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-okuninushi.png",
+   "bytes": 3606317,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-sarutahiko.png",
+   "bytes": 3578687,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-susanoo.png",
+   "bytes": 3587730,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-takemikazuchi.png",
+   "bytes": 3578843,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-toyotama.png",
+   "bytes": 3591572,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-tsurugumo.png",
+   "bytes": 3562692,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-yamata-no-orochi.png",
+   "bytes": 3622337,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/japanese/japanese-jpn-yamato-takeru.png",
+   "bytes": 3578970,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-abzu.png",
+   "bytes": 3290994,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-antum.png",
+   "bytes": 3158744,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-apas.png",
+   "bytes": 3405168,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-enki.png",
+   "bytes": 3196264,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-enlil.png",
+   "bytes": 3393482,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-erishkigal.png",
+   "bytes": 3170455,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-inanna.png",
+   "bytes": 3295375,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-ki.png",
+   "bytes": 3194936,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-kingu.png",
+   "bytes": 3152994,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-marduk.png",
+   "bytes": 3209978,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-nabu.png",
+   "bytes": 3117764,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-nanna.png",
+   "bytes": 3120712,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-nergal.png",
+   "bytes": 3113815,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-ninagal.png",
+   "bytes": 3189645,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-ninhursag.png",
+   "bytes": 3195690,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-ninlil.png",
+   "bytes": 3221445,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-tiamat.png",
+   "bytes": 3227547,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/mesopotamian/mesopotamian-mes-utu.png",
+   "bytes": 3311814,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-anguela.png",
+   "bytes": 2992508,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-aurdhumbla.png",
+   "bytes": 3058654,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-baldr.png",
+   "bytes": 3058587,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-bestla.png",
+   "bytes": 2975592,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-borr.png",
+   "bytes": 3019731,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-burir.png",
+   "bytes": 3028903,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-fenrir.png",
+   "bytes": 3146177,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-forseti.png",
+   "bytes": 2985021,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-freyja.png",
+   "bytes": 3047093,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-freyr.png",
+   "bytes": 3027430,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-frigg.png",
+   "bytes": 2973864,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-gerd.png",
+   "bytes": 3008532,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-ginnungagap.png",
+   "bytes": 3034968,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-heimdall.png",
+   "bytes": 3057801,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-hel.png",
+   "bytes": 2939052,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-hodr.png",
+   "bytes": 2970298,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-hrungnir.png",
+   "bytes": 3056249,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-jarnsaxa.png",
+   "bytes": 2938152,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-jormungandr.png",
+   "bytes": 3118653,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-loomi.png",
+   "bytes": 2982657,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-magni.png",
+   "bytes": 3019963,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-modi.png",
+   "bytes": 3021356,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-muspel.png",
+   "bytes": 2962600,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-nanna.png",
+   "bytes": 2913630,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-niflheim.png",
+   "bytes": 3062600,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-nyrd.png",
+   "bytes": 3002800,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-odin.png",
+   "bytes": 3101617,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-sid.png",
+   "bytes": 3001480,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-sif.png",
+   "bytes": 3143740,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-ska.png",
+   "bytes": 2988057,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-sleipnir.png",
+   "bytes": 3092298,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-surt.png",
+   "bytes": 3101367,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-thor.png",
+   "bytes": 3123638,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-tyr.png",
+   "bytes": 3025155,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-uthra.png",
+   "bytes": 3031008,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-vali.png",
+   "bytes": 3028731,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-ve.png",
+   "bytes": 2943934,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/norse/norse-nor-vidar.png",
+   "bytes": 3021126,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-vili.png",
+   "bytes": 3004063,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/norse/norse-nor-ymir.png",
+   "bytes": 3060830,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-nebo.png",
+   "bytes": 3235348,
+   "kind": "img",
+   "anchor": false,
+   "pages": 3
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-perun.png",
+   "bytes": 3250758,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-veles.png",
+   "bytes": 3211434,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-svarog.png",
+   "bytes": 3294700,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-dazhbog.png",
+   "bytes": 3251250,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-khors.png",
+   "bytes": 3303264,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-stribog.png",
+   "bytes": 3230802,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-mokosh.png",
+   "bytes": 3179642,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-lada.png",
+   "bytes": 3208165,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-morana.png",
+   "bytes": 3149740,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-jarilo.png",
+   "bytes": 3226240,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-zorya.png",
+   "bytes": 3212410,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  },
+  {
+   "url": "/cards/slavic/slavic-slv-cherd.png",
+   "bytes": 3246043,
+   "kind": "img",
+   "anchor": false,
+   "pages": 2
+  }
+ ],
+ "imageAudit": [
+  {
+   "page": "/",
+   "total": 6,
+   "localLocal": 6,
+   "remote": 0,
+   "localBroken": [
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-amenominakanushi.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Amenominakanushi",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-ouranos.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Uranus",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    },
+    {
+     "src": "http://localhost:8899/cards/norse/norse-nor-ve.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Vé",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    },
+    {
+     "src": "http://localhost:8899/cards/egyptian/egyptian-egy-aur.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Atum-Ra",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    },
+    {
+     "src": "http://localhost:8899/cards/slavic/slavic-slv-nebo.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Nebo (the Sky-Father)",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    },
+    {
+     "src": "http://localhost:8899/cards/mesopotamian/mesopotamian-mes-ki.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Ki (the earth)",
+     "loading": "lazy",
+     "inViewportTop": 2328.75
+    }
+   ],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 6
+  },
+  {
+   "page": "/cards",
+   "total": 36,
+   "localLocal": 36,
+   "remote": 0,
+   "localBroken": [
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-ameno-uzume.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Ame-no-Uzume",
+     "loading": "lazy",
+     "inViewportTop": 2629.34375
+    },
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-takemikazuchi.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Takemikazuchi",
+     "loading": "lazy",
+     "inViewportTop": 2629.34375
+    },
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-kushiinadahime.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Kushinada-hime",
+     "loading": "lazy",
+     "inViewportTop": 2629.34375
+    },
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-yamata-no-orochi.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Yamata-no-Orochi",
+     "loading": "lazy",
+     "inViewportTop": 2629.34375
+    },
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-inari.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Inari",
+     "loading": "lazy",
+     "inViewportTop": 2629.34375
+    },
+    {
+     "src": "http://localhost:8899/cards/japanese/japanese-jpn-yamato-takeru.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Yamato Takeru",
+     "loading": "lazy",
+     "inViewportTop": 3143.828125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-chaos.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Chaos",
+     "loading": "lazy",
+     "inViewportTop": 3143.828125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-gaia.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Gaia",
+     "loading": "lazy",
+     "inViewportTop": 3143.828125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-ouranos.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Uranus",
+     "loading": "lazy",
+     "inViewportTop": 3143.828125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-cronus.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Cronus",
+     "loading": "lazy",
+     "inViewportTop": 3143.828125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-rhea.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Rhea",
+     "loading": "lazy",
+     "inViewportTop": 3658.3125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-zeus.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Zeus",
+     "loading": "lazy",
+     "inViewportTop": 3658.3125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-hera.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hera",
+     "loading": "lazy",
+     "inViewportTop": 3658.3125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-hades.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hades",
+     "loading": "lazy",
+     "inViewportTop": 3658.3125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-poseidon.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Poseidon",
+     "loading": "lazy",
+     "inViewportTop": 3658.3125
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-athena.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Athena",
+     "loading": "lazy",
+     "inViewportTop": 4172.796875
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-apollo.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Apollo",
+     "loading": "lazy",
+     "inViewportTop": 4172.796875
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-artemis.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Artemis",
+     "loading": "lazy",
+     "inViewportTop": 4172.796875
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-ares.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Ares",
+     "loading": "lazy",
+     "inViewportTop": 4172.796875
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-aphrodite.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Aphrodite",
+     "loading": "lazy",
+     "inViewportTop": 4172.796875
+    },
+    {
+     "src": "http://localhost:8899/cards/greek/greek-gre-hermes.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hermes",
+     "loading": "lazy",
+     "inViewportTop": 4687.28125
+    }
+   ],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 36
+  },
+  {
+   "page": "/artifacts",
+   "total": 26,
+   "localLocal": 0,
+   "remote": 26,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/%E6%9D%BE%E5%B1%B1%E5%8F%A4%E5%A2%B3%E5%87%BA%E5%9C%9F_%E6%B5%B7%E7%8D%A3%E8%91%A1%E8%90%84%E9%8F%A1_%28J-4866%29.JPG",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Yata no Kagami",
+     "loading": "lazy",
+     "inViewportTop": 2422.984375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Standing_Osiris_Figure_with_Crook_and_Flail_LACMA_45.23.7.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Ankh",
+     "loading": "lazy",
+     "inViewportTop": 2422.984375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Freja_brisingamen.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Brísingamen",
+     "loading": "lazy",
+     "inViewportTop": 2422.984375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/A_caduceus._Wellcome_M0002644.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Caduceus of Hermes",
+     "loading": "lazy",
+     "inViewportTop": 2422.984375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/HOARD_%28FindID_969299-1083015%29.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Draupnir",
+     "loading": "lazy",
+     "inViewportTop": 2921.78125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Odin_rides_to_Hel.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Gjallarhorn",
+     "loading": "lazy",
+     "inViewportTop": 2921.78125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Standing_Osiris_Figure_with_Crook_and_Flail_LACMA_45.23.7.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Heka (the Crook and Flail)",
+     "loading": "lazy",
+     "inViewportTop": 2921.78125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Corinthian_helmet_15153_NAMAthens.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Helmet of Hades",
+     "loading": "lazy",
+     "inViewportTop": 2921.78125
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Marzanna03.jpg/960px-Marzanna03.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Morana's Straw Effigy",
+     "loading": "lazy",
+     "inViewportTop": 3439.125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Pschent_Crown.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Pschent (the Double Crown)",
+     "loading": "lazy",
+     "inViewportTop": 3439.125
+    }
+   ],
+   "remoteBrokenCount": 14,
+   "noAlt": [],
+   "lazyCount": 26
+  },
+  {
+   "page": "/print",
+   "total": 7,
+   "localLocal": 7,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 7
+  },
+  {
+   "page": "/how-to-play",
+   "total": 1,
+   "localLocal": 1,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 1
+  },
+  {
+   "page": "/play",
+   "total": 0,
+   "localLocal": 0,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 0
+  },
+  {
+   "page": "/graph",
+   "total": 0,
+   "localLocal": 0,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 0
+  },
+  {
+   "page": "/stories",
+   "total": 0,
+   "localLocal": 0,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 0
+  },
+  {
+   "page": "/compare",
+   "total": 0,
+   "localLocal": 0,
+   "remote": 0,
+   "localBroken": [],
+   "remoteBroken": [],
+   "remoteBrokenCount": 0,
+   "noAlt": [],
+   "lazyCount": 0
+  },
+  {
+   "page": "/culture/japanese",
+   "total": 29,
+   "localLocal": 0,
+   "remote": 29,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Amaterasu_cave_-_large_-_1856.jpeg/1280px-Amaterasu_cave_-_large_-_1856.jpeg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Amaterasu, Iwato, kagura dance — Amaterasu Emerging from the Cave (Origin of the Iwato Kagura)",
+     "loading": "lazy",
+     "inViewportTop": 8199.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Amaterasu_appearing_from_the_cave..jpg/1280px-Amaterasu_appearing_from_the_cave..jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Amaterasu — Amaterasu Appearing from the Cave",
+     "loading": "lazy",
+     "inViewportTop": 8199.078125
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%27Amaterasu%27_by_Hoen_%28Taira%29_Yoshiteru.jpg/1280px-%27Amaterasu%27_by_Hoen_%28Taira%29_Yoshiteru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Amaterasu — Amaterasu",
+     "loading": "lazy",
+     "inViewportTop": 8598.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Amaterasu_shinbutsu-zue.jpg/1280px-Amaterasu_shinbutsu-zue.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Amaterasu — Amaterasu (from a shinbutsu-zue, 'illustrated compendium of deities')",
+     "loading": "lazy",
+     "inViewportTop": 8598.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Dragon_Susanoo_no_mikoto_and_the_water_dragon.jpg/1280px-Dragon_Susanoo_no_mikoto_and_the_water_dragon.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Susanoo, Yamata-no-Orochi — Dragon: Susanoo-no-Mikoto and the Water Dragon",
+     "loading": "lazy",
+     "inViewportTop": 8997.078125
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Susanoo_rescues_Kushinada_Hime_by_Toyohara_Chikanobu_1886.jpg/1280px-Susanoo_rescues_Kushinada_Hime_by_Toyohara_Chikanobu_1886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Susanoo, Kushinada-hime — Susanoo Rescues Kushinada-hime",
+     "loading": "lazy",
+     "inViewportTop": 8997.078125
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Izanagi_izanami_shinbutsu-zue.jpg/1280px-Izanagi_izanami_shinbutsu-zue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Izanagi, Izanami — Izanagi and Izanami (from a shinbutsu-zue)",
+     "loading": "lazy",
+     "inViewportTop": 9372.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%E6%AD%A6%E7%94%95%E6%A7%8C%E7%A5%9E_Takemikazuchi_by_Hokusai_%E7%B5%B5%E6%9C%AC%E6%AD%A6%E8%80%85%E9%83%A8%E9%A1%9E.jpg/1280px-%E6%AD%A6%E7%94%95%E6%A7%8C%E7%A5%9E_Takemikazuchi_by_Hokusai_%E7%B5%B5%E6%9C%AC%E6%AD%A6%E8%80%85%E9%83%A8%E9%A1%9E.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Takemikazuchi, from Katsushika Hokusai, Ehon Musha-burui (book of warrior portraits) — Takemikazuchi",
+     "loading": "lazy",
+     "inViewportTop": 9768.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Takemikazuchi-pins-Namazu-with-Kaname-ishi-spirit-stone-1855.png/1280px-Takemikazuchi-pins-Namazu-with-Kaname-ishi-spirit-stone-1855.png",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Takemikazuchi pin, after the 1855 Ansei earthquake namazu (eel-spirit) prints — Takemikazuchi pin",
+     "loading": "lazy",
+     "inViewportTop": 9768.078125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Saruta-hiko_and_Uzume_illustration_by_William_Aston.jpg/1280px-Saruta-hiko_and_Uzume_illustration_by_William_Aston.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Sarutahiko and Ame-no-Uzume at the rock-cave, illustration by W. G. Aston — Sarutahiko and Ame-no-Uzume at the rock-cave",
+     "loading": "lazy",
+     "inViewportTop": 10935.078125
+    }
+   ],
+   "remoteBrokenCount": 11,
+   "noAlt": [],
+   "lazyCount": 29
+  },
+  {
+   "page": "/culture/greek",
+   "total": 46,
+   "localLocal": 0,
+   "remote": 46,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP-12522-001.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Zeus/Jupiter, head and shoulders — Bronze Bust of Zeus (Jupiter)",
+     "loading": "lazy",
+     "inViewportTop": 9545.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP121791.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Zeus Sarapis, the syncretic Greco-Egyptian god — Glass Head of Zeus Sarapis",
+     "loading": "lazy",
+     "inViewportTop": 9545.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP1212.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Athena on a funerary lekythos — Terracotta Lekythos (Oil Flask) with Athena",
+     "loading": "lazy",
+     "inViewportTop": 9920.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP143789.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Athena, bust in cameo — Glass Cameo: Bust of Athena",
+     "loading": "lazy",
+     "inViewportTop": 9920.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/TOAH_DP104336.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Athena Promachos between judges; runners on reverse — Panathenaic Prize Amphora (Leagros Group)",
+     "loading": "lazy",
+     "inViewportTop": 10295.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP245711.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Athena Promachos; boxers on reverse — Panathenaic Prize Amphora (Euphiletos Painter)",
+     "loading": "lazy",
+     "inViewportTop": 10295.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP266065edited.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Poseidon or a river god (Okeanos-type) — Bronze Statuette of a God, Possibly Poseidon",
+     "loading": "lazy",
+     "inViewportTop": 10670.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP20961.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hermes Propylaios, the 'gatekeeper' Hermes — Bronze Herm of Hermes Propylaios",
+     "loading": "lazy",
+     "inViewportTop": 10670.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/250346.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hermes, standing — Marble Statue of Hermes",
+     "loading": "lazy",
+     "inViewportTop": 11045.484375
+    },
+    {
+     "src": "https://images.metmuseum.org/CRDImages/gr/original/DP279058.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Aphrodite, the Medici-type — Basalt Statuette of Aphrodite (Medici type)",
+     "loading": "lazy",
+     "inViewportTop": 11045.484375
+    }
+   ],
+   "remoteBrokenCount": 20,
+   "noAlt": [],
+   "lazyCount": 46
+  },
+  {
+   "page": "/culture/norse",
+   "total": 27,
+   "localLocal": 0,
+   "remote": 27,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Thor_und_Hrungnir.jpg/1280px-Thor_und_Hrungnir.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Thor striking the giant Hrungnir with Mjölnir — Thor and Hrungnir",
+     "loading": "lazy",
+     "inViewportTop": 8232.5
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Thor_%28Walhall%29.png/1280px-Thor_%28Walhall%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Thor, god of thunder — Thor (Valhalla)",
+     "loading": "lazy",
+     "inViewportTop": 8232.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vidar_by_Collingwood.jpg/1280px-Vidar_by_Collingwood.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Víðarr in the jaws of Fenrir, by J. R. Collingwood — Víðarr in the jaws of Fenrir",
+     "loading": "lazy",
+     "inViewportTop": 9753.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Vidar_Lindboe-Hansen.jpg/1280px-Vidar_Lindboe-Hansen.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Vidar, by Lindboe/Hansen — Vidar",
+     "loading": "lazy",
+     "inViewportTop": 9753.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sif_Was_Queen_of_the_Fields.jpg/1280px-Sif_Was_Queen_of_the_Fields.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "\"Sif was Queen of the Fields\" — the goddess with golden hair — \"Sif was Queen of the Fields\" — the goddess with golden hair",
+     "loading": "lazy",
+     "inViewportTop": 10128.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Loki_and_Sif_by_A_Chase.jpg/1280px-Loki_and_Sif_by_A_Chase.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Loki and Sif, by A. Chase — Loki and Sif",
+     "loading": "lazy",
+     "inViewportTop": 10128.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Thor%2C_Hymir_and_the_Midgard_Serpent.jpg/1280px-Thor%2C_Hymir_and_the_Midgard_Serpent.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Thor, Hymir and the Midgard Serpent — Thor",
+     "loading": "lazy",
+     "inViewportTop": 10920.5
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Jormungandr.jpg/1280px-Jormungandr.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Jörmungandr (world-serpent) illustration — Jörmungandr (world-serpent) illustration",
+     "loading": "lazy",
+     "inViewportTop": 10920.5
+    }
+   ],
+   "remoteBrokenCount": 8,
+   "noAlt": [],
+   "lazyCount": 27
+  },
+  {
+   "page": "/culture/egyptian",
+   "total": 31,
+   "localLocal": 0,
+   "remote": 31,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Relief_Depicting_King_Ahmose_Embracing_Osiris_%288580434339%29.jpg/1280px-Relief_Depicting_King_Ahmose_Embracing_Osiris_%288580434339%29.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Osiris, Ahmose — Relief Depicting King Ahmose Embracing Osiris",
+     "loading": "lazy",
+     "inViewportTop": 8404.484375
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Wall_painting_-_Isis_receives_Io_-_Pompeii_%28VIII_7_28_-_sanctuary_of_Isis_-_ekklesiasterion%29_-_Napoli_MAN_9558_-_01.jpg/1280px-Wall_painting_-_Isis_receives_Io_-_Pompeii_%28VIII_7_28_-_sanctuary_of_Isis_-_ekklesiasterion%29_-_Napoli_MAN_9558_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Isis — Isis receives Io (sanctuary of Isis, Pompeii)",
+     "loading": "lazy",
+     "inViewportTop": 8404.484375
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/God_Horus_as_a_falcon_wearing_the_Double_Crown_of_Egypt._27th_dynasty._State_Museum_of_Egyptian_Art%2C_Munich.jpg/1280px-God_Horus_as_a_falcon_wearing_the_Double_Crown_of_Egypt._27th_dynasty._State_Museum_of_Egyptian_Art%2C_Munich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Horus — Horus as a falcon wearing the Double Crown of Egypt",
+     "loading": "lazy",
+     "inViewportTop": 8779.484375
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Egyptian_-_Relief_Displaying_the_King_Suckled_by_the_Hathor-Cow_-_Walters_22121.jpg/1280px-Egyptian_-_Relief_Displaying_the_King_Suckled_by_the_Hathor-Cow_-_Walters_22121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Hathor — Relief Displaying the King Suckled by the Hathor-Cow",
+     "loading": "lazy",
+     "inViewportTop": 9154.484375
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Amulet_depicting_the_god_Shu%2C_faience_-_Museo_Egizio%2C_Turin_C_398_p05.jpg/1280px-Amulet_depicting_the_god_Shu%2C_faience_-_Museo_Egizio%2C_Turin_C_398_p05.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Faience amulet of Shu, Museo Egizio, Turin — Faience amulet of Shu",
+     "loading": "lazy",
+     "inViewportTop": 9904.484375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Shu_separating_Geb_and_Nut.svg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Shu separating Geb and Nut (cosmological diagram) — Shu separating Geb and Nut (cosmological diagram)",
+     "loading": "lazy",
+     "inViewportTop": 10279.484375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Tefnut.svg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Tefnut, personification of humidity and clouds — Tefnut",
+     "loading": "lazy",
+     "inViewportTop": 10279.484375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Egyptian_god_Geb_and_goddess_Nut%2C_from_the_Greenfield_papyrus.jpg/1280px-Egyptian_god_Geb_and_goddess_Nut%2C_from_the_Greenfield_papyrus.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Geb and Nut, from the Greenfield Papyrus (Book of the Dead of Nesitanebtashru) — Geb and Nut",
+     "loading": "lazy",
+     "inViewportTop": 10654.484375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Amulet_depicting_the_goddess_Nephthys%2C_faience_-_Museo_Egizio%2C_Turin_C_373_p01.jpg/1280px-Amulet_depicting_the_goddess_Nephthys%2C_faience_-_Museo_Egizio%2C_Turin_C_373_p01.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Faience amulet of Nephthys, Museo Egizio, Turin — Faience amulet of Nephthys",
+     "loading": "lazy",
+     "inViewportTop": 11050.484375
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Statue_of_the_god_Ptah%2C_granodiorite_-_Museo_Egizio_%28Turin%29_C_86_p02.jpg/1280px-Statue_of_the_god_Ptah%2C_granodiorite_-_Museo_Egizio_%28Turin%29_C_86_p02.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Granodiorite statue of Ptah, Museo Egizio, Turin — Granodiorite statue of Ptah",
+     "loading": "lazy",
+     "inViewportTop": 11446.484375
+    }
+   ],
+   "remoteBrokenCount": 11,
+   "noAlt": [],
+   "lazyCount": 31
+  },
+  {
+   "page": "/culture/slavic",
+   "total": 18,
+   "localLocal": 0,
+   "remote": 18,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%D0%AF%D0%B7%D1%8B%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE_IX-X_%D0%B2%D0%B2._%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0.jpg/1280px-%D0%AF%D0%B7%D1%8B%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE_IX-X_%D0%B2%D0%B2._%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Pagan idol, the oak of Perun, and sacrificial horn — Pagan Idol and Paganism Display, 9th–10th c. (Kyiv History Museum)",
+     "loading": "lazy",
+     "inViewportTop": 6829.828125
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Die_drei_Bogatyr.jpg/1280px-Die_drei_Bogatyr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "The three great bogatyrs (heroes) of Russian folk epic — The Bogatyrs (Добрыня Никитич, Илья Муромец, Алёша Попович)",
+     "loading": "lazy",
+     "inViewportTop": 7228.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Stribog_%28SCHLEUSING%29.jpg/1280px-Stribog_%28SCHLEUSING%29.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Worship of Stribog, engraving from Schleusing (1685) — Worship of Stribog",
+     "loading": "lazy",
+     "inViewportTop": 7627.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mokosh-2_%28SCHLEUSING%29.jpg/1280px-Mokosh-2_%28SCHLEUSING%29.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Worship of Mokosh, engraving from Schleusing (1685) — Worship of Mokosh",
+     "loading": "lazy",
+     "inViewportTop": 8023.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Obec_Moko%C5%A1%C3%ADn-_Bohyn%C4%9B_Moko%C5%A1.jpg/1280px-Obec_Moko%C5%A1%C3%ADn-_Bohyn%C4%9B_Moko%C5%A1.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Modern wooden statue of the goddess Mokosh (Mokošín, Czech Republic) — Modern wooden statue of the goddess Mokosh (Mokošín",
+     "loading": "lazy",
+     "inViewportTop": 8023.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lada%2C_Slovan%C5%A1t%C3%AD_bohov%C3%A9%2C_Cesta_Vody%2C_Zoo_Ostrava%2C_Ostrava.jpg/1280px-Lada%2C_Slovan%C5%A1t%C3%AD_bohov%C3%A9%2C_Cesta_Vody%2C_Zoo_Ostrava%2C_Ostrava.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Lada statue, Slovanští bohové, Zoo Ostrava — Lada statue",
+     "loading": "lazy",
+     "inViewportTop": 8419.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Morana_by_Du%C5%A1an_Bo%C5%BEi%C4%87.jpg/1280px-Morana_by_Du%C5%A1an_Bo%C5%BEi%C4%87.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Morana, by Dušan Božić — Morana",
+     "loading": "lazy",
+     "inViewportTop": 8815.828125
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marzanna_Matka_Polski.jpg/1280px-Marzanna_Matka_Polski.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Marzanna, Mother of Poland, statue by Marek Hapon — Marzanna",
+     "loading": "lazy",
+     "inViewportTop": 8815.828125
+    }
+   ],
+   "remoteBrokenCount": 8,
+   "noAlt": [],
+   "lazyCount": 18
+  },
+  {
+   "page": "/culture/mesopotamian",
+   "total": 24,
+   "localLocal": 0,
+   "remote": 24,
+   "localBroken": [],
+   "remoteBroken": [
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ishtar-gate-%D8%A8%D9%88%D8%A7%D8%A8%D8%A9-%D8%B9%D8%B4%D8%AA%D8%A7%D8%B1.jpg/1280px-Ishtar-gate-%D8%A8%D9%88%D8%A7%D8%A8%D8%A9-%D8%B9%D8%B4%D8%AA%D8%A7%D8%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "The Ishtar Gate, dedicated to the goddess Ishtar — The Ishtar Gate of Babylon",
+     "loading": "lazy",
+     "inViewportTop": 7694.171875
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Hymn%2C_ritual_text_of_the_goddess_Ishtar._From_Babylon%2C_Iraq._Neo-Babylonian_period%2C_7th-6th_century_BCE._Vorderasiatisches_Museum%2C_Berlin.jpg/1280px-Hymn%2C_ritual_text_of_the_goddess_Ishtar._From_Babylon%2C_Iraq._Neo-Babylonian_period%2C_7th-6th_century_BCE._Vorderasiatisches_Museum%2C_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "A hymn/ritual text of the goddess Ishtar — Hymn to the Goddess Ishtar (clay tablet)",
+     "loading": "lazy",
+     "inViewportTop": 7694.171875
+    },
+    {
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Enuma_elish_AN1926.373.jpg/1280px-Enuma_elish_AN1926.373.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Tablet of the Enuma Elish, the Babylonian creation epic — Enuma Elish clay tablet (tablet IV)",
+     "loading": "lazy",
+     "inViewportTop": 8069.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ea_%28Babilonian%29_-_EnKi_%28Sumerian%29.jpg/1280px-Ea_%28Babilonian%29_-_EnKi_%28Sumerian%29.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Enki/Ea depiction (Babylonian/Sumerian) — Enki/Ea depiction (Babylonian/Sumerian)",
+     "loading": "lazy",
+     "inViewportTop": 8861.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bead_dedicated_to_Ninlil_by_Kurigalzu_I_or_II.jpg/1280px-Bead_dedicated_to_Ninlil_by_Kurigalzu_I_or_II.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Bead dedicated to Ninlil by Kurigalzu I or II — Bead dedicated to Ninlil by Kurigalzu I or II",
+     "loading": "lazy",
+     "inViewportTop": 9236.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Plaque_of_Nanna_and_Ningal%2C_moon_god_and_goddess_of_Ur%2C_Fitzwilliam_Museum%2C_Cambridge.jpg/1280px-Plaque_of_Nanna_and_Ningal%2C_moon_god_and_goddess_of_Ur%2C_Fitzwilliam_Museum%2C_Cambridge.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Plaque of Nanna and Ningal, Fitzwilliam Museum — Plaque of Nanna and Ningal",
+     "loading": "lazy",
+     "inViewportTop": 9236.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Nergal_symbol%2C_Old-Babylonian_fired_clay_plaque_from_Nippur%2C_Southern_Mesopotamian%2C_Iraq.jpg/1280px-Nergal_symbol%2C_Old-Babylonian_fired_clay_plaque_from_Nippur%2C_Southern_Mesopotamian%2C_Iraq.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Nergal symbol, Old-Babylonian fired clay plaque from Nippur — Nergal symbol",
+     "loading": "lazy",
+     "inViewportTop": 9611.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Plaque_of_Nanna_and_Ningal%2C_moon_god_and_goddess_of_Ur%2C_Fitzwilliam_Museum%2C_Cambridge.jpg/1280px-Plaque_of_Nanna_and_Ningal%2C_moon_god_and_goddess_of_Ur%2C_Fitzwilliam_Museum%2C_Cambridge.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Ningal (moon goddess), plaque with Nanna, Fitzwilliam Museum — Ningal (moon goddess)",
+     "loading": "lazy",
+     "inViewportTop": 10403.171875
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Copper_alloy_bull_from_Tell_Al-Ubaid.jpg/1280px-Copper_alloy_bull_from_Tell_Al-Ubaid.jpg",
+     "natural": 0,
+     "altAttr": true,
+     "alt": "Copper alloy bull from the temple of the goddess Ninhursag, Tell al-Ubaid — Copper alloy bull from the temple of the goddess Ninhursag",
+     "loading": "lazy",
+     "inViewportTop": 10403.171875
+    }
+   ],
+   "remoteBrokenCount": 9,
+   "noAlt": [],
+   "lazyCount": 24
+  }
+ ],
+ "a11y": {
+  "mobileTabBar": {
+   "count": 5,
+   "reachable": true,
+   "labels": [
+    "Home",
+    "Religions",
+    "Relics",
+    "Cards",
+    "More"
+   ]
+  },
+  "moreSheet": {
+   "sheetOpen": true,
+   "focusInSheet": true,
+   "sheetClosed": true
+  },
+  "cardOverlay": {
+   "overlayOpen": true,
+   "hasDialog": true,
+   "tabTrapped": true,
+   "escapeCloses": true
+  },
+  "footerMail": {
+   "present": true,
+   "href": "mailto:maz.basha@gmail.com",
+   "focusable": true,
+   "display": "inline",
+   "visibility": "visible"
+  },
+  "carouselKeyboard": {
+   "before": 0,
+   "after": 1,
+   "advanced": true
+  },
+  "carouselReducedMotion": {
+   "at0": 0,
+   "after7s": 0,
+   "autoAdvanced": false
+  }
+ },
+ "contrastFails": [
+  {
+   "page": "/",
+   "text": "Pantheon",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/",
+   "text": "Explore →",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/cards",
+   "text": "The Deck",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/artifacts",
+   "text": "The Divine Vault · Artifacts & Relics",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/print",
+   "text": "Print",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/graph",
+   "text": "The atlas · all traditions",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/stories",
+   "text": "Story mode",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/compare",
+   "text": "Cross-cultural comparator",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  },
+  {
+   "page": "/culture/greek",
+   "text": "Gallery · c. 700 BCE – 400 CE texts",
+   "ratio": 1.11,
+   "need": 4.5,
+   "fs": 11.52
+  }
+ ],
+ "printCheck": {
+  "bodyVisible": true,
+  "overflow": false,
+  "footerHiddenInPrint": true,
+  "tabbarHiddenInPrint": true
+ }
+}

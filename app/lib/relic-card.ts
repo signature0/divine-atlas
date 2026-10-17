@@ -14,9 +14,9 @@
 import { Artifact, ArtifactTier, PowerAttribute, STATUS_LABELS } from './types';
 import {
   CardElement, CardRarity, CardStats,
-  elementOf, hash32, mulberry, CURRENCY, artSlotPath,
+  elementOf, hash32, mulberry, CURRENCY,
 } from './card';
-import { artSlotExists, GENERATED_ART_CREDIT } from './art-slot';
+import { artSlotUrl, GENERATED_ART_CREDIT } from './art-slot';
 
 // A named ability as shown on the card back (cost/effect = the ability's
 // description; the certainty tag mirrors the detail page).
@@ -122,7 +122,7 @@ export function deriveRelicCard(a: Artifact, index: number): RelicCard {
   // missing, keep the existing behaviour — the artifact's archival artwork (and
   // its museum credit), else null → the card face's letter fallback. Generated
   // art gets an honest "generated reconstruction" credit, never an institution.
-  const slotUrl = artSlotExists(a.culture, a.id) ? artSlotPath(a.culture, a.id) : null;
+  const slotUrl = artSlotUrl(a.culture, a.id);
   return {
     id: a.id,
     culture: a.culture,
