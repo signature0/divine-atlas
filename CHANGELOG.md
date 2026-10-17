@@ -1,4 +1,41 @@
 
+## v2 Phase 5 — Unique-art gate + credit note + prompt contract (2026-10-17)
+
+Authored by OpenCode worker. Implements `docs/audit/V2-PHASE5-SPEC.md`.
+
+- **`scripts/check-art-duplicates.mjs`** (new) — the enforced unique-art gate.
+  Exact tier: SHA-256 per `public/cards/**` + `public/banners/**` PNG → any shared
+  digest FAILs. Perceptual tier: `scripts/dhash.py` (Pillow, new) prints a 64-bit
+  dHash + a 16×16 luminance fingerprint per image; a pair FAILs only when the
+  dHash Hamming distance ≤ 5 **and** the luminance MAD < 1.0. Rationale: this
+  corpus is deliberately style-consistent (one centered-figure template per
+  culture), so a raw 64-bit dHash ≤ 5 yields 136 false candidate pairs between
+  genuinely different deities; calibrated, a true re-encode/resample is dHash
+  distance 0 with MAD < 0.1 while the closest distinct pair is MAD 3.0. If
+  python3/PIL is absent the perceptual tier SKIPs with a warning (exact tier
+  still gates). Also reports orphan PNGs (warn) and missing slots (warn).
+- **Orphan resolved:** moved `mesopotamian-mes-erishkigal-consort.png` (the
+  merged-away Phase-1 duplicate, matching no prompt slot) to
+  `public/cards/_orphans/` (inside the gitignored `public/cards/`; the scanner
+  excludes `_orphans/`). 177/184 card slots now matched; 7 Slavic slots + 24
+  banner slots legitimately pending art.
+- **`scripts/check-prompts.mjs`** (new) — field contract over all 184 items + 24
+  banners (subject/name, explicit gender, ratio-bearing composition, style tag,
+  setting, mood, negative prompt, slot pattern; `pan` allowed for shared banners
+  only). `npm run check:prompts`.
+- **`package.json`** — `check:art` and `check:prompts` scripts; `validate` now
+  ends with `&& npm run check:art`.
+- **Credit note off the art (D3):** removed `.tc-art-credit` (DeityCard) and
+  `.rc-art-credit` (RelicCard) from the card faces; the credit now renders in the
+  CardDetailOverlay footer (`.cd-credit`), on the artifact detail callout
+  (`.rel-callout-credit`), and as a subtle 11px note on `/about`.
+- **`docs/ART_STYLES.md`** — reconciled ratios in a new §0 (card 5:7/1024×1440,
+  banner 21:9/2016×864, safe margins) + documented the prompt field-contract
+  mapping; corrected stale `_meta.*` references to the JSON's real top-level
+  fields.
+- Gates: `npx tsc --noEmit`, `npm run build`, `npm run validate`,
+  `npm run check:art`, `npm run check:prompts` all green.
+
 ## Phase 4 — Relic cards: artifacts get the card system (2026-10-17)
 
 Authored by OpenCode worker (DeepSeek V4.1 Flash-free), QA'd by the orchestrator.

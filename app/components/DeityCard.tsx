@@ -104,10 +104,11 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
         </div>
       ) : (
         <div className="tc-face">
-          {/* 1 · art — dominant, locked to the 5:7 art contract (D3) */}
+          {/* 1 · art — dominant, locked to the 5:7 art contract (D3). The
+              generated-reconstruction credit lives in CardDetailOverlay, not on
+              the art (v2 Phase 5 D3). */}
           <div className="tc-art">
             <DeityArt card={card} />
-            <div className="tc-art-credit" aria-hidden="true">{card.image_credit || 'archival reconstruction'}</div>
           </div>
 
           {/* 2 · name + native name */}

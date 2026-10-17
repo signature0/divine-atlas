@@ -1,16 +1,54 @@
-# The Divine Atlas — Card Art Style Guide (Phase 6)
+# The Divine Atlas — Card & Banner Art Style Guide
 
 Source of truth for this guide is the art generator itself,
-[`docs/audit/gen_art_prompts.py`](audit/gen_art_prompts.py), and the `_meta`
-block of the committed [`data/art-prompts.json`](../data/art-prompts.json)
-(`schema: divine-atlas/art-prompts@1`, generated `2026-10-17`). Every rule below
+[`docs/audit/gen_art_prompts.py`](audit/gen_art_prompts.py), and the top-level
+metadata fields of the committed [`data/art-prompts.json`](../data/art-prompts.json)
+(`schema: divine-atlas/art-prompts@1`, generated `2026-10-17`; the `purpose`,
+`rule` and `negative_prompt_default` keys). Every rule below
 is derived from those two files; nothing is invented. Prompt attributes themselves
 come only from the audited `data/<culture>/entities.json` and
 `data/<culture>/artifacts.json` — no invented mythology.
 
 The generator emits **one prompt per entity and per artifact**, deterministically
 (same input → same prompt; no randomness). 184 items are emitted for the six
-cultures: 158 deity prompts and 26 relic (artifact) prompts.
+cultures: 158 deity prompts and 26 relic (artifact) prompts. A separate
+`banners` key holds the 24 Phase-3 banner prompts (§9).
+
+---
+
+## 0. Ratio & prompt-field contract (reconciled, v2 Phase 5)
+
+One place states the geometry contract so CSS, prompts, and the gate cannot drift:
+
+| Asset | Slot | Aspect ratio | Resolution | Safe margins |
+|---|---|---|---|---|
+| Card art (deity + relic) | `public/cards/<culture>/<culture>-<id>.png` | **5:7 portrait** (0.7143) | **1024 × 1440** | **≥ 8 % top/bottom**; subject never touches any frame edge |
+| Page / carousel banner | `public/banners/<slot>.png` | **21:9 landscape** (2.3333) | **2016 × 864** | generous side space for the title overlay; dark bottom-weighted scrim; no important detail at the edges |
+
+The CSS art box is locked to `--tc-art-ratio: 5 / 7` (`app/globals.css`), so
+`object-fit: cover` is a no-op on a 1024×1440 PNG — the full image is shown,
+never cropped. Details in §1, §5 (card) and §9 (banner). **No other ratio is
+valid**; the earlier legacy card proportion `--tc-ratio: 2.5 / 3.5` applies only
+to the print sheet / hand fan, never to the art box.
+
+**Prompt field contract** (enforced by `scripts/check-prompts.mjs`, `npm run
+check:prompts`). Each entry's composite `prompt` must carry — by kind — the
+segments the D4 contract names. The mapping:
+
+| Contract field | Where it lives |
+|---|---|
+| subject | leads the prompt: `<name>, the <classification> of <domains> …` |
+| gender (explicit) | top-level `gender` + its explicit phrase in the prompt (deities only) |
+| appearance | clipped `description_short` (deity) / artifact `appearance` (relic) |
+| pose | the capitalised pose sentence (§3, deity) |
+| clothing | carried by the per-culture `Art style:` tag (§7) |
+| relics / attributes | `wielding …` / `with …` / `beside them float symbols of …` / `accompanied by …` (entity-driven) |
+| setting | `Setting:` sentence (deity) |
+| mood | `Mood:` sentence (deity) |
+| composition (with ratio) | `Composition:` + `Aspect ratio 5:7 …` / `Aspect ratio 21:9 …` |
+| style tag | `Art style: <per-culture tag>` (§7) |
+| negative prompt | top-level `negative_prompt` (§6) |
+| filename / slot | `slot`, matched to the deterministic path pattern for the kind |
 
 ---
 
@@ -34,7 +72,7 @@ falls back to its existing archival artwork, or — when that is also absent —
 the letter-seal `onError` fallback in the card face. Deployed separately;
 `public/cards/` is gitignored.
 
-`_meta.purpose` states the contract in one line:
+The top-level `purpose` field states the contract in one line:
 > Image-generation prompts for every deity and relic card. Slot:
 > `public/cards/<culture>/<culture>-<id>.png` (1024x1440, 5:7).
 
@@ -147,14 +185,14 @@ in the entity's domains the generator switches to "hushed, reverent, solemn".
 ## 6. Negative-prompt default
 
 Every item carries the same `negative_prompt`, defined once as `NEG` in the
-generator and repeated verbatim in `_meta.negative_prompt_default`:
+generator and repeated verbatim in the top-level `negative_prompt_default`:
 
 > photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern
 > objects, text, watermark, logo, signature, deformed hands, extra fingers,
 > mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the
 > subject, contemporary political symbols
 
-**Why:** `_meta.rule` requires that depictions stay mythological and respectful
+**Why:** the top-level `rule` field requires that depictions stay mythological and respectful
 ("Keep depictions mythological and respectful."). The negative list therefore
 suppresses (a) media that break the painterly/archival style (photo, 3D, anime,
 cartoon, modern dress/objects), (b) generation artifacts and overlays that would

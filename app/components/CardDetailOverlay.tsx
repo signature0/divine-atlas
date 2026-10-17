@@ -282,6 +282,11 @@ export function CardDetailOverlay({ card, relics, onClose }: {
             <Link href={`/cards/${card.id}`} className="btn">Print card</Link>
             <button type="button" className="btn cd-close" onClick={onClose} aria-label="Close card details">Close ×</button>
           </div>
+
+          {/* image credit — moved off the card face (v2 Phase 5 D3). Honest:
+              generated slots say "generated reconstruction · The Divine Atlas";
+              archival artwork keeps its museum credit. */}
+          {card.image_credit && <p className="cd-credit">{card.image_credit}</p>}
         </div>
       </div>
     </div>

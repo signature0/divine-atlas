@@ -67,6 +67,12 @@ export default function About() {
               live. Attribution (title, artist, date, museum, license) is always visible. Nothing is
               scraped; no copyrighted contemporary art is used.
             </p>
+            <p className="about-credit" style={{ marginTop: 10 }}>
+              Card art labelled “generated reconstruction · The Divine Atlas” is an interpretive,
+              machine-generated reconstruction composed from each figure’s sourced attributes — not
+              archival artwork, and it claims no museum provenance. Where a card uses a museum image
+              instead, that object’s own credit is shown in the card’s detail view.
+            </p>
           </section>
           <section>
             <h2>The expansion path</h2>

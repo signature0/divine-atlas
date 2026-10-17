@@ -1,5 +1,13 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 5 (v2) — Unique-art enforcement + credit note — 2026-10-17
+- New `scripts/check-art-duplicates.mjs`: exact SHA-256 tier + perceptual dHash tier (64-bit, Hamming ≤5, confirmed by 16×16 MAD <1.0 to kill style-sibling false positives — calibration documented: true re-encodes = MAD 0, closest distinct pair MAD 3.0). Wired as `check:art`, appended to `validate`. Negative-tested: injected duplicate → exit 1; clean corpus (178 PNGs) → PASS, zero exact/near duplicates.
+- New `scripts/check-prompts.mjs` (`check:prompts`): field contract on all 184 items + 24 banners (subject/gender/appearance/pose/clothing/relics/setting/mood/composition/style/negative/filename). Negative-tested: dropped field → exit 1.
+- Orphan `mesopotamian-mes-erishkigal-consort.png` → `public/cards/_orphans/` (scanner excludes). Missing-art warnings: 7 Slavic relic slots + 24 banner slots (await art, not failures).
+- "generated reconstruction" credit moved OFF card faces (DeityCard/RelicCard) into CardDetailOverlay footer + relic detail callout + /about note. ART_STYLES.md §0 ratios reconciled.
+- Gates: tsc/build/validate/check:art/check:prompts all green (orchestrator re-ran + negative tests).
+- Worker: OpenCode deepseek-v4.1-flash-free (v2-phase5-artcheck).
+
 ## Phase 4 (v2) — Card redesign (phone-first) + art-box fix — 2026-10-17
 - Removed ALL flip affordances (FlippableCard + RelicCard buttons/hover-flip; back-face facts preserved in detail view). `grep -rn Flip app/components/` = 0. Stale copy rewritten ("hovering flips a card" → tap language).
 - New card hierarchy: 5:7 art dominant → name+native → culture badge+type → 2-line summary → PWR/GRD → tidy single-line footer (set code + sources ellipsis-clamped after vision QA found Amaterasu footer wrap/clipping; verified 36/36 cards zero overflow).

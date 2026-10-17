@@ -539,9 +539,8 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .tc-art-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
   background: radial-gradient(120% 90% at 50% 20%, color-mix(in srgb, var(--tc-el) 16%, var(--surface)), var(--surface));
   font-family: var(--font-display); font-weight: 600; font-size: 2.6em; color: color-mix(in srgb, var(--tc-el) 55%, var(--ink-2)); }
-.tc-art-credit { position: absolute; inset: auto 0 0 0; padding: 2.2em 0.5em 0.28em; background: linear-gradient(transparent, rgba(0,0,0,.82));
-  font-family: var(--font-mono); font-size: 0.5em; letter-spacing: 0.04em; color: rgba(255,255,255,.66);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* NOTE (v2 Phase 5 D3): the image credit that used to sit ON the art
+   (.tc-art-credit) now lives in the card detail overlay (.cd-credit). */
 
 /* 2 · name + native name */
 .tc-header { display: flex; align-items: flex-start; gap: 0.5em; margin-top: 0.06em; }
@@ -655,9 +654,8 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .rc-art-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
   background: radial-gradient(120% 90% at 50% 20%, color-mix(in srgb, var(--rc-accent, var(--accent)) 16%, var(--surface)), var(--surface));
   font-family: var(--font-display); font-weight: 600; font-size: 2.6em; color: color-mix(in srgb, var(--rc-el, var(--accent)) 55%, var(--ink-2)); }
-.rc-art-credit { position: absolute; inset: auto 0 0 0; padding: 2em 0.5em 0.26em; background: linear-gradient(transparent, rgba(0,0,0,.82));
-  font-family: var(--font-mono); font-size: 0.48em; letter-spacing: 0.03em; color: rgba(255,255,255,.66);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* NOTE (v2 Phase 5 D3): the relic image credit moved off the art to the
+   artifact detail page (.rel-callout-credit). */
 
 /* name + native name */
 .rc-header { display: flex; align-items: flex-start; gap: 0.5em; }
@@ -701,6 +699,10 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 /* ---- detail-page callout ---- */
 .rel-callout { display: flex; flex-direction: column; gap: 8px; }
 .rel-callout-disc { font-size: 0.58rem; letter-spacing: 0.06em; color: var(--ink-2); line-height: 1.5; margin: 0; }
+/* relic image credit, moved off the relic card art (v2 Phase 5 D3) */
+.rel-callout-credit { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.03em; color: var(--ink-2); line-height: 1.5; margin: 0; }
+/* generated-reconstruction note on /about (v2 Phase 5 D3) */
+.about-credit { font-size: 11px; letter-spacing: 0.02em; color: var(--ink-2); line-height: 1.6; }
 
 /* ---- no horizontal overflow ---- */
 .vault-cards-grid { min-width: 0; max-width: 100%; }
@@ -969,6 +971,9 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 
 .cd-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
 .cd-close { margin-left: auto; }
+/* image credit, moved off the card art (v2 Phase 5 D3): subtle, 11px, muted */
+.cd-credit { margin: 10px 0 0; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.03em;
+  color: var(--ink-2); line-height: 1.5; }
 
 @keyframes cd-up { from { transform: translateY(26px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 @keyframes cd-fade { from { opacity: 0; } to { opacity: 1; } }

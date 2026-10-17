@@ -205,6 +205,9 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
                 <p className="rel-callout-disc mono">
                   Card stats are interpretive, derived from the Atlas power profile.
                 </p>
+                {relic.image_credit && (
+                  <p className="rel-callout-credit">{relic.image_credit}</p>
+                )}
               </div>
             )}
 

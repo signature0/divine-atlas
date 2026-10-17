@@ -75,10 +75,11 @@ function RelicFace({ card, size = 'md' }: {
           <span className="rc-band-rarity">{RARITY_LABELS[card.rarity]}</span>
         </div>
 
-        {/* art — same 5:7 art-box contract as deity cards */}
+        {/* art — same 5:7 art-box contract as deity cards. The image credit is
+            not painted on the art (v2 Phase 5 D3); it lives on the artifact
+            detail page (the relic's detail view). */}
         <div className="rc-art">
           <RelicArt card={card} />
-          <span className="rc-art-credit" aria-hidden="true">{card.image_credit || 'archival reconstruction'}</span>
         </div>
 
         {/* name + native name */}
