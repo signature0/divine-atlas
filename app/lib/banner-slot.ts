@@ -32,7 +32,18 @@ export function bannerSlotExists(slot: string): boolean {
   }
 }
 
-/** Resolve a slot to its web path when the PNG exists at build time, else null. */
+/**
+ * Resolve a slot to its web path when art exists at build time, else null.
+ * Prefers the WebP sibling (written alongside the PNG by the art pipeline),
+ * mirroring app/lib/art-slot.ts; falls back to the PNG contract.
+ */
 export function resolveBannerSlot(slot: string): string | null {
-  return bannerSlotExists(slot) ? bannerSlotPath(slot) : null;
+  if (!bannerSlotExists(slot)) return null;
+  const webp = path.join(process.cwd(), 'public', BANNER_DIR, `${slot}.webp`);
+  try {
+    if (fs.existsSync(webp)) return `/${BANNER_DIR}/${slot}.webp`;
+  } catch {
+    /* fall through to PNG */
+  }
+  return bannerSlotPath(slot);
 }

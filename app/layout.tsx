@@ -25,6 +25,20 @@ export const metadata: Metadata = {
   },
   description:
     'An interactive codex of the world\'s mythologies — Japanese, Greek, Norse, Egyptian, Slavic, and Mesopotamian. A graph, not a family tree: every claim carried by its sources, every uncertainty preserved.',
+  openGraph: {
+    title: 'The Divine Atlas — An interactive museum of world mythology',
+    description:
+      'Six pantheons as one living codex: 184 illustrated deity cards, myths, relics, a relationship graph, and a printable card game.',
+    type: 'website',
+    images: [{ url: '/og-image.png', width: 1216, height: 640, alt: 'A council of six throned gods — one from each pantheon — under a golden constellation vault.' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The Divine Atlas — An interactive museum of world mythology',
+    description:
+      'Six pantheons as one living codex: 184 illustrated deity cards, myths, relics, a relationship graph, and a printable card game.',
+    images: ['/og-image.png'],
+  },
 };
 
 export const viewport: Viewport = {
