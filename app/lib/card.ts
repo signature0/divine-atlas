@@ -84,6 +84,14 @@ export const ELEMENT_COLORS: Record<CardElement, string> = {
   light: '#c8a24a', storm: '#7fa0c0', fire: '#c06a3e', water: '#4f86a6', earth: '#8a9a5b',
   life: '#7fae8b', death: '#9a7f9a', war: '#c0574a', mind: '#b08bd8', sky: '#6f9fc0', void: '#868171',
 };
+// DES-005 convention for element colors used as TEXT on the dark card surface
+// (#17171e): same hues, lightness bumped only where the raw color falls below
+// 4.6:1 so small text clears AA. ELEMENT_COLORS stays for borders, dots, glows
+// and other non-text uses (which meet the 3:1 bar).
+export const ELEMENT_TEXT_COLORS: Record<CardElement, string> = {
+  light: '#c8a24a', storm: '#7fa0c0', fire: '#c97a52', water: '#5f96b6', earth: '#8a9a5b',
+  life: '#7fae8b', death: '#9a7f9a', war: '#c96b5f', mind: '#b08bd8', sky: '#6f9fc0', void: '#8d8878',
+};
 
 // ---- rarity from classification (interpretive tier) ----
 export function rarityOf(c: Classification): CardRarity {

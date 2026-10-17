@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { cardFor, ALL_CULTURES, loadCulture } from '../lib/data';
 import { DeityCard } from '../components/DeityCard';
 import { PrintButton } from '../components/PrintButton';
-import { ELEMENT_LABELS, ELEMENT_COLORS } from '../lib/card';
+import { ELEMENT_LABELS, ELEMENT_COLORS, ELEMENT_TEXT_COLORS } from '../lib/card';
 import { CULTURE_NAMES } from '../lib/types';
 import {
   DECK_SIZE, STARTING_HAND, HAND_LIMIT, STARTING_ESSENCE, CHANNEL_GAIN, ESSENCE_CAP,
@@ -153,7 +153,7 @@ export default function HowToPlayPage() {
               <thead><tr><th>Attacker</th><th>Beats</th><th>Bonus</th></tr></thead>
               <tbody>
                 {ELEMENT_ADVANTAGE_PAIRS.map(([a, b]) => (
-                  <tr key={a}><td style={{ color: ELEMENT_COLORS[a] }}>{ELEMENT_LABELS[a]}</td><td style={{ color: ELEMENT_COLORS[b] }}>{ELEMENT_LABELS[b]}</td><td className="mono">+{ELEMENT_ADVANTAGE} PWR</td></tr>
+                  <tr key={a}><td style={{ color: ELEMENT_TEXT_COLORS[a] }}>{ELEMENT_LABELS[a]}</td><td style={{ color: ELEMENT_TEXT_COLORS[b] }}>{ELEMENT_LABELS[b]}</td><td className="mono">+{ELEMENT_ADVANTAGE} PWR</td></tr>
                 ))}
               </tbody>
             </table>

@@ -312,6 +312,14 @@ export const CULTURE_ACCENTS: Record<string, string> = {
   japanese: '#c0392b', greek: '#c9a227', norse: '#5b8db8',
   egyptian: '#c8a24a', slavic: '#8a9a5b', mesopotamian: '#3f7ca6',
 };
+// DES-005 convention for culture accents used as TEXT on the dark card surface
+// (#17171e): same hues, lightness bumped only where the raw accent falls below
+// 4.6:1. CULTURE_ACCENTS stays for borders, badges, graph nodes and other
+// non-text uses.
+export const CULTURE_TEXT_COLORS: Record<string, string> = {
+  japanese: '#d7594c', greek: '#c9a227', norse: '#5b8db8',
+  egyptian: '#c8a24a', slavic: '#8a9a5b', mesopotamian: '#4689b8',
+};
 
 // ---- Artifact classification (INTERPRETIVE Atlas feature, not historical fact) ----
 // Ordinal scale for "tier_min" filters and rank ordering.

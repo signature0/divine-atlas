@@ -35,7 +35,7 @@ export default async function CardPrintPage({ params }: { params: Promise<{ id: 
       <div className="container print-sheet" aria-label="Card print sheet">
         {/* FRONT */}
         <div className="print-card print-card-front">
-          <DeityCard card={card} size="lg" />
+          <DeityCard card={card} size="lg" asHeading />
         </div>
         {/* BACK */}
         <div className="print-card print-card-back">

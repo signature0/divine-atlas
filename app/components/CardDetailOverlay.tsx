@@ -7,7 +7,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ResolvedCard } from '../lib/data';
-import { ELEMENT_COLORS, ELEMENT_LABELS, RARITY_LABELS } from '../lib/card';
+import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { CULTURE_ACCENTS, CULTURE_NAMES } from '../lib/types';
 
 export type Relic = { slug: string; name: string; category: string };
@@ -72,6 +72,7 @@ export function CardDetailOverlay({ card, relics, onClose }: {
   onClose: () => void;
 }) {
   const el = ELEMENT_COLORS[card.element];
+  const elText = ELEMENT_TEXT_COLORS[card.element];
   const cultureAccent = CULTURE_ACCENTS[card.culture] || '#c8a24a';
   const panelRef = useRef<HTMLDivElement>(null);
   const restoreRef = useRef<HTMLElement | null>(null);
@@ -161,7 +162,7 @@ export function CardDetailOverlay({ card, relics, onClose }: {
         aria-modal="true"
         aria-label={`${card.name} card details`}
         tabIndex={-1}
-        style={{ '--tc-el': el, '--tc-culture': cultureAccent, transform: dy ? `translateY(${dy}px)` : undefined } as React.CSSProperties}
+        style={{ '--tc-el': el, '--tc-el-text': elText, '--tc-culture': cultureAccent, transform: dy ? `translateY(${dy}px)` : undefined } as React.CSSProperties}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="cd-handle" onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerCancel={onUp}>

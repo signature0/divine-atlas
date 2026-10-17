@@ -22,12 +22,12 @@ export default function CardPrintDeckPage() {
       </div>
 
       <div className="container">
-        <p className="muted print-intro" style={{ maxWidth: 720, lineHeight: 1.6 }}>
+        <h1 className="muted print-intro" style={{ maxWidth: 720, lineHeight: 1.6, fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: 400 }}>
           This is the full-deck sheet — {cards.length} front faces across {ALL_CULTURES.length} pantheons,
           in set order (DA-{ALL_CULTURES.map((c) => ({ japanese: 'JPN', greek: 'GRE', norse: 'NOR', egyptian: 'EGY', slavic: 'SLA', mesopotamian: 'MES' })[c]).join(' / ')}-###).
           For a single card at true 63.5 × 88.9 mm with its reverse, open it from the deck and choose
           <span className="mono"> print ↗</span> — or go straight to its <span className="mono">/cards/‹id›</span> sheet.
-        </p>
+        </h1>
       </div>
 
       <div className="print-deck-grid" aria-label="Full deck print sheet">

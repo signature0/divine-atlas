@@ -77,3 +77,25 @@ Authored by OpenCode worker (DeepSeek V4.1 Flash-free, session phase6-art-wiring
   (lazy-load settle), print sheet hero loads, zero 4xx on /cards/ assets. Vision:
   art fits frames, no distortion, layout intact. tsc/build/validate green on a clean
   rebuild.
+## Phase 7 — Site-wide QA sweep + a11y fixes (2026-10-17)
+
+Authored by OpenCode worker (DeepSeek V4.1 Flash-free, sessions phase7-a11y-fixes,
+phase7-h1-scoping, phase7-contrast-fix), audits + verification by the orchestrator.
+
+- **Sweep (orchestrator, Playwright)**: all 723 static routes x 2 viewports
+  (1440x900, 380x780): zero page/console errors, zero failed/4xx requests, zero
+  horizontal overflow, every img has alt, every internal link resolves to a built
+  page, landmarks/labels spot-checked on 5 key pages.
+- **h1 defect**: 159 print sheets had no <h1>. First worker pass made DeityCard's
+  name an h1 unconditionally — orchestrator caught the leak (cards.html 37 h1s,
+  print.html 158, index.html 7). Scoped fix: `asHeading` prop on DeityCard, true
+  only on the single-card print sheet; real page h1 on the full-deck sheet.
+  Verified: all 723 pages have exactly 1 h1.
+- **Contrast defect (orchestrator WCAG probe)**: raw culture/element accent colors
+  used as text on dark surfaces (7 samples, worst 3.28:1). Extended the DES-005
+  convention: ELEMENT_TEXT_COLORS + CULTURE_TEXT_COLORS (AA >=4.6:1 text variants)
+  applied to .tc-culture, .tc-print (--tc-el-text), deck element chips, rules
+  element table. Raw colors kept for borders/backgrounds/graph nodes. Re-audit:
+  0 low-contrast samples across 11 key pages.
+- **Regression**: phase 4/5/6 Playwright suites re-run green; engine 15/15;
+  tsc/build/validate green on clean rebuild.

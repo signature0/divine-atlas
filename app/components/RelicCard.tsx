@@ -13,7 +13,7 @@
 // render, no Math.random.
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { ELEMENT_COLORS, ELEMENT_LABELS, RARITY_LABELS } from '../lib/card';
+import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { CULTURE_ACCENTS } from '../lib/types';
 import type { RelicCard as RelicCardData } from '../lib/relic-card';
 
@@ -62,6 +62,7 @@ function RelicFace({ card, showBack = false, size = 'md' }: {
   const cultureAccent = CULTURE_ACCENTS[card.culture] || '#c8a24a';
   const styleVars = {
     '--rc-el': el,
+    '--tc-el-text': ELEMENT_TEXT_COLORS[card.element],
     '--rc-culture': cultureAccent,
     '--rc-accent': cultureAccent,
   } as React.CSSProperties;

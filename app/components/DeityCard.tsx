@@ -7,9 +7,9 @@
 // print metrics live in globals.css; element colors are inline (--tc-el /
 // --tc-culture) so a card keeps its identity on any background.
 import { useEffect, useRef, useState } from 'react';
-import { ELEMENT_COLORS, ELEMENT_LABELS, RARITY_LABELS } from '../lib/card';
+import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { ResolvedCard } from '../lib/data';
-import { CULTURE_ACCENTS } from '../lib/types';
+import { CULTURE_ACCENTS, CULTURE_TEXT_COLORS } from '../lib/types';
 import Link from 'next/link';
 
 // Letter-seal fallback for a missing/broken artwork — the same pattern
@@ -73,13 +73,15 @@ function Pips({ n, color, max = 12, size = 9 }: { n: number; color: string; max?
   );
 }
 
-export function DeityCard({ card, showBack = false, size = 'md' }: { card: ResolvedCard; showBack?: boolean; size?: 'sm' | 'md' | 'lg' }) {
+export function DeityCard({ card, showBack = false, size = 'md', asHeading = false }: { card: ResolvedCard; showBack?: boolean; size?: 'sm' | 'md' | 'lg'; asHeading?: boolean }) {
   const el = ELEMENT_COLORS[card.element];
+  const elText = ELEMENT_TEXT_COLORS[card.element];
   const cultureAccent = CULTURE_ACCENTS[card.culture] || '#c8a24a';
+  const cultureText = CULTURE_TEXT_COLORS[card.culture] || cultureAccent;
   const isMythic = card.rarity === 'mythic';
 
   return (
-    <div className={`tc tc-${size} tc-el-${card.element}`} style={{ '--tc-el': el, '--tc-culture': cultureAccent } as React.CSSProperties}>
+    <div className={`tc tc-${size} tc-el-${card.element}`} style={{ '--tc-el': el, '--tc-el-text': elText, '--tc-culture': cultureAccent } as React.CSSProperties}>
       {isMythic && <div className="tc-mythic-ring" aria-hidden="true" />}
 
       {showBack ? (
@@ -95,7 +97,9 @@ export function DeityCard({ card, showBack = false, size = 'md' }: { card: Resol
           {/* header */}
           <div className="tc-header">
             <div className="tc-title">
-              <div className="tc-name">{card.name}</div>
+              {asHeading
+                ? <h1 className="tc-name">{card.name}</h1>
+                : <div className="tc-name">{card.name}</div>}
               {card.native_name && <div className="tc-native">{card.native_name}</div>}
             </div>
             <div className="tc-cost" title="Essence cost — interpretive" aria-label={`Essence cost ${card.stats.essence}`}>
@@ -130,7 +134,7 @@ export function DeityCard({ card, showBack = false, size = 'md' }: { card: Resol
 
           {/* footer */}
           <div className="tc-footer">
-            <span className="tc-culture" style={{ color: cultureAccent }}>{card.culture}</span>
+            <span className="tc-culture" style={{ color: cultureText }}>{card.culture}</span>
             <span className="tc-code mono">{card.set_code}</span>
             <Link href={`/cards/${card.id}`} className="tc-print" aria-label={`Open ${card.name} print sheet`}
               onClick={(e) => e.stopPropagation()}>print ↗</Link>

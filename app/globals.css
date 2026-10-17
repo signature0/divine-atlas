@@ -488,7 +488,7 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 .tc-culture { font-family: var(--font-mono); font-size: 0.62em; letter-spacing: 0.14em; text-transform: uppercase; }
 .tc-code { font-size: 0.6em; color: var(--ink-2); margin-left: auto; }
 .tc-print { font-family: var(--font-mono); font-size: 0.6em; letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--tc-el); border-bottom: 1px dotted color-mix(in srgb, var(--tc-el) 60%, transparent); padding-bottom: 1px; white-space: nowrap; }
+  color: var(--tc-el-text, var(--tc-el)); border-bottom: 1px dotted color-mix(in srgb, var(--tc-el) 60%, transparent); padding-bottom: 1px; white-space: nowrap; }
 .tc-print:hover { color: var(--ink-0); }
 
 /* ---- BACK (collectible reverse plate) ---- */

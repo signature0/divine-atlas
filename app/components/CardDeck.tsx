@@ -8,7 +8,7 @@ import { ResolvedCard } from '../lib/data';
 import { FlippableCard } from './FlippableCard';
 import { DeityCard } from './DeityCard';
 import { CardDetailOverlay } from './CardDetailOverlay';
-import { ELEMENT_LABELS, ELEMENT_COLORS, RARITY_LABELS } from '../lib/card';
+import { ELEMENT_LABELS, ELEMENT_COLORS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { CULTURE_NAMES, CULTURE_ACCENTS } from '../lib/types';
 
 const CULTURE_ORDER = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'];
@@ -187,7 +187,7 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
           <div className="deck-chips">
             <button className={`chip-btn${element === 'all' ? ' active' : ''}`} onClick={() => { setElement('all'); setLimit(36); }}>All</button>
             {ELEMENT_ORDER.map((e) => (
-              <button key={e} className={`chip-btn${element === e ? ' active' : ''}`} style={element === e ? { borderColor: ELEMENT_COLORS[e as keyof typeof ELEMENT_COLORS], color: ELEMENT_COLORS[e as keyof typeof ELEMENT_COLORS] } : undefined}
+              <button key={e} className={`chip-btn${element === e ? ' active' : ''}`} style={element === e ? { borderColor: ELEMENT_COLORS[e as keyof typeof ELEMENT_COLORS], color: ELEMENT_TEXT_COLORS[e as keyof typeof ELEMENT_TEXT_COLORS] } : undefined}
                 onClick={() => { setElement(e); setLimit(36); }}>{ELEMENT_LABELS[e as keyof typeof ELEMENT_LABELS]}</button>
             ))}
           </div>
