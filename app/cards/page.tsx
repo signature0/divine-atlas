@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { allCards, ALL_CULTURES, loadCulture } from '../lib/data';
+import { allCards, allArtifacts, ALL_CULTURES, loadCulture } from '../lib/data';
 import { CardDeck } from '../components/CardDeck';
+import type { DeckRelics } from '../components/CardDeck';
 
 export const metadata: Metadata = {
   title: 'The Deck — Deity Cards',
@@ -12,6 +13,15 @@ export default function CardsPage() {
   const cards = allCards();
   const byCulture = cards.reduce((m, c) => { m[c.culture] = (m[c.culture] || 0) + 1; return m; }, {} as Record<string, number>);
   const mythics = cards.filter((c) => c.rarity === 'mythic').length;
+
+  // Relics owned by each entity (ADR-002) — built here so CardDeck stays a pure
+  // view over serializable data. Only artifacts whose `owner` is a real entity.
+  const cardIds = new Set(cards.map((c) => c.id));
+  const relics: DeckRelics = {};
+  for (const a of allArtifacts()) {
+    if (!a.owner || !cardIds.has(a.owner)) continue;
+    (relics[a.owner] ||= []).push({ slug: a.slug, name: a.name, category: a.category });
+  }
 
   return (
     <div data-culture="egyptian">
@@ -48,7 +58,7 @@ export default function CardsPage() {
 
       <div id="deck" className="section-sm" style={{ paddingTop: 8 }}>
         <div className="container">
-          <CardDeck cards={cards} />
+          <CardDeck cards={cards} relics={relics} />
         </div>
       </div>
 

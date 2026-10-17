@@ -139,19 +139,49 @@ export function artifactRelationships(artifactId: string): Relationship[] {
 }
 
 // ---- Deity cards (ADR-004) — a VIEW over Entity, never a new source of truth ----
-export type ResolvedCard = DeityCard & { image_url: string | null; image_credit: string };
+/** A family link resolved to display name + entity id (for /deity/<id> links). */
+export type FamilyRef = { id: string; name: string };
+export type CardFamily = { partners: FamilyRef[]; parents: FamilyRef[]; children: FamilyRef[] };
+/** A primary source as it appears on the card: `ref` is the bare id ("S1"), `text` its name. */
+export type CardSource = { ref: string; text: string };
+export type ResolvedCard = DeityCard & {
+  image_url: string | null;
+  image_credit: string;
+  family: CardFamily;
+  sources: CardSource[];
+};
 
 let _cards: ResolvedCard[] | null = null;
-/** Every entity across every culture, as a resolved card (image + credit attached). */
+/** Every entity across every culture, as a resolved card (image + credit + family + sources attached). */
 export function allCards(): ResolvedCard[] {
   if (_cards) return _cards;
   const out: ResolvedCard[] = [];
   for (const d of Object.values(allCultures())) {
     const artById = new Map(d.artworks.map((a) => [a.id, a]));
+    const byId = new Map(d.entities.map((e) => [e.id, e]));
+    // Resolve a list of entity ids (partners/parents/children) to name+id pairs.
+    // Falls back to the global index for any cross-culture reference.
+    const resolve = (ids?: string[]): FamilyRef[] =>
+      (ids || []).map((id) => {
+        const t = byId.get(id) || entityById(id);
+        return { id, name: t?.name || id };
+      });
     d.entities.forEach((e, i) => {
       const base = deriveCard(e, i + 1);
       const art = base.hero_artwork_id ? artById.get(base.hero_artwork_id) : undefined;
-      out.push({ ...base, image_url: art?.image_url || null, image_credit: art ? `${art.title} · ${art.museum} · ${art.license}` : '' });
+      out.push({
+        ...base,
+        image_url: art?.image_url || null,
+        image_credit: art ? `${art.title} · ${art.museum} · ${art.license}` : '',
+        family: {
+          partners: resolve(e.partners),
+          parents: resolve(e.parents),
+          children: resolve(e.children),
+        },
+        sources: (e.primary_sources || [])
+          .filter((s) => s?.ref)
+          .map((s) => ({ ref: s.ref, text: s.name })),
+      });
     });
   }
   _cards = out;

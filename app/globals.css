@@ -619,3 +619,176 @@ h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; ma
 @media (prefers-reduced-motion: reduce) {
   .graph-fade, .graph-detail { transition: none; }
 }
+
+/* ============================================================================
+   PHASE 3 — Deck phone-first: detail overlay, list/hand layouts, polish.
+   Append-only: overrides of existing .tc* rules are scoped below the originals.
+   ========================================================================== */
+
+/* ---- flip is demoted to a corner button (all devices) ---- */
+.tc-flip-btn {
+  position: absolute; right: 6px; bottom: 6px; z-index: 5; width: 26px; height: 26px;
+  display: flex; align-items: center; justify-content: center; padding: 0;
+  border-radius: 50%; cursor: pointer; line-height: 1;
+  background: color-mix(in srgb, var(--bg-0) 80%, transparent);
+  border: 1px solid var(--line); color: var(--ink-1); font-size: 13px;
+  -webkit-tap-highlight-color: transparent;
+}
+.tc-flip-btn:hover { color: var(--ink-0); border-color: var(--accent); }
+.tc-flip-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* under reduced motion the reverse plate is still reachable via the button */
+.tc-flip.is-static { cursor: pointer; }
+.tc-flip.is-static .tc-flip-back { display: block; }
+.tc-flip.is-static .tc-flip-inner { transition: none; }
+
+/* ---- polish: name clamp + safer wrapping ---- */
+.tc-name { line-clamp: 2; overflow-wrap: anywhere; }
+
+/* ---- layout segmented control ---- */
+.deck-layoutbar { display: flex; align-items: center; gap: 12px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.seg-btn { border: none; background: var(--surface); color: var(--ink-1); cursor: pointer;
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 7px 16px; }
+.seg-btn + .seg-btn { border-left: 1px solid var(--line); }
+.seg-btn:hover { color: var(--ink-0); }
+.seg-btn.active { background: var(--accent); color: var(--bg-0); font-weight: 600; }
+.seg-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.deck-filtering { color: var(--accent-text); font-style: italic; }
+
+/* ---- LIST layout ---- */
+.deck-list { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.deck-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; min-width: 0;
+  border: 1px solid var(--line); background: var(--bg-1); border-radius: 6px; padding: 10px 12px;
+  cursor: pointer; }
+.deck-row:hover { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); background: var(--bg-2); }
+.deck-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.deck-row-card { width: 56px; aspect-ratio: var(--tc-ratio); flex: none; }
+.deck-row-body { flex: 1 1 160px; min-width: 0; }
+.deck-row-name { font-family: var(--font-display); font-weight: 600; font-size: 1.06rem; line-height: 1.15;
+  color: var(--ink-0); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.deck-row-type { font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.deck-row-culture { font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; flex: none; }
+.deck-row-stats { display: flex; gap: 12px; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--ink-2); flex: none; }
+.deck-row-stats b { font-family: var(--font-display); font-size: 1rem; }
+.deck-row-chev { margin-left: auto; color: var(--ink-2); font-size: 1.3rem; line-height: 1; flex: none; }
+@media (max-width: 560px) {
+  .deck-row-culture { flex-basis: 100%; order: 3; margin-left: 70px; margin-top: -4px; }
+  .deck-row-stats { order: 3; flex-basis: 100%; margin-left: 70px; }
+  .deck-row-chev { position: absolute; right: 14px; }
+  .deck-row { position: relative; padding-right: 34px; }
+}
+
+/* ---- HAND layout (fanned; CSS transforms only) ---- */
+.deck-hand { display: flex; justify-content: center; align-items: flex-end; min-width: 0;
+  min-height: 340px; height: 340px; padding: 44px 24px 20px; overflow-x: auto; overflow-y: hidden; }
+/* center, but never strand the left edge of an overflowing fan out of scroll reach */
+@supports (justify-content: safe center) { .deck-hand { justify-content: safe center; } }
+.deck-hand-card { width: 150px; flex: none; transform-origin: 50% 120%; transition: transform .22s var(--ease); }
+.deck-hand-card + .deck-hand-card { margin-left: -46px; }
+.deck-hand-card:focus-within { z-index: 25; }
+.deck-hand-hint { text-align: center; margin-top: -6px; }
+.deck-hand-gridlink { background: none; border: none; cursor: pointer; color: var(--accent-text);
+  font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase;
+  text-decoration: underline; padding: 4px; }
+.deck-hand-gridlink:hover { color: var(--ink-0); }
+
+/* ---- filter chips: horizontal scroll + edge fade on mobile ---- */
+@media (max-width: 640px) {
+  .deck-chips { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 6px;
+    scrollbar-width: thin;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 22px), transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 22px), transparent 100%); }
+  .deck-chips .chip-btn { flex: none; scroll-snap-align: start; }
+}
+
+/* ---- no horizontal overflow at 380px ---- */
+.deck { max-width: 100%; }
+.deck-grid, .deck-list, .deck-hand { min-width: 0; }
+@media (max-width: 400px) {
+  .deck-controls { padding: 14px; }
+  .deck-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================================================
+   Card detail overlay (dialog)
+   ========================================================================== */
+.cd-root { position: fixed; inset: 0; z-index: 80; display: flex; justify-content: center; align-items: stretch; }
+.cd-backdrop { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.62); animation: cd-fade .2s ease-out; }
+.cd-panel { position: relative; z-index: 1; width: 100%; max-width: 640px; background: var(--bg-1);
+  display: flex; flex-direction: column; overflow: hidden; animation: cd-up .2s ease-out;
+  padding-top: env(safe-area-inset-top); }
+.cd-handle { flex: none; display: flex; justify-content: center; padding: 8px 0 4px; cursor: grab;
+  touch-action: none; }
+.cd-grip { width: 42px; height: 4px; border-radius: 2px; background: var(--line); }
+.cd-scroll { flex: 1; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
+  padding: 0 18px calc(28px + env(safe-area-inset-bottom)); }
+
+.cd-hero { margin: 0 -18px 16px; height: 210px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.cd-hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cd-hero-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(120% 90% at 50% 20%, color-mix(in srgb, var(--tc-el) 18%, var(--surface)), var(--surface));
+  font-family: var(--font-display); font-weight: 600; font-size: 3.4rem;
+  color: color-mix(in srgb, var(--tc-el) 55%, var(--ink-2)); }
+
+.cd-head { display: flex; flex-direction: column; gap: 6px; }
+.cd-culture { align-self: flex-start; display: inline-block; font-family: var(--font-mono); font-size: 0.58rem;
+  letter-spacing: 0.12em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; color: var(--bg-0); }
+.cd-name { font-family: var(--font-display); font-weight: 600; font-size: 1.9rem; line-height: 1.05; margin: 2px 0 0; }
+.cd-native { font-family: var(--font-native); color: var(--ink-2); font-size: 0.95rem; }
+.cd-typeline { display: flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 0.64rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-1); border-top: 1px solid var(--line); padding-top: 8px; }
+.cd-typeline svg { flex: none; }
+.cd-rarity { margin-left: auto; color: var(--gold); }
+
+.cd-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+.cd-stat { display: flex; flex-direction: column; gap: 4px; align-items: center; text-align: center;
+  border: 1px solid var(--line); border-radius: 6px; padding: 10px 6px; background: var(--bg-2); }
+.cd-stat-label { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); }
+.cd-stat-num { font-family: var(--font-display); font-weight: 600; font-size: 1.8rem; line-height: 1; }
+
+.cd-section { margin-top: 20px; }
+.cd-h3 { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--accent-text); margin: 0 0 8px; }
+.cd-story { font-size: 0.92rem; line-height: 1.7; color: var(--ink-1); margin: 0; }
+.cd-ref { background: none; border: none; padding: 0 0 0 2px; cursor: pointer; color: var(--gold);
+  font-family: var(--font-mono); font-size: 0.7em; vertical-align: super; }
+.cd-ref:hover { color: var(--ink-0); }
+.cd-ref:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-radius: 2px; }
+.cd-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.cd-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.cd-link { display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  border: 1px solid var(--line); border-radius: 5px; padding: 9px 12px; background: var(--bg-2); color: var(--ink-0); }
+.cd-link:hover { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); }
+.cd-link-sub { font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
+
+.cd-family-row { display: flex; gap: 10px; align-items: baseline; margin-bottom: 6px; }
+.cd-family-label { flex: none; width: 66px; font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+.cd-family-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.cd-famlink { font-size: 0.78rem; color: var(--accent-text); border-bottom: 1px dotted color-mix(in srgb, var(--accent-text) 55%, transparent); }
+
+.cd-sources { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px;
+  font-size: 0.76rem; line-height: 1.5; color: var(--ink-1); }
+.cd-sources li { scroll-margin: 80px; }
+.cd-src-ref { color: var(--gold); }
+
+.cd-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
+.cd-close { margin-left: auto; }
+
+@keyframes cd-up { from { transform: translateY(26px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes cd-fade { from { opacity: 0; } to { opacity: 1; } }
+
+@media (min-width: 720px) {
+  .cd-root { padding: 3vh 24px; align-items: center; }
+  .cd-panel { max-width: 560px; max-height: 94vh; border: 1px solid var(--line); border-radius: 12px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6); }
+  .cd-hero { height: 250px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cd-panel, .cd-backdrop { animation: none; }
+  .deck-hand-card { transition: none; }
+}
