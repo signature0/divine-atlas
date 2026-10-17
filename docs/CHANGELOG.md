@@ -1,5 +1,12 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 2 (v2) — Navigation redesign — 2026-10-17
+- `TopNav.tsx` reworked to primary-only: Religions (dropdown, six pantheons w/ custom icons) · Relics · Cards · Search · More (grouped: Play/Explore/About). Active-section highlight via usePathname; keyboard + Escape + outside-click with focus return; z-index discipline (nav 50 < overlay 80 < search 100).
+- New `app/components/icons.tsx`: 24×24 line-style SVG set (stroke 1.75, currentColor): torii/bolt/Mjölnir/ankh/rosette/cuneiform-star + Religions/Home/Relic/Cards/Play/Graph/Stories/Compare/Vault/Search/More/Menu/Close/Chevron/Book/Board/About. 23 inline SVGs in nav; zero icon fonts.
+- Mobile 380px: compact header (brand+search+hamburger), fixed bottom tab bar (5 tabs, ≥44px targets, active highlight), slide-up sheet (grouped links + religion chips), safe-area padding + 85dvh internal scroll (fixed after vision QA found bottom clipping).
+- QA: Playwright 18/18 (dropdowns, aria-expanded, focus return, active highlight incl. /deity→Religions, tab targets, sheet, overflow 0px, zero console errors); vision QA desktop+mobile clean. Gates tsc/build/validate green.
+- Worker: OpenCode deepseek-v4.1-flash-free (v2-phase2-nav + v2-phase2-sheet-fix).
+
 ## Phase 1 (v2) — Content audit report + description rewrites + stat balance — 2026-10-17
 - Authored `docs/AUDIT_REPORT.md` (484 lines): method, full F/G/S/X corrections table (before/after/why), missing content, weak-description record, per-culture PWR/GRD balance review.
 - 37 field edits across 25 entities + 1 artifact: 21 summary/story rewrites (card summary line + detail story), 16 factual-accuracy prose patches (incl. stale prose repeating corrected errors: jpn-toyotama, mes-nabu, mes-enki, slv-svarog, slv-veles, egy-ogdoad-khnum, egy-horus-elder, nor-uthra, nor-heimdall). All 4 length-flagged records fixed (gre-let-o, nor-jarnsaxa, nor-modi, egy-ogdoad-sat).
