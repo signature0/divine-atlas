@@ -1,26 +1,27 @@
 'use client';
-// /play — 2-player hot-seat duel (PHASE5). A thin React shell over the pure
+// /play — 2–4 player hot-seat duel (PHASE 6). A thin React shell over the pure
 // engine in app/lib/pantheon.ts: all rules live there, this file only renders
 // state and dispatches actions. The card pool arrives at RUNTIME from
 // /duel-deck.json (see the addendum) and is installed into pantheon-data.
 //
 // SSR/hydration-safe: no Date.now / Math.random during render (the random seed
 // is chosen in an effect). All duel state is in memory; nothing is persisted.
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { Fragment, useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { DuelCard } from './DuelCard';
 import { setDuelDeck, duelCard, duelRelicsForEntity } from '../../lib/pantheon-data';
 import type { DuelDeckPayload } from '../../lib/pantheon-data';
 import {
-  newGame, reduce, undo,
-  DECK_SIZE, PILLAR_HP, ESSENCE_CAP, HAND_LIMIT, summonCost, relicCost,
+  createGame, reduce, undo, channelGainFor, pillarHpForCount,
+  DECK_SIZE, ESSENCE_CAP, HAND_LIMIT, summonCost, relicCost,
 } from '../../lib/pantheon';
-import type { Action, GameState, PlayerId } from '../../lib/pantheon';
+import type { Action, CardInstance, GameState, PlayerCount, PlayerId } from '../../lib/pantheon';
 import { CULTURE_NAMES, CULTURE_ACCENTS } from '../../lib/types';
 
 const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
+const COUNTS: PlayerCount[] = [2, 3, 4];
 
-type Pending = { attackerUid: number } | null;
+type Pending = { attackerUid: number; targetPlayer: PlayerId } | null;
 type Sel = { kind: 'hand' | 'field'; uid: number } | null;
 
 function PantheonPicker({ who, value, onChange }: { who: string; value: string; onChange: (c: string) => void }) {
@@ -44,16 +45,48 @@ function PantheonPicker({ who, value, onChange }: { who: string; value: string; 
   );
 }
 
+/** Non-active seats' hands stay hidden: press-and-hold (or Space/Enter) to peek. */
+function HandPeek({ seat, cards }: { seat: number; cards: CardInstance[] }) {
+  const [peek, setPeek] = useState(false);
+  return (
+    <div className="duel-peek">
+      <button
+        type="button"
+        className="chip-btn"
+        onPointerDown={() => setPeek(true)}
+        onPointerUp={() => setPeek(false)}
+        onPointerLeave={() => setPeek(false)}
+        onBlur={() => setPeek(false)}
+        onKeyDown={(e) => { if (e.key === ' ' || e.key === 'Enter') setPeek(true); }}
+        onKeyUp={() => setPeek(false)}
+        aria-label={`Hold to reveal Seat ${seat}'s hand (${cards.length} card${cards.length === 1 ? '' : 's'})`}
+      >
+        {peek ? 'peeking…' : `Hold to reveal hand (${cards.length})`}
+      </button>
+      {peek && (
+        <div className="duel-peek-hand">
+          {cards.length
+            ? cards.map((c) => {
+                const data = duelCard(c.entityId);
+                return data ? <div key={c.uid} className="duel-hand-item"><DuelCard data={data} disabled /></div> : null;
+              })
+            : <span className="faint small">no cards in hand</span>}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function DuelClient() {
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
-  const [p0Culture, setP0Culture] = useState('greek');
-  const [p1Culture, setP1Culture] = useState('norse');
+  const [playerCount, setPlayerCount] = useState<PlayerCount>(2);
+  const [cultures, setCultures] = useState<string[]>(['greek', 'norse', 'slavic', 'mesopotamian']);
   const [seedText, setSeedText] = useState('');
   const [game, setGame] = useState<GameState | null>(null);
   const [sel, setSel] = useState<Sel>(null);
   const [pending, setPending] = useState<Pending>(null);
   const [curtain, setCurtain] = useState(false);
-  const [warn, setWarn] = useState('');
+  const [note, setNote] = useState('');
 
   // Deck fetch (runtime). The seed is chosen once, in an effect (hydration-safe).
   useEffect(() => {
@@ -70,28 +103,50 @@ export function DuelClient() {
     return () => { alive = false; };
   }, []);
 
+  // Seed + optional share params (?seed=&players=&cultures=), read once.
   useEffect(() => {
-    setSeedText((s) => s || String(Math.floor(Math.random() * 1000000000)));
+    let seed = '';
+    try {
+      const q = new URLSearchParams(window.location.search);
+      seed = q.get('seed') || '';
+      const pc = Number.parseInt(q.get('players') || '', 10);
+      if (pc === 2 || pc === 3 || pc === 4) setPlayerCount(pc);
+      const cs = (q.get('cultures') || '').split(',').filter((c) => (CULTURES as readonly string[]).includes(c));
+      if (cs.length) setCultures((prev) => { const next = prev.slice(); cs.slice(0, 4).forEach((c, i) => { next[i] = c; }); return next; });
+    } catch { /* ignore malformed URLs */ }
+    setSeedText((s) => seed || s || String(Math.floor(Math.random() * 1000000000)));
   }, []);
+
+  const setCultureAt = (i: number, c: string) =>
+    setCultures((prev) => { const next = prev.slice(); next[i] = c; return next; });
 
   const start = useCallback(() => {
     const seed = (Number.parseInt(seedText, 10) || 1) >>> 0;
-    setGame(newGame(seed, p0Culture, p1Culture));
-    setSel(null); setPending(null); setCurtain(false); setWarn('');
-  }, [seedText, p0Culture, p1Culture]);
+    setGame(createGame({ seed, players: playerCount, deckCultures: cultures.slice(0, playerCount) }));
+    setSel(null); setPending(null); setCurtain(false); setNote('');
+  }, [seedText, playerCount, cultures]);
+
+  const share = useCallback(() => {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.searchParams.set('seed', seedText);
+    url.searchParams.set('players', String(playerCount));
+    url.searchParams.set('cultures', cultures.slice(0, playerCount).join(','));
+    const text = url.toString();
+    navigator.clipboard?.writeText(text).then(
+      () => setNote('Share link copied — same seed, same seats.'),
+      () => setNote(text),
+    );
+  }, [seedText, playerCount, cultures]);
 
   const act = useCallback((a: Action) => {
     setGame((g) => (g ? reduce(g, a) : g));
-    setSel(null); setPending(null); setWarn('');
+    setSel(null); setPending(null); setNote('');
   }, []);
 
   const doEndTurn = useCallback(() => {
-    setGame((g) => {
-      if (!g || g.over) return g;
-      const next = reduce(g, { type: 'endTurn', player: g.active });
-      return next;
-    });
-    setSel(null); setPending(null); setCurtain(true);
+    setGame((g) => (g && !g.over ? reduce(g, { type: 'endTurn', player: g.active }) : g));
+    setSel(null); setPending(null); setNote(''); setCurtain(true);
   }, []);
 
   // uid -> owning entity id, across every zone (dead uids live in the discard).
@@ -99,9 +154,8 @@ export function DuelClient() {
     const m = new Map<number, { entityId: string; owner: PlayerId }>();
     if (!game) return m;
     game.players.forEach((pl, pi) => {
-      const owner = pi as PlayerId;
-      for (const z of [pl.hand, pl.deck, pl.discard]) for (const c of z) m.set(c.uid, { entityId: c.entityId, owner });
-      for (const d of pl.field) if (d) m.set(d.uid, { entityId: d.entityId, owner });
+      for (const z of [pl.hand, pl.deck, pl.discard]) for (const c of z) m.set(c.uid, { entityId: c.entityId, owner: pi });
+      for (const d of pl.field) if (d) m.set(d.uid, { entityId: d.entityId, owner: pi });
     });
     return m;
   }, [game]);
@@ -111,19 +165,39 @@ export function DuelClient() {
     return e ? (duelCard(e.entityId)?.name || e.entityId) : `#${uid}`;
   }, [uidMap]);
 
-  const fmt = useCallback((g: GameState, a: Action): string => {
-    const P = (id: PlayerId) => (id === 0 ? 'P1' : 'P2');
+  // Replay the log purely (no side effects) so the log can show eliminations at
+  // the exact action that caused them. Cheap: one linear pass, never persisted.
+  const elimAt = useMemo(() => {
+    const out = new Map<number, number[]>();
+    if (!game) return out;
+    let s: GameState = createGame({ seed: game.seed, players: game.players.length as PlayerCount, deckCultures: game.players.map((p) => p.culture) });
+    let prev = s.players.map((p) => p.pillar);
+    game.log.forEach((a, i) => {
+      s = reduce(s, a);
+      const now = s.players.map((p) => p.pillar);
+      const deadNow = now.map((v, idx) => (v <= 0 && prev[idx] > 0 ? idx : -1)).filter((x) => x >= 0);
+      if (deadNow.length) out.set(i, deadNow);
+      prev = now;
+    });
+    return out;
+  }, [game]);
+
+  const fmt = useCallback((a: Action): string => {
+    const S = (id: PlayerId) => `Seat ${id + 1}`;
     switch (a.type) {
-      case 'draw': return `${P(a.player)} draws a card`;
-      case 'channel': return `${P(a.player)} channels essence`;
-      case 'summon': return `${P(a.player)} summons ${nameOf(a.uid)}`;
-      case 'attach': return `${P(a.player)} attaches ${a.relic} to ${nameOf(a.uid)}`;
-      case 'strike':
-        if (a.targetKind === 'deity') return `${P(a.player)}'s ${nameOf(a.attackerUid)} strikes ${nameOf(a.targetUid!)}`;
+      case 'draw': return `${S(a.player)} draws a card`;
+      case 'channel': return `${S(a.player)} channels essence`;
+      case 'summon': return `${S(a.player)} summons ${nameOf(a.uid)}`;
+      case 'attach': return `${S(a.player)} attaches ${a.relic} to ${nameOf(a.uid)}`;
+      case 'strike': {
+        // 2P logs omit targetPlayer; the target is then the other seat.
+        const target = a.targetPlayer ?? (a.player === 0 ? 1 : 0);
+        if (a.targetKind === 'deity') return `${S(a.player)}'s ${nameOf(a.attackerUid)} strikes ${S(target)}'s ${nameOf(a.targetUid!)}`;
         return a.interceptUid != null
-          ? `${P(a.player)}'s ${nameOf(a.attackerUid)} strikes the Pillar (blocked by ${nameOf(a.interceptUid)})`
-          : `${P(a.player)}'s ${nameOf(a.attackerUid)} strikes the Pillar`;
-      case 'endTurn': return `— ${P(a.player)} ends the turn —`;
+          ? `${S(a.player)}'s ${nameOf(a.attackerUid)} strikes ${S(target)}'s Pillar (blocked by ${nameOf(a.interceptUid)})`
+          : `${S(a.player)}'s ${nameOf(a.attackerUid)} strikes ${S(target)}'s Pillar`;
+      }
+      case 'endTurn': return `— ${S(a.player)} ends the turn —`;
       default: return '';
     }
   }, [nameOf]);
@@ -144,9 +218,32 @@ export function DuelClient() {
   if (!game) {
     return (
       <div className="duel-setup">
+        <div className="duel-count">
+          <span className="eyebrow">Players (free-for-all)</span>
+          <div className="duel-chips" role="radiogroup" aria-label="Number of players">
+            {COUNTS.map((n) => (
+              <button
+                key={n}
+                type="button"
+                role="radio"
+                aria-checked={playerCount === n}
+                className={`chip-btn${playerCount === n ? ' active' : ''}`}
+                onClick={() => setPlayerCount(n)}
+              >
+                {n} players
+              </button>
+            ))}
+          </div>
+        </div>
         <div className="duel-setup-grid">
-          <PantheonPicker who="Player 1 — choose a pantheon" value={p0Culture} onChange={setP0Culture} />
-          <PantheonPicker who="Player 2 — choose a pantheon" value={p1Culture} onChange={setP1Culture} />
+          {Array.from({ length: playerCount }, (_, i) => (
+            <PantheonPicker
+              key={i}
+              who={`Seat ${i + 1} — choose a pantheon`}
+              value={cultures[i]}
+              onChange={(c) => setCultureAt(i, c)}
+            />
+          ))}
         </div>
         <div className="duel-seed">
           <label>
@@ -159,8 +256,10 @@ export function DuelClient() {
             />
           </label>
           <button type="button" className="chip-btn" onClick={() => setSeedText(String(Math.floor(Math.random() * 1000000000)))}>Random</button>
-          <span className="faint small">Same seed → same shuffle. Both players draw {DECK_SIZE}-card decks.</span>
+          <button type="button" className="chip-btn" onClick={share}>Copy share link</button>
+          <span className="faint small">Same seed, seats and pantheons → same game. Each seat draws a {DECK_SIZE}-card deck.</span>
         </div>
+        {note && <p className="small mono duel-note" aria-live="polite">{note}</p>}
         <div className="duel-setup-actions">
           <button type="button" className="btn" onClick={start}>Begin duel ⚔</button>
           <Link href="/how-to-play" className="btn">Read the rules</Link>
@@ -170,11 +269,10 @@ export function DuelClient() {
   }
 
   // ---- duel ----
-  const me = game.players[game.active];
-  const foe = game.players[((game.active + 1) % 2) as PlayerId];
-  const mainPhase = me.drawn && me.channeled && !pending;
   const active = game.active;
-  const defender: PlayerId = ((active + 1) % 2) as PlayerId;
+  const me = game.players[active];
+  const maxPillar = pillarHpForCount(game.players.length);
+  const mainPhase = me.drawn && me.channeled && !pending;
 
   const selCard = sel?.kind === 'hand' ? me.hand.find((c) => c.uid === sel.uid) : undefined;
   const selData = selCard ? duelCard(selCard.entityId) : undefined;
@@ -187,70 +285,79 @@ export function DuelClient() {
     ? duelRelicsForEntity(selDeity.entityId).filter((r) => !me.relicsUsed.includes(r.slug))
     : [];
 
-  const isTargetDeity = (uid: number) => canStrike && !!foe.field.find((d) => d && d.uid === uid);
-
-  const onFoeDeity = (uid: number) => {
-    if (pending) { act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', interceptUid: uid }); return; }
-    if (isTargetDeity(uid) && sel) act({ type: 'strike', player: active, attackerUid: sel.uid, targetKind: 'deity', targetUid: uid });
+  const onEnemyDeity = (seat: PlayerId, uid: number) => {
+    if (pending) { act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', targetPlayer: pending.targetPlayer, interceptUid: uid }); return; }
+    if (canStrike && sel) act({ type: 'strike', player: active, attackerUid: sel.uid, targetKind: 'deity', targetPlayer: seat, targetUid: uid });
   };
-  const onPillar = () => {
-    if (pending) { act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', interceptUid: null }); return; }
-    if (canStrike && sel) { setPending({ attackerUid: sel.uid }); setSel(null); }
+  const onEnemyPillar = (seat: PlayerId) => {
+    if (pending) { act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', targetPlayer: pending.targetPlayer, interceptUid: null }); return; }
+    if (canStrike && sel) { setPending({ attackerUid: sel.uid, targetPlayer: seat }); setSel(null); }
   };
 
   const lowHand = me.hand.length > HAND_LIMIT;
+  const gain = channelGainFor(game.players.length, me.culture, me.turnsTaken);
 
-  const renderHalf = (pi: PlayerId) => {
+  const renderSeat = (pi: PlayerId) => {
     const pl = game.players[pi];
     const isActive = pi === active;
-    const canHitPillar = !isActive && canStrike;
+    const dead = pl.pillar <= 0;
+    const canHitPillar = !isActive && !dead && canStrike;
+    const isPendingTarget = !!pending && pi === pending.targetPlayer;
     const pillarInner = (
       <>
-        <span className="duel-pillar-bar" style={{ width: `${Math.max(0, pl.pillar / PILLAR_HP) * 100}%` }} />
+        <span className="duel-pillar-bar" style={{ width: `${Math.max(0, pl.pillar / maxPillar) * 100}%` }} />
         <span className="duel-pillar-num">{pl.pillar}</span>
       </>
     );
+    const seatLabel = `Seat ${pi + 1} (${CULTURE_NAMES[pl.culture]})`;
     return (
-      <section className={`duel-half${isActive ? ' is-active' : ' is-dim'}`} aria-label={`Player ${pi + 1} (${CULTURE_NAMES[pl.culture]})`}>
+      <section key={pi} className={`duel-half${isActive ? ' is-active' : ' is-dim'}${dead ? ' is-dead' : ''}`} aria-label={seatLabel}>
         <header className="duel-half-head">
-          <span className="duel-who mono">P{pi + 1}</span>
+          <span className="duel-who mono">S{pi + 1}{isActive ? ' ▸' : ''}</span>
           <span className="duel-culture" style={{ color: CULTURE_ACCENTS[pl.culture] }}>{CULTURE_NAMES[pl.culture]}</span>
+          {dead && <span className="duel-elim mono">eliminated</span>}
           <span className="duel-res mono">
-            {canHitPillar ? (
-              <button type="button" className="duel-pillar duel-pillar-btn" onClick={onPillar} title="Strike this Pillar" aria-label={`Strike player ${pi + 1}'s Cosmic Pillar`}>{pillarInner}</button>
+            {isActive ? (
+              <span className="duel-pillar" title="Your Cosmic Pillar">{pillarInner}</span>
             ) : (
-              <span className="duel-pillar" title="Cosmic Pillar">{pillarInner}</span>
+              <button
+                type="button"
+                className={`duel-pillar duel-pillar-btn${canHitPillar ? ' is-target' : ''}`}
+                onClick={() => onEnemyPillar(pi)}
+                disabled={!canHitPillar && !isPendingTarget}
+                title={canHitPillar || isPendingTarget ? `Attack Seat ${pi + 1} pillar` : 'Cosmic Pillar'}
+                aria-label={`Attack Seat ${pi + 1} pillar`}
+              >{pillarInner}</button>
             )}
             <span className="duel-ess" title="Essence">✦ {pl.essence}/{ESSENCE_CAP}</span>
             <span className="duel-counts">deck {pl.deck.length} · hand {pl.hand.length} · discard {pl.discard.length}</span>
           </span>
         </header>
-        <div className="duel-field" role="group" aria-label={`Player ${pi + 1} field`}>
+        <div className="duel-field" role="group" aria-label={`Seat ${pi + 1} field`}>
           {pl.field.map((d, i) => {
-            const interactive = isActive || (pending && pi === defender);
             if (d) {
               const data = duelCard(d.entityId);
               if (!data) return <div key={i} className="duel-slot empty" />;
-              const hit = !isActive && isTargetDeity(d.uid);
+              const hit = (!isActive && canStrike) || isPendingTarget;
               return (
                 <div key={i} className="duel-slot">
                   <DuelCard
                     data={data}
                     deity={d}
-                    selected={sel?.kind === 'field' && sel.uid === d.uid}
+                    selected={isActive && sel?.kind === 'field' && sel.uid === d.uid}
                     hit={hit}
                     sick={d.sick}
                     attacked={d.attacked}
-                    disabled={!interactive}
+                    disabled={!isActive && !isPendingTarget && !canStrike}
+                    label={!isActive ? (isPendingTarget ? `Block with ${d.name}` : `Attack ${d.name}`) : undefined}
                     onClick={() => {
                       if (isActive) { setSel((s) => (s?.kind === 'field' && s.uid === d.uid ? null : { kind: 'field', uid: d.uid })); return; }
-                      if (pending && pi === defender) onFoeDeity(d.uid);
+                      if (isPendingTarget || canStrike) onEnemyDeity(pi, d.uid);
                     }}
                   />
                 </div>
               );
             }
-            // empty slot: only the active player can fill it, and only with a selected hand card
             const canSummonHere = isActive && mainPhase && !!selCard && legalSlots.includes(i);
             return (
               <div key={i} className={`duel-slot empty${canSummonHere ? ' can-summon' : ''}`}>
@@ -267,24 +374,36 @@ export function DuelClient() {
             );
           })}
         </div>
+        {!isActive && <HandPeek seat={pi + 1} cards={pl.hand} />}
       </section>
     );
   };
+
+  const seatOrder: PlayerId[] = [
+    ...game.players.map((_, i) => i).filter((i) => i !== active),
+    active,
+  ];
 
   const phase = game.over ? 'Over' : !me.drawn ? 'Draw' : !me.channeled ? 'Channel' : 'Main';
 
   return (
     <div className="duel">
+      <div className="duel-turn-banner" role="status" aria-live="polite">
+        <span className="duel-turn-big">Seat {active + 1}&apos;s turn</span>
+        <span className="muted small">{CULTURE_NAMES[me.culture]} · turn {game.turn} of the round · pass the device</span>
+      </div>
+
       <div className="duel-bar">
         <div className="duel-bar-info mono">
           <span>Turn {game.turn}</span>
-          <span className="duel-phase">P{active + 1} · {phase}</span>
-          <span className="faint">seed {game.seed}</span>
+          <span className="duel-phase">S{active + 1} · {phase}</span>
+          <span className="faint">seed {game.seed} · {game.players.length}P</span>
         </div>
         <div className="duel-bar-actions">
           <button type="button" className="chip-btn" onClick={() => setGame((g) => (g ? undo(g) : g))} disabled={!game.log.length}>Undo ↩</button>
+          <button type="button" className="chip-btn" onClick={share}>Copy share link</button>
           <button type="button" className="chip-btn" onClick={() => setCurtain(true)}>Hide hands</button>
-          <button type="button" className="chip-btn" onClick={() => { setGame(null); setSel(null); setPending(null); }}>New duel</button>
+          <button type="button" className="chip-btn" onClick={() => { setGame(null); setSel(null); setPending(null); setNote(''); }}>New duel</button>
         </div>
       </div>
 
@@ -294,13 +413,12 @@ export function DuelClient() {
         ))}
       </div>
 
-      {renderHalf(1)}
-      {renderHalf(0)}
+      {seatOrder.map(renderSeat)}
 
-      {/* active player's hand + controls */}
+      {/* active seat's hand + controls */}
       <div className="duel-hand-wrap">
         <div className="duel-hand-head">
-          <span className="eyebrow">P{active + 1} · {CULTURE_NAMES[me.culture]} hand</span>
+          <span className="eyebrow">Seat {active + 1} · {CULTURE_NAMES[me.culture]} hand</span>
           {lowHand && <span className="faint small">over {HAND_LIMIT} — discard at upkeep</span>}
         </div>
         <div className="duel-hand" role="list" aria-label="Your hand">
@@ -339,24 +457,29 @@ export function DuelClient() {
             )}
             {selDeity.sick && <span className="faint small">summoning sickness — cannot strike this turn</span>}
             {selDeity.attacked && <span className="faint small">already struck this turn</span>}
-            {canStrike && <span className="faint small">tap an enemy deity or the enemy Pillar</span>}
+            {canStrike && <span className="faint small">tap any enemy deity, or an enemy Pillar, to attack</span>}
           </div>
         )}
 
         <div className="duel-controls">
           <button type="button" className="btn" disabled={me.drawn || game.over} onClick={() => act({ type: 'draw', player: active })}>Draw 1</button>
-          <button type="button" className="btn" disabled={me.channeled || game.over} onClick={() => act({ type: 'channel', player: active })}>Channel +2✦</button>
+          <button type="button" className="btn" disabled={me.channeled || game.over} onClick={() => act({ type: 'channel', player: active })}>Channel +{gain}✦</button>
           <button type="button" className="btn" disabled={game.over || !!pending} onClick={doEndTurn}>End turn →</button>
-          {warn && <span className="duel-warn small">{warn}</span>}
+          {note && <span className="duel-note small mono" aria-live="polite">{note}</span>}
         </div>
       </div>
 
       {/* log */}
       <div className="duel-log" aria-label="Action log" aria-live="polite">
-        <span className="eyebrow">Log</span>
+        <span className="eyebrow">Log · seat names</span>
         <ol className="duel-log-list mono">
-          {game.log.slice(-12).reverse().map((a, i) => (
-            <li key={game.log.length - i}>{fmt(game, a)}</li>
+          {game.log.map((a, i) => ({ a, i })).slice(-12).reverse().map(({ a, i }) => (
+            <Fragment key={i}>
+              <li>{fmt(a)}</li>
+              {elimAt.get(i)?.map((seat) => (
+                <li key={`elim-${seat}`} className="duel-log-elim">Seat {seat + 1} eliminated — pillar shattered</li>
+              ))}
+            </Fragment>
           ))}
           {!game.log.length && <li className="faint">The pillars stand. Begin the duel.</li>}
         </ol>
@@ -364,8 +487,10 @@ export function DuelClient() {
 
       {game.over && (
         <div className="duel-over" role="alertdialog" aria-label="Duel over">
-          <p className="duel-over-title">P{(game.winner ?? 0) + 1} topples the Cosmic Pillar</p>
-          <p className="muted small">Pillar shattered on turn {game.turn}.</p>
+          <p className="duel-over-title">Seat {(game.winner ?? 0) + 1} stands alone</p>
+          <p className="muted small">
+            {game.players.length > 2 ? 'Last pillar standing' : 'The opposing Cosmic Pillar shattered'} on turn {game.turn}.
+          </p>
           <div className="duel-over-actions">
             <button type="button" className="btn" onClick={() => { setGame(null); setSel(null); setPending(null); }}>New duel</button>
             <Link href="/how-to-play" className="btn">Rules</Link>
@@ -374,9 +499,9 @@ export function DuelClient() {
       )}
 
       {pending && !game.over && (
-        <div className="duel-pending" role="region" aria-label="Defender chooses an interceptor">
-          <span className="mono small">P{defender + 1}: tap one of your deities to block {nameOf(pending.attackerUid)}, or</span>
-          <button type="button" className="btn" onClick={() => act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', interceptUid: null })}>
+        <div className="duel-pending" role="region" aria-label={`Seat ${pending.targetPlayer + 1} chooses an interceptor`}>
+          <span className="mono small">Seat {pending.targetPlayer + 1}: tap one of your deities to block {nameOf(pending.attackerUid)}, or</span>
+          <button type="button" className="btn" onClick={() => act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', targetPlayer: pending.targetPlayer, interceptUid: null })}>
             Let the Pillar take it
           </button>
         </div>
@@ -386,7 +511,7 @@ export function DuelClient() {
         <button type="button" className="duel-curtain" onClick={() => setCurtain(false)}>
           <span className="duel-curtain-eye" aria-hidden="true">◉</span>
           <span className="duel-curtain-title">Hands hidden</span>
-          <span className="duel-curtain-sub">Pass the device — tap to reveal P{active + 1}&apos;s turn</span>
+          <span className="duel-curtain-sub">Pass the device — tap to reveal Seat {active + 1}&apos;s turn</span>
         </button>
       )}
     </div>

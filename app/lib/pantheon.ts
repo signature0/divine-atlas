@@ -1,7 +1,8 @@
-// THE DIVINE ATLAS — "Pantheon" duel engine (PHASE5).
+// THE DIVINE ATLAS — "Pantheon" duel engine (PHASE 6).
 //
-// A PURE, framework-free rules engine for the 2-player hot-seat duel. It is the
-// single source of truth shared by the /play UI and scripts/enginetest.ts:
+// A PURE, framework-free rules engine for the hot-seat duel, now for 2–4 players
+// (free-for-all). It is the single source of truth shared by the /play UI and
+// scripts/enginetest.ts:
 //
 //   • no React, no DOM, no Date.now, no Math.random
 //   • no module-level mutable state — every value lives INSIDE GameState
@@ -9,8 +10,13 @@
 //   • cards are read ONLY through app/lib/pantheon-data.ts (the fs-free store)
 //
 // Undo is "replay the action log minus the last action" from the same seed, so
-// state is always exactly reproducible. Given the same seed, cultures and action
-// sequence, two runs produce byte-identical state.
+// state is always exactly reproducible. Given the same seed, cultures, player
+// count and action sequence, two runs produce byte-identical state.
+//
+// 2-PLAYER REGRESSION CONTRACT (Phase 6): the 2-player rules path is unchanged
+// from Phase 5 — flat +2 channel, 20 HP pillars, the loser's zones are left
+// untouched at game end, and strike actions carry no `targetPlayer` field. The
+// 2P final-state hash for a fixed seed is asserted in scripts/enginetest.ts.
 import type { CardElement } from './card';
 import { duelAllCards, duelCard, duelRelicsForEntity } from './pantheon-data';
 import type { DuelCardData } from './pantheon-data';
@@ -23,9 +29,9 @@ export const DECK_SIZE = 24;        // lowered from the concept doc's 30: Slavic
 export const STARTING_HAND = 5;
 export const HAND_LIMIT = 7;        // excess discarded at upkeep (from the newest end)
 export const STARTING_ESSENCE = 2;
-export const CHANNEL_GAIN = 2;      // per turn
+export const CHANNEL_GAIN = 2;      // per turn (2-player baseline; 3–4P ramps — see below)
 export const ESSENCE_CAP = 12;
-export const PILLAR_HP = 20;
+export const PILLAR_HP = 20;        // 2-player baseline
 export const FIELD_SLOTS = 3;
 export const ELEMENT_ADVANTAGE = 2; // +PWR when the attacker's element beats the defender's
 export const RELIC_COST = 1;        // essence to attach
@@ -35,7 +41,35 @@ export const MAX_MYTHIC_COPIES = 1; // deck-building legality
 export const MAX_RARE_COPIES = 2;
 export const MAX_ATTACKS_PER_DEITY = 1;
 
-export type PlayerId = 0 | 1;
+// --- Free-for-all balance (PHASE 6) ---------------------------------------
+// More attackers means a pillar has to survive more strikes, and a 4-player
+// table can stall if everyone is stuck on the 2-essence opening curve. Two
+// simple, documentable levers fix that:
+//
+//   Pillar HP: 2P = 20, 3P = 20, 4P = 24. Only 4P gets +4, because three
+//   opponents (rather than one or two) pile on the same pillar.
+//
+//   Essence ramp: a 3–4 player channel gains +2 on the seat's turns 1–2,
+//   +3 on turns 3–4 and +4 from turn 5 (cap 12). This accelerates the late
+//   game so a four-way game does not drag. The ramp counts the SEAT'S OWN
+//   turnsTaken, not the global turn counter, so every seat ramps at the same
+//   personal pace. 2-player keeps the flat +2 baseline byte-for-byte.
+export const PILLAR_HP_BY_PLAYERS: Record<number, number> = { 2: 20, 3: 20, 4: 24 };
+export const ESSENCE_RAMP: ReadonlyArray<{ turns: string; gain: number }> = [
+  { turns: '1–2', gain: 2 },
+  { turns: '3–4', gain: 3 },
+  { turns: '5+', gain: 4 },
+];
+
+export function pillarHpForCount(playerCount: number): number {
+  return PILLAR_HP_BY_PLAYERS[playerCount] ?? PILLAR_HP;
+}
+
+/** The default fill order when createGame is not given all cultures. */
+export const DEFAULT_CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
+
+export type PlayerId = number;
+export type PlayerCount = 2 | 3 | 4;
 
 export interface CardInstance { uid: number; entityId: string }
 
@@ -72,7 +106,11 @@ export type Action =
   | { type: 'channel'; player: PlayerId }
   | { type: 'summon'; player: PlayerId; uid: number; slot: number }
   | { type: 'attach'; player: PlayerId; uid: number; relic: string }
-  | { type: 'strike'; player: PlayerId; attackerUid: number; targetKind: 'deity' | 'pillar'; targetUid?: number; interceptUid?: number | null }
+  // targetPlayer is OPTIONAL for backward compatibility: a 2-player action omits
+  // it (and omits it from the log) so the 2P state stays byte-identical. In 3–4P
+  // it names the enemy seat being attacked; when absent the engine defaults to
+  // the next living seat in cyclic order.
+  | { type: 'strike'; player: PlayerId; attackerUid: number; targetKind: 'deity' | 'pillar'; targetPlayer?: PlayerId; targetUid?: number; interceptUid?: number | null }
   | { type: 'endTurn'; player: PlayerId };
 
 export interface GameState {
@@ -80,11 +118,18 @@ export interface GameState {
   rngState: number;
   active: PlayerId;
   turn: number;
-  players: [PlayerState, PlayerState];
+  players: PlayerState[];     // length 2 | 3 | 4
   log: Action[];
   over: boolean;
   winner: PlayerId | null;
   nextUid: number;
+}
+
+export interface CreateGameOptions {
+  seed: number;
+  players: PlayerCount;
+  /** One culture per seat (index = seat). Missing entries fall back to DEFAULT_CULTURES. */
+  deckCultures?: string[];
 }
 
 // ---------------------------------------------------------------------------
@@ -207,8 +252,19 @@ export function summonCost(culture: string, card: DuelCardData): number {
 export function relicCost(culture: string): number {
   return culture === 'egyptian' ? 0 : RELIC_COST;
 }
-function channelGain(culture: string, turnsTaken: number): number {
-  return CHANNEL_GAIN + (culture === 'greek' && turnsTaken === 1 ? 1 : 0);
+
+/** Essence gained on a Channel step. 2P is the flat Phase-5 baseline; 3–4P ramp. */
+export function channelGainFor(playerCount: number, culture: string, turnsTaken: number): number {
+  let base = CHANNEL_GAIN;
+  if (playerCount > 2) {
+    if (turnsTaken <= 2) base = 2;
+    else if (turnsTaken <= 4) base = 3;
+    else base = 4;
+  }
+  return base + (culture === 'greek' && turnsTaken === 1 ? 1 : 0);
+}
+function channelGain(playerCount: number, culture: string, turnsTaken: number): number {
+  return channelGainFor(playerCount, culture, turnsTaken);
 }
 function summonStats(culture: string, card: DuelCardData): { power: number; guard: number } {
   let power = card.stats.power;
@@ -222,9 +278,6 @@ function summonStats(culture: string, card: DuelCardData): { power: number; guar
 // ---------------------------------------------------------------------------
 // Small pure helpers
 // ---------------------------------------------------------------------------
-const OTHER: [PlayerId, PlayerId] = [1, 0];
-function other(p: PlayerId): PlayerId { return OTHER[p]; }
-
 function drawCards(p: PlayerState, n: number, rngState: number): { player: PlayerState; rngState: number } {
   const next: PlayerState = { ...p, hand: p.hand.slice(), deck: p.deck.slice(), discard: p.discard.slice() };
   let rng = rngState;
@@ -246,8 +299,8 @@ function readyField(field: (FieldDeity | null)[]): (FieldDeity | null)[] {
   return field.map((d) => (d ? { ...d, sick: false, attacked: false } : null));
 }
 
-function findDeity(players: [PlayerState, PlayerState], uid: number): { player: PlayerId; index: number; deity: FieldDeity } | null {
-  for (let pi = 0 as PlayerId; pi <= 1; pi = (pi + 1) as PlayerId) {
+function findDeity(players: PlayerState[], uid: number): { player: PlayerId; index: number; deity: FieldDeity } | null {
+  for (let pi = 0; pi < players.length; pi++) {
     const field = players[pi].field;
     for (let i = 0; i < field.length; i++) {
       const d = field[i];
@@ -261,42 +314,92 @@ function findHandCard(p: PlayerState, uid: number): CardInstance | undefined {
   return p.hand.find((c) => c.uid === uid);
 }
 
+/** Seats that still have a standing pillar (index order). */
+function aliveSeats(players: PlayerState[]): PlayerId[] {
+  const out: PlayerId[] = [];
+  for (let i = 0; i < players.length; i++) if (players[i].pillar > 0) out.push(i);
+  return out;
+}
+
+/** The next living seat after `from`, in cyclic turn order (falls back to `from`). */
+function nextAliveAfter(players: PlayerState[], from: PlayerId): PlayerId {
+  const n = players.length;
+  for (let k = 1; k <= n; k++) {
+    const i = (from + k) % n;
+    if (players[i].pillar > 0) return i;
+  }
+  return from;
+}
+
+/** Default attack target: the next living enemy seat in cyclic order. */
+function defaultEnemy(players: PlayerState[], active: PlayerId): PlayerId {
+  const n = players.length;
+  for (let k = 1; k <= n; k++) {
+    const i = (active + k) % n;
+    if (i !== active && players[i].pillar > 0) return i;
+  }
+  return active;
+}
+
+/** Eliminate a seat: banish its field deities to the discard and discard its hand. */
+function eliminate(p: PlayerState): PlayerState {
+  const banished = p.field
+    .filter((d): d is FieldDeity => !!d)
+    .map((d) => ({ uid: d.uid, entityId: d.entityId }));
+  return {
+    ...p,
+    pillar: 0,
+    hand: [],
+    field: Array.from({ length: FIELD_SLOTS }, () => null),
+    discard: [...p.discard, ...banished, ...p.hand],
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Setup / replay
 // ---------------------------------------------------------------------------
-export function newGame(seed: number, culture0: string, culture1: string): GameState {
-  let rngState = seed >>> 0;
+export function createGame(opts: CreateGameOptions): GameState {
+  const count = opts.players;
+  let rngState = opts.seed >>> 0;
   let nextUid = 1;
+  const pillar = pillarHpForCount(count);
+  const cultures: string[] = [];
+  for (let i = 0; i < count; i++) {
+    cultures.push(opts.deckCultures?.[i] ?? DEFAULT_CULTURES[i % DEFAULT_CULTURES.length]);
+  }
 
-  const makePlayer = (culture: string): PlayerState => {
-    const data = buildDeck(culture);
+  const players: PlayerState[] = [];
+  for (let i = 0; i < count; i++) {
+    const data = buildDeck(cultures[i]);
     const sh = shuffle(data, rngState);
     rngState = sh.rngState;
     const deck: CardInstance[] = sh.arr.map((c) => ({ uid: nextUid++, entityId: c.id }));
     const base: PlayerState = {
-      culture, hand: [], deck, discard: [],
+      culture: cultures[i], hand: [], deck, discard: [],
       field: Array.from({ length: FIELD_SLOTS }, () => null),
-      essence: STARTING_ESSENCE, pillar: PILLAR_HP, relicsUsed: [],
+      essence: STARTING_ESSENCE, pillar, relicsUsed: [],
       drawn: false, channeled: false, turnsTaken: 0,
     };
     const dr = drawCards(base, STARTING_HAND, rngState);
     rngState = dr.rngState;
-    return dr.player;
-  };
-
-  const p0 = makePlayer(culture0);
-  const p1 = makePlayer(culture1);
-  // Player 0 begins turn 1.
-  p0.turnsTaken = 1;
+    players.push(dr.player);
+  }
+  // Seat 0 begins turn 1.
+  players[0] = { ...players[0], turnsTaken: 1 };
 
   return {
-    seed: seed >>> 0, rngState, active: 0, turn: 1,
-    players: [p0, p1], log: [], over: false, winner: null, nextUid,
+    seed: opts.seed >>> 0, rngState, active: 0, turn: 1,
+    players, log: [], over: false, winner: null, nextUid,
   };
 }
 
-export function replay(seed: number, cultures: [string, string], actions: Action[]): GameState {
-  let s = newGame(seed, cultures[0], cultures[1]);
+/** 2-player convenience wrapper (the Phase-5 signature, byte-identical). */
+export function newGame(seed: number, culture0: string, culture1: string): GameState {
+  return createGame({ seed, players: 2, deckCultures: [culture0, culture1] });
+}
+
+export function replay(seed: number, cultures: string[], actions: Action[]): GameState {
+  let s = createGame({ seed, players: cultures.length as PlayerCount, deckCultures: cultures });
   for (const a of actions) s = reduce(s, a);
   return s;
 }
@@ -304,7 +407,7 @@ export function replay(seed: number, cultures: [string, string], actions: Action
 /** Undo = replay the action log minus its last entry (identical to the prior state). */
 export function undo(state: GameState): GameState {
   if (state.log.length === 0) return state;
-  const cultures: [string, string] = [state.players[0].culture, state.players[1].culture];
+  const cultures = state.players.map((p) => p.culture);
   return replay(state.seed, cultures, state.log.slice(0, -1));
 }
 
@@ -352,7 +455,13 @@ export function validate(state: GameState, action: Action): string | null {
       if (!attacker) return 'no such attacker';
       if (attacker.sick) return 'that deity has summoning sickness';
       if (attacker.attacked) return 'that deity already struck this turn';
-      const foe = state.players[other(action.player)];
+
+      const targetId = action.targetPlayer !== undefined ? action.targetPlayer : defaultEnemy(state.players, action.player);
+      if (targetId < 0 || targetId >= state.players.length) return 'invalid target seat';
+      if (targetId === action.player) return 'cannot target your own seat';
+      const foe = state.players[targetId];
+      if (foe.pillar <= 0) return 'that seat is already eliminated';
+
       if (action.targetKind === 'deity') {
         if (!foe.field.some((d) => d && d.uid === action.targetUid)) return 'no such target';
         return null;
@@ -374,19 +483,17 @@ export function validate(state: GameState, action: Action): string | null {
 function apply(state: GameState, action: Action): GameState {
   const active = state.active;
   const p = state.players[active];
-  const foeId = other(active);
-  const foe = state.players[foeId];
 
   switch (action.type) {
     case 'draw': {
       const dr = drawCards(p, 1, state.rngState);
-      const players = state.players.slice() as [PlayerState, PlayerState];
+      const players = state.players.slice();
       players[active] = { ...dr.player, drawn: true };
       return { ...state, players, rngState: dr.rngState };
     }
     case 'channel': {
-      const essence = Math.min(ESSENCE_CAP, p.essence + channelGain(p.culture, p.turnsTaken));
-      const players = state.players.slice() as [PlayerState, PlayerState];
+      const essence = Math.min(ESSENCE_CAP, p.essence + channelGain(state.players.length, p.culture, p.turnsTaken));
+      const players = state.players.slice();
       players[active] = { ...p, essence, channeled: true };
       return { ...state, players };
     }
@@ -401,7 +508,7 @@ function apply(state: GameState, action: Action): GameState {
       };
       const field = p.field.slice();
       field[action.slot] = deity;
-      const players = state.players.slice() as [PlayerState, PlayerState];
+      const players = state.players.slice();
       players[active] = {
         ...p,
         hand: p.hand.filter((c) => c.uid !== card.uid),
@@ -416,31 +523,32 @@ function apply(state: GameState, action: Action): GameState {
         const ref = duelRelicsForEntity(d.entityId).find((r) => r.slug === action.relic);
         return { ...d, relicSlug: action.relic, relicName: ref ? ref.name : action.relic, power: d.power + RELIC_PWR, guard: d.guard + RELIC_GRD };
       });
-      const players = state.players.slice() as [PlayerState, PlayerState];
+      const players = state.players.slice();
       players[active] = { ...p, field, essence: p.essence - relicCost(p.culture), relicsUsed: [...p.relicsUsed, action.relic] };
       return { ...state, players };
     }
     case 'strike':
       return applyStrike(state, action);
     case 'endTurn': {
-      // Upkeep: discard excess hand (newest end), then pass to the opponent and
-      // begin their turn (ready their field, +turn counter).
+      // Upkeep: discard excess hand (newest end), then pass to the next living
+      // seat and begin their turn (ready their field, +turn counter).
       const overflow = Math.max(0, p.hand.length - HAND_LIMIT);
       const discarded = overflow ? p.hand.slice(p.hand.length - overflow) : [];
       const keptHand = overflow ? p.hand.slice(0, p.hand.length - overflow) : p.hand;
       const ending: PlayerState = { ...p, hand: keptHand, discard: [...p.discard, ...discarded] };
 
-      const nextFoe: PlayerState = {
-        ...foe,
-        field: readyField(foe.field),
+      const nextId = nextAliveAfter(state.players, active);
+      const nextIn: PlayerState = {
+        ...state.players[nextId],
+        field: readyField(state.players[nextId].field),
         drawn: false,
         channeled: false,
-        turnsTaken: foe.turnsTaken + 1,
+        turnsTaken: state.players[nextId].turnsTaken + 1,
       };
-      const players = state.players.slice() as [PlayerState, PlayerState];
+      const players = state.players.slice();
       players[active] = ending;
-      players[foeId] = nextFoe;
-      return { ...state, players, active: foeId, turn: state.turn + 1 };
+      players[nextId] = nextIn;
+      return { ...state, players, active: nextId, turn: state.turn + 1 };
     }
     default:
       return state;
@@ -449,15 +557,16 @@ function apply(state: GameState, action: Action): GameState {
 
 function applyStrike(state: GameState, action: Extract<Action, { type: 'strike' }>): GameState {
   const active = state.active;
-  const foeId = other(active);
   const p = state.players[active];
-  const foe = state.players[foeId];
 
   const attackerIdx = p.field.findIndex((d) => d && d.uid === action.attackerUid);
   const attacker = p.field[attackerIdx] as FieldDeity;
   const damage = attacker.power; // element advantage is added only vs a deity
 
-  const players = state.players.slice() as [PlayerState, PlayerState];
+  const foeId = action.targetPlayer !== undefined ? action.targetPlayer : defaultEnemy(state.players, active);
+  const foe = state.players[foeId];
+
+  const players = state.players.slice();
   const newPField = p.field.slice();
   newPField[attackerIdx] = { ...attacker, attacked: true };
 
@@ -484,9 +593,21 @@ function applyStrike(state: GameState, action: Extract<Action, { type: 'strike' 
 
   const pillar = foe.pillar - damage;
   players[active] = { ...p, field: newPField };
-  players[foeId] = { ...foe, pillar };
-  const over = pillar <= 0;
-  return { ...state, players, over, winner: over ? active : state.winner };
+
+  if (state.players.length === 2) {
+    // 2P regression path: unchanged from Phase 5 — the loser's board is left as-is.
+    players[foeId] = { ...foe, pillar };
+    const over = pillar <= 0;
+    return { ...state, players, over, winner: over ? active : state.winner };
+  }
+
+  // 3–4P: eliminating a seat banishes its board + hand; last seat standing wins.
+  const newFoe = pillar <= 0 ? eliminate(foe) : { ...foe, pillar };
+  players[foeId] = newFoe;
+  const alive = aliveSeats(players);
+  const over = alive.length <= 1;
+  const winner: PlayerId | null = over ? (alive.length === 1 ? alive[0] : active) : state.winner;
+  return { ...state, players, over, winner };
 }
 
 function resolveDamage(owner: PlayerState, index: number, defender: FieldDeity, total: number): { player: PlayerState } {
@@ -515,7 +636,6 @@ export function legalActions(state: GameState): Action[] {
   if (state.over) return [];
   const p: PlayerId = state.active;
   const me = state.players[p];
-  const foe = state.players[other(p)];
   const out: Action[] = [];
   if (!me.drawn) out.push({ type: 'draw', player: p });
   if (!me.channeled) out.push({ type: 'channel', player: p });
@@ -536,14 +656,22 @@ export function legalActions(state: GameState): Action[] {
         if (!me.relicsUsed.includes(relic.slug)) out.push({ type: 'attach', player: p, uid: d.uid, relic: relic.slug });
       }
     }
+    // Any living enemy seat is targetable. targetPlayer is only emitted in
+    // 3–4P so the 2-player action log stays byte-identical.
+    const enemies = aliveSeats(state.players).filter((e) => e !== p);
+    const includeTarget = state.players.length > 2;
     for (const d of me.field) {
       if (!d || d.sick || d.attacked) continue;
-      for (const t of foe.field) {
-        if (t) out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'deity', targetUid: t.uid });
-      }
-      out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'pillar', interceptUid: null });
-      for (const t of foe.field) {
-        if (t) out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'pillar', interceptUid: t.uid });
+      for (const e of enemies) {
+        const foe = state.players[e];
+        const tgt = includeTarget ? { targetPlayer: e } : {};
+        for (const t of foe.field) {
+          if (t) out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'deity', targetUid: t.uid, ...tgt });
+        }
+        out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'pillar', interceptUid: null, ...tgt });
+        for (const t of foe.field) {
+          if (t) out.push({ type: 'strike', player: p, attackerUid: d.uid, targetKind: 'pillar', interceptUid: t.uid, ...tgt });
+        }
       }
     }
   }

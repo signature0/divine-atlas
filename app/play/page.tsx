@@ -6,7 +6,7 @@ import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = {
   title: 'Play — hot-seat duel',
-  description: 'A self-contained two-player hot-seat prototype of Pantheon, the Divine Atlas card game. Pick a pantheon, channel essence, and topple the Cosmic Pillar.',
+  description: 'A self-contained 2–4 player hot-seat prototype of Pantheon, the Divine Atlas card game. Pick your pantheons, channel essence, and topple the Cosmic Pillars.',
 };
 
 export default function PlayPage() {
@@ -18,7 +18,7 @@ export default function PlayPage() {
         culture="play"
         eyebrow="Play"
         title="The duel table"
-        tagline="A true two-player hot-seat prototype, played on real Atlas data — same seed, same shuffle; a duel is fully reproducible."
+        tagline="A 2–4 player hot-seat free-for-all, played on real Atlas data — same seed, same seats; a game is fully reproducible. Last pillar standing wins."
         imageSlot={resolveBannerSlot('page-play')}
       >
         <Link href="/how-to-play" className="btn">How to play</Link>
