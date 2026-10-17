@@ -47,13 +47,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SearchOverlay entities={entities} myths={myths} artifacts={artifacts} />
         <main id="main" tabIndex={-1}>{children}</main>
         <footer className="site-footer">
-          <div className="container small" style={{ color: 'var(--ink-2)', display: 'flex', flexWrap: 'wrap', gap: '8px 24px' }}>
-            <span><strong style={{ color: 'var(--ink-1)' }}>The Divine Atlas</strong> — a museum of the world&apos;s divine imagination</span>
-            {/* DES-008: drop the 'Version 1:' dev artifact — in-world footer voice */}
-            <span>Six galleries: Japanese · Greek · Norse · Egyptian · Slavic · Mesopotamian</span>
-            <span><a href="/print" style={{ color: 'var(--ink-1)' }}>Print &amp; play</a> — the deck, mat &amp; rulebook, ready for the table</span>
-            <span>Every nontrivial claim carries a source. Uncertainties are preserved, not resolved.</span>
-            <span>Artwork: public domain / open license, always attributed.</span>
+          <div className="container footer-inner small">
+            <div className="footer-notes">
+              <span><strong className="footer-strong">The Divine Atlas</strong> — a museum of the world&apos;s divine imagination</span>
+              {/* DES-008: drop the 'Version 1:' dev artifact — in-world footer voice */}
+              <span>Six galleries: Japanese · Greek · Norse · Egyptian · Slavic · Mesopotamian</span>
+              <span><a href="/print">Print &amp; play</a> — the deck, mat &amp; rulebook, ready for the table</span>
+              <span>Every nontrivial claim carries a source. Uncertainties are preserved, not resolved.</span>
+              <span>Artwork: public domain / open license, always attributed.</span>
+              {/* Phase 5 note kept in the detail overlay too — one honest credit, both places */}
+              <span>Card art labelled &ldquo;generated reconstruction&rdquo; is an interpretive, machine-generated reconstruction from each figure&rsquo;s sourced attributes — not archival artwork.</span>
+            </div>
+            <div className="footer-credit">
+              <p className="footer-design">Design by <span className="footer-name">Mazen Pasha</span></p>
+              <p className="footer-mail-line"><a className="footer-mail" href="mailto:maz.basha@gmail.com">maz.basha@gmail.com</a></p>
+            </div>
           </div>
         </footer>
       </body>
