@@ -143,3 +143,17 @@ Deterministic sweep (dup ids/names, broken cross-refs, empty fields, id/name mis
 - `npm run validate` → ✓ no errors (mesopotamian entities 18 after merge).
 - Broken-ref sweep re-run: 0 broken refs, 0 non-reciprocal partners, 0 dangling myth refs.
 - `npx tsc --noEmit` → clean.
+
+## 2026-10-17 — Phase 2: Graph redesign (full-atlas mode)
+Worker: OpenCode (deepseek-v4.1-flash-free) from `docs/audit/PHASE2-SPEC.md`; Hermes fixed one defect found in QA.
+- **New layout**: deterministic culture-anchored force-directed layout (Fruchterman-Reingold style, 120 iterations, golden-angle init, r2-rounded every step — SSR-safe, no Math.random). Replaces the grid-of-rings.
+- **Nodes**: fill = culture color (`CULTURE_ACCENTS`); radius 10–26 by degree (10+2.2·√deg); artifacts render as rounded squares; artwork portraits kept where available, initials-seal fallback.
+- **Labels**: zoom-aware (degree≥4 or k≥1.2 or hovered/selected), 3px bg halo via paintOrder — no hairball text.
+- **Edges**: default opacity 0.35 (was 0.65); highlight on hover/selection.
+- **Selection**: tap/click/Enter a node → neighbors stay, everything else dims to 0.12; detail panel = mobile bottom sheet (drag-down-to-close, ×, Escape) / desktop side card; portrait, name, culture badge, classification, domain chips, "Open profile" + "Center on this".
+- **Touch**: one-finger pan, two-finger pinch zoom (pointer events, touch-action:none); wheel zoom anchors at cursor; zoom clamp 0.3–4.
+- **Search**: "Find a god or relic…" input with keyboard-navigable dropdown (max 8) selecting = select+center node.
+- **A11y**: nodes are role=link, tabIndex=0, aria-label "Name, Culture", Enter/Space activates.
+- **Hermes QA fix**: `setPointerCapture` on the SVG at pointerdown retargeted clicks away from nodes (panel never opened on real taps). Fixed by lazy capture — only once a drag genuinely starts (>3px move). Verified with Playwright at 380px + 1440px: panel opens, 183/184 nodes dim, Escape closes, zero console errors, no horizontal overflow.
+- Also (Phase 4 prep, committed together): `data/slavic/artifacts.json` — 7 new Slavic relics (Perun's Thunderbolt Axe, Perun's Rain-Belt, Veles' Shapeshift Horns, Mokosh's Spindle, Morana's Straw Effigy, Jarilo's Green Oak Branch, Svarog's Smith Tongs), full schema, all 7 hero images verified live (HTTP 200) with licenses recorded; validator STATUS enum synced with the TS type (`in_use`).
+- Verification: tsc 0 errors; build green (723 pages); validate ✓; Playwright smoke green.

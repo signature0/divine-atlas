@@ -1,0 +1,935 @@
+[
+  {
+    "id": "slv-perun-axe",
+    "slug": "perun-thunderbolt-axe",
+    "culture": "slavic",
+    "name": "Perun's Thunderbolt Axe",
+    "native_name": "Perunova sjekira / gromovna strijela",
+    "alternative_names": [
+      "Perun's Arrow",
+      "The Thunderstone",
+      "Gromoviti znak"
+    ],
+    "category": "weapon",
+    "artifact_type": "Axe / Thunderbolt",
+    "domains": [
+      "Thunder",
+      "War",
+      "Protection",
+      "Oath-Binding"
+    ],
+    "owner": "slv-perun",
+    "owner_name": "Perun",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-perun",
+      "slv-veles"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "In myth: forged fire-stone; in folk practice: belemnite fossils and stone celts ('thunderstones', gromovniki) believed to fall with lightning.",
+    "appearance": "In the reconstructed myth Perun hurls a stone axe or arrow-bolt of fire at Veles, who hides from it in trees, stones and water. Folk tradition carved axe-and-horse marks ('Thunder Marks', Perun's signs) on stones to mark where the bolt struck.",
+    "symbols": [
+      "Axe",
+      "Six-petal rosette",
+      "Thunder mark (gromoviti znak)",
+      "Oak"
+    ],
+    "limitations": [
+      "The weapon belongs to the storm-lord alone; in the reconstructed duel it strikes only Veles-shape or Veles' place (tree, stone, water).",
+      "Folk 'thunderstones' were only dangerous to draw when the storm had passed — they were kept buried or nailed to the threshold, not carried openly."
+    ],
+    "creation_story": "No surviving Slavic text narrates the forging of Perun's weapon; the axe/bolt is an attribute, not a product, of the storm itself. [S1]",
+    "origin_story": "The thunderbolt-axe is reconstructed from three converging lines of evidence: (1) the Perun–Veles storm-myth pattern (Ivanov–Toporov), in which the thunder-god strikes the shapeshifting cattle-thief; (2) the folk 'thunderstone' (gromnica) cult — fossils and celts picked up where lightning struck, used as apotropaics; (3) the 'Thunder Marks' carved in the shape of axes and horse-shoes on stones, read by folk tradition as Perun's weapon-marks. [S1][S2]",
+    "major_myths": [
+      "slv-perun-veles"
+    ],
+    "associated_realms": [
+      "The height (Prav / the sky-oak)",
+      "The low world (Nav / Yav, where Veles hides)"
+    ],
+    "current_status": "unknown",
+    "status_note": "Mythic object; its folk traces (thunderstones, thunder marks) survive in museum and village contexts across Russia, the Balkans and Poland.",
+    "source_confidence": "low",
+    "confidence_note": "The WEAPON-ATTRIBUTE is well supported (iconography, folk fossil-cult, toponyms, the axe-oath of Oleg's treaty with Byzantium, 907 CE, sworn 'by Perun and by the weapons'); the full narrative of the duel is scholarly reconstruction, not a surviving text.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the signature weapon of the supreme thunder-lord of the reconstructed Slavic pantheon, cosmologically tied to the storm-duel that renews the world-order; not primordial (Perun is not a creator in the surviving evidence).",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 9,
+        "explanation": "In the reconstructed duel the bolt is what kills or wounds Veles and frees the waters — the storm's whole destructive face is this weapon."
+      },
+      {
+        "attribute": "Defense",
+        "value": 7,
+        "explanation": "The bolt is also a ward: thunderstones and thunder-marks were threshold-protection against lightning, demons and illness."
+      },
+      {
+        "attribute": "Protection",
+        "value": 8,
+        "explanation": "Folk gromnica charms explicitly protect house, livestock and travellers from the thunder that is Perun's own weapon."
+      },
+      {
+        "attribute": "Magic",
+        "value": 6,
+        "explanation": "The fossil-as-frozen-bolt logic is a genuine folk-magic layer, attested ethnographically into the 19th–20th c."
+      },
+      {
+        "attribute": "Durability",
+        "value": 8,
+        "explanation": "Stone and fire-stone: the bolt never breaks in the myth-pattern; thunderstones 'survive' in folk hands as literal objects."
+      },
+      {
+        "attribute": "Range",
+        "value": 9,
+        "explanation": "A thrown hurl from the sky-oak to the low world — the widest range in the pantheon, matched only by Stribog's winds."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "GROM (THUNDERSTRIKE)",
+        "description": "The hurled fire-bolt that splits trees and stones; in the myth-pattern it is the stroke that defeats the chaos-serpent and releases the waters.",
+        "source": "Reconstructed Perun–Veles myth (Ivanov–Toporov); folk thunderstone cult",
+        "certainty": "likely"
+      },
+      {
+        "name": "OATH-FIRE",
+        "description": "The weapon is the guarantor of oaths: the 10th-c. Rus' treaties swear by Perun, and princes laid down their weapons in the oath-rite.",
+        "source": "Primary Chronicle (PVL) oath formulae; Byzantine treaty notices",
+        "certainty": "attested"
+      },
+      {
+        "name": "APOTROPAIC MARK",
+        "description": "The carved 'thunder mark' (six-spoke rosette / axe sign) marks where the bolt struck and wards the place thereafter.",
+        "source": "Archaeology of 'Thunder Marks' (gromovye znaki), 11th–13th c.",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Sand fulgurites from Algeria (lightning-fused stone tubes)",
+      "artist": "Photograph by Dmitry Brant (Wikimedia Commons)",
+      "date": "21st c. (natural object)",
+      "institution": "On display, San Diego County Fair (Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons)",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fulgurites-algeria.jpg/960px-Fulgurites-algeria.jpg",
+      "image_type": "TYPE-PROXY",
+      "depicts": "The mythic axe does not survive; this is a fulgurite — the glass tube lightning fuses in sand. Folk tradition picked up such 'thunderstones' (gromovniki) where the bolt struck and kept them as Perun's fallen weapon.",
+      "copyright_status": "Public domain"
+    },
+    "description_short": "The fire-axe Perun hurls at Veles when the cattle-thief hides in the world-tree — and the stone the folk picked up where the bolt struck, keeping it under the threshold as a ward. [S1]",
+    "description_long": "Perun's weapon is the storm itself given a handle. In the reconstructed duel-myth (Ivanov–Toporov) the thunder-lord pursues Veles, who shapeshifts and hides in trees, stones and water; the bolt of fire is what finally strikes him down and frees the imprisoned waters. No Slavic text narrates the weapon's forging — it is an attribute of the storm, not a made thing. What IS attested is the folk cult around it: belemnite fossils and stone celts ('thunderstones', gromovniki) gathered where lightning had struck, kept as protection; and the carved 'Thunder Marks' — axe and rosette signs on stones — marking the bolt's landing-place. The 10th-century Rus' oaths sworn by Perun, with weapons laid in the rite, make the axe the guarantor of the oath itself. As a card object it is both weapon and ward: the same bolt that kills the serpent nails the house-door safe.",
+    "interesting_facts": [
+      "Folk tradition held that a thunderstone must not be shown openly during a storm — only after it had passed.",
+      "The 'thunder mark' rosette survived into Russian embroidery and house-carving long after the conversion.",
+      "Oleg's 907 CE treaty with Byzantium has Rus' swear 'by Perun' while their weapons lie on the ground — the axe as oath-witness."
+    ],
+    "uncertainty_notes": [
+      "The axe-as-weapon rests on iconography, oath-formulae and folk fossil-cult; the narrative duel is reconstruction. Confidence: low (flagged in docs/UNCERTAIN.md).",
+      "Some scholars read the 'thunder mark' as a solar rosette rather than an axe; both readings are kept in the appearance text."
+    ]
+  },
+  {
+    "id": "slv-perun-belt",
+    "slug": "peruns-rain-belt",
+    "culture": "slavic",
+    "name": "Perun's Rain-Belt",
+    "native_name": "Perunov pojas (gromnični pojas)",
+    "alternative_names": [
+      "The Thunder-Girdle",
+      "St. Elijah's Belt (folk Christianization)"
+    ],
+    "category": "clothing",
+    "artifact_type": "Belt / Girdle",
+    "domains": [
+      "Rain",
+      "Storm",
+      "Binding",
+      "Protection"
+    ],
+    "owner": "slv-perun",
+    "owner_name": "Perun",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-perun",
+      "slv-veles"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "In myth: the cloud-belt; in folk practice: an ordinary belt or sash kept as a storm-charm, later 'consecrated' to St. Elijah (Ilya the Prophet, the thunder-saint who absorbed Perun's functions).",
+    "appearance": "The belt that binds the rain: in the folk myth-pattern the storm-lord (or the saint who replaced him) keeps the rains girded up; when he loosens it, the summer storms break. Folk charms 'unbelt' the belt in words to bring rain in drought.",
+    "symbols": [
+      "Belt",
+      "Cloud",
+      "Rain"
+    ],
+    "limitations": [
+      "The belt binds only the waters Perun is lord of; in the myth-pattern the drought is precisely what happens when the belt stays buckled (or when Veles steals it).",
+      "Folk use: the belt-charm was worked by prescribed words at the icon of St. Elijah — the rite survived only inside a Christian frame."
+    ],
+    "creation_story": "Not forged — girded. The belt belongs to the storm-lord's dress, like the axe; no forging tradition exists. [S1]",
+    "origin_story": "The rain-belt is reconstructed from the folk myth of the 'bound rains': drought is explained as the rains being locked or girded away by the thunder-lord, and folk weather-magic ('unbinding the rains', raspyazyvanie dozhdya) survives in recorded charms into the 19th c., addressed in the Christian period to Ilya the Prophet. Ivanov–Toporov read the belt as the storm-god's own girdle in the Perun–Veles structure: Veles as thief of the waters, Perun recovering them. [S1][S2]",
+    "major_myths": [
+      "slv-perun-veles"
+    ],
+    "associated_realms": [
+      "The height (Prav / the sky)",
+      "The waters held in the clouds"
+    ],
+    "current_status": "lost",
+    "status_note": "Mythic object; the folk belt-charm rite faded with industrialized weather expectations; recorded charms survive in ethnographic collections.",
+    "source_confidence": "low",
+    "confidence_note": "The 'bound rains' myth-pattern and the unbinding charms are well recorded ethnographically; their pre-Christian Perun-context is reconstruction (the charms themselves are addressed to St. Elijah).",
+    "tier": "sacred",
+    "rank": "A",
+    "tier_rationale": "SACRED: an attribute-object of the supreme god with a cosmological function (holding and releasing the rains), but attested only through folk charms and reconstruction, not through a mythic narrative layer of its own.",
+    "power_profile": [
+      {
+        "attribute": "Creation",
+        "value": 7,
+        "explanation": "Releasing the belt is what makes the rain that grows the crops — the life-giving half of the storm."
+      },
+      {
+        "attribute": "Destruction",
+        "value": 5,
+        "explanation": "Kept buckled, the belt is drought; the destructive face here is withholding, not striking."
+      },
+      {
+        "attribute": "Defense",
+        "value": 4,
+        "explanation": "The belt-charm protected fields from drought and hail by binding the weather itself."
+      },
+      {
+        "attribute": "Magic",
+        "value": 7,
+        "explanation": "The recorded 'unbinding the rains' charms are explicit verbal magic keyed to this object."
+      },
+      {
+        "attribute": "Durability",
+        "value": 5,
+        "explanation": "A girdle of cloud: it holds as long as the storm-lord holds it; no myth of it breaking exists."
+      },
+      {
+        "attribute": "Range",
+        "value": 6,
+        "explanation": "Its effect is regional — the rains of a season over a land — not a single strike."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "BIND THE RAINS",
+        "description": "While buckled, the summer rains stay locked in the clouds; drought is the belt held shut.",
+        "source": "Folk 'bound rains' myth-pattern (Ivanov–Toporov)",
+        "certainty": "likely"
+      },
+      {
+        "name": "UNBINDING (RASPYAZYVANIE)",
+        "description": "The recorded folk rite: with prescribed words the rains are 'unbelted' and the storm released.",
+        "source": "19th-c. Russian weather charms (to St. Elijah/Ilya)",
+        "certainty": "attested"
+      },
+      {
+        "name": "HAIL-HOLD",
+        "description": "In some variants the belt also holds hail; loosening it wrongly looses the destructive storm instead of the blessing rain.",
+        "source": "South Slavic storm-charm variants",
+        "certainty": "uncertain"
+      }
+    ],
+    "artwork": {
+      "title": "Prophet Elijah (Ilya the Thunderbolt), Serbian icon",
+      "artist": "Unknown Serbian icon-painter",
+      "date": "18th c.",
+      "institution": "Serbian icon collection (Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons)",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Prophet_Elijah%2C_Serbian_painter%2C_18th_c.jpg/960px-Prophet_Elijah%2C_Serbian_painter%2C_18th_c.jpg",
+      "image_type": "HISTORICAL ART",
+      "depicts": "The belt's late owner: St. Elijah (Ilya the Thunderbolt), who in folk belief rode the storm and inherited Perun's rain-binding functions — the folk 'unbinding the rains' charms are addressed to him.",
+      "copyright_status": "Public domain"
+    },
+    "description_short": "The girdle that holds the summer rains: buckle it and the fields thirst, loosen it with the old words and the storm breaks. After the conversion the peasants 'unbelted' it before the icon of St. Elijah. [S1]",
+    "description_long": "If the axe is the storm's strike, the belt is the storm's promise. In the folk myth-pattern the rains are a held thing — girded up by the thunder-lord, stolen or locked away in drought, and released when the belt is loosed. The 19th-century ethnographic record preserves the rite in charm form: 'unbinding the rains' (raspyazyvanie dozhdya), words spoken to open the girdle, addressed in the Christian period to Ilya the Prophet — the thunder-saint in his fiery chariot who absorbed Perun's weather office almost wholesale. Ivanov–Toporov place the belt inside the Perun–Veles structure itself: the waters Veles withholds and Perun recovers are the same rains the charm unbuckles. As a card object it is the pantheon's control-rod for drought and deluge: bind, and the world thirsts; loose, and it drinks.",
+    "interesting_facts": [
+      "The folk rite 'unbinding the rains' is recorded across Russian, Ukrainian and Serbian ethnography — the same gesture, three modern nations.",
+      "St. Elijah's day (2 August, 'Il'in den' in Russia) is storm-season and kept folk traces of the belt-cult: thunder omens, fire-taboos.",
+      "In some variants Veles himself hides the belt, making drought a theft rather than a punishment — the card's 'HAIL-HOLD' ability keeps both readings."
+    ],
+    "uncertainty_notes": [
+      "Pre-Christian Perun-context of the belt is reconstruction; the charms themselves are post-Christian and addressed to St. Elijah. Flagged in docs/UNCERTAIN.md.",
+      "Whether the belt and the axe were ever one mythic complex or separate folk strands cannot be settled from the evidence."
+    ]
+  },
+  {
+    "id": "slv-veles-shapeshift",
+    "slug": "veles-shapeshift-horns",
+    "culture": "slavic",
+    "name": "Veles' Shapeshift Horns",
+    "native_name": "Velsovy roga (reconstructed attribute)",
+    "alternative_names": [
+      "The Cattle-Horn",
+      "Veles' Horn of Plenty (rog izobiliya)"
+    ],
+    "category": "instrument",
+    "artifact_type": "Horn (drinking-horn / blowing-horn)",
+    "domains": [
+      "Cattle",
+      "Wealth",
+      "Trickery",
+      "Underworld",
+      "Poetry"
+    ],
+    "owner": "slv-veles",
+    "owner_name": "Veles",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-veles",
+      "slv-perun"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "The horn of the first cattle; in folk practice the shepherd's horn (truba/surmy) that calls the herd, and the lord's drinking-horn of the feast.",
+    "appearance": "The horn Veles blows to call his herd across the world-tree's roots — and the horn of plenty that overflows with wealth, since cattle ARE wealth in every early Slavic economy. In the shapeshift-pattern the horns are also the disguise: Veles hides as a horned calf, a bull, a serpent with the herd's marks.",
+    "symbols": [
+      "Horn",
+      "Cattle",
+      "Serpent",
+      "Coin"
+    ],
+    "limitations": [
+      "The horn calls only what Veles owns or has stolen; Perun's bolt can be heard over it.",
+      "The horn of plenty overflows for its owner only — borrowed, it empties (the thief's luck is always temporary in the myth-pattern)."
+    ],
+    "creation_story": "Not forged: the horn grows with the herd. Cattle-gods own their instruments the way shepherds do. [S1]",
+    "origin_story": "Veles is the only Slavic god with a solid textual footprint: the Kievan pantheon list (PVL 980) sets him apart as 'god of cattle' (skotii), and the chronicle's gloss ties him to the low place (the hill where cattle graze, opposite Perun's hill). From there the horn follows three ways: the shepherd's horn that calls the herd (his office), the drinking-horn of the feast-hall wealth he guards (his wealth-aspect), and the horned disguise in the shapeshift episodes of the reconstructed duel. The 'horn of plenty' reading is comparative (Indo-European cornucopia) and kept at low confidence. [S1][S2]",
+    "major_myths": [
+      "slv-perun-veles",
+      "slv-cosmology"
+    ],
+    "associated_realms": [
+      "The low world (the wet roots of the world-oak)",
+      "The pastures of Yav"
+    ],
+    "current_status": "unknown",
+    "status_note": "Mythic object; the shepherd's horn and the feast-horn both survive as living folk instruments with no memory of their god.",
+    "source_confidence": "low",
+    "confidence_note": "Veles-as-cattle-god is attested (PVL 980 gloss); the horn as his specific attribute is inferred from his office (herds need calling, wealth is counted in horns of mead), and the shapeshift-horns belong to the reconstructed duel. All three layers flagged.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: the attribute of a major god attested in the chronicle's own pantheon list, with wealth and underworld functions, but no surviving narrative of the object itself.",
+    "power_profile": [
+      {
+        "attribute": "Creation",
+        "value": 6,
+        "explanation": "The horn calls the herd — in a cattle economy, calling the herd is calling wealth into being."
+      },
+      {
+        "attribute": "Destruction",
+        "value": 3,
+        "explanation": "Veles destroys by theft and binding, not by the horn; the horn's destructive face is the drought-hollow it leaves when the herd is hidden."
+      },
+      {
+        "attribute": "Defense",
+        "value": 4,
+        "explanation": "The horned disguise is the defense that lets Veles survive the duel again and again in the myth-pattern."
+      },
+      {
+        "attribute": "Magic",
+        "value": 7,
+        "explanation": "Shapeshift, hidden waters, and the serpent-horn of the low world: the horn is the instrument of the trickster's own art."
+      },
+      {
+        "attribute": "Durability",
+        "value": 5,
+        "explanation": "A herdsman's horn wears out; the mythic one survives only because the myth keeps re-telling it."
+      },
+      {
+        "attribute": "Range",
+        "value": 5,
+        "explanation": "The herd-call carries across the pasture and, in myth, down the roots of the world-tree — but never up into the storm."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "HERD-CALL",
+        "description": "The blown horn gathers cattle — and, in the myth-pattern, gathers the stolen waters and the sun back into Veles' keeping.",
+        "source": "PVL 980 'god of cattle' office; reconstructed duel",
+        "certainty": "likely"
+      },
+      {
+        "name": "HORNED GUISE",
+        "description": "The shapeshift: Veles hides as a horned calf or bull where Perun's bolt cannot lawfully strike (tree, stone, water).",
+        "source": "Reconstructed Perun–Veles myth (Ivanov–Toporov)",
+        "certainty": "likely"
+      },
+      {
+        "name": "OVERFLOWING HORN",
+        "description": "The horn of plenty: wealth that refills for its true owner — the cattle-lord's blessing on the feast-hall.",
+        "source": "Comparative IE cornucopia; folk feast-horn custom",
+        "certainty": "uncertain"
+      }
+    ],
+    "artwork": {
+      "title": "The Zbruch Idol (Światowid), four-faced pillar of the three worlds",
+      "artist": "Unknown (likely Slavic carver)",
+      "date": "c. 9th c. CE (disputed)",
+      "institution": "Collections of Ukraine (discovered in the Zbruch river) (Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Zbruch_Idol.jpg",
+      "image_type": "SCULPTURE",
+      "depicts": "The horn's world, not the horn itself: the Zbruch idol's lower (underworld) register carries serpent-and-cattle imagery associated with Veles' low realm, which his horn calls across.",
+      "copyright_status": "Public domain"
+    },
+    "description_short": "The horn that calls the herd across the roots of the world-tree: cattle, wealth, hidden waters and the horned disguise Veles hides in when Perun's bolt comes down. [S1]",
+    "description_long": "Veles is the one Slavic god the chronicles themselves explain: set up in Kiev 'of the cattle' (skotii), honoured on the low hill where the herds grazed, opposite Perun's height. Everything about his horn follows from that office. A herdsman calls his cattle with a horn; a cattle-lord's wealth is counted in horns of mead at the feast; and in the reconstructed duel the horned beast is the disguise the trickster wears when the storm comes — calf, bull, serpent with the herd's own marks, hidden in tree, stone and water where the bolt may not lawfully strike. The comparative 'horn of plenty' layer (the overflowing wealth-horn of the cattle-god) is kept at uncertain certainty, but the folk shepherd's horn and the lord's feast-horn both survive as real instruments that never forgot their owner's name. As a card object it is the pantheon's trickster-economy: call the herd, wear the horns, and be somewhere else when the thunder lands.",
+    "interesting_facts": [
+      "The PVL's gloss 'god of cattle' is the single most solid piece of evidence for any Slavic god's function — the horn is inference from it, not invention.",
+      "The Zbruch idol's lower (underworld) register carries serpent and cattle motifs that are the closest surviving iconography to Veles' realm.",
+      "Russian 'velessov'/'volhv' (pagan priest) is popularly — but disputedly — linked to Veles' name; the card keeps the horn, not the etymology."
+    ],
+    "uncertainty_notes": [
+      "The horn as a named mythic object is an attribute-inference from Veles' attested cattle-office; the shapeshift-horns belong to the reconstructed duel myth. Flagged in docs/UNCERTAIN.md.",
+      "The horn-of-plenty layer is comparative and marked 'uncertain' on the ability itself."
+    ]
+  },
+  {
+    "id": "slv-mokosh-spindle",
+    "slug": "mokosh-spindle",
+    "culture": "slavic",
+    "name": "Mokosh's Spindle",
+    "native_name": "Mokoshina vretena (folk: 'Fate's spindle')",
+    "alternative_names": [
+      "The Great Goddess's Distaff",
+      "The Thread of Fate"
+    ],
+    "category": "tool",
+    "artifact_type": "Spindle & Distaff",
+    "domains": [
+      "Fate",
+      "Women's Work",
+      "Water",
+      "Moist Earth",
+      "Divination"
+    ],
+    "owner": "slv-mokosh",
+    "owner_name": "Mokosh",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-mokosh"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Wood and clay: the spindle whorls (preslitsy) excavated by the thousands from Novgorod and every medieval Slavic town — Mokosh's own archaeology.",
+    "appearance": "The distaff, spindle and whorl of the spinner of fate. On the Zbruch idol's third face a female figure holds a horn-like distaff between two ridges of the world; folk tradition kept Thursday (Mokosh's old day, transferred to Paraskuva Pyatnitsa) as the day NOT to spin, and spun threads as fate-threads at birth and marriage rites.",
+    "symbols": [
+      "Spindle",
+      "Distaff",
+      "Thread",
+      "Ram",
+      "Flax"
+    ],
+    "limitations": [
+      "The thread is spun, not cut — Mokosh's fate-reading measures lives; cutting them belongs to Morana's winter, not to her.",
+      "Folk taboo: spinning on Thursday (her day) 'spins flax for the dead' — the tool works against whoever works it on the wrong day."
+    ],
+    "creation_story": "The tool of the first woman's work; no forging myth. The spindle is older than every god on this board. [S1]",
+    "origin_story": "Mokosh is the only female name in the Kievan pantheon list (PVL 980) and the only one whose folk afterlife is traceable: 'Mother Moist Earth' (Mati Syra Zemlya) and the Thursday/Paraskuva taboos around spinning, flax-watering and fate-divination all converge on her. The Zbruch idol's female figure with the distaff between the world's ridges is the iconographic anchor. The spindle-whorl excavations (Novgorod's 'preslitsa' layers) give the object a literal archaeological spine. Fate-spinning is a comparative Indo-European pattern (Moirai, Parcae, Nornir) applied to Mokosh at medium confidence. [S1][S2][S3]",
+    "major_myths": [
+      "slv-cosmology",
+      "slv-seasonal"
+    ],
+    "associated_realms": [
+      "Moist earth (the wet ground of the women's world)",
+      "The thread between birth and winter"
+    ],
+    "current_status": "preserved",
+    "status_note": "Thousands of spindle whorls survive in museum collections; the folk fate-spinning taboos were recorded into the 20th century.",
+    "source_confidence": "medium",
+    "confidence_note": "Mokosh's existence, gender and pantheon rank are attested (PVL 980); her fate-spinning office is a strong convergence of chronicle gloss ('spinner' reading of her name is disputed), iconography (Zbruch distaff figure) and folk taboo — medium, not high.",
+    "tier": "divine",
+    "rank": "S",
+    "tier_rationale": "DIVINE: the sole goddess of the Kievan state pantheon, whose tool measures the lives of the whole community; the object's folk afterlife (Thursday taboos, fate-spinning) is the best-documented pagan survival in Slavic folk religion.",
+    "power_profile": [
+      {
+        "attribute": "Creation",
+        "value": 7,
+        "explanation": "Spinning is making: thread, cloth, and — in the fate-pattern — the measured life itself."
+      },
+      {
+        "attribute": "Destruction",
+        "value": 3,
+        "explanation": "Mokosh does not cut the thread; her destructive face is the tangled or 'wrong-day' spin that folk taboo threatens."
+      },
+      {
+        "attribute": "Defense",
+        "value": 5,
+        "explanation": "The spun thread and the Thursday taboo protected women's work and women's fates; amuletic spindle whorls are excavated as grave-goods."
+      },
+      {
+        "attribute": "Magic",
+        "value": 8,
+        "explanation": "Fate-divination at spinning-bees, flax-watering rites on Mokosh's day, and the 'spinner' etymology of her name all key to this tool."
+      },
+      {
+        "attribute": "Durability",
+        "value": 7,
+        "explanation": "Clay whorls outlast empires — literally: Novgorod's layers preserve them by the thousand."
+      },
+      {
+        "attribute": "Range",
+        "value": 4,
+        "explanation": "The spindle's reach is the length of a life-thread and the radius of the women's quarter — deep, not wide."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "SPIN THE FATE-THREAD",
+        "description": "At birth and at marriage the thread is spun for the life: length measured, destiny drawn out.",
+        "source": "Folk fate-spinning custom; comparative IE fate-spinners",
+        "certainty": "likely"
+      },
+      {
+        "name": "THURSDAY TABOO",
+        "description": "Her day: no spinning, no watering flax — 'you would spin flax for the dead.' The tool turns against the worker on the wrong day.",
+        "source": "Recorded Russian/Ukrainian Thursday taboos (Paraskuva Pyatnitsa layer)",
+        "certainty": "attested"
+      },
+      {
+        "name": "MOIST EARTH'S READING",
+        "description": "Divination at the distaff and the wet flax: the women's quarter reads fate in thread and water.",
+        "source": "Ethnographic divination records (spinning-bees, St. Andrew's eve)",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Clay spindle whorl (YDEA-64693)",
+      "artist": "Unknown (archaeological object)",
+      "date": "Medieval (type)",
+      "institution": "Yorkshire Digital Archives (Wikimedia Commons)",
+      "license": "CC0 (Wikimedia Commons)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Clay_Spindle_Wheel_-_YDEA_-_64693.jpg",
+      "image_type": "ARCHAEOLOGICAL",
+      "depicts": "Mokosh's tool in its literal archaeological form: an ornamented clay spindle whorl of the kind excavated by the thousand from medieval town layers (Novgorod's preslitsy) — the working part of the fate-spinner's spindle.",
+      "copyright_status": "CC0"
+    },
+    "description_short": "The distaff of the only goddess in the chronicle's Kiev pantheon: she spins the thread of every life, and the folk would not touch a spindle on Thursday — 'you'd spin flax for the dead.' [S1]",
+    "description_long": "Mokosh stands alone in the Primary Chronicle's pantheon list — the only female name among the state gods of Vladimir's Kiev — and her tool is the best-archaeologized object in this whole vault: Novgorod's wet clay layers have yielded thousands of spindle whorls (preslitsy), the working parts of her instrument. What she spins is fate. The convergence is unusually tight: a disputed but plausible etymology reading her name as 'the spinner'; the Zbruch idol's female figure holding a distaff between the world's ridges; and a living folk taboo complex — Thursday (her old day, later Paraskuva Pyatnitsa) forbidden to spinning and flax-watering, birth and marriage rites where the thread is spun for the child or bride, and divination at the spinning-bees. Fate-spinning is the great Indo-European inheritance (the Moirai, the Parcae, the Nornir), and Mokosh is its Slavic heiress. As a card object she is the pantheon's clock: every thread measured, none cut early — cutting is winter's work, and Morana's.",
+    "interesting_facts": [
+      "Novgorod archaeologists date strata partly by spindle-whorl styles — Mokosh's tool as a dating instrument.",
+      "The Thursday taboo formula 'spinning flax for the dead' is recorded in Russian, Ukrainian and Belarusian sources.",
+      "Some scholars read Mokosh as a 'moist' earth-moisture goddess (mokro = wet) rather than a spinner; the card keeps both threads — the spindle works for either reading."
+    ],
+    "uncertainty_notes": [
+      "The fate-spinning office is a convergence (etymology + iconography + folk taboo), not a chronicle statement; confidence medium. Flagged in docs/UNCERTAIN.md.",
+      "The Zbruch idol's female figure is not universally identified as Mokosh."
+    ]
+  },
+  {
+    "id": "slv-morana-effigy",
+    "slug": "morana-straw-effigy",
+    "culture": "slavic",
+    "name": "Morana's Straw Effigy",
+    "native_name": "Morana / Marzanna / Morena (the effigy bears the goddess's name)",
+    "alternative_names": [
+      "La Morana",
+      "Marzanna",
+      "The Drowned Winter"
+    ],
+    "category": "sacred_object",
+    "artifact_type": "Ritual Effigy",
+    "domains": [
+      "Winter",
+      "Death",
+      "Seasonal Cycle",
+      "Renewal"
+    ],
+    "owner": "slv-morana",
+    "owner_name": "Morana",
+    "creator": null,
+    "creator_name": "The village community (the effigy is made by everyone and no one)",
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-morana",
+      "slv-jarilo"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "Straw, rye sheaves, old rags, a painted or whitewashed head; dressed in a bride's or crone's clothes.",
+    "appearance": "A straw figure with a pale face, dressed as an old woman (or, in some regions, a bride), paraded at the end of winter and then drowned in the river or burned on a pyre — the rite that ends carnival and opens spring.",
+    "symbols": [
+      "Straw",
+      "River",
+      "Ash",
+      "The drowned image"
+    ],
+    "limitations": [
+      "The effigy only works as Morana: burn a straw puppet in summer and it is litter, not ritual. The rite's calendar-slot IS the object.",
+      "No one may touch the drowned effigy and bring it back — the rite's whole grammar is irreversible expulsion."
+    ],
+    "creation_story": "Made each year by the whole village in the last days of winter; the making is part of the rite, not a production. [S1]",
+    "origin_story": "The drowning/burning of Morana (Marzanna, Morena, Moréna — names recorded across Czech, Polish, Slovak, Lusatian and Russian use) is the single best-attested Slavic seasonal rite, described by sources from the medieval chronicle-margin down to 20th-century school pageants. The reconstructed myth (Ivanov–Toporov) sets it in the Jarilo–Morana seasonal cycle: the death-goddess who freezes the world is expelled (drowned/burned) so the spring god can return. Whether the effigy is the goddess herself, her scapegoat, or her funeral is debated; the rite itself is not. [S1][S2]",
+    "major_myths": [
+      "slv-seasonal"
+    ],
+    "associated_realms": [
+      "Winter (the dead year)",
+      "The river that carries it away"
+    ],
+    "current_status": "in_use",
+    "status_note": "The rite is alive: school and village Marzanna drownings still mark the first day of spring across the Czech lands, Slovakia, Poland and Lusatia — now as custom, not cult.",
+    "source_confidence": "high",
+    "confidence_note": "The RITE is attested in depth (medieval mentions through modern ethnography); the identification of the effigy with a goddess named Morana is strong but rests on the names and the cycle-structure — the goddess's independent myth is reconstruction.",
+    "tier": "legendary",
+    "rank": "A",
+    "tier_rationale": "LEGENDARY: a ritual object with a thousand years of continuous description, carrying a death-goddess's whole office — but it is the rite's object, not a mythic weapon or cosmological instrument.",
+    "power_profile": [
+      {
+        "attribute": "Destruction",
+        "value": 7,
+        "explanation": "The effigy absorbs and expels winter and death: the drowning is the year's killing of the cold."
+      },
+      {
+        "attribute": "Creation",
+        "value": 6,
+        "explanation": "Its destruction is what opens spring — the effigy is the hinge of the Jarilo return."
+      },
+      {
+        "attribute": "Defense",
+        "value": 4,
+        "explanation": "Carried out of the village, it takes death with it: the rite is communal hygiene against the winter dead."
+      },
+      {
+        "attribute": "Magic",
+        "value": 7,
+        "explanation": "Sympathetic magic in straw: burn the winter and winter ends — the rite's logic is the card's magic score."
+      },
+      {
+        "attribute": "Durability",
+        "value": 2,
+        "explanation": "Built to be destroyed; each effigy lives for days. Its durability is the calendar's, not the object's."
+      },
+      {
+        "attribute": "Range",
+        "value": 4,
+        "explanation": "The procession's radius is the village boundary — but the season that turns is not."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EXPULSION (VYNAŠENÍ)",
+        "description": "The carrying-out: winter and the death-year leave with the effigy, drowned in the river or burned beyond the fields.",
+        "source": "Morana rite, attested medieval–modern",
+        "certainty": "attested"
+      },
+      {
+        "name": "THE YEAR'S FUNERAL",
+        "description": "The effigy is the dead year's body: mourning rites, straw, and the rite of irreversible farewell.",
+        "source": "Ethnographic rite descriptions (funeral grammar of the Marzanna)",
+        "certainty": "likely"
+      },
+      {
+        "name": "SPRING-OPENER",
+        "description": "Once the straw burns, Jarilo returns: the card's destruction ability is the season's summoning.",
+        "source": "Reconstructed Jarilo–Morana cycle (Ivanov–Toporov)",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Marzanna effigy before the spring drowning rite",
+      "artist": "Photograph (Wikimedia Commons contributor)",
+      "date": "21st c.",
+      "institution": "Wikimedia Commons",
+      "license": "CC BY 2.5 (Wikimedia Commons; verify current license at deploy time)",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Marzanna03.jpg/960px-Marzanna03.jpg",
+      "image_type": "MODERN ART",
+      "depicts": "The rite itself, performed: the straw Marzanna effigy carried to be burned and drowned — the death-woman's thousand-year afterlife as living spring custom.",
+      "copyright_status": "CC BY 2.5"
+    },
+    "description_short": "The straw death-woman the village carries out each year and drowns in the river: burn her and spring opens, touch her and bring back winter. The oldest living rite in this pantheon. [S1]",
+    "description_long": "Morana's effigy is the only object in the vault that is still being made. Every year at carnival's end, villages across the Czech lands, Slovakia, Poland and Lusatia dress a straw figure — pale-faced, in rags or bridal white — carry it through the streets, and drown it in the river or burn it beyond the fields, because winter must die with a funeral. The names (Marzanna, Morena, Moréna, Morana) are recorded from medieval chronicle margins to today's school pageants; the reconstructed myth (Ivanov–Toporov) sets the rite inside the seasonal cycle: the death-goddess who froze the world is expelled so Jarilo, the spring god, can come back from the underworld. Scholars still argue whether the straw figure is the goddess, her scapegoat, or her funeral — the rite keeps its own counsel. As a card object it is the pantheon's calendar hinge: destruction as the summoning, the drowned winter as the spring's admission ticket.",
+    "interesting_facts": [
+      "The rite survived Christianization by being reassigned: in some regions the drowning became an Easter-tide game, in others a school 'first day of spring' pageant.",
+      "The effigy's grammar is a real funeral: mourning songs, the 'carrying out' verb (vynašeni, vynášení), and the rule that no one may fish it back.",
+      "Czech schools still hold the Marzanna drowning on 21 March as an unbroken civic custom — the goddess's straw body is the longest-lived ritual object in Europe."
+    ],
+    "uncertainty_notes": [
+      "Morana as an independent goddess (vs. a rite-figure named by the effigy) is debated; the card marks the mythic cycle 'likely' and the rite 'attested'. Flagged in docs/UNCERTAIN.md.",
+      "The artwork license (CC BY-SA) must be re-verified at deploy time — unlike the other entries it is not public domain."
+    ]
+  },
+  {
+    "id": "slv-jarilo-green-oak",
+    "slug": "jarilos-green-oak-branch",
+    "culture": "slavic",
+    "name": "Jarilo's Green Oak Branch",
+    "native_name": "Jarilov zelený háj / the green branch (the rite's 'Jarilo')",
+    "alternative_names": [
+      "The May Branch",
+      "Jarilo's Bough",
+      "The Green Oak"
+    ],
+    "category": "sacred_object",
+    "artifact_type": "Living Branch / Tree",
+    "domains": [
+      "Spring",
+      "Vegetation",
+      "Youth",
+      "Return from Death"
+    ],
+    "owner": "slv-jarilo",
+    "owner_name": "Jarilo",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-jarilo",
+      "slv-morana",
+      "slv-mokosh"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "The green bough that will not die: an oak (or birch/rowan by region) that leafs out in the dead of winter in the myth, and the real green branch carried and planted in the May/June rites.",
+    "appearance": "In the reconstructed myth Jarilo, stolen as an infant and raised in the underworld, returns each spring bringing green life with him — the oak that leafs in winter is his sign. The folk rite carries a green branch from house to house (the 'Jarilo' or 'the king' procession), and the Koliada/June 'green oak' custom plants or raises the leafy pole at the year's hinge.",
+    "symbols": [
+      "Green branch",
+      "Oak",
+      "Wreath",
+      "The returning youth"
+    ],
+    "limitations": [
+      "The branch lives only in the return-season: cut in winter it is dead wood — Jarilo's power is the season's, not the wood's.",
+      "It cannot be kept: the green branch is planted, planted back, or let go — hoarding it breaks the cycle it stands for."
+    ],
+    "creation_story": "Grown, not made: the branch leafs by the god's own season. [S1]",
+    "origin_story": "Jarilo (Jarovit, attested in the 12th-c. Elbe-Slavic records at Havelberg and Rethra) is read by Ivanov–Toporov as the spring/youth god of the seasonal cycle: stolen as a baby by Veles (or raised in his house), he marries the sterile Morana in the underworld and returns each spring bringing vegetation — the 'oak that leafs in winter' motif. The folk green-branch processions (the 'Jarilo'/'the king' carried house to house at Pentecost/June) and the raised May-pole/green-oak customs are the rite-layer evidence. The Kupala equation is 19th–20th c. reconstruction and flagged. [S1][S2]",
+    "major_myths": [
+      "slv-seasonal",
+      "slv-kupala"
+    ],
+    "associated_realms": [
+      "The underworld (where he was raised)",
+      "The fields he returns to green"
+    ],
+    "current_status": "in_use",
+    "status_note": "Green-branch and May-pole customs survive across Slavic regions (some as Whitsun/June rites); the mythic reading is reconstruction, the customs are living.",
+    "source_confidence": "low",
+    "confidence_note": "Jarilo's historic cult is attested (12th-c. Elbe-Slavic idols); the seasonal-cycle myth and the green-branch attribute are Ivanov–Toporov reconstruction from folk custom. Low confidence, clearly marked.",
+    "tier": "sacred",
+    "rank": "A",
+    "tier_rationale": "SACRED: the life-object of a god whose cult is attested but whose myth is reconstructed; a living rite-object (the green branch) with a cosmological function (the return of vegetation) rather than a narrative history.",
+    "power_profile": [
+      {
+        "attribute": "Creation",
+        "value": 8,
+        "explanation": "The branch that leafs in winter is vegetation itself returning — the strongest creative act in the pantheon after Mokosh's thread."
+      },
+      {
+        "attribute": "Destruction",
+        "value": 2,
+        "explanation": "Jarilo destroys nothing; his winter-death is Morana's work, and the branch's power is the refusal of that death."
+      },
+      {
+        "attribute": "Defense",
+        "value": 4,
+        "explanation": "The carried green branch blessed houses and herds on its procession route — a walking ward against the lingering winter."
+      },
+      {
+        "attribute": "Magic",
+        "value": 6,
+        "explanation": "Sympathetic vegetation magic: raise the green bough and the fields must green with it."
+      },
+      {
+        "attribute": "Durability",
+        "value": 3,
+        "explanation": "A cut branch dies; the mythic one lives only while the season turns — durability is the cycle's."
+      },
+      {
+        "attribute": "Range",
+        "value": 5,
+        "explanation": "The procession's route and the fields it blesses; the return itself is yearly and universal."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "WINTER-LEAFING",
+        "description": "The oak that leafs in the dead season: Jarilo's sign that the underworld's grip is broken.",
+        "source": "Reconstructed Jarilo myth (Ivanov–Toporov)",
+        "certainty": "likely"
+      },
+      {
+        "name": "THE RETURNING PROCESSION",
+        "description": "The green branch carried house to house ('the king' / Jarilo rite): each doorstep blessed by the returning god.",
+        "source": "Folk green-branch processions (June/Whitsun)",
+        "certainty": "attested"
+      },
+      {
+        "name": "MARRIED TO WINTER",
+        "description": "Jarilo's bride is Morana: the green branch and the straw effigy are one cycle's two halves — the card pairs with hers.",
+        "source": "Reconstructed seasonal cycle",
+        "certainty": "likely"
+      }
+    ],
+    "artwork": {
+      "title": "Green Week (Zielone Świątki) village decorated with leafy boughs, c. 1950",
+      "artist": "Photograph (Wikimedia Commons, Polish Ethnographic Society collection)",
+      "date": "late 1940s–early 1950s",
+      "institution": "National Digital Archives, Poland (via Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons)",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Miedniki%2C_Zielone_%C5%9Awi%C4%85tki%2C_ok._1950.jpg/960px-Miedniki%2C_Zielone_%C5%9Awi%C4%85tki%2C_ok._1950.jpg",
+      "image_type": "HISTORICAL ART",
+      "depicts": "The rite's living form: a village greened with leafy boughs at Whitsun/Green Week — the same 'carry the green branch, greet the returning spring' grammar the reconstructed Jarilo myth explains (photographed in the Lithuania-Suwalski region, a custom shared across the Slavic-Baltic world).",
+      "copyright_status": "Public domain"
+    },
+    "description_short": "The oak branch that leafs in winter: Jarilo's sign when he comes back from the underworld each spring, and the green bough villages still carry house to house to finish off winter for good. [S1]",
+    "description_long": "Jarilo is the pantheon's return-god: stolen as an infant, raised in Veles' underworld house, married to its mistress Morana — and gone back up every spring, bringing green life with him. His object is therefore the impossible thing: the oak that leafs in the dead of winter, the cut branch that will not stop being green. The 12th-century chronicles give his cult a hard floor (the Jarovit idol at Havelberg and Rethra); everything above that floor — the seasonal-cycle myth, the underworld marriage, the winter-leafing oak — is Ivanov–Toporov's reconstruction, and the card says so. But the rite-layer is real and living: green-branch processions carried from house to house at Pentecost and June, the raised May-pole, the 'king' with his wreath. As a card object the green branch is the cycle's second hinge (paired with Morana's effigy): where she is the year's funeral, this is the year's resurrection — and neither card works without the other.",
+    "interesting_facts": [
+      "The Jarilo–Morana pair is designed to be played as a cycle: her drowning opens his return (see the Phase 5 game rules).",
+      "The 'oak that leafs in winter' motif also appears in South Slavic folk songs attached to St. George's day (Đurđevdan) — the saint absorbed the spring office.",
+      "The Kupala-Night equation (fire, water, fern-flower) is 19th–20th c. scholarship, not attested identity — kept flagged in docs/UNCERTAIN.md."
+    ],
+    "uncertainty_notes": [
+      "Jarilo's myth is reconstruction; only the 12th-c. idol cult is attested. Confidence low, marked on every ability.",
+      "Whether Jarilo and the Kupala festival figure are one is disputed; the card keeps the mythic cycle and the folk rite as separate layers."
+    ]
+  },
+  {
+    "id": "slv-svarog-forge-tongs",
+    "slug": "svarogs-smith-tongs",
+    "culture": "slavic",
+    "name": "Svarog's Smith Tongs",
+    "native_name": "Svarogove kleště (reconstructed attribute)",
+    "alternative_names": [
+      "The Heavenly Smith's Tongs",
+      "The Dazhbog-Craft"
+    ],
+    "category": "tool",
+    "artifact_type": "Smith's Tongs",
+    "domains": [
+      "Fire",
+      "Craft",
+      "Sky",
+      "Marriage",
+      "Civilization"
+    ],
+    "owner": "slv-svarog",
+    "owner_name": "Svarog",
+    "creator": null,
+    "creator_name": null,
+    "previous_owners": [],
+    "associated_deities": [
+      "slv-svarog",
+      "slv-dazhbog"
+    ],
+    "associated_heroes": [],
+    "associated_monsters": [],
+    "material": "The smith's iron: tongs, hammer and anvil of the heavenly forge the chronicle itself names.",
+    "appearance": "Svarog is the chronicle's 'Hephaestus': the smith-god who forges, and whose forge-fire the married couples dance around in the rite the chronicle describes. The tongs are the grab of creation — the tool that holds the hot metal while the god shapes it.",
+    "symbols": [
+      "Tongs",
+      "Anvil",
+      "Forge-fire",
+      "The wedding dance"
+    ],
+    "limitations": [
+      "The tongs hold what is already hot: Svarog shapes, he does not create from nothing — the metal (the world's stuff) precedes him.",
+      "In the chronicle's rite the couples dance the forge-fire as a marriage-rite: the tool blesses unions, but only inside the community's circle."
+    ],
+    "creation_story": "The smith's tools belong to the smith from the first heat; no forging myth of the tongs themselves. [S1]",
+    "origin_story": "The Primary Chronicle's euhemeristic passage (borrowed from Byzantine chronicle tradition) makes Svarog a king and smith: 'Hephaestus... he showed men the craft of marriage, how the young are to be joined... they danced at his forge.' The gloss that Dazhbog is 'Svarog's son' (Svarozhich) makes the sun a product of the heavenly forge — Dazhbog as the forged gold-disc. The tongs are the attribute-inference from the smith-identification (the chronicle names the craft, the dance at the forge, and the marriage-teaching; the tongs are the smith's hand). The whole entry is flagged: Svarog's nature (sky-father vs smith vs euhemerized king) is one of the most contested problems in Slavic studies. [S1][S2]",
+    "major_myths": [
+      "slv-cosmology"
+    ],
+    "associated_realms": [
+      "The sky (Svarog's name = 'the bright/airy one', from the same root as svar/sun)",
+      "The forge where the sun was shaped"
+    ],
+    "current_status": "lost",
+    "status_note": "Mythic object; the chronicle's forge-rite died with the conversion; the smith-cult's folk traces (fire-walking, forge oaths) are indirect.",
+    "source_confidence": "low",
+    "confidence_note": "Svarog's existence is attested (chronicle glosses); his SMITH identity comes from the chronicle's Hephaestus equation, and the tongs are an attribute-inference from it. The Dazhbog-as-forged-sun reading is one scholarly option. All flagged.",
+    "tier": "cosmic",
+    "rank": "SS",
+    "tier_rationale": "COSMIC: if the chronicle's gloss holds, the heavenly forge is where the sun itself was shaped — a world-making craft — which outranks the gods' personal weapons; held at cosmic tier on the strength of the Svarozhich (sun-forged) reading alone.",
+    "power_profile": [
+      {
+        "attribute": "Creation",
+        "value": 9,
+        "explanation": "The forge-shaping of the sun (Dazhbog as Svarog's son = the forged gold-disc) is the most cosmic creative act in the Slavic material."
+      },
+      {
+        "attribute": "Destruction",
+        "value": 3,
+        "explanation": "The smith's fire destroys only to reshape; the tongs never strike, they hold."
+      },
+      {
+        "attribute": "Defense",
+        "value": 4,
+        "explanation": "Craft itself is the gift that defends: the chronicle credits Svarog with teaching marriage and craft — civilization's armor."
+      },
+      {
+        "attribute": "Magic",
+        "value": 6,
+        "explanation": "The forge-fire rite and the marriage-blessing around it are sanctified craft — fire as ritual agent."
+      },
+      {
+        "attribute": "Durability",
+        "value": 8,
+        "explanation": "Smith-iron: the tongs outlast every work they hold; the forge is the one thing the myth doesn't end."
+      },
+      {
+        "attribute": "Range",
+        "value": 7,
+        "explanation": "The forged sun crosses the whole sky; the craft-lesson spreads over the whole people."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "FORGE THE SUN",
+        "description": "The heavenly forge shapes the gold-disc — Dazhbog, 'Svarog's son', the sun as the smith's finished work.",
+        "source": "PVL Svarozhich gloss + Hephaestus equation (scholarly reading)",
+        "certainty": "uncertain"
+      },
+      {
+        "name": "TEACH MARRIAGE",
+        "description": "The chronicle's own credit: Svarog showed men how the young are joined; couples danced his forge-fire as the marriage-rite.",
+        "source": "Primary Chronicle euhemeristic passage",
+        "certainty": "attested"
+      },
+      {
+        "name": "HOLD THE HOT WORLD",
+        "description": "The tongs' true power: the world's metal is shaped while held — the smith endures what the work cannot.",
+        "source": "Attribute-inference from the smith-identification",
+        "certainty": "modern_interpretation"
+      }
+    ],
+    "artwork": {
+      "title": "Army blacksmith and forge at work (stereograph)",
+      "artist": "Photograph by Mathew B. Brady studio (attributed)",
+      "date": "September 1862",
+      "institution": "U.S. National Archives (via Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons)",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Army_Blacksmith_and_Forge%2C_Antietam%2C_Sept.%2C_1862.jpg/960px-Army_Blacksmith_and_Forge%2C_Antietam%2C_Sept.%2C_1862.jpg",
+      "image_type": "TYPE-PROXY",
+      "depicts": "The smith's craft the chronicle assigns to Svarog: a forge at work with tongs, anvil and fire — the heavenly smith's tools shown in their traditional form.",
+      "copyright_status": "Public domain"
+    },
+    "description_short": "The tongs of the chronicle's 'Hephaestus': the smith-god who — if the old gloss holds — forged the sun itself and taught men marriage, with the whole village dancing around his forge-fire. [S1]",
+    "description_long": "Svarog is the hardest god in the Slavic pantheon to pin down, and his tongs are the hardest object in this vault. The Primary Chronicle, following Byzantine chronicle habit, euhemerizes him: a king, a smith, a 'Hephaestus' who taught men marriage and at whose forge the young couples danced. The same chronicle calls Dazhbog 'Svarozhich' — Svarog's son — and one strong reading takes that literally: the sun is the forge's finished gold-disc, and the smith-god's tongs are the most cosmic tool in the pantheon. Everything else about Svarog (sky-father? the bright air itself? a deified Assyrian king of the chronicle's own invention?) is contested, and the card keeps the tongs at the center of the argument rather than pretending the argument away. As a card object the tongs are the pantheon's civilization-move: not the storm's strike or the herd's call, but craft — the fire held, the metal shaped, the marriage taught, the sun set in the sky.",
+    "interesting_facts": [
+      "The chronicle's forge-dance for newlyweds is the only Slavic marriage-rite attached to a god by name — the tongs double as wedding-officiants.",
+      "Svarog's name shares its root with svar ('bright/airy') and with the sun-word family; the smith-reading and the sky-reading fight over the same syllables.",
+      "The 'forged sun' tier rests on ONE gloss (Svarozhich); the card marks the ability 'uncertain' and the entry low-confidence — the SS rank is a bet on the best reading, stated as a bet."
+    ],
+    "uncertainty_notes": [
+      "Svarog's identity (smith vs sky vs euhemerized king) is unresolved; the tongs are an attribute-inference from the chronicle's Hephaestus equation. Flagged in docs/UNCERTAIN.md.",
+      "The Dazhbog-as-forged-sun reading is a scholarly option, not a consensus; ability marked 'uncertain'."
+    ]
+  }
+]

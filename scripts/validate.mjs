@@ -85,7 +85,7 @@ for (const culture of CULTURES) {
   const TIERS = new Set(['minor','sacred','legendary','divine','cosmic','primordial']);
   const RANKS = new Set(['C','B','A','S','SS','EX']);
   const CONF = new Set(['high','medium','low']);
-  const STATUS = new Set(['unknown','preserved','lost','hidden','destroyed']);
+  const STATUS = new Set(['unknown','preserved','lost','hidden','destroyed','in_use']);
   const CERT = new Set(['attested','likely','later_tradition','modern_interpretation','uncertain']);
   const myids = new Set(myths.map((m) => m.id));
   for (const a of artifacts) {
