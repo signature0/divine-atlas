@@ -174,7 +174,10 @@ export default function Home() {
           <div className="deck-teaser-row">
             {deckTeaser.map((c) => (
               <Link key={c.id} href={`/cards/${c.id}`} className="deck-teaser-item" aria-label={`${c.name} card`}>
-                <DeityCard card={c} size="md" />
+                {/* interactive={false}: the outer teaser link already opens the
+                    card page, so the inner print link is suppressed to avoid a
+                    nested <a> (React hydration error #418). */}
+                <DeityCard card={c} size="md" interactive={false} />
               </Link>
             ))}
           </div>

@@ -132,8 +132,12 @@ The shared composition sentence (from `entity_prompt` / `artifact_prompt`):
   single-source light, faint aura of its element, card-safe margins."
 - Both end with "Aspect ratio 5:7 portrait (1024x1440)."
 
-Card-safe margins are required because the artwork window crops to the card's
-5:7 frame; no figure may be cut at the frame edge.
+**Contract (Phase 4 D3):** the card's art box is locked to **5:7 (0.7143)** and the
+image is drawn with `object-fit: cover`, so `cover` is a no-op — the full PNG is
+shown, never cropped. Generated art must therefore be a **full figure or
+head-and-shoulders with relic**, with **safe margins ≥ 8% top/bottom**, and the
+**subject never touching the frame edges**. Card-safe margins are required because
+the artwork fills the card's 5:7 frame exactly; no figure may be cut at the edge.
 
 **Mood:** "solemn and awe-inspiring" by default; when the string `death` appears
 in the entity's domains the generator switches to "hushed, reverent, solemn".

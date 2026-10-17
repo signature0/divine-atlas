@@ -1,5 +1,13 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 4 (v2) — Card redesign (phone-first) + art-box fix — 2026-10-17
+- Removed ALL flip affordances (FlippableCard + RelicCard buttons/hover-flip; back-face facts preserved in detail view). `grep -rn Flip app/components/` = 0. Stale copy rewritten ("hovering flips a card" → tap language).
+- New card hierarchy: 5:7 art dominant → name+native → culture badge+type → 2-line summary → PWR/GRD → tidy single-line footer (set code + sources ellipsis-clamped after vision QA found Amaterasu footer wrap/clipping; verified 36/36 cards zero overflow).
+- ART BOX FIX: exact `aspect-ratio: 5/7` on card + relic art boxes (measured 0.714 at 380/1440), object-fit:cover now a no-op fallback; detail overlay hero switched to contain + max-height (was cropping figures mid-face).
+- FIXED pre-existing hydration bug: nested `<a>` (DeityCard print link inside homepage teaser link) via `interactive` prop — homepage now zero React #418 errors, 0 a-inside-a in built HTML.
+- QA: Playwright 17/17 (flip removal, ratio, hierarchy order, overlay open/close/Escape, story+sources+stats+art in overlay, relic ratio, 380px no-overflow, name 17.9px, zero console errors); vision QA grid/hand/detail clean after fixes. Gates green.
+- Workers: OpenCode deepseek-v4.1-flash-free (v2-phase4-cards, v2-phase4-hero-crop-fix, v2-phase4-footer-clamp).
+
 ## Phase 3 (v2) — Hero banners + home carousel — 2026-10-17
 - New `HeroBanner` component: full-bleed banner, gradient scrim (AA text), unique per-page CSS/SVG interim backdrop (culture accent + pantheon icon), 24 banner art slots defined (`public/banners/*.png`, 21:9 2016×864) documented in ART_STYLES.md §9 + 24 new prompt entries under `banners` key in data/art-prompts.json.
 - Applied to all 14 main pages (6 cultures, Relics, Cards, Play, Graph, Stories, Compare, About, Home); exactly one h1 per page (sr-only h1 on home where carousel carries the title).

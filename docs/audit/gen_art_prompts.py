@@ -99,7 +99,7 @@ def entity_prompt(e):
     if parts:
         body += " " + "; ".join(x.strip('. ') for x in parts) + "."
     body += f" Setting: {setting}, atmospheric depth. Mood: {mood}."
-    body += f" Composition: single centered figure, waist-up to full-body, eye-level camera, generous headroom, card-safe margins (no limbs at frame edge). Art style: {style}. Aspect ratio 5:7 portrait (1024x1440)."
+    body += f" Composition: single centered figure, waist-up to full-body, eye-level camera, generous headroom, card-safe margins (no limbs at frame edge); full figure or head-and-shoulders with relic, safe margins ≥8% top/bottom, subject never touches the frame edges. Art style: {style}. Aspect ratio 5:7 portrait (1024x1440)."
     return body
 
 def artifact_prompt(a, owner_name):
@@ -113,7 +113,7 @@ def artifact_prompt(a, owner_name):
     origin = clip(a.get("origin_story") or a.get("creation_story") or "", 180)
     p = (f"{name}, the {cat} of {a['culture'].title()} myth{made}: {app.rstrip('.')} "
          f"{own.strip()}. Origin: {origin.rstrip('.')} "
-         f"Composition: the relic as hero object, three-quarter view, dramatic single-source light, faint aura of its element, card-safe margins. "
+         f"Composition: the relic as hero object, three-quarter view, dramatic single-source light, faint aura of its element, card-safe margins; safe margins ≥8% top/bottom, subject never touches the frame edges. "
          f"Art style: {style}. Aspect ratio 5:7 portrait (1024x1440).")
     return p
 

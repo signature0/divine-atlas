@@ -54,10 +54,10 @@ export default function CardsPage() {
         <div className="container">
           <span className="eyebrow">How to read a card</span>
           <div className="deck-legend">
-            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--gold)' }} /><b>Element sigil + type line.</b> The god&apos;s element (light, storm, water…) and class. The sigil is a hand-drawn mark, not a photo.</div>
-            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--accent-2)' }} /><b>Essence cost.</b> The number in the header corner — how much to summon them (interpretive, scaled to their heft).</div>
-            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--accent)' }} /><b>PWR / GRD pips.</b> Power and Guard, 1–12, seeded from the god&apos;s profile so they are stable and reproducible.</div>
-            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--ink-2)' }} /><b>Flavor + [S#].</b> The short profile, with the same source citations as the rest of the Atlas. The reverse is a collectible plate.</div>
+            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--gold)' }} /><b>Art + element sigil + type line.</b> The god&apos;s portrait, element (light, storm, water…) and class. The sigil is a hand-drawn mark, not a photo.</div>
+            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--accent-2)' }} /><b>Culture badge + essence cost.</b> The pantheon chip, and the number in the header corner — how much to summon them (interpretive, scaled to their heft).</div>
+            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--accent)' }} /><b>PWR / GRD.</b> Power and Guard, 1–12, seeded from the god&apos;s profile so they are stable and reproducible.</div>
+            <div className="deck-legend-item"><span className="deck-legend-swatch" style={{ background: 'var(--ink-2)' }} /><b>Flavor + [S#].</b> The short profile, with the same source citations as the rest of the Atlas. Tap a card to open its full profile, relics and print sheet.</div>
           </div>
         </div>
       </section>

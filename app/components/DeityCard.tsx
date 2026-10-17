@@ -1,15 +1,25 @@
 'use client';
-// Presentational Deity Card face (ADR-004).
+// Presentational Deity Card face (ADR-004; hierarchy reworked v2 Phase 4).
+//
 // Client component (the footer "print ↗" Link carries an onClick to stop
 // propagation). Takes only serializable data and uses no server-only features, so
-// it renders on both server and client — reused by the gallery flip, the
-// deity-profile callout, and the print run. The 2.5:3.5 trading-card ratio and
-// print metrics live in globals.css; element colors are inline (--tc-el /
-// --tc-culture) so a card keeps its identity on any background.
+// it renders on both server and client — reused by the deck tile, the deck list,
+// the homepage teaser, the deity-profile print run, and the rulebook anatomy.
+//
+// Front-face hierarchy (phone-first, D2): art (dominant, 5:7) → name + native →
+// culture badge + type → one-line summary → PWR/GRD → tidy footer. Everything
+// else (rarity, set code, source refs) is a small footer strip; the full story,
+// family, domains, symbols, relics and sources live in CardDetailOverlay.
+//
+// The former rear "collectible plate" is only rendered for the print sheet via
+// `showBack` — there is no flip affordance. `interactive={false}` suppresses the
+// inner print link so the face can be embedded inside an outer anchor (the
+// homepage teaser) without producing `<a>` inside `<a>` (hydration error #418).
 import { useEffect, useRef, useState } from 'react';
 import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { ResolvedCard } from '../lib/data';
-import { CULTURE_ACCENTS, CULTURE_TEXT_COLORS } from '../lib/types';
+import { CULTURE_ACCENTS, CULTURE_NAMES, CULTURE_TEXT_COLORS } from '../lib/types';
+import { cultureIcons } from './icons';
 import Link from 'next/link';
 
 // Letter-seal fallback for a missing/broken artwork — the same pattern
@@ -63,28 +73,28 @@ function Sigil({ el, color, size = 20 }: { el: string; color: string; size?: num
   return <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">{inner}</svg>;
 }
 
-function Pips({ n, color, max = 12, size = 9 }: { n: number; color: string; max?: number; size?: number }) {
-  return (
-    <span className="tc-pips" role="img" aria-label={`${n} of ${max}`}>
-      {Array.from({ length: max }).map((_, i) => (
-        <span key={i} className="tc-pip" style={i < n ? { background: color, borderColor: color } : { borderColor: 'var(--line)' }} />
-      ))}
-    </span>
-  );
-}
-
-export function DeityCard({ card, showBack = false, size = 'md', asHeading = false }: { card: ResolvedCard; showBack?: boolean; size?: 'sm' | 'md' | 'lg'; asHeading?: boolean }) {
+export function DeityCard({ card, showBack = false, size = 'md', asHeading = false, interactive = true }: {
+  card: ResolvedCard;
+  showBack?: boolean;
+  size?: 'sm' | 'md' | 'lg';
+  asHeading?: boolean;
+  interactive?: boolean;
+}) {
   const el = ELEMENT_COLORS[card.element];
   const elText = ELEMENT_TEXT_COLORS[card.element];
   const cultureAccent = CULTURE_ACCENTS[card.culture] || '#c8a24a';
   const cultureText = CULTURE_TEXT_COLORS[card.culture] || cultureAccent;
   const isMythic = card.rarity === 'mythic';
+  const CultureIcon = cultureIcons[card.culture];
+  const refs = card.source_refs.map((r) => `[${r}]`).join(' ');
 
   return (
     <div className={`tc tc-${size} tc-el-${card.element}`} style={{ '--tc-el': el, '--tc-el-text': elText, '--tc-culture': cultureAccent } as React.CSSProperties}>
       {isMythic && <div className="tc-mythic-ring" aria-hidden="true" />}
 
       {showBack ? (
+        // Print-sheet reverse plate (also reachable as the print card back). The
+        // detailed legend content lives on the overlay, not here.
         <div className="tc-back">
           <div className="tc-back-rim" aria-hidden="true" />
           <div className="tc-back-sigil"><Sigil el={card.element} color={el} size={64} /></div>
@@ -94,7 +104,13 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
         </div>
       ) : (
         <div className="tc-face">
-          {/* header */}
+          {/* 1 · art — dominant, locked to the 5:7 art contract (D3) */}
+          <div className="tc-art">
+            <DeityArt card={card} />
+            <div className="tc-art-credit" aria-hidden="true">{card.image_credit || 'archival reconstruction'}</div>
+          </div>
+
+          {/* 2 · name + native name */}
           <div className="tc-header">
             <div className="tc-title">
               {asHeading
@@ -106,38 +122,45 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
               {card.stats.essence}
             </div>
           </div>
-          <div className="tc-typeline">
-            <Sigil el={card.element} color={el} size={15} />
-            <span>{card.type_line}</span>
+
+          {/* 3 · culture badge + type */}
+          <div className="tc-meta">
+            <span className="tc-culture-badge" style={{ color: cultureText, borderColor: `color-mix(in srgb, ${cultureAccent} 55%, var(--line))` }}>
+              {CultureIcon && <CultureIcon width={13} height={13} />}
+              {CULTURE_NAMES[card.culture] || card.culture}
+            </span>
+            <span className="tc-typeline">
+              <Sigil el={card.element} color={el} size={14} />
+              <span>{card.type_line}</span>
+            </span>
           </div>
 
-          {/* artwork window */}
-          <div className="tc-art">
-            <DeityArt card={card} />
-            <div className="tc-art-credit" aria-hidden="true">{card.image_credit || 'archival reconstruction'}</div>
-          </div>
-
-          {/* stats band */}
-          <div className="tc-stats">
-            <div className="tc-stat"><span className="tc-stat-label">PWR</span><span className="tc-stat-val">{card.stats.power}</span><Pips n={card.stats.power} color={el} /></div>
-            <div className="tc-stat-mid">
-              <span className="tc-rarity">{RARITY_LABELS[card.rarity]}</span>
-            </div>
-            <div className="tc-stat"><span className="tc-stat-label">GRD</span><span className="tc-stat-val">{card.stats.guard}</span><Pips n={card.stats.guard} color={el} /></div>
-          </div>
-
-          {/* flavor */}
+          {/* 4 · one-line summary (description_short, clamped to 2 lines) */}
           <div className="tc-flavor">
             <span className="tc-flavor-text">{card.flavor}</span>
-            <span className="tc-refs mono">{card.source_refs.length ? card.source_refs.map((r) => `[${r}]`).join(' ') : ''}</span>
           </div>
 
-          {/* footer */}
+          {/* 5 · key stats — PWR / GRD only */}
+          <div className="tc-stats">
+            <div className="tc-stat">
+              <span className="tc-stat-label">PWR</span>
+              <span className="tc-stat-val">{card.stats.power}</span>
+            </div>
+            <div className="tc-stat tc-stat-right">
+              <span className="tc-stat-label">GRD</span>
+              <span className="tc-stat-val">{card.stats.guard}</span>
+            </div>
+          </div>
+
+          {/* 6 · tidy footer strip */}
           <div className="tc-footer">
-            <span className="tc-culture" style={{ color: cultureText }}>{card.culture}</span>
+            <span className="tc-rarity">{RARITY_LABELS[card.rarity]}</span>
             <span className="tc-code mono">{card.set_code}</span>
-            <Link href={`/cards/${card.id}`} className="tc-print" aria-label={`Open ${card.name} print sheet`}
-              onClick={(e) => e.stopPropagation()}>print ↗</Link>
+            {refs && <span className="tc-refs mono">{refs}</span>}
+            {interactive && (
+              <Link href={`/cards/${card.id}`} className="tc-print" aria-label={`Open ${card.name} print sheet`}
+                onClick={(e) => e.stopPropagation()}>print ↗</Link>
+            )}
           </div>
         </div>
       )}

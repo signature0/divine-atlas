@@ -5,7 +5,7 @@
 // detail overlay with client-side URL state (?card=), and a debounced search.
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ResolvedCard } from '../lib/data';
-import { FlippableCard } from './FlippableCard';
+import { CardTile } from './CardTile';
 import { DeityCard } from './DeityCard';
 import { CardDetailOverlay } from './CardDetailOverlay';
 import { ELEMENT_LABELS, ELEMENT_COLORS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
@@ -214,7 +214,7 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
       {layout === 'grid' && (
         <div className="deck-grid">
           {visible.map((c) => (
-            <FlippableCard key={c.id} card={c} onOpen={openCard} />
+            <CardTile key={c.id} card={c} onOpen={openCard} />
           ))}
         </div>
       )}
@@ -234,7 +234,7 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
                 onClick={() => openCard(c.id)}
                 onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openCard(c.id); } }}
               >
-                <div className="deck-row-card"><DeityCard card={c} size="sm" /></div>
+                <div className="deck-row-card"><DeityCard card={c} size="sm" interactive={false} /></div>
                 <div className="deck-row-body">
                   <div className="deck-row-name">{c.name}</div>
                   <div className="deck-row-type mono">{c.type_line}</div>
@@ -268,7 +268,7 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
                   onFocus={() => setHandHover(i)}
                   onBlur={() => setHandHover((h) => (h === i ? null : h))}
                 >
-                  <FlippableCard card={c} onOpen={openCard} />
+                  <CardTile card={c} onOpen={openCard} />
                 </div>
               );
             })}
