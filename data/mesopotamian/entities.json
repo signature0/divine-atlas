@@ -558,7 +558,7 @@
       "mes-art-file-ea-babilonian-enki-sumerian"
     ],
     "description_short": "The freshwater god of wisdom, magic, and the 'me' (the divine decrees); his great temple was at Eridu (the oldest city in Sumerian tradition). In the Atrahasis and the Gilgamesh flood-story, he saves the flood-hero against Enlil's will.",
-    "description_long": "'Enki' (Sumerian; 'Ea' in Akkadian) is the freshwater god of wisdom, magic, and the 'me' (the divine decrees) [S5][S6]. His great temple was at Eridu (the 'Aabzu' — the 'house of the deep'), the oldest city in Sumerian tradition [S5][S6]. Enki is the god of wisdom, magic, and the 'me' — the divine decrees that order the world [S5]. He is the 'apku' (the sage), the patron of the scribes and the craftsmen [S5]. In the Atrahasis and the Gilgamesh flood-story, Enki (Ea) saves the flood-hero (Atrahasis/Utnapishtim) against Enlil's will, by whispering to the hero to build a boat [S2][S3]. Enki is the father of Nabu (the god of writing) [S5]. Enki's 'slanding' of Apsu (in the Atrahasis) is the creation-of-humanity story [S3].",
+    "description_long": "'Enki' (Sumerian; 'Ea' in Akkadian) is the freshwater god of wisdom, magic, and the 'me' (the divine decrees) [S5][S6]. His great temple was at Eridu (the 'Aabzu' — the 'house of the deep'), the oldest city in Sumerian tradition [S5][S6]. Enki is the god of wisdom, magic, and the 'me' — the divine decrees that order the world [S5]. He is the 'apku' (the sage), the patron of the scribes and the craftsmen [S5]. In the Atrahasis and the Gilgamesh flood-story, Enki (Ea) saves the flood-hero (Atrahasis/Utnapishtim) against Enlil's will, by whispering to the hero to build a boat [S2][S3]. Enki is the father of Marduk, the Babylonian king of the gods, and so ancestor of Marduk's son, the scribe-god Nabu [S5]. In the Enuma Elish, Enki (Ea) overthrows Apsu, the primeval freshwater, and his son Marduk shapes the world and humankind from the slain [S1].",
     "interesting_facts": [
       "The freshwater god of wisdom, magic, and the 'me' [S5].",
       "His great temple was at Eridu (the 'Aabzu') [S5][S6].",
@@ -953,7 +953,7 @@
       "mes-art-ereshkigal-burney"
     ],
     "description_short": "The queen of the underworld, the 'dark' goddess of the dead; Inanna's sister (in some accounts) or adversary. In the 'Descent' myth, Inanna attends her funeral (or is her guest) and is killed there.",
-    "description_long": "'Ereshkigal' is the queen of the underworld, the 'dark' goddess of the dead [S4][S5]. She is the lord of the 'irigal' (the underworld) [S5]. In the 'Inanna's Descent' myth, Inanna descends to the underworld to attend Ereshkigal's funeral (or is her guest), and is killed there [S4][S5]. Ereshkigal is Inanna's sister (in some accounts) or her adversary [S4][S5]. Ereshkigal's consort is Nergal (the underworld-god, in some accounts) [S5]. Ereshkigal is the 'dark' counterpart of Inanna (the 'light' goddess) [S4][S5].",
+    "description_long": "'Ereshkigal' is the queen of the underworld, the 'dark' goddess of the dead [S4][S5]. She is the lord of the 'irigal' (the underworld) [S5]. In 'Inanna's Descent,' Inanna travels down to the underworld and is judged by Ereshkigal and the Anunnaki, struck down and hung on a hook before her restoration [S4][S5]. Ereshkigal is Inanna's sister (in some accounts) or her adversary [S4][S5]. Ereshkigal's consort is Nergal (the underworld-god, in some accounts) [S5]. Ereshkigal is the 'dark' counterpart of Inanna (the 'light' goddess) [S4][S5].",
     "interesting_facts": [
       "The queen of the underworld, the 'dark' goddess of the dead [S4][S5].",
       "Inanna's sister (in some accounts) or adversary [S4][S5].",
@@ -1265,8 +1265,8 @@
       "mes-art-file-goddess-bau-from-ur-c-1800-bce-iraq-museum",
       "mes-art-file-plaque-of-nanna-and-ningal-moon-god-and-god-2"
     ],
-    "description_short": "The consort of Nanna (the moon god); the 'light' of the moon.",
-    "description_long": "'Ningal' is the consort of Nanna (the moon god) [S5]. She is the 'light' of the moon [S5]. Ningal is less well-attested as a distinct deity than Nanna; she is the 'consort of the moon' [S5].",
+    "description_short": "Ningal, wife of the moon-god Nanna and mother of Utu (the sun) and Inanna (the morning star) — the moon's bright consort at Ur.",
+    "description_long": "Ningal is the consort of Nanna, the moon god, and the mother of Utu (Shamash), the sun, and Inanna (Ishtar), the morning star [S5]. Her name means 'Great Lady,' and she shared the great temple of Ur with Nanna, invoked alongside him in the city's hymns and laments [S5]. Ningal is less fully developed than her children in the surviving texts, but her cult at Ur was long-lived [S5].",
     "interesting_facts": [
       "The consort of Nanna (the moon god) [S5]."
     ],
@@ -1319,8 +1319,8 @@
     "artworks": [
       "mes-art-file-colossal-statue-of-the-god-nabu-8th-century"
     ],
-    "description_short": "The god of writing and wisdom, the patron of the scribes; son of Enki (Ea).",
-    "description_long": "'Nabu' is the god of writing and wisdom, the patron of the scribes [S5]. He is the son of Enki (Ea) [S5]. Nabu is the 'sage' (the 'apku') and the patron of the scribal arts [S5]. His great temple was at Nippur (the 'Ezida') [S5].",
+    "description_short": "God of writing, wisdom, and the scribal arts; son of Marduk, and heir to the written authority of Babylon's king of the gods.",
+    "description_long": "'Nabu' is the god of writing, wisdom, and the scribal arts, the patron of the scribes [S5]. He is the son of Marduk, the Babylonian king of the gods, and serves as his vizier, holding the written authority of the Tablet of Destinies [S5]. His great temple, the Ezida, stood at Borsippa, and his art of writing served the ordering of the world and the recording of fate [S5].",
     "interesting_facts": [
       "The god of writing and wisdom [S5].",
       "Son of Enki (Ea) [S5].",

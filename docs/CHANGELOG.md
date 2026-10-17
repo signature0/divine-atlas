@@ -1,5 +1,11 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 1 (v2) — Content audit report + description rewrites + stat balance — 2026-10-17
+- Authored `docs/AUDIT_REPORT.md` (484 lines): method, full F/G/S/X corrections table (before/after/why), missing content, weak-description record, per-culture PWR/GRD balance review.
+- 37 field edits across 25 entities + 1 artifact: 21 summary/story rewrites (card summary line + detail story), 16 factual-accuracy prose patches (incl. stale prose repeating corrected errors: jpn-toyotama, mes-nabu, mes-enki, slv-svarog, slv-veles, egy-ogdoad-khnum, egy-horus-elder, nor-uthra, nor-heimdall). All 4 length-flagged records fixed (gre-let-o, nor-jarnsaxa, nor-modi, egy-ogdoad-sat).
+- Stats: gre-maia deity→minor deity; nor-sid giant→creature; gre-hades-helmet power 11→9 (TRANSFORMATION 9→6). Report notes PWR/GRD are hash-derived in card.ts and recommends a future stats-override lever.
+- Gates: tsc + build + validate green (orchestrator re-ran independently). Worker: OpenCode deepseek-v4.1-flash-free.
+
 Format: newest first. Every content correction lists what was wrong → what it is now → why (source).
 
 ## 2026-10-17 — Setup

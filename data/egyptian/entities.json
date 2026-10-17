@@ -821,7 +821,7 @@
       "egy-art-horus-double-crown"
     ],
     "description_short": "The falcon god of the sky and of kingship; son of Osiris and Isis; he avenges his father by defeating Set. The living pharaoh is Horus; the dead pharaoh becomes Osiris.",
-    "description_long": "Horus is the falcon god of the sky and of kingship [S4]. In the Osiris cycle, he is the son of Osiris and Isis, born after Osiris's murder, and his life's task is to avenge his father by defeating Set and reclaiming the throne [S3][S4]. The great myth of Horus vs. Set is a long, episodic struggle (preserved in the 'Contendings of Horus and Set') in which the two cousins fight for the throne of Egypt, judged by the Ennead [S4]. Horus wins, and becomes the king of the unified Egypt [S4]. The living pharaoh is identified with Horus (Horus 'so-and-so' is the pharaoh's name); the dead pharaoh becomes Osiris [S4]. There is also an 'elder' Horus (Harsomatus / the son of the first Horus) in some genealogies [S4]. The 'Eye of Horus' (the wedjat) is the broken-and-restored eye that Horus lost to Set and regained — a symbol of healing and protection [S4].",
+    "description_long": "Horus is the falcon god of the sky and of kingship [S4]. In the Osiris cycle, he is the son of Osiris and Isis, born after Osiris's murder, and his life's task is to avenge his father by defeating Set and reclaiming the throne [S3][S4]. The great myth of Horus vs. Set is a long, episodic struggle (preserved in the 'Contendings of Horus and Set') in which the two cousins fight for the throne of Egypt, judged by the Ennead [S4]. Horus wins, and becomes the king of the unified Egypt [S4]. The living pharaoh is identified with Horus (Horus 'so-and-so' is the pharaoh's name); the dead pharaoh becomes Osiris [S4]. At Edfu, an 'elder' Horus (Harsomtus) appears as a form or offspring of the falcon god rather than as a separate father-figure [S4]. The 'Eye of Horus' (the wedjat) is the broken-and-restored eye that Horus lost to Set and regained — a symbol of healing and protection [S4].",
     "interesting_facts": [
       "Falcon god of the sky and kingship [S4].",
       "Son of Osiris and Isis; avenges his father against Set [S3][S4].",
@@ -1773,8 +1773,8 @@
       }
     ],
     "artworks": [],
-    "description_short": "In the Hermopolitan Ogdoad, Khenunu and Khenunit represent primordial mystery (the hidden, the secret).",
-    "description_long": "Khenunu and Khenunit are the third pair of the Hermopolitan Ogdoad, representing primordial mystery — the hidden, the secret, the unknown [S4]. (Not to be confused with Khnum, the ram-headed creator-god of the Nile cataracts, who is a separate, later deity [S4].)",
+    "description_short": "In the Hermopolitan Ogdoad, Kek and Kauket are the pair of primordial darkness — the male frog and female serpent of the unknowable night.",
+    "description_long": "Kek and Kauket are the third pair of the Hermopolitan Ogdoad, the eight primeval deities of Hermopolis, representing primordial darkness — the hidden, the unknowable night before light [S4]. Kek is shown as a frog and Kauket as a serpent, following the Ogdoad's paired male–female form [S4]. (Not to be confused with Khnum, the ram-headed potter-god of the First Cataract, a separate deity.)",
     "interesting_facts": [
       "The third pair of the Hermopolitan Ogdoad [S4]."
     ],
@@ -1823,8 +1823,8 @@
       }
     ],
     "artworks": [],
-    "description_short": "In the Hermopolitan Ogdoad, Sat and Satet represent primordial duration (the enduring, the lasting).",
-    "description_long": "Sat and Satet are the fourth pair of the Hermopolitan Ogdoad, representing primordial duration — the enduring, the lasting, the stable [S4].",
+    "description_short": "In the Hermopolitan Ogdoad, Amun and Amaunet are the pair of primordial hiddenness — the unseen 'hidden one' and his female counterpart.",
+    "description_long": "Amun and Amaunet are the fourth pair of the Hermopolitan Ogdoad, representing primordial hiddenness — the hidden, the secret, the invisible power that precedes the visible world [S4]. Amun is shown as a frog and Amaunet as a serpent in the Ogdoad's paired male–female form [S4]. This Ogdoad-Amun is the principle of hiddenness, distinct from the later Theban king-god Amun (see egy-amun), who took the name and rose to supremacy in the Middle and New Kingdoms [S4].",
     "interesting_facts": [
       "The fourth pair of the Hermopolitan Ogdoad [S4]."
     ],
@@ -1875,8 +1875,8 @@
     "artworks": [
       "egy-art-file-haroeris-horus-the-greater-36320554561"
     ],
-    "description_short": "In some genealogies, an 'elder' Horus (Harsomatus) is the father of the younger Horus (son of Osiris).",
-    "description_long": "In some Egyptian genealogies (especially the later 'syncrisis' that tried to merge the different traditions), there is an 'elder' Horus (Harsomatus, 'Horus of the South') who is the son of the original sky-falcon Horus and the father of the younger Horus (the son of Osiris and Isis) [S4]. This is one of the genuine complications in Egyptian genealogy: the sources do not consistently distinguish the 'sky-falcon' Horus from the 'son of Osiris' Horus [S4].",
+    "description_short": "Horus the Elder (Harsomtus) of Edfu, born in the sun-bark's nest — a form or offspring of Horus, not the father of the younger Horus.",
+    "description_long": "Horus the Elder (Harsomtus, 'Horus who unites the Two Lands') is a form of Horus worshipped at Edfu, born as a child from the sun-bark's nest in the Edfu cosmogony [S4]. Egyptian tradition does not always distinguish the sky-falcon Horus, the son of Osiris, and this elder form; the 'elder Horus' is best understood as a manifestation or offspring of the falcon god rather than as a separate father-god [S4]. The accounts that seem to make him a father reflect the later attempt to harmonize the different local Horuses [S4].",
     "interesting_facts": [
       "The 'elder' Horus in some genealogies [S4]."
     ],

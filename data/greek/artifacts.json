@@ -306,8 +306,8 @@
     "power_profile": [
       {
         "attribute": "TRANSFORMATION",
-        "value": 9,
-        "explanation": "It renders the wearer invisible — the power of the underworld made wearable."
+        "value": 6,
+        "explanation": "Invisibility is a stealth and utility power (transformation into the unseen), not raw offensive might; scored so that a legendary helmet does not outrank divine-tier weapons in the card's interpretive PWR."
       },
       {
         "attribute": "MOBILITY",

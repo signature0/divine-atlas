@@ -867,7 +867,7 @@
       "nor-art-baldr-cramer"
     ],
     "description_short": "The brightest and most beloved of the gods, associated with light and purity; his murder by Loki (via the mistletoe) is the great tragedy of Norse myth.",
-    "description_long": "Baldr is the brightest, fairest, and most beloved of the gods, associated with light and (in some accounts) with the sun [S1][S2]. He and his wife Nanna live in the hall of Breidablik [S2]. His death is the great tragedy of Norse myth: his mother Frigg, warned of his fate, extracted oaths from all things not to harm him — except the mistletoe, which she overlooked; Loki, disguised as an old woman, learned of this and guided Baldr's blind brother Höðr to throw a mistletoe dart at him, killing him [S2]. Baldr's death is the beginning of the end: it is the act that sets the chain of events leading to Ragnarök in motion [S1][S2]. His son is Fosite (Forsétir), god of peace and reconciliation [S2].",
+    "description_long": "Baldr is the brightest, fairest, and most beloved of the gods, associated with light and (in some accounts) with the sun [S1][S2]. He and his wife Nanna live in the hall of Breidablik [S2]. His death is the great tragedy of Norse myth: his mother Frigg, warned of his fate, extracted oaths from all things not to harm him — except the mistletoe, which she overlooked; Loki, disguised as an old woman, learned of this and guided Baldr's blind brother Höðr to throw a mistletoe dart at him, killing him [S2]. Baldr's death is the beginning of the end: it is the act that sets the chain of events leading to Ragnarök in motion [S1][S2]. His son is Forseti, god of peace and reconciliation [S2].",
     "interesting_facts": [
       "The brightest and most beloved of the gods [S2].",
       "Killed by a mistletoe dart, thrown by his blind brother Höðr at Loki's instigation [S2].",
@@ -1238,7 +1238,7 @@
       "nor-art-freyja-penrose"
     ],
     "description_short": "Goddess of love, beauty, fertility, war, and magic (seiðr), of the Vanir; she receives half of the slain in her hall Fólkvangr.",
-    "description_long": "Freyja is a goddess of the Vanir, associated with love, beauty, fertility, war, and the magic of seiðr [S2]. She is the sister of Freyr and the owner of the necklace Brísingamen [S2]. She is a war-goddess: she chooses half of the slain for her hall Fólkvangr (the other half going to Odin's Valhalla) [S2]. She is also a goddess of seiðr (a form of Norse magic), which was associated with both power and taboo [S2]. Freyrja is a complex, powerful female deity who straddles the domains of love and war [S2].",
+    "description_long": "Freyja is a goddess of the Vanir, associated with love, beauty, fertility, war, and the magic of seiðr [S2]. She is the sister of Freyr and the owner of the necklace Brísingamen [S2]. She is a war-goddess: she chooses half of the slain for her hall Fólkvangr (the other half going to Odin's Valhalla) [S2]. She is also a goddess of seiðr (a form of Norse magic), which was associated with both power and taboo [S2]. Freyja is a complex, powerful female deity who straddles the domains of love and war [S2].",
     "interesting_facts": [
       "Of the Vanir; sister of Freyr [S2].",
       "Receives half of the slain in her hall Fólkvangr [S2].",
@@ -1375,7 +1375,7 @@
       "nor-art-file-heimdall-wooden-statue"
     ],
     "description_short": "The watchman of the gods, who guards the Bifrost and will sound the horn Gjallarhorn at Ragnarök; he and Loki will kill each other.",
-    "description_long": "Heimdall is the watchman of the gods, the one who guards the Bifrost (the rainbow bridge to Asgard) and who can see and hear across the whole world [S2]. He is the god of the light and the dawn, and he will sound the horn Gjallarhorn to wake the gods at Ragnarök [S1][S2]. At the final battle, Heimdall and Loki will fight and kill each other [S1][S2]. His parentage is a genuine variant: in one account he is the son of Odin and of a giantess named Angrboða (which is odd, because Angrboða is elsewhere Loki's wife); in another he has nine mothers [S2].",
+    "description_long": "Heimdall is the watchman of the gods, the one who guards the Bifrost (the rainbow bridge to Asgard) and who can see and hear across the whole world [S2]. He is the god of the light and the dawn, and he will sound the horn Gjallarhorn to wake the gods at Ragnarök [S1][S2]. At the final battle, Heimdall and Loki will fight and kill each other [S1][S2]. His parentage is a genuine variant: Gylfaginning says he was born of nine mothers, nine sisters (the nine waves at the world's edge), while a skaldic kenning hints instead at Odin as father — the two traditions are not reconciled [S2][S3].",
     "interesting_facts": [
       "Watchman of the gods; guards the Bifrost [S2].",
       "Will sound the horn Gjallarhorn at Ragnarök [S1][S2].",
@@ -1590,7 +1590,7 @@
       "nor-art-fenrir-hardy"
     ],
     "description_short": "The great wolf, son of Loki, whom the gods bound with the magic ribbon Gleipnir; he will kill Odin at Ragnarök.",
-    "description_long": "Fenrir is the great wolf, son of Loki and the giantess Angerboa (Angrboða) [S2]. As a pup he was raised in Asgard, but the gods grew afraid of his strength and tried to bind him. The first two bindings (Leadbond and Dromi) he broke, but the third — a magic ribbon made of six impossible things (Gleipnir) — held, because only Týr placed his hand in the wolf's mouth as a pledge; when the binding held, Fenrir bit off his hand [S2]. Fenrir will break free at Ragnarök and grow so large that his jaw touches the earth and his mouth the sky; he will swallow the sun and kill Odin, who will be avenged by his son Víðarr [S1][S2].",
+    "description_long": "Fenrir is the great wolf, son of Loki and the giantess Angrboða [S2]. As a pup he was raised in Asgard, but the gods grew afraid of his strength and tried to bind him. The first two bindings (Leadbond and Dromi) he broke, but the third — a magic ribbon made of six impossible things (Gleipnir) — held, because only Týr placed his hand in the wolf's mouth as a pledge; when the binding held, Fenrir bit off his hand [S2]. Fenrir will break free at Ragnarök and grow so large that his jaw touches the earth and his mouth the sky; he will swallow the sun and kill Odin, who will be avenged by his son Víðarr [S1][S2].",
     "interesting_facts": [
       "Son of Loki and the giantess Angerboa [S2].",
       "Bound with the magic ribbon Gleipnir; bit off Týr's hand [S2].",
@@ -1859,7 +1859,7 @@
     ],
     "artworks": [],
     "description_short": "The giantess who, with Loki, mothered the great monsters: Fenrir, Jörmungandr, and Hel.",
-    "description_long": "Angerboa (Angrboða) is a giantess who, in partnership with Loki, mothered the great monsters of the end of the world: the wolf Fenrir, the world-serpent Jörmungandr, and Hel, the ruler of the dead [S2]. She is the 'mother of monsters,' the source of the threats that will destroy the world at Ragnarök [S2].",
+    "description_long": "Angrboða (Angerboda) is a giantess who, in partnership with Loki, mothered the great monsters of the end of the world: the wolf Fenrir, the world-serpent Jörmungandr, and Hel, the ruler of the dead [S2]. She is the 'mother of monsters,' the source of the threats that will destroy the world at Ragnarök [S2].",
     "interesting_facts": [
       "Mother (with Loki) of Fenrir, Jörmungandr, and Hel [S2]."
     ],
@@ -1977,8 +1977,8 @@
     "artworks": [
       "nor-art-file-am-738-4to-39v-bw-ullr"
     ],
-    "description_short": "The archer-god, associated with winter, skiing, and archery; son of Thor.",
-    "description_long": "Ullr is a god of the Æsir, associated with archery, skiing, and the winter [S2]. He is the son of Thor and Sif (in some accounts) [S2]. Ullr is a relatively minor figure, but he is the patron of archery and of the winter sports [S2].",
+    "description_short": "The bow-god of winter, skiing, and archery — son of the goddess Sif, with Thor as his stepfather and patron.",
+    "description_long": "Ullr is a god of the Æsir, associated with archery, skiing, and the winter [S2]. He is the son of Sif; Thor, Sif's husband, is his stepfather rather than his father (Snorri's 'son of Thor' is read in the step-sense) [S2]. Ullr is a relatively minor figure, but he is the patron of archery and of the winter sports [S2].",
     "interesting_facts": [
       "God of archery, skiing, and the winter [S2].",
       "Son of Thor (and Sif, in some accounts) [S2]."
@@ -2030,7 +2030,7 @@
     ],
     "artworks": [],
     "description_short": "The wife of Baldr; when Baldr died, Nanna followed him into grief (in some accounts she dies of sorrow).",
-    "description_long": "Nanna is the wife of Baldr. When Baldr died, Nanna was consumed by grief — in the Prose Edda she sets herself on Baldr's funeral pyre (in other accounts she dies of sorrow) [S2]. She is the mother of Fosite [S2].",
+    "description_long": "Nanna is the wife of Baldr. When Baldr died, Nanna was consumed by grief — in the Prose Edda she sets herself on Baldr's funeral pyre (in other accounts she dies of sorrow) [S2]. She is the mother of Forseti [S2].",
     "interesting_facts": [
       "Wife of Baldr [S2].",
       "Followed Baldr in death (burned on his pyre, in one account) [S2]."
@@ -2081,7 +2081,7 @@
       "nor-art-file-forseti-zu-gericht-sitzend"
     ],
     "description_short": "The son of Baldr, god of peace and reconciliation, who sits in the hall of Glitnir to settle disputes.",
-    "description_long": "Fosite (Forsétir) is the son of Baldr and Nanna, and a god of peace, reconciliation, and justice. He sits in the hall of Glitnir, where he settles all disputes, and his judgments are accepted by all [S2].",
+    "description_long": "Forseti (Old Norse Forseti; Frisian Fosite) is the son of Baldr and Nanna, and a god of peace, reconciliation, and justice. He sits in the hall of Glitnir, where he settles all disputes, and his judgments are accepted by all [S2].",
     "interesting_facts": [
       "Sits in the hall of Glitnir to settle disputes [S2]."
     ],
@@ -2127,8 +2127,8 @@
       }
     ],
     "artworks": [],
-    "description_short": "The son of Thor (and the giantess Járnsaxa), a god of great strength.",
-    "description_long": "Magni is the son of Thor and the giantess Járnsaxa, a god of great strength. He and his brother Móði are the next generation of divine strength, destined to carry on after their father's death at Ragnarök [S2].",
+    "description_short": "Thor's giant-born son, strong enough at three nights old to lift the fallen giant Hrungnir's leg from his father.",
+    "description_long": "Magni is the son of Thor and the giantess Járnsaxa, a god of great strength [S2]. As a newborn he was strong enough to push the dead giant Hrungnir's leg off his trapped father, and for that Thor gave him the horse Gullfaxi [S2]. He and his brother Móði are the next generation of divine strength, and after Thor falls to the world-serpent at Ragnarök they are the ones who inherit the hammer Mjölnir [S1][S2].",
     "interesting_facts": [
       "Son of Thor and the giantess Járnsaxa [S2].",
       "Destined to carry on after Ragnarök [S2]."
@@ -2174,8 +2174,8 @@
       }
     ],
     "artworks": [],
-    "description_short": "The son of Thor (and the giantess Járnsaxa), a god of great strength; brother of Magni.",
-    "description_long": "Móði is the son of Thor and the giantess Járnsaxa, brother of Magni. The two are the next generation of divine strength [S2].",
+    "description_short": "Móði ('Wrath'), Thor's giant-born son and Magni's brother — with Magni he inherits the hammer Mjölnir after Ragnarök.",
+    "description_long": "Móði ('Wrath') is the son of Thor and the giantess Járnsaxa, and the brother of Magni [S2]. The two embody the strength that outlasts their father: after Thor falls to the world-serpent at Ragnarök, Móði and Magni are the ones who inherit the hammer Mjölnir [S1][S2]. Móði is the quieter of the pair, remembered chiefly through his name and his place in the line of divine strength [S2].",
     "interesting_facts": [
       "Son of Thor and the giantess Járnsaxa [S2]."
     ],
@@ -2220,7 +2220,7 @@
       }
     ],
     "artworks": [],
-    "description_short": "The giantess who, with Thor, mothered Magni and Móði.",
+    "description_short": "The giantess Járnsaxa ('Iron-Saxa'), mother of Thor's sons Magni and Móði by the thunder-god.",
     "description_long": "Járnsaxa is a giantess who, in one account, is the mother of Thor's sons Magni and Móði [S2]. (Thor's mother is a separate, also-uncertain figure; Járnsaxa is the mother of his children with him, not his own mother.) [S2]",
     "interesting_facts": [
       "Mother of Magni and Móði [S2]."
@@ -2438,7 +2438,7 @@
     "name": "Svaðilfari",
     "native_name": "Svaðilfari",
     "alternative_names": [],
-    "classification": "giant",
+    "classification": "creature",
     "gender": "male",
     "domains": [
       "the stallion of the frost-giant's builder"
@@ -2469,7 +2469,7 @@
     ],
     "artworks": [],
     "description_short": "The stallion of the unnamed hrímþurs who built the wall of Ásgarðr. Loki, transformed into a mare, lured Svaðilfari away from his work so the builder failed his deadline — and Loki bore Sleipnir as a mare.",
-    "description_long": "Gylfaginning IV–XIII: after the gods hired a giant builder to wall Ásgarðr, his horse Svaðilfari hauled stone at twice the speed of the gods' own carts, and the winter deadline loomed. The gods blamed Loki, who transformed himself into a mare; Svaðilfari ran after her, the builder lost the wager and was killed by Thor — and in that shape Loki bore the eight-legged foal Sleipnir (\"in one account\" the sources are explicit: Loki is Sleipnir's mother).",
+    "description_long": "Gylfaginning: after the gods hired a giant builder to wall Ásgarðr, his horse Svaðilfari hauled stone at twice the speed of the gods' own carts, and the winter deadline loomed. The gods blamed Loki, who transformed himself into a mare; Svaðilfari ran after her, the builder lost the wager and was killed by Thor — and in that shape Loki bore the eight-legged foal Sleipnir (\"in one account\" the sources are explicit: Loki is Sleipnir's mother).",
     "interesting_facts": [
       "Mother of Sleipnir (in one account) [S2]."
     ],
