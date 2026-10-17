@@ -1,0 +1,372 @@
+{
+  "items": [
+    {
+      "id": "gre-chaos",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Chaos",
+      "slot": "public/cards/greek/greek-gre-chaos.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The primordial void made visible: a vast yawning gap in being, neither dark nor light, where the first differentiation begins. From the chasm the faint suggestion of broad Earth, a distant glowing Eros, and drifting veils of Night emerge like figures half-born from emptiness. No anthropomorphic god presides; the absence itself is the subject, an open mouth of space ringed by the first stirring matter, suspended before creation has committed to any shape. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-gaia",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Gaia",
+      "slot": "public/cards/greek/greek-gre-gaia.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Gaia, the broad-breasted Earth herself, rises from a landscape that is her own body, hills the curve of her shoulder, fields of golden corn braided through her dark hair. Serpents, her guardian brood, coil gently at her feet among splitting soil and first green shoots. Her cupped hands hold a tiny spark of creation as she exhales mountains and seas into being, maternal and immense, the founding floor of all things rendered as one serene, generative woman. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-ouranos",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Uranus",
+      "slot": "public/cards/greek/greek-gre-ouranos.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Uranus, the star-crowned Sky, arches his vast body over Gaia as he has done since the world's beginning, pouring night and constellations down across her curves like a veil of black wool strewn with gold. His Titan children, the Titans, Cyclopes, and hundred-handed giants, crowd the horizon between them, the generation he fears and caged. He is all domineering embrace, a heaven lying down upon the earth, his face half lost in his own starfield. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-cronus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Cronus",
+      "slot": "public/cards/greek/greek-gre-cronus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Cronus, Titan king of the golden age, crouches over a marble floor where a newborn's faint glow is vanishing down his throat, his jaws still wet with the horror of the prophecy he cannot escape. In his gaunt hand he rests the grey flint sickle of Gaia, the weapon that made him king, its edge still bright. His eyes roll upward, terrified of every cry from the nurseries of the world, a father eating his own future. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-rhea",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Rhea",
+      "slot": "public/cards/greek/greek-gre-rhea.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Rhea kneels in the shadow of a Cretan cave mouth, pressing a swaddled stone to her breast with one hand while with the other she points a trembling finger down the mountain path where Cronus's shadow looms, waiting for the child that will never come. Her face is calm with a mother's cunning terror. Above the cave, faint and golden, an infant's future lightning flickers in the night sky like a promise she dares not speak. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-zeus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Zeus",
+      "slot": "public/cards/greek/greek-gre-zeus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Zeus on his throne at the summit of Olympus, scepter in hand, the great eagle perched at his shoulder and storm clouds banking below his feet like a conquered kingdom. He lifts a freshly hurled lightning bolt, Cyclopes-forged, its light carving his bearded face into marble planes of wrath and sovereignty. An oak branch crowns his shoulders; below, the world waits for the verdict of the sky, guest-right, oath, and order all balanced on his raised hand. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hera",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hera",
+      "slot": "public/cards/greek/greek-gre-hera.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hera, queen of Olympus, sits in state with her high stephane crown and long scepter, a veil drawn with quiet dignity across her dark hair. At her feet a peacock fans its hundred-eyed train directly across the frame, and a cow with great liquid eyes grazes meekly beside her throne. Her expression is regal, watchful, and faintly wounded, the marriage-goddess who guards every vow in Argos while her own is broken daily by the king beside her. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hades",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hades",
+      "slot": "public/cards/greek/greek-gre-hades.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hades enthroned in a hall that is not fiery but quiet, a palace of polished dark stone and pale gold. In his right hand he holds the great key that locks the gates of the dead, and from his left spills a cornucopia of grain, fruit, and buried silver, the wealth beneath the soil. His bident rests against the throne; his helm of darkness sits beside him like a sleeping shadow. He is stern, just, and utterly unmoved, a landlord of souls. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-poseidon",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Poseidon",
+      "slot": "public/cards/greek/greek-gre-poseidon.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Poseidon strides out of a mountainous wave, trident raised overhead, and the sea stands up on either side of him like walls answering a king. Where his heel strikes the rock, a salt spring bursts upward and a dark horse leaps from the spray, the first of his creation. Bulls' muscles show in his shoulders beneath streaming sea-green hair; the whole frame shakes with the double nature of the god, the storm's fury and the earthquake's groan beneath the floor of the world. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-athena",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Athena",
+      "slot": "public/cards/greek/greek-gre-athena.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Athena bends over a war table of the world, a bronze model of a city glowing at its center beneath her planning finger, spear grounded beside her and the owl on her wrist reading the same map. The aegis with its Gorgoneion gleams at her breast, crested helmet pushed back so her focused grey eyes are visible. She is not fighting; she is thinking three moves ahead, strategy as a kind of architecture, calm as an olive tree in a hurricane of war. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-apollo",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Apollo",
+      "slot": "public/cards/greek/greek-gre-apollo.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Apollo at the Delphi oracle at dawn, bow drawn back toward the coiled Python writhing beneath the omphalos stone, its death-throes already rising as vapors into the cleft rock where the Pythia will sit. His other hand cradles a golden lyre against his hip, laurel fresh in his hair, a swan lifting off the slopes behind him. Prophecy and plague, music and murder, all strung on one bowline of perfect, terrible youth. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-artemis",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Artemis",
+      "slot": "public/cards/greek/greek-gre-artemis.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Artemis at the head of her nymphs in a moonlit Arcadian grove, bow half-drawn, an arrow nocked and aimed past the shoulder of a stag that bolts through silver-barked trees. Her hounds strain at the edges of the clearing, crescent moon bright at her temple, quiver slung across a short hunting chiton. Wild-eyed, feral, and utterly self-possessed, she is the hunt itself given a girl's face, mistress of every untamed thing that will never be caught. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-ares",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Ares",
+      "slot": "public/cards/greek/greek-gre-ares.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Ares in the red middle of a rout, sword whistling down from the over-cracked helmet, blood of the battle misting the bronze of his greaves. Behind him the phalanx breaks like dry grain; vultures already drop from the smoke above, and a boar's head snarls from his shield. His mouth is open in a war-cry that is almost joy, the beautiful, hateful fact of violence made flesh, everything Athena's careful war refuses to be. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-aphrodite",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Aphrodite",
+      "slot": "public/cards/greek/greek-gre-aphrodite.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Aphrodite rising from the sea-foam at Cythera, the moment her feet first touch the shore and the waves fold down to worship her. Myrtle branches bend toward her from the beach; doves and sparrows wheel around her wet hair, and a swan pushes a mirror of still water to her hands so the world's new beauty can meet its own eyes. She is not posing; she is arriving, and everything in the frame leans toward her like grass toward sun. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hermes",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hermes",
+      "slot": "public/cards/greek/greek-gre-hermes.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hermes mid-stride at a crossroads where three roads and three worlds meet, caduceus with its twin serpents raised, winged sandals barely kissing the dust. In the gloom behind one shoulder lie the dim gates of the underworld, where he is the guide of souls; ahead, the bright road of merchants and thieves. He glances back over his winged helm with a trickster's half-smile, already three steps ahead of whoever sent him, a tortoise-shell lyre tucked under one arm. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-dionysus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Dionysus",
+      "slot": "public/cards/greek/greek-gre-dionysus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Dionysus staggering through a Theban night in ecstatic triumph, thyrsus pine-coned and ivy-wreathed thrust at the stars, a panther crouking at his heels. Wine-dark light pours from a krater he balances on one finger, and where his bare feet strike stone, vines spiral up out of the cracks in real time. His face is soft, strange, and doubled with mirth and menace, the god of the vine and of everything that loosens a mind from its own shape. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hephaestus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hephaestus",
+      "slot": "public/cards/greek/greek-gre-hephaestus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hephaestus at his volcanic forge beneath Olympus, hammer arrested at the top of a stroke over a half-formed thunderbolt glowing white on the anvil, tongs clamped on its forked end. Fire from the furnace lacquers his sweat, his working leg braced and withered, sparks rising like a reversed snowfall. Around him hang finished marvels, aegis, armor, a fine golden net, the workshop of the only god whose hands can equal Zeus's lightning, and he does not look up. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-demeter",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Demeter",
+      "slot": "public/cards/greek/greek-gre-demeter.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Demeter standing in a dead, frost-rimed furrow, torch held low in one hand and a single dry wheat sheaf in the other, her face turned skyward in a grief that has stopped the whole agricultural year. Her dark robe hangs unbound and unadorned, the Eleusinian mist curling around her feet, a serpent coiled at the torch's base. The fields behind her are grey and empty, a mother's famine made weather, waiting on a daughter's footsteps. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-persephone",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Persephone",
+      "slot": "public/cards/greek/greek-gre-persephone.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Persephone seated half in spring and half in shadow, one hand lifting a split pomegranate whose six red seeds stain her fingers like a signature she cannot take back. Poppies and lilies open along the hem of her gown, but behind her shoulders the dark arch of the underworld waits, and her crown is already more queen's diadem than flower wreath. Her expression is no longer frightened; it is the calm of a girl who has learned she rules half the year. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hestia",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hestia",
+      "slot": "public/cards/greek/greek-gre-hestia.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hestia kneeling before the round hearth of the first city at evening, feeding a barley-cake and a libation of wine into the flame with both hands, eyes closed in the simplest prayer. The fire is the only light in the frame, warming her veiled face and the plain terracotta walls of a home that could be anywhere in Greece. No myth chases her, no monster, no drama; she is the flame that did not go out, the eldest Olympian who chose to stay home. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-let-o",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Leto",
+      "slot": "public/cards/greek/greek-gre-let-o.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Leto heavy with twins on the last shore of the floating island of Delos, one hand braced on an olive sapling, the other pressed to the sky as the swans circle and cry above the breakwater. Behind her, Hera's storm still chases the horizon over the black sea, but here the island rocks kindly, letting her stand at last. Her face is set in the fierce, exhausted focus of labor about to deliver Apollo and Artemis into a world not yet ready for either. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-metis",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Metis",
+      "slot": "public/cards/greek/greek-gre-metis.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Metis at the moment of counsel, standing at the edge of a still pool in which the whole future moves, Athena's armored birth from a god's skull written there in ripples. Her hand rests knowingly on her swollen belly, her eyes already resigned, already calculating, because she understands the prophecy better than the thunder-god who is coming for her. Around her head drifts a faint shimmer, the cunning wisdom that will outlive her swallowing, the mind that becomes a war-goddess. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-perseus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Perseus",
+      "slot": "public/cards/greek/greek-gre-perseus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Perseus in mid-air above the Gorgon's lair, head turned away, guiding his harpe by the reflection in Athena's mirror-shield as the blade arcs toward Medusa's neck. Hermes' winged sandals beat the dust off the rocks, the kibisis wallet already bulging at his side, and the first white thread of Pegasus is just beginning to rise from the wound he has not yet landed. Every muscle is geometry and nerve, a hero winning not by strength but by looking sideways. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-medusa",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Medusa",
+      "slot": "public/cards/greek/greek-gre-medusa.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Medusa alone at a pool's edge in a ruined temple gone wild, the moment before the mirror-shield: her snake-haired crown stirs and lifts like a waking field of vipers, and where her own gaze has fallen, the grass has gone to grey stone statues of small animals. Her face is tragic, beautiful in the old way, and exhausted, the fatal gift of her eyes lit from within. She knows what is coming; she has been stone inside for years. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-typhon",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Typhon",
+      "slot": "public/cards/greek/greek-gre-typhon.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Typhon rising from Cilician smoke to his full monstrous height, hundred serpent heads hissing and tasting the sky in a crown of venom, one hand already closing on the limp thunder-god's torn sinews. His human torso bristles with fire and wings that blot the sun; below, the gods flee toward Egypt in a scatter of animal shapes. He is Gaia's last terrible child, the one monster who ever made Olympus an empty house, and he is still climbing. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-cerberus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Cerberus",
+      "slot": "public/cards/greek/greek-gre-cerberus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Cerberus at the bronze gates of the underworld, three great hound heads raised in one three-throated bark that parts the grey crowd of shades like wind through reeds. Serpents twist along his haunches and his tail, and the phlegethon's light glints off his wet fangs, but his posture is pure watchdog, not malice: front paws braced across the threshold, refusing the dead their exit and the living their entrance, the last door of the world on four legs. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-heracles",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Heracles",
+      "slot": "public/cards/greek/greek-gre-heracles.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Heracles at the twelfth labor's end, back-bent and roaring with effort as he drags Cerberus up the stair of daylight on unbroken chains of his own grip, the lion's pelt hooded on his head and his olive club wedged under one arm. Not one arrow has been loosed; this labor was won with bare hands. Foam and shadow still drip from the hound, and the hero's human face, beneath all that divine muscle, is already planning how to put it back. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-odysseus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Odysseus",
+      "slot": "public/cards/greek/greek-gre-odysseus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Odysseus in the Cyclops' cave at the fire's last hour, bracing the great olive stake with both palms against his shoulder, head tilted back to shout the word Nobody while his men heave behind him. The giant's shadow fills the cavern roof, blinded and bellowing; the hero's eye holds no triumph, only the arithmetic of survival, twelve men already counted among the cost. His sea-worn cloak is soaked, his grip perfect, wit made a weapon heavier than the beam. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-maia",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Maia",
+      "slot": "public/cards/greek/greek-gre-maia.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Maia in the Kyllene cave at night, turning her face up from the cradle of woven straps where the newborn Hermes has just slipped free, the empty swaddling already cooling in her arms. Through the cave mouth the Pleiades, her sisters, burn low over the grazing mountains her father's line once held. She is not alarmed; she is listening, one hand on the doorframe, hearing a far-off lowing of stolen cattle and understanding, with a mother's slow smile, exactly who her son will be. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-atlas",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Atlas",
+      "slot": "public/cards/greek/greek-gre-atlas.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Atlas at the western edge of the world, knees sunk to stone from ages of labor, the whole star-wheel of heaven pressing down across his shoulders and upturned palms. His spine has begun to turn to the same rock as his legs; veins stand on his neck like rivers on a map, and his eyes, level with the clouds, stare past every horizon at nothing. Above his straining fingers the constellations crawl, and the Pleiades, his daughters, ride the burden he chose for them. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-danae",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Danae",
+      "slot": "public/cards/greek/greek-gre-danae.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Danae in the bronze-floored chamber her father sealed her into, arms raised not in terror but in welcome, palms open to the shaft of molten gold light falling through the roof like rain made of coin. The dark tower's walls crowd the frame; outside, a locked door and a watching king she cannot see. Her face is turned up into the brilliance, hair lifting in a warm wind that smells of Olympus, the moment imprisonment becomes the cradle of a hero. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-semele",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Semele",
+      "slot": "public/cards/greek/greek-gre-semele.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Semele at the center of a Theban palace hall, one hand still reaching toward the empty air where a stranger she loved has just set down his disguise. The last ring of his true glory is still crossing the room like a wheel of white fire, marble columns cracking, her veil and hair beginning to lift into flame. Her expression is not pain but recognition, the terrible privilege of having asked to see a god exactly as he is, and being answered. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-eros",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Eros",
+      "slot": "public/cards/greek/greek-gre-eros.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Eros at the hinge between two myths: as the Theogony knew him, a primordial gleam, the first attraction that made void lean toward void, and as later Greece drew him, a winged boy with a golden bow drawn to his cheek, arrow aimed at whatever the frame leaves just out of sight. Rose petals hang suspended mid-fall around him, and where his arrow's shadow crosses the border of the scene, stone, god, and flower alike quietly begin to want. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-andromeda",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Andromeda",
+      "slot": "public/cards/greek/greek-gre-andromeda.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Andromeda chained to the wet sea-cliff at Joppa, wrists bound with hempen rope, her torn dress dark with spray as Cetus's mountain-black head rears out of the surf beyond her. She is not weeping; her chin is up, eyes narrowed against the salt wind, watching the far sky where a winged shape with a Gorgon's gaze is already diving toward the monster. The whole composition is the held breath between the tide's two roars, sacrifice refusing to kneel. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-echidna",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Echidna",
+      "slot": "public/cards/greek/greek-gre-echidna.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Echidna in her stone cave above the earth's deep places, fair-faced and crowned with soft dark hair from the waist up, and from the waist down a long dappled serpent's length coiled around a nest of impossible hatchlings. One human hand feeds a raw morsel to a pup with too many heads; behind her, eggs split open to reveal a hydra's knot of necks and a chimera's butting goat-head. She watches the viewer with a mother's flat, patient, entirely reasonable menace. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-oceanus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Oceanus",
+      "slot": "public/cards/greek/greek-gre-oceanus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Oceanus at the rim of the world where the great river-ring closes over the horizon, a vast bull-horned titan wading chest-deep in the current that encircles every land, water pouring endlessly from his upturned urn back into the stream. Ships the size of gnats sail the distant oikoumene inside his arc; behind him is only the unpeopled edge of the map. His face is the calm of pure boundary, the eldest Titan who never raised a hand against Olympus and never will. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-tethys",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Tethys",
+      "slot": "public/cards/greek/greek-gre-tethys.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Tethys seated on a throne of flowing water at the world's edge, one breast drawn down to nurse a lapful of infant river-gods that pour from her arms as silver streams onto a model earth at her feet. Behind her the great river Oceanus curves like a living wall, and from her other hand a flight of oceanid nymphs rises as spray. She is the fresh and hidden mother-water, gentle, immense, the nurse of every spring that ever found daylight. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-alcmena",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Alcmena",
+      "slot": "public/cards/greek/greek-gre-alcmena.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Alcmena in the bedchamber of the Theban palace on the long night of Heracles' birth, one hand on her swollen belly, the other pressed to the window where three suns' worth of light is happening at once and the household lamps bow low. Outside, a thunder that never strikes rolls over the Cadmea; inside, she is steady, the mortal wife of a mortal general, quietly deciding to raise whatever Zeus has just planted in her house as if it were merely a boy. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-penelope",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Penelope",
+      "slot": "public/cards/greek/greek-gre-penelope.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Penelope at her loom in the lamplight of the great hall of Ithaca, shuttle mid-pass across Laertes' shroud, while at her feet a small basket holds the night's quiet undoing, the woven rows already unpicked and coiled like a sleeping serpent. Through the colonnade behind her, the torches and laughter of feasting suitors blur into a hostile glow she refuses to turn toward. Her face is calm, thin with twenty years of waiting, and her hands never stop their patient, double-dealing thread. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-telemachus",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Telemachus",
+      "slot": "public/cards/greek/greek-gre-telemachus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Telemachus on the beach of Ithaca at dawn, one fist still raised at the long ship already leaning seaward, his other hand gripping the spear he has just, for the first time, dared to carry into the suitors' hall. Sandaled footprints run behind him from the assembly grounds; gulls wheel over the departing oar-bench where the grey-eyed goddess who was steering him has already vanished. His face is flushed, uncertain, and unmistakably no longer a child's; the journey to Pylos begins at this tideline. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hebe",
+      "kind": "deity",
+      "culture": "greek",
+      "name": "Hebe",
+      "slot": "public/cards/greek/greek-gre-hebe.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. Hebe at the Olympian feast in the full bloom of eternal youth, pouring nectar from a golden oinochoe into a tilted cup with a cup-bearer's unhurried grace, her peplos girded with a fluttering ribbon and her hair bound fresh each immortal morning. Behind her the banquet blurs into gold and laughter; her whole subject is the perfect, unthinking ease of a goddess who has never aged a day and never will, the fountain of youth employed as a servant at her own party. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-zeus-thunderbolt",
+      "kind": "relic",
+      "culture": "greek",
+      "name": "Thunderbolt of Zeus",
+      "slot": "public/cards/greek/greek-gre-zeus-thunderbolt.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The thunderbolt of Zeus at the instant of its making: inside the Cyclopes' forge under a volcano, one vast stone hand lifting the finished bolt from its quenching, and the weapon detonating the cave with captured storm, three-forked lightning branching across the rock walls like white roots. Anvil, tongs, and half-forged sea and helm lie scattered at the giant smith's feet, and the bolt hangs centered, humming, the object that will end the age of Titans and found the order of the sky. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-aegis",
+      "kind": "relic",
+      "culture": "greek",
+      "name": "Aegis",
+      "slot": "public/cards/greek/greek-gre-aegis.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The aegis displayed as if borne into battle unseen, floating at the frame's center: goatskin shag at its hem, snakes bristling alive along its rim, and at its boss the Gorgoneion, Medusa's severed gaze set in bronze, eyes wide and terrible. A storm's weather turns visibly around it, thunderheads and lightning coiling through the fringe as the Iliad told it, while below the shield's shadow, spears and warriors freeze mid-charge, turned to fear itself by a face that is only a face. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hades-helmet",
+      "kind": "relic",
+      "culture": "greek",
+      "name": "Helmet of Hades",
+      "slot": "public/cards/greek/greek-gre-hades-helmet.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The helmet of Hades on the empty stone of its Cyclopean anvil at the world's deep forge, and the horror of it is that the anvil is visible through the helm: a crown of dark bronze that erases whatever wears it, a Corinthian shape edged in black fire, its cheek-guards dissolving into smoke. Above it hangs a single shaft of underworld light in which faint shades drift, unseeing, past the visor, the passage of the dead made wearable, waiting for a hero's borrowed hand. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-poseidon-trident",
+      "kind": "relic",
+      "culture": "greek",
+      "name": "Trident of Poseidon",
+      "slot": "public/cards/greek/greek-gre-poseidon-trident.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The trident of Poseidon struck down into the seabed at the birth of the horse, the moment Hesiod's smiths of the deep set it cooling in a whirlpool's heart. Three prongs of living bronze part the water like a gate; from the struck rock a dark stallion rears upward out of foam and brine, and along the shaft's length the sea climbs in obedient ridges, mountains flexing under the floor, the whole frame one held earthquake about to be allowed to happen. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "gre-hermes-caduceus",
+      "kind": "relic",
+      "culture": "greek",
+      "name": "Caduceus of Hermes",
+      "slot": "public/cards/greek/greek-gre-hermes-caduceus.png",
+      "prompt": "A mythic scene in a painterly classical style: luminous Aegean daylight, warm marble whites, deep olive and terracotta earth, bronze and gold accents, one dramatic mythic moment frozen in time, subtle black-figure pottery motifs woven into the framing, chiaroscuro spotlight on the central figure, rich atmospheric depth. The caduceus planted at the exact border between the living world and the land of the dead, its olive shaft warm and green, two serpents slowly spiraling past each other in endless, reconciled ascent beneath small quivering wings. From its tip a thin thread of waking light touches the brow of a fainting shade, and from its base another thread of sleep trails down toward the gates; Hermes' hand has just left the grip, fingers still shaped around the wood, the mediator's instrument holding two worlds politely apart. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}

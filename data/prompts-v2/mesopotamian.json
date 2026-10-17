@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "id": "mes-apas",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "An (the heavens)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-apas.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. An, the sky himself, enthroned on the highest heaven above a stepped ziggurat whose summit dissolves into stars. His vast male form arches overhead as a lapis night vault pricked with five-pointed stars; a horned golden crown of kingship sits upon his head, and a great aurochs bull kneels in low relief at the base of his throne. He gazes down serenely, hands folded, light pouring from him across the Tigris. Distant, supreme, and calm: the first god, father of Enlil, whose word is the vault of heaven itself. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-ki",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Ki (the earth)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-ki.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Ki, the earth mother, half-risen from the ground as the land itself, her female body a fertile plain of dark alluvial clay from which emmer wheat, date fronds, and marsh reeds sprout along her shoulders. River channels trace veins of lapis blue across her skin; one hand lifts slowly from the soil. Far above her, the vault of heaven recedes, the first parting of sky from earth. Her face is patient and low-lit, the quiet mother of the world, the ground beneath every city wall and irrigation ditch. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-abzu",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Apsu (the primeval freshwater)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-abzu.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Apsu, the primeval sweet-water deep, a colossal slumbering male figure sunk beneath the earth in darkness, his torso and beard formed of slow black streams and spring water braided with pale reeds. His heavy-lidded face sinks into sleep as the first enchantment of Ea pulls him under; faint ripples of hammered gold spread where his body meets the still water. Above him, the underside of the world hangs like a stone ceiling studded with roots. He is the drowned deep, the fresh water before creation, dreaming below every well and spring. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-tiamat",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Tiamat",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-tiamat.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Tiamat, the primeval salt sea, a vast female serpent-bodied chaos rising at the head of her monstrous war council, her scales inlaid in dark lapis waves crested with gold foam. She lifts her horned head in summons, and behind her file the eleven terrible creatures of the Enuma Elish in carved ranks: scaled bulls, fish-men, snaking hybrids, and the mute commander Kingu at her shoulder. Her eyes burn with grief for slain Apsu and fury at the young gods. The salt water churns around her as chaos marshes for the coming storm. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-kingu",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Kingu",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-kingu.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Kingu, exalted general of Tiamat's army, a tall armored male figure standing before the black water of the chaos host, a heavy clay tablet of destinies resting across his lap, its wedge marks gleaming in gold inlay. He raises a bronze mace above his shoulder, crowned with the diadem his mother set upon him above all the gods, his eyes hard with borrowed authority. Behind him monster silhouettes march through the surf toward a distant storm light. He is the appointed commander of chaos, keeper of the stolen fates, marching to meet the bow of Marduk. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-enlil",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Enlil",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-enlil.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Enlil, king of the gods, enthroned high within the Ekur temple of Nippur, the mountain house, his stern male form crowned with the great horned diadem of kingship. He lifts a heavy lapis-inlaid mace in one hand and a tablet of decree in the other, and from his command the storm winds spiral outward, bending date palms flat and driving black rain across the Tigris floodplain where the flood begins to rise. A bull and a lion couch carved at his feet. His face is absolute: the breath of the world, the decider of fates, the god whose single word drowned mankind. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-enki",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Enki (Ea)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-enki.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Enki the wise, god of fresh water and magic, standing waist-deep at Eridu beside a humble reed hut, lips nearly touching the wet wall as he whispers forbidden knowledge to the flood hero sleeping within. Twin streams of lapis water pour from his folded shoulders, carrying tiny fish and the goat-fish emblem of his house. Behind him rises the skeleton of the great round boat, and the sky darkens with Enlil's coming rain. His eyes are kind and cunning: the sage who saves mankind against the will of the king of the gods. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-ninlil",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Ninlil",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-ninlil.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Ninlil, the Lady of the Word, standing at the dark first gate of the underworld river, one hand pressed to the swell of her belly, heavy with the moon child Nanna. She has followed the disguised storm god through the reed marsh and will not turn back, her veil lifting in a wind from the netherworld. Above the black water a single new crescent glimmers, her son's first light, rendered in thin gold leaf. Devoted, unafraid, and resolute, she is the light that walks with the storm even down into the land of no return. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-nanna",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Nanna (Sin)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-nanna.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Nanna, the moon god, standing on the highest terrace of the great ziggurat of Ur at full night, a glowing crescent crown rising from his silver-haired male head. In one hand he holds a full moon disc; with the other he counts the months upon a ladder of fourteen small lamps, the calendar of time itself. The sleeping city, harbor, and river lie below in lapis shadow, and the months wax and wane around him like a ring of silver. He is the keeper of time, the decreer of fates, father of sun and morning star. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-utu",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Utu (Shamash)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-utu.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Utu, the all-seeing sun, stepping out at dawn between the twin peaks of Mount Mashu where the sky receives him, his male body ringed with a flamed saw-edged sun disc that cuts the last of the night away. Below his feet the gates of the underworld yawn shut behind him, scorpion guardians small in the mountain pass. In his raised hand hangs the measuring rope of justice, straight and golden, and below him litigants pause at temple doors. He is the light that reveals every truth, judge of oaths, who crossed the dark all night. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-inanna",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Inanna (Ishtar)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-inanna.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Inanna, queen of heaven, at the seventh gate of the underworld, standing tall and nearly stripped: her great crown already lies on the stone beside her, robe and lapis necklace unbound, while an eight-pointed Venus star still burns alone above her brow. Lion motifs glow faintly on the dark gate walls behind her, and the last gatekeeper's hand reaches for the final garment. Her chin is up, unbowing, even as the last veil of power is taken. The goddess of love and war descends bare into the land of the dead. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-erishkigal",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Ereshkigal",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-erishkigal.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Ereshkigal, queen of the dead, seated alone on a dust-covered throne in the windowless palace of the netherworld, her dark female gown pooled around her like still water, no crown but a band of tarnished gold. Behind her, small and pale, a corpse hangs from an iron hook in the wall. Seven hooded Anunnaki judges sit in shadow at her feet, silent, faces turned away. Her expression is not cruel but final, the dark counterpart of the morning star: keeper of the city where dust is bread and the departed walk forever in clay. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-nergal",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Nergal",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-nergal.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Nergal, lord of the netherworld, striding down the great stair into the underworld in his terrible aspect: a towering male warrior with a lion's snarl set into his bronze helm, a sickly plague mist coiling at his heels, a horned serpent wound around his raised hand. He drags a thunderbolt mace behind him and kicks the doors of the seven gates aside one by one, claiming the throne of the dead for himself. Firelight glances off his scale-armored shoulders: the heat of fever, the sword of war, the power that disease obeys. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-marduk",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Marduk",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-marduk.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Marduk, champion of the gods, in the heart of his battle with Tiamat: a powerful male storm god striding upon the waves, one bow drawn to his ear with an arrow of lightning, a great cast net flung wide above him already closing around a thrashing serpent shape. Four winds and a seventh gale spiral from his shoulders, tearing at the salt sea. The horned crown of sovereignty gleams above his snarling, exultant face: the son of Ea who will split the deep in two and hang half of her on high as the sky. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-antum",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Antu (Anatum)",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-antum.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Antu, lady of the sky, standing beneath a vast canopy of night she lifts like a bridal veil over the world, her long female robe itself a lapis firmament sewn with five-pointed stars in gold stud. Her hands part the fabric of dusk above a quiet land where the first evening star appears over the Tigris and date palms go still. A thin crescent and a full moon hang at her shoulders like borrowed jewels. Serene and half-hidden, she is the heaven in female form, consort of An, the sky that bends over the earth each night. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-ninhursag",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Ninhursag",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-ninhursag.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Ninhursag, lady of the mountain, kneeling at a stone workshop bench in a highland clearing, pinching the features of the first human figures from wet river clay while rows of small unfinished people dry on shelves behind her like a future nation. The flanking peaks of her name rise through cloud behind her shoulders, and the peaked cap of divinity marks her brow. Her hands are muddy to the wrist, her gaze intent and tender: the earth mother who kneels like a midwife, breathing life into molded clay so the gods may rest. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-ninagal",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Ningal",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-ninagal.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Ningal, the Great Lady, standing on the moonlit terrace of the temple of Ur at the hour when night ends, her arms outstretched in blessing over two children at her knees: a boy whose hair ignites into a rayed sun disc, and a girl crowned with the bright eight-pointed star of the morning. The crescent of her husband Nanna still hangs above the temple gate behind her, and priests' lamps gutter below. Her gown is pale as milk, her face tender and watchful: mother of the sun and of the morning star of Ur. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-nabu",
+      "kind": "deity",
+      "culture": "mesopotamian",
+      "name": "Nabu",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-nabu.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. Nabu, patron of scribes, seated cross-legged before a wooden tablet stand in the Ezida temple of Borsippa, a young male figure in a long fringed robe, head bowed in concentration as a reed stylus presses the wedge marks of fate into fresh wet clay. Rows of finished tablets rise around him on cedar shelves like a city of written destinies, each glowing faintly at its first line. The emblem of a square tablet and stylus hovers behind his shoulder in gold inlay. He is the vizier of the gods, recording what kings obey. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "mes-tablets-of-fate",
+      "kind": "relic",
+      "culture": "mesopotamian",
+      "name": "Tablets of Destiny",
+      "slot": "public/cards/mesopotamian/mesopotamian-mes-tablets-of-fate.png",
+      "prompt": "A mythic scene in the style of ancient Mesopotamian stone relief carving brought to painterly life: carved limestone and lapis lazuli inlay, hammered gold, cuneiform band borders, ziggurat silhouettes, Tigris river light, date palms and desert dusk sky, solemn ritual grandeur. The granting of the Tablets of Destiny: aged Anu, the sky god, kneeling on one knee before the enthroned chief god Enlil in the assembly of heaven, lifting a pair of clay tablets whose cuneiform decrees blaze with thin gold fire. Enlil reaches down with both hands, his horned crown towering, storm winds curling around his forearms, while the assembled gods stand in small carved rows behind the throne, hands raised in witness. A single shaft of light falls straight from heaven onto the tablets: fate itself becomes an object to be held. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "id": "jpn-kamimusubi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Takamimusubi",
+      "slot": "public/cards/japanese/japanese-jpn-kamimusubi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A formless figure of pure indigo ink coiling upward out of a featureless void, its body a swirl of calligraphic brush-loops like a sacred name being spoken into being, gold-leaf sparks scattering from the coil at the exact place where form first condenses out of emptiness. No face, no gender, no limbs resolve — only the vertical gesture of beginning itself, a reed-like column of mist rising through layered cloud bands while faint rings of light ripple outward from the point of first birth. The opening word of creation rendered as living, self-writing ink. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-amenominakanushi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Amenominakanushi",
+      "slot": "public/cards/japanese/japanese-jpn-amenominakanushi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A serene sovereign presence enthroned at the exact center of a luminous heavenly plain, seated in still meditation upon a platform of layered cloud bands, hands resting in the lap as a subtle axis of radiating gold-leaf lines rises from the crown to mark the pole of the sky. Far below at the edges of the mist, two tiny creator figures bow in reception of an unseen command, while concentric rings of indigo firmament organize the whole composition around the unmoving, genderless center — the lord of the middle of heaven from whom all creation is ordered. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-izananagi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Izanagi",
+      "slot": "public/cards/japanese/japanese-jpn-izananagi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A noble male creator deity in flowing court robes stands on the floating bridge of heaven, both hands plunged upon the jeweled spear Ame-no-nuhoko as he stirs the churning ocean brine far below, emerald saltwater dripping from the spear's gem-studded tip and congealing in mid-air into a small new island of dark rock and pale foam. Spray curls around the shaft in classic ukiyo-e claws of foam, clouds wheel beneath the bridge, and his focused, tender expression is lit from beneath by the green glow of the first land taking shape. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-izananami",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Izanami",
+      "slot": "public/cards/japanese/japanese-jpn-izananami.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A sorrowful goddess stands at the torch-lit threshold gate of Yomi, half of her radiant figure bathed in warm gold light and half dissolving into indigo shadow and faint writhing serpentine shades, one hand reaching back toward a receding sliver of daylight where a fleeing man's silhouette is almost gone, the other resting gently on the dark earth of the dead. Her kimono hem turns to ash and drifting mist at the great stone threshold, pine torches gutter, and her calm, grieving face accepts the divide between the living and the dead. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-amaterasu",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Amaterasu",
+      "slot": "public/cards/japanese/japanese-jpn-amaterasu.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. The sun goddess steps out of the black mouth of the heavenly rock cave into reborn daylight, one hand lifting gracefully before her face in shy surprise, her figure edged in a blazing halo of gold-leaf rays that push the indigo darkness back into the stone. A long bronze mirror held low before her by unseen hands returns her own radiance to her eyes, woven hemp ropes and leafy sakaki branches frame the cave threshold, and the first dawn colors — vermilion and gold — flood outward across stylized cloud bands. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-tsurugumo",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Tsukuyomi",
+      "slot": "public/cards/japanese/japanese-jpn-tsurugumo.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A pale, quiet moon god in silver-grey court robes walks away across a night sky of deep indigo, his back turned toward a distant blazing sun disc at the far edge of the frame, cold silver moonlight tracing his sharp profile and the trailing hem of his robe. Between them drifts a single abandoned weaving shuttle with a thread of light still attached — the polluted hall's silent witness — while a band of dark cloud severs the sky into two eternal, separate courses, his expression unreadable, regretful, and resolved. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-susanoo",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Susanoo",
+      "slot": "public/cards/japanese/japanese-jpn-susanoo.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. The wild storm god strides mid-leap along a mountain ridge above the Hi river, his bronze sword raised high as it cleaves the last of eight great serpent necks, storm clouds and river spray whipping around his streaming hair and billowing battle robes. Beneath him eight crimson-eyed serpent heads collapse through mist and reeds, one enormous tail splitting open to reveal a cold blue gleam of hidden steel, lightning flickering in ink-brush forks behind his fierce, jubilant, wind-torn face. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-kagutsuchi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Kagutsuchi",
+      "slot": "public/cards/japanese/japanese-jpn-kagutsuchi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. An infant god of fire kneels in a roaring blaze of vermilion flame atop a smoking volcanic crag, his small hair, brows and limbs made entirely of licking tongues of fire, gold sparks spiraling upward into a night of black smoke and drifting ash. Molten light pools orange on the cracked rocks at his knees and glows under the claws of mountain pines, while a distant treeline ignites in elegant curling ribbons of flame. His face is beautiful, radiant and utterly without malice — a birth that burns the world that bore him. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-konohanasakuhana",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Konohanasakuya-hime",
+      "slot": "public/cards/japanese/japanese-jpn-konohanasakuhana.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A radiant young goddess stands calmly inside a burning thatched hut on the slopes of Mount Chikushi, flames curling around her in elegant swirling ribbons as she smiles through the smoke in childbirth, cherry blossoms drifting out through the roof smoke and turning to orange embers mid-air. Her white bridal robe stays spotless amid the blaze, one hand resting on her belly, the other open toward the fire as if greeting a witness, her serene face lit from every side by vermilion light that refuses to harm her. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-ninigi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Ninigi",
+      "slot": "public/cards/japanese/japanese-jpn-ninigi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A regal heavenly prince descends through parting bands of gold-edged cloud toward the peak of Takachiho, seated upright upon a radiant palanquin of woven light borne on wind, cradling against his chest the glowing bronze mirror, the strung comma-jewel necklace, and the sheathed sword of the imperial regalia. Below him the misty Kyushu mountains and young rice terraces of the middle land rise to meet his arrival, sakaki branches trail garlands of light, and his composed, youthful face looks down upon an earth he has been sent to rule. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-toyotama",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Toyotama-hime",
+      "slot": "public/cards/japanese/japanese-jpn-toyotama.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A graceful sea princess kneels in grief at the tide line beside a reed-walled birthing hut, fleeing seaward as her upper body remains human and beautiful while the hem of her robe dissolves into the scaled crest of a great sea dragon coiling out into the waves. Tide foam reaches toward her like grasping fingers, the tide jewels glint lost beneath the surface, her face turned back over one shoulder in shame and love, tears drawn sideways by the wind as the last human thread of her silhouette frays into fin and scale. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-hooroni",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Hooroni (Ōyahata)",
+      "slot": "public/cards/japanese/japanese-jpn-hooroni.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A serene infant prince wrapped in pale silk lies cradled in the raised tail-fin of a gentle giant sea turtle rising through moonlit water inside a sea-cave alcove, coral branches and lantern jellyfish glowing softly in indigo depths around him. Shafts of moonlight pierce the rippling surface far above like gold bars, bubbles rise in silver strings, and the turtle's ancient eye turns kindly toward the child — a quiet, tender birth myth beneath the tide, the sea realm's gift to the line of emperors yet to come. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-okuninushi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Ōkuninushi",
+      "slot": "public/cards/japanese/japanese-jpn-okuninushi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A broad, patient earth lord stands on the misty shores of Izumo in a hunter's robe, one weathered hand extended in peaceful surrender as he offers a luminous miniature island and a coiled bundle of the land's bounty at his feet to a light descending from the clouds. A tiny radiant dwarf companion perches on his shoulder pointing onward, rice stalks, healing herbs and a fishing hook bloom around his sandals, and his strong, gentle, unhurried face holds no bitterness — the great country lord who yields the land and keeps its people. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-kotohikone",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Kotohikone",
+      "slot": "public/cards/japanese/japanese-jpn-kotohikone.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A tall, ever-standing guardian deity planted upright as an ancient tree at a shrine boundary stone, arms crossed serenely over his chest, his layered robe spreading at the hem into roots that grip stone and dark soil. A braided wedding cord of gold leaf is wound once around his torso and trails away in both directions toward unseen heaven and unseen earth, tying two realms together through his stillness. His ageless, gender-calm face gazes straight ahead, unmoved by the cloud winds circling his shoulders — the living pillar of an unbreakable alliance. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-sarutahiko",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Sarutahiko",
+      "slot": "public/cards/japanese/japanese-jpn-sarutahiko.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A colossal crossroads guardian straddles a fork in a mountain road, his face blazing red with a comically long upturned nose and chin, lantern-wide eyes staring down in challenge, one hand gripping a tall sword planted upright like a walking staff. Mist, pine branches and startled birds part around his enormous shoulders, his white hair and beard stream in a sudden wind, and the dust of a descending heavenly retinue swirls at the path's junction — the immovable road-keeper who halts a god's army with nothing but his stance and his glare. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-ameno-uzume",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Ame-no-Uzume",
+      "slot": "public/cards/japanese/japanese-jpn-ameno-uzume.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A joyous dancing goddess freezes mid-leap on an upturned stone tub before the dark cave mouth, her dance caught at its wildest beat, long sleeves streaming like water ribbons, her hair loose and bright with laughter. From the cave behind her a first wedge of gold-leaf light spills across the tub as the hidden sun stirs at the rumor of revelry, and her raised bronze mirror overhead catches that newborn glow and hurls it skyward; sakaki branches, drum shapes and stylized cloud bands wheel with the rhythm of her kagura. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-takemikazuchi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Takemikazuchi",
+      "slot": "public/cards/japanese/japanese-jpn-takemikazuchi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. An armored thunder war god stands firm on a rocky promontory at Kashima, both gauntleted hands driving a massive stone sword downward point-first into the earth like a stake, forked lightning branching through indigo storm clouds behind him in jagged gold seams. Beneath the rock a huge bronze-backed catfish thrashes in flooded soil, sending arcs of muddy water through the mist, and the trembling ground stills around the planted blade; his calm, disciplined young face glows in the strobe of the storm — thunder pinned, a land held quiet by one standing sword. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-kushiinadahime",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Kushinada-hime",
+      "slot": "public/cards/japanese/japanese-jpn-kushiinadahime.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A trembling young princess has been transformed into a single slender lacquered comb tucked into the folded sleeve of her kimono, her true form a small luminous figure sheltered between the comb's teeth like a bird in a painted cage. Storm clouds gather in heavy ink rolls behind her while eight distant serpent shadows loom over a river valley lit by guttering torchlight, rice-paddy water mirroring the approaching dread; the comb gleams calm and intact at the center of the frame — fear and deliverance held together in one small, faithful object. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-yamata-no-orochi",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Yamata-no-Orochi",
+      "slot": "public/cards/japanese/japanese-jpn-yamata-no-orochi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A monstrous eight-headed serpent rises drunkenly from a river gorge, each of its eight crested, antlered heads dipping toward a separate steaming sake vat, moss, ferns and young cedar saplings growing thick along its single vast serpentine body. Eight long tails tangle in the reeds and mud, eyes glazed amber with fermented rice wine, crimson mist breathing out of every slack and open maw, the river behind it the color of dark tea — the devourer of daughters made drowsy and enormous, beautiful in the way a flood is beautiful just before the blade. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-inari",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Inari",
+      "slot": "public/cards/japanese/japanese-jpn-inari.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A serene rice deity in white and vermilion robes sits on the shrine steps before a tunnel of vermilion torii gates climbing a dusk forested mountain path, a sheaf of golden rice and a single grain stalk resting in the lap, expression gentle and ungendered, ageless. At the foot of the steps an elderly white fox messenger bows low, a small key of rice held in its mouth, paper-ofuda at its neck; stone lanterns glow warm through the trees and offerings of fried tofu and sake line the balustrade in the gathering dark. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-yamato-takeru",
+      "kind": "deity",
+      "culture": "japanese",
+      "name": "Yamato Takeru",
+      "slot": "public/cards/japanese/japanese-jpn-yamato-takeru.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A young imperial prince-hero kneels on a burning grassland in travel-worn hunting garb, swinging a short sword to cut a firebreak across the plain before him while a wildfire ring closes behind him in a wall of curling vermilion flame. Grass blades and embers stream sideways through the gale in long ink strokes, his face set and smoke-streaked above the blade, and high above in the darkening sky a single white bird — his soul not yet departed — begins to rise beyond the smoke, patient and already legendary. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-kusanagi",
+      "kind": "relic",
+      "culture": "japanese",
+      "name": "Kusanagi-no-Tsurugi",
+      "slot": "public/cards/japanese/japanese-jpn-kusanagi.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. An ancient bronze sword lies newly drawn across the severed tail of a fallen great serpent, its straight blade wreathed in drifting grass blades that bend and part away from the edge as if still being cut a thousand times over. Rain and dark serpent blood steam along the steel, storm mist thins around the gorge, and the first cold glint of the blade is rendered as a single sharp line of gold leaf crossing the whole composition — the serpent-slayer's spoils, quiet now, waiting to become an empire's treasure. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-yata-kagami",
+      "kind": "relic",
+      "culture": "japanese",
+      "name": "Yata no Kagami",
+      "slot": "public/cards/japanese/japanese-jpn-yata-kagami.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A great round bronze mirror rests on a lacquered stand before the black mouth of the heavenly rock cave, its polished face blazing with reflected sunlight although no sun currently shines anywhere in the world. In the mirror glows the radiant face of the sun goddess herself — a face she has not yet turned to see — ringed by eight-span rays of gold leaf, while woven hemp ropes and green sakaki branches frame the mirror like a shrine under construction, and curious shadows of gathered kami lean in from the dark at the edges. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-yasakani",
+      "kind": "relic",
+      "culture": "japanese",
+      "name": "Yasakani no Magatama",
+      "slot": "public/cards/japanese/japanese-jpn-yasakani.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A long strand of comma-shaped jade magatama is draped across a lacquer offering tray held forward in mid-offer before the dark cave entrance, each curved bead glowing with its own inner fire of vermilion, jade green and deep amber, the five hundred and many jewels strung on silk cords that loop into eight joined curves. The tray tilts toward the cave's black seam where a first sliver of light answers the jewel-light, hemp cords and sakaki leaves framing the offering — sovereignty, longevity and purity gathered on one small lacquered plate. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "jpn-amenonuboko",
+      "kind": "relic",
+      "culture": "japanese",
+      "name": "Ame-no-Nuboko",
+      "slot": "public/cards/japanese/japanese-jpn-amenonuboko.png",
+      "prompt": "A mythic scene in refined ukiyo-e woodblock style fused with painterly depth: flowing ink-wind and water lines, washi paper texture, indigo, vermilion and gold-leaf accents, stylized cloud and mist bands, drifting cherry or maple leaves, elegant restrained composition with generous negative space. A jeweled celestial lance stands alone, planted upright at the center of the floating bridge of heaven, its lacquered crimson shaft and gem-studded tip still dripping saltwater over the bridge's edge. Each falling drop below swells and hardens as it strikes the churning indigo brine, becoming a small dark island trailing foam, and the spear trembles faintly with the motion of creation although no hand remains upon it. Cloud bands wheel beneath the bridge rails, gulls of ink dot the void, and the tip glints gold at the exact still point of the storm. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}

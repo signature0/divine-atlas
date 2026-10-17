@@ -1,0 +1,372 @@
+{
+  "items": [
+    {
+      "id": "nor-ginnungagap",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Ginnungagap",
+      "slot": "public/cards/norse/norse-nor-ginnungagap.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The primordial void itself given form: a vast yawning chasm of swirling silver mist where no ground exists, rivers of rime drifting down from the northern dark while molten sparks wheel up from the southern glow; where fire droplets touch the dripping ice, a single luminous bead of meltwater hangs suspended, the first drop of life about to fall into nothing. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-muspel",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Muspel (fire)",
+      "slot": "public/cards/norse/norse-nor-muspel.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The fire realm made portrait: a towering pillar of white-gold flame standing in a desert of black cracked basalt, lava rivers braiding between glowing fissures, hailstones hissing into steam as they drift in from afar and melt against the heat wall; at the pillar's heart a giant's silhouette of pure ember light stands guard, arms crossed, patient as a forge that has burned since before time. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-niflheim",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Niflheim (ice)",
+      "slot": "public/cards/norse/norse-nor-niflheim.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The ice realm made portrait: an endless grey-white waste of grinding glaciers under a sunless mist, eleven venom rivers of rime streaming northward and ringing like iron chains, their spray freezing mid-air into hanging needles of frost; deep in the fog a vault of blue glacier ice glimmers like a buried hall, and the whole air trembles with a cold that would stop a heartbeat. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-ymir",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Ymir",
+      "slot": "public/cards/norse/norse-nor-ymir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The first being condensing out of the void: a colossal male giant mid-formation, his torso still half raw dripping rime and half finished flesh, one heavy-lidded eye newly open and staring, frost cascading off shoulders like avalanches; from his sweating armpits two smaller shadowy giants slide free, and the meltwater of his body already pools into the first dark sea. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-aurdhumbla",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Auðhumbla",
+      "slot": "public/cards/norse/norse-nor-aurdhumbla.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The primordial cow at her labor of creation: a great shaggy female aurochs kneeling on black salt ice, tongue extended, licking bare a block of rime from which the gleaming hair and jaw of a man are emerging; strands of white breath curl from her nostrils, udders full of milk glowing faintly, and where her tongue has passed the ice weeps sweet as cream. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-burir",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Búri",
+      "slot": "public/cards/norse/norse-nor-burir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The first god stepping free of his salt block: a tall naked male figure half-emerged from a shattered pedestal of rime, one foot touching the void's frozen floor for the first time, salt crystals still sliding off his shoulders like sparks; his upturned face is wet and newborn, eyes wide with the first thought ever thought, behind him the broken ice shell steams faintly in the aurora light. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-borr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Borr",
+      "slot": "public/cards/norse/norse-nor-borr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. A dynastic wedding in a great timber hall: a stern god-chief in wolf-fur cloak joining right hands across a carved hearthstone with a towering frost-giantess bride, guests of both races watching from the benches, breath fogging in the cold air; above the joined hands hangs a knotwork-carved bridal ring, and the hearth fire throws their two shadows merged into one across the wall. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-bestla",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Bestla",
+      "slot": "public/cards/norse/norse-nor-bestla.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The giantess mother of the gods at her hearth: an enormous gentle female jötunn seated on a carved bench, her frost-blue skin and braided hair lit by firelight, cradling three small god-children against her furs — one already winking a knowing eye, one gripping a toy hammer, one quiet and watchful; her clawed giant hands handle the infants with impossible tenderness. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-odin",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Odin",
+      "slot": "public/cards/norse/norse-nor-odin.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The Allfather's bargain at Mímir's well: a tall one-eyed male god in a wide-brimmed slate hat and traveling cloak, leaning over the black water of the well of wisdom and dropping his own gleaming eye into it with two fingers; runic staves ring the stone rim, mist coils off the water, and his empty socket already glows with hard-bought sight while ravens watch from the roots. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-vili",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Vili",
+      "slot": "public/cards/norse/norse-nor-vili.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The world-builder at work: a broad-shouldered young god straining upward on a cliff of Ymir's bones, hoisting the giant's vast skull overhead to arch it as the sky while storm-light swirls across its inner surface; his shoulders corded with effort, hands slick with celestial marrow, and the first pale stars beginning to scatter from the skull's rim like thrown sparks. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-ve",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Vé",
+      "slot": "public/cards/norse/norse-nor-ve.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The third brother scattering the clouds: a lean god standing on a mountain summit of Ymir's bone, cupping the giant's grey brains in both hands and flinging them skyward where they bloom into low heavy cloud banks; his sleeves are soaked in pale mist, his face turned up in solemn play, and beneath his feet the fresh green flesh-earth of the new world still steams. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-thor",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Thor",
+      "slot": "public/cards/norse/norse-nor-thor.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The great catch: the thunder god standing red-gold in the prow of a rocking fishing boat on an iron-grey sea, ox-head bait on his line, both arms roped and heaving as the head of the world-serpent breaches the swells below him spouting brine; lightning forks from his open free hand, iron gloves straining, his beard braised with sea spray, fury and awe split across his face. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-frigg",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Frigg",
+      "slot": "public/cards/norse/norse-nor-frigg.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The queen's desperate oath-taking: Frigg enthroned in a high-seat draped with flowing veils, one hand raised as a long procession of creatures — serpents, wild beasts, birds, trees, and stones — kneel before her swearing fealty one by one; in her other hand she absently turns a single sprig of mistletoe, overlooked, its pale berries catching light while a shadow crosses her worried mother's face. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-baldr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Baldr",
+      "slot": "public/cards/norse/norse-nor-baldr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The invulnerable game gone radiant: the brightest of the gods standing laughing at the center of a ring of joyous gods hurling axes, stones and spears at his chest, every weapon bending away in showers of sparks, light pouring off his white skin like dawn off snow; his arms are open in delight, unaware of the one small mistletoe dart resting unseen at the edge of the ring. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-hodr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Höðr",
+      "slot": "public/cards/norse/norse-nor-hodr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The blind brother at the thing-mound: a pale sorrowful god with sightless white eyes standing alone at the ring's edge, a slender mistletoe dart nocked in his bow by another's hands; a stooped old woman in a travelling cloak guides his elbow and aims his wrist, her face hidden, and a single tear tracks down his cheek as he waits for the signal to loose. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-loomi",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Loki",
+      "slot": "public/cards/norse/norse-nor-loomi.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. Loki mid-scheming: a sharp-featured lean male figure crouched at a small hidden forge by firelight, whittling a sprig of mistletoe into a fine point with a knife, his grin splitting wide as sparks rise around him; a salmon net hangs half-knotted behind him, a fly already buzzing near his ear, and his shadow on the cave wall wears the mask of an old crone. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-tyr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Týr",
+      "slot": "public/cards/norse/norse-nor-tyr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The god of oaths at the binding rock: a clean-shaven war-god standing tall and unflinching on a grey island, his right arm thrust deep into the gaping jaws of a monstrous wolf, teeth sunk through his forearm as the ribbon-slip holds fast; his face is set in terrible calm, blood dark on his wrist, while the gods heave the final knot behind him. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-freyr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Freyr",
+      "slot": "public/cards/norse/norse-nor-freyr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. Love's ruinous price: the golden Vanir lord standing in a silver birch grove at dusk, offering his shining self-wielding sword hilt-first across the air to a hooded dwarf whose grin swallows the blade; Freyr's other hand reaches longingly toward a luminous giantess's silhouette fading between the trees, and the surrendered sword already hums a low warning only he cannot hear. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-freyja",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Freyja",
+      "slot": "public/cards/norse/norse-nor-freyja.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The seiðr queen riding to her hall: Freyja enthroned in a chariot of ash-wood drawn by two great grey cats through a field of fallen warriors, half the slain rising to follow her toward green-warred Folkvangr while the other half stream away toward golden rafters; her falcon-shift hangs at her belt, her amber necklace blazing, her gaze calm as a general and a lover both. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-nyrd",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Njord",
+      "slot": "public/cards/norse/norse-nor-nyrd.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The sea-god at his boathouse: a weathered Vanir lord standing waist-deep at the shore of Noatun's harbor at first light, drawing a longship's mooring rope over his shoulder while calm wind fills every sail in the fleet behind him; coins and fish-silver glitter in the shallows at his feet, and his face, turned south, aches faintly toward mountains he will never love. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-heimdall",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Heimdall",
+      "slot": "public/cards/norse/norse-nor-heimdall.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The watchman on the rainbow: a white-armored god seated at the sky's edge where the Bifrost bridge arcs off into cloud, one horn-rimmed eye scanning the far rim of the world while his other hand rests on the great horn Gjallarhorn at his hip; the gold teeth of his jaw glint in the dawn light, and far below, at the bridge's root, a frost-giant's shape is already moving. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-vidar",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Víðarr",
+      "slot": "public/cards/norse/norse-nor-vidar.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The silent avenger striding into the black rain of Ragnarök: a mute hooded god in a cloak of leather scraps, one boot — thicker than any other man's boot — planted square in the lower jaw of the sky-wide wolf, prying its jaws apart while his sword rises toward its palate; his face shows no rage and no grief, only the patience of a debt come due. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-vali",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Váli",
+      "slot": "public/cards/norse/norse-nor-vali.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. Vengeance at the burning pyre: a young god still newborn-swift striding through the smoke of Baldr's great funeral mound, his dagger driven through the chest of the blind Höðr at the very edge of the flames; his expression is blank as deep winter, blood steaming on his hand, while the gathered gods recoil in horror and the mistletoe dart still lies unburned in the firelight. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-fenrir",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Fenrir",
+      "slot": "public/cards/norse/norse-nor-fenrir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The wolf unbound at the end of time: a monstrous grey wolf straining to his full cosmic height on the plain of Vigrid, his upper jaw pressing the sky and his lower jaw dragging the earth, nostrils spewing fire, the shattered stump of Gleipnir's ribbon still around his haunches; in his shadow a one-handed god's silhouette is already being swallowed. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-jormungandr",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Jörmungandr",
+      "slot": "public/cards/norse/norse-nor-jormungandr.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The world-serpent in his ring: an immense banded sea serpent coiled around the rim of the encircling ocean, head meeting tail in a bite locked since the world began, his barnacled back forming a moving archipelago while storm waves break along his spine; one vast eye, green as drowned glass, rolls upward toward the sky where a hammer-shaped lightning flickers. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-hel",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Hel",
+      "slot": "public/cards/norse/norse-nor-hel.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The half-dead queen on her throne: Hel seated in a cold northward hall of standing stone, the left half of her body flushed and living, the right half blue-black corpse-flesh sunk at the cheek and lip; her throne's arms are carved with the sick and the aged rising quietly from their beds behind her, and her one living eye watches them home without cruelty. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-sleipnir",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Sleipnir",
+      "slot": "public/cards/norse/norse-nor-sleipnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The eight-legged steed leaping between worlds: a grey stallion with eight slender legs splayed in mid-air, caught at the apex of a jump over a churning sea of cloud that glitters with stars below and burning realms above, mane and tail streaming like smoke; his nostrils flare wide as gates, and the hoofprints he leaves hang glowing briefly in the dark. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-anguela",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Angrboða",
+      "slot": "public/cards/norse/norse-nor-anguela.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The mother of monsters in her stone-by-the-sea: a dark giantess standing at the lip of a sea-cave at low tide, arms wrapped around her own belly, while at her feet her three infants rest on the wet rock — a grey pup wolf, a coiling serpent slick as kelp, and a blue-and-pale girl-child who opens one living and one dead eye; she looks down at them with pride that is also prophecy. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-sif",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Sif",
+      "slot": "public/cards/norse/norse-nor-sif.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The regrowing of the golden hair: Sif kneeling before a mirror of polished bronze as dwarf-smiths with tongs set the last lock of living gold onto her scalp, each strand taking root and rippling like wheat; her hands rise half in shock half in joy, tears cutting clean lines through the forge-soot on her cheeks, and the finished crown already glows with a harvest light. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-uthra",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Ullr",
+      "slot": "public/cards/norse/norse-nor-uthra.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The winter god's duel of speed: Ullr carving down a snow-lit mountainside on bone skis, bow drawn and arrow nocked at a running stag mid-descent, his breath a white comet behind him and the moon glinting off the bow-horn; snow erupts in a fan beneath his skis, and the pine forest below stands frozen in blue shadow, holding its breath for the shot. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-nanna",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Nanna",
+      "slot": "public/cards/norse/norse-nor-nanna.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. Grief climbing the pyre: Nanna in a white bridal gown ascending the steps of her husband's great funeral pyre on the wind-flapped shore, arms outstretched toward the flame-wreathed body lying within, her face resolved rather than broken; the pyre's first light touches her cheeks, and where her tears fall onto the dry boards, small white flowers bloom and instantly scorch black. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-forseti",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Forseti",
+      "slot": "public/cards/norse/norse-nor-forseti.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The peacemaker in the shining hall: Forseti seated alone on a high seat of silver pillars in Glitnir, golden roof burning cold light overhead, hands open and empty on his knees as two armed chieftains bow their heads before him, weapons already lowered to the floor between them; his expression is patient, unhurried, the one face in all the nine worlds that no quarrel can anger. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-magni",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Magni",
+      "slot": "public/cards/norse/norse-nor-magni.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. Three nights old and mightier than giants: a golden-haired infant god lying in a swaddling-cloak of fur beneath the corpse-leg of a fallen stone-skulled giant, one tiny hand pressed flat against the crushing iron thigh and lifting it clear off his trapped father's body; the thunder-god lies beneath, astonished, and the newborn yawns as if nothing heavier than milk had ever been asked of him. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-modi",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Móði",
+      "slot": "public/cards/norse/norse-nor-modi.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The heir of wrath at the world's end: a young god standing in the grey dawn after Ragnarök on the steaming battlefield where the serpent has fallen, both hands closing around the short handle of the fallen hammer Mjölnir and lifting it from the ash; his jaw is set with his father's temper, his eyes red but dry, and behind him his brother Magni waits at the new green shore. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-jarnsaxa",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Járnsaxa",
+      "slot": "public/cards/norse/norse-nor-jarnsaxa.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The iron-named giantess at the forge-shore: a tall dark-haired woman in a smith's leather apron over mail, hammering a glowing blade on a shore-side anvil while two small boys with thunder-god eyes stack stones beside her quenching trough; the sea spray hisses on the hot iron, and her face, turned from the anvil, holds the fierce softness of a mother who outlived a god's love. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-gerd",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Gerðr",
+      "slot": "public/cards/norse/norse-nor-gerd.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The giantess in her father's garden at the world's end: Gerðr standing among golden apples at the rim of the frozen sea, a pale sword-light reflected in her face as she turns from the gate to look back over her shoulder at a distant rider who has given up his sword for her; frost creeps up the apple trunks behind her, and her expression is not refusal but the first, terrible beginning of yes. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-ska",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Skaði",
+      "slot": "public/cards/norse/norse-nor-ska.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The ski-goddess at the mountain pass: Skaði gliding between frost-black pines on skis of bone, a great bow in hand, snow-shoes furred and hood thrown back to reveal eyes the blue of glacier ice; behind her the sea-road she left lies grey and far below, and she has chosen the ridge where the wolves howl, her breath steady, her smile the coldest in Asgard. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-surt",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Surt",
+      "slot": "public/cards/norse/norse-nor-surt.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The fire giant at the crossing: Surt marching through the shattered rainbow bridge's end, dragging a sword of white flame brighter than the sun whose light bleaches the cloud under his feet; his body is a landscape of cooling slag and glowing cracks, and behind him the sons of Muspel ride out in their thousand ranks like an advancing wildfire line. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-hrungnir",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Hrungnir",
+      "slot": "public/cards/norse/norse-nor-hrungnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The iron-headed giant at the duel-stone: Hrungnir striding to meet his fate, a colossal figure whose head and belly are hammered iron plates riveted like a ship, a grinding whetstone shield on his arm; he hurls the whetstone like a comet while behind him his mare foals in terror, and above the storm-cloud a hammer's arc is already descending toward his skull. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-sid",
+      "kind": "deity",
+      "culture": "norse",
+      "name": "Svaðilfari",
+      "slot": "public/cards/norse/norse-nor-sid.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The builder's stallion at the night wall: a great draft horse straining against a stone-sled's heavy traces before the half-built walls of Asgard, muscles lathered and steaming under a winter moon; just beyond the torchlight a beautiful white mare turns her head to look back at him over the fence line, and his trace-pulled, straining stance is already breaking sideways toward her. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-mjolnir",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Mjölnir",
+      "slot": "public/cards/norse/norse-nor-mjolnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The hammer's forging: Mjölnir held in a dwarf-smith's tongs above a black stone anvil in a lava-lit cavern, runes glowing red across its square head, its handle still short and wrong because a fly — a trickster's fly — bit the bellows-hand at the last heartbeat; sparks spiral up past the smith's soot-black grin while thunder answers from far above the world. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-gungnir",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Gungnir",
+      "slot": "public/cards/norse/norse-nor-gungnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The spear that never misses: Gungnir planted point-deep in a black beach at the world's edge where the tide goes out forever, its gold shaft and silver rune-engraved head humming with a held oath, one drop of seawater running down the blade and refusing to fall; storm clouds spiral directly overhead around the spear like a drawn bow, and the sea itself keeps its distance. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-draupnir",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Draupnir",
+      "slot": "public/cards/norse/norse-nor-draupnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The ninth night's miracle: Odin's gold ring resting on a bed of black velvet in the dark, and from its band eight molten rings drip downward in slow motion, each one heavy, each one identical, hanging on threads of gold like dew from a honeysuckle; the ninth ring swells to form, and the whole dark room is lit only by the ring's own patient wealth. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-brisingamen",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Brísingamen",
+      "slot": "public/cards/norse/norse-nor-brisingamen.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The necklace's first wearing: Brísingamen lifted onto Freyja's shoulders by four dwarf smiths standing on stools in a mountain hall, its gold links and fire-polished stones catching light that seems to come from inside the stones themselves; the necklace settles against her collarbone like something alive that has always belonged there, and the dwarves' soot-dark faces glow with the pride of their one perfect work. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-gjallarhorn",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Gjallarhorn",
+      "slot": "public/cards/norse/norse-nor-gjallarhorn.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The horn before the blast: Gjallarhorn raised to Heimdall's lips at the Bifrost's crown, cheeks drawn, the first note already leaving it as visible rings of light that crack the cloud and startle ten thousand birds from the world-ash below; the horn itself is pale as a mountain's bone, bound in iron and old silver, and every realm's horizon tilts a fraction toward listening. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "nor-skidbladnir",
+      "kind": "relic",
+      "culture": "norse",
+      "name": "Skíðblaðnir",
+      "slot": "public/cards/norse/norse-nor-skidbladnir.png",
+      "prompt": "A mythic scene in a dark Nordic painterly style: cold silver-blue light, frost and sea spray, carved wood, iron and fur textures, Norse interlace knotwork woven into the framing, aurora ribbons across the sky, ember and mead-gold highlights against deep pine and slate tones, grim heroic mood. The folding of the gods' ship: Skíðblaðnir mid-transformation on a granite quay, its thousand oars and tall mast collapsing inward like a closing flower, sail and keel pleating into a length of fine wood-cloth that a god's hand folds small enough to slip into a leather pouch at his belt; the last wave still breaks against the last shrinking plank, and the wind lies obediently in the sail's final crease. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}

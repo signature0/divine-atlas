@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "slv-nebo",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Nebo (the Sky-Father)",
+      "slot": "public/cards/slavic/slavic-slv-nebo.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. The sky-father Nebo enthroned in the highest heaven, an immense gentle bearded patriarch whose robe IS the open sky, woven of pale cloud and sunlit blue. From the hem of his linen garment a fine blessing of rain falls in silver threads onto a patchwork of dark fields and birch groves far below. Sun and drifting clouds ride at his shoulders like tamed beasts; his hands rest open, giving thunder softly, distantly, as a gift rather than a weapon. He is the supreme above all named gods, serene, vast, and faintly uncanny, a face half-hidden in weather. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-perun",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Perun",
+      "slot": "public/cards/slavic/slavic-slv-perun.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Perun the Thunderer standing amid storm clouds above his sacred oak, golden-bearded and furious, arm cocked back to hurl a fire-bolt down at a great serpent coiling around the oak's trunk below. Lightning forks from his hammer across a black-violet sky; a grey wolf and a white horse flank his legs, and on a nearby hilltop his sacred flame burns without fuel. Rain lashes sideways through ember-red light. The serpent retracts into the roots of the world-tree as the bolt leaves his hand, the eternal duel caught at its brightest instant. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-veles",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Veles",
+      "slot": "public/cards/slavic/slavic-slv-veles.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Veles, horned lord of cattle and the wet underworld, half-transformed into a huge serpent at the dripping roots of the world-tree. His upper body is a broad bearded herdsman crowned with ram's horns; below his waist his flesh becomes a scaled serpent tail coiling through black water and mud. Behind him, ghost-cattle with shining hides drift through mist in a sunken pasture, the stolen herd of Nav. Snakes wake in the grass around him on Veles-day. He clutches a shepherd's crook and gazes up toward the storm-light above, the trickster who hides from thunder. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-svarog",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Svarog (Svarozhich)",
+      "slot": "public/cards/slavic/slavic-slv-svarog.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Svarog the heavenly smith at his forge beneath the arch of the sky, a massive bare-armed god with a leather apron over linen, holding glowing tongs that grip a white-hot golden sun-disc above a stone anvil. Sparks rise and become stars. Around the forge-fire a young couple dances hand in hand in a ring, the first marriage-rite, their embroidered shirts catching the amber glow. Bellows of hide breathe beside a barrel of quenching water; finished tools and a crown of light lean against the forge wall. The whole scene smells of hot iron and birch smoke. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-dazhbog",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Dazhbog",
+      "slot": "public/cards/slavic/slavic-slv-dazhbog.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Dazhbog the day-giver striding out of the eastern mist at first light, a radiant young god in a white linen shirt embroidered with solar rosettes, lifting a shallow golden basin of daylight that he tips over the land, spilling amber light across dew-wet meadows and birch trunks. At his feet a proud red rooster beats its wings and crows, heralding his passage. His face is warm and generous, the giver of days, wreathed in soft rays rather than a blazing disc; behind him the night drains away like spilled ink between the trees. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-khors",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Khors",
+      "slot": "public/cards/slavic/slavic-slv-khors.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Khors the solar god riding his sun-chariot at high noon across a deep blue sky, a stern crowned figure in gold-leafed mail behind a yoke of four white horses whose manes stream like flame. The chariot's wheels are turning sun-wheels with six spokes, rimmed in fire, and the sun itself rides as a burnished disc shield above his head. Below, the birch forests and rivers of the earth shrink to a painted ribbon. He is the sun in its full strength, less gentle than the day-giver: a hard, blinding, majestic rider crossing the zenith. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-stribog",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Stribog",
+      "slot": "public/cards/slavic/slavic-slv-stribog.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Stribog, father of the winds, a colossal translucent figure formed of moving air and dust, his bearded face half-dissolved into the gust he exhales from pursed lips. From his mouth seven small wind-spirits, child-heads with puffed cheeks, race outward across the twilight meadow, flattening the grass, bending birches into bows, whipping the hems of invisible reapers. Clouds are combed into long streaks behind him. His body is barely there, more breath than flesh, the sky's own breathing made briefly visible above a landscape caught mid-gust, seeds and leaves spiralling in his wake. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-mokosh",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Mokosh",
+      "slot": "public/cards/slavic/slavic-slv-mokosh.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Mokosh, the moist-earth goddess, standing barefoot in a dark ploughed field at dawn, a solid, strong-hipped woman in layered linen and a red-embroidered apron, watering young flax plants from a clay pot so the soil glistens black and wet around her feet. Rain-moisture clings to her long unbound hair and the hem of her skirt like living thread. In the crook of her other arm she carries a distaff loosely, not spinning yet, while dew-heavy spider-silk threads stretch between the flax stalks, each one holding a tiny dawn star. The earth mother of women's work, patient and damp and fertile. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-lada",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Lada",
+      "slot": "public/cards/slavic/slavic-slv-lada.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Lada the Beautiful dancing alone in a blossoming orchard on the first warm spring evening, a slender smiling maiden crowned with apple blossoms and birch leaves, her long white dress and red sash whirling as she throws a garland of wildflowers over her shoulder. Petals hang suspended in the amber air around her; young birches clap their leaves, and the twilight meadow glows with fireflies beginning to wake. Her face is the loveliness the folk songs call out to, harmonious and bright, a spring maiden whose every step makes the grass grow taller. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-morana",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Morana (Marena)",
+      "slot": "public/cards/slavic/slavic-slv-morana.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Morana, the winter mother, a towering pale crone-goddess walking stiffly across a frozen black field at dusk, her body seemingly carved from ice and rime, crowned with a withered birch garland hung with dead seeds. Her long white-grey robe drags behind her and wherever it touches the ground the snow lies deeper; her breath hangs as a frozen mist, and her hollow eyes are pale winter stars. Frost-ferns creep outward from her bare feet across the ice of a half-frozen river. She is death-in-winter, patient and inevitable, dragging the cold season's last train behind her. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-jarilo",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Jarilo (Kupala)",
+      "slot": "public/cards/slavic/slavic-slv-jarilo.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Jarilo, the spring youth god, riding back from the underworld on a white horse through a misty gate of birches at dawn, a golden-haired rider in an embroidered white shirt wearing an oak-leaf wreath, carrying a lit Kupala bonfire brand in one raised hand. Where his horse's hooves strike the frozen ground, green shoots and blue snowdrops burst through the thawing crust. River mist curls around the horse's legs, and distant bonfires answer across the meadow on midsummer's night. His face is flushed, youthful, triumphant, the returning life that melts winter's grip. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-zorya",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Zorya (the Morning Stars)",
+      "slot": "public/cards/slavic/slavic-slv-zorya.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Zorya the dawn guardian, a serene young goddess in rose-gold linen standing in the great stone gateway of the sky, pushing one tall carved door open with both hands so the first dawn light spills out over the sleeping birch land below. The morning star Venus burns like a jewel at her brow, and the second door behind her, the dusk gate, is already closing on a deep blue star-scattered night. A slender cosmic hound sleeps across the threshold at her feet. She is the threshold keeper, opening and shutting the day, her sash trailing into cloud. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-cherd",
+      "kind": "deity",
+      "culture": "slavic",
+      "name": "Cherd (Chert)",
+      "slot": "public/cards/slavic/slavic-slv-cherd.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Cherd, the reconstructed lord of Nav, the realm of the dead, enthroned on a cold mound of black earth in a lightless lowland of pale mist and silent standing stones. He is a tall shadow-cloaked figure with a faintly horned silhouette and a face like a grey ash mask, neither wholly god nor the later devil, holding a black staff topped with a dead branch. Around his feet the shades of the dead drift like river fog among bare winter trees, and a thin black river winds behind him. No fire burns here, only a cold phosphorescent glow. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-perun-axe",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Perun's Thunderbolt Axe",
+      "slot": "public/cards/slavic/slavic-slv-perun-axe.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Perun's thunderbolt-axe mid-fall, a burning fire-stone axe trailing white lightning as it splits the air and buries itself in the trunk of the sacred oak, where a serpent-shaped shadow flees down the bark into a black pool at the roots. The struck oak erupts in ember-red light and splinters; rain hangs frozen mid-air around the bolt. At the base of the tree, carved into a standing stone, a six-petal thunder-mark rosette glows where the lightning landed, and a belemnite fossil thunderstone lies half-buried in the wet grass, warm as a coal. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-perun-belt",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Perun's Rain-Belt",
+      "slot": "public/cards/slavic/slavic-slv-perun-belt.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. The great cloud-belt of Perun unbinding in the sky: a colossal girdle of braided cloud and linen, buckled with a ring of storm-light, being loosened by an unseen hand above a drought-cracked summer landscape. From the opening, held rains pour down in a silver curtain over thirsty wheat fields, birch groves and a winding river, and the dark storm-clouds above part like a lifted lid. Lightning stitches the buckle's release. Far below at a field's edge a tiny peasant figure stands with arms raised, having spoken the old words that unbelted the summer water. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-veles-shapeshift",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Veles' Shapeshift Horns",
+      "slot": "public/cards/slavic/slavic-slv-veles-shapeshift.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Veles' shapeshift horns: a huge polished cattle-horn resting among the wet world-tree roots, blown by an unseen horned mouth, its sound drawn out of the mist as visible rings. Where the sound touches the dark water, a herd of shining cattle materialises, and beside the horn a calf with knowing human eyes and a serpent with cattle-markings crouch side by side, the guises the trickster wears. Coins and milk overflow from the horn's mouth like a horn of plenty, spilling onto mossy stones while far above, muffled thunder rolls harmlessly past the disguise. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-mokosh-spindle",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Mokosh's Spindle",
+      "slot": "public/cards/slavic/slavic-slv-mokosh-spindle.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Mokosh's spindle spinning fate at midnight: a clay whorl and wooden spindle turning of their own accord above a dark cottage table, drawing a glowing thread out of the surrounding night itself. In the thread, like beads on a necklace, tiny luminous scenes appear, a birth, a wedding circle, an old woman at a window, lives being measured out one after another. Water drops fall from the thread onto a dish of moist earth below, and a bundle of winter flax waits at the table's edge. No hand guides the spindle; the room holds its breath. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-morana-effigy",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Morana's Straw Effigy",
+      "slot": "public/cards/slavic/slavic-slv-morana-effigy.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Morana's straw effigy at the height of the spring rite: a straw death-woman with a whitewashed painted face, dressed in a torn bridal white shift and rag shawl, being carried on poles by hooded villagers across a half-thawed river of floating ice at dusk. Torchlight flickers on the snowbanks; some bearers raise long forks to stab the effigy, others scatter seeds behind it. One straw arm already smoulders where a torch touched it, and the river's black water waits to drown the winter for good. Snowdrops pierce the snow along the bank. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-jarilo-green-oak",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Jarilo's Green Oak Branch",
+      "slot": "public/cards/slavic/slavic-slv-jarilo-green-oak.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Jarilo's green oak branch: a single cut oak bough standing upright in a field of late snow, impossibly in full green leaf, its bark gleaming, sap shining, a woven spring wreath of flowers hung around it like a crown. Around the impossible green branch the snowmelt runs in silver channels, crocuses spiral outward from its base in the mud, and a pale winter mist retreats from it at the edges of the frame. A single white butterfly rests on the highest leaf. The winter-leafing oak, the returning god's living sign, warm against the cold. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "slv-svarog-forge-tongs",
+      "kind": "relic",
+      "culture": "slavic",
+      "name": "Svarog's Smith Tongs",
+      "slot": "public/cards/slavic/slavic-slv-svarog-forge-tongs.png",
+      "prompt": "A mythic scene in a richly textured Slavic folk-painting style: earthy greens, birch-white, ember red and amber, linen and wood-grain textures, embroidered folk ornament patterns woven into the borders and garments, misty birch forest and twilight meadow, glow of hearth fire, pagan wilderness mood with a touch of the uncanny. Svarog's smith tongs holding a white-gold sun-disc at the exact moment of forging: heavy black iron tongs gripping a glowing golden solar plate, six-spoked and dripping sparks, above a great stone anvil in a sky-vaulted forge. Molten light runs down the anvil's horn into a channel. The tongs are held by a massive dark smith's arms emerging from a linen sleeve and leather apron, face out of frame. In the warm glow beyond, tiny wedding couples dance a ring around the forge-fire, and the half-finished moon cools blue on a side bench. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}

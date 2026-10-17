@@ -16,3 +16,4 @@ public/cards/
 # generated print PDFs (large; regenerate with `python3 scripts/make-pdfs.py all`)
 public/print/*.pdf
 public/print/manifest.json
+art-generated/

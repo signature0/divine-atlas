@@ -1,0 +1,228 @@
+{
+  "items": [
+    {
+      "id": "egy-aur",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Atum-Ra",
+      "slot": "public/cards/egyptian/egyptian-egy-aur.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Atum-Ra, the self-created god, rises for the first time from the black waters of Nun onto the pointed benben stone, dawn breaking from his own body. He wears the ram-headed aspect of Khepri with the solar disc haloed behind his crown, one hand raised in blessing over the first light. Around him the dark water recedes and nothing else exists yet, no sky, no land, only the first god and the first sunrise. His form glows with electrum and molten gold against the deep unbroken dark of the unborn world. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-nun",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Nun (the primordial waters)",
+      "slot": "public/cards/egyptian/egyptian-egy-nun.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Nun, the personified primeval ocean, a vast placid giant whose torso is made of dark slow-moving water, floating in the void before creation. Crocodiles drift through his depths and his tall crown rises from the endless swell. There is no land, no horizon, no sun, only the deep dark fertile water that holds everything unborn. He gazes upward at nothing yet, patient as eternity, his rippling hands resting on the surface of himself. Faint turquoise glimmers move through the blackness like slow thoughts in a dreaming mind. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-apep",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Apep (Apophis)",
+      "slot": "public/cards/egyptian/egyptian-egy-apep.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Apep the chaos serpent coils around the solar barque at the midnight hour of the Duat, his enormous slick coils rising out of black underworld water. The great serpent rears above the deck, jaws wide to swallow the light itself, while spears of flickering firelight catch the wet scales along his writhing loops. The barque's lanterns strain against a darkness that presses in from every side. This is the enemy of the sun at the moment of his most dangerous strike, chaos given a thousand coils and a patient open mouth. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-shu",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Shu",
+      "slot": "public/cards/egyptian/egyptian-egy-shu.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Shu, god of air, stands between earth and sky with arms outstretched, lifting the star-set sky goddess Nut overhead while the reclining earth god Geb lies below. A single ostrich feather trembles in his crown, the wind he embodies. His straining muscular body is the atmosphere itself, translucent at its edges where clouds curl around his shoulders. Between his raised hands the first open space in existence fills with dawn light. His face holds effort and tenderness at once, the eternal labor of keeping sky from earth. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-tefnut",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Tefnut",
+      "slot": "public/cards/egyptian/egyptian-egy-tefnut.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Tefnut, goddess of moisture and rain, strides across the first dry land as a lioness-crowned woman, the crocodile marks of her ancient form coiling at her shoulders. Rain falls from her upraised hands, the first rain the world has ever known, silver threads striking cracked earth that darkens and drinks. Mist curls around her broad collar and the cool air of her passage bends torch flames sideways. Her eyes carry the distant fire of the Eye of Ra, tempered now into life-giving water, fierce tenderness in a drenched golden hour. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-gebel",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Geb",
+      "slot": "public/cards/egyptian/egyptian-egy-gebel.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Geb, the earth god, reclines in the fertile black silt of the inundated Nile valley, a broad green-skinned man half-swallowed by his own soil. Wheat, lotus and papyrus sprout from his shoulders and hips as he rests beneath the vault of night. Waterfowl rise from the wet black mud around his arms, and bull's horns, ancient emblem of the life-giving earth, curve from his brow. Torches of a distant rite glint on the waterlogged ground while he smiles, heavy and patient, father of kings, dreaming the harvest into being. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-nut",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Nut",
+      "slot": "public/cards/egyptian/egyptian-egy-nut.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Nut, the sky goddess, arches her star-set body full across the frame in the profile composite manner, swallowing the solar disc at her mouth as the sun sets and glowing faintly where he travels through her. Stars bloom across her deep lapis skin in rows like sown seed. Her hands and feet touch the distant earth at either edge of heaven, red dawn light already kindling at her far side where the sun will be reborn. She is the horizon itself, a mother bent over the world in nightly, loving devouring. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-osiris",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Osiris",
+      "slot": "public/cards/egyptian/egyptian-egy-osiris.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Osiris, lord of the dead, enthroned as a radiant mummified king in gold-woven bandages, the tall atef crown of ostrich plumes and ram horns upon his brow. Crook and flail cross his chest while green wheat sprouts from the golden bier beneath him, resurrection made visible. Behind him the black shrine of the Duat opens, torchlit and hung with djed pillars. His dark face is serene, eyes half-open toward the afterlife, the justified first mummy from whom all blessed dead inherit their hope and the Nile's flood its fertility. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-isfet",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Isis",
+      "slot": "public/cards/egyptian/egyptian-egy-isfet.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Isis the great of magic kneels in a marsh of papyrus at night, gathering the scattered members of Osiris's body onto a golden cloth with reverent hands, her kite-bird wings swept wide to shelter what she has found. The throne hieroglyph crowns her head; an ankh and sistrum lie at her side among the reeds. Her spell-light gilds each recovered piece as she lifts it, tears bright on her cheeks, ibis and heron startled from the shallows. Fidelity and power bend together in her aching, luminous concentration. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-horus",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Horus",
+      "slot": "public/cards/egyptian/egyptian-egy-horus.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Horus the falcon, living king of the sky, stands crowned with the double pschent as the sun rises behind his spread wings, the avenging son reclaiming his father's throne. His wedjat eye blazes at his breast, whole and restored after the wound Set gave him, ringed in lapis and gold. Taloned feet plant on the horizon line while storm clouds from his rival's battle scatter before the morning light. Every feather of his great wings is inlaid like faience. He gazes east, patient and unsleeping, the kingship made flesh and feather. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-set",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Set (Seth)",
+      "slot": "public/cards/egyptian/egyptian-egy-set.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Set, god of the red desert and the storm, stands upon a cliff of riven sandstone at the moment he claws the moon, shards of silver light raining down the night sky around his upraised arms. The strange long-snouted Set animal crouches at his heel, ears bristling in the hot wind. Lightning from his storm spear splits the black clouds above while the dunes below flatten under a wall of blowing sand. His face is exultant and terrible, brother of the murdered king, the necessary violence that keeps the ordered world from rusting. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-nephthys",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Nephthys",
+      "slot": "public/cards/egyptian/egyptian-egy-nephthys.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Nephthys, lady of the threshold, perches as a swallow-kite at the head of a torchlit bier, keening over the mummy of Osiris with wings bowed low in the mourning gesture. The house-and-basket hieroglyph crowns her bent head. She and the dim air beside her form the pair of sisters who circle the dead, yet here she grieves at the boundary of the living world. Canopic jars gleam in the shadowed chapel behind her, each awaiting her protection. Her tears fall as tiny gold birds that dissolve before they reach the sand. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ra",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Ra",
+      "slot": "public/cards/egyptian/egyptian-egy-ra.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Ra at high noon stands in the prow of the shining day barque as it crosses the open sky, falcon-headed, solar disc and rearing uraeus blazing above his brow. His outstretched hand pours light over the river and the green fields below, and the barque's gilded cabin and lotus prow cut cleanly through the blaze. Vultures wheel in the gold-white radiance behind him. This is the king of the gods in his daily triumph, untroubled, sovereign, the world lit because he wills it, creation rehearsed each afternoon across the water of heaven. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-amun",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Amun",
+      "slot": "public/cards/egyptian/egyptian-egy-amun.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Amun the Hidden One rises like a colossus in the great hypostyle hall of Karnak, his double-plumed crown vanishing into shadow between the giant columns. His body is half-veiled in darkness, present yet unseen, the god whose name means secret. Ram-headed emblems line the avenue at his feet and priests' torches shrink to fireflies against his scale. Where his hand extends in blessing, the air itself seems to bend without a shape. He is the power behind all thrones, king of the state gods, felt everywhere, visible nowhere, revealed only as a suggestion of gold. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ptah",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Ptah",
+      "slot": "public/cards/egyptian/egyptian-egy-ptah.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Ptah, the divine craftsman of Memphis, stands encased in his mummiform shrine like a sculpted pillar, the triple ankh, was and djed scepter held against his chest. From his heart a warm light lifts and from his parted mouth golden hieroglyphs stream outward, each named thing becoming real in the air before him: a lotus, a bull, a king. Chisels, adzes and half-finished statues rest at his feet in the torchlit workshop of the world. His green-skinned face is calm with thought, the creator who made everything by saying it. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-thoth",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Thoth",
+      "slot": "public/cards/egyptian/egyptian-egy-thoth.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Thoth the ibis-headed stands in a moonlit chamber of records, reed brush poised over an unrolled papyrus as he writes the verdict of a soul's life in perfect columns. The crescent moon and full disc crown his curved beak, and his scribe's palette hangs at his side. Behind him shelves of scrolls climb into silver darkness, every spell, calendar and name he ever invented. Moonlight lays a cold clean stripe across his concentrated face. He does not judge and does not forgive; he writes it down exactly, order itself keeping the account. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-hathor",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Hathor",
+      "slot": "public/cards/egyptian/egyptian-egy-hathor.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Hathor, the celestial cow, rises between two tall sycamore columns at the desert's western edge, lyre-shaped horns cradling the full solar disc between her gentle eyes. She lowers her great head to nuzzle a tiny worshipper kneeling in the shadow of her muzzle, offering him milk in a golden bowl. Sistra and menat necklaces chime invisibly around her neck, and the air shimmers with unheard music, dancers' silhouettes flickering on the sandstone behind. Joy, love and the welcome of the west meet in one soft bovine gaze. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-bastet",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Bastet",
+      "slot": "public/cards/egyptian/egyptian-egy-bastet.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Bastet, the cat goddess, sits upright in a moonlit chamber of a noblewoman's house at Bubastis, elegant feline head crowned with a short disk, one paw resting on a gilded sistrum. Oil lamps glow in her honor along a shelf of alabaster, and a litter of kittens plays at the hem of her linen dress. Through the window the gentle moon she tends hangs over the festival barges of the city. Her half-closed eyes hold the purr of the hearth itself, the soft guardian of women, homes and small warm living things. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-sekhemet",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Sekhmet",
+      "slot": "public/cards/egyptian/egyptian-egy-sekhemet.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Sekhmet the lioness strides across a burning plain at the height of her rage, solar disc and uraeus flaring above her tawny mane, the raging Eye of Ra let loose against the rebellious world. At her paws the flooded field runs red, beet-dyed water laid as a trap to drunken her, its crimson surface already catching her glare. Her open jaws part over the coming drink that will change slaughter into slumber. Heat shimmers off her flanks like hammered gold leaf, war, plague and protection inseparable in one magnificent body. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-anubis",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Anubis",
+      "slot": "public/cards/egyptian/egyptian-egy-anubis.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Anubis the black jackal-headed leans his whole weight over the great balance in the hall of two truths, one paw steadying the heart pan and the other the feather of Ma'at, reading the beam with an embalmer's exact eyes. The dead soul waits small and hopeful behind him; the crocodile-headed devourer crouches at the scale's foot, patient. Torchlight glints off the black resin of Anubis's fur, his ceremonial apron heavy with gold. He has wrapped the first mummy himself; now he weighs what remains, mercy measured in grams of truth. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ogdoad-nun",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Nun & Naunet (primeval waters)",
+      "slot": "public/cards/egyptian/egyptian-egy-ogdoad-nun.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. In the Hermopolitan telling, the frog-headed Nun and serpent-crowned Naunet drift breast-deep in the heaving primeval ocean, first pair of the eight chaos gods, their hands almost touching above the water that is also their body. Behind them the other Ogdoad pairs dissolve into the dark swell, frog heads and snake heads rising and sinking. No light exists, only the phosphor gleam of their golden skin on black water, and the deep sound of the waters murmuring their own names before any ear existed to hear them. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ogdoad-heh",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Heh & Hehet (primordial infinity)",
+      "slot": "public/cards/egyptian/egyptian-egy-ogdoad-heh.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Heh and Hehet, the Ogdoad pair of infinity, kneel facing each other on nothing at all, both arms raised to support endless coils of interlinked golden rings that loop outward in every direction without beginning or end. Palm-rib signs of a million years hang from the loops like fruit. Their frog and serpent aspects blur at the edges, figures drawn and redrawn by the same hand over and over. Around them uncounted torch flames burn without smoke, each one another age, eternity staged as patient, beautiful repetition. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ogdoad-khnum",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Kek & Kauket (primordial darkness)",
+      "slot": "public/cards/egyptian/egyptian-egy-ogdoad-khnum.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Kek and Kauket, the Ogdoad pair of primordial darkness, a frog-headed form and a serpent-crowned form pressed close together in the night before light, so dark that only the faintest gold leaf outlines of their profiles prove they are there. A single unlit torch stands between them, its flame not yet invented. The darkness is not empty but thick, fertile, breathing, the unknowable deep that held every sun ever to rise. Their eyes are the only bright things, two patient lamps in a blackness older than the word for black. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ogdoad-sat",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Amun & Amaunet (primordial hiddenness)",
+      "slot": "public/cards/egyptian/egyptian-egy-ogdoad-sat.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. Amun and Amaunet, the Ogdoad pair of hiddenness, stand back to back in a wind that has no source, their frog and serpent heads turned away from the viewer, their bodies half-dissolved into drifting veils of silver mist that keep re-forming just beyond recognition. Gold jewelry floats where shoulders were, breath made visible, the unseen power that precedes every visible thing. Torches around them burn with flames bent flat away from the pair, as if light itself is not permitted to look directly. The secret before the secret, air before air. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-horus-elder",
+      "kind": "deity",
+      "culture": "egyptian",
+      "name": "Horus the Elder (Harsomatus)",
+      "slot": "public/cards/egyptian/egyptian-egy-horus-elder.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. At Edfu, Harsomtus, Horus the Elder, is born this instant from the nest of the sun barque moored in the primordial marsh: a winged solar falcon the size of a child bursts from a clutch of golden eggs cradled in papyrus, wings half-spread, eyes already open and ancient. The great temple's twin towers rise behind through first dawn mist, and the barque's prow curls away into lotus shadow. He is the elder sky falcon and the newborn son at once, the god who unites the Two Lands hatching out of light. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-peschent",
+      "kind": "relic",
+      "culture": "egyptian",
+      "name": "Pschent (the Double Crown)",
+      "slot": "public/cards/egyptian/egyptian-egy-peschent.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. The Pschent, the great Double Crown, rests alone on a torchlit shrine of black basalt between the emblems of Upper and Lower Egypt, the tall white hedjet rising from the red deshret exactly as the Two Lands were joined into one. The rearing uraeus cobra at its brow catches the flame light, hood spread, ready to spit fire at any unworthy hand. Electrum bands and carnelian inlays ring the junction where the crowns become one crown. No head wears it, yet the whole hall bows, sovereignty itself waiting for the living Horus. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-ankh",
+      "kind": "relic",
+      "culture": "egyptian",
+      "name": "Ankh",
+      "slot": "public/cards/egyptian/egyptian-egy-ankh.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. A single great ankh of polished electrum hangs suspended at the center of the frame, the looped cross of life, and from its loop pours a slow cascade of golden breath, tiny luminous birds and lotus blossoms that fall toward upturned hands below. Torchlit gods flank the composition in dim profile, each holding a smaller ankh to the lips of a waiting king, the gift of life rehearsed forever. The sign glows like a struck bell, its shadow falling across the sandstone in the shape of an open doorway. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    },
+    {
+      "id": "egy-heka",
+      "kind": "relic",
+      "culture": "egyptian",
+      "name": "Heka (the Crook and Flail)",
+      "slot": "public/cards/egyptian/egyptian-egy-heka.png",
+      "prompt": "A mythic scene fusing ancient Egyptian profile-view composite art with lush painterly depth: gold leaf and electrum, lapis lazuli blue, turquoise, carnelian red, registers of hieroglyphs framing the scene, lotus and papyrus motifs, torchlit sandstone, eternal stillness with one radiant divine focal point. The crook and the flail lie crossed upon a chest of gold-wrapped bandages in the deep shrine of the dead king, the shepherd's hook inlaid with lapis and the flail's three strands heavy with carnelian beads. Above them a winged sun disc spans the niche, its feathers dripping light onto the scepters that rule and punish, feed and strike. Anubis's shadow falls long across the polished floor, guardian of the regalia of Osiris-king. These are not weapons but offices, the burden of the good shepherd laid down and kept forever. Card-safe composition: single centered subject, waist-up to full-body, eye-level camera, safe margins at least 8 percent top and bottom, subject never touches frame edges, no text, no watermark."
+    }
+  ]
+}
