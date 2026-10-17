@@ -6,8 +6,9 @@ import {
   Entity, Relationship, Myth, Cosmology, Artwork, TimelineEvent,
   Uncertainty, SourceRef, Culture, CultureData, GraphData, Artifact,
 } from './types';
-import { deriveCard, DeityCard } from './card';
+import { deriveCard, DeityCard, artSlotPath } from './card';
 import { deriveRelicCard, RelicCard } from './relic-card';
+import { artSlotExists, GENERATED_ART_CREDIT } from './art-slot';
 
 export const CULTURES = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'] as const;
 export const ALL_CULTURES = CULTURES;
@@ -189,10 +190,18 @@ export function allCards(): ResolvedCard[] {
     d.entities.forEach((e, i) => {
       const base = deriveCard(e, i + 1);
       const art = base.hero_artwork_id ? artById.get(base.hero_artwork_id) : undefined;
+      // Phase 6: prefer the deterministic generated-art slot when its PNG exists
+      // at build time (this loader already runs fs at build). Missing slot →
+      // existing behaviour: the archival artwork from data, with its museum
+      // credit; else null → the card face's letter fallback. Generated art gets
+      // an honest "generated reconstruction" credit, never an institution.
+      const slotUrl = artSlotExists(e.culture, e.id) ? artSlotPath(e.culture, e.id) : null;
       out.push({
         ...base,
-        image_url: art?.image_url || null,
-        image_credit: art ? `${art.title} · ${art.museum} · ${art.license}` : '',
+        image_url: slotUrl || art?.image_url || null,
+        image_credit: slotUrl
+          ? GENERATED_ART_CREDIT
+          : art ? `${art.title} · ${art.museum} · ${art.license}` : '',
         family: {
           partners: resolve(e.partners),
           parents: resolve(e.parents),

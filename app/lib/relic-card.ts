@@ -14,8 +14,9 @@
 import { Artifact, ArtifactTier, PowerAttribute, STATUS_LABELS } from './types';
 import {
   CardElement, CardRarity, CardStats,
-  elementOf, hash32, mulberry, CURRENCY,
+  elementOf, hash32, mulberry, CURRENCY, artSlotPath,
 } from './card';
+import { artSlotExists, GENERATED_ART_CREDIT } from './art-slot';
 
 // A named ability as shown on the card back (cost/effect = the ability's
 // description; the certainty tag mirrors the detail page).
@@ -116,6 +117,12 @@ export function deriveRelicCard(a: Artifact, index: number): RelicCard {
   const element = elementOf(domains);
   const primaryDomain = domains[0] || 'relic';
   const code = CURRENCY[a.culture] || '???';
+  // Phase 6: prefer the deterministic generated-art slot when its PNG exists at
+  // build time (this is a build-time loader, so fs is fine). When the slot is
+  // missing, keep the existing behaviour — the artifact's archival artwork (and
+  // its museum credit), else null → the card face's letter fallback. Generated
+  // art gets an honest "generated reconstruction" credit, never an institution.
+  const slotUrl = artSlotExists(a.culture, a.id) ? artSlotPath(a.culture, a.id) : null;
   return {
     id: a.id,
     culture: a.culture,
@@ -134,10 +141,12 @@ export function deriveRelicCard(a: Artifact, index: number): RelicCard {
     creatorName: a.creator_name,
     status: STATUS_LABELS[a.current_status] || a.current_status,
     set_code: `DA-R-${code}-${String(index).padStart(3, '0')}`,
-    image_url: a.artwork?.image_url ?? null,
-    image_credit: a.artwork
-      ? `${a.artwork.title} · ${a.artwork.institution} · ${a.artwork.license}`
-      : '',
+    image_url: slotUrl ?? a.artwork?.image_url ?? null,
+    image_credit: slotUrl
+      ? GENERATED_ART_CREDIT
+      : a.artwork
+        ? `${a.artwork.title} · ${a.artwork.institution} · ${a.artwork.license}`
+        : '',
     abilities: (a.abilities || []).map((ab) => ({
       name: ab.name,
       description: ab.description,

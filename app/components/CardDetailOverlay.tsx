@@ -45,6 +45,25 @@ function Pips({ n, color, max = 12 }: { n: number; color: string; max?: number }
   );
 }
 
+// Hero art with the same broken-image letter fallback as the card faces: the
+// generated art is deployed separately, so a missing PNG must fall back rather
+// than flash a broken-image icon (mount check + onError).
+function CdHeroArt({ card }: { card: ResolvedCard }) {
+  const [broken, setBroken] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) setBroken(true);
+  }, []);
+  if (card.image_url && !broken) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img ref={imgRef} src={card.image_url} alt={card.name} onError={() => setBroken(true)} />
+    );
+  }
+  return <div className="cd-hero-fallback"><span>{card.name.slice(0, 2).toUpperCase()}</span></div>;
+}
+
 const FOCUSABLE = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
 export function CardDetailOverlay({ card, relics, onClose }: {
@@ -152,12 +171,7 @@ export function CardDetailOverlay({ card, relics, onClose }: {
         <div className="cd-scroll">
           {/* hero */}
           <div className="cd-hero">
-            {card.image_url ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={card.image_url} alt={card.name} />
-            ) : (
-              <div className="cd-hero-fallback"><span>{card.name.slice(0, 2).toUpperCase()}</span></div>
-            )}
+            <CdHeroArt card={card} />
           </div>
 
           <div className="cd-head">

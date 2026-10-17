@@ -6,10 +6,39 @@
 // deity-profile callout, and the print run. The 2.5:3.5 trading-card ratio and
 // print metrics live in globals.css; element colors are inline (--tc-el /
 // --tc-culture) so a card keeps its identity on any background.
+import { useEffect, useRef, useState } from 'react';
 import { ELEMENT_COLORS, ELEMENT_LABELS, RARITY_LABELS } from '../lib/card';
 import { ResolvedCard } from '../lib/data';
 import { CULTURE_ACCENTS } from '../lib/types';
 import Link from 'next/link';
+
+// Letter-seal fallback for a missing/broken artwork — the same pattern
+// RelicCard's RelicArt uses. The generated art is deployed separately, so an
+// <img> can break: onError catches post-hydration failures, and the mount-time
+// check catches an image that already failed before hydration. Without this a
+// missing slot flashes the browser's broken-image icon.
+function DeityArt({ card }: { card: ResolvedCard }) {
+  const [broken, setBroken] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) setBroken(true);
+  }, []);
+  if (card.image_url && !broken) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        ref={imgRef}
+        src={card.image_url}
+        alt={card.name}
+        loading="lazy"
+        decoding="async"
+        onError={() => setBroken(true)}
+      />
+    );
+  }
+  return <div className="tc-art-fallback"><span>{card.name.slice(0, 2).toUpperCase()}</span></div>;
+}
 
 // A small geometric sigil per element — hand-drawn SVG, crisp at any size, prints clean.
 function Sigil({ el, color, size = 20 }: { el: string; color: string; size?: number }) {
@@ -80,12 +109,7 @@ export function DeityCard({ card, showBack = false, size = 'md' }: { card: Resol
 
           {/* artwork window */}
           <div className="tc-art">
-            {card.image_url ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={card.image_url} alt={card.name} loading="lazy" decoding="async" />
-            ) : (
-              <div className="tc-art-fallback"><span>{card.name.slice(0, 2).toUpperCase()}</span></div>
-            )}
+            <DeityArt card={card} />
             <div className="tc-art-credit" aria-hidden="true">{card.image_credit || 'archival reconstruction'}</div>
           </div>
 

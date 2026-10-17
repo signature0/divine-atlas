@@ -126,6 +126,20 @@ export const CURRENCY: Record<string, string> = {
   japanese: 'JPN', greek: 'GRE', norse: 'NOR', egyptian: 'EGY', slavic: 'SLA', mesopotamian: 'MES',
 };
 
+/**
+ * Deterministic generated-art slot path (Phase 6). Mirrors exactly the slot the
+ * art generator writes (docs/audit/gen_art_prompts.py):
+ *   public/cards/<culture>/<culture>-<id>.png
+ * → the browser path /cards/<culture>/<culture>-<id>.png.
+ *
+ * Deliberately PURE: card.ts is imported by client card faces, so the
+ * build-time `fs.existsSync` check lives in the server-only resolver
+ * app/lib/art-slot.ts instead. Slot naming is defined once, here.
+ */
+export function artSlotPath(culture: string, id: string): string {
+  return `/cards/${culture}/${culture}-${id}.png`;
+}
+
 /** Derive the card for one entity. `index` is the deity's ordinal within its culture (1-based). */
 export function deriveCard(e: Entity, index: number): DeityCard {
   const element = elementOf(e.domains);
