@@ -3,6 +3,9 @@ import { ALL_CULTURES, loadCulture, allCards } from './lib/data';
 import { domainSlug } from './lib/domain';
 import { SourceRef } from './lib/types';
 import { DeityCard } from './components/DeityCard';
+import { HomeCarousel, type CarouselSlide } from './components/HomeCarousel';
+import { firstSentence } from './components/HeroBanner';
+import { resolveBannerSlot } from './lib/banner-slot';
 void ({} as SourceRef);
 
 export default function Home() {
@@ -33,26 +36,68 @@ export default function Home() {
   const totalE = cultures.reduce((s, d) => s + d.entities.length, 0);
   const totalR = cultures.reduce((s, d) => s + d.relationships.length, 0);
   const totalM = cultures.reduce((s, d) => s + d.myths.length, 0);
+  const totalA = cultures.reduce((s, d) => s + d.artworks.length, 0);
+
+  // Home hero carousel (v2 Phase 3): every content category, each reusing the
+  // unique interim backdrop of its own page banner. Banner art slots resolve at
+  // build time on the server; the client carousel only receives paths/null.
+  const slides: CarouselSlide[] = [
+    ...ALL_CULTURES.map((c) => {
+      const d = loadCulture(c);
+      return {
+        key: c,
+        href: `/culture/${c}`,
+        eyebrow: 'Pantheon',
+        title: d.meta.name,
+        tagline: firstSentence(d.meta.framing_note),
+        variant: c,
+        imageSlot: resolveBannerSlot(`home-slide-${c}`),
+      };
+    }),
+    {
+      key: 'relics', href: '/artifacts', eyebrow: 'The Vault', title: 'The Relics',
+      tagline: 'Hammers and mirrors, crowns and tablets — the objects gods made, wielded, and lost.',
+      variant: 'relics', imageSlot: resolveBannerSlot('home-slide-relics'),
+    },
+    {
+      key: 'cards', href: '/cards', eyebrow: 'The Deck', title: 'Every god, as a card',
+      tagline: 'The whole Atlas as a collectible deck, each card derived from its god\u2019s verified profile.',
+      variant: 'cards', imageSlot: resolveBannerSlot('home-slide-cards'),
+    },
+    {
+      key: 'game', href: '/play', eyebrow: 'The Game', title: 'The duel table',
+      tagline: 'A two-player hot-seat duel on real Atlas data — channel essence and topple the Cosmic Pillar.',
+      variant: 'play', imageSlot: resolveBannerSlot('home-slide-game'),
+    },
+    {
+      key: 'graph', href: '/graph', eyebrow: 'The Graph', title: 'The relationship explorer',
+      tagline: 'Every entity, every typed relationship, every confidence — across six traditions on one canvas.',
+      variant: 'graph', imageSlot: resolveBannerSlot('home-slide-graph'),
+    },
+    {
+      key: 'stories', href: '/stories', eyebrow: 'Story mode', title: 'The stories',
+      tagline: 'Every myth told chapter by chapter, with its sources, participants, and surviving variants.',
+      variant: 'stories', imageSlot: resolveBannerSlot('home-slide-stories'),
+    },
+  ];
 
   return (
     <>
-      {/* HERO — .home-hero in globals.css (DES-007: top padding collapses at <=560px) */}
-      <section className="home-hero">
-        <div aria-hidden style={{ position: 'absolute', inset: 0, opacity: 0.05, background:
-          'radial-gradient(1200px 500px at 20% 0%, var(--accent), transparent 60%), radial-gradient(900px 500px at 80% 100%, var(--accent-2), transparent 60%)' }} />
-        <div className="container" style={{ position: 'relative' }}>
-          <span className="eyebrow">A museum of the world&apos;s divine imagination</span>
-          <h1 className="display-xl" style={{ marginTop: 18, maxWidth: 900 }}>
-            The Divine Atlas
-          </h1>
-          <p className="muted" style={{ maxWidth: 640, marginTop: 22, fontSize: '1.1rem' }}>
+      {/* HERO — accessible home carousel (v2 Phase 3). One sr-only h1 keeps the
+          page's single h1; slide titles are h2. */}
+      <h1 className="sr-only">The Divine Atlas — an interactive museum of world mythology</h1>
+      <HomeCarousel slides={slides} />
+
+      {/* Intro strip preserved from the former .home-hero — the site lede + entry CTAs. */}
+      <section className="section-sm home-intro">
+        <div className="container">
+          <p className="muted" style={{ maxWidth: 700, margin: 0, fontSize: '1.05rem' }}>
             An interactive codex of {cultures.length} mythologies — Japanese, Greek, Norse, Egyptian,
             Slavic, and Mesopotamian. {totalE} entities, {totalR} typed relationships, {totalM} myths,
-            and {cultures.reduce((s, d) => s + d.artworks.length, 0)} verified artworks, each claim
-            carried by its sources.
+            and {totalA} verified artworks, each claim carried by its sources.
           </p>
-          <div style={{ display: 'flex', gap: 12, marginTop: 32, flexWrap: 'wrap' }}>
-            <Link href="/culture/japanese" className="btn" style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}>
+          <div style={{ display: 'flex', gap: 12, marginTop: 22, flexWrap: 'wrap' }}>
+            <Link href="/culture/japanese" className="btn" style={{ borderColor: 'var(--accent)', color: 'var(--accent-text)' }}>
               Enter the Japanese gallery →
             </Link>
             <Link href="/about" className="btn">How this is built</Link>

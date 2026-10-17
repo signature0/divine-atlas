@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { CompareWidget } from './CompareWidget';
 import { ALL_CULTURES, loadCulture } from '../lib/data';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = { title: 'The Comparator' };
 
@@ -11,18 +13,15 @@ export default function ComparePage() {
   });
   return (
     <div>
-      <header style={{ padding: '64px 0 32px', borderBottom: '1px solid var(--line)' }}>
-        <div className="container">
-          <span className="eyebrow">Cross-cultural comparator</span>
-          <h1 className="display-l" style={{ marginTop: 10 }}>Compare the gods</h1>
-          <hr className="mat-band" style={{ width: 140 }} />
-          <p className="muted small" style={{ maxWidth: 680, marginTop: 14 }}>
-            Pick two deities from any cultures. The comparator shows attribute-by-attribute overlap
-            and states explicitly when a connection is structural (ours to note) versus attested
-            (in the sources).
-          </p>
-        </div>
-      </header>
+      <HeroBanner
+        as="h1"
+        slot="page-compare"
+        culture="compare"
+        eyebrow="Cross-cultural comparator"
+        title="Compare the gods"
+        tagline="Pick two deities from any cultures: attribute-by-attribute overlap, with structural connections stated apart from attested ones."
+        imageSlot={resolveBannerSlot('page-compare')}
+      />
       <div className="container section">
         <CompareWidget all={all} />
       </div>

@@ -1,5 +1,12 @@
 # Changelog — Divine Atlas overhaul
 
+## Phase 3 (v2) — Hero banners + home carousel — 2026-10-17
+- New `HeroBanner` component: full-bleed banner, gradient scrim (AA text), unique per-page CSS/SVG interim backdrop (culture accent + pantheon icon), 24 banner art slots defined (`public/banners/*.png`, 21:9 2016×864) documented in ART_STYLES.md §9 + 24 new prompt entries under `banners` key in data/art-prompts.json.
+- Applied to all 14 main pages (6 cultures, Relics, Cards, Play, Graph, Stories, Compare, About, Home); exactly one h1 per page (sr-only h1 on home where carousel carries the title).
+- Home carousel: 11 slides (6 pantheons + Relics/Cards/Game/Graph/Stories), auto-advance 6s, pause on hover/touch/hidden, swipe ≥40px, 13 dots + 2 arrows, keyboard (←/→/Home/End), inert+aria-hidden inactive slides, reduced-motion disables autoplay+transitions, lazy backdrops.
+- QA: Playwright 42/42 (hero present + 1 h1 on all 14 pages, 14/14 distinct backdrops, carousel aria/behavior incl. auto-advance, hover-pause, arrows, keyboard, reduced-motion, 380px no-overflow, title 32px); vision QA clean (programmatic check disproved eyebrow-clipping flag — letter-spacing artifact). Gates green.
+- Worker: OpenCode deepseek-v4.1-flash-free (v2-phase3-heroes).
+
 ## Phase 2 (v2) — Navigation redesign — 2026-10-17
 - `TopNav.tsx` reworked to primary-only: Religions (dropdown, six pantheons w/ custom icons) · Relics · Cards · Search · More (grouped: Play/Explore/About). Active-section highlight via usePathname; keyboard + Escape + outside-click with focus return; z-index discipline (nav 50 < overlay 80 < search 100).
 - New `app/components/icons.tsx`: 24×24 line-style SVG set (stroke 1.75, currentColor): torii/bolt/Mjölnir/ankh/rosette/cuneiform-star + Religions/Home/Relic/Cards/Play/Graph/Stories/Compare/Vault/Search/More/Menu/Close/Chevron/Book/Board/About. 23 inline SVGs in nav; zero icon fonts.

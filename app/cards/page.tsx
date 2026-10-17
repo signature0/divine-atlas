@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { allCards, allArtifacts, ALL_CULTURES, loadCulture } from '../lib/data';
 import { CardDeck } from '../components/CardDeck';
 import type { DeckRelics } from '../components/CardDeck';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = {
   title: 'The Deck — Deity Cards',
@@ -25,25 +27,28 @@ export default function CardsPage() {
 
   return (
     <div data-culture="egyptian">
-      <header className="deck-hero">
-        <div className="container">
-          <span className="eyebrow">The Deck</span>
-          <h1 className="display-xl" style={{ marginTop: 14 }}>Every god, as a card</h1>
-          <p className="muted" style={{ maxWidth: 660, marginTop: 18, fontSize: '1.05rem', lineHeight: 1.6 }}>
-            A trading-card reading of the entire Atlas — {cards.length} deities across{' '}
-            {ALL_CULTURES.length} pantheons. Each card is derived directly from the
-            verified data on the god&apos;s profile (domains, symbols, weapons, sources);
-            the power numbers are <em>interpretive</em>, in the same spirit as the Vault&apos;s tiers.
-            {' '}{mythics} are Mythic. Hover a card to flip it; open it for the print-ready card.
-          </p>
-          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 26 }}>
-            <a href="#deck" className="btn">Browse the deck ↓</a>
-            <Link href="/how-to-play" className="btn">How to play</Link>
-            <Link href="/cards/print" className="btn">Open print sheet</Link>
-            <Link href="/artifacts" className="btn">The Vault</Link>
-          </div>
+      <HeroBanner
+        as="h1"
+        slot="page-cards"
+        culture="cards"
+        eyebrow="The Deck"
+        title="Every god, as a card"
+        tagline={`A trading-card reading of the entire Atlas — ${cards.length} deities across ${ALL_CULTURES.length} pantheons, each derived from its god's verified profile.`}
+        imageSlot={resolveBannerSlot('page-cards')}
+      >
+        <a href="#deck" className="btn">Browse the deck ↓</a>
+        <Link href="/how-to-play" className="btn">How to play</Link>
+        <Link href="/cards/print" className="btn">Open print sheet</Link>
+        <Link href="/artifacts" className="btn">The Vault</Link>
+      </HeroBanner>
+
+      <div className="container" style={{ paddingTop: 24 }}>
+        <div className="mono" style={{ color: 'var(--ink-2)', display: 'flex', gap: 18, flexWrap: 'wrap' }}>
+          <span>{cards.length} cards</span>
+          <span>{ALL_CULTURES.length} pantheons</span>
+          <span>{mythics} mythic</span>
         </div>
-      </header>
+      </div>
 
       <section className="section-sm" style={{ paddingBottom: 8 }}>
         <div className="container">

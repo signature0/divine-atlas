@@ -1,18 +1,22 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = { title: 'How this is built' };
 
 export default function About() {
   return (
     <div>
-      <header style={{ padding: '72px 0 40px', borderBottom: '1px solid var(--line)' }}>
-        <div className="container">
-          <span className="eyebrow">Method</span>
-          <h1 className="display-l" style={{ marginTop: 10 }}>How the Atlas is built</h1>
-          <hr className="mat-band" style={{ width: 140 }} />
-        </div>
-      </header>
+      <HeroBanner
+        as="h1"
+        slot="page-about"
+        culture="about"
+        eyebrow="Method"
+        title="How the Atlas is built"
+        tagline="Every nontrivial claim carries a real, named source — enforced at build time, not by good intentions."
+        imageSlot={resolveBannerSlot('page-about')}
+      />
       <div className="container section" style={{ maxWidth: 860 }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 40, color: 'var(--ink-0)', lineHeight: 1.75 }}>
           <section>

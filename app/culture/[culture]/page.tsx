@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ALL_CULTURES, loadCulture } from '../../lib/data';
+import { HeroBanner, firstSentence } from '../../components/HeroBanner';
+import { resolveBannerSlot } from '../../lib/banner-slot';
 import { FramingBanner } from '../../components/FramingBanner';
 import { CosmologyMap } from '../../components/CosmologyMap';
 import { GraphViewSwitch } from '../../components/GraphViewSwitch';
@@ -36,23 +38,28 @@ export default async function CulturePage({ params }: { params: Promise<{ cultur
 
   return (
     <div data-culture={d.culture}>
-      {/* header */}
-      <header style={{ padding: '72px 0 40px', background: `linear-gradient(180deg, ${meta.palette.surface} 0%, var(--bg-0) 100%)`, borderBottom: '1px solid var(--line)' }}>
-        <div className="container">
-          <span className="eyebrow">Gallery · {meta.period}</span>
-          <h1 className="display-xl" style={{ marginTop: 12 }}>{meta.name}</h1>
-          {meta.native_label && <div className="native" style={{ fontSize: '1.3rem', color: 'var(--ink-1)', marginTop: 6 }}>{meta.native_label}</div>}
-          <div className="mono" style={{ color: 'var(--ink-2)', marginTop: 14, display: 'flex', gap: 18, flexWrap: 'wrap' }}>
-            <span>{d.entities.length} entities</span>
-            <span>{d.relationships.length} relationships</span>
-            <span>{d.myths.length} myths</span>
-            <span>{d.artworks.length} artworks</span>
-          </div>
-          <div style={{ marginTop: 26, maxWidth: 820 }}>
-            <FramingBanner culture={meta} />
-          </div>
+      {/* header — HeroBanner carries the page's single h1; stats + framing stay below */}
+      <HeroBanner
+        as="h1"
+        slot={`page-${d.culture}`}
+        culture={d.culture}
+        eyebrow={`Gallery · ${meta.period}`}
+        title={meta.name}
+        native={meta.native_label}
+        tagline={firstSentence(meta.framing_note)}
+        imageSlot={resolveBannerSlot(`page-${d.culture}`)}
+      />
+      <div className="container" style={{ paddingTop: 28 }}>
+        <div className="mono" style={{ color: 'var(--ink-2)', display: 'flex', gap: 18, flexWrap: 'wrap' }}>
+          <span>{d.entities.length} entities</span>
+          <span>{d.relationships.length} relationships</span>
+          <span>{d.myths.length} myths</span>
+          <span>{d.artworks.length} artworks</span>
         </div>
-      </header>
+        <div style={{ marginTop: 22, maxWidth: 820 }}>
+          <FramingBanner culture={meta} />
+        </div>
+      </div>
 
       {/* cosmology */}
       <section className="section">

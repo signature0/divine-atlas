@@ -239,3 +239,77 @@ A relic prompt is assembled by `artifact_prompt`:
 4. composition (hero object, three-quarter view, single-source light, faint aura),
 5. aspect-ratio sentence,
 6. style tag.
+
+---
+
+## 9. Banner slots (v2 Phase 3)
+
+Banners are a **separate art contract from the 5:7 card slots**. They back the
+`HeroBanner` component on every main page and the home hero carousel, and are the
+Phase-5 generation target.
+
+| Property | Value |
+|---|---|
+| Slot path (disk) | `public/banners/<slot>.png` |
+| Slot path (web) | `/banners/<slot>.png` |
+| Aspect ratio | **21:9 landscape** |
+| Resolution | **2016 × 864** (PNG) |
+
+### 9.1 Slot list (24)
+
+**Home carousel slides (11)** — one per content category:
+
+| Slot | Links to |
+|---|---|
+| `home-slide-japanese` | `/culture/japanese` |
+| `home-slide-greek` | `/culture/greek` |
+| `home-slide-norse` | `/culture/norse` |
+| `home-slide-egyptian` | `/culture/egyptian` |
+| `home-slide-slavic` | `/culture/slavic` |
+| `home-slide-mesopotamian` | `/culture/mesopotamian` |
+| `home-slide-relics` | `/artifacts` |
+| `home-slide-cards` | `/cards` |
+| `home-slide-game` | `/play` |
+| `home-slide-graph` | `/graph` |
+| `home-slide-stories` | `/stories` |
+
+**Page banners (13)** — one per main page:
+
+| Slot | Page |
+|---|---|
+| `page-japanese` · `page-greek` · `page-norse` · `page-egyptian` · `page-slavic` · `page-mesopotamian` | `/culture/<id>` |
+| `page-relics` | `/artifacts` (the Vault) |
+| `page-cards` | `/cards` |
+| `page-play` | `/play` |
+| `page-graph` | `/graph` |
+| `page-stories` | `/stories` |
+| `page-compare` | `/compare` |
+| `page-about` | `/about` |
+
+### 9.2 Resolution & fallback
+
+`app/lib/banner-slot.ts` (server-only, mirrors `app/lib/art-slot.ts`) checks each
+slot at **build time**. A slot is used only when the PNG exists on disk; there is
+no runtime request for a missing image. Until the Phase-5 art lands, each page
+renders a **unique interim backdrop** — layered gradients plus a large
+low-opacity culture/page icon from `app/components/icons.tsx`, tinted per
+culture (or page) — so the site never shows one shared placeholder image. The
+same backdrop component is reused by the home carousel per slide.
+
+### 9.3 Prompt contract
+
+Prompts live under the new top-level `banners` key of `data/art-prompts.json`
+(24 entries; same field shape as `items`, `kind: "banner"`, `gender: "none"`,
+`slot: public/banners/<slot>.png`). Each subject is a pantheon-defining myth
+scene grounded in the existing `data/<culture>/myths.json` (or, for the shared
+feature pages, the site's own content) — no invention. The shared composition
+sentence:
+
+> Composition: wide landscape banner (21:9), panoramic cinematic staging, subject
+> centered with generous side space kept clear for title overlay, dark
+> bottom-weighted scrim area, no important detail at the frame edges.
+
+Each prompt ends with the per-culture style tag from §7 (or the `pan-Atlas
+codex` style for cross-culture feature pages) and `Aspect ratio 21:9
+(2016x864)`. The negative prompt is the same `NEG` default from §6.
+

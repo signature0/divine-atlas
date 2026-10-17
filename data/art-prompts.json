@@ -1819,5 +1819,247 @@
    "prompt": "Ame-no-Nuboko (天沼矛), the tool of Japanese myth: A long celestial lance / scepter held or displayed by Izanagi. Origin: The instrument of the island-forming, the emblem of the creative act. [S1] Composition: the relic as hero object, three-quarter view, dramatic single-source light, faint aura of its element, card-safe margins. Art style: Japanese ukiyo-e and Yamato-e painterly style: washi paper texture, vermilion and indigo with gold-leaf clouds, flowing silk kariginen and junihitoe layers, pine, crane and sakura motifs, flat mist bands (suyari-gasumi), crisp ink outlines. Aspect ratio 5:7 portrait (1024x1440).",
    "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
   }
+ ],
+ "banners": [
+  {
+   "id": "home-slide-japanese",
+   "kind": "banner",
+   "culture": "japanese",
+   "name": "Japanese pantheon — the Heavenly Rock-Cave",
+   "gender": "none",
+   "slot": "public/banners/home-slide-japanese.png",
+   "prompt": "The heavenly rock-cave (Ama-no-Iwato): Amaterasu, the sun goddess, hidden within the cave while the assembled gods lure her back with music and the Yata no Kagami mirror hung on the sakaki tree, drawn from the Kojiki legend (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Japanese ukiyo-e and Yamato-e painterly style: washi paper texture, vermilion and indigo with gold-leaf clouds, flowing silk kariginen and junihitoe layers, pine, crane and sakura motifs, flat mist bands (suyari-gasumi), crisp ink outlines. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-greek",
+   "kind": "banner",
+   "culture": "greek",
+   "name": "Greek pantheon — the Titanomachy",
+   "gender": "none",
+   "slot": "public/banners/home-slide-greek.png",
+   "prompt": "The Titanomachy: Zeus leading the Olympians and the Hundred-Handed Ones against the Titans, thunderbolts falling on Mount Othrys, drawn from Hesiod's Theogony, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Greek black-figure and red-figure vase-painting fused with heroic Renaissance oil painting: marble-white flesh, draped chiton himation cloth, terracotta and marigold ochre palette, Meandros and laurel border motifs, idealized heroic anatomy, flat decorative background with a single column or tree. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-norse",
+   "kind": "banner",
+   "culture": "norse",
+   "name": "Norse pantheon — Ragnarök",
+   "gender": "none",
+   "slot": "public/banners/home-slide-norse.png",
+   "prompt": "Ragnarök: the great winter's end, the wolf Fenrir breaking his bonds, the world-tree Yggdrasil shaking and fire giants crossing the rainbow bridge, drawn from the Völuspá, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Cold rugged Norse painterly style: birch-wood and wet-slate palette, aurora-green and ice-blue light, carved Urnes-style ribbon beasts, fur, wool and riveted iron, mist over fjord and ash tree, dramatic low northern sun. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-egyptian",
+   "kind": "banner",
+   "culture": "egyptian",
+   "name": "Egyptian pantheon — the murder of Osiris and Isis restoring him",
+   "gender": "none",
+   "slot": "public/banners/home-slide-egyptian.png",
+   "prompt": "The murder of Osiris: Set's closed coffin carried on the Nile, then Isis reassembling the scattered body of Osiris into the first mummy while the jackal Anubis attends, in torch-lit sandstone and strict registers, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Ancient Egyptian temple-relief fused with gold-leaf painterly style: profile-composite canon, lapis lazuli and gold palette, linen shendyt, broad collars, hieroglyph column background, torch-lit sandstone, strict registers. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-slavic",
+   "kind": "banner",
+   "culture": "slavic",
+   "name": "Slavic pantheon — the Perun–Veles conflict (reconstructed)",
+   "gender": "none",
+   "slot": "public/banners/home-slide-slavic.png",
+   "prompt": "The reconstructed Perun–Veles conflict: the sky-thunder-god Perun striking the underworld serpent-god Veles with thunder across the three-layered world, badged as a scholarly reconstruction, oak forest and deep sky, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Eastern-Slavic folk-icon meets forest-realism painterly style: deep forest green, ember red and birch white, embroidered vyshyvanka linen, oak and birch forest, onion-domed horizon, warm candlelight on gilded halo. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-mesopotamian",
+   "kind": "banner",
+   "culture": "mesopotamian",
+   "name": "Mesopotamian pantheon — the Enuma Elish",
+   "gender": "none",
+   "slot": "public/banners/home-slide-mesopotamian.png",
+   "prompt": "The Enuma Elish: Marduk facing the primordial sea-dragon Tiamat, splitting her body to make sky and earth, holding the Tablet of Destinies beneath a horned divine crown, framed in cylinder-seal registers, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Ancient Mesopotamian cylinder-seal and palace-relief fused with oil painting: baked-clay ochre and lapis palette, horned divine crown, cuneiform-stamped background, winged-bull and palm motifs, Tigris reed light, layered ziggurat horizon. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-japanese",
+   "kind": "banner",
+   "culture": "japanese",
+   "name": "Japanese gallery — the High Plain of Heaven",
+   "gender": "none",
+   "slot": "public/banners/page-japanese.png",
+   "prompt": "The High Plain of Heaven (Takamagahara): the first-born deities on the Floating Bridge of Heaven as Izanagi and Izanami stir the primeval brine with the Ame-no-Nuboko spear and the islands of Japan form below, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Japanese ukiyo-e and Yamato-e painterly style: washi paper texture, vermilion and indigo with gold-leaf clouds, flowing silk kariginen and junihitoe layers, pine, crane and sakura motifs, flat mist bands (suyari-gasumi), crisp ink outlines. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-greek",
+   "kind": "banner",
+   "culture": "greek",
+   "name": "Greek gallery — the throne of Olympus",
+   "gender": "none",
+   "slot": "public/banners/page-greek.png",
+   "prompt": "Mount Olympus with the Twelve Olympians assembled above the clouds, a single marble column and a laurel tree framing the gathering, terracotta and marble in heroic dignity, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Greek black-figure and red-figure vase-painting fused with heroic Renaissance oil painting: marble-white flesh, draped chiton himation cloth, terracotta and marigold ochre palette, Meandros and laurel border motifs, idealized heroic anatomy, flat decorative background with a single column or tree. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-norse",
+   "kind": "banner",
+   "culture": "norse",
+   "name": "Norse gallery — the creation from Ymir",
+   "gender": "none",
+   "slot": "public/banners/page-norse.png",
+   "prompt": "The creation from Ymir: the rime-giant's body becoming the world — skull the sky, blood the seas, bones the mountains — beneath the ash Yggdrasil between the ice of Niflheim and the fire of Muspelheim, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Cold rugged Norse painterly style: birch-wood and wet-slate palette, aurora-green and ice-blue light, carved Urnes-style ribbon beasts, fur, wool and riveted iron, mist over fjord and ash tree, dramatic low northern sun. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-egyptian",
+   "kind": "banner",
+   "culture": "egyptian",
+   "name": "Egyptian gallery — the Heliopolitan creation",
+   "gender": "none",
+   "slot": "public/banners/page-egyptian.png",
+   "prompt": "The Heliopolitan creation: Atum-Ra rising from the primordial waters of Nun upon the benben mound, the Ennead taking shape around the first sunrise in gold and lapis, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Ancient Egyptian temple-relief fused with gold-leaf painterly style: profile-composite canon, lapis lazuli and gold palette, linen shendyt, broad collars, hieroglyph column background, torch-lit sandstone, strict registers. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-slavic",
+   "kind": "banner",
+   "culture": "slavic",
+   "name": "Slavic gallery — the three-layered world",
+   "gender": "none",
+   "slot": "public/banners/page-slavic.png",
+   "prompt": "The three-layered Slavic cosmos: the Sky (Nebo) above, the Earth (Zemlya) in the middle and the Underworld (Nav) below, joined by the world tree and the sun-horse's journey, marked as reconstructed, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Eastern-Slavic folk-icon meets forest-realism painterly style: deep forest green, ember red and birch white, embroidered vyshyvanka linen, oak and birch forest, onion-domed horizon, warm candlelight on gilded halo. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-mesopotamian",
+   "kind": "banner",
+   "culture": "mesopotamian",
+   "name": "Mesopotamian gallery — Inanna's descent",
+   "gender": "none",
+   "slot": "public/banners/page-mesopotamian.png",
+   "prompt": "Inanna's descent to the underworld: the goddess passing the seven gates and shedding a jewel at each, approaching Ereshkigal's dark throne amid cuneiform-stamped walls and lapis, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: Ancient Mesopotamian cylinder-seal and palace-relief fused with oil painting: baked-clay ochre and lapis palette, horned divine crown, cuneiform-stamped background, winged-bull and palm motifs, Tigris reed light, layered ziggurat horizon. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-relics",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The Relics of the six pantheons",
+   "gender": "none",
+   "slot": "public/banners/home-slide-relics.png",
+   "prompt": "A single hoard of mythic relics gathered in a dark vault: Kusanagi-no-Tsurugi, the Yata no Kagami, the Thunderbolt of Zeus, Mjölnir, the Pschent double crown, Perun's Thunderbolt Axe, and the Tablets of Destiny, each on a stone plinth under one shaft of light, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-cards",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The Deck — every god as a card",
+   "gender": "none",
+   "slot": "public/banners/home-slide-cards.png",
+   "prompt": "Deities of the six pantheons rendered as collectible cards fanned across a dark table, each card painted in its own tradition's style, element sigils and power pips visible, the Atlas codex behind, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-game",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "Pantheon — the duel",
+   "gender": "none",
+   "slot": "public/banners/home-slide-game.png",
+   "prompt": "Two pantheons facing each other across a duelling mat, the Cosmic Pillar standing at its centre, essence channelled between the two seats and cards poised as combatants, drawn from the printable mat, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-graph",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The relationship graph",
+   "gender": "none",
+   "slot": "public/banners/home-slide-graph.png",
+   "prompt": "The divine web: nodes and typed edges linking the gods of six traditions on one canvas, glowing lines of confidence — solid, dashed and dotted — crossing the dark field, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "home-slide-stories",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The stories",
+   "gender": "none",
+   "slot": "public/banners/home-slide-stories.png",
+   "prompt": "An open codex in a dark library, myth scenes spilling from its pages — a rock-cave, a thunderbolt, a flood, a descent to the underworld — each captioned with a source marker, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-relics",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The Divine Vault",
+   "gender": "none",
+   "slot": "public/banners/page-relics.png",
+   "prompt": "The Divine Vault: the mythic relics on stone plinths in a dark museum hall — Kusanagi-no-Tsurugi, the Aegis, Mjölnir, the Pschent, Perun's Thunderbolt Axe and the Tablets of Destiny — each labelled with its owner and tier, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-cards",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The Deck — reading a card",
+   "gender": "none",
+   "slot": "public/banners/page-cards.png",
+   "prompt": "A single illuminated deity card on a dark table, its element sigil, PWR/GRD pips and source line legible, with the rest of the deck fanned behind it in six traditions' styles, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-play",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The duel table",
+   "gender": "none",
+   "slot": "public/banners/page-play.png",
+   "prompt": "A printed duelling mat with two card hands, essence tokens and the Cosmic Pillar, lit from above and ready for a hot-seat two-player duel, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-graph",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The relationship explorer",
+   "gender": "none",
+   "slot": "public/banners/page-graph.png",
+   "prompt": "A six-colour constellation of divine nodes and labelled relationship edges, one magnified cluster of gods showing typed family, rivalry and creation links, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-stories",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "Chapters of myth",
+   "gender": "none",
+   "slot": "public/banners/page-stories.png",
+   "prompt": "A long study table of open books, one per culture, each showing a myth chapter with its participants and source footnotes under warm candlelight, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-compare",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "The Comparator",
+   "gender": "none",
+   "slot": "public/banners/page-compare.png",
+   "prompt": "A great balance scale weighing two deities' attributes against each other — domains, symbols and stats as glowing tokens on either pan — with the two gods mirrored in the background, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  },
+  {
+   "id": "page-about",
+   "kind": "banner",
+   "culture": "pan",
+   "name": "How the Atlas is built",
+   "gender": "none",
+   "slot": "public/banners/page-about.png",
+   "prompt": "A scholar's workshop where method is made visible: a wall map of the graph of gods, source folios, a validation ledger, and a single column of cuneiform and runes under a lamp, drawn from the original legends (not modern pop-culture). Composition: wide landscape banner (21:9), panoramic cinematic staging, subject centered with generous side space kept clear for title overlay, dark bottom-weighted scrim area, no important detail at the frame edges. Art style: pan-Atlas codex style: deep charcoal archival ground, gilded and lapis accents, painterly mythic realism, open-license museum texture, subtle codex grain. Aspect ratio 21:9 (2016x864).",
+   "negative_prompt": "photograph, photorealistic, 3d render, anime, cartoon, modern clothing, modern objects, text, watermark, logo, signature, deformed hands, extra fingers, mutated anatomy, blurry, lowres, disrespectful or mocking depiction of the subject, contemporary political symbols"
+  }
  ]
 }

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { ALL_CULTURES, loadCulture } from '../lib/data';
 import { SourceFootnote } from '../components/SourceFootnote';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = { title: 'The stories' };
 
@@ -10,17 +12,15 @@ export default function StoriesPage() {
 
   return (
     <div>
-      <header style={{ padding: '64px 0 32px', borderBottom: '1px solid var(--line)' }}>
-        <div className="container">
-          <span className="eyebrow">Story mode</span>
-          <h1 className="display-l" style={{ marginTop: 10 }}>The stories</h1>
-          <hr className="mat-band" style={{ width: 140 }} />
-          <p className="muted small" style={{ maxWidth: 680, marginTop: 14 }}>
-            {totalM} myths across {cultures.length} cultures — each told chapter by chapter with
-            its sources, its participants, and its surviving variants.
-          </p>
-        </div>
-      </header>
+      <HeroBanner
+        as="h1"
+        slot="page-stories"
+        culture="stories"
+        eyebrow="Story mode"
+        title="The stories"
+        tagline={`${totalM} myths across ${cultures.length} cultures — each told chapter by chapter with its sources, its participants, and its surviving variants.`}
+        imageSlot={resolveBannerSlot('page-stories')}
+      />
 
       {cultures.map((d) => (
         <section key={d.culture} className="section">

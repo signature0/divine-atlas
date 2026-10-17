@@ -4,6 +4,8 @@ import { allArtifacts, allRelicCards } from '../lib/data';
 import type { RelicCard as RelicCardData } from '../lib/relic-card';
 import { TIER_LABELS, RANK_ORDER, TIER_ORDER, CATEGORY_LABELS, STATUS_LABELS, CONFIDENCE_LABELS } from '../lib/types';
 import { VaultClient } from './VaultClient';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = {
   title: 'The Divine Vault — Artifacts & Relics',
@@ -91,19 +93,20 @@ export default function VaultPage() {
 
   return (
     <div>
-      {/* DES-010: tightened header padding (64/28 -> 44/20) and 96px section top -> 32px so the
-          filter bar + first card row reach the fold at 1440; disclaimer moved to the filter row. */}
-      <header style={{ padding: '44px 0 20px', borderBottom: '1px solid var(--line)' }}>
-        <div className="container">
-          <span className="eyebrow">The Divine Vault · Artifacts &amp; Relics</span>
-          <h1 className="display-l" style={{ marginTop: 10 }}>Every sacred object, one archive</h1>
-          <hr className="mat-band" style={{ width: 140 }} />
-          <p className="muted small" style={{ maxWidth: 720, marginTop: 12 }}>
-            Hammers and mirrors, crowns and tablets — the objects gods made, wielded, and lost.
-            Filter by tradition, object type, or Atlas classification; search by name, power, or owner.
-          </p>
-        </div>
-      </header>
+      <HeroBanner
+        as="h1"
+        slot="page-relics"
+        culture="relics"
+        eyebrow="The Divine Vault · Artifacts &amp; Relics"
+        title="Every sacred object, one archive"
+        tagline="Hammers and mirrors, crowns and tablets — the objects gods made, wielded, and lost."
+        imageSlot={resolveBannerSlot('page-relics')}
+      />
+      <div className="container" style={{ paddingTop: 24 }}>
+        <p className="muted small" style={{ maxWidth: 720, margin: 0 }}>
+          Filter by tradition, object type, or Atlas classification; search by name, power, or owner.
+        </p>
+      </div>
       <div className="container section" style={{ paddingTop: 32 }}>
         <Suspense fallback={<div className="muted" style={{ padding: '40px 0' }}>Opening the vault…</div>}>
           <VaultClient

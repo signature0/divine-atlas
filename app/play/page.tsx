@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { DuelClient } from '../components/play/DuelClient';
+import { HeroBanner } from '../components/HeroBanner';
+import { resolveBannerSlot } from '../lib/banner-slot';
 
 export const metadata: Metadata = {
   title: 'Play — hot-seat duel',
@@ -10,23 +12,19 @@ export const metadata: Metadata = {
 export default function PlayPage() {
   return (
     <div className="play-page">
-      <header className="deck-hero">
-        <div className="container">
-          <span className="eyebrow">Play</span>
-          <h1 className="display-xl" style={{ marginTop: 14 }}>The duel table</h1>
-          <p className="muted" style={{ maxWidth: 680, marginTop: 18, fontSize: '1.05rem', lineHeight: 1.6 }}>
-            A true two-player hot-seat prototype, played on real Atlas data — every
-            card&apos;s element, PWR, GRD and essence come straight from the deck you
-            browsed. Same seed, same shuffle: a duel is fully reproducible. Pass one
-            device back and forth, or play both sides yourself.
-          </p>
-          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 26 }}>
-            <Link href="/how-to-play" className="btn">How to play</Link>
-            <Link href="/how-to-play/board" className="btn">Printable board</Link>
-            <Link href="/cards" className="btn">The Deck</Link>
-          </div>
-        </div>
-      </header>
+      <HeroBanner
+        as="h1"
+        slot="page-play"
+        culture="play"
+        eyebrow="Play"
+        title="The duel table"
+        tagline="A true two-player hot-seat prototype, played on real Atlas data — same seed, same shuffle; a duel is fully reproducible."
+        imageSlot={resolveBannerSlot('page-play')}
+      >
+        <Link href="/how-to-play" className="btn">How to play</Link>
+        <Link href="/how-to-play/board" className="btn">Printable board</Link>
+        <Link href="/cards" className="btn">The Deck</Link>
+      </HeroBanner>
 
       <section className="section-sm" style={{ paddingTop: 0 }}>
         <div className="container">
