@@ -21,3 +21,6 @@ Extras: per-religion accents, banner parallax+fade-in, lazy/WebP verify, relic<-
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> BACKLOG (2026-10-21) — partial: relic<->god links + parallax + webp done; remaining: random god/relic button, combined search+tag+religion filter UI, per-religion banner accents

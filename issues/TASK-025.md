@@ -2,7 +2,7 @@
 id: TASK-025
 title: Relic art v3: 26 legendary cinematic relic images on node2 Qwen-Image, god-card style/ratio
 type: TASK
-status: BACKLOG
+status: REVIEW
 priority: high
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Relic art v3: 26 legendary cinematic relic images on node2 Qwen-Image, god-card 
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — 26 relic paintings generated on node2, wired to slots, art gate 0-missing, live on branch alias
