@@ -4,7 +4,7 @@
 // heavy dependency, and the @media print rules in globals.css isolate the card.
 export function PrintButton({ label = 'Save as PDF' }: { label?: string }) {
   return (
-    <button className="btn print-btn" onClick={() => window.print()}>
+    <button className="btn btn-secondary print-btn" onClick={() => window.print()}>
       {label} <span aria-hidden="true">⤓</span>
     </button>
   );

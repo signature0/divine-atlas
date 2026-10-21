@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { allCards, allArtifacts, ALL_CULTURES, loadCulture } from '../lib/data';
+import { allCards, ALL_CULTURES, loadCulture, relicsForDeity } from '../lib/data';
 import { CardDeck } from '../components/CardDeck';
 import type { DeckRelics } from '../components/CardDeck';
 import { HeroBanner } from '../components/HeroBanner';
@@ -16,14 +16,10 @@ export default function CardsPage() {
   const byCulture = cards.reduce((m, c) => { m[c.culture] = (m[c.culture] || 0) + 1; return m; }, {} as Record<string, number>);
   const mythics = cards.filter((c) => c.rarity === 'mythic').length;
 
-  // Relics owned by each entity (ADR-002) — built here so CardDeck stays a pure
-  // view over serializable data. Only artifacts whose `owner` is a real entity.
-  const cardIds = new Set(cards.map((c) => c.id));
+  // Relics linked to each deity (ADR-002 + Phase 11 reverse index) — built here
+  // so CardDeck stays a pure view over serializable data.
   const relics: DeckRelics = {};
-  for (const a of allArtifacts()) {
-    if (!a.owner || !cardIds.has(a.owner)) continue;
-    (relics[a.owner] ||= []).push({ slug: a.slug, name: a.name, category: a.category });
-  }
+  for (const c of cards) relics[c.id] = relicsForDeity(c.id);
 
   return (
     <div data-culture="egyptian">
@@ -36,10 +32,10 @@ export default function CardsPage() {
         tagline={`A trading-card reading of the entire Atlas — ${cards.length} deities across ${ALL_CULTURES.length} pantheons, each derived from its god's verified profile.`}
         imageSlot={resolveBannerSlot('page-cards')}
       >
-        <a href="#deck" className="btn">Browse the deck ↓</a>
-        <Link href="/how-to-play" className="btn">How to play</Link>
-        <Link href="/cards/print" className="btn">Open print sheet</Link>
-        <Link href="/artifacts" className="btn">The Vault</Link>
+        <a href="#deck" className="btn btn-primary">Browse the deck ↓</a>
+        <Link href="/how-to-play" className="btn btn-secondary">How to play</Link>
+        <Link href="/cards/print" className="btn btn-secondary">Open print sheet</Link>
+        <Link href="/artifacts" className="btn btn-secondary">The Vault</Link>
       </HeroBanner>
 
       <div className="container" style={{ paddingTop: 24 }}>

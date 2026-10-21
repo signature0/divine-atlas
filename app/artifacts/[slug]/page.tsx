@@ -39,6 +39,12 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
   const rels = artifactRelationships(a.id);
   const cultureLabel = CULTURE_NAMES[a.culture] || a.culture;
   const relic = relicCardFor(a.id);
+  const associatedGods = [...new Set([
+    ...(a.associated_deities || []),
+    ...(a.owner ? [a.owner] : []),
+  ])]
+    .map((id) => entityById(id))
+    .filter((e): e is NonNullable<typeof e> => Boolean(e));
 
   return (
     <div data-culture={a.culture}>
@@ -201,12 +207,25 @@ export default async function ArtifactPage({ params }: { params: Promise<{ slug:
             {/* Relic card callout (Phase 4) */}
             {relic && (
               <div className="rel-callout">
+                <h2 className="cd-h3 rel-callout-head">The relic card</h2>
                 <RelicCard card={relic} />
                 <p className="rel-callout-disc mono">
                   Card stats are interpretive, derived from the Atlas power profile.
                 </p>
                 {relic.image_credit && (
                   <p className="rel-callout-credit">{relic.image_credit}</p>
+                )}
+                {associatedGods.length > 0 && (
+                  <div className="rel-callout-gods">
+                    <h3 className="cd-h3">Gods of this relic</h3>
+                    <div className="cd-chips">
+                      {associatedGods.map((g) => (
+                        <Link key={g.id} href={`/cards?card=${encodeURIComponent(g.id)}`} className="chip chip-link">
+                          {g.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 )}
               </div>
             )}

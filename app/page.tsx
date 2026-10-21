@@ -97,10 +97,10 @@ export default function Home() {
             and {totalA} verified artworks, each claim carried by its sources.
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 22, flexWrap: 'wrap' }}>
-            <Link href="/culture/japanese" className="btn" style={{ borderColor: 'var(--accent)', color: 'var(--accent-text)' }}>
+            <Link href="/culture/japanese" className="btn btn-primary">
               Enter the Japanese gallery →
             </Link>
-            <Link href="/about" className="btn">How this is built</Link>
+            <Link href="/about" className="btn btn-secondary">How this is built</Link>
           </div>
         </div>
       </section>
@@ -182,7 +182,7 @@ export default function Home() {
             ))}
           </div>
           <div style={{ marginTop: 28 }}>
-            <Link href="/cards" className="btn" style={{ borderColor: 'var(--accent)', color: 'var(--accent-text)' }}>
+            <Link href="/cards" className="btn btn-primary">
               Browse the full deck →
             </Link>
           </div>

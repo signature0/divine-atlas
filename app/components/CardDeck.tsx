@@ -10,6 +10,7 @@ import { DeityCard } from './DeityCard';
 import { CardDetailOverlay } from './CardDetailOverlay';
 import { ELEMENT_LABELS, ELEMENT_COLORS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { CULTURE_NAMES, CULTURE_ACCENTS } from '../lib/types';
+import { cardTagSlugs, tagSlug } from '../lib/tag';
 
 const CULTURE_ORDER = ['japanese', 'greek', 'norse', 'egyptian', 'slavic', 'mesopotamian'];
 const ELEMENT_ORDER = ['void', 'light', 'storm', 'fire', 'water', 'earth', 'life', 'death', 'war', 'mind', 'sky'];
@@ -30,6 +31,13 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
   useEffect(() => {
     const c = new URLSearchParams(window.location.search).get('culture');
     if (c && CULTURE_ORDER.includes(c)) setCulture(c);
+  }, []);
+  // Shareable tag view: /cards?tag=thunder applies after hydration (the static
+  // export's prerendered HTML is the unfiltered deck, so there is no mismatch).
+  const [tag, setTag] = useState<string | null>(null);
+  useEffect(() => {
+    const t = new URLSearchParams(window.location.search).get('tag');
+    setTag(t ? tagSlug(t) : null);
   }, []);
   const [element, setElement] = useState<string>('all');
   const [rarity, setRarity] = useState<string>('all');
@@ -66,13 +74,46 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
       (culture === 'all' || c.culture === culture) &&
       (element === 'all' || c.element === element) &&
       (rarity === 'all' || c.rarity === rarity) &&
+      (!tag || cardTagSlugs(c).includes(tag)) &&
       (!ql || c.name.toLowerCase().includes(ql) || (c.native_name || '').toLowerCase().includes(ql) ||
         c.domains?.join?.(' ')?.toLowerCase?.().includes(ql))
     );
-  }, [cards, culture, element, rarity, debouncedQ]);
+  }, [cards, culture, element, rarity, tag, debouncedQ]);
 
   const visible = filtered.slice(0, limit);
-  const reset = () => { setCulture('all'); setElement('all'); setRarity('all'); setQ(''); setDebouncedQ(''); setLimit(36); };
+
+  // Result count + display label for the active tag view.
+  const tagCards = useMemo(
+    () => (tag ? cards.filter((c) => cardTagSlugs(c).includes(tag)) : []),
+    [cards, tag],
+  );
+  const tagLabel = useMemo(() => {
+    if (!tag) return '';
+    for (const c of tagCards) {
+      for (const value of [...c.domains, ...c.symbols, ...c.weapons, ...c.sacred_objects]) {
+        if (tagSlug(value) === tag) return value;
+      }
+    }
+    return tag.replace(/-/g, ' ');
+  }, [tag, tagCards]);
+  const tagAccent = useMemo(() => {
+    if (!tag) return 'var(--gold)';
+    const cultures = new Set(tagCards.map((c) => c.culture));
+    return cultures.size === 1 ? (CULTURE_ACCENTS[[...cultures][0]] || 'var(--gold)') : 'var(--gold)';
+  }, [tag, tagCards]);
+
+  const clearTag = useCallback(() => {
+    setTag(null);
+    setLimit(36);
+    const url = new URL(window.location.href);
+    url.searchParams.delete('tag');
+    window.history.replaceState({}, '', url);
+  }, []);
+
+  const reset = () => {
+    setCulture('all'); setElement('all'); setRarity('all'); setQ(''); setDebouncedQ(''); setLimit(36);
+    if (tag) clearTag();
+  };
 
   // ---- detail overlay + client-side URL state (?card=<id>) ----
   const [openId, setOpenId] = useState<string | null>(null);
@@ -85,8 +126,11 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
 
   useEffect(() => {
     const onPop = () => {
-      const id = new URLSearchParams(window.location.search).get('card');
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('card');
       setOpenId(id && cards.some((c) => c.id === id) ? id : null);
+      const t = params.get('tag');
+      setTag(t ? tagSlug(t) : null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -204,9 +248,28 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
         </div>
 
         <div className="deck-count mono" aria-live="polite">
-          {filtered.length} card{filtered.length === 1 ? '' : 's'} in view · {(culture === 'all' ? 'all pantheons' : CULTURE_NAMES[culture])}
+          {tag && (
+            <button
+              type="button"
+              className="chip-btn deck-tag-chip"
+              style={{ borderColor: tagAccent, color: tagAccent }}
+              onClick={clearTag}
+              aria-label={`Remove tag filter ${tagLabel}`}
+            >
+              {tagLabel} <span aria-hidden="true">×</span>
+            </button>
+          )}
+          {tag ? (
+            <span data-testid="tag-result-count" className="deck-tag-count">
+              {filtered.length} {filtered.length === 1 ? 'god' : 'gods'} · {tagLabel}
+            </span>
+          ) : (
+            <span>
+              {filtered.length} card{filtered.length === 1 ? '' : 's'} in view · {(culture === 'all' ? 'all pantheons' : CULTURE_NAMES[culture])}
+            </span>
+          )}
           {pending && <span className="deck-filtering">filtering…</span>}
-          {(q || element !== 'all' || rarity !== 'all') && <button className="deck-reset" onClick={reset}>reset ✕</button>}
+          {(q || element !== 'all' || rarity !== 'all' || tag) && <button className="deck-reset" onClick={reset}>reset ✕</button>}
         </div>
       </div>
 
@@ -279,11 +342,19 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
         </>
       )}
 
-      {!visible.length && <div className="deck-empty">No cards match — try clearing a filter.</div>}
+      {!visible.length && (
+        <div className="deck-empty">
+          {tag ? (
+            <>No gods tagged “{tagLabel}”. <button className="deck-reset" onClick={clearTag}>Clear tag ×</button></>
+          ) : (
+            'No cards match — try clearing a filter.'
+          )}
+        </div>
+      )}
 
       {filtered.length > limit && (
         <div className="deck-more">
-          <button className="btn" onClick={() => setLimit((l) => l + 36)}>Show {Math.min(36, filtered.length - limit)} more</button>
+          <button className="btn btn-secondary" onClick={() => setLimit((l) => l + 36)}>Show {Math.min(36, filtered.length - limit)} more</button>
         </div>
       )}
 
@@ -292,6 +363,7 @@ export function CardDeck({ cards, relics = {} }: { cards: ResolvedCard[]; relics
           card={openCardData}
           relics={relics[openCardData.id] || []}
           onClose={closeCard}
+          onTagClick={() => { openedFromUrl.current = false; setOpenId(null); }}
         />
       )}
     </div>

@@ -71,18 +71,20 @@ export const AnkhIcon = (p: IconProps) => (
   </Base>
 );
 
-// Slavic — six-petal rosette / fern flower (six ellipse petals at 60° steps)
+// Slavic — six-spoke Kolovrat-style thunder sign (PO 2026-10-21).
+// Each spoke runs from the inner ring (r≈2.2) to r=6, then bends ~60° out to
+// r≈8.5 at the tip. Deliberately distinct from the 8-point cuneiform star and
+// Thor's hammer; the bent spokes stay legible down to 16px.
 export const RosetteIcon = (p: IconProps) => (
   <Base {...p}>
-    <g>
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" />
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(60 12 12)" />
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(120 12 12)" />
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(180 12 12)" />
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(240 12 12)" />
-      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(300 12 12)" />
-    </g>
-    <circle cx="12" cy="12" r="1.15" />
+    {/* Slavic thunder sign (Kolovrat-style) per PO 2026-10-21 */}
+    <circle cx="12" cy="12" r="2.2" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" transform="rotate(60 12 12)" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" transform="rotate(120 12 12)" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" transform="rotate(180 12 12)" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" transform="rotate(240 12 12)" />
+    <path d="M12 9.8 L12 6 L19.36 7.75" transform="rotate(300 12 12)" />
   </Base>
 );
 

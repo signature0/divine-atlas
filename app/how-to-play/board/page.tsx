@@ -66,7 +66,7 @@ export default function BoardPage() {
   return (
     <div className="board-page card-print-page">
       <div className="container print-toolbar board-toolbar" style={{ position: 'sticky', top: 0, zIndex: 20, background: 'var(--bg-0)' }}>
-        <Link href="/how-to-play" className="btn" style={{ padding: '6px 12px' }}>← Rules</Link>
+        <Link href="/how-to-play" className="btn btn-secondary" style={{ padding: '6px 12px' }}>← Rules</Link>
         <div className="print-hint mono" style={{ color: 'var(--ink-2)', fontSize: '0.64rem' }}>
           One sheet · A3 (or A4/Letter scaled) · four seat zones — use only the seats you need
         </div>

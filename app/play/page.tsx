@@ -21,9 +21,9 @@ export default function PlayPage() {
         tagline="A 2–4 player hot-seat free-for-all, played on real Atlas data — same seed, same seats; a game is fully reproducible. Last pillar standing wins."
         imageSlot={resolveBannerSlot('page-play')}
       >
-        <Link href="/how-to-play" className="btn">How to play</Link>
-        <Link href="/how-to-play/board" className="btn">Printable board</Link>
-        <Link href="/cards" className="btn">The Deck</Link>
+        <Link href="/how-to-play" className="btn btn-primary">How to play</Link>
+        <Link href="/how-to-play/board" className="btn btn-secondary">Printable board</Link>
+        <Link href="/cards" className="btn btn-secondary">The Deck</Link>
       </HeroBanner>
 
       <section className="section-sm" style={{ paddingTop: 0 }}>

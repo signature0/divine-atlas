@@ -40,10 +40,10 @@ export default function HowToPlayPage() {
             own verified profile, and its rarity is interpretive.
           </p>
           <div className="rules-cta" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 26 }}>
-            <Link href="/play" className="btn">Play the duel ⚔</Link>
-            <Link href="/how-to-play/board" className="btn">Printable board</Link>
+            <Link href="/play" className="btn btn-primary">Play the duel ⚔</Link>
+            <Link href="/how-to-play/board" className="btn btn-secondary">Printable board</Link>
             <PrintButton label="Print rulebook" />
-            <Link href="/cards" className="btn">The Deck</Link>
+            <Link href="/cards" className="btn btn-secondary">The Deck</Link>
           </div>
         </div>
       </header>
@@ -358,8 +358,8 @@ export default function HowToPlayPage() {
       </section>
 
       <div className="container rules-footer">
-        <Link href="/play" className="btn">Play the duel ⚔</Link>
-        <Link href="/how-to-play/board" className="btn">Printable board</Link>
+        <Link href="/play" className="btn btn-primary">Play the duel ⚔</Link>
+        <Link href="/how-to-play/board" className="btn btn-secondary">Printable board</Link>
       </div>
     </div>
   );

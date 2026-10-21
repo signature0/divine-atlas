@@ -16,40 +16,12 @@
 // `showBack` — there is no flip affordance. `interactive={false}` suppresses the
 // inner print link so the face can be embedded inside an outer anchor (the
 // homepage teaser) without producing `<a>` inside `<a>` (hydration error #418).
-import { useEffect, useRef, useState } from 'react';
-import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
+import { ELEMENT_COLORS, ELEMENT_LABELS, RARITY_LABELS } from '../lib/card';
 import { ResolvedCard } from '../lib/data';
 import { CULTURE_ACCENTS, CULTURE_NAMES, CULTURE_TEXT_COLORS } from '../lib/types';
 import { cultureIcons } from './icons';
 import Link from 'next/link';
-
-// Letter-seal fallback for a missing/broken artwork — the same pattern
-// RelicCard's RelicArt uses. The generated art is deployed separately, so an
-// <img> can break: onError catches post-hydration failures, and the mount-time
-// check catches an image that already failed before hydration. Without this a
-// missing slot flashes the browser's broken-image icon.
-function DeityArt({ card }: { card: ResolvedCard }) {
-  const [broken, setBroken] = useState(false);
-  const imgRef = useRef<HTMLImageElement | null>(null);
-  useEffect(() => {
-    const img = imgRef.current;
-    if (img && img.complete && img.naturalWidth === 0) setBroken(true);
-  }, []);
-  if (card.image_url && !broken) {
-    return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        ref={imgRef}
-        src={card.image_url}
-        alt={card.name}
-        loading="lazy"
-        decoding="async"
-        onError={() => setBroken(true)}
-      />
-    );
-  }
-  return <div className="tc-art-fallback"><span>{card.name.slice(0, 2).toUpperCase()}</span></div>;
-}
+import { CardArt, CardFace, CardShell, CardStatRow } from './CardFrame';
 
 // A small geometric sigil per element — hand-drawn SVG, crisp at any size, prints clean.
 function Sigil({ el, color, size = 20 }: { el: string; color: string; size?: number }) {
@@ -82,7 +54,6 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
   interactive?: boolean;
 }) {
   const el = ELEMENT_COLORS[card.element];
-  const elText = ELEMENT_TEXT_COLORS[card.element];
   const cultureAccent = CULTURE_ACCENTS[card.culture] || '#c8a24a';
   const cultureText = CULTURE_TEXT_COLORS[card.culture] || cultureAccent;
   const isMythic = card.rarity === 'mythic';
@@ -90,7 +61,7 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
   const refs = card.source_refs.map((r) => `[${r}]`).join(' ');
 
   return (
-    <div className={`tc tc-${size} tc-el-${card.element}`} style={{ '--tc-el': el, '--tc-el-text': elText, '--tc-culture': cultureAccent } as React.CSSProperties}>
+    <CardShell size={size} element={card.element} accent={cultureAccent} variant={undefined}>
       {isMythic && <div className="tc-mythic-ring" aria-hidden="true" />}
 
       {showBack ? (
@@ -104,13 +75,15 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
           <div className="tc-back-code mono">{card.set_code}</div>
         </div>
       ) : (
-        <div className="tc-face">
+        <CardFace>
           {/* 1 · art — flexes into the remaining height of the fixed-ratio card.
               The generated-reconstruction credit lives in CardDetailOverlay, not on
               the art (v2 Phase 5 D3). */}
-          <div className="tc-art">
-            <DeityArt card={card} />
-          </div>
+          <CardArt
+            src={card.image_url}
+            alt={card.name}
+            fallback={card.name.slice(0, 2).toUpperCase()}
+          />
 
           {/* 2 · name + native name */}
           <div className="tc-header">
@@ -143,16 +116,7 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
           </div>
 
           {/* 5 · key stats — PWR / GRD only */}
-          <div className="tc-stats">
-            <div className="tc-stat">
-              <span className="tc-stat-label">PWR</span>
-              <span className="tc-stat-val">{card.stats.power}</span>
-            </div>
-            <div className="tc-stat tc-stat-right">
-              <span className="tc-stat-label">GRD</span>
-              <span className="tc-stat-val">{card.stats.guard}</span>
-            </div>
-          </div>
+          <CardStatRow power={card.stats.power} guard={card.stats.guard} />
 
           {/* 6 · tidy footer strip */}
           <div className="tc-footer">
@@ -164,8 +128,8 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
                 onClick={(e) => e.stopPropagation()}>print ↗</Link>
             )}
           </div>
-        </div>
+        </CardFace>
       )}
-    </div>
+    </CardShell>
   );
 }

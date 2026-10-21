@@ -336,8 +336,8 @@ export default async function DeityPage({ params }: { params: Promise<{ id: stri
         ) : null}
 
         <div style={{ marginTop: 64, paddingTop: 32, borderTop: '1px solid var(--line)', display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-          <Link href={`/culture/${d.culture}`} className="btn">← {d.meta.name}</Link>
-          <Link href="/" className="btn">All galleries</Link>
+          <Link href={`/culture/${d.culture}`} className="btn btn-secondary">← {d.meta.name}</Link>
+          <Link href="/" className="btn btn-secondary">All galleries</Link>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function CardPrintDeckPage() {
   return (
     <div data-culture="egyptian" className="card-print-page">
       <div className="container print-toolbar" style={{ position: 'sticky', top: 0, zIndex: 20, background: 'var(--bg-0)' }}>
-        <Link href="/cards" className="btn" style={{ padding: '6px 12px' }}>← The Deck</Link>
+        <Link href="/cards" className="btn btn-secondary" style={{ padding: '6px 12px' }}>← The Deck</Link>
         <div className="print-hint mono" style={{ color: 'var(--ink-2)', fontSize: '0.64rem' }}>
           {cards.length} cards · front faces · 3 per row · trim to TCG size
         </div>

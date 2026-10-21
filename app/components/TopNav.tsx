@@ -89,6 +89,7 @@ export function TopNav() {
   const section = sectionOf(pathname);
   const [open, setOpen] = useState<'religions' | 'more' | null>(null); // desktop dropdowns
   const [sheet, setSheet] = useState<'religions' | 'more' | null>(null); // mobile sheet
+  const [scrolled, setScrolled] = useState(false);
   const navRef = useRef<HTMLElement>(null);
   const religionsRef = useRef<HTMLButtonElement>(null);
   const moreRef = useRef<HTMLButtonElement>(null);
@@ -102,6 +103,25 @@ export function TopNav() {
     setOpen(null);
     setSheet(null);
   }, [pathname]);
+
+  // Glass bar gains a slightly more opaque background after 8px of scroll.
+  // Passive listener + one rAF per burst: no layout reads and no thrash.
+  useEffect(() => {
+    let raf = 0;
+    const onScroll = () => {
+      if (raf) return;
+      raf = window.requestAnimationFrame(() => {
+        raf = 0;
+        setScrolled(window.scrollY > 8);
+      });
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (raf) window.cancelAnimationFrame(raf);
+    };
+  }, []);
 
   // Desktop dropdown: Escape + outside click, focus returns to its trigger.
   useEffect(() => {
@@ -160,7 +180,7 @@ export function TopNav() {
 
   return (
     <>
-      <nav className="topnav" aria-label="Primary" ref={navRef}>
+      <nav className={`topnav${scrolled ? ' scrolled' : ''}`} aria-label="Primary" ref={navRef}>
         <div className="container inner">
           <Link href="/" className="brand" aria-label="The Divine Atlas — home">
             <BrandIcon className="brand-mark" />

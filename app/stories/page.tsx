@@ -50,7 +50,7 @@ export default function StoriesPage() {
 
       <div className="container" style={{ paddingBottom: 64 }}>
         <div style={{ paddingTop: 32, borderTop: '1px solid var(--line)' }}>
-          <a href="/" className="btn">← All galleries</a>
+          <a href="/" className="btn btn-secondary">← All galleries</a>
         </div>
       </div>
     </div>

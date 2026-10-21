@@ -809,8 +809,8 @@ function FullAtlasGraph({ data }: { data: GraphData }) {
               </div>
             )}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 14 }}>
-              <a className="btn" href={selected.href}>Open profile</a>
-              <button className="btn" onClick={() => router.push('/graph?from=' + selected.id)}>Center on this</button>
+              <a className="btn btn-primary" href={selected.href}>Open profile</a>
+              <button className="btn btn-secondary" onClick={() => router.push('/graph?from=' + selected.id)}>Center on this</button>
             </div>
           </aside>
         )}

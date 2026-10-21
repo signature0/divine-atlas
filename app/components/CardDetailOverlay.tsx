@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { ResolvedCard } from '../lib/data';
 import { ELEMENT_COLORS, ELEMENT_LABELS, ELEMENT_TEXT_COLORS, RARITY_LABELS } from '../lib/card';
 import { CULTURE_ACCENTS, CULTURE_NAMES } from '../lib/types';
+import { tagHref } from '../lib/tag';
 
 export type Relic = { slug: string; name: string; category: string };
 
@@ -66,10 +67,11 @@ function CdHeroArt({ card }: { card: ResolvedCard }) {
 
 const FOCUSABLE = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
-export function CardDetailOverlay({ card, relics, onClose }: {
+export function CardDetailOverlay({ card, relics, onClose, onTagClick }: {
   card: ResolvedCard;
   relics: Relic[];
   onClose: () => void;
+  onTagClick?: () => void;
 }) {
   const el = ELEMENT_COLORS[card.element];
   const elText = ELEMENT_TEXT_COLORS[card.element];
@@ -213,21 +215,21 @@ export function CardDetailOverlay({ card, relics, onClose }: {
           {card.domains.length > 0 && (
             <section className="cd-section">
               <h3 className="cd-h3">Domains</h3>
-              <div className="cd-chips">{card.domains.map((d) => <span key={d} className="chip">{d}</span>)}</div>
+              <div className="cd-chips">{card.domains.map((d) => <a key={d} href={tagHref(d)} className="chip chip-link" onClick={onTagClick}>{d}</a>)}</div>
             </section>
           )}
 
           {card.symbols.length > 0 && (
             <section className="cd-section">
               <h3 className="cd-h3">Symbols</h3>
-              <div className="cd-chips">{card.symbols.map((s) => <span key={s} className="chip">{s}</span>)}</div>
+              <div className="cd-chips">{card.symbols.map((s) => <a key={s} href={tagHref(s)} className="chip chip-link" onClick={onTagClick}>{s}</a>)}</div>
             </section>
           )}
 
           {weapons.length > 0 && (
             <section className="cd-section">
               <h3 className="cd-h3">Weapons &amp; sacred objects</h3>
-              <div className="cd-chips">{weapons.map((w) => <span key={w} className="chip">{w}</span>)}</div>
+              <div className="cd-chips">{weapons.map((w, i) => <a key={`${w}-${i}`} href={tagHref(w)} className="chip chip-link" onClick={onTagClick}>{w}</a>)}</div>
             </section>
           )}
 
@@ -278,9 +280,9 @@ export function CardDetailOverlay({ card, relics, onClose }: {
 
           {/* footer actions */}
           <div className="cd-actions">
-            <Link href={`/deity/${card.id}`} className="btn">Open profile</Link>
-            <Link href={`/cards/${card.id}`} className="btn">Print card</Link>
-            <button type="button" className="btn cd-close" onClick={onClose} aria-label="Close card details">Close ×</button>
+            <Link href={`/deity/${card.id}`} className="btn btn-primary">Open profile</Link>
+            <Link href={`/cards/${card.id}`} className="btn btn-secondary">Print card</Link>
+            <button type="button" className="btn btn-secondary cd-close" onClick={onClose} aria-label="Close card details">Close ×</button>
           </div>
 
           {/* image credit — moved off the card face (v2 Phase 5 D3). Honest:

@@ -25,7 +25,7 @@ export default async function CardPrintPage({ params }: { params: Promise<{ id: 
   return (
     <div data-culture={card.culture} className="card-print-page">
       <div className="container print-toolbar" style={{ position: 'sticky', top: 0, zIndex: 20, background: 'var(--bg-0)' }}>
-        <Link href="/cards" className="btn" style={{ padding: '6px 12px' }}>← The Deck</Link>
+        <Link href="/cards" className="btn btn-secondary" style={{ padding: '6px 12px' }}>← The Deck</Link>
         <div className="print-hint mono" style={{ color: 'var(--ink-2)', fontSize: '0.64rem' }}>
           TCG size · 63.5 × 88.9 mm · 3 mm bleed · 300 DPI · front + reverse
         </div>

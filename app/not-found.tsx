@@ -32,7 +32,7 @@ export default function NotFound() {
         and no scribe of the night keeps its record.
       </p>
       <div style={{ marginTop: 32 }}>
-        <Link href="/" className="btn">← Return to the galleries</Link>
+        <Link href="/" className="btn btn-primary">← Return to the galleries</Link>
       </div>
       <p className="mono faint" style={{ marginTop: 20 }}>Or search the codex — ⌘K</p>
     </div>

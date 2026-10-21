@@ -88,7 +88,7 @@ export default function About() {
             </div>
           </section>
           <div>
-            <Link href="/" className="btn">← Back to the galleries</Link>
+            <Link href="/" className="btn btn-secondary">← Back to the galleries</Link>
           </div>
         </div>
       </div>

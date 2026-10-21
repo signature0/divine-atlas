@@ -198,10 +198,10 @@ export default async function MythPage({ params }: { params: Promise<{ id: strin
                 }}
               >
                 <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-                  <Link className="btn" href={`/culture/${d.culture}`}>← {d.meta.name}</Link>
-                  {prev ? <Link className="btn" href={`/myths/${prev.id}`}>← {prev.title}</Link> : null}
+                  <Link className="btn btn-secondary" href={`/culture/${d.culture}`}>← {d.meta.name}</Link>
+                  {prev ? <Link className="btn btn-secondary" href={`/myths/${prev.id}`}>← {prev.title}</Link> : null}
+                  {next ? <Link className="btn btn-secondary" href={`/myths/${next.id}`}>{next.title} →</Link> : null}
                 </div>
-                {next ? <Link className="btn" href={`/myths/${next.id}`}>{next.title} →</Link> : null}
               </div>
             </div>
           </div>

@@ -261,8 +261,8 @@ export function DuelClient() {
         </div>
         {note && <p className="small mono duel-note" aria-live="polite">{note}</p>}
         <div className="duel-setup-actions">
-          <button type="button" className="btn" onClick={start}>Begin duel ⚔</button>
-          <Link href="/how-to-play" className="btn">Read the rules</Link>
+          <button type="button" className="btn btn-primary" onClick={start}>Begin duel ⚔</button>
+          <Link href="/how-to-play" className="btn btn-secondary">Read the rules</Link>
         </div>
       </div>
     );
@@ -462,9 +462,9 @@ export function DuelClient() {
         )}
 
         <div className="duel-controls">
-          <button type="button" className="btn" disabled={me.drawn || game.over} onClick={() => act({ type: 'draw', player: active })}>Draw 1</button>
-          <button type="button" className="btn" disabled={me.channeled || game.over} onClick={() => act({ type: 'channel', player: active })}>Channel +{gain}✦</button>
-          <button type="button" className="btn" disabled={game.over || !!pending} onClick={doEndTurn}>End turn →</button>
+          <button type="button" className="btn btn-secondary" disabled={me.drawn || game.over} onClick={() => act({ type: 'draw', player: active })}>Draw 1</button>
+          <button type="button" className="btn btn-secondary" disabled={me.channeled || game.over} onClick={() => act({ type: 'channel', player: active })}>Channel +{gain}✦</button>
+          <button type="button" className="btn btn-primary" disabled={game.over || !!pending} onClick={doEndTurn}>End turn →</button>
           {note && <span className="duel-note small mono" aria-live="polite">{note}</span>}
         </div>
       </div>
@@ -492,8 +492,8 @@ export function DuelClient() {
             {game.players.length > 2 ? 'Last pillar standing' : 'The opposing Cosmic Pillar shattered'} on turn {game.turn}.
           </p>
           <div className="duel-over-actions">
-            <button type="button" className="btn" onClick={() => { setGame(null); setSel(null); setPending(null); }}>New duel</button>
-            <Link href="/how-to-play" className="btn">Rules</Link>
+            <button type="button" className="btn btn-primary" onClick={() => { setGame(null); setSel(null); setPending(null); }}>New duel</button>
+            <Link href="/how-to-play" className="btn btn-secondary">Rules</Link>
           </div>
         </div>
       )}
@@ -501,7 +501,7 @@ export function DuelClient() {
       {pending && !game.over && (
         <div className="duel-pending" role="region" aria-label={`Seat ${pending.targetPlayer + 1} chooses an interceptor`}>
           <span className="mono small">Seat {pending.targetPlayer + 1}: tap one of your deities to block {nameOf(pending.attackerUid)}, or</span>
-          <button type="button" className="btn" onClick={() => act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', targetPlayer: pending.targetPlayer, interceptUid: null })}>
+          <button type="button" className="btn btn-primary" onClick={() => act({ type: 'strike', player: active, attackerUid: pending.attackerUid, targetKind: 'pillar', targetPlayer: pending.targetPlayer, interceptUid: null })}>
             Let the Pillar take it
           </button>
         </div>

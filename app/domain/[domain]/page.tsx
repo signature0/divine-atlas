@@ -41,7 +41,7 @@ export default async function DomainPage({ params }: { params: Promise<{ domain:
           {matches.map(({ e, art }) => <EntityCard key={e.id} entity={e} art={art} />)}
         </div>
         <div style={{ marginTop: 32 }}>
-          <Link href="/" className="btn">← All galleries</Link>
+          <Link href="/" className="btn btn-secondary">← All galleries</Link>
         </div>
       </div>
     </section>

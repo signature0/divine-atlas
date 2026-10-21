@@ -159,6 +159,32 @@ export function relicCardFor(id: string): RelicCard | undefined {
   return _relicById.get(id);
 }
 
+// ---- Relic ↔ deity reverse index (Phase 11, TASK-030) ----
+// Built once at build time from associated_deities (all 26 relics) plus the
+// owning entity, so the deity overlay can list every relevant artifact.
+export type RelicLink = { slug: string; name: string; category: string };
+let _relicsByDeity: Map<string, RelicLink[]> | null = null;
+export function relicsForDeity(id: string): RelicLink[] {
+  if (!_relicsByDeity) {
+    _relicsByDeity = new Map();
+    for (const a of allArtifacts()) {
+      const ids = new Set<string>([
+        ...(a.associated_deities || []),
+        ...(a.owner ? [a.owner] : []),
+      ]);
+      for (const deityId of ids) {
+        if (!deityId) continue;
+        const list = _relicsByDeity.get(deityId) || [];
+        if (!list.some((r) => r.slug === a.slug)) {
+          list.push({ slug: a.slug, name: a.name, category: a.category });
+        }
+        _relicsByDeity.set(deityId, list);
+      }
+    }
+  }
+  return _relicsByDeity.get(id) || [];
+}
+
 // ---- Deity cards (ADR-004) — a VIEW over Entity, never a new source of truth ----
 /** A family link resolved to display name + entity id (for /deity/<id> links). */
 export type FamilyRef = { id: string; name: string };

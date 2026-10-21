@@ -108,9 +108,9 @@ export default function PrintPage() {
         tagline="The whole Atlas, ready for the table: the full 184-card deck, a duelling mat, the rules booklet and reference sheets — generated from the same data the site ships."
         imageSlot={resolveBannerSlot('page-print')}
       >
-        <Link href="/how-to-play" className="btn">How to play</Link>
-        <Link href="/how-to-play/board" className="btn">Board (on-screen)</Link>
-        <Link href="/cards" className="btn">The Deck</Link>
+        <Link href="/how-to-play" className="btn btn-primary">How to play</Link>
+        <Link href="/how-to-play/board" className="btn btn-secondary">Board (on-screen)</Link>
+        <Link href="/cards" className="btn btn-secondary">The Deck</Link>
       </HeroBanner>
 
       <section className="section-sm">
@@ -130,7 +130,7 @@ export default function PrintPage() {
                 <header className="print-file-head">
                   <h3>{f.title}</h3>
                   {f.size ? (
-                    <a className="btn print-file-dl" href={`/print/${f.file}`} download>
+                    <a className="btn btn-secondary print-file-dl" href={`/print/${f.file}`} download>
                       Download ⤓
                     </a>
                   ) : (
