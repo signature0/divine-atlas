@@ -2,7 +2,7 @@
 id: TASK-024
 title: Relic cards: unify with god card design system (same layout/spacing/typography/frame, reuse god card component)
 type: STORY
-status: BACKLOG
+status: REVIEW
 priority: high
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Relic cards: unify with god card design system (same layout/spacing/typography/f
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — phase 11 shipped; orchestrator-verified gates + headless QA

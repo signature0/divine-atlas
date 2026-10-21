@@ -2,7 +2,7 @@
 id: TASK-028
 title: Slavic icon: replace rosette with Perun/Kolovrat thunder sign
 type: TASK
-status: BACKLOG
+status: REVIEW
 priority: medium
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Slavic icon: replace rosette with Perun/Kolovrat thunder sign
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — Kolovrat thunder sign shipped, vision-verified in dropdown

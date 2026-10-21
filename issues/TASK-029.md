@@ -2,7 +2,7 @@
 id: TASK-029
 title: Tag filtering: clickable domain/symbol chips -> ?tag= view with count, clear-x chip, shareable URL
 type: STORY
-status: BACKLOG
+status: REVIEW
 priority: high
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Tag filtering: clickable domain/symbol chips -> ?tag= view with count, clear-x c
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — ?tag= filtering shipped; thunder=4 gods verified cold-load

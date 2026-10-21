@@ -2,7 +2,7 @@
 id: TASK-027
 title: Apple glass UI: buttons (primary/secondary, hover/pressed/focus) + blurred sticky top nav + glass mobile menu
 type: STORY
-status: BACKLOG
+status: REVIEW
 priority: high
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Apple glass UI: buttons (primary/secondary, hover/pressed/focus) + blurred stick
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — glass buttons+nav shipped, verified

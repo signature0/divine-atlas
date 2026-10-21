@@ -2,7 +2,7 @@
 id: TASK-026
 title: Hero banners: full-screen section heroes, nav offset, left copy column 40-45% + gradient, scroll cue, mobile-safe
 type: STORY
-status: BACKLOG
+status: REVIEW
 priority: high
 owner: orchestrator
 severity: 
@@ -21,3 +21,6 @@ Hero banners: full-screen section heroes, nav offset, left copy column 40-45% + 
 
 ## Acceptance Criteria
 - [ ] (to be defined)
+
+
+status BACKLOG -> REVIEW (2026-10-21) — full-screen heroes shipped; hero stacking bug fixed by orchestrator
