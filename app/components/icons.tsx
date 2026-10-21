@@ -71,12 +71,18 @@ export const AnkhIcon = (p: IconProps) => (
   </Base>
 );
 
-// Slavic — six-petal rosette / fern flower
+// Slavic — six-petal rosette / fern flower (six ellipse petals at 60° steps)
 export const RosetteIcon = (p: IconProps) => (
   <Base {...p}>
-    <path d="M12 3.5 L19.5 16.5 H4.5 Z" />
-    <path d="M12 20.5 L4.5 7.5 H19.5 Z" />
-    <circle cx="12" cy="12" r="1.4" />
+    <g>
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" />
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(60 12 12)" />
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(120 12 12)" />
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(180 12 12)" />
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(240 12 12)" />
+      <ellipse cx="12" cy="7.1" rx="2.5" ry="4.9" transform="rotate(300 12 12)" />
+    </g>
+    <circle cx="12" cy="12" r="1.15" />
   </Base>
 );
 

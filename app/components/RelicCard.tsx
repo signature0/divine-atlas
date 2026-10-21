@@ -2,8 +2,8 @@
 // Presentational Relic card (Phase 4; hierarchy reworked v2 Phase 4).
 //
 // Deliberately a SIBLING of DeityCard (which is typed to ResolvedCard +
-// DeityCard internals) rather than a fork: it reuses the same 5:7 art-box
-// geometry (--tc-art-ratio), but paints a DISTINCT archival frame — vault accent
+// DeityCard internals) rather than a fork: it shares the same poker silhouette
+// (2.5:3.5, --tc-ratio), but paints a DISTINCT archival frame — vault accent
 // rules + corner rivets + a "RELIC" band instead of the deity rarity-pip
 // treatment. There is NO flip affordance (D1): the whole card is one link to the
 // artifact page, whose detail view carries the full story, abilities, provenance
@@ -75,9 +75,9 @@ function RelicFace({ card, size = 'md' }: {
           <span className="rc-band-rarity">{RARITY_LABELS[card.rarity]}</span>
         </div>
 
-        {/* art — same 5:7 art-box contract as deity cards. The image credit is
-            not painted on the art (v2 Phase 5 D3); it lives on the artifact
-            detail page (the relic's detail view). */}
+        {/* art — flexes into the remaining height of the fixed-ratio card, same
+            as deity tiles. The image credit is not painted on the art (v2
+            Phase 5 D3); it lives on the artifact detail page. */}
         <div className="rc-art">
           <RelicArt card={card} />
         </div>

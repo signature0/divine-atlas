@@ -24,14 +24,11 @@ Fix CSS in app/globals.css (and component classNames only where needed). No rede
 ## D3 — Slavic icon replacement
 app/components/icons.tsx `RosetteIcon` (used as the Slavic culture icon via cultureIcons.slavic) is currently TWO OVERLAPPING TRIANGLES — it reads as a hexagram/Star-of-David, which is wrong for Slavic. Replace its paths with a proper six-petal rosette (fern-flower motif): six ellipse-petals arranged around center (rotate each 60° via transform in the path data or <g transform>), plus a small center circle. Keep the component name RosetteIcon, keep IconProps/Base usage, keep stroke style consistent with sibling icons (viewBox 24, stroke-based). It must be visually distinct from CuneiformStarIcon (8-point star) at 16px. Verify it renders in TopNav, culture pages, HeroBanner backdrop (they all consume cultureIcons.slavic — no call-site changes needed unless a call-site hardcodes the old triangles).
 
-## D4 — Temporary hero banners (all 19 slots)
-HeroBanner falls back to a CSS backdrop because public/banners/ is empty. Create `scripts/make-temp-banners.py` (Pillow — already installed) that generates ALL slots as 2016×864 PNGs into public/banners/:
-- slots: page-greek, page-norse, page-egyptian, page-slavic, page-japanese, page-mesopotamian, page-cards, page-relics, page-play, page-graph, page-stories, page-compare, page-about, page-print, home-slide-cards, home-slide-relics, home-slide-game, home-slide-graph, home-slide-stories
-- style: intentional "art-directed placeholder", NOT flat color. Recipe: near-black base (#0b0e14), diagonal accent gradient using the section's palette (mirror BANNER_VARIANTS accents in app/components/HeroBanner.tsx), a large low-opacity geometric motif per culture (e.g. greek: meander band; norse: knotwork-ish interlace lines; egyptian: horizon disk + rays; slavic: six-petal rosettes tiled; japanese: overlapping arcs/seigaiha; mesopotamian: cuneiform-ish wedge grid; section pages: their glyph shapes), subtle film grain, strong vignette, and a thin bottom rule in the accent. Keep it abstract — NO text, NO faces (real art comes later; these are temporary but must look good).
-- Deterministic (fixed seed), idempotent, <2 MB per file, PNG.
-- After generation, `resolveBannerSlot()` picks them up at build time automatically — do not change banner-slot.ts.
+## D4 — Hero banners — **SUPERSEDED, DO NOT IMPLEMENT**
+This D-item is OBSOLETE: real AI-generated banners (25 slots, node2 Qwen-Image) already ship in `public/banners/` as PNG+WebP pairs (commit `2a19b7e`), picked up by the WebP-preferred resolver. Do NOT create `scripts/make-temp-banners.py`, do NOT generate any placeholder art, do NOT touch `public/banners/`. Gate 4 below is amended accordingly: just verify `ls public/banners/*.webp | wc -l` ≥ 25 and every referenced banner resolves in the built output.
 
 ## Gates (all must pass; run them, fix failures)
+0. Context: v3 card art (184 WebP in `public/cards/<culture>/`) and 25 real banners are ALREADY wired on disk — do NOT touch `public/cards/`, `public/banners/`, or `art-generated/`.
 1. `npx tsc --noEmit`
 2. `npm run build` (727 pages, export 2/2)
 3. `npm run validate`

@@ -6,8 +6,9 @@
 // it renders on both server and client — reused by the deck tile, the deck list,
 // the homepage teaser, the deity-profile print run, and the rulebook anatomy.
 //
-// Front-face hierarchy (phone-first, D2): art (dominant, 5:7) → name + native →
-// culture badge + type → one-line summary → PWR/GRD → tidy footer. Everything
+// Front-face hierarchy (phone-first, D2): art (flexes inside the fixed 2.5:3.5
+// card) → name + native → culture badge + type → one-line summary → PWR/GRD →
+// tidy footer. Everything
 // else (rarity, set code, source refs) is a small footer strip; the full story,
 // family, domains, symbols, relics and sources live in CardDetailOverlay.
 //
@@ -104,8 +105,8 @@ export function DeityCard({ card, showBack = false, size = 'md', asHeading = fal
         </div>
       ) : (
         <div className="tc-face">
-          {/* 1 · art — dominant, locked to the 5:7 art contract (D3). The
-              generated-reconstruction credit lives in CardDetailOverlay, not on
+          {/* 1 · art — flexes into the remaining height of the fixed-ratio card.
+              The generated-reconstruction credit lives in CardDetailOverlay, not on
               the art (v2 Phase 5 D3). */}
           <div className="tc-art">
             <DeityArt card={card} />
